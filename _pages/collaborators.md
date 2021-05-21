@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "Collaborators"
-permalink: /research/
+permalink: /collaborators/
 author_profile: true
 header:
-  og_image: "research/ecdf.png"
+  og_image: "collaborators/ecdf.png"
 ---
 
 - Jae Woo Lee (이재우), Department of Aerospace Engineering, Konkuk University, Seoul 05029, Korea
@@ -21,7 +21,7 @@ header:
 
 # {% include base_path %}
 
-# {% assign ordered_pages = site.research | sort:"order_number" %}
+# {% assign ordered_pages = site.collaborators | sort:"order_number" %}
 
 # {% for post in ordered_pages %}
 #  {% include archive-single.html type="grid" %}
