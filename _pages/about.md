@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Xin chào-Welcome-환영-Bonjour"
-excerpt: "Xin chào-Welcome-환영-Bonjour"
+excerpt: "Tuan Anh Nguyen Webpage"
 author_profile: true
 redirect_from: 
   - /about/
