@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  research:
+  collaborators:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -230,7 +230,7 @@ defaults:
   # _collaborators
   - scope:
       path: ""
-      type: research
+      type: collaborators
     values:
       layout: single
       author_profile: true
