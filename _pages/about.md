@@ -17,11 +17,9 @@ redirect_from:
 
 - His Ph.D. was in Computer Science and System Engineering with Embedded Systems and Network Security Laboratory (NS Lab.), Department of Computer Engineering, Korea Aerospace University under his advisers Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703). (computer science academic [tree](https://academictree.org/computerscience/tree.php?pid=679394) )
 
-<p style='text-align: justify;'> 
+- <p style='text-align: justify;'>  His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. </p>
 
-- His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics.
 
-</p>
 
 - His M.Sc and B.Eng were in Mechatronics with Prof. [Dinh Van Phong](https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html) in Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
 
