@@ -24,5 +24,5 @@ redirect_from:
 - His hometown is in [Hanoi, Vietnam](https://www.google.co.kr/maps/place/Hanoi,+Ho%C3%A0n+Ki%E1%BA%BFm,+Hanoi,+Vietnam/@20.0953225,105.7067677,8z/data=!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.0277644!4d105.8341598)
 ​
 - Address: 
-  * 서울특별시 광진구 능동로 120 (건국대학교 서울 캠퍼스) (신공학관 1207호 | 중장비실험동 204호)
-  * (05029) 120 Neungdong-ro, Gwangjin-gu, Seoul, KOREA (Konkuk University, Seoul Campus) (New Engineering Building, Room #1207) or (Heavy Experimental Lab.'s Building, Room #204)
+  * 서울특별시 광진구 능동로 120 (건국대학교 서울 캠퍼스) | (신공학관 1207호 or 중장비실험동 204호)
+  * (05029) 120 Neungdong-ro, Gwangjin-gu, Seoul, KOREA (Konkuk University, Seoul Campus) | (New Engineering Building, Room #1207) or (Heavy Experimental Lab.'s Building, Room #204)
