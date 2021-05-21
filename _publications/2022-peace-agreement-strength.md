@@ -1,8 +1,8 @@
 ---
-title: "A Latent Variable Approach to Measuring and Explaining Peace Agreement Strength"
+title: "2023 A Latent Variable Approach to Measuring and Explaining Peace Agreement Strength"
 collection: publications
 permalink: /publication/forthcoming-peace-agreement-strength
-date: 2021-01-27
+date: 2023-01-27
 venue: 'Political Science Research and Methods'
 paperurl: '/files/pdf/research/Agreement Strength Accepted.pdf'
 link: 'https://doi.org/10.1017/psrm.2019.23'
