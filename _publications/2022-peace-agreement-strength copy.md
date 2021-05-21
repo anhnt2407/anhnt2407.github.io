@@ -1,5 +1,5 @@
 ---
-title: "A Latent Variable Approach to Measuring and Explaining Peace Agreement Strength"
+title: "2022 A Latent Variable Approach to Measuring and Explaining Peace Agreement Strength"
 collection: publications
 permalink: /publication/forthcoming-peace-agreement-strength
 date: 2022-01-27
