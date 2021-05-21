@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-- Tuan Anh Nguyen is now working for Konkuk Aerospace Design-Airworthiness Research Institute (KADA) (총장지정KU연구소, 항공우주설계인증연구소) with Prof. Jae Woo Lee and Prof. Dugki Min at Konkuk University, Seoul, South Korea since Jul. 2020 as a Research Assistant Professor (힉술연구 조교수).
+- Tuan Anh Nguyen is now working for Konkuk Aerospace Design-Airworthiness Research Institute (KADA) (총장지정KU연구소, 항공우주설계인증연구소) with Prof. [Jae Woo Lee](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof. Dugki Min at Konkuk University, Seoul, South Korea since Jul. 2020 as a Research Assistant Professor (힉술연구 조교수).
 
 - Previously, he worked for Office of Research, University-Industry Cooperation Foundation (건국대학교 산학협력단) in Distributed Multimedia Systems Laboratory (DMS Lab) with Prof. Dugki Min, Konkuk University since Mar. 2016-Feb.2020 as a Research Assistant Professor (연구 조교수).
 
