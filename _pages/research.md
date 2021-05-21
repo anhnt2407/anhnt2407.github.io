@@ -1,22 +1,28 @@
 ---
 layout: archive
-title: "Research"
+title: "Collaborators"
 permalink: /research/
 author_profile: true
 header:
   og_image: "research/ecdf.png"
 ---
 
-My research falls into two main areas: understanding patterns of rebel behavior before, during, and after civil conflict, and developing new tools to improve the study of peace and conflict. One strand of research explores how the territories that ethnic groups inhabit shape rebel group formation and condition their relationship with the state. This interest in rebel behavior also informs projects on the evolution of government repression and rebel killings of civilians over the course of a conflict.
+- Jae Woo Lee (이재우), Department of Aerospace Engineering, Konkuk University, Seoul 05029, Korea
+- Dugki Min (민덕기) (*), Distributed Multimedia Systems ​Laboratory  (DMS Lab.), Konkuk University, Seoul, South Korea
+- Jong Sou Park (박종서), Network Security and Embedded Systems Laboratory ​ (NS Lab.), Korea Aerospace University (KAU), Seoul, South Korea
+- Dong Seong Kim (김동성), Dependability and Security Laboratory (DS Lab.), University of Queensland, Australia
+- Kishor S. Trivedi, Duke High Availability Assurance Laboratory (DHAAL), Duke University, USA
+- Fumio Machida, Laboratory for System Dependability, University of Tsukuba, Japan
+- Manish Pokharel, Department of Computer Science and Engineering, Karthmandu University
+- Dinh Van Phong, Department of Applied Mechanics, Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
+- Francisco Airton Silva, Department of Computer Engineering, Federal University of Piauí (campus Picos), Teresina, Piauí, Brazil
 
-My other main research agenda uses advanced methods to allow us to ask new questions in the study of peace and conflict. One project uses Bayesian item response theory to measure the strength of peace agreements as a latent variable and free researchers from post-treatment bias caused by using the duration of agreements as a proxy for their strength. In another project, I use visual imagery contained in Salafi jihadist propaganda videos to detect similiarties in videos produced by different groups, allowing researchers to estimate collaboration networks within a broader clandestine movement. Other work uses over two billion observations of international trade data to develop new measures of economic interdependence and methods to detect disruptions of regular economic exchange between states.
+# <nbsp>
 
-<nbsp>
+# {% include base_path %}
 
-{% include base_path %}
+# {% assign ordered_pages = site.research | sort:"order_number" %}
 
-{% assign ordered_pages = site.research | sort:"order_number" %}
-
-{% for post in ordered_pages %}
-  {% include archive-single.html type="grid" %}
-{% endfor %}
+# {% for post in ordered_pages %}
+#  {% include archive-single.html type="grid" %}
+# {% endfor %}
