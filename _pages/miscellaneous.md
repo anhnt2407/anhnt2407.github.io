@@ -1,0 +1,40 @@
+---
+permalink: /miscellaneous/
+title: "Misc."
+---
+
+- Nước Việt Nam là một!
+- A Conversation With Quoc Le: The AI Expert Behind Google AutoML
+- An algorithm that learns through rewards may show how our brain does too
+- The Secrets of Jewish Genius
+- American Lucifers: The Dark History of Artificial Light, 1750-1865
+- China: How science made a superpower
+- Người Việt ở Nhật ‘dậy sóng’ với tâm thư của người Nhật gửi Việt Nam
+- Giáo sư Trương Nguyện Thành: Ly hương đối diện nước Mỹ và trở về quê hương
+- Prof. Brian Greene's perspective on science, religion, Hawking, and Trump
+- Scientists must rise above politics — and restate their value to society
+- Làm ăn kiểu Cụ Hồ
+- Vietnam is the most globalized populous country in modern history
+- Human evolution is still happening – possibly faster than ever
+- Untold History of AI: Why Alan Turing Wanted AI Agents to Make Mistakes
+- Yaron Brook's talk with students of Exeter University, UK: Epic Answer on Chinese "Sweatshops"
+- The story of Vietnam's economic miracle
+- Einstein and Tagore explore truth and science
+- Not enough people are paying attention to this economic trend
+- The Cost of a Cup of Coffee in Caracas Just Hit 2,000,000 Bolivars
+- Facebook keens on AI-Robotics
+- How the father of computer science decoded Nature's mysterious patterns
+- Why the productivity gap?
+- Why the Germans are obsessed with saving money
+- Venezuela was once South America’s richest country. Here's what went wrong
+- Transitioning entirely to neural machine translation
+- ​Harvard Commencement 2017
+- Dear Class of 2017
+- Why Germans Work Fewer Hours But Produce More: A Study In Culture
+- Làm ăn với Mỹ: nhìn từ bài học của Hàn Quốc và Philippines
+- Hey Silicon Valley: President Obama Has a To-Do List for You
+- Barrack Obama, Neural Nets, Self-driving Cars, and the Future of the World
+- It’s not ‘corporate poaching’ – it’s a free market for brilliant people
+- Google’s AI translation tool seems to have invented its own secret internal language .
+- Computer Science University Ranking
+- Computer Science Conference Ranking
