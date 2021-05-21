@@ -3,7 +3,7 @@ permalink: /miscellaneous/
 title: "Misc."
 ---
 
-1. Nước Việt Nam là một![.](https://www.facebook.com/nguyen.nam.54/posts/10216502640347136)
+1. Nước Việt Nam là một! [.](https://www.facebook.com/nguyen.nam.54/posts/10216502640347136)
 1. A Conversation With Quoc Le: The AI Expert Behind Google AutoML [.](https://medium.com/syncedreview/a-conversation-with-quoc-le-the-ai-expert-behind-google-automl-73a7d0c9fe38)
 1. An algorithm that learns through rewards may show how our brain does too [.](https://www.technologyreview.com/s/615054/deepmind-ai-reiforcement-learning-reveals-dopamine-neurons-in-brain/)
 1. The Secrets of Jewish Genius [.](https://www.nytimes.com/2019/12/27/opinion/jewish-culture-genius-iq.html?auth=link-dismiss-google1tap)[..](https://vnexpress.net/the-gioi/bi-mat-cua-nhung-thien-tai-do-thai-4034280.html
