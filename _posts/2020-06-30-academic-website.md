@@ -283,10 +283,10 @@ index 1dc605c..4affb4e 100644
  # Site Settings
  locale                   : "en-US"
 -title                    : "Your Name / Site Title"
-+title                    : "Rob Williams"
++title                    : "Tuan Anh Nguyen (투안안)"
  title_separator          : "-"
 -name                     : &name "Your Name"
-+name                     : &name "Rob Williams"
++name                     : &name "Tuan Anh Nguyen (투안안)"
  description              : &description "personal description"
 -url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 +url                      : https://jayrobwilliams.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"

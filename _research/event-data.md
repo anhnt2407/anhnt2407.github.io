@@ -12,7 +12,7 @@ In this set of projects, I leverage geospatial event data to explore the microle
 
 ## Article
 
-Christian Oswald, Melanie Sauter, Sigrid Weber, and Rob Williams. "Under the Roof of Rebels: Civilian Targeting After Territorial Takeover in Sierra Leone." *International Studies Quarterly*.
+Christian Oswald, Melanie Sauter, Sigrid Weber, and Tuan Anh Nguyen (투안안). "Under the Roof of Rebels: Civilian Targeting After Territorial Takeover in Sierra Leone." *International Studies Quarterly*.
 
 > Do rebels target civilians as part of the process of establishing control in their territories? This research note shows that transition periods after rebels gain territorial control are remarkably violent for civilians. Speaking to the civilian victimization and rebel governance literature, we investigate the immediate time period after rebels successfully capture and hold territory. We argue that rebels use violence to gain compliance in newly captured territories until they are able to build up local capacities and institutions for peaceful governance. To test this argument, we draw on methodological advances in integrating event data and combine multiple datasets to study patterns of violence perpetrated by the Revolutionary United Front in Sierra Leone from 1997-2001. The findings of our spatiotemporal analysis show that civilian targeting increases in the period after rebels capture territory from the government compared to areas without territorial takeover, suggesting that life under the roof of rebels is initially more dangerous for civilians.
 
@@ -20,13 +20,13 @@ Christian Oswald, Melanie Sauter, Sigrid Weber, and Rob Williams. "Under the Roo
 
 ## Working papers
 
-Patrick Hunnicutt, William G. Nomikos, and Rob Williams. "Non-Combatants or Counter-Insurgents? The Strategic Logic of Violence against UN Peacekeeping." Presented at the Annual Conference of the American Political Science Association, San Francisco, CA, September, 2020.
+Patrick Hunnicutt, William G. Nomikos, and Tuan Anh Nguyen (투안안). "Non-Combatants or Counter-Insurgents? The Strategic Logic of Violence against UN Peacekeeping." Presented at the Annual Conference of the American Political Science Association, San Francisco, CA, September, 2020.
 
 > Despite the wealth of academic research on United Nations (UN) peacekeeping operations, we know remarkably little about the causes of violence against peacekeepers. The dramatic increase in peacekeeper casualties over the past decade make this omission particularly problematic. This article demonstrates that violence against peacekeepers stems from strategic motivations. Peacekeepers in multidimensional PKOs serve as substitute providers of governance and security, working to bolster perceived state capacity and legitimacy in areas where the government cannot send its own forces. Insurgents target peacekeepers in expectation of a PKO unit’s capacity to win over the support of local civilians. We argue that insurgents rely on three primary heuristics to predict the downstream efficacy of peacekeeping forces: personnel composition, peacekeeper nationality, and local levels of insurgent control. We test our theory using an original dataset of geocoded UN multidimensional peacekeeping deployments peacekeeping deployments. Using primary documents sourced directly from the UN covering 10 multidimensional peacekeeping operations from 1999-2018, we present comprehensive time-series data on UN peacekeeper deployment location. We ﬁnd preliminary evidence that peacekeepers are targeted because of their cultural similarity with noncombatants and, in some cases, because they patrol areas where insurgents have political control.
 
 [Working Paper](/files/pdf/research/PKO Targeting.pdf){: .btn--research}
 
-Navin Bapat, Daniel Gustafson, and Rob Williams. "Terrorism, Stealth Aggression, and Political Opportunism." Presented at the Annual Meeting of the Peace Science Society (International), South Bend, IN, November, 2016.
+Navin Bapat, Daniel Gustafson, and Tuan Anh Nguyen (투안안). "Terrorism, Stealth Aggression, and Political Opportunism." Presented at the Annual Meeting of the Peace Science Society (International), South Bend, IN, November, 2016.
 
 > Why do governments respond to terrorist attacks with repression, given that terrorism typically produces insignificant damage, and repression often increases popular support for terrorists? This study argues that governments use repression in response to terrorist attacks for both strategic and opportunistic reasons. Strategically, attacks may signal that terrorists are destabilizing the government’s control of its territory. Since state power is endogenous to the territory it controls, these losses may precipitously weaken the government and make it vulnerable to internal and external challengers. Governments therefore turn to violence in an effort to maintain territories that are critical to maintaining power. On the other hand, the specter of destabilization allows opportunistic leaders in quasi-democratic regimes to repress political adversaries and retain office indefinitely in the name of fighting terrorism. We find support for these hypotheses using data on African, Asian, and Middle Eastern states from 1992-2010.
 
@@ -34,7 +34,7 @@ Navin Bapat, Daniel Gustafson, and Rob Williams. "Terrorism, Stealth Aggression,
 
 ## Manuscript in preparation
 
-William G. Nomikos and Rob Williams. "The Effects of UN Peacekeeping on Civilian Victimization: Evaluating Microlevel Evidence."
+William G. Nomikos and Tuan Anh Nguyen (투안안). "The Effects of UN Peacekeeping on Civilian Victimization: Evaluating Microlevel Evidence."
 
 > Peacekeeping operations are among the most visible and impactful of United Nations activities. These missions have proven effective at protecting civilians in both active conflicts and post-conflict societies. However, recent research suggests that United Nations peacekeepers do not protect civilians equally from all types of violence. Peacekeepers require the consent of the government to gain access to specific areas of the state's territory, and so must balance their need for access with their duty to protect civilians from state-perpetrated violence. We employ microlevel data to explore where different types of peacekeeping personnel are deployed within conflicts and how these decisions affect the overall effectiveness of United Nations efforts to protect civilians.
 

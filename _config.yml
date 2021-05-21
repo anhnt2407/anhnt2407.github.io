@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Rob Williams"
+title                    : "Tuan Anh Nguyen (투안안)"
 title_separator          : "-"
-name                     : &name "Rob Williams"
+name                     : &name "Tuan Anh Nguyen (투안안)"
 description              : &description "Postdoc in Political Science"
 url                      : https://jayrobwilliams.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -82,7 +82,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Rob Williams"
+  name             : "Tuan Anh Nguyen (투안안)"
   avatar           : "profile.png"
   bio              : "Postdoctoral Research Fellow"
   location         : "St. Louis, MO"
