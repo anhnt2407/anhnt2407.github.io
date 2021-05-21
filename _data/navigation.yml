@@ -3,17 +3,8 @@ main:
   - title: "Publications"
     url: /publications/
     
-  - title: "Research"
+  - title: "Collaborators"
     url: /research/
 
-  - title: "Teaching"
+  - title: "Misc."
     url: /teaching/
-
-  - title: "Software"
-    url: /software/
-
-  - title: "Posts"
-    url: /posts/
-    
-  - title: "CV"
-    url: /cv/
