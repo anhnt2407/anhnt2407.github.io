@@ -33,8 +33,6 @@ __Last Update: May. 18, 2021__
 
 1. T. A. Nguyen, D. S. Kim, and J. S. Park, “A Comprehensive Availability Modeling and Analysis of a Virtualized Servers System Using Stochastic Reward Nets,” Sci. World J., vol. 2014, pp. 1–18, 2014, DOI: 10.1155/2014/165316, (SCIE In 2014, JCR.Q3.Eng, IF2014 = 1.73)
 
-[1] T. A. Nguyen, D. S. Kim, and J. S. Park, “A Comprehensive Availability Modeling and Analysis of a Virtualized Servers System Using Stochastic Reward Nets,” Sci. World J., vol. 2014, pp. 1–18, 2014, doi: 10.1155/2014/165316.
-
 # Book chapter:
 
 2. T. A. Nguyen, D. Min, and E. Choi, “Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems,” in Dependability Engineering, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: 10.5772/intechopen.74306
