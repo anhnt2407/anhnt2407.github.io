@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tuan Anh Nguyen (투안안)"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Tuan Anh Nguyen (투안안)"
 description              : &description "Postdoc in Political Science"
