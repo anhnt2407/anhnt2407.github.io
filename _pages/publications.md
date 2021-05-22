@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-__Last Update: May. 18, 2021__
+*Last Update: May. 18, 2021*
 
 # Peer-reviewed Journals:
 
