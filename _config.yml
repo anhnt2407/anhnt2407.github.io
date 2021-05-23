@@ -58,9 +58,9 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : anhnt2407
-facebook:
-  username               :
-  app_id                 :
+facebook: 
+  username               : anhnt2407
+  app_id                 : anhnt2407
   publisher              :
 og_image                 : profile.png # Open Graph/Twitter default site image
 # For specifying social profiles
