@@ -9,7 +9,7 @@ author_profile: true
 
 # Peer-reviewed Journals:
 
-1. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, 3/156, IF2019=9.936)** </span>
+1. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936)** </span>
 
 1. Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; **Nguyen, T.A.**; Min, D.; Lee, J.-W.; Silva, F.A. *Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System*. **Appl. Sci.** 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) **(SCIE, JCR.Q2.CS.IS, 32/91, IF2019=2.474)**
 
@@ -27,7 +27,7 @@ author_profile: true
 
 1. **T. A. Nguyen**, D. Min, and E. Choi, “*A comprehensive evaluation of availability and operational cost for a virtualized server system using stochastic reward nets*,” **J. Supercomput.**, pp. 1–55, Aug. 2017, DOI: [10.1007/s11227-017-2127-2](https://link.springer.com/article/10.1007/s11227-017-2127-2), **(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2016=1.326, IF2018=2.157)**
 
-1. **T. A. Nguyen**, D. S. Kim, and J. S. Park, “*Availability modeling and analysis of a data center for disaster tolerance*,” **Futur. Gener. Comput. Syst.**, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> **(SCI/SCIE, JCR.Q1.CS.Theory&Methods, 7/104, IF2016 = 3.997, IF2018 = 5.768)** </span>
+1. **T. A. Nguyen**, D. S. Kim, and J. S. Park, “*Availability modeling and analysis of a data center for disaster tolerance*,” **Futur. Gener. Comput. Syst.**, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> **(SCI/SCIE, JCR.Q1.CS.Theory&Methods, Ranking 7/104, IF2016 = 3.997, IF2018 = 5.768)** </span>
 
 1. **T. A. Nguyen**, D. Min, and J. S. Park, “*A Comprehensive Sensitivity Analysis of a Data Center Network with Server Virtualization for Business Continuity*,” **Math. Probl. Eng.**, vol. 2015, pp. 1–20, 2015, DOI: [10.1155/2015/521289](http://dx.doi.org/10.1155/2015/521289), **(SCIE, JCR.Q3.Eng, 59/85, IF2015 = 0.76, IF2018 = 1.179)**
 
