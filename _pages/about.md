@@ -19,8 +19,6 @@ redirect_from:
 
 -   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
 
-
-
 - His M.Sc and B.Eng were in Mechatronics with Prof. [Dinh Van Phong](https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html) in Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
 
 - His hometown is in [Hanoi, Vietnam](https://www.google.co.kr/maps/place/Hanoi,+Ho%C3%A0n+Ki%E1%BA%BFm,+Hanoi,+Vietnam/@20.0953225,105.7067677,8z/data=!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.0277644!4d105.8341598)
