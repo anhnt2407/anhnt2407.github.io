@@ -11,9 +11,9 @@ author_profile: true
 
 1. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936)** </span>
 
-1. Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; **Nguyen, T.A.**; Min, D.; Lee, J.-W.; Silva, F.A. *Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System*. **Appl. Sci.**, April 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) **(SCIE, JCR.Q2.CS.IS, 32/91, IF2019=2.474)**
+1. Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; **Nguyen, T.A.**; Min, D.; Lee, J.-W.; Silva, F.A. *Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System*. **Appl. Sci.**, April 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
 
-1. A. A. Maw, M. Tyan, **T. A. Nguyen**, and J.-W. Lee, “*iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV*,” **Appl. Sci.**, vol. 11, no. 9, 2021, doi: [10.3390/app11093948](https://doi.org/10.3390/app11093948). **(SCIE, JCR.Q2.CS.IS, 32/91, IF2019=2.474)**
+1. A. A. Maw, M. Tyan, **T. A. Nguyen**, and J.-W. Lee, “*iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV*,” **Appl. Sci.**, vol. 11, no. 9, 2021, doi: [10.3390/app11093948](https://doi.org/10.3390/app11093948). **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
 
 1. F. A. Silva, **T. A. Nguyen**, I. Fe, C. Brito, D. Min, and J.-W. Lee, “*Performance Evaluation of an Internet of Healthcare Things for Medical Monitoring Using M/M/c/K Queuing Models*,” **IEEE Access**, vol. 9, pp. 55271–55283, April 2021, doi: [10.1109/ACCESS.2021.3071508](https://ieeexplore.ieee.org/document/9398691/). **(SCIE, JCR.Q1.CS.IS, 35/156, IF2019=3.745)**
 
