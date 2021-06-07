@@ -33,7 +33,7 @@ Professor Dong Seong Kim's postdoc advisor was Kishor S. Trivedi (UIUC, 1974) wh
 ## **Contact**
 - His hometown is in [Hanoi, Vietnam](https://www.google.co.kr/maps/place/Hanoi,+Ho%C3%A0n+Ki%E1%BA%BFm,+Hanoi,+Vietnam/@20.0953225,105.7067677,8z/data=!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.0277644!4d105.8341598)
 
-- Contact: anhnt2407 at konkuk.ac.kr​
+- E-mail: anhnt2407 at konkuk.ac.kr​
 
 - Address: 
   * 서울특별시 광진구 능동로 120 (건국대학교 서울 캠퍼스) (신공학관 1207호 or 중장비실험동 204호)
