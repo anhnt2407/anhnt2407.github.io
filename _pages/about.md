@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-
+## **Experieneces**
 -  Tuan Anh Nguyen is now working for Konkuk Aerospace Design-Airworthiness Research Institute (KADA) (총장지정KU연구소, 항공우주설계인증연구소) with Prof.[Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea since Jul. 2020 as a Research Assistant Professor (힉술연구 조교수). 
 
 -  Previously, he worked for Office of Research, University-Industry Cooperation Foundation (건국대학교 산학협력단) in Distributed Multimedia Systems Laboratory (DMS Lab) with Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/), Konkuk University since Mar. 2016-Feb.2020 as a Research Assistant Professor (연구 조교수). 
@@ -17,12 +17,20 @@ redirect_from:
   
 -  He worked as a research engineer in TRON laboratory, FPT software, FPT cooperation, and F-Space laboratory, FPT technology research institute (FTRI), FPT University, FPT cooperation, Hanoi, Vietnam, in 2008 and during 2009-2010, respectively.
 
+## **Education**
 -  His Ph.D. was in Computer Science and System Engineering with Embedded Systems and Network Security Laboratory (NS Lab.), Department of Computer Engineering, Korea Aerospace University under his advisers Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703). (computer science academic [tree](https://academictree.org/computerscience/tree.php?pid=679394) )
 
+- - His M.Sc and B.Eng were in Mechatronics with Prof. [Dinh Van Phong](https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html) in Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
+
+## **Academic Genealogy** 
+
+- (refer to Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703)) My Ph.D. dissertation advisors were Professor Jong Sou Park (Pennsylvania State University, 1994) and Professor [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703) (which was his accendent); his one was Paul Thomas Hulina (Pennsylvania State University, 1969); then it runs back through Jon G. Bredeson (Northwestern University, 1967), Seifollah Louis Hakimi (University of Illinois at Urbana-Champaign (UIUC), 1959), Mac Van Valkenburg (Stanford University, 1952), Oswald Garrison Villard, Jr. (Stanford University,1949), Frederick Emmons Terman (Massachusetts Institute of Technology (MIT), 1924, Sc.D.) and Vannevar Bush (MIT, 1916) to Arthur Edwin Kennelly (self-taught) (who was working in Thomas Edison's West Orange Laboratory from December 1887 to March 1894) and Duglad C. Jacson.
+Professor Dong Seong Kim's postdoc advisor was Kishor S. Trivedi (UIUC, 1974) who is the Hudson Distinguished Professor of Electrical and Computer Engineering at Duke University, USA. Please visit the academic tree from Duglad C. Jackson to all the way up to the ancestors at: academic tree (link).
+
+## **Research Interests**
 -   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
 
-- His M.Sc and B.Eng were in Mechatronics with Prof. [Dinh Van Phong](https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html) in Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
-
+## **Contact**
 - His hometown is in [Hanoi, Vietnam](https://www.google.co.kr/maps/place/Hanoi,+Ho%C3%A0n+Ki%E1%BA%BFm,+Hanoi,+Vietnam/@20.0953225,105.7067677,8z/data=!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.0277644!4d105.8341598)
 
 - Contact: anhnt2407 at konkuk.ac.kr​
