@@ -18,7 +18,7 @@ redirect_from:
 - He worked as a research engineer in TRON laboratory, FPT software, FPT cooperation, and F-Space laboratory, FPT technology research institute (FTRI), FPT University, FPT cooperation, Hanoi, Vietnam, in 2008 and during 2009-2010, respectively.
 
 ## **Education**
-- His Ph.D. (2001-2015) was in Computer Science and System Engineering with Embedded Systems and Network Security Laboratory (NS Lab.), Department of Computer Engineering, Korea Aerospace University under his advisers Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703). 
+- His Ph.D. (2011-2015) was in Computer Science and System Engineering with Embedded Systems and Network Security Laboratory (NS Lab.), Department of Computer Engineering, Korea Aerospace University under his advisers Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703). 
 
 - His M.Sc (2008-2010) and B.Eng (2003-2008) were in Mechatronics with Prof. [Dinh Van Phong](https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html) in Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
 
