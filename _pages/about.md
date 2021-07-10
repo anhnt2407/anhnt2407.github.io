@@ -20,7 +20,7 @@ redirect_from:
 ## **Education**
 - His Ph.D. (2011-2015) was in Computer Science and System Engineering with Embedded Systems and Network Security Laboratory (NS Lab.), Department of Computer Engineering, Korea Aerospace University under his advisers Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703). 
 
-- His M.Sc (2008-2010) and B.Eng (2003-2008) were in Mechatronics with Prof. [Dinh Van Phong](https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html) in Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
+- His M.Sc (2008-2010) and B.Eng (2003-2008) were in Mechatronics with Prof. [Dinh Van Phong](https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html) in Hanoi University of Science and Technology (HUST), Hanoi, Vietnam.
 
 ## **Academic Genealogy**
 - My Ph.D. dissertation advisors were Professor [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) (Pennsylvania State University, USA, 1994) and Professor [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703) (Korea Aerospace University, South Korea, 2008) (which was also Prof. Park's descendant). 
