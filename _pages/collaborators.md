@@ -15,4 +15,4 @@ header:
 - [Fumio Machida](http://www.cs.tsukuba.ac.jp/~machida/en/machida.html), Laboratory for System Dependability, University of Tsukuba, Japan
 - [Manish Pokharel](https://www.researchgate.net/profile/Manish_Pokharel2), Department of Computer Science and Engineering, Karthmandu University
 - [Dinh Van Phong](https://sme.hust.edu.vn/can-bo/gs-ts-dinh-van-phong.html), Department of Applied Mechanics, Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
-- [Francisco Airton Silva](https://www.researchgate.net/profile/Francisco-Airton-Silva), Department of Computer Engineering, Federal University of Piauí (campus Picos), Teresina, Piauí, Brazil
+- [Francisco Airton Silva](https://www.researchgate.net/profile/Francisco-Airton-Silva), Distributed Systems Laboratory, Computer Science Department, Federal University of Piauí (campus Picos), Teresina, Piauí, Brazil
