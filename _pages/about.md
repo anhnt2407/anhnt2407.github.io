@@ -15,7 +15,7 @@ redirect_from:
 
 - He was a Post-doctoral Research Associate in Distributed Multimedia Systems Laboratory (DMS Lab.) with Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea since Aug. 2015-Feb.2016. He was a Ph.D. research associate in network security and systems laboratory (NS lab.), Korea Aerospace University (KAU) in 2011-2015. 
   
-- He worked as a research engineer in TRON laboratory, FPT software, FPT cooperation, and F-Space laboratory, FPT technology research institute (FTRI), FPT University, FPT cooperation, Hanoi, Vietnam, in 2008 and during 2009-2010, respectively.
+- He worked as a research engineer in Real-time Operating system Nucleus (TRON) laboratory, FPT software, FPT cooperation, and FPT Space Technology Research (F-Space) laboratory, FPT technology research institute (FTRI), FPT University, FPT cooperation, Hanoi, Vietnam, in 2008 and during 2009-2010, respectively.
 
 ## **Education**
 - His Ph.D. (2011-2015) was in Computer Science and System Engineering with Embedded Systems and Network Security Laboratory (NS Lab.), Department of Computer Engineering, Korea Aerospace University under his advisers Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703). 
