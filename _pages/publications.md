@@ -5,9 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-*Last Update: May. 18, 2021*
+*Last Update: Aug. 12, 2021*
 
 # Peer-reviewed Journals:
+
+1. Brito, C., Silva, L., Callou, G., **T. A. Nguyen**, Min, D., Lee, J.-W., & Silva, F. A. (2021). Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation. **Electronics**, 10(16), 1916. https://doi.org/10.3390/electronics10161916 **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
 1. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936)** </span>
 
