@@ -15,6 +15,8 @@ author_profile: true
 
 1. **T. A. Nguyen**, D. S. Kim, and J. S. Park, “*Availability modeling and analysis of a data center for disaster tolerance*,” **Futur. Gener. Comput. Syst.**, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> **(SCI/SCIE, JCR.Q1.CS.Theory&Methods, Ranking 7/104, IF2016 = 3.997, IF2018 = 5.768)** </span>
 
+1. F. A. Silva, **T. A. Nguyen**, I. Fe, C. Brito, D. Min, and J.-W. Lee, “*Performance Evaluation of an Internet of Healthcare Things for Medical Monitoring Using M/M/c/K Queuing Models*,” **IEEE Access**, vol. 9, pp. 55271–55283, April 2021, doi: [10.1109/ACCESS.2021.3071508](https://ieeexplore.ieee.org/document/9398691/). **(SCIE, JCR.Q1.CS.IS, 35/156, IF2019=3.745)**
+
 1. **T. A. Nguyen**, D. Min, E. Choi, and T. D. Thang, “*Reliability and Availability Evaluation for Cloud Data Center Networks using Hierarchical Models*​,” **IEEE Access**, Jan. 2019. DOI: [10.1109/ACCESS.2019.2891282](https://doi.org/10.1109/ACCESS.2019.2891282) **(SCIE, JCR.Q1.CS.IS, 23/155, IF2018=4.098)**
 
 ## JCR.SCIE
@@ -24,8 +26,6 @@ author_profile: true
 1. Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; **Nguyen, T.A.**; Min, D.; Lee, J.-W.; Silva, F.A. *Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System*. **Appl. Sci.**, April 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
 
 1. A. A. Maw, M. Tyan, **T. A. Nguyen**, and J.-W. Lee, “*iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV*,” **Appl. Sci.**, vol. 11, no. 9, April 2021, doi: [10.3390/app11093948](https://doi.org/10.3390/app11093948). **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
-
-1. F. A. Silva, **T. A. Nguyen**, I. Fe, C. Brito, D. Min, and J.-W. Lee, “*Performance Evaluation of an Internet of Healthcare Things for Medical Monitoring Using M/M/c/K Queuing Models*,” **IEEE Access**, vol. 9, pp. 55271–55283, April 2021, doi: [10.1109/ACCESS.2021.3071508](https://ieeexplore.ieee.org/document/9398691/). **(SCIE, JCR.Q1.CS.IS, 35/156, IF2019=3.745)**
 
 1. I. Gonçalves, L. Rodrigues, F. A. Silva, **T. A. Nguyen**, D. Min, and J.-W. Lee, “*Surveillance System in Smart Cities: A Dependability Evaluation Based on Stochastic Models*,” **Electronics**, vol. 10, no. 8, p. 876, Apr. 2021, doi: [10.3390/electronics10080876](https://www.mdpi.com/2079-9292/10/8/876). **(SCIE, JCR.Q2.Eng&E.E, 154/266, IF2019=2.412)**
 
