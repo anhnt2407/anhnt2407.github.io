@@ -9,7 +9,7 @@ author_profile: true
 
 # Peer-reviewed Journals:
 
-<span style="color:blue"> **## Selected:** </span>
+<span style="color:blue, font-size:large, font-family:system-ui"> <b>**## Selected:**</b>  </span>
 
 1. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936)** </span>
 
