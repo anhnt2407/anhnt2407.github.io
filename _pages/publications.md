@@ -23,7 +23,7 @@ author_profile: true
 
 
 
-## <span style="font-family: system-ui; color:blue"> JCR.SCIE Papers: </span>
+## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
 2. Brito, C., Silva, L., Callou, G., **T. A. Nguyen**, Min, D., Lee, J.-W., & Silva, F. A. (2021). Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation. **Electronics**, 10(16), 1916. https://doi.org/10.3390/electronics10161916 **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
