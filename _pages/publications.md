@@ -23,7 +23,7 @@ author_profile: true
 
 
 
-## <span style="font-family: system-ui; color:blue"> JCR.SCIE: </span>
+## <span style="font-family: system-ui; color:blue"> JCR.SCIE Papers: </span>
 
 2. Brito, C., Silva, L., Callou, G., **T. A. Nguyen**, Min, D., Lee, J.-W., & Silva, F. A. (2021). Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation. **Electronics**, 10(16), 1916. https://doi.org/10.3390/electronics10161916 **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
@@ -44,7 +44,7 @@ author_profile: true
 2. **T. A. Nguyen**, D. S. Kim, and J. S. Park, “*A Comprehensive Availability Modeling and Analysis of a Virtualized Servers System Using Stochastic Reward Nets*,” **Sci. World J.**, vol. 2014, pp. 1–18, 2014, DOI: [10.1155/2014/165316](http://dx.doi.org/10.1155/2014/165316), **(SCIE In 2014, JCR.Q3.Eng, IF2014 = 1.73)**
 
 
-# Book chapter:
+# Book chapters:
 
 3. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](https://www.intechopen.com/books/dependability-engineering/stochastic-reward-net-based-modeling-approach-for-availability-quantification-of-data-center-systems)
 
