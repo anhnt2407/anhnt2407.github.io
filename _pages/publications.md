@@ -17,12 +17,11 @@ author_profile: true
 
 1. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936)** </span>
 
-1. **T. A. Nguyen**, D. S. Kim, and J. S. Park, “*Availability modeling and analysis of a data center for disaster tolerance*,” **Futur. Gener. Comput. Syst.**, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> **(SCI/SCIE, JCR.Q1.CS.Theory&Methods, Ranking 7/104, IF2016 = 3.997, IF2018 = 5.768)** </span>
-
 1. F. A. Silva, **T. A. Nguyen**, I. Fe, C. Brito, D. Min, and J.-W. Lee, “*Performance Evaluation of an Internet of Healthcare Things for Medical Monitoring Using M/M/c/K Queuing Models*,” **IEEE Access**, vol. 9, pp. 55271–55283, April 2021, doi: [10.1109/ACCESS.2021.3071508](https://ieeexplore.ieee.org/document/9398691/). **(SCIE, JCR.Q1.CS.IS, 35/156, IF2019=3.745)**
 
 1. **T. A. Nguyen**, D. Min, E. Choi, and T. D. Thang, “*Reliability and Availability Evaluation for Cloud Data Center Networks using Hierarchical Models*​,” **IEEE Access**, Jan. 2019. DOI: [10.1109/ACCESS.2019.2891282](https://doi.org/10.1109/ACCESS.2019.2891282) **(SCIE, JCR.Q1.CS.IS, 23/155, IF2018=4.098)**
 
+1. **T. A. Nguyen**, D. S. Kim, and J. S. Park, “*Availability modeling and analysis of a data center for disaster tolerance*,” **Futur. Gener. Comput. Syst.**, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> **(SCI/SCIE, JCR.Q1.CS.Theory&Methods, Ranking 7/104, IF2016 = 3.997, IF2018 = 5.768)** </span>
 
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
