@@ -13,9 +13,13 @@ redirect_from:
 
 - Previously, he worked as a Research Assistant Professor (연구 조교수) for Office of Research, University-Industry Cooperation Foundation (건국대학교 산학협력단) in collaboration with Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/), Konkuk University since Mar. 2016-Feb.2020 . 
 
-- He was a Post-doctoral Research Associate in Distributed Multimedia Systems Laboratory (DMS Lab.) with Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea since Aug. 2015-Feb.2016. He was a Ph.D. research associate in network security and systems laboratory (NS lab.), Korea Aerospace University (KAU) in 2011-2015. 
+- He was a Post-doctoral Research Associate in Distributed Multimedia Systems Laboratory (DMS Lab.) with Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea since Aug. 2015-Feb.2016.  
+
+- He was a Ph.D. research associate in network security and systems laboratory (NS lab.) with Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703), Korea Aerospace University (KAU) in 2011-2015. 
   
-- He worked as a research engineer in Real-time Operating system Nucleus (TRON) laboratory, FPT software, FPT cooperation, and FPT Space Technology Research (F-Space) laboratory, FPT technology research institute (FTRI), FPT University, FPT cooperation, Hanoi, Vietnam, in 2008 and during 2009-2010, respectively.
+- He worked as a full-time researcher in FPT Space Technology Research (F-Space) laboratory, FPT technology research institute (FTRI), FPT University, FPT cooperation, Hanoi, Vietnam during 2009-2010.
+
+- He worked as a research engineer in Real-time Operating System Nucleus (TRON) laboratory, FPT software, FPT cooperation, Hanoi, Vietnam in 2008. 
 
 ## **Education**
 - His Ph.D. (2011-2015) was in Computer Science and System Engineering with Embedded Systems and Network Security Laboratory (NS Lab.), Department of Computer Engineering, Korea Aerospace University under his advisers Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703). 
