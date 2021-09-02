@@ -26,7 +26,7 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-2. Brito, C., Silva, L., Callou, G., **T. A. Nguyen**, Min, D., Lee, J.-W., & Silva, F. A. (2021). Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation. **Electronics**, 10(16), 1916. https://doi.org/10.3390/electronics10161916 **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
+2. Brito, C., Silva, L., Callou, G., **T. A. Nguyen**, Min, D., Lee, J.-W., & Silva, F. A. (2021). Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation. **Electronics**, 10(16), 1916. doi: [10.3390/electronics10161916](https://doi.org/10.3390/electronics10161916) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
 2. Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; **Nguyen, T.A.**; Min, D.; Lee, J.-W.; Silva, F.A. *Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System*. **Appl. Sci.**, April 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
 
