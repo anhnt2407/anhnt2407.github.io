@@ -13,6 +13,8 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> Selected: </span>
 
+1. **T. A. Nguyen**, Fe, I., Brito, C., Kaliappan, V. K., Choi, E., Min, D., Lee, J. W., & Silva, F. A. (2021). Performability Evaluation of Load Balancing and Fail-Over Strategies for Medical Information Systems with Edge/Fog Computing Using Stochastic Reward Nets. Sensors, 21(18). DOI: [10.3390/s21186253](https://doi.org/10.3390/s21186253) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
+
 1. B. Santos, A. Soares, **T. A. Nguyen**, D.-K. Min, J.-W. Lee, and F.-A. Silva, “IoT Sensor Networks in Smart Buildings: A Performance Assessment Using Queuing Models,” Sensors, vol. 21, no. 16, p. 5660, Aug. 2021, doi: [10.3390/s21165660](https://www.mdpi.com/1424-8220/21/16/5660). **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
 
 1. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936)** </span>
