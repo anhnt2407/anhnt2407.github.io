@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<span style="font-family: times, serif; font-size:11pt; font-style:italic; color:red"> *Last Update: Aug. 25, 2021* </span>
+<span style="font-family: times, serif; font-size:11pt; font-style:italic; color:red"> *Last Update: Oct. 2, 2021* </span>
 
 
 
@@ -27,6 +27,8 @@ author_profile: true
 
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
+
+2. 2. L. Feitosa, G. Gonçalves, **T. A. Nguyen**, J. W. Lee, and F. A. Silva, “Performance Evaluation of Message Routing Strategies in the Internet of Robotic Things Using the D/M/c/K/FCFS Queuing Network,” Electronics, vol. 10, no. 21, p. 2626, Oct. 2021, doi: [10.3390/electronics10212626](https://doi.org/10.3390/electronics10212626) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
 2. Brito, C., Silva, L., Callou, G., **T. A. Nguyen**, Min, D., Lee, J.-W., & Silva, F. A. (2021). Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation. **Electronics**, 10(16), 1916. doi: [10.3390/electronics10161916](https://doi.org/10.3390/electronics10161916) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
