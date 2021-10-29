@@ -13,9 +13,9 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> Selected: </span>
 
-1. **T. A. Nguyen**, Fe, I., Brito, C., Kaliappan, V. K., Choi, E., Min, D., Lee, J. W., & Silva, F. A. (2021). Performability Evaluation of Load Balancing and Fail-Over Strategies for Medical Information Systems with Edge/Fog Computing Using Stochastic Reward Nets. Sensors, 21(18), Sep. 2021. DOI: [10.3390/s21186253](https://doi.org/10.3390/s21186253) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
+1. **T. A. Nguyen**, Fe, I., Brito, C., Kaliappan, V. K., Choi, E., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Evaluation of Load Balancing and Fail-Over Strategies for Medical Information Systems with Edge/Fog Computing Using Stochastic Reward Nets*. **Sensors**, 21(18), Sep. 2021. DOI: [10.3390/s21186253](https://doi.org/10.3390/s21186253) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
 
-1. B. Santos, A. Soares, **T. A. Nguyen**, D.-K. Min, J.-W. Lee, and F.-A. Silva, “IoT Sensor Networks in Smart Buildings: A Performance Assessment Using Queuing Models,” Sensors, vol. 21, no. 16, p. 5660, Aug. 2021, doi: [10.3390/s21165660](https://www.mdpi.com/1424-8220/21/16/5660). **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
+1. B. Santos, A. Soares, **T. A. Nguyen**, D.-K. Min, J.-W. Lee, and F.-A. Silva, *“IoT Sensor Networks in Smart Buildings: A Performance Assessment Using Queuing Models,”* **Sensors**, vol. 21, no. 16, p. 5660, Aug. 2021, doi: [10.3390/s21165660](https://www.mdpi.com/1424-8220/21/16/5660). **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
 
 1. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936)** </span>
 
@@ -28,9 +28,9 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-2. L. Feitosa, G. Gonçalves, **T. A. Nguyen**, J. W. Lee, and F. A. Silva, “Performance Evaluation of Message Routing Strategies in the Internet of Robotic Things Using the D/M/c/K/FCFS Queuing Network,” Electronics, vol. 10, no. 21, p. 2626, Oct. 2021, doi: [10.3390/electronics10212626](https://doi.org/10.3390/electronics10212626) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
+2. L. Feitosa, G. Gonçalves, **T. A. Nguyen**, J. W. Lee, and F. A. Silva, *“Performance Evaluation of Message Routing Strategies in the Internet of Robotic Things Using the D/M/c/K/FCFS Queuing Network,”* **Electronics**, vol. 10, no. 21, p. 2626, Oct. 2021, doi: [10.3390/electronics10212626](https://doi.org/10.3390/electronics10212626) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
-2. Brito, C., Silva, L., Callou, G., **T. A. Nguyen**, Min, D., Lee, J.-W., & Silva, F. A. (2021). Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation. **Electronics**, 10(16), 1916. doi: [10.3390/electronics10161916](https://doi.org/10.3390/electronics10161916) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
+2. Brito, C., Silva, L., Callou, G., **T. A. Nguyen**, Min, D., Lee, J.-W., & Silva, F. A. (2021). *Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation.* **Electronics**, 10(16), 1916. doi: [10.3390/electronics10161916](https://doi.org/10.3390/electronics10161916) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
 2. Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; **Nguyen, T.A.**; Min, D.; Lee, J.-W.; Silva, F.A. *Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System*. **Appl. Sci.**, April 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
 
