@@ -57,6 +57,8 @@ author_profile: true
 
 # Conference Proceedings: 
 
+4. Victor, C., **Nguyen, T.A.**, Silva, L. A., Andrade, E., Santos, G. L., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Assessment and Sensitivity Analysis of a Home Automation System.* 2021 IEEE/ACM 25th International Symposium on Distributed Simulation and Real Time Applications (DS-RT), 1–4. DOI: [10.1109/DS-RT52167.2021.9576142](https://doi.org/10.1109/DS-RT52167.2021.9576142) 
+
 4. **Nguyen, T.A.**, Min, D.K., Lee, J.W., (2020),  "*iUAM: Service Survivability of Digital Twin Urban Aerial Mobility*", **The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집**, 2020.11, 689-690. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526249))
 
 4. **T. A. Nguyen**, D. Min, and E. Choi, “*Largeness Problem Mitigation for Stochastic Reward Nets in Modeling and Analysis of a large IoT system*,” in The 6th International Conference on Big Data Applications and Services (**BIGDAS 2018**), August 19-22, 2018, TusStar, Zhengzhou, Henan, China.
