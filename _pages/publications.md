@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<span style="font-family: times, serif; font-size:11pt; font-style:italic; color:red"> *Last Update: Oct. 2, 2021* </span>
+<span style="font-family: times, serif; font-size:11pt; font-style:italic; color:red"> *Last Update: Nov. 2, 2021* </span>
 
 
 
