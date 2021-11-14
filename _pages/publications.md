@@ -13,6 +13,8 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> Selected: </span>
 
+1. **T. A. Nguyen**, Kim, M., Lee, J., Min, D., Lee, J.-W., &#38; Kim, D. (2021). Performability evaluation of switch-over Moving Target Defense mechanisms in a Software Defined Networking using stochastic reward nets. <i>Journal of Network and Computer Applications</i>. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) 
+
 1. **T. A. Nguyen**, Fe, I., Brito, C., Kaliappan, V. K., Choi, E., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Evaluation of Load Balancing and Fail-Over Strategies for Medical Information Systems with Edge/Fog Computing Using Stochastic Reward Nets*. **Sensors**, 21(18), Sep. 2021. DOI: [10.3390/s21186253](https://doi.org/10.3390/s21186253) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
 
 1. B. Santos, A. Soares, **T. A. Nguyen**, D.-K. Min, J.-W. Lee, and F.-A. Silva, *“IoT Sensor Networks in Smart Buildings: A Performance Assessment Using Queuing Models,”* **Sensors**, vol. 21, no. 16, p. 5660, Aug. 2021, doi: [10.3390/s21165660](https://www.mdpi.com/1424-8220/21/16/5660). **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
