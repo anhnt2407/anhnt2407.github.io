@@ -34,7 +34,7 @@ author_profile: true
 
 2. Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; **T.A. Nguyen**; Min, D.; Lee, J.-W.; Silva, F.A. *Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System*. **Appl. Sci.**, April 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
 
-2. A. A. Maw, M. Tyan, **T. A. Nguyen**, and J.-W. Lee, “*iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV*,” **Appl. Sci.**, vol. 11, no. 9, April 2021, doi: [10.3390/app11093948](https://doi.org/10.3390/app11093948). **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
+2. A. A. Maw, M. Tyan, **T. A. Nguyen**, and J.-W. Lee, *“iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV,”* **Appl. Sci.**, vol. 11, no. 9, April 2021, doi: [10.3390/app11093948](https://doi.org/10.3390/app11093948). **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
 
 2. I. Gonçalves, L. Rodrigues, F. A. Silva, **T. A. Nguyen**, D. Min, and J.-W. Lee, “*Surveillance System in Smart Cities: A Dependability Evaluation Based on Stochastic Models*,” **Electronics**, vol. 10, no. 8, p. 876, Apr. 2021, doi: [10.3390/electronics10080876](https://www.mdpi.com/2079-9292/10/8/876). **(SCIE, JCR.Q2.Eng&E.E, 154/266, IF2019=2.412)**
 
