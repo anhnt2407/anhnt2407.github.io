@@ -7,30 +7,22 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:11pt; font-style:italic; color:red"> *Last Update: Nov. 14, 2021* </span>
 
-# Peer-reviewed Journals:
-
-## <span style="font-family: system-ui; color:blue"> Selected: </span>
-
-1. **T. A. Nguyen**, Kim, M., Lee, J., Min, D., Lee, J.-W., &#38; Kim, D. (2021). *Performability evaluation of switch-over Moving Target Defense mechanisms in a Software Defined Networking using stochastic reward nets*. **Journal of Network and Computer Applications**. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) <span style="color:blue"> **(SCIE, JCR.Q1.CS.SE, IF2020=6.281, Ranking 6/108)** </span>
-
-1. **T. A. Nguyen**, Fe, I., Brito, C., Kaliappan, V. K., Choi, E., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Evaluation of Load Balancing and Fail-Over Strategies for Medical Information Systems with Edge/Fog Computing Using Stochastic Reward Nets*. **Sensors**, 21(18), Sep. 2021. DOI: [10.3390/s21186253](https://doi.org/10.3390/s21186253) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
-
-1. B. Santos, A. Soares, **T. A. Nguyen**, D.-K. Min, J.-W. Lee, and F.-A. Silva, *“IoT Sensor Networks in Smart Buildings: A Performance Assessment Using Queuing Models,”* **Sensors**, vol. 21, no. 16, p. 5660, Aug. 2021, doi: [10.3390/s21165660](https://www.mdpi.com/1424-8220/21/16/5660). **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
-
-1. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936)** </span>
-
-1. F. A. Silva, **T. A. Nguyen**, I. Fe, C. Brito, D. Min, and J.-W. Lee, “*Performance Evaluation of an Internet of Healthcare Things for Medical Monitoring Using M/M/c/K Queuing Models*,” **IEEE Access**, vol. 9, pp. 55271–55283, April 2021, doi: [10.1109/ACCESS.2021.3071508](https://ieeexplore.ieee.org/document/9398691/). **(SCIE, JCR.Q1.CS.IS, 35/156, IF2019=3.745)**
-
-1. **T. A. Nguyen**, D. Min, E. Choi, and T. D. Thang, “*Reliability and Availability Evaluation for Cloud Data Center Networks using Hierarchical Models*​,” **IEEE Access**, Jan. 2019. DOI: [10.1109/ACCESS.2019.2891282](https://doi.org/10.1109/ACCESS.2019.2891282) **(SCIE, JCR.Q1.CS.IS, 23/155, IF2018=4.098)**
-
-1. **T. A. Nguyen**, D. S. Kim, and J. S. Park, “*Availability modeling and analysis of a data center for disaster tolerance*,” **Futur. Gener. Comput. Syst.**, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> **(SCI/SCIE, JCR.Q1.CS.Theory&Methods, Ranking 7/104, IF2016 = 3.997, IF2018 = 5.768)** </span>
-
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
+2. **T. A. Nguyen**, Kim, M., Lee, J., Min, D., Lee, J.-W., &#38; Kim, D. (2021). *Performability evaluation of switch-over Moving Target Defense mechanisms in a Software Defined Networking using stochastic reward nets*. **Journal of Network and Computer Applications**. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) <span style="color:blue"> **(SCIE, JCR.Q1.CS.SE, IF2020=6.281, Ranking 6/108)** </span>
+
 2. L. Feitosa, G. Gonçalves, **T. A. Nguyen**, J. W. Lee, and F. A. Silva, *“Performance Evaluation of Message Routing Strategies in the Internet of Robotic Things Using the D/M/c/K/FCFS Queuing Network,”* **Electronics**, vol. 10, no. 21, p. 2626, Oct. 2021, doi: [10.3390/electronics10212626](https://doi.org/10.3390/electronics10212626) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
+2. **T. A. Nguyen**, Fe, I., Brito, C., Kaliappan, V. K., Choi, E., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Evaluation of Load Balancing and Fail-Over Strategies for Medical Information Systems with Edge/Fog Computing Using Stochastic Reward Nets*. **Sensors**, 21(18), Sep. 2021. DOI: [10.3390/s21186253](https://doi.org/10.3390/s21186253) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
+
+2. B. Santos, A. Soares, **T. A. Nguyen**, D.-K. Min, J.-W. Lee, and F.-A. Silva, *“IoT Sensor Networks in Smart Buildings: A Performance Assessment Using Queuing Models,”* **Sensors**, vol. 21, no. 16, p. 5660, Aug. 2021, doi: [10.3390/s21165660](https://www.mdpi.com/1424-8220/21/16/5660). **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
+
+2. **T. A. Nguyen**, D. Min, E. Choi, and J.-W. Lee, “*Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models*,” **IEEE Internet of Things J.**, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> **(SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936)** </span>
+
 2. Brito, C., Silva, L., Callou, G., **T. A. Nguyen**, Min, D., Lee, J.-W., & Silva, F. A. (2021). *Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation.* **Electronics**, 10(16), 1916. doi: [10.3390/electronics10161916](https://doi.org/10.3390/electronics10161916) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
+
+2. F. A. Silva, **T. A. Nguyen**, I. Fe, C. Brito, D. Min, and J.-W. Lee, “*Performance Evaluation of an Internet of Healthcare Things for Medical Monitoring Using M/M/c/K Queuing Models*,” **IEEE Access**, vol. 9, pp. 55271–55283, April 2021, doi: [10.1109/ACCESS.2021.3071508](https://ieeexplore.ieee.org/document/9398691/). **(SCIE, JCR.Q1.CS.IS, 35/156, IF2019=3.745)**
 
 2. Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; **T.A. Nguyen**; Min, D.; Lee, J.-W.; Silva, F.A. *Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System*. **Appl. Sci.**, April 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) **(SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)**
 
@@ -40,9 +32,13 @@ author_profile: true
 
 2. **T. A. Nguyen**, D. Min, and E. Choi, “*A Hierarchical Modeling and Analysis Framework for Availability and Security Quantification of IoT Infrastructures*,” **Electronics**, vol. 9, no. 1, p. 155, Jan. 2020. DOI: [10.3390/electronics9010155](https://doi.org/10.3390/electronics9010155) **(SCIE, JCR.Q2.Eng&E.E, 154/266, IF2019=2.412)**
 
+2.  **T. A. Nguyen**, D. Min, E. Choi, and T. D. Thang, “*Reliability and Availability Evaluation for Cloud Data Center Networks using Hierarchical Models*​,” **IEEE Access**, Jan. 2019. DOI: [10.1109/ACCESS.2019.2891282](https://doi.org/10.1109/ACCESS.2019.2891282) **(SCIE, JCR.Q1.CS.IS, 23/155, IF2018=4.098)**
+
 2. **T. A. Nguyen**, K. Han, D. Min, E. Choi, T. D. Thang, and Y.-J. Choi, “*A stochastic reward net-based assessment of reliability, availability and operational cost for a software-defined network infrastructure*,” **J. Supercomput**., Nov. 2018. DOI: [10.1007/s11227-018-2677-y](https://doi.org/10.1007/s11227-018-2677-y) **(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2017=1.532, IF2018=2.157)**
 
 2. **T. A. Nguyen**, D. Min, and E. Choi, “*A comprehensive evaluation of availability and operational cost for a virtualized server system using stochastic reward nets*,” **J. Supercomput.**, pp. 1–55, Aug. 2017, DOI: [10.1007/s11227-017-2127-2](https://link.springer.com/article/10.1007/s11227-017-2127-2), **(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2016=1.326, IF2018=2.157)**
+
+2. **T. A. Nguyen**, D. S. Kim, and J. S. Park, “*Availability modeling and analysis of a data center for disaster tolerance*,” **Futur. Gener. Comput. Syst.**, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> **(SCI/SCIE, JCR.Q1.CS.Theory&Methods, Ranking 7/104, IF2016 = 3.997, IF2018 = 5.768)** </span>
 
 2. **T. A. Nguyen**, D. Min, and J. S. Park, “*A Comprehensive Sensitivity Analysis of a Data Center Network with Server Virtualization for Business Continuity*,” **Math. Probl. Eng.**, vol. 2015, pp. 1–20, 2015, DOI: [10.1155/2015/521289](http://dx.doi.org/10.1155/2015/521289), **(SCIE, JCR.Q3.Eng, 59/85, IF2015 = 0.76, IF2018 = 1.179)**
 
