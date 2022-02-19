@@ -10,6 +10,8 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
+2. [1] I. Fé, R. Matos, J. Dantas, C. Melo, **T. A. Nguyen**, D. Min, E. Choi, F. A. Silva, and P. R. M. Maciel, *“Performance-Cost Trade-Off in Auto-Scaling Mechanisms for Cloud Computing,”* **Sensors**, vol. 22, no. 3, p. 1221, Feb. 2022. DOI:[10.3390/s22031221](https://doi.org/10.3390/s22031221) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
+
 2. **T. A. Nguyen**, Kim, M., Lee, J., Min, D., Lee, J.-W., &#38; Kim, D. (2021). *Performability evaluation of switch-over Moving Target Defense mechanisms in a Software Defined Networking using stochastic reward nets*. **Journal of Network and Computer Applications**. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) <span style="color:blue"> **(SCIE, JCR.Q1.CS.SE, IF2020=6.281, Ranking 6/108)** </span>
 
 2. L. Feitosa, G. Gonçalves, **T. A. Nguyen**, J. W. Lee, and F. A. Silva, *“Performance Evaluation of Message Routing Strategies in the Internet of Robotic Things Using the D/M/c/K/FCFS Queuing Network,”* **Electronics**, vol. 10, no. 21, p. 2626, Oct. 2021, doi: [10.3390/electronics10212626](https://doi.org/10.3390/electronics10212626) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
@@ -73,7 +75,7 @@ author_profile: true
 
 13. D. S. Kim, J. B. Hong, **T. A. Nguyen**, F. Machida, and K. S. Trivedi, “*Availability Modeling and Analysis of a Virtualized System using Stochastic Reward Nets*,” in Proceedings of 16th IEEE International Conference on Computer and Information Technology (**IEEE CIT 2016**), IEEE, 2016, DOI: [10.1109/CIT.2016.97](https://doi.org/10.1109/CIT.2016.97)
 
-14. **T.A. Nguyen**, D.S. Kim, J.S. Park, et al.  “*Availability Modeling and Analysis of a Software Defined Network*”, Proceedings of the 21st IEEE Parcific Rim International Symposium on Dependable Computing (**PRDC 2015**), **IEEE**, 2015, DOI: [10.1109/PRDC.2015.27](https://ieeexplore.ieee.org/document/7371859/)
+14. **T.A. Nguyen**, D.S. Kim, J.S. Park, et al.  “*Availability Modeling and Analysis of a Software Defined Network*”, Proceedings of the 21st IEEE Parcific Rim International Symposium on Dependable Computing (**PRDC 2015**), **IEEE**, 2015, DOI: [10.1109/PRDC.2015.27](https://doi.org/10.1109/PRDC.2015.27)
 
 15. P. Upadhyaya, **T.A. Nguyen**, M. Pokharel, S. Shakya, J. S. Park, “*Modeling & Analysis of Cost Effective High Availability Security Architecture for Whole of Government Systems to cater DDoS attack*”, Proceedings of 2014 International Conference on Computational Intelligence and Computing Research (**ICCIC 2014**), **IEEE**, Tamilnadu, India, Dec 18-20, 2014, DOI: [10.1109/ICCIC.2014.7238293](https://doi.org/10.1109/ICCIC.2014.7238293)
 
