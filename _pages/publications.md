@@ -49,7 +49,7 @@ author_profile: true
 
 # Book chapters:
 
-3. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](https://www.intechopen.com/books/dependability-engineering/stochastic-reward-net-based-modeling-approach-for-availability-quantification-of-data-center-systems)
+3. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](https:/doi.org/10.5772/intechopen.74306)
 
 
 
@@ -65,11 +65,11 @@ author_profile: true
 
 8.  **T. A. Nguyen**, D. Min, and E. Choi, “*Largeness Problem Mitigation for Stochastic Reward Nets in Modeling and Analysis of a large IoT system*,” in The 6th International Conference on Big Data Applications and Services (**BIGDAS 2018**), August 19-22, 2018, TusStar, Zhengzhou, Henan, China.
 
-9.  ​L. Zou, X. Rui, **T. A. Nguyen**, D. Min, E. Choi, D. T. Tran, N. S. Nguyen, "*A Scalable Network Area Storage with Virtualization: Modeling and Evaluation using Stochastic Reward Nets*", in proceedings of 2018 International Conference on Information Science and System (**ICISS '18**), April 27--29, 2018, Jeju, Republic of Korea, **ACM** ISBN 978-1-4503-6421-8/18/04, DOI: [10.1145/3209914.3209918](https://dl.acm.org/citation.cfm?doid=3209914.3209918)
+9. ​L. Zou, X. Rui, **T. A. Nguyen**, D. Min, E. Choi, D. T. Tran, N. S. Nguyen, "*A Scalable Network Area Storage with Virtualization: Modeling and Evaluation using Stochastic Reward Nets*", in proceedings of 2018 International Conference on Information Science and System (**ICISS '18**), April 27--29, 2018, Jeju, Republic of Korea, **ACM** ISBN 978-1-4503-6421-8/18/04, DOI: [10.1145/3209914.3209918](https://doi.org/10.1145/3209914.3209918)
 
 10. **T.A. Nguyen**, D. Min, E. Choi, “*Reliability and Availability Modeling of Fog Computing based IoT System*”, in The 5th International Conference on Big Data Applications and Services, **BIGDAS 2017**, November 23-25, 2017, Jeju Island, South Korea
 
-11. **T. A. Nguyen**, X. Rui, D. Lim, J. Oh, D. Min, E. Choi, D. T. Tran, and Nhu Son Nguyen, “*Model-based sensitivity of a disaster tolerant active-active genesis cloud system*,” in proceedings of 3rd **EAI** International Conference on Industrial Networks and Intelligent Systems, **INISCOM2017**, Sep. 04, 2017, Ho Chi Minh city, Vietnam, online published in: Chen Y., Duong T. (eds) Industrial Networks and Intelligent Systems. INISCOM 2017. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 221. Springer, Cham, DOI: [10.1007/978-3-319-74176-5_20](https://link.springer.com/chapter/10.1007/978-3-319-74176-5_20).
+11. **T. A. Nguyen**, X. Rui, D. Lim, J. Oh, D. Min, E. Choi, D. T. Tran, and Nhu Son Nguyen, “*Model-based sensitivity of a disaster tolerant active-active genesis cloud system*,” in proceedings of 3rd **EAI** International Conference on Industrial Networks and Intelligent Systems, **INISCOM2017**, Sep. 04, 2017, Ho Chi Minh city, Vietnam, online published in: Chen Y., Duong T. (eds) Industrial Networks and Intelligent Systems. INISCOM 2017. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 221. Springer, Cham, DOI: [10.1007/978-3-319-74176-5_20](https://doi.org/10.1007/978-3-319-74176-5_20).
 
 12. K. Han, **T. A. Nguyen**, D. Min, and E. M. Choi, “*An Evaluation of Availability, Reliability and Power Consumption for a SDN Infrastructure using Stochastic Reward Net*,” **Lect. Notes Electr. Eng.** - **Springer**, 2016, DOI: [10.1007/978-981-10-3023-9_98](https://doi.org/10.1007/978-981-10-3023-9_98)
 
