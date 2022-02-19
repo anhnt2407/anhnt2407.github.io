@@ -71,7 +71,7 @@ author_profile: true
 
 11. **T. A. Nguyen**, X. Rui, D. Lim, J. Oh, D. Min, E. Choi, D. T. Tran, and Nhu Son Nguyen, “*Model-based sensitivity of a disaster tolerant active-active genesis cloud system*,” in proceedings of 3rd **EAI** International Conference on Industrial Networks and Intelligent Systems, **INISCOM2017**, Sep. 04, 2017, Ho Chi Minh city, Vietnam, online published in: Chen Y., Duong T. (eds) Industrial Networks and Intelligent Systems. INISCOM 2017. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 221. Springer, Cham, DOI: [10.1007/978-3-319-74176-5_20](https://link.springer.com/chapter/10.1007/978-3-319-74176-5_20).
 
-12. K. Han, **T. A. Nguyen**, D. Min, and E. M. Choi, “*An Evaluation of Availability, Reliability and Power Consumption for a SDN Infrastructure using Stochastic Reward Net*,” **Lect. Notes Electr. Eng.** - **Springer**, 2016, DOI: [10.1007/978-981-10-3023-9_98](https://link.springer.com/chapter/10.1007/978-981-10-3023-9_98)
+12. K. Han, **T. A. Nguyen**, D. Min, and E. M. Choi, “*An Evaluation of Availability, Reliability and Power Consumption for a SDN Infrastructure using Stochastic Reward Net*,” **Lect. Notes Electr. Eng.** - **Springer**, 2016, DOI: [10.1007/978-981-10-3023-9_98](https://doi.org/10.1007/978-981-10-3023-9_98)
 
 13. D. S. Kim, J. B. Hong, **T. A. Nguyen**, F. Machida, and K. S. Trivedi, “*Availability Modeling and Analysis of a Virtualized System using Stochastic Reward Nets*,” in Proceedings of 16th IEEE International Conference on Computer and Information Technology (**IEEE CIT 2016**), IEEE, 2016, DOI: [10.1109/CIT.2016.97](https://doi.org/10.1109/CIT.2016.97)
 
