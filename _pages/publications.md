@@ -10,6 +10,8 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
+1. F. A. Silva, C. Brito, G. Araújo, I. Fé, M. Tyan, J.-W. Lee, **T. A. Nguyen**, and P. R. M. Maciel, *“Model-Driven Impact Quantification of Energy Resource Redundancy and Server Rejuvenation on the Dependability of Medical Sensor Networks in Smart Hospitals,”* **Sensors**, vol. 22, no. 4, p. 1595, Feb. 2022. DOI: [10.3390/s22041595](https://doi.org/10.3390/s22041595) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
+
 1. I. Fé, R. Matos, J. Dantas, C. Melo, **T. A. Nguyen**, D. Min, E. Choi, F. A. Silva, and P. R. M. Maciel, *“Performance-Cost Trade-Off in Auto-Scaling Mechanisms for Cloud Computing,”* **Sensors**, vol. 22, no. 3, p. 1221, Feb. 2022. DOI:[10.3390/s22031221](https://doi.org/10.3390/s22031221) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
 
 1. **T. A. Nguyen**, Kim, M., Lee, J., Min, D., Lee, J.-W., &#38; Kim, D. (2021). *Performability evaluation of switch-over Moving Target Defense mechanisms in a Software Defined Networking using stochastic reward nets*. **Journal of Network and Computer Applications**. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) <span style="color:blue"> **(SCIE, JCR.Q1.CS.SE, IF2020=6.281, Ranking 6/108)** </span>
