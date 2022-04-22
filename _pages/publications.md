@@ -5,12 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
-<span style="font-family: times, serif; font-size:11pt; font-style:italic; color:red"> *Last Update: April. 18, 2022* </span>
+<span style="font-family: times, serif; font-size:11pt; font-style:italic; color:red"> *Last Update: April. 22, 2022* </span>
 
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. Kumar Kaliappan, V., **T. A. Nguyen**, Min, D., Lee, J.-W., & Sakthi, U. (2022). *Steering Behavior-based Multiple RUAV Obstacle Avoidance Control*. **Intelligent Automation & Soft Computing**, 34(1), 575–591. DOI:[10.32604/iasc.2022.024577](https://doi.org/10.32604/iasc.2022.024577) **(SCIE, JCR.Q3.Automation & Control., Ranking 44/64, IF2020=1.647)**
+1. F. A. Silva, I. Fé, C. Brito, G. Araújo, L. Feitosa, E. Choi, D. Min, and T. A. Nguyen, *Supporting availability evaluation of a smart building monitoring system aided by fog computing*, **IET Electronics Letters**, Apr. 2022, DOI:[10.1049/ell2.12502](https://doi.org/10.1049/ell2.12502) **(SCIE, JCR.Q4.Eng. Electrical & Electronic, Ranking 220/273, IF2020=1.314)**
+
+1. V. Kumar Kaliappan, **T. A. Nguyen**, D. Min, J.-W. Lee, and U. Sakthi, *Steering Behavior-based Multiple RUAV Obstacle Avoidance Control* **Intelligent Automation & Soft Computing**, vol. 34, no. 1, pp. 575–591, 2022, DOI:[10.32604/iasc.2022.024577](https://doi.org/10.32604/iasc.2022.024577) **(SCIE, JCR.Q3.Automation & Control., Ranking 44/64, IF2020=1.647)**
 
 1. F. A. Silva, C. Brito, G. Araújo, I. Fé, M. Tyan, J.-W. Lee, **T. A. Nguyen**, and P. R. M. Maciel, *“Model-Driven Impact Quantification of Energy Resource Redundancy and Server Rejuvenation on the Dependability of Medical Sensor Networks in Smart Hospitals,”* **Sensors**, vol. 22, no. 4, p. 1595, Feb. 2022. DOI: [10.3390/s22041595](https://doi.org/10.3390/s22041595) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
 
