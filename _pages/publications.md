@@ -61,6 +61,8 @@ author_profile: true
 
 # Conference Proceedings: 
 
+4. G. Araújo, C. Brito, L. Correia, **T.A. Nguyen**, J. Lee, and F. Silva, *“Mobile Games at the Edge: A Performance Evaluation to Guide Resource Capacity Planning,”* in Proceedings of the 12th International Conference on Cloud Computing and Services Science (CLOSER), 2022, pp. 238–245, DOI: [10.5220/0011071200003200](https://doi.org/10.5220/0011071200003200).
+
 4. Feitosa, L., Santos, L., Goncalves, G., **T.A. Nguyen**, Lee, J.-W., & Silva, F. A. (2021). Internet of Robotic Things: A Comparison of Message Routing Strategies for Cloud-Fog Computing Layers using M/M/c/K Queuing Networks. 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2049–2054. DOI: [10.1109/SMC52423.2021.9658614](https://doi.org/10.1109/SMC52423.2021.9658614)
    
 5. Victor, C., **T.A. Nguyen**, Silva, L. A., Andrade, E., Santos, G. L., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Assessment and Sensitivity Analysis of a Home Automation System.* 2021 IEEE/ACM 25th International Symposium on Distributed Simulation and Real Time Applications (DS-RT), 1–4. DOI: [10.1109/DS-RT52167.2021.9576142](https://doi.org/10.1109/DS-RT52167.2021.9576142)
