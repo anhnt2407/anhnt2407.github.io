@@ -34,7 +34,7 @@ redirect_from:
 - Professor Dong Seong Kim's postdoc advisor was [Kishor S. Trivedi](https://www.google.com/url?q=https%3A%2F%2Fece.duke.edu%2Ffaculty%2Fkishor-trivedi&sa=D&sntz=1&usg=AFQjCNFbOKBMwU9THL6jJI0bZu8R0SaRVQ) (UIUC, 1974) who is the Hudson **Distinguished** Professor of Electrical and Computer Engineering at Duke University, USA. 
 - For more details, please refer to Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703)
 
-- **Computer science academic [tree](https://academictree.org/computerscience/tree.php?pid=679394)**
+- **Computer science academic [tree](https://academictree.org/computerscience/tree.php?pid=883276)**
 
 ## **Research Interests**
 -   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
