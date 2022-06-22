@@ -18,7 +18,7 @@ author_profile: true
 
 1. I. Fé, R. Matos, J. Dantas, C. Melo, **T. A. Nguyen**, D. Min, E. Choi, F. A. Silva, and P. R. M. Maciel, *“Performance-Cost Trade-Off in Auto-Scaling Mechanisms for Cloud Computing,”* **Sensors**, vol. 22, no. 3, p. 1221, Feb. 2022. DOI:[10.3390/s22031221](https://doi.org/10.3390/s22031221) **(SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)**
 
-1. **T. A. Nguyen**, M. Kim, J. Lee, D. Min, J.-W. Lee, and D. Kim, *“Performability evaluation of switch-over Moving Target Defence mechanisms in a Software Defined Networking using stochastic reward nets,”* **Journal of Network and Computer Applications**, vol. 199, p. 103267, Nov. 2022. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) <span style="color:blue"> **(SCIE, JCR.Q1.CS.SE, IF2020=6.281, Ranking 6/108)** </span>
+1. **T. A. Nguyen**, M. Kim, J. Lee, D. Min, J.-W. Lee, and D. Kim, *“Performability evaluation of switch-over Moving Target Defence mechanisms in a Software Defined Networking using stochastic reward nets,”* **Journal of Network and Computer Applications**, vol. 199, p. 103267, Nov. 2021. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) <span style="color:blue"> **(SCIE, JCR.Q1.CS.SE, IF2020=6.281, Ranking 6/108)** </span>
 
 2. L. Feitosa, G. Gonçalves, **T. A. Nguyen**, J. W. Lee, and F. A. Silva, *“Performance Evaluation of Message Routing Strategies in the Internet of Robotic Things Using the D/M/c/K/FCFS Queuing Network,”* **Electronics**, vol. 10, no. 21, p. 2626, Oct. 2021, doi: [10.3390/electronics10212626](https://doi.org/10.3390/electronics10212626) **(SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)**
 
