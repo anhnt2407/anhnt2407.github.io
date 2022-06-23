@@ -59,13 +59,13 @@ author_profile: true
 
 # Conference Proceedings: 
 
-4. **T. A. Nguyen**, K. Jeon, J.-W. Lee, I. Fe, and F. A. Silva, *“Model-driven Mission Dependability Design of Unmanned Aerial Systems,”* AIAA 2022-4091. AIAA AVIATION 2022 Forum. June 2022, DOI: [10.2514/6.2022-4091](https:/doi.org/10.2514/6.2022-4091).
+4. **T. A. Nguyen**, K. Jeon, J.-W. Lee, I. Fe, and F. A. Silva, *“Model-driven Mission Dependability Design of Unmanned Aerial Systems,”* AIAA 2022-4091. **AIAA AVIATION 2022 Forum**. June 2022, DOI: [10.2514/6.2022-4091](https:/doi.org/10.2514/6.2022-4091).
 
-5. G. Araújo, C. Brito, L. Correia, **T.A. Nguyen**, J. Lee, and F. Silva, *“Mobile Games at the Edge: A Performance Evaluation to Guide Resource Capacity Planning,”* in Proceedings of the 12th International Conference on Cloud Computing and Services Science (CLOSER), 2022, pp. 238–245, DOI: [10.5220/0011071200003200](https://doi.org/10.5220/0011071200003200).
+5. G. Araújo, C. Brito, L. Correia, **T.A. Nguyen**, J. Lee, and F. Silva, *“Mobile Games at the Edge: A Performance Evaluation to Guide Resource Capacity Planning,”* in Proceedings of the 12th International Conference on Cloud Computing and Services Science (**CLOSER**), 2022, pp. 238–245, DOI: [10.5220/0011071200003200](https://doi.org/10.5220/0011071200003200).
 
-6. Feitosa, L., Santos, L., Goncalves, G., **T.A. Nguyen**, Lee, J.-W., & Silva, F. A. (2021). Internet of Robotic Things: A Comparison of Message Routing Strategies for Cloud-Fog Computing Layers using M/M/c/K Queuing Networks. 2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2049–2054. DOI: [10.1109/SMC52423.2021.9658614](https://doi.org/10.1109/SMC52423.2021.9658614)
+6. Feitosa, L., Santos, L., Goncalves, G., **T.A. Nguyen**, Lee, J.-W., & Silva, F. A. (2021). Internet of Robotic Things: A Comparison of Message Routing Strategies for Cloud-Fog Computing Layers using M/M/c/K Queuing Networks. 2021 **IEEE** International Conference on Systems, Man, and Cybernetics (**SMC**), 2049–2054. DOI: [10.1109/SMC52423.2021.9658614](https://doi.org/10.1109/SMC52423.2021.9658614)
    
-7. Victor, C., **T.A. Nguyen**, Silva, L. A., Andrade, E., Santos, G. L., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Assessment and Sensitivity Analysis of a Home Automation System.* 2021 IEEE/ACM 25th International Symposium on Distributed Simulation and Real Time Applications (DS-RT), 1–4. DOI: [10.1109/DS-RT52167.2021.9576142](https://doi.org/10.1109/DS-RT52167.2021.9576142)
+7. Victor, C., **T.A. Nguyen**, Silva, L. A., Andrade, E., Santos, G. L., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Assessment and Sensitivity Analysis of a Home Automation System.* 2021 **IEEE/ACM** 25th International Symposium on Distributed Simulation and Real Time Applications (**DS-RT**), 1–4. DOI: [10.1109/DS-RT52167.2021.9576142](https://doi.org/10.1109/DS-RT52167.2021.9576142)
 
 8. **T.A. Nguyen**, S.W. Jeon, A.A. Maw, D.K. Min, J.W. Lee, (2020),  "*Toward dependable blockchain and AI engines of digital twin systems for urban air mobility*", **The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집**, 2021.07, 408-409. (@[DBpia](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613629))
 
