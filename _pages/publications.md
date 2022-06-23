@@ -57,10 +57,7 @@ author_profile: true
 
 2. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](https:/doi.org/10.5772/intechopen.74306)
 
-
-
 # Conference Proceedings: 
-
 
 4. **T. A. Nguyen**, K. Jeon, J.-W. Lee, I. Fe, and F. A. Silva, *“Model-driven Mission Dependability Design of Unmanned Aerial Systems,”* AIAA 2022-4091. AIAA AVIATION 2022 Forum. June 2022, DOI: [10.2514/6.2022-4091](https:/doi.org/10.2514/6.2022-4091).
 
