@@ -12,7 +12,7 @@ author_profile: true
 
 1. Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., **Nguyen, T. A.**, & Min, D. (2022). *hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast*. Applied Sciences, 12(13). DOI: [10.3390/app12136412](https://doi.org/10.3390/app12136412) **(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)**
 
-4. F. A. Silva, I. Fé, C. Brito, G. Araújo, L. Feitosa, E. Choi, D. Min, and T. A. Nguyen, *Supporting availability evaluation of a smart building monitoring system aided by fog computing*, **IET Electronics Letters**, Apr. 2022, DOI:[10.1049/ell2.12502](https://doi.org/10.1049/ell2.12502) **(SCIE, JCR.Q4.Eng. Electrical & Electronic, Ranking 220/273, IF2020=1.314)**
+4. F. A. Silva, I. Fé, C. Brito, G. Araújo, L. Feitosa, E. Choi, D. Min, and **T. A. Nguyen**, *Supporting availability evaluation of a smart building monitoring system aided by fog computing*,**IET Electronics Letters**, Apr. 2022, DOI:[10.1049/ell2.12502](https://doi.org/10.1049/ell2.12502)**(SCIE, JCR.Q4.Eng. Electrical & Electronic, Ranking 220/273, IF2020=1.314)**
 
 5. V. Kumar Kaliappan, **T. A. Nguyen**, D. Min, J.-W. Lee, and U. Sakthi, *Steering Behavior-based Multiple RUAV Obstacle Avoidance Control* **Intelligent Automation & Soft Computing**, vol. 34, no. 1, pp. 575–591, 2022, DOI:[10.32604/iasc.2022.024577](https://doi.org/10.32604/iasc.2022.024577) **(SCIE, JCR.Q3.Automation & Control., Ranking 44/64, IF2020=1.647)**
 
