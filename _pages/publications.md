@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<span style="font-family: times, serif; font-size:11pt; font-style:italic; color:red"> *Last Update: June. 25, 2022* </span>
+<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: June. 25, 2022* </span>
 
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
