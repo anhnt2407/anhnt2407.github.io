@@ -61,6 +61,10 @@ author_profile: true
 
 # Conference Proceedings: 
 
+1. Minseok Jang, Jeongseok Hyun, **T.A. Nguyen**, Jae-Woo Lee, (2022),  "*Attitude Stabilization of eVTOL in Hovering Mode using Neural Network based Control with Lyapunov Theorem*", **The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집**, 2022.04, 322-323. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076828))
+
+2. **T.A. Nguyen**, Jueying Li, Minseok Jang, Aye Aye Maw, Vinh Pham, Jae-Woo Lee, (2022),  "*Cloud-in-the-loop simulation: A cloud-based digital twin HW/SW framework for multi-mode AI control simulation of eVTOL KADA-UAM Personal Aerial Vehicles*", **The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집**, 2022.04, 138-139. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076743))
+
 4. **T. A. Nguyen**, K. Jeon, J.-W. Lee, I. Fe, and F. A. Silva, *“Model-driven Mission Dependability Design of Unmanned Aerial Systems,”* AIAA 2022-4091. **AIAA AVIATION 2022 Forum**. June 2022, DOI: [10.2514/6.2022-4091](https://doi.org/10.2514/6.2022-4091).
 
 5. G. Araújo, C. Brito, L. Correia, **T.A. Nguyen**, J. Lee, and F. Silva, *“Mobile Games at the Edge: A Performance Evaluation to Guide Resource Capacity Planning,”* in Proceedings of the 12th International Conference on Cloud Computing and Services Science (**CLOSER**), 2022, pp. 238–245, DOI: [10.5220/0011071200003200](https://doi.org/10.5220/0011071200003200).
