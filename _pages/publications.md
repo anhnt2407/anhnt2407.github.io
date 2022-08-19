@@ -10,7 +10,7 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., **Nguyen, T. A.**, & Lee, J.-W. (2022). Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs. Sensors, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) **(SCIE, JCR.Q1.Instru., Ranking 19/64, IF2021=3.847)**
+1. Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., **Nguyen, T. A.**, & Lee, J.-W. (2022). Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs. Sensors, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) **(SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)**
 
 5. Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., **Nguyen, T. A.**, & Min, D. (2022). *hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast*. Applied Sciences, 12(13). DOI: [10.3390/app12136412](https://doi.org/10.3390/app12136412) **(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)**
 
