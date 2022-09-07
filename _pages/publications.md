@@ -7,7 +7,6 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: June. 25, 2022* </span>
 
-
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
 1. Tyan, M., Choi, C.-K., **Nguyen, T. A.**, & Lee, J.-W. (2022). Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection. International Journal of Aeronautical and Space Sciences. <https://doi.org/10.1007/s42405-022-00507-x>, **(SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)**
