@@ -1,6 +1,6 @@
 ---
 permalink: /miscellaneous/
-title: "Misc."
+title: ""
 ---
 
 1. Nước Việt Nam là một! [.](https://www.facebook.com/nguyen.nam.54/posts/10216502640347136)
