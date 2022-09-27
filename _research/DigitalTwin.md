@@ -1,11 +1,7 @@
 ---
 title: "Measurement"
 layout: single-portfolio
-excerpt: "<img src='/images/research/Agreement-Strength.png' alt=''>"
 collection: research
-order_number: 20
-header:
-  og_image: "research/Agreement-Strength.png"
 ---
 
 # Digital Twin Requirements
@@ -21,6 +17,7 @@ Innovative DT technology has the potential to transform a number of expanding in
 The overall architecture of an UAM-ODT entails four fundamental modules, as shown in Fig. 1: (i) neural digital twin dynamic engines (DTDE), (ii) neural digital twin control engines (DTCE), (iii) digital twin control frame, and (iv)  (DTCI) cloud infrastructure. The DTDE module uses learning-based approaches to duplicate the UAM cars' aerodynamics. DTCE module handles the control duties, whereby robust control, optimum control, and adaptive control may be produced for the vehicle's safety.
 
 ![](../assets/img/UAM_ODT.png)
+
 **Fig. 1. UAM Vehicle Digital Twinization Engines**
 
 These two components will digitalize the vehicle's dynamics and control, ensuring that its operations in both the digital and physical worlds may be exact replicas of one another. The DTCF module is designed to provide a DT bridge connecting the vehicle's physical and DTs. This module can offer tele-operation services, fault-tolerant control, or traffic prediction and management. Without loss of generality, if the physical vehicle's dynamics and control are accurately represented in the digital space, along with the digital environment (such as cities, regions, and countries), the operations in the digital space can be successfully applied to the physical space. The UAM-ODT system as a whole runs continuously on the DTCI module to create a virtual representation of the actual UAM physical infrastructure.
