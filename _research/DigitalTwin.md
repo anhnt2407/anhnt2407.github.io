@@ -1,7 +1,10 @@
 ---
-title: "Measurement"
-layout: single-portfolio
-collection: research
+layout: archive
+title: "Research"
+permalink: /research/
+author_profile: true
+header:
+  og_image: "collaborators/ecdf.png"
 ---
 
 # Digital Twin Requirements
