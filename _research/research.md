@@ -6,6 +6,7 @@ author_profile: true
 header:
   og_image: "collaborators/ecdf.png"
 ---
+
 ## [Neural Dynamics and Control](./NeuralDynamicsControl.md)
 
 
