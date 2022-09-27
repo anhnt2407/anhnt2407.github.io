@@ -6,6 +6,9 @@ author_profile: true
 header:
   og_image: "collaborators/ecdf.png"
 ---
+## [Neural Dynamics and Control](./NeuralDynamicsControl.md)
+
+
 ## [Digital Twin Area](./DigitalTwin.md)
 
 - Digital twin (DT) is a pioneering technology and a promising game-changer in various emerging industries.
