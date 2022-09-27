@@ -1,6 +1,11 @@
 ---
-layout: page
-title: UAM Digital Twin Technology
+title: "Measurement"
+layout: single-portfolio
+excerpt: "<img src='/images/research/Agreement-Strength.png' alt=''>"
+collection: research
+order_number: 20
+header:
+  og_image: "research/Agreement-Strength.png"
 ---
 
 # Digital Twin Requirements
