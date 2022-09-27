@@ -7,10 +7,10 @@ header:
   og_image: "collaborators/ecdf.png"
 ---
 
-## [Neural Dynamics and Control](./NeuralDynamicsControl.md)
+## [Neural Dynamics and Control](../NeuralDynamicsControl.md)
 
 
-## [Digital Twin Area](./DigitalTwin.md)
+## [Digital Twin Area](../DigitalTwin.md)
 
 - Digital twin (DT) is a pioneering technology and a promising game-changer in various emerging industries.
 - The concept of DT opens a world of possibilities for fundamentally the infusion of physical-twin specific computational models which are dynamically updated into a feedback loop of data-driven analysis and decision-making.
@@ -19,7 +19,7 @@ header:
 
 <br/>
 
-## [Depedability and Security Quantification Area](./DependabilitySecurity.md)
+## [Depedability and Security Quantification Area](../DependabilitySecurity.md)
 
 - Dependability and security are of five distinctive natures (along with functionality, performance, and cost) for computing and communication systems.
 - Computing systems and networks with a sophisticated composition of multi-level systems and things are inevitably prone to a chain of threats (faults, errors, and failures) which eventually causes fatal losses, such as service interruption/outage, data leak, or even human lives.
