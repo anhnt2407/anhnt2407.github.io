@@ -1,10 +1,6 @@
 ---
 layout: archive
-title: "Research"
-permalink: /research/
-author_profile: true
-header:
-  og_image: "collaborators/ecdf.png"
+title: "Digital Twin"
 ---
 
 # Digital Twin Requirements
