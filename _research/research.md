@@ -10,7 +10,7 @@ header:
 ## [Neural Dynamics and Control](../NeuralDynamicsControl.md)
 
 
-## [Digital Twin Area](./_research/DigitalTwin.md)
+## [Digital Twin Area](DigitalTwin.md)
 
 - Digital twin (DT) is a pioneering technology and a promising game-changer in various emerging industries.
 - The concept of DT opens a world of possibilities for fundamentally the infusion of physical-twin specific computational models which are dynamically updated into a feedback loop of data-driven analysis and decision-making.
