@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Digital Twin"
+title: "UAM Digital Twin Technology"
 permalink: /research/DigitalTwin
 author_profile: true
 ---
