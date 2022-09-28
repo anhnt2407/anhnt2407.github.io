@@ -1,7 +1,10 @@
 ---
 layout: archive
 title: "Digital Twin"
+permalink: /research/DigitalTwin
+author_profile: true
 ---
+
 
 # Digital Twin Requirements
 
