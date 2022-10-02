@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Dependability and Security"
-permalink: /research/DS
+permalink: /research/Dependability_Security
 author_profile: true
 ---
 
