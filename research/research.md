@@ -15,7 +15,7 @@ header:
 
 <br/>
 
-## [Digital Twin Area](./DigitalTwin.md)
+## [Digital Twin Area](./Digital_Twin.md)
 
 - Digital twin (DT) is a pioneering technology and a promising game-changer in various emerging industries.
 - The concept of DT opens a world of possibilities for fundamentally the infusion of physical-twin specific computational models which are dynamically updated into a feedback loop of data-driven analysis and decision-making.
