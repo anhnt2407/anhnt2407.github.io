@@ -64,11 +64,11 @@ author_profile: true
 
 # Conference Proceedings: 
 
-1. **T.A. Nguyen**, Kaliappan, V. K., Jeon, S., Jeon, K., Lee, J.-W., & Min, D. (2023). Blockchain Empowered Federated Learning with Edge Computing for Digital Twin Systems in Urban Air Mobility (pp. 935–950). DOI: [10.1007/978-981-19-2635-8_69](https://doi.org/10.1007/978-981-19-2635-8_69)
+1. **T.A. Nguyen**, Kaliappan, V. K., Jeon, S., Jeon, K., Lee, J.-W., & Min, D. (2023). *Blockchain Empowered Federated Learning with Edge Computing for Digital Twin Systems in Urban Air Mobility* (pp. 935–950). DOI: [10.1007/978-981-19-2635-8_69](https://doi.org/10.1007/978-981-19-2635-8_69)
    
-2. Kaliappan, V. K., **T.A. Nguyen**, Jeon, S. W., Lee, J.-W., & Min, D. (2023). Deep Multi Agent Reinforcement Learning Based Decentralized Swarm UAV Control Framework for Persistent Surveillance (pp. 951–962). [10.1007/978-981-19-2635-8_70](https://doi.org/10.1007/978-981-19-2635-8_70)
+2. Kaliappan, V. K., **T.A. Nguyen**, Jeon, S. W., Lee, J.-W., & Min, D. (2023). *Deep Multi Agent Reinforcement Learning Based Decentralized Swarm UAV Control Framework for Persistent Surveillance* (pp. 951–962). [10.1007/978-981-19-2635-8_70](https://doi.org/10.1007/978-981-19-2635-8_70)
 
-3. Jo, H., Lee, H., Jeon, S., Kaliappan, V. K., **T.A. Nguyen**, T., Min, D., & Lee, J.-W. (2023). Multi-agent Reinforcement Learning-Based UAS Control for Logistics Environments (pp. 963–972). DOI: [10.1007/978-981-19-2635-8_71](https://doi.org/10.1007/978-981-19-2635-8_71)
+3. Jo, H., Lee, H., Jeon, S., Kaliappan, V. K., **T.A. Nguyen**, T., Min, D., & Lee, J.-W. (2023). *Multi-agent Reinforcement Learning-Based UAS Control for Logistics Environments* (pp. 963–972). DOI: [10.1007/978-981-19-2635-8_71](https://doi.org/10.1007/978-981-19-2635-8_71)
 
 5. **T.A. Nguyen**, J. -W. Lee, I. de Sousa Fé and F. A. Silva, "A Hierarchical Model based Survivability and Resiliency Evaluation of Medical Edge Networks," 2022 **IEEE** Ninth International Conference on Communications and Electronics (**ICCE**), 2022, pp. 87-92, DOI: [10.1109/ICCE55644.2022.98520596](http://dx.doi.org/10.1109/ICCE55644.2022.9852059)
    
