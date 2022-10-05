@@ -7,7 +7,7 @@ author_profile: true
 
 ---------------------------------------
 
-<span style="color:blue; font-size:16px"> Research on Dependability of Virtualized Servers Systems (VSS) </span>
+<span style="color:blue; font-size:16px; font-weight: bold"> Research on Dependability of Virtualized Servers Systems (VSS) </span>
 
 ### Abstract
 
