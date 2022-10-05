@@ -10,8 +10,12 @@ header:
 ## [Neural Dynamics and Control](./Neural_Dynamics_Control.md)
 
 - We believe artificial intelligence (AI) and data science (DS) will change the whole aerospace industries.
-- 
-- 
+- Dynamics theories represent dynamical behaviors of systems using dynamics models which are the approximation observed reality by the deep understanding and modeling of dynamic processes.
+- Dynamics are expressed by a system of (ordinary/partial | under-determined | deterministic/stochastic | differential/difference) equations.
+- How to analyze dynamics to develop control systems on the basis of observed data rather than attempt to study models analytically?
+- How to analyze algorithms to develop control systems for the guarantee of the highest-level safety in UAM-ODT?
+
+
 
 <br/>
 
