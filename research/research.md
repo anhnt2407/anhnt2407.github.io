@@ -11,7 +11,7 @@ header:
 
 - We believe artificial intelligence (AI) and data science (DS) will change the whole aerospace industries.
 - Dynamics theories represent dynamical behaviors of systems using dynamics models which are the approximation observed reality by the deep understanding and modeling of dynamic processes. Dynamics are expressed by a system of (ordinary/partial --- under-determined --- deterministic/stochastic --- differential/difference) equations.
-- Machine learning addresses algorithms to accomplish non-human tasks based on input data, fundamentally. 
+- Machine learning addresses algorithms to accomplish non-human tasks based on input data, fundamentally. ML algorithms are specially indispensable in the problems without explicit dynamics model but with observed data. 
 - We are working on the intersection of machine learning and dynamics & control to explore the solutions for the two fundamental research questions:
   - How to analyze dynamics to develop control systems on the basis of observed data rather than attempt to study models analytically?
   - How to analyze algorithms to develop control systems for the guarantee of the highest-level safety in urban air mobility (UAM) and its operational digital twin (UAM-ODT)?
