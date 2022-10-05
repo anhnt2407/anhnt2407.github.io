@@ -16,8 +16,6 @@ header:
   - How to analyze dynamics to develop control systems on the basis of observed data rather than attempt to study models analytically?
   - How to analyze algorithms to develop control systems for the guarantee of the highest-level safety in urban air mobility (UAM) and its operational digital twin (UAM-ODT)?
 
-
-
 <br/>
 
 ## [Digital Twin Area](./Digital_Twin.md)
