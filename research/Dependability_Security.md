@@ -7,7 +7,7 @@ author_profile: true
 
 ---------------------------------------
 
-# <span style="color:blue"> Research on Dependability of Virtualized Servers Systems (VSS) </span>
+<span style="color:blue; font-size:16px"> Research on Dependability of Virtualized Servers Systems (VSS) </span>
 
 ### Abstract
 
@@ -37,7 +37,7 @@ We have modeled and analyzed a virtualized servers system with multiple VMs via 
 
 ---------------------------------------
 
-# <span style="color:blue"> Research on Dependability of Disaster Tolerant Data Centers (DTDC) </span>
+<span style="color:blue; font-size:16px"> Research on Dependability of Disaster Tolerant Data Centers (DTDC) </span>
 
 ### Highlights
 
@@ -82,7 +82,7 @@ This research has presented a comprehensive modeling and analysis of a DTDC. Our
 
 ---------------------------------------
 
-# <span style="color:blue"> Research on Dependability of Internet of Medical Things (IoMT) </span>
+<span style="color:blue; font-size:16px"> Research on Dependability of Internet of Medical Things (IoMT) </span>
 
 ### Abstract
 
@@ -134,7 +134,7 @@ Numerous analyses were performed in detail for the developed models of the defau
 
 ---------------------------------------
 
-# <span style="color:blue"> Research on Dependability and Security of Software-Defined Network (SDN) </span>
+<span style="color:blue; font-size:16px"> Research on Dependability and Security of Software-Defined Network (SDN) </span>
 
 ### Abstract
 
