@@ -23,3 +23,18 @@ Attitude stabilization is of paramount importance in the flight control of perso
 
 ***es-DNLC Framework***
 
+![](../assets/img/es_DNLC_Controller_Diagram.png)
+
+***es-DNLC Controller Diagram***
+
+![](../assets/img/es_DNLC_Yaw_Angle_Stabilization.png)
+
+***Result of disturbance in Yaw angle/angular rate***
+
+![](../assets/img/es_DNLC_Yaw_Angle_Response_Comparison.png)
+
+***Yaw angle responses in LQR and es-DNLC***
+
+### Remarks
+
+In contrast to employing locally asymptotic Lyapunov functions as a learning strategy, es-DNLC is developed in this paper by adopting es-CLF, which significantly guarantee stability and robustness. And a KP-1 multi-copter mode attitude controller is designed for the purpose of stabilising attitude. When comparing the ROA sizes of the LQR and es-DNLC, it can be shown that es-DNLC has a bigger ROA and therefore, provides stability against external disturbances. Additionally, the PX4-Gazebo SILS was built, and testing revealed that the suggested framework performs better than the LQR regarding robust attitude stabilization. Future works consider the complete development of a neural dynamic and control system for a digital twin of the KP-1 vehicle.
