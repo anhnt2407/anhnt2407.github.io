@@ -5,7 +5,7 @@ permalink: /research/Neural_Dynamics_Control
 author_profile: true
 ---
 
-<span style="color:blue; font-size:12px"> es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV </font> </span>
+<span style="color:blue; font-size:16px"> es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV </span>
 
 ### Abstract
 
