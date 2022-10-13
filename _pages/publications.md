@@ -9,7 +9,7 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. Tyan, M., Choi, C.-K., **Nguyen, T. A.**, & Lee, J.-W. (2022). Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection. International Journal of Aeronautical and Space Sciences. <https://doi.org/10.1007/s42405-022-00507-x>, **(SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)**
+1. Tyan, M., Choi, C.-K., **Nguyen, T. A.**, & Lee, J.-W. (2022). *Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection*. International Journal of Aeronautical and Space Sciences. <https://doi.org/10.1007/s42405-022-00507-x>, **(SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)**
    
 2. Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., **Nguyen, T. A.**, & Lee, J.-W. (2022). Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs. Sensors, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) **(SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)**
 
