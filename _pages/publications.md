@@ -9,13 +9,13 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. S. Jeon, H. Lee, V. K. Kaliappan, **T. A. Nguyen**, H. Jo, H. Cho, and D. Min, *“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”* Energies, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
+1. S. Jeon, H. Lee, V. K. Kaliappan, **T. A. Nguyen**, H. Jo, H. Cho, and D. Min, *“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”* **Energies**, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
    
-2. Tyan, M., Choi, C.-K., **T. A., Nguyen**, & Lee, J.-W. (2022). *Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection*. International Journal of Aeronautical and Space Sciences. <https://doi.org/10.1007/s42405-022-00507-x>, (SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)
+2. Tyan, M., Choi, C.-K., **T. A., Nguyen**, & Lee, J.-W. (2022). *Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection*. **International Journal of Aeronautical and Space Sciences.** <https://doi.org/10.1007/s42405-022-00507-x>, (SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)
    
-3. Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., **T. A., Nguyen**, & Lee, J.-W. (2022). Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs. Sensors, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) (SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)
+3. Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., **T. A., Nguyen**, & Lee, J.-W. (2022). Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs. **Sensors**, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) (SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)
 
-4. Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., **T. A., Nguyen**, & Min, D. (2022). *hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast*. Applied Sciences, 12(13). DOI: [10.3390/app12136412](https://doi.org/10.3390/app12136412) (SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
+4. Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., **T. A., Nguyen**, & Min, D. (2022). *hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast*. **Applied Sciences**, 12(13). DOI: [10.3390/app12136412](https://doi.org/10.3390/app12136412) (SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
 
 5. F. A. Silva, I. Fé, C. Brito, G. Araújo, L. Feitosa, E. Choi, D. Min, and **T. A. Nguyen**, *Supporting availability evaluation of a smart building monitoring system aided by fog computing*,**IET Electronics Letters**, Apr. 2022, DOI:[10.1049/ell2.12502](https://doi.org/10.1049/ell2.12502)(SCIE, JCR.Q4.Eng. Electrical & Electronic, Ranking 220/273, IF2020=1.314)
 
