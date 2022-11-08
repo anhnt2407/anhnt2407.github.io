@@ -9,7 +9,7 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. Kaliappan, V.K.; Lalpet Ranganathan, A.B.; Periasamy, S.; Thirumalai, P.; **T. A. Nguyen**; Jeon, S.; Min, D.; Choi, E. ***"Energy-Efficient Offloading Based on Efficient Cognitive Energy Management Scheme in Edge Computing Device with Energy Optimization."*** **Energies** **2022**, 15, 8273. <https://doi.org/10.3390/en15218273>
+1. Kaliappan, V.K.; Lalpet Ranganathan, A.B.; Periasamy, S.; Thirumalai, P.; **T. A. Nguyen**; Jeon, S.; Min, D.; Choi, E. *"Energy-Efficient Offloading Based on Efficient Cognitive Energy Management Scheme in Edge Computing Device with Energy Optimization."* **Energies** **2022**, 15, 8273. <https://doi.org/10.3390/en15218273>
 2. 
 3. S. Jeon, H. Lee, V. K. Kaliappan, **T. A. Nguyen**, H. Jo, H. Cho, and D. Min, *“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”* **Energies**, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
    
