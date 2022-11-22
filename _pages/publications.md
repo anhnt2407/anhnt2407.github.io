@@ -108,7 +108,7 @@ author_profile: true
 
 21. P. Upadhyaya, **T.A. Nguyen**, M. Pokharel, S. Shakya, J. S. Park, “*Modeling & Analysis of Cost Effective High Availability Security Architecture for Whole of Government Systems to cater DDoS attack*”, Proceedings of 2014 International Conference on Computational Intelligence and Computing Research (**ICCIC 2014**), **IEEE**, Tamilnadu, India, Dec 18-20, 2014, DOI: [10.1109/ICCIC.2014.7238293](https://doi.org/10.1109/ICCIC.2014.7238293)
 
-22. **T.A. Nguyen** and J.S. Park, “*Availability Modeling and Analysis in a Virtualized Servers Network*,” in 12th International Conference on Computer Applications 2014 (**ICCA 2014**), Sedona Hotel, Yangon, Myanmar, February 17th-18th, 2014.
+22. **T.A. Nguyen** and J.S. Park, “*Availability Modeling and Analysis in a Virtualized Servers Network*,” in 12th International Conference on Computer Applications 2014 (**ICCA 2014**), Sedona Hotel, Yangon, Myanmar, February 17th-18th, 2014.([paper](https://meral.edu.mm/record/3306/files/12032.pdf))
 
 23. **T.A. Nguyen**, Dohwan Lee, Jong Sou Park, “*Towards Virtualization Technology on Satellite On-board Computer System with Hardware Redundancy, Software Rejuvenation, and Virtual Machine Live Migration Techniques-Modeling, Analysis and Implementation Proposal*”, **IEICETech**. Rep., vol. 113, no. 335, **SANE2013-98**, pp 157-162, International Conference on Space, Aeronautical and Navigational Electronics, Hanoi, Vietnam, 2013 ([paper](http://www.ieice.org/ken/paper/20131203lB7P/eng/))
 
