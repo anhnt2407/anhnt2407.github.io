@@ -67,6 +67,10 @@ author_profile: true
 2. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](https:/doi.org/10.5772/intechopen.74306)
 
 # Conference Proceedings: 
+
+
+2. **T.A. Nguyen**, D. Min, E. Choi, I. Fe, and F. A. Silva, “*Survivability and Resiliency Modeling and Analysis of an Internet of Industrial Things using Hierarchical Models*,” in 2022 **IEEE Cloud Summit**, Oct. 2022, pp. 118–123. doi: [10.1109/CloudSummit54781.2022.00024](https://doi.org/10.1109/CloudSummit54781.2022.00024)
+
   
 2. **T.A. Nguyen**, Kaliappan, V.K., Jeon, S., Jeon, Ks., Lee, JW., Min, D. (2023). *Blockchain Empowered Federated Learning with Edge Computing for Digital Twin Systems in Urban Air Mobility.* In: Lee, S., Han, C., Choi, JY., Kim, S., Kim, J.H. (eds) The Proceedings of the 2021 Asia-Pacific International Symposium on Aerospace Technology (**APISAT 2021**), Volume 2. APISAT 2021. Lecture Notes in Electrical Engineering, vol 913. Springer, Singapore. DOI: [10.1007/978-981-19-2635-8_69](https://doi.org/10.1007/978-981-19-2635-8_69)
    
