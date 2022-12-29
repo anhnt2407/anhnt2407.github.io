@@ -8,25 +8,25 @@ author_profile: true
 
 # Digital Twin Requirements
 
-It is required to develop a vehicle digital twin (DT) for urban air mobility (UAM) which relies on an accurate, physics-based emulator to characterize the statics and dynamics of a vehicle. Because, the adoption of digital twin in operations and control of the vehicle is necessary for the UAM operational digital twin infrastructures (UAM-ODT). The issues are: (i) lack of digital twin engines for the digitalization (twinization) of dynamics and control of UAM vehicle running at the core center of UAM-ODT systems; and (ii) lack of back-end system engineering in the development of UAM vehicle DT. In that regard, our research proposes and discusses on an engineering direction for the development of UAM vehicle DT engines and systems.
+A digital twin (DT) of a vehicle is required for urban air mobility (UAM) to accurately represent the statics and dynamics of the vehicle. The adoption of a DT in the operations and control of the UAM vehicle is necessary for the UAM operational digital twin infrastructure (UAM-ODT). However, there are two major issues that need to be addressed in the development of a UAM vehicle DT: (i) the lack of DT engines for the digitalization of the dynamics and control of the UAM vehicle at the core of UAM-ODT systems, and (ii) the lack of back-end system engineering in the development of the UAM vehicle DT. This research aims to address these issues by proposing and discussing an engineering direction for the development of UAM vehicle DT engines and systems.
 
 # Introduction
 
-Innovative DT technology has the potential to transform a number of expanding industries. In DT, the idea of incorporating physical-twin-specific calculations into a feedback loop of data-driven analysis and dynamically updated decision-making is introduced. DTs are collections of connected computational models that progressively change state-spaces over time to mimic the underlying structure, behaviours, and environment of their physical counterparts [1,2]. This research presents a study on how the UAM vehicle DT can be developed by proposing fundamental engines for the transformation of dynamics and control of a UAM vehicle from real to digital spaces.
+Digital twin (DT) technology has the potential to revolutionize a variety of growing industries by incorporating physics-based calculations into a feedback loop of data-driven analysis and dynamic decision-making. DTs are collections of interconnected computational models that evolve over time to mimic the underlying structure, behavior, and environment of their physical counterparts [1,2]. In this research, we explore how to develop a DT for a UAM vehicle by proposing fundamental engines for the transformation of the dynamics and control of the UAM vehicle from the real to the digital domain.
 
 # UAM Vehicle Digital Twinization Engines
 
-The overall architecture of an UAM-ODT entails four fundamental modules, as shown in Fig. 1: (i) neural digital twin dynamic engines (DTDE), (ii) neural digital twin control engines (DTCE), (iii) digital twin control frame, and (iv)  (DTCI) cloud infrastructure. The DTDE module uses learning-based approaches to duplicate the UAM cars' aerodynamics. DTCE module handles the control duties, whereby robust control, optimum control, and adaptive control may be produced for the vehicle's safety.
+The overall architecture of a UAM operational digital twin (UAM-ODT) consists of four fundamental modules, as depicted in Figure 1: (i) neural digital twin dynamic engines (DTDE), (ii) neural digital twin control engines (DTCE), (iii) digital twin control frame, and (iv) cloud infrastructure (DTCI). The DTDE module utilizes learning-based techniques to replicate the aerodynamics of UAM vehicles. The DTCE module is responsible for control tasks, allowing for the production of robust, optimal, and adaptive control for the safety of the vehicle.
 
 ![](../assets/img/UAM_ODT.png)
 
 **Fig. 1. UAM Vehicle Digital Twinization Engines**
 
-These two components will digitalize the vehicle's dynamics and control, ensuring that its operations in both the digital and physical worlds may be exact replicas of one another. The DTCF module is designed to provide a DT bridge connecting the vehicle's physical and DTs. This module can offer tele-operation services, fault-tolerant control, or traffic prediction and management. Without loss of generality, if the physical vehicle's dynamics and control are accurately represented in the digital space, along with the digital environment (such as cities, regions, and countries), the operations in the digital space can be successfully applied to the physical space. The UAM-ODT system as a whole runs continuously on the DTCI module to create a virtual representation of the actual UAM physical infrastructure.
+The DTDE and DTCE modules will digitalize the dynamics and control of the vehicle, ensuring that the operations in both the digital and physical worlds are identical. The DTCF module serves as a bridge connecting the physical and digital twins of the vehicle and can provide teleoperation services, fault-tolerant control, or traffic prediction and management. If the physical vehicle's dynamics and control are accurately represented in the digital space, along with the digital environment (such as cities, regions, and countries), the operations in the digital space can be applied to the physical space. The UAM-ODT system as a whole runs continuously on the DTCI module to create a virtual representation of the actual UAM physical infrastructure.
 
 # Digital Twin Dynamics Engine (DTDE)
 
-To twinize the dynamics of a vehicle, we develop a deep learning based dynamics engine in the form of a deep neural network (DNN) which can capture the real behaviors of vehicle dynamics as shown in Fig. 2. The DNN (Fig. 2 (a)) is trained upon the real flight test data in manual control mode to capture the correlation between the control input and the response states, which is the real vehicle dynamics.
+To digitalize the dynamics of a vehicle, we propose the development of a deep learning-based dynamics engine in the form of a deep neural network (DNN) that can accurately capture the real behavior of vehicle dynamics, as shown in Figure 2. The DNN (shown in Figure 2(a)) is trained on real flight test data in manual control mode to learn the relationship between control inputs and response states, which represents the real vehicle dynamics.
 
 ![](../assets/img/DTDE.png)
 
@@ -42,12 +42,19 @@ To twinize the dynamics of a vehicle, we develop a deep learning based dynamics 
 
 **Fig. 2: Digital Twin Dynamics Engines (DTDE)**
 
-Transfer learning (Fig. 2 (b)) is used to enhance the coverage of training data and to improve the fidelity of dynamics engine. Since the simulation models from different levels of fidelity can provide sufficient operational flight modes. Preliminary results in Fig. 2 (c) show that the approach can apparently clone the flight dynamics of the vehicle both based on simulation data and real flight test data of hexa-copter drone “Sundori” and KP-01 eVTOL vehicle under development in Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk university, Seoul, South Korea.  
+To improve the coverage of training data and enhance the fidelity of the dynamics engine, we utilize transfer learning, as shown in Figure 2(b). This technique allows us to use simulation models of different levels of fidelity to provide sufficient operational flight modes. Initial results in Figure 2(c) indicate that our approach can accurately replicate the flight dynamics of a hexacopter drone and a KP-01 eVTOL vehicle (under development at the Konkuk Aerospace Design-Airworthiness Institute at Konkuk University in South Korea) based on both simulation data and real flight test data.
 
 # Digital Twin Control Engine (DTCE)
 
-Control algorithms of the real vehicle are encapsulated in the DTCE module which includes (i) robust control, es-DNLC [3], a deep neural network control with exponentially stabilizing control Lyapunov functions for attitude stabilization of PAVs in Fig. 3 (a), (ii) optimal control, tilting optimization using reinforcement learning in Fig. 3 (b) to find optimal strategy for tilting scheduling during transition mode, (iii) adaptive control in Fig. 3 (c), which is to optimize control parameters using Bayesian optimization approach and Gaussian processes for dynamics representation.
-The preliminary results in Fig. 3 (d) show that our approach using deep learning based control with Lyapunov stability can guarantee a high level of robustness for operational flights (attitude stabilization) of the UAM vehicle KP-01.
+The control algorithms of the real vehicle are encapsulated in the DTCE module, which includes:
+
+(i) Robust control, using exponential stabilization of deep neural network control with Lyapunov functions (es-DNLC) for attitude stabilization of PAVs, as shown in Figure 3(a).
+
+(ii) Optimal control, using reinforcement learning to find the optimal tilting strategy during the transition mode, as depicted in Figure 3(b).
+
+(iii) Adaptive control, which optimizes control parameters using Bayesian optimization and Gaussian processes for dynamics representation, as shown in Figure 3(c).
+
+Preliminary results in Figure 3(d) indicate that our deep learning-based control with Lyapunov stability can provide a high level of robustness for operational flights (attitude stabilization) of the UAM vehicle KP-01.
 
 ![](../assets/img/Control_Robust.png)
 
