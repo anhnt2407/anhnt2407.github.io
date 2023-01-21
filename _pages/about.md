@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-list-style-type:lower-roman
+
 
 ## **Experiences**
 
@@ -44,12 +44,15 @@ list-style-type:lower-roman
 - **Computer science academic [tree](https://academictree.org/computerscience/tree.php?pid=883276)**
 
 ## **Research Interests**
+
 His fields of research are now on 
-i. Dynamics and Control Theory and Systems
-ii. AI based Digital Twin Systems and Methods
-iii. Computer Science and Software Engineering with specialization in Dependable, Autonomous and Intelligent Systems
-iv. Dependable Computing and Fault-Tolerance of Systems and Networks
-v. Mechatronics and Aerospace Robotic Systems
+<ol type="i">
+<li>Dynamics and Control Theory and Systems</li>
+<li>AI based Digital Twin Systems and Methods</li>
+<li>Computer Science and Software Engineering with specialization in Dependable, Autonomous and Intelligent Systems</li>
+<li>Dependable Computing and Fault-Tolerance of Systems and Networks</li>
+<li>Mechatronics and Aerospace Robotic Systems</li>
+</ol>
 
 <!-- 
 20230121:  -   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
