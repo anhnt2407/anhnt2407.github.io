@@ -43,7 +43,14 @@ redirect_from:
 - **Computer science academic [tree](https://academictree.org/computerscience/tree.php?pid=883276)**
 
 ## **Research Interests**
--   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
+His fields of research are now on 
+- (i) Dynamics and Control Theory and Systems
+- (ii) AI based Digital Twin Systems and Methods
+- (iii) Computer Science and Software Engineering with specialization in Dependable, Autonomous and Intelligent Systems
+- (iv) Dependable Computing and Fault-Tolerance of Systems and Networks
+- (v) Mechatronics and Aerospace Robotic Systems
+
+### 20230121:  -   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
 
 ## **Contact**
 - His hometown is in [Hanoi, Vietnam](https://www.google.co.kr/maps/place/Hanoi,+Ho%C3%A0n+Ki%E1%BA%BFm,+Hanoi,+Vietnam/@20.0953225,105.7067677,8z/data=!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.0277644!4d105.8341598)
