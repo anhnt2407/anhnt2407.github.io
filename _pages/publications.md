@@ -9,7 +9,9 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, **T. A. Nguyen**, J.-W. Lee, and D. Min, “Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility,” **Drones**, vol. 7, no. 1, p. 35, Jan. **2023**, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
+1. Sousa, Rubenilson de, Leonardo Cristian, Leonel Feitosa, Eunmi Choi, Tuan Anh Nguyen, Dugki Min, and Francisco Airton Silva. "Performability Evaluation and Sensitivity Analysis of a Video Streaming on Demand Architecture." Applied Sciences 13, no. 2 (2023): 998. DOI:[10.3390/app13020998]{https://doi.org/10.3390/app13020998} (SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
+2. 
+3. J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, **T. A. Nguyen**, J.-W. Lee, and D. Min, “Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility,” **Drones**, vol. 7, no. 1, p. 35, Jan. **2023**, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
    
 2. Kaliappan, V.K.; Lalpet Ranganathan, A.B.; Periasamy, S.; Thirumalai, P.; **T. A. Nguyen**; Jeon, S.; Min, D.; Choi, E. *"Energy-Efficient Offloading Based on Efficient Cognitive Energy Management Scheme in Edge Computing Device with Energy Optimization."* **Energies** **2022**, 15, 8273. doi: [10.3390/en15197426](https://doi.org/10.3390/en15218273)(SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
 
