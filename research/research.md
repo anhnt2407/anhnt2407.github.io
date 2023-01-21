@@ -5,6 +5,7 @@ permalink: /research/
 author_profile: true
 header:
   og_image: "collaborators/ecdf.png"
+list-style-type:lower-roman;
 ---
 
 ## Overview
