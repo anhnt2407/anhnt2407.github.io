@@ -9,7 +9,7 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. Sousa, Rubenilson de, Leonardo Cristian, Leonel Feitosa, Eunmi Choi, **T. A. Nguyen**, Dugki Min, and Francisco Airton Silva. "_Performability Evaluation and Sensitivity Analysis of a Video Streaming on Demand Architecture._" **Applied Sciences** 13, no. 2 (2023): 998. DOI:[10.3390/app13020998](https://doi.org/10.3390/app13020998)(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
+1. Sousa, Rubenilson de, Leonardo Cristian, Leonel Feitosa, Eunmi Choi, **T. A. Nguyen**, Dugki Min, and Francisco Airton Silva. "_Performability Evaluation and Sensitivity Analysis of a Video Streaming on Demand Architecture._" **Applied Sciences** 13, no. 2 (**2023**): 998. DOI:[10.3390/app13020998](https://doi.org/10.3390/app13020998)(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
 
 3. J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, **T. A. Nguyen**, J.-W. Lee, and D. Min, “Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility,” **Drones**, vol. 7, no. 1, p. 35, Jan. **2023**, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
    
