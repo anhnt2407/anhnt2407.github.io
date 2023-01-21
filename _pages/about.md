@@ -45,10 +45,10 @@ redirect_from:
 ## **Research Interests**
 His fields of research are now on 
 i. Dynamics and Control Theory and Systems
-i. AI based Digital Twin Systems and Methods
-i. Computer Science and Software Engineering with specialization in Dependable, Autonomous and Intelligent Systems
-i. Dependable Computing and Fault-Tolerance of Systems and Networks
-i. Mechatronics and Aerospace Robotic Systems
+ii. AI based Digital Twin Systems and Methods
+iii. Computer Science and Software Engineering with specialization in Dependable, Autonomous and Intelligent Systems
+iv. Dependable Computing and Fault-Tolerance of Systems and Networks
+v. Mechatronics and Aerospace Robotic Systems
 
 <!-- 
 20230121:  -   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
