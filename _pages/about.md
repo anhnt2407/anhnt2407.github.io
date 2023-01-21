@@ -46,7 +46,7 @@ redirect_from:
 ## **Research Interests**
 
 His fields of research are now on 
-<ol type="i.">
+<ol type="low-roman">
 <li>Dynamics and Control Theory and Systems</li>
 <li>AI based Digital Twin Systems and Methods</li>
 <li>Computer Science and Software Engineering with specialization in Dependable, Autonomous and Intelligent Systems</li>
