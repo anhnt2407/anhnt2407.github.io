@@ -3,11 +3,11 @@ permalink: /
 title: "Xin chào-Welcome-환영-Bonjour"
 excerpt: "Tuan Anh Nguyen Webpage"
 author_profile: true
-list-style-type:lower-roman
 redirect_from: 
   - /about/
   - /about.html
 ---
+list-style-type:lower-roman
 
 ## **Experiences**
 
