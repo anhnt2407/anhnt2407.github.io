@@ -7,6 +7,24 @@ header:
   og_image: "collaborators/ecdf.png"
 ---
 
+## Overview
+Our fields of research are now on:
+1. Dynamics and Control Theory and Systems
+1. AI based Digital Twin Systems and Methods
+1. Computer Science and Software Engineering with specialization in Dependable, Autonomous and Intelligent Systems
+1. Dependable Computing and Fault-Tolerance of Systems and Networks
+1. Mechatronics and Aerospace Robotic Systems
+
+Particularly, we are working on the following tracks:
+- intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, 
+- reinforcement learning based intelligent control for unmanned vehicles and robotic systems, 
+- generative adversarial networks (GANs) for digital twins, 
+- dependability and security of systems and networks, 
+- fault tolerance of embedded systems in aerospace and mechatronics, 
+- disaster tolerance and recovery of computing systems, 
+- integration of cloud/fog/edge computing paradigms, 
+- dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
+
 ## [Neural Dynamics and Control](./Neural_Dynamics_Control.md)
 
 - We believe artificial intelligence (AI) and data science (DS) will change the whole aerospace industries.
