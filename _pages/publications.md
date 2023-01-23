@@ -72,6 +72,10 @@ author_profile: true
 
 # Conference Proceedings: 
 
+2. Minseok Jang, Jeongseok Hyun, Taeho Kwag, Chan Gwak, **Tuan Anh Nguyen** and Jae-Woo Lee. "_Robust Attitude Control for PAVs using DNN with Exponentially Stabilizing Control Lyapunov Functions_," AIAA 2023-1443. **AIAA SCITECH 2023 Forum.** January **2023**. doi:[10.2514/6.2023-1443](https://doi.org/10.2514/6.2023-1443)
+
+2. Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, **Tuan Anh Nguyen**, and Jae-Woo Lee. "_es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV_." _In 2022 22nd International Conference on Control, Automation and Systems (ICCAS)_, pp. 81-86. **IEEE**, **2022**. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
+
 
 2. **T.A. Nguyen**, D. Min, E. Choi, I. Fe, and F. A. Silva, “*Survivability and Resiliency Modeling and Analysis of an Internet of Industrial Things using Hierarchical Models*,” in 2022 **IEEE Cloud Summit**, Oct. 2022, pp. 118–123. doi: [10.1109/CloudSummit54781.2022.00024](https://doi.org/10.1109/CloudSummit54781.2022.00024)
 
