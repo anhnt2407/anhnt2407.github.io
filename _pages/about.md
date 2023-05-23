@@ -8,9 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+
 ## **Experiences**
 
-- Tuan Anh Nguyen is now working for Konkuk Aerospace Design-Airworthiness Institute ([KADA](http://kada.konkuk.ac.kr/)) (총장지정KU연구소, 항공우주설계인증연구소) with Prof.[Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea since Jul. 2020 as **an Academic Research Professor (학술연구교수)** in computer science with specialization in Dependable, Autonomous and Intelligent Systems. He is now a **professional member** of **AIAA**, **IEEE**, **IEEE Computer Society**.
+- Tuan Anh Nguyen is now working as **an Academic Research Professor (학술연구교수)** in computer science with specialization in Dependable, Autonomous and Intelligent Systems for Konkuk Aerospace Design-Airworthiness Institute ([KADA](http://kada.konkuk.ac.kr/)) (총장지정KU연구소, 항공우주설계인증연구소) with Prof.[Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea since Jul. 2020.  
+
+- He is now a **professional member** of **AIAA**, **IEEE**, **IEEE Computer Society**. 
+
+- His Ph.D. supervisor (Prof. Dong Seong Kim (김동성)) is an Elected Member of the <span style="color:blue"> **IFIP WG 10.4 on Dependable Computing and Fault Tolerance** </span> (2021 onwards). The IFIP WG 10.4 consists of over <span style="color:blue"> **60 experts** </span>  in the field of fault-tolerance, dependable and secure computing. 
 
 - Previously, he worked as a Research Professor (연구교수) for Office of Research, University-Industry Cooperation Foundation (건국대학교 산학협력단) in collaboration with Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/), Konkuk University since Mar. 2016-Feb.2020. 
 
@@ -30,8 +35,6 @@ redirect_from:
 ## **Academic Genealogy**
 - My Ph.D. dissertation advisors were Professor [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) (Pennsylvania State University, USA, 1994) and Professor [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703) (Korea Aerospace University, South Korea, 2008) (which was also Prof. Park's descendant). 
 
-- Prof. Dong Seong Kim (김동성) is an Elected Member of the **IFIP WG 10.4 on Dependable Computing and Fault Tolerance** (2021 onwards). The IFIP WG 10.4 consists of over **60 experts** in the field of fault-tolerance, dependable and secure computing.
-
 - Professor Dong Seong Kim's postdoc advisor was [Kishor S. Trivedi](https://www.google.com/url?q=https%3A%2F%2Fece.duke.edu%2Ffaculty%2Fkishor-trivedi&sa=D&sntz=1&usg=AFQjCNFbOKBMwU9THL6jJI0bZu8R0SaRVQ) (UIUC, 1974) who is the Hudson **Distinguished** Professor of Electrical and Computer Engineering at Duke University, USA.
 
 - Professor Jong Sou Park's advisor was Paul Thomas Hulina (Pennsylvania State University, 1969); then it runs back through 
@@ -43,7 +46,19 @@ redirect_from:
 - **Computer science academic [tree](https://academictree.org/computerscience/tree.php?pid=883276)**
 
 ## **Research Interests**
--   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
+
+His fields of research are now on 
+<ol type="a">
+<li>Dynamics and Control Theory and Systems</li>
+<li>AI based Digital Twin Systems and Methods</li>
+<li>Computer Science and Software Engineering with specialization in Dependable, Autonomous and Intelligent Systems</li>
+<li>Dependable Computing and Fault-Tolerance of Systems and Networks</li>
+<li>Mechatronics and Aerospace Robotic Systems</li>
+</ol>
+
+<!-- 
+20230121:  -   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
+-->
 
 ## **Contact**
 - His hometown is in [Hanoi, Vietnam](https://www.google.co.kr/maps/place/Hanoi,+Ho%C3%A0n+Ki%E1%BA%BFm,+Hanoi,+Vietnam/@20.0953225,105.7067677,8z/data=!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.0277644!4d105.8341598)

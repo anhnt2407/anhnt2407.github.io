@@ -5,20 +5,30 @@ permalink: /publications/
 author_profile: true
 ---
 
-<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Jan. 07, 2023* </span>
+<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Jan. 20, 2023* </span>
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
+<<<<<<< HEAD
 
 1. PHAM, Vinh, Maxim TYAN, **T. A. Nguyen**, Chi-Ho LEE, L. V. Thang NGUYEN, and Jae-Woo LEE. 2023. “Adaptive Data Fusion Framework for Modeling of Non-Uniform Aerodynamic Data.” Chinese Journal of Aeronautics. doi: [10.1016/j.cja.2023.05.012](https://doi.org/10.1016/j.cja.2023.05.012)(SCIE, JCR.Q1.Aerospace., Ranking 4/34, IF2021=4.061) doi: .
 
 2. J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, **T. A. Nguyen**, J.-W. Lee, and D. Min, “Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility,” **Drones**, vol. 7, no. 1, p. 35, Jan. **2023**, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
+=======
+1. Sousa, Rubenilson de, Leonardo Cristian, Leonel Feitosa, Eunmi Choi, **T. A. Nguyen**, Dugki Min, and Francisco Airton Silva. “_Performability Evaluation and Sensitivity Analysis of a Video Streaming on Demand Architecture,_” **Applied Sciences**, vol. 13, no. 2, p. 998, **Jan. 2023** DOI:[10.3390/app13020998](https://doi.org/10.3390/app13020998)(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
+
+3. J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, **T. A. Nguyen**, J.-W. Lee, and D. Min, “_Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility_,” **Drones**, vol. 7, no. 1, p. 35, **Jan. 2023**, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
+>>>>>>> 0698bce60e888cb1ca0d7df151dd85a6b39e93a8
    
 3. Kaliappan, V.K.; Lalpet Ranganathan, A.B.; Periasamy, S.; Thirumalai, P.; **T. A. Nguyen**; Jeon, S.; Min, D.; Choi, E. *"Energy-Efficient Offloading Based on Efficient Cognitive Energy Management Scheme in Edge Computing Device with Energy Optimization."* **Energies** **2022**, 15, 8273. doi: [10.3390/en15197426](https://doi.org/10.3390/en15218273)(SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
 
 4. S. Jeon, H. Lee, V. K. Kaliappan, **T. A. Nguyen**, H. Jo, H. Cho, and D. Min, *“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”* **Energies**, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
    
+<<<<<<< HEAD
 5. Tyan, M., Choi, C.-K., **T. A., Nguyen**, & Lee, J.-W. (2022). *Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection*. **International Journal of Aeronautical and Space Sciences.** <https://doi.org/10.1007/s42405-022-00507-x>, (SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)
+=======
+4. Tyan, M., Choi, C.-K., **T. A., Nguyen**, & Lee, J.-W. (2022). *Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection*. **International Journal of Aeronautical and Space Sciences.** doi:[10.1007/s42405-022-00507-x](https://doi.org/10.1007/s42405-022-00507-x), (SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)
+>>>>>>> 0698bce60e888cb1ca0d7df151dd85a6b39e93a8
    
 6. Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., **T. A., Nguyen**, & Lee, J.-W. (2022). Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs. **Sensors**, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) (SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)
 
@@ -72,6 +82,10 @@ author_profile: true
 2. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](https:/doi.org/10.5772/intechopen.74306)
 
 # Conference Proceedings: 
+
+2. Minseok Jang, Jeongseok Hyun, Taeho Kwag, Chan Gwak, **Tuan Anh Nguyen** and Jae-Woo Lee. "_Robust Attitude Control for PAVs using DNN with Exponentially Stabilizing Control Lyapunov Functions_," AIAA 2023-1443. **AIAA SCITECH 2023 Forum.** January **2023**. doi:[10.2514/6.2023-1443](https://doi.org/10.2514/6.2023-1443)
+
+2. Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, **Tuan Anh Nguyen**, and Jae-Woo Lee. "_es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV_." _In 2022 22nd International Conference on Control, Automation and Systems (ICCAS)_, pp. 81-86. **IEEE**, **2022**. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
 
 
 2. **T.A. Nguyen**, D. Min, E. Choi, I. Fe, and F. A. Silva, “*Survivability and Resiliency Modeling and Analysis of an Internet of Industrial Things using Hierarchical Models*,” in 2022 **IEEE Cloud Summit**, Oct. 2022, pp. 118–123. doi: [10.1109/CloudSummit54781.2022.00024](https://doi.org/10.1109/CloudSummit54781.2022.00024)
@@ -129,4 +143,4 @@ author_profile: true
 
 27. T.T. Vu, Q.T. Dinh, **T.A. Nguyen**, T.T. Tran, "*Lessons learned in F-1 nano-satellite fabrication project*", **Space Technology and Application Scientific workshop 2010**, Ha Noi, December 16-17, 2010 (Vietnamese)
 
-28. T.T. Vu, Q.T. Dinh, **T.A. Nguyen**, A.T. Vu, V.T. P, V.T. Dao, H.T. Pham, T.T. Tran, D.H. Tran, M.H. Nguyen, V.P. Vu, "*Design and Manufacture of a Nanosatellite for Space Technology Education and Potential Application*", IAC-09.E1.1.11 p8323, Proceedings of 60th International Astronautical Congress (**IAC 2009**), October 12-16, 2009, Daejeon, Republic of Korea, ([paper](http://ftri.fpt.edu.vn/wp-content/uploads/2010/10/IAC-09.E1.1.11-Design-and-manufacture-of-a-nanosatellite-for-space-technology-education-and-potential-application.pdf))
+28. T.T. Vu, Q.T. Dinh, **T.A. Nguyen**, A.T. Vu, V.T. P, V.T. Dao, H.T. Pham, T.T. Tran, D.H. Tran, M.H. Nguyen, V.P. Vu, "*Design and Manufacture of a Nanosatellite for Space Technology Education and Potential Application*", IAC-09.E1.1.11 p8323, Proceedings of 60th International Astronautical Congress (**IAC 2009**), October 12-16, 2009, Daejeon, Republic of Korea, ([paper](https://iafastro.directory/iac/archive/browse/IAC-09/E1/1/5502/))
