@@ -22,7 +22,7 @@ author_profile: true
 6. S. Jeon, H. Lee, V. K. Kaliappan, **T. A. Nguyen**, H. Jo, H. Cho, and D. Min, *“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”* **Energies**, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
    
 7. Tyan, M., Choi, C.-K., **T. A., Nguyen**, & Lee, J.-W. (2022). *Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection*. **International Journal of Aeronautical and Space Sciences.** <https://doi.org/10.1007/s42405-022-00507-x>, (SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)
-=======
+
 1. Tyan, M., Choi, C.-K., **T. A., Nguyen**, & Lee, J.-W. (2022). *Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection*. **International Journal of Aeronautical and Space Sciences.** doi:[10.1007/s42405-022-00507-x](https://doi.org/10.1007/s42405-022-00507-x), (SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)
    
 2. Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., **T. A., Nguyen**, & Lee, J.-W. (2022). Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs. **Sensors**, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) (SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)
@@ -74,13 +74,13 @@ author_profile: true
 
 # Book chapters:
 
-2. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](https:/doi.org/10.5772/intechopen.74306)
+29. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](https:/doi.org/10.5772/intechopen.74306)
 
 # Conference Proceedings: 
 
-2. Minseok Jang, Jeongseok Hyun, Taeho Kwag, Chan Gwak, **Tuan Anh Nguyen** and Jae-Woo Lee. "_Robust Attitude Control for PAVs using DNN with Exponentially Stabilizing Control Lyapunov Functions_," AIAA 2023-1443. **AIAA SCITECH 2023 Forum.** January **2023**. doi:[10.2514/6.2023-1443](https://doi.org/10.2514/6.2023-1443)
+30. Minseok Jang, Jeongseok Hyun, Taeho Kwag, Chan Gwak, **Tuan Anh Nguyen** and Jae-Woo Lee. "_Robust Attitude Control for PAVs using DNN with Exponentially Stabilizing Control Lyapunov Functions_," AIAA 2023-1443. **AIAA SCITECH 2023 Forum.** January **2023**. doi:[10.2514/6.2023-1443](https://doi.org/10.2514/6.2023-1443)
 
-2. Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, **Tuan Anh Nguyen**, and Jae-Woo Lee. "_es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV_." _In 2022 22nd International Conference on Control, Automation and Systems (ICCAS)_, pp. 81-86. **IEEE**, **2022**. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
+31. Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, **Tuan Anh Nguyen**, and Jae-Woo Lee. "_es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV_." _In 2022 22nd International Conference on Control, Automation and Systems (ICCAS)_, pp. 81-86. **IEEE**, **2022**. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
 
 
 2. **T.A. Nguyen**, D. Min, E. Choi, I. Fe, and F. A. Silva, “*Survivability and Resiliency Modeling and Analysis of an Internet of Industrial Things using Hierarchical Models*,” in 2022 **IEEE Cloud Summit**, Oct. 2022, pp. 118–123. doi: [10.1109/CloudSummit54781.2022.00024](https://doi.org/10.1109/CloudSummit54781.2022.00024)
