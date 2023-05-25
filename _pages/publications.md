@@ -11,8 +11,6 @@ author_profile: true
 
 1. PHAM, Vinh, Maxim TYAN, **T. A. Nguyen**, Chi-Ho LEE, L. V. Thang NGUYEN, and Jae-Woo LEE. **2023**. “Adaptive Data Fusion Framework for Modeling of Non-Uniform Aerodynamic Data.”**Chinese Journal of Aeronautics**. doi: [10.1016/j.cja.2023.05.012](https://doi.org/10.1016/j.cja.2023.05.012)(SCIE, JCR.Q1.Aerospace., Ranking 4/34, IF2021=4.061)
 
-2. J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, **T. A. Nguyen**, J.-W. Lee, and D. Min, “Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility,” **Drones**, vol. 7, no. 1, p. 35, Jan. **2023**, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
-
 3. Sousa, Rubenilson de, Leonardo Cristian, Leonel Feitosa, Eunmi Choi, **T. A. Nguyen**, Dugki Min, and Francisco Airton Silva. “_Performability Evaluation and Sensitivity Analysis of a Video Streaming on Demand Architecture,_” **Applied Sciences**, vol. 13, no. 2, p. 998, **Jan. 2023** DOI:[10.3390/app13020998](https://doi.org/10.3390/app13020998)(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
 
 4. J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, **T. A. Nguyen**, J.-W. Lee, and D. Min, “_Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility_,” **Drones**, vol. 7, no. 1, p. 35, **Jan. 2023**, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
