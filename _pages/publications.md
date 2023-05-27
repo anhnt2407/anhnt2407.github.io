@@ -70,7 +70,7 @@ author_profile: true
 
 # Book chapters:
 
-29. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](http:/doi.org/10.5772/intechopen.74306)
+29. **T. A. Nguyen**, D. Min, and E. Choi, “*Stochastic Reward Net-based Modeling Approach for Availability Quantification of Data Center Systems*,” in **Dependability Engineering**, F. P. García Márquez, Ed. Rijeka: InTech, 2018. DOI: [10.5772/intechopen.74306](https://doi.org/10.5772/intechopen.74306)
 
 # Conference Proceedings: 
 
