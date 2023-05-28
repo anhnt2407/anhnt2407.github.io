@@ -106,7 +106,7 @@ author_profile: true
 
 14. **T.A. Nguyen**, Min, D.K., Lee, J.W., (2020),  "*iUAM: Service Survivability of Digital Twin Urban Aerial Mobility*", **The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집**, 2020.11, 689-690. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526249))
 
-15. **T. A. Nguyen**, D. Min, and E. Choi, “*Largeness Problem Mitigation for Stochastic Reward Nets in Modeling and Analysis of a large IoT system*,” in The 6th International Conference on Big Data Applications and Services (**BIGDAS 2018**), August 19-22, 2018, TusStar, Zhengzhou, Henan, China.
+<!-- 15. **T. A. Nguyen**, D. Min, and E. Choi, “*Largeness Problem Mitigation for Stochastic Reward Nets in Modeling and Analysis of a large IoT system*,” in The 6th International Conference on Big Data Applications and Services (**BIGDAS 2018**), August 19-22, 2018, TusStar, Zhengzhou, Henan, China. -->
 
 16. ​L. Zou, X. Rui, **T. A. Nguyen**, D. Min, E. Choi, D. T. Tran, N. S. Nguyen, "*A Scalable Network Area Storage with Virtualization: Modeling and Evaluation using Stochastic Reward Nets*", in proceedings of 2018 International Conference on Information Science and System (**ICISS '18**), April 27--29, 2018, Jeju, Republic of Korea, **ACM** ISBN 978-1-4503-6421-8/18/04, DOI: [10.1145/3209914.3209918](https://doi.org/10.1145/3209914.3209918)
 
