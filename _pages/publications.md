@@ -102,7 +102,7 @@ author_profile: true
    
 12. Victor, C., **T.A. Nguyen**, Silva, L. A., Andrade, E., Santos, G. L., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Assessment and Sensitivity Analysis of a Home Automation System.* 2021 **IEEE/ACM** 25th International Symposium on Distributed Simulation and Real Time Applications (**DS-RT**), 1–4. DOI: [10.1109/DS-RT52167.2021.9576142](https://doi.org/10.1109/DS-RT52167.2021.9576142)
 
-13. **T.A. Nguyen**, S.W. Jeon, A.A. Maw, D.K. Min, J.W. Lee, (2020),  "*Toward dependable blockchain and AI engines of digital twin systems for urban air mobility*", **The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집**, 2021.07, 408-409. (@[DBpia](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613629))
+13. **T.A. Nguyen**, S.W. Jeon, A.A. Maw, D.K. Min, J.W. Lee, (2021),  "*Toward dependable blockchain and AI engines of digital twin systems for urban air mobility*", **The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집**, 2021.07, 408-409. (@[DBpia](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613629))
 
 14. **T.A. Nguyen**, Min, D.K., Lee, J.W., (2020),  "*iUAM: Service Survivability of Digital Twin Urban Aerial Mobility*", **The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집**, 2020.11, 689-690. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526249))
 
