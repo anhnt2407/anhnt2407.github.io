@@ -76,7 +76,7 @@ author_profile: true
 
 30. Minseok Jang, Jeongseok Hyun, Taeho Kwag, Chan Gwak, **Tuan Anh Nguyen** and Jae-Woo Lee. "_Robust Attitude Control for PAVs using DNN with Exponentially Stabilizing Control Lyapunov Functions_," AIAA 2023-1443. **AIAA SCITECH 2023 Forum.** January **2023**. doi:[10.2514/6.2023-1443](https://doi.org/10.2514/6.2023-1443)
 
-31. Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, **Tuan Anh Nguyen**, and Jae-Woo Lee. "_es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV_." _In 2022 22nd International Conference on Control, Automation and Systems (ICCAS)_, pp. 81-86. **IEEE**, **2022**. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
+31. Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, **Tuan Anh Nguyen**, and Jae-Woo Lee. "*es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV*." In 2022 22nd International Conference on Control, Automation and Systems (**ICCAS 2022**), pp. 81-86.**IEEE**,**2022**. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
 
 
 2. **T.A. Nguyen**, D. Min, E. Choi, I. Fe, and F. A. Silva, “*Survivability and Resiliency Modeling and Analysis of an Internet of Industrial Things using Hierarchical Models*,” in 2022 **IEEE Cloud Summit**, Oct. 2022, pp. 118–123. doi: [10.1109/CloudSummit54781.2022.00024](https://doi.org/10.1109/CloudSummit54781.2022.00024)
@@ -114,7 +114,7 @@ author_profile: true
 
 18. **T. A. Nguyen**, X. Rui, D. Lim, J. Oh, D. Min, E. Choi, D. T. Tran, and Nhu Son Nguyen, “*Model-based sensitivity of a disaster tolerant active-active genesis cloud system*,” in proceedings of 3rd **EAI** International Conference on Industrial Networks and Intelligent Systems, **INISCOM2017**, Sep. 04, 2017, Ho Chi Minh city, Vietnam, online published in: Chen Y., Duong T. (eds) Industrial Networks and Intelligent Systems. INISCOM 2017. Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 221. Springer, Cham, DOI: [10.1007/978-3-319-74176-5_20](https://doi.org/10.1007/978-3-319-74176-5_20).
 
-19. K. Han, **T. A. Nguyen**, D. Min, and E. M. Choi, “*An Evaluation of Availability, Reliability and Power Consumption for a SDN Infrastructure using Stochastic Reward Net*,” **Lect. Notes Electr. Eng.** - **Springer**, 2016, DOI: [10.1007/978-981-10-3023-9_98](https://doi.org/10.1007/978-981-10-3023-9_98)
+19. Han, K., **T. A. Nguyen**, Min, D., Choi, E.M. (2017). “*An Evaluation of Availability, Reliability and Power Consumption for a SDN Infrastructure using Stochastic Reward Net*,” In: Park, J., Pan, Y., Yi, G., Loia, V. (eds) **Advances in Computer Science and Ubiquitous Computing. UCAWSN CUTE CSA 2016. Lecture Notes in Electrical Engineering**, vol 421. Springer, Singapore. DOI: [10.1007/978-981-10-3023-9_98](https://doi.org/10.1007/978-981-10-3023-9_98)
 
 20. D. S. Kim, J. B. Hong, **T. A. Nguyen**, F. Machida, and K. S. Trivedi, “*Availability Modeling and Analysis of a Virtualized System using Stochastic Reward Nets*,” in Proceedings of 16th IEEE International Conference on Computer and Information Technology (**IEEE CIT 2016**), IEEE, 2016, DOI: [10.1109/CIT.2016.97](https://doi.org/10.1109/CIT.2016.97)
 
