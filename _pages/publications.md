@@ -9,13 +9,13 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. PHAM, Vinh, Maxim TYAN, *T. A. Nguyen*, Chi-Ho LEE, L. V. Thang NGUYEN, and Jae-Woo LEE. _2023_. “Adaptive Data Fusion Framework for Modeling of Non-Uniform Aerodynamic Data.”_Chinese Journal of Aeronautics_. doi: [10.1016/j.cja.2023.05.012](https://doi.org/10.1016/j.cja.2023.05.012)<span style="color:blue">(SCIE, JCR.Q1.Aerospace., Ranking 4/34, IF2021=4.061)</span>
+1. PHAM, Vinh, Maxim TYAN, *T. A. Nguyen*, Chi-Ho LEE, L. V. Thang NGUYEN, and Jae-Woo LEE. _2023_. “*Adaptive Data Fusion Framework for Modeling of Non-Uniform Aerodynamic Data.*”_Chinese Journal of Aeronautics_. doi: [10.1016/j.cja.2023.05.012](https://doi.org/10.1016/j.cja.2023.05.012)<span style="color:blue">(SCIE, JCR.Q1.Aerospace., Ranking 4/34, IF2021=4.061)</span>
 
 3. Sousa, Rubenilson de, Leonardo Cristian, Leonel Feitosa, Eunmi Choi, *T. A. Nguyen*, Dugki Min, and Francisco Airton Silva. “_Performability Evaluation and Sensitivity Analysis of a Video Streaming on Demand Architecture,_” _Applied Sciences_, vol. 13, no. 2, p. 998, _Jan. 2023_ DOI:[10.3390/app13020998](https://doi.org/10.3390/app13020998)(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
 
 4. J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, *T. A. Nguyen*, J.-W. Lee, and D. Min, “_Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility_,” _Drones_, vol. 7, no. 1, p. 35, _Jan. 2023_, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
    
-5. Kaliappan, V.K.; Lalpet Ranganathan, A.B.; Periasamy, S.; Thirumalai, P.; *T. A. Nguyen*; Jeon, S.; Min, D.; Choi, E. *"Energy-Efficient Offloading Based on Efficient Cognitive Energy Management Scheme in Edge Computing Device with Energy Optimization."* _Energies_ _2022_, 15, 8273. doi: [10.3390/en15197426](https://doi.org/10.3390/en15218273)(SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
+5. Kaliappan, V.K.; Lalpet Ranganathan, A.B.; Periasamy, S.; Thirumalai, P.; *T. A. Nguyen*; Jeon, S.; Min, D.; Choi, E. **"Energy-Efficient Offloading Based on Efficient Cognitive Energy Management Scheme in Edge Computing Device with Energy Optimization."** _Energies_ _2022_, 15, 8273. doi: [10.3390/en15197426](https://doi.org/10.3390/en15218273)(SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
 
 6. S. Jeon, H. Lee, V. K. Kaliappan, *T. A. Nguyen*, H. Jo, H. Cho, and D. Min, *“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”* _Energies_, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
    
@@ -74,15 +74,15 @@ author_profile: true
 
 # Conference Proceedings: 
 
-3. S. Lee, *T. A. Nguyen* and D. Min, "*QR-GAN: Generative Adversarial Networks meet Quantile Regression,*" 2023 15th International Conference on Advanced Computational Intelligence (_ICACI_), Seoul, Korea, Republic of, _2023_, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146143](https://doi.org/10.1109/ICACI58115.2023.10146143)
+3. S. Lee, *T. A. Nguyen* and D. Min, "**QR-GAN: Generative Adversarial Networks meet Quantile Regression,**" 2023 15th International Conference on Advanced Computational Intelligence (_ICACI_), Seoul, Korea, Republic of, _2023_, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146143](https://doi.org/10.1109/ICACI58115.2023.10146143)
 
-1. M. -H. Kim, *T. A. Nguyen* and D. Min, "*An Efficient Personal Key Recovery in Self-Sovereign Identity Environments*," 2023 15th International Conference on Advanced Computational Intelligence (_ICACI_), Seoul, Korea, Republic of, _2023_, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146166](https://doi.org/10.1109/ICACI58115.2023.10146166)
+1. M. -H. Kim, *T. A. Nguyen* and D. Min, "**An Efficient Personal Key Recovery in Self-Sovereign Identity Environments**" 2023 15th International Conference on Advanced Computational Intelligence (_ICACI_), Seoul, Korea, Republic of, _2023_, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146166](https://doi.org/10.1109/ICACI58115.2023.10146166)
 
-2. S. Nam, C. Woo, S. Kang, *T. A. Nguyen* and D. Min, "*iNAV-drlSLAM: An Improved Indoor Self-Driving Framework for Mobile Robots using Deep Reinforcement Learning integrated with SLAM,*" 2023 15th International Conference on Advanced Computational Intelligence (_ICACI_), Seoul, Korea, Republic of, _2023_, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146173](https://doi.org/10.1109/ICACI58115.2023.10146173)
+2. S. Nam, C. Woo, S. Kang, *T. A. Nguyen* and D. Min, "**iNAV-drlSLAM: An Improved Indoor Self-Driving Framework for Mobile Robots using Deep Reinforcement Learning integrated with SLAM,**" 2023 15th International Conference on Advanced Computational Intelligence (_ICACI_), Seoul, Korea, Republic of, _2023_, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146173](https://doi.org/10.1109/ICACI58115.2023.10146173)
 
 4. Minseok Jang, Jeongseok Hyun, Taeho Kwag, Chan Gwak, _T. A. Nguyen_ and Jae-Woo Lee. "_Robust Attitude Control for PAVs using DNN with Exponentially Stabilizing Control Lyapunov Functions_," AIAA 2023-1443. _AIAA SCITECH 2023 Forum._ January _2023_. doi:[10.2514/6.2023-1443](https://doi.org/10.2514/6.2023-1443)
 
-5. Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, _T. A. Nguyen_, and Jae-Woo Lee. "*es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV*." In 2022 22nd International Conference on Control, Automation and Systems (_ICCAS 2022_), pp. 81-86._IEEE_,_2022_. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
+5. Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, _T. A. Nguyen_, and Jae-Woo Lee. "**es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV*." In 2022 22nd International Conference on Control, Automation and Systems (_ICCAS 2022_), pp. 81-86._IEEE_,_2022_. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
 
 
 2. _T.A. Nguyen_, D. Min, E. Choi, I. Fe, and F. A. Silva, “**Survivability and Resiliency Modeling and Analysis of an Internet of Industrial Things using Hierarchical Models***” in 2022 _IEEE Cloud Summit_, Oct. 2022, pp. 118–123. doi: [10.1109/CloudSummit54781.2022.00024](https://doi.org/10.1109/CloudSummit54781.2022.00024)
@@ -94,11 +94,11 @@ author_profile: true
 
 4. H. Jo, H. Lee, S. Jeon, V. K. Kaliappan, *T. A. Nguyen*, D. Min, and J.-W. Lee (2023). *Multi-agent Reinforcement Learning-Based UAS Control for Logistics Environments.* In: Lee, S., Han, C., Choi, JY., Kim, S., Kim, J.H. (eds) The Proceedings of the 2021 Asia-Pacific International Symposium on Aerospace Technology (_APISAT 2021_), Volume 2. APISAT 2021. Lecture Notes in Electrical Engineering, vol 913. Springer, Singapore. DOI: [10.1007/978-981-19-2635-8_71](https://doi.org/10.1007/978-981-19-2635-8_71)
 
-5. _T.A. Nguyen_, J. -W. Lee, I. de Sousa Fé and F. A. Silva, *"A Hierarchical Model based Survivability and Resiliency Evaluation of Medical Edge Networks,"* 2022 _IEEE_ Ninth International Conference on Communications and Electronics (_ICCE_), 2022, pp. 87-92, DOI: [10.1109/ICCE55644.2022.98520596](http://dx.doi.org/10.1109/ICCE55644.2022.9852059)
+5. _T.A. Nguyen_, J. -W. Lee, I. de Sousa Fé and F. A. Silva, **"A Hierarchical Model based Survivability and Resiliency Evaluation of Medical Edge Networks,"** 2022 _IEEE_ Ninth International Conference on Communications and Electronics (_ICCE_), 2022, pp. 87-92, DOI: [10.1109/ICCE55644.2022.98520596](http://dx.doi.org/10.1109/ICCE55644.2022.9852059)
    
-6. Minseok Jang, Jeongseok Hyun, _T.A. Nguyen_, Jae-Woo Lee, (2022),  "*Attitude Stabilization of eVTOL in Hovering Mode using Neural Network based Control with Lyapunov Theorem*", _The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집_, 2022.04, 322-323. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076828))
+6. Minseok Jang, Jeongseok Hyun, _T.A. Nguyen_, Jae-Woo Lee, (2022),  "**Attitude Stabilization of eVTOL in Hovering Mode using Neural Network based Control with Lyapunov Theorem**", _The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집_, 2022.04, 322-323. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076828))
 
-7. _T.A. Nguyen_, Jueying Li, Minseok Jang, Aye Aye Maw, Vinh Pham, Jae-Woo Lee, (2022),  "*Cloud-in-the-loop simulation: A cloud-based digital twin HW/SW framework for multi-mode AI control simulation of eVTOL KADA-UAM Personal Aerial Vehicles*", _The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집_, 2022.04, 138-139. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076743))
+7. _T.A. Nguyen_, Jueying Li, Minseok Jang, Aye Aye Maw, Vinh Pham, Jae-Woo Lee, (2022),  "**Cloud-in-the-loop simulation: A cloud-based digital twin HW/SW framework for multi-mode AI control simulation of eVTOL KADA-UAM Personal Aerial Vehicles**", _The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집_, 2022.04, 138-139. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076743))
 
 8. *T. A. Nguyen*, K. Jeon, J.-W. Lee, I. Fe, and F. A. Silva, *“Model-driven Mission Dependability Design of Unmanned Aerial Systems,”* AIAA 2022-4091. _AIAA AVIATION 2022 Forum_. June 2022, DOI: [10.2514/6.2022-4091](https://doi.org/10.2514/6.2022-4091).
 
@@ -108,13 +108,13 @@ author_profile: true
    
 12. Victor, C., _T.A. Nguyen_, Silva, L. A., Andrade, E., Santos, G. L., Min, D., Lee, J. W., & Silva, F. A. (2021). *Performability Assessment and Sensitivity Analysis of a Home Automation System.* 2021 _IEEE/ACM_ 25th International Symposium on Distributed Simulation and Real Time Applications (_DS-RT_), 1–4. DOI: [10.1109/DS-RT52167.2021.9576142](https://doi.org/10.1109/DS-RT52167.2021.9576142)
 
-13. _T.A. Nguyen_, S.W. Jeon, A.A. Maw, D.K. Min, J.W. Lee, (2021),  "*Toward dependable blockchain and AI engines of digital twin systems for urban air mobility*", _The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집_, 2021.07, 408-409. (@[DBpia](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613629))
+13. _T.A. Nguyen_, S.W. Jeon, A.A. Maw, D.K. Min, J.W. Lee, (2021),  "**Toward dependable blockchain and AI engines of digital twin systems for urban air mobility**", _The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집_, 2021.07, 408-409. (@[DBpia](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613629))
 
-14. _T.A. Nguyen_, Min, D.K., Lee, J.W., (2020),  "*iUAM: Service Survivability of Digital Twin Urban Aerial Mobility*", _The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집_, 2020.11, 689-690. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526249))
+14. _T.A. Nguyen_, Min, D.K., Lee, J.W., (2020),  "**iUAM: Service Survivability of Digital Twin Urban Aerial Mobility**", _The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집_, 2020.11, 689-690. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526249))
 
 <!-- 15. *T. A. Nguyen*, D. Min, and E. Choi, “**Largeness Problem Mitigation for Stochastic Reward Nets in Modeling and Analysis of a large IoT system***” in The 6th International Conference on Big Data Applications and Services (_BIGDAS 2018_), August 19-22, 2018, TusStar, Zhengzhou, Henan, China. -->
 
-16. ​L. Zou, X. Rui, *T. A. Nguyen*, D. Min, E. Choi, D. T. Tran, N. S. Nguyen, "*A Scalable Network Area Storage with Virtualization: Modeling and Evaluation using Stochastic Reward Nets*", in proceedings of 2018 International Conference on Information Science and System (_ICISS '18_), April 27--29, 2018, Jeju, Republic of Korea, _ACM_ ISBN 978-1-4503-6421-8/18/04, DOI: [10.1145/3209914.3209918](https://doi.org/10.1145/3209914.3209918)
+16. ​L. Zou, X. Rui, *T. A. Nguyen*, D. Min, E. Choi, D. T. Tran, N. S. Nguyen, "**A Scalable Network Area Storage with Virtualization: Modeling and Evaluation using Stochastic Reward Nets**", in proceedings of 2018 International Conference on Information Science and System (_ICISS '18_), April 27--29, 2018, Jeju, Republic of Korea, _ACM_ ISBN 978-1-4503-6421-8/18/04, DOI: [10.1145/3209914.3209918](https://doi.org/10.1145/3209914.3209918)
 
 17. _T.A. Nguyen_, D. Min, E. Choi, “**Reliability and Availability Modeling of Fog Computing based IoT System**”, in The 5th International Conference on Big Data Applications and Services, _BIGDAS 2017_, November 23-25, 2017, Jeju Island, South Korea
 
@@ -132,12 +132,12 @@ author_profile: true
 
 24. _T.A. Nguyen_, Dohwan Lee, Jong Sou Park, “**Towards Virtualization Technology on Satellite On-board Computer System with Hardware Redundancy, Software Rejuvenation, and Virtual Machine Live Migration Techniques-Modeling, Analysis and Implementation Proposal**”, _IEICETech_. Rep., vol. 113, no. 335, _SANE2013-98_, pp 157-162, International Conference on Space, Aeronautical and Navigational Electronics, Hanoi, Vietnam, 2013 ([paper](http://www.ieice.org/ken/paper/20131203lB7P/eng/))
 
-25. _T.A. Nguyen_, Seulki Lee and Jong Sou Park, "*Practical and Potential Applications of an Unmanned Airship based on Automatic Control - Embedded Computer System Design*" Proceedings of 11th International Conference on Computer Applications 2013 (_ICCA 2013_), Yangon, Myanmar, February 26th-27th, 2013
+25. _T.A. Nguyen_, Seulki Lee and Jong Sou Park, "**Practical and Potential Applications of an Unmanned Airship based on Automatic Control - Embedded Computer System Design**" Proceedings of 11th International Conference on Computer Applications 2013 (_ICCA 2013_), Yangon, Myanmar, February 26th-27th, 2013
 
-26. _T.A. Nguyen_, Seulki Lee and Jong Sou Park, "*Design and Implementation of Automatic Embedded Control Hardware and Software Systems in an Unmanned Airship*", Proceedings of International Conference on Control, Automation and Information Sciences (_ICCAIS 2012_), _IEEE_, Ho Chi Minh City, Viet Nam, Nov 2012, pp. 84-89, DOI: [10.1109/ICCAIS.2012.6466636](https://doi.org/10.1109/ICCAIS.2012.6466636)
+26. _T.A. Nguyen_, Seulki Lee and Jong Sou Park, "**Design and Implementation of Automatic Embedded Control Hardware and Software Systems in an Unmanned Airship**", Proceedings of International Conference on Control, Automation and Information Sciences (_ICCAIS 2012_), _IEEE_, Ho Chi Minh City, Viet Nam, Nov 2012, pp. 84-89, DOI: [10.1109/ICCAIS.2012.6466636](https://doi.org/10.1109/ICCAIS.2012.6466636)
 
-27. _T.A. Nguyen_, Seulki Lee and Jong Sou Park, "*Design and Implementation of Embedded Hardware and Software Architecture in an Unmanned Airship*", Proceedings of the 9th IEEE International Conference on Embedded Software and Systems (_ICESS-2012_), _IEEE_, Liverpool, UK, Jun 2012, DOI: [10.1109/HPCC.2012.260](https://doi.org/10.1109/HPCC.2012.260)
+27. _T.A. Nguyen_, Seulki Lee and Jong Sou Park, "**Design and Implementation of Embedded Hardware and Software Architecture in an Unmanned Airship**", Proceedings of the 9th IEEE International Conference on Embedded Software and Systems (_ICESS-2012_), _IEEE_, Liverpool, UK, Jun 2012, DOI: [10.1109/HPCC.2012.260](https://doi.org/10.1109/HPCC.2012.260)
 
-28. T.T. Vu, Q.T. Dinh, _T.A. Nguyen_, T.T. Tran, "*Lessons learned in F-1 nano-satellite fabrication project*", _Space Technology and Application Scientific workshop 2010_, Ha Noi, December 16-17, 2010 (Vietnamese)
+28. T.T. Vu, Q.T. Dinh, _T.A. Nguyen_, T.T. Tran, "**Lessons learned in F-1 nano-satellite fabrication project**", _Space Technology and Application Scientific workshop 2010_, Ha Noi, December 16-17, 2010 (Vietnamese)
 
-29. T.T. Vu, Q.T. Dinh, _T.A. Nguyen_, A.T. Vu, V.T. P, V.T. Dao, H.T. Pham, T.T. Tran, D.H. Tran, M.H. Nguyen, V.P. Vu, "*Design and Manufacture of a Nanosatellite for Space Technology Education and Potential Application*", IAC-09.E1.1.11 p8323, Proceedings of 60th International Astronautical Congress (_IAC 2009_), October 12-16, 2009, Daejeon, Republic of Korea, ([paper](https://iafastro.directory/iac/archive/browse/IAC-09/E1/1/5502/))
+29. T.T. Vu, Q.T. Dinh, _T.A. Nguyen_, A.T. Vu, V.T. P, V.T. Dao, H.T. Pham, T.T. Tran, D.H. Tran, M.H. Nguyen, V.P. Vu, "**Design and Manufacture of a Nanosatellite for Space Technology Education and Potential Application**", IAC-09.E1.1.11 p8323, Proceedings of 60th International Astronautical Congress (_IAC 2009_), October 12-16, 2009, Daejeon, Republic of Korea, ([paper](https://iafastro.directory/iac/archive/browse/IAC-09/E1/1/5502/))
