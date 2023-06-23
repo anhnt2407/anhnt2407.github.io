@@ -84,9 +84,7 @@ author_profile: true
 
 5. Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, _T. A. Nguyen_, and Jae-Woo Lee. "**es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV**" In 2022 22nd International Conference on Control, Automation and Systems (_ICCAS 2022_), pp. 81-86._IEEE_,_2022_. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
 
-
 2. _T.A. Nguyen_, D. Min, E. Choi, I. Fe, and F. A. Silva, “**Survivability and Resiliency Modeling and Analysis of an Internet of Industrial Things using Hierarchical Models**” in 2022 _IEEE Cloud Summit_, Oct. 2022, pp. 118–123. doi: [10.1109/CloudSummit54781.2022.00024](https://doi.org/10.1109/CloudSummit54781.2022.00024)
-
 
 5. *T.A. Nguyen*, J. -W. Lee, I. de Sousa Fé and F. A. Silva, **"A Hierarchical Model based Survivability and Resiliency Evaluation of Medical Edge Networks,"** 2022 *IEEE* Ninth International Conference on Communications and Electronics (*ICCE*), 2022, pp. 87-92, DOI: [10.1109/ICCE55644.2022.98520596](http://dx.doi.org/10.1109/ICCE55644.2022.9852059)  
  
