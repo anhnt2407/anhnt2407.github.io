@@ -9,7 +9,7 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. PHAM, Vinh, Maxim TYAN, *T. A. Nguyen*, Chi-Ho LEE, L. V. Thang NGUYEN, and Jae-Woo LEE. _2023_. “**Adaptive Data Fusion Framework for Modeling of Non-Uniform Aerodynamic Data.**”_Chinese Journal of Aeronautics_. doi: [10.1016/j.cja.2023.05.012](https://doi.org/10.1016/j.cja.2023.05.012)<span style="color:blue">(SCIE, JCR.Q1.Aerospace., Ranking 4/34, IF2021=4.061)</span>
+1. PHAM, Vinh, Maxim TYAN, *T. A. Nguyen*, Chi-Ho LEE, L. V. Thang NGUYEN, and Jae-Woo LEE. _2023_. “**Adaptive Data Fusion Framework for Modeling of Non-Uniform Aerodynamic Data.**”_Chinese Journal of Aeronautics_. doi: [10.1016/j.cja.2023.05.012](https://doi.org/10.1016/j.cja.2023.05.012)<span style="color:blue">(SCIE, JCR.Q1.Aerospace., Ranking 2/34, IF2022=5.7)</span>
 
 3. Sousa, Rubenilson de, Leonardo Cristian, Leonel Feitosa, Eunmi Choi, *T. A. Nguyen*, Dugki Min, and Francisco Airton Silva. “**Performability Evaluation and Sensitivity Analysis of a Video Streaming on Demand Architecture,**” _Applied Sciences_, vol. 13, no. 2, p. 998, _Jan. 2023_ DOI:[10.3390/app13020998](https://doi.org/10.3390/app13020998)(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
 
