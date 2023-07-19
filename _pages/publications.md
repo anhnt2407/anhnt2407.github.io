@@ -74,6 +74,9 @@ author_profile: true
 
 # Conference Proceedings: 
 
+1. M. Jang, J. Hyun, T. Kwag, C. Gwak, T. A. Nguyen and J. -W. Lee, "**UAMDynCon-DT: A Data-driven Dynamics and Robust Control Framework for UAM Vehicle Digitalization using Deep Learning,**" 2023 International Conference on Mechatronics, Control and Robotics (_ICMCR_), Jeju, Korea, Republic of, 2023, pp. 81-85, doi:[10.1109/ICMCR56776.2023.10181072](https://doi.org/10.1109/ICMCR56776.2023.10181072)
+
+1. S. Nam, C. Woo, S. Kang, T. A. Nguyen and D. Min, "SLAM-DRLnav: A SLAM-Enhanced Deep Reinforcement Learning Navigation Framework for Indoor Self-driving," 2023 International Conference on Mechatronics, Control and Robotics (_ICMCR_), Jeju, Korea, Republic of, 2023, pp. 44-48, doi:[10.1109/ICMCR56776.2023.10181042](https://doi.org/10.1109/ICMCR56776.2023.10181042)
 1. J. Hyun, M. Jang, *T. A. Nguyen* and J. -W. Lee, "**Transition Control Planning and Optimization for a Boxed-wing eVTOL Tiltrotor Vehicle using Trim Analysis,**" 2023 IEEE International Conference on Unmanned Aircraft Systems (_ICUAS_), Warsaw, Poland, 2023, pp. 1128-1135, doi:[10.1109/ICUAS57906.2023.10156619](https://doi.org/10.1109/ICUAS57906.2023.10156619)
 
 2. S. Lee, *T. A. Nguyen* and D. Min, "**QR-GAN: Generative Adversarial Networks meet Quantile Regression,**" 2023 15th International Conference on Advanced Computational Intelligence (_ICACI_), Seoul, Korea, Republic of, _2023_, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146143](https://doi.org/10.1109/ICACI58115.2023.10146143)
