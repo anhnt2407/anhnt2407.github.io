@@ -1,3 +1,41 @@
+/*
+ * Copyright (c) 2023 KADA <https://anhnt2407.github.io/>
+ * 
+ * Created Date: Saturday, October 28th 2023, 10:47:39 am
+ * Author: KADA
+ * 
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ * 
+ * 1. Redistributions of source code must retain the above copyright notice,
+ * this list of conditions and the following disclaimer.
+ * 
+ * 2. Redistributions in binary form must reproduce the above copyright
+ * notice, this list of conditions and the following disclaimer in the
+ * documentation and/or other materials provided with the distribution.
+ * 
+ * 3. Neither the name of the copyright holder nor the names of its
+ * contributors may be used to endorse or promote products derived from this
+ * software without specific prior written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS AS
+ * IS AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ * THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+ * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+ * CONTRIBUTORS BE
+ * LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+ * THE POSSIBILITY OF SUCH DAMAGE.
+ * 
+ * HISTORY:
+ * Date      	By	Comments
+ * ----------	---	----------------------------------------------------------
+ */
 ---
 layout: archive
 title: ""
@@ -9,65 +47,63 @@ author_profile: true
 
 ## <span style="font-family: system-ui; color:blue"> JCR.SCIE Journal Papers: </span>
 
-1. [J31] Silva, F. A., Fe, I., Brito, C., Araujo, G., Feitosa, L., Nguyen, T. A., Jeon, K., Lee, J.-W., Min, D., & Choi, E. (2023). Aerial computing: Enhancing mobile cloud computing with unmanned aerial vehicles as data bridges–A Markov chain based dependability quantification. ICT Express. doi: [10.1016/j.icte.2023.10.002](https://doi.org/10.1016/j.icte.2023.10.002)
+1. PHAM, Vinh, Maxim TYAN, *T. A. Nguyen*, Chi-Ho LEE, L. V. Thang NGUYEN, and Jae-Woo LEE. _2023_. “**Adaptive Data Fusion Framework for Modeling of Non-Uniform Aerodynamic Data.**”_Chinese Journal of Aeronautics_. doi: [10.1016/j.cja.2023.05.012](https://doi.org/10.1016/j.cja.2023.05.012)<span style="color:blue">(SCIE, JCR.Q1.Aerospace., Ranking 2/34, IF2022=5.7)</span>
 
-2. [J30] PHAM, Vinh, Maxim TYAN, *T. A. Nguyen*, Chi-Ho LEE, L. V. Thang NGUYEN, and Jae-Woo LEE. *2023*. “**Adaptive Data Fusion Framework for Modeling of Non-Uniform Aerodynamic Data.**”*Chinese Journal of Aeronautics*. doi: [10.1016/j.cja.2023.05.012](https://doi.org/10.1016/j.cja.2023.05.012)<span style="color:blue">(SCIE, JCR.Q1.Aerospace., Ranking 2/34, IF2022=5.7)</span>
+3. Sousa, Rubenilson de, Leonardo Cristian, Leonel Feitosa, Eunmi Choi, *T. A. Nguyen*, Dugki Min, and Francisco Airton Silva. “**Performability Evaluation and Sensitivity Analysis of a Video Streaming on Demand Architecture,**” _Applied Sciences_, vol. 13, no. 2, p. 998, _Jan. 2023_ DOI:[10.3390/app13020998](https://doi.org/10.3390/app13020998)(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
 
-3. [J29] Sousa, Rubenilson de, Leonardo Cristian, Leonel Feitosa, Eunmi Choi, *T. A. Nguyen*, Dugki Min, and Francisco Airton Silva. “**Performability Evaluation and Sensitivity Analysis of a Video Streaming on Demand Architecture,**” *Applied Sciences*, vol. 13, no. 2, p. 998, *Jan. 2023* DOI:[10.3390/app13020998](https://doi.org/10.3390/app13020998)(SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
-
-4. [J28] J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, *T. A. Nguyen*, J.-W. Lee, and D. Min, “**Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility**” *Drones*, vol. 7, no. 1, p. 35, *Jan. 2023*, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
+4. J. Costa, R. Matos, J. Araujo, J. Li, E. Choi, *T. A. Nguyen*, J.-W. Lee, and D. Min, “**Software Aging Effects on Kubernetes in Container Orchestration Systems for Digital Twin Cloud Infrastructures of Urban Air Mobility**” _Drones_, vol. 7, no. 1, p. 35, _Jan. 2023_, doi: [10.3390/drones7010035](https://doi.org/10.3390/drones7010035) (SCIE, JCR.Q2.Remote.Sensing, Ranking 10/34, IF2021=5.532)
    
-5. [J27] Kaliappan, V.K.; Lalpet Ranganathan, A.B.; Periasamy, S.; Thirumalai, P.; *T. A. Nguyen*; Jeon, S.; Min, D.; Choi, E. **"Energy-Efficient Offloading Based on Efficient Cognitive Energy Management Scheme in Edge Computing Device with Energy Optimization."** *Energies* *2022*, 15, 8273. doi: [10.3390/en15197426](https://doi.org/10.3390/en15218273)(SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
+5. Kaliappan, V.K.; Lalpet Ranganathan, A.B.; Periasamy, S.; Thirumalai, P.; *T. A. Nguyen*; Jeon, S.; Min, D.; Choi, E. **"Energy-Efficient Offloading Based on Efficient Cognitive Energy Management Scheme in Edge Computing Device with Energy Optimization."** _Energies_ _2022_, 15, 8273. doi: [10.3390/en15197426](https://doi.org/10.3390/en15218273)(SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
 
-6. [J26] S. Jeon, H. Lee, V. K. Kaliappan, *T. A. Nguyen*, H. Jo, H. Cho, and D. Min, **“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”** *Energies*, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
+6. S. Jeon, H. Lee, V. K. Kaliappan, *T. A. Nguyen*, H. Jo, H. Cho, and D. Min, **“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”** _Energies_, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
    
-7. [J25] Tyan, M., Choi, C.-K., *T. A., Nguyen*, & Lee, J.-W. (2022). **Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection**. *International Journal of Aeronautical and Space Sciences.* <https://doi.org/10.1007/s42405-022-00507-x>, (SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)
+7. Tyan, M., Choi, C.-K., _T. A., Nguyen_, & Lee, J.-W. (2022). **Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection**. _International Journal of Aeronautical and Space Sciences._ <https://doi.org/10.1007/s42405-022-00507-x>, (SCIE, JCR.Q4.Aerospace., Ranking 27/34, IF2021=1.233)
    
-8. [J24] Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., *T. A., Nguyen*, & Lee, J.-W. (2022). **Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs.** *Sensors*, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) (SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)
+2. Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., _T. A., Nguyen_, & Lee, J.-W. (2022). **Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs.** _Sensors_, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) (SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)
 
-9. [J23] Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., *T. A., Nguyen*, & Min, D. (2022). **hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast**. *Applied Sciences*, 12(13). DOI: [10.3390/app12136412](https://doi.org/10.3390/app12136412) (SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
+3. Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., _T. A., Nguyen_, & Min, D. (2022). **hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast**. _Applied Sciences_, 12(13). DOI: [10.3390/app12136412](https://doi.org/10.3390/app12136412) (SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
 
-10. [J22] F. A. Silva, I. Fé, C. Brito, G. Araújo, L. Feitosa, E. Choi, D. Min, and *T. A. Nguyen*, **Supporting availability evaluation of a smart building monitoring system aided by fog computing**,*IET Electronics Letters*, Apr. 2022, DOI:[10.1049/ell2.12502](https://doi.org/10.1049/ell2.12502)(SCIE, JCR.Q4.Eng. Electrical & Electronic, Ranking 220/273, IF2020=1.314)
+4. F. A. Silva, I. Fé, C. Brito, G. Araújo, L. Feitosa, E. Choi, D. Min, and *T. A. Nguyen*, **Supporting availability evaluation of a smart building monitoring system aided by fog computing**,_IET Electronics Letters_, Apr. 2022, DOI:[10.1049/ell2.12502](https://doi.org/10.1049/ell2.12502)(SCIE, JCR.Q4.Eng. Electrical & Electronic, Ranking 220/273, IF2020=1.314)
 
-11. [J21] V. Kumar Kaliappan, *T. A. Nguyen*, D. Min, J.-W. Lee, and U. Sakthi, **Steering Behavior-based Multiple RUAV Obstacle Avoidance Control** *Intelligent Automation & Soft Computing*, vol. 34, no. 1, pp. 575–591, 2022, DOI:[10.32604/iasc.2022.024577](https://doi.org/10.32604/iasc.2022.024577) (SCIE, JCR.Q3.Automation & Control., Ranking 44/64, IF2020=1.647)
+5.  V. Kumar Kaliappan, *T. A. Nguyen*, D. Min, J.-W. Lee, and U. Sakthi, **Steering Behavior-based Multiple RUAV Obstacle Avoidance Control** _Intelligent Automation & Soft Computing_, vol. 34, no. 1, pp. 575–591, 2022, DOI:[10.32604/iasc.2022.024577](https://doi.org/10.32604/iasc.2022.024577) (SCIE, JCR.Q3.Automation & Control., Ranking 44/64, IF2020=1.647)
 
-12. [J20] F. A. Silva, C. Brito, G. Araújo, I. Fé, M. Tyan, J.-W. Lee, *T. A. Nguyen*, and P. R. M. Maciel, **“Model-Driven Impact Quantification of Energy Resource Redundancy and Server Rejuvenation on the Dependability of Medical Sensor Networks in Smart Hospitals,”** *Sensors*, vol. 22, no. 4, p. 1595, Feb. 2022. DOI: [10.3390/s22041595](https://doi.org/10.3390/s22041595) (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
+6.  F. A. Silva, C. Brito, G. Araújo, I. Fé, M. Tyan, J.-W. Lee, *T. A. Nguyen*, and P. R. M. Maciel, **“Model-Driven Impact Quantification of Energy Resource Redundancy and Server Rejuvenation on the Dependability of Medical Sensor Networks in Smart Hospitals,”** _Sensors_, vol. 22, no. 4, p. 1595, Feb. 2022. DOI: [10.3390/s22041595](https://doi.org/10.3390/s22041595) (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
 
-13. [J19] I. Fé, R. Matos, J. Dantas, C. Melo, *T. A. Nguyen*, D. Min, E. Choi, F. A. Silva, and P. R. M. Maciel, **“Performance-Cost Trade-Off in Auto-Scaling Mechanisms for Cloud Computing,”** *Sensors*, vol. 22, no. 3, p. 1221, Feb. 2022. DOI:[10.3390/s22031221](https://doi.org/10.3390/s22031221) (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
+7.  I. Fé, R. Matos, J. Dantas, C. Melo, *T. A. Nguyen*, D. Min, E. Choi, F. A. Silva, and P. R. M. Maciel, **“Performance-Cost Trade-Off in Auto-Scaling Mechanisms for Cloud Computing,”** _Sensors_, vol. 22, no. 3, p. 1221, Feb. 2022. DOI:[10.3390/s22031221](https://doi.org/10.3390/s22031221) (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
 
-14. [J18] *T. A. Nguyen*, M. Kim, J. Lee, D. Min, J.-W. Lee, and D. Kim, **“Performability evaluation of switch-over Moving Target Defence mechanisms in a Software Defined Networking using stochastic reward nets,”** *Journal of Network and Computer Applications*, vol. 199, p. 103267, Nov. 2021. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) <span style="color:blue"> (SCIE, JCR.Q1.CS.SE, IF2020=6.281, Ranking 6/108) </span>
+8.  *T. A. Nguyen*, M. Kim, J. Lee, D. Min, J.-W. Lee, and D. Kim, **“Performability evaluation of switch-over Moving Target Defence mechanisms in a Software Defined Networking using stochastic reward nets,”** _Journal of Network and Computer Applications_, vol. 199, p. 103267, Nov. 2021. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) <span style="color:blue"> (SCIE, JCR.Q1.CS.SE, IF2020=6.281, Ranking 6/108) </span>
 
-15. [J17] L. Feitosa, G. Gonçalves, *T. A. Nguyen*, J. W. Lee, and F. A. Silva, **“Performance Evaluation of Message Routing Strategies in the Internet of Robotic Things Using the D/M/c/K/FCFS Queuing Network,”** *Electronics*, vol. 10, no. 21, p. 2626, Oct. 2021, doi: [10.3390/electronics10212626](https://doi.org/10.3390/electronics10212626) (SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)
+9.  L. Feitosa, G. Gonçalves, *T. A. Nguyen*, J. W. Lee, and F. A. Silva, **“Performance Evaluation of Message Routing Strategies in the Internet of Robotic Things Using the D/M/c/K/FCFS Queuing Network,”** _Electronics_, vol. 10, no. 21, p. 2626, Oct. 2021, doi: [10.3390/electronics10212626](https://doi.org/10.3390/electronics10212626) (SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)
 
-16. [J16] *T. A. Nguyen*, Fe, I., Brito, C., Kaliappan, V. K., Choi, E., Min, D., Lee, J. W., & Silva, F. A. (2021). **Performability Evaluation of Load Balancing and Fail-Over Strategies for Medical Information Systems with Edge/Fog Computing Using Stochastic Reward Nets**. *Sensors*, 21(18), Sep. 2021. DOI: [10.3390/s21186253](https://doi.org/10.3390/s21186253) (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
+10. *T. A. Nguyen*, Fe, I., Brito, C., Kaliappan, V. K., Choi, E., Min, D., Lee, J. W., & Silva, F. A. (2021). **Performability Evaluation of Load Balancing and Fail-Over Strategies for Medical Information Systems with Edge/Fog Computing Using Stochastic Reward Nets**. _Sensors_, 21(18), Sep. 2021. DOI: [10.3390/s21186253](https://doi.org/10.3390/s21186253) (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
 
-17. [J15] B. Santos, A. Soares, *T. A. Nguyen*, D.-K. Min, J.-W. Lee, and F.-A. Silva, **“IoT Sensor Networks in Smart Buildings: A Performance Assessment Using Queuing Models,”** *Sensors*, vol. 21, no. 16, p. 5660, Aug. 2021, doi: [10.3390/s21165660](https://www.mdpi.com/1424-8220/21/16/5660). (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
+11. B. Santos, A. Soares, *T. A. Nguyen*, D.-K. Min, J.-W. Lee, and F.-A. Silva, **“IoT Sensor Networks in Smart Buildings: A Performance Assessment Using Queuing Models,”** _Sensors_, vol. 21, no. 16, p. 5660, Aug. 2021, doi: [10.3390/s21165660](https://www.mdpi.com/1424-8220/21/16/5660). (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
 
-18. [J14] *T. A. Nguyen*, D. Min, E. Choi, and J.-W. Lee, “**Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models**” *IEEE Internet of Things J.*, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> (SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936) </span>
+12. *T. A. Nguyen*, D. Min, E. Choi, and J.-W. Lee, “**Dependability and Security Quantification of an Internet of Medical Things Infrastructure based on Cloud-Fog-Edge Continuum for Healthcare Monitoring using Hierarchical Models**” _IEEE Internet of Things J._, pp. 1–1, May 2021, doi: [10.1109/JIOT.2021.3081420](https://ieeexplore.ieee.org/document/9434376).<span style="color:blue"> (SCIE, JCR.Q1.CS.IS, Ranking 3/156, IF2019=9.936) </span>
 
-19. [J13] Brito, C., Silva, L., Callou, G., *T. A. Nguyen*, Min, D., Lee, J.-W., & Silva, F. A. (2021). **Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation.** *Electronics*, 10(16), 1916. doi: [10.3390/electronics10161916](https://doi.org/10.3390/electronics10161916) (SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)
+13. Brito, C., Silva, L., Callou, G., *T. A. Nguyen*, Min, D., Lee, J.-W., & Silva, F. A. (2021). **Offloading Data through Unmanned Aerial Vehicles: A Dependability Evaluation.** _Electronics_, 10(16), 1916. doi: [10.3390/electronics10161916](https://doi.org/10.3390/electronics10161916) (SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)
 
-20. [J12] F. A. Silva, *T. A. Nguyen*, I. Fe, C. Brito, D. Min, and J.-W. Lee, “**Performance Evaluation of an Internet of Healthcare Things for Medical Monitoring Using M/M/c/K Queuing Models**” *IEEE Access*, vol. 9, pp. 55271–55283, April 2021, doi: [10.1109/ACCESS.2021.3071508](https://ieeexplore.ieee.org/document/9398691/). (SCIE, JCR.Q1.CS.IS, 35/156, IF2019=3.745)
+14. F. A. Silva, *T. A. Nguyen*, I. Fe, C. Brito, D. Min, and J.-W. Lee, “**Performance Evaluation of an Internet of Healthcare Things for Medical Monitoring Using M/M/c/K Queuing Models**” _IEEE Access_, vol. 9, pp. 55271–55283, April 2021, doi: [10.1109/ACCESS.2021.3071508](https://ieeexplore.ieee.org/document/9398691/). (SCIE, JCR.Q1.CS.IS, 35/156, IF2019=3.745)
 
-21. [J11] Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; *T.A. Nguyen*; Min, D.; Lee, J.-W.; Silva, F.A. **Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System**. *Appl. Sci.*, April 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) (SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)
+15. Brito, C.; Rodrigues, L.; Santos, B.; Fé, I.; _T.A. Nguyen_; Min, D.; Lee, J.-W.; Silva, F.A. **Stochastic Model Driven Performance and Availability Planning for a Mobile Edge Computing System**. _Appl. Sci._, April 2021, 11, 4088. doi: [10.3390/app11094088](https://doi.org/10.3390/app11094088) (SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)
 
-22. [J10] A. A. Maw, M. Tyan, *T. A. Nguyen*, and J.-W. Lee, **“iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV,”** *Appl. Sci.*, vol. 11, no. 9, April 2021, doi: [10.3390/app11093948](https://doi.org/10.3390/app11093948). (SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)
+20. A. A. Maw, M. Tyan, *T. A. Nguyen*, and J.-W. Lee, **“iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV,”** _Appl. Sci._, vol. 11, no. 9, April 2021, doi: [10.3390/app11093948](https://doi.org/10.3390/app11093948). (SCIE, JCR.Q2.Eng, 32/91, IF2019=2.474)
 
-23. [J09] I. Gonçalves, L. Rodrigues, F. A. Silva, *T. A. Nguyen*, D. Min, and J.-W. Lee, “**Surveillance System in Smart Cities: A Dependability Evaluation Based on Stochastic Models**” *Electronics*, vol. 10, no. 8, p. 876, Apr. 2021, doi: [10.3390/electronics10080876](https://www.mdpi.com/2079-9292/10/8/876). (SCIE, JCR.Q2.Eng&E.E, 154/266, IF2019=2.412)
+21. I. Gonçalves, L. Rodrigues, F. A. Silva, *T. A. Nguyen*, D. Min, and J.-W. Lee, “**Surveillance System in Smart Cities: A Dependability Evaluation Based on Stochastic Models**” _Electronics_, vol. 10, no. 8, p. 876, Apr. 2021, doi: [10.3390/electronics10080876](https://www.mdpi.com/2079-9292/10/8/876). (SCIE, JCR.Q2.Eng&E.E, 154/266, IF2019=2.412)
 
-24. [J08] *T. A. Nguyen*, D. Min, and E. Choi, “**A Hierarchical Modeling and Analysis Framework for Availability and Security Quantification of IoT Infrastructures**” *Electronics*, vol. 9, no. 1, p. 155, Jan. 2020. DOI: [10.3390/electronics9010155](https://doi.org/10.3390/electronics9010155) (SCIE, JCR.Q2.Eng&E.E, 154/266, IF2019=2.412)
+22. *T. A. Nguyen*, D. Min, and E. Choi, “**A Hierarchical Modeling and Analysis Framework for Availability and Security Quantification of IoT Infrastructures**” _Electronics_, vol. 9, no. 1, p. 155, Jan. 2020. DOI: [10.3390/electronics9010155](https://doi.org/10.3390/electronics9010155) (SCIE, JCR.Q2.Eng&E.E, 154/266, IF2019=2.412)
 
-25. [J07] *T. A. Nguyen*, D. Min, E. Choi, and T. D. Thang, “**Reliability and Availability Evaluation for Cloud Data Center Networks using Hierarchical Models**” *IEEE Access*, Jan. 2019. DOI: [10.1109/ACCESS.2019.2891282](https://doi.org/10.1109/ACCESS.2019.2891282) (SCIE, JCR.Q1.CS.IS, 23/155, IF2018=4.098)
+23. *T. A. Nguyen*, D. Min, E. Choi, and T. D. Thang, “**Reliability and Availability Evaluation for Cloud Data Center Networks using Hierarchical Models**” _IEEE Access_, Jan. 2019. DOI: [10.1109/ACCESS.2019.2891282](https://doi.org/10.1109/ACCESS.2019.2891282) (SCIE, JCR.Q1.CS.IS, 23/155, IF2018=4.098)
 
-26. [J06] *T. A. Nguyen*, K. Han, D. Min, E. Choi, T. D. Thang, and Y.-J. Choi, “**A stochastic reward net-based assessment of reliability, availability and operational cost for a software-defined network infrastructure**” *J. Supercomput*., Nov. 2018. DOI: [10.1007/s11227-018-2677-y](https://doi.org/10.1007/s11227-018-2677-y) _(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2017=1.532, IF2018=2.157)
+24. *T. A. Nguyen*, K. Han, D. Min, E. Choi, T. D. Thang, and Y.-J. Choi, “**A stochastic reward net-based assessment of reliability, availability and operational cost for a software-defined network infrastructure**” _J. Supercomput_., Nov. 2018. DOI: [10.1007/s11227-018-2677-y](https://doi.org/10.1007/s11227-018-2677-y) _(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2017=1.532, IF2018=2.157)
 
-27. [J05] *T. A. Nguyen*, D. Min, and E. Choi, “**A comprehensive evaluation of availability and operational cost for a virtualized server system using stochastic reward nets**” *J. Supercomput.*, pp. 1–55, Aug. 2017, DOI: [10.1007/s11227-017-2127-2](https://link.springer.com/article/10.1007/s11227-017-2127-2), _(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2016=1.326, IF2018=2.157)
+25. *T. A. Nguyen*, D. Min, and E. Choi, “**A comprehensive evaluation of availability and operational cost for a virtualized server system using stochastic reward nets**” _J. Supercomput._, pp. 1–55, Aug. 2017, DOI: [10.1007/s11227-017-2127-2](https://link.springer.com/article/10.1007/s11227-017-2127-2), _(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2016=1.326, IF2018=2.157)
 
-29. [J04] *T. A. Nguyen*, D. S. Kim, and J. S. Park, “**Availability modeling and analysis of a data center for disaster tolerance**” *Futur. Gener. Comput. Syst.*, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> _(SCI/SCIE, JCR.Q1.CS.Theory&Methods, Ranking 7/104, IF2016 = 3.997, IF2018 = 5.768) </span>
+26. *T. A. Nguyen*, D. S. Kim, and J. S. Park, “**Availability modeling and analysis of a data center for disaster tolerance**” _Futur. Gener. Comput. Syst._, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> _(SCI/SCIE, JCR.Q1.CS.Theory&Methods, Ranking 7/104, IF2016 = 3.997, IF2018 = 5.768) </span>
 
-30. [J03] *T. A. Nguyen*, D. Min, and J. S. Park, “**A Comprehensive Sensitivity Analysis of a Data Center Network with Server Virtualization for Business Continuity**” *Math. Probl. Eng.*, vol. 2015, pp. 1–20, 2015, DOI: [10.1155/2015/521289](http://dx.doi.org/10.1155/2015/521289), (SCIE, JCR.Q3.Eng, 59/85, IF2015 = 0.76, IF2018 = 1.179)
+27. *T. A. Nguyen*, D. Min, and J. S. Park, “**A Comprehensive Sensitivity Analysis of a Data Center Network with Server Virtualization for Business Continuity**” _Math. Probl. Eng._, vol. 2015, pp. 1–20, 2015, DOI: [10.1155/2015/521289](http://dx.doi.org/10.1155/2015/521289), (SCIE, JCR.Q3.Eng, 59/85, IF2015 = 0.76, IF2018 = 1.179)
 
-31. [J02] *T. A. Nguyen*, D. S. Kim, and J. S. Park, “**A Comprehensive Availability Modeling and Analysis of a Virtualized Servers System Using Stochastic Reward Nets**” *Sci. World J.*, vol. 2014, pp. 1–18, 2014, DOI: [10.1155/2014/165316](http://dx.doi.org/10.1155/2014/165316), (SCIE In 2014, JCR.Q3.Eng, IF2014 = 1.73)
+28. *T. A. Nguyen*, D. S. Kim, and J. S. Park, “**A Comprehensive Availability Modeling and Analysis of a Virtualized Servers System Using Stochastic Reward Nets**” _Sci. World J._, vol. 2014, pp. 1–18, 2014, DOI: [10.1155/2014/165316](http://dx.doi.org/10.1155/2014/165316), (SCIE In 2014, JCR.Q3.Eng, IF2014 = 1.73)
 
 
 # Book chapters:
