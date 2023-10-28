@@ -69,7 +69,8 @@ author_profile: true
 
 31. [J02] *T. A. Nguyen*, D. S. Kim, and J. S. Park, “**A Comprehensive Availability Modeling and Analysis of a Virtualized Servers System Using Stochastic Reward Nets**” *Sci. World J.*, vol. 2014, pp. 1–18, 2014, DOI: [10.1155/2014/165316](http://dx.doi.org/10.1155/2014/165316), (SCIE In 2014, JCR.Q3.Eng, IF2014 = 1.73)
 
-Dưới đây là danh sách các bài báo của bạn đã được chỉnh sửa theo yêu cầu:
+
+
 
 1. <span style="color:blue">[J31]</span> Silva, F. A., Fe, I., Brito, C., Araujo, G., Feitosa, L., Nguyen, T. A., Jeon, K., Lee, J.-W., Min, D., & Choi, E. (2023). Aerial computing: Enhancing mobile cloud computing with unmanned aerial vehicles as data bridges–A Markov chain based dependability quantification. ICT Express. doi: [10.1016/j.icte.2023.10.002](https://doi.org/10.1016/j.icte.2023.10.002)
 
