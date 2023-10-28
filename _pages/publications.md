@@ -85,8 +85,6 @@ Dưới đây là danh sách các bài báo của bạn đã được chỉnh s�
 
 7. <span style="color:blue">[J25]</span> Tyan, M., Choi, C.-K., *T. A., Nguyen*, & Lee, J.-W. (2022). **Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection**. *International Journal of Aeronautical and Space Sciences*. DOI: [10.5139/IJASS.2022.23.2.529](https://doi.org/10.5139/IJASS.2022.23.2.529)(SCIE, JCR.Q3.Aerospace., Ranking 20/34, IF2020=1.489)
 
-Dưới đây là phần tiếp theo của danh sách các bài báo của bạn từ [J25] đến [J15]:
-
 8. <span style="color:blue">[J24]</span> Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., *T. A., Nguyen*, & Lee, J.-W. (2022). **Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs.** *Sensors*, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) (SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)
 
 9. <span style="color:blue">[J23]</span> Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., *T. A., Nguyen*, & Min, D. (2022). **hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast**. *Applied Sciences*, 12(13). DOI: [10.3390/app12136412](https://doi.org/10.3390/app12136412) (SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
