@@ -85,7 +85,23 @@ Dưới đây là danh sách các bài báo của bạn đã được chỉnh s�
 
 7. <span style="color:blue">[J25]</span> Tyan, M., Choi, C.-K., *T. A., Nguyen*, & Lee, J.-W. (2022). **Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection**. *International Journal of Aeronautical and Space Sciences*. DOI: [10.5139/IJASS.2022.23.2.529](https://doi.org/10.5139/IJASS.2022.23.2.529)(SCIE, JCR.Q3.Aerospace., Ranking 20/34, IF2020=1.489)
 
+Dưới đây là phần tiếp theo của danh sách các bài báo của bạn từ [J25] đến [J15]:
 
+8. <span style="color:blue">[J24]</span> Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., *T. A., Nguyen*, & Lee, J.-W. (2022). **Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs.** *Sensors*, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) (SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)
+
+9. <span style="color:blue">[J23]</span> Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., *T. A., Nguyen*, & Min, D. (2022). **hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast**. *Applied Sciences*, 12(13). DOI: [10.3390/app12136412](https://doi.org/10.3390/app12136412) (SCIE, JCR.Q2.Eng, 32/91, IF2020=2.679)
+
+10. <span style="color:blue">[J22]</span> F. A. Silva, I. Fé, C. Brito, G. Araújo, L. Feitosa, E. Choi, D. Min, and *T. A. Nguyen*, **Supporting availability evaluation of a smart building monitoring system aided by fog computing**,*IET Electronics Letters*, Apr. 2022, DOI:[10.1049/ell2.12502](https://doi.org/10.1049/ell2.12502)(SCIE, JCR.Q4.Eng. Electrical & Electronic, Ranking 220/273, IF2020=1.314)
+
+11. <span style="color:blue">[J21]</span> V. Kumar Kaliappan, *T. A. Nguyen*, D. Min, J.-W. Lee, and U. Sakthi, **Steering Behavior-based Multiple RUAV Obstacle Avoidance Control** *Intelligent Automation & Soft Computing*, vol. 34, no. 1, pp. 575–591, 2022, DOI:[10.32604/iasc.2022.024577](https://doi.org/10.32604/iasc.2022.024577) (SCIE, JCR.Q3.Automation & Control., Ranking 44/64, IF2020=1.647)
+
+12. <span style="color:blue">[J20]</span> F. A. Silva, C. Brito, G. Araújo, I. Fé, M. Tyan, J.-W. Lee, *T. A. Nguyen*, and P. R. M. Maciel, **“Model-Driven Impact Quantification of Energy Resource Redundancy and Server Rejuvenation on the Dependability of Medical Sensor Networks in Smart Hospitals,”** *Sensors*, vol. 22, no. 4, p. 1595, Feb. 2022. DOI: [10.3390/s22041595](https://doi.org/10.3390/s22041595) (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
+
+13. <span style="color:blue">[J19]</span> I. Fé, R. Matos, J. Dantas, C. Melo, *T. A. Nguyen*, D. Min, E. Choi, F. A. Silva, and P. R. M. Maciel, **“Performance-Cost Trade-Off in Auto-Scaling Mechanisms for Cloud Computing,”** *Sensors*, vol. 22, no. 3, p. 1221, Feb. 2022. DOI:[10.3390/s22031221](https://doi.org/10.3390/s22031221) (SCIE, JCR.Q1.Instru., Ranking 14/64, IF2020=3.576)
+
+14. <span style="color:blue">[J18]</span> *T. A. Nguyen*, M. Kim, J. Lee, D. Min, J.-W. Lee, and D. Kim, **“Performability evaluation of switch-over Moving Target Defence mechanisms in a Software Defined Networking using stochastic reward nets,”** *Journal of Network and Computer Applications*, vol. 199, p. 103267, Nov. 2021. DOI: [10.1016/j.jnca.2021.103267](https://doi.org/10.1016/j.jnca.2021.103267) <span style="color:blue"> (SCIE, JCR.Q1.CS.SE, IF2020=6.281, Ranking 6/108) </span>
+
+15. <span style="color:blue">[J17]</span> L. Feitosa, G. Gonçalves, *T. A. Nguyen*, J. W. Lee, and F. A. Silva, **“Performance Evaluation of Message Routing Strategies in the Internet of Robotic Things Using the D/M/c/K/FCFS Queuing Network,”** *Electronics*, vol. 10, no. 21, p. 2626, Oct. 2021, doi: [10.3390/electronics10212626](https://doi.org/10.3390/electronics10212626) (SCIE, JCR.Q3.CS.IS, 93/162, IF2020=2.397)
 
 
 
