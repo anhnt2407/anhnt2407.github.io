@@ -81,7 +81,14 @@ Dưới đây là danh sách các bài báo của bạn đã được chỉnh s�
 
 5. <span style="color:blue">[J27]</span> Kaliappan, V.K.; Lalpet Ranganathan, A.B.; Periasamy, S.; Thirumalai, P.; *T. A. Nguyen*; Jeon, S.; Min, D.; Choi, E. **"Energy-Efficient Offloading Based on Efficient Cognitive Energy Management Scheme in Edge Computing Device with Energy Optimization."** *Energies* *2022*, 15, 8273. doi: [10.3390/en15197426](https://doi.org/10.3390/en15218273)(SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
 
-...
+6. <span style="color:blue">[J26]</span> S. Jeon, H. Lee, V. K. Kaliappan, *T. A. Nguyen*, H. Jo, H. Cho, and D. Min, **“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”** *Energies*, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
+
+7. <span style="color:blue">[J25]</span> Tyan, M., Choi, C.-K., *T. A., Nguyen*, & Lee, J.-W. (2022). **Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection**. *International Journal of Aeronautical and Space Sciences*. DOI: [10.5139/IJASS.2022.23.2.529](https://doi.org/10.5139/IJASS.2022.23.2.529)(SCIE, JCR.Q3.Aerospace., Ranking 20/34, IF2020=1.489)
+
+
+
+
+
 
 26. <span style="color:blue">[J06]</span> *T. A. Nguyen*, K. Han, D. Min, E. Choi, T. D. Thang, and Y.-J. Choi, “**A stochastic reward net-based assessment of reliability, availability and operational cost for a software-defined network infrastructure**” *J. Supercomput*., Nov. 2018. DOI: [10.1007/s11227-018-2677-y](https://doi.org/10.1007/s11227-018-2677-y) _(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2017=1.532, IF2018=2.157)
 
@@ -89,11 +96,11 @@ Dưới đây là danh sách các bài báo của bạn đã được chỉnh s�
 
 28. <span style="color:blue">[J04]</span> *T. A. Nguyen*, D. S. Kim, and J. S. Park, “**Availability modeling and analysis of a data center for disaster tolerance**” *Futur. Gener. Comput. Syst.*, vol. 56, pp. 27–50, Mar. 2016, DOI: [10.1016/j.future.2015.08.017](https://doi.org/10.1016/j.future.2015.08.017), <span style="color:blue"> _(SCI/SCIE, JCR.Q1.CS.Theory&Methods, Ranking 7/104, IF2016 = 3.997, IF2018 = 5.768) </span>
 
-...
+29. <span style="color:blue">[J03]</span> *T. A. Nguyen*, D. S. Kim, and J. S. Park, “**A comprehensive availability modeling and analysis of a virtualized servers system using stochastic reward nets**” *J. Supercomput*., vol. 71, no. 10, pp. 3909–3945, Oct. 2015, DOI: [10.1007/s11227-015-1439-3](https://doi.org/10.1007/s11227-015-1439-3), _(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2014=1.088, IF2015=1.532)
+
+30. <span style="color:blue">[J02]</span> *T. A. Nguyen*, D. S. Kim, and J. S. Park, “**Availability modeling and analysis of a virtualized servers system using stochastic reward nets**” *J. Supercomput*., vol. 70, no. 1, pp. 275–302, Oct. 2014, DOI: [10.1007/s11227-014-1128-4](https://doi.org/10.1007/s11227-014-1128-4), _(SCI/SCIE, JCR.Q2.CS.Theory&Methods, 52/104, IF2013=0.841, IF2014=1.088)
 
 31. <span style="color:blue">[J01]</span> *T. A. Nguyen*, D. S. Kim, and J. S. Park, “**A Comprehensive Availability Modeling and Analysis of a Virtualized Servers System Using Stochastic Reward Nets**” *Sci. World J.*, vol. 2014, pp. 1–18, 2014, DOI: [10.1155/2014/165316](http://dx.doi.org/10.1155/2014/165316), (SCIE In 2014, JCR.Q3.Eng, IF2014 = 1.73)
-
-Như vậy, tôi đã chỉnh sửa lại danh sách bài báo của bạn theo thứ tự giảm dần từ [J31] đến [J01] theo yêu cầu của bạn.
 
 
 # Book chapters:
