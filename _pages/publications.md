@@ -209,4 +209,23 @@ author_profile: true
 
 
 
+Danh sach cac bai bao hoi nghi:
+
+Dưới đây là danh sách các bài báo hội nghị đã được chỉnh sửa theo yêu cầu:
+
+23. <span style="color:green">[C34]</span> M. Jang, J. Hyun, T. Kwag, C. Gwak, T. A. Nguyen and J. -W. Lee, "**UAMDynCon-DT: A Data-driven Dynamics and Robust Control Framework for UAM Vehicle Digitalization,**" 2023 International Conference on Mechatronics, Control and Robotics (*ICMCR*), Jeju, Korea, Republic of, 2023, pp. 81-85, doi:[10.1109/ICMCR56776.2023.10181072](https://doi.org/10.1109/ICMCR56776.2023.10181072)
+
+24. <span style="color:green">[C33]</span> S. Nam, C. Woo, S. Kang, T. A. Nguyen and D. Min, "**SLAM-DRLnav: A SLAM-Enhanced Deep Reinforcement Learning Navigation Framework for Indoor Self-driving,**" 2023 International Conference on Mechatronics, Control and Robotics (*ICMCR*), Jeju, Korea, Republic of, 2023, pp. 44-48, doi:[10.1109/ICMCR56776.2023.10181042](https://doi.org/10.1109/ICMCR56776.2023.10181042)
+
+25. <span style="color:green">[C32]</span> J. Hyun, M. Jang, *T. A. Nguyen* and J. -W. Lee, "**Transition Control Planning and Optimization for a Boxed-wing eVTOL Tiltrotor Vehicle using Trim Analysis,**" 2023 IEEE International Conference on Unmanned Aircraft Systems (*ICUAS*), Warsaw, Poland, 2023, pp. 1128-1135, doi:[10.1109/ICUAS57906.2023.10156619](https://doi.org/10.1109/ICUAS57906.2023.10156619)
+
+26. <span style="color:green">[C31]</span> S. Lee, *T. A. Nguyen* and D. Min, "**QR-GAN: Generative Adversarial Networks meet Quantile Regression,**" 2023 15th International Conference on Advanced Computational Intelligence (*ICACI*), Seoul, Korea, Republic of, *2023*, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146143](https://doi.org/10.1109/ICACI58115.2023.10146143)
+
+27. <span style="color:green">[C30]</span> M. -H. Kim, *T. A. Nguyen* and D. Min, "**An Efficient Personal Key Recovery in Self-Sovereign Identity Environments**" 2023 15th International Conference on Advanced Computational Intelligence (*ICACI*), Seoul, Korea, Republic of, *2023*, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146166](https://doi.org/10.1109/ICACI58115.2023.10146166)
+
+28. <span style="color:green">[C29]</span> S. Nam, C. Woo, S. Kang, *T. A. Nguyen* and D. Min, "**iNAV-drlSLAM: An Improved Indoor Self-Driving Framework for Mobile Robots using Deep Reinforcement Learning integrated with SLAM,**" 2023 15th International Conference on Advanced Computational Intelligence (*ICACI*), Seoul, Korea, Republic of, *2023*, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146173](https://doi.org/10.1109/ICACI58115.2023.10146173)
+
+29. <span style="color:green">[C28]</span> Minseok Jang, Jeongseok Hyun, Taeho Kwag, Chan Gwak, *T. A. Nguyen* and Jae-Woo Lee. "**Robust Attitude Control for PAVs using DNN with Exponentially Stabilizing Control Lyapunov Functions**" AIAA 2023-1443. *AIAA SCITECH 2023 Forum.* January *2023*. doi:[10.2514/6.2023-1443](https://doi.org/10.2514/6.2023-1443)
+
+30. <span style="color:green">[C27]</span> Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, *T. A. Nguyen*, and Jae-Woo Lee. "**es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV**" In 2022 22nd International Conference on Control, Automation and Systems (*ICCAS 2022*), pp. 81-86.*IEEE*,*2022*. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
 
