@@ -7,7 +7,7 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Oct. 28, 2023* </span>
 
-1. <span style="color:blue">[J30]</span> Silva, F. A., Fe, I., Brito, C., Araujo, G., Feitosa, L., Nguyen, T. A., Jeon, K., Lee, J.-W., Min, D., & Choi, E. (2023). **Aerial computing: Enhancing mobile cloud computing with unmanned aerial vehicles as data bridges–A Markov chain based dependability quantification**. *ICT Express*. doi: [10.1016/j.icte.2023.10.002](https://doi.org/10.1016/j.icte.2023.10.002)
+1. <span style="color:blue">[J30]</span> Silva, F. A., Fe, I., Brito, C., Araujo, G., Feitosa, L., Nguyen, T. A., Jeon, K., Lee, J.-W., Min, D., & Choi, E. (2023). **Aerial computing: Enhancing mobile cloud computing with unmanned aerial vehicles as data bridges–A Markov chain based dependability quantification**. *ICT Express*. doi: [10.1016/j.icte.2023.10.002](https://doi.org/10.1016/j.icte.2023.10.002) (SCIE, JCR.Q2.CS.IS., Ranking 48/158, IF2022=5.4)
 
 2. <span style="color:blue">[J29]</span> PHAM, Vinh, Maxim TYAN, *T. A. Nguyen*, Chi-Ho LEE, L. V. Thang NGUYEN, and Jae-Woo LEE. *2023*. “**Adaptive Data Fusion Framework for Modeling of Non-Uniform Aerodynamic Data.**” *Chinese Journal of Aeronautics*. doi: [10.1016/j.cja.2023.05.012](https://doi.org/10.1016/j.cja.2023.05.012)<span style="color:blue">(SCIE, JCR.Q1.Aerospace., Ranking 2/34, IF2022=5.7)</span>
 
