@@ -7,7 +7,7 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Oct. 28, 2023* </span>
 
-1. <span style="color:green">[C35]</span> Jang, M., Hyun, J., Nguyen, T. A., & Lee, J.-W. (2023). PIGD-TL: Physics-Informed Generative Dynamics with Transfer Learning. 2023 23rd International Conference on Control, Automation and Systems (ICCAS), 590–595. <https://doi.org/10.23919/ICCAS59377.2023.10316820>
+1. <span style="color:green">[C35]</span> Jang, M., Hyun, J., Nguyen, T. A., & Lee, J.-W. (2023). **PIGD-TL: Physics-Informed Generative Dynamics with Transfer Learning**. 2023 23rd International Conference on Control, Automation and Systems (ICCAS), 590–595. <https://doi.org/10.23919/ICCAS59377.2023.10316820>
    
 2. <span style="color:blue">[J30]</span> Silva, F. A., Fe, I., Brito, C., Araujo, G., Feitosa, L., Nguyen, T. A., Jeon, K., Lee, J.-W., Min, D., & Choi, E. (2023). **Aerial computing: Enhancing mobile cloud computing with unmanned aerial vehicles as data bridges–A Markov chain based dependability quantification**. *ICT Express*. doi: [10.1016/j.icte.2023.10.002](https://doi.org/10.1016/j.icte.2023.10.002) (SCIE, JCR.Q2.CS.IS., Ranking 48/158, IF2022=5.4)
 
