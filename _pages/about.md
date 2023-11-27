@@ -13,7 +13,7 @@ redirect_from:
 
 - Tuan Anh Nguyen is now working as **an Academic Research Professor (학술연구교수)** in computer science with specialization in Dependable, Autonomous and Intelligent Systems (DAIS) for Konkuk Aerospace Design-Airworthiness Institute ([KADA](http://kada.konkuk.ac.kr/)) (총장지정KU연구소, 항공우주설계인증연구소) with Prof.[Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof.[Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea since Jul. 2020.  
 
-- He was a professional member of **AIAA**, and now of **IEEE**, **IEEE Computer Society**, **IEEE Robotics and Automation (IEEE RAS)**, **IEEE Aerospace and Electronic Systems (IEEE AESS)**, and **IEEE Reliability** Societies
+- He was a professional member of **AIAA**, and now of **IEEE**, **IEEE Computer**, **IEEE Robotics and Automation (IEEE RAS)**, **IEEE Aerospace and Electronic Systems (IEEE AESS)**, and **IEEE Reliability** Societies
 
 - His Ph.D. supervisor (Prof. Dong Seong Kim (김동성)) is an Elected Member of the <span style="color:blue"> **IFIP WG 10.4 on Dependable Computing and Fault Tolerance** </span> (2021 onwards). The IFIP WG 10.4 consists of over <span style="color:blue"> **60 experts** </span>  in the field of fault-tolerance, dependable and secure computing. 
 
