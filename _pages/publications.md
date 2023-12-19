@@ -7,7 +7,7 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Dec. 09, 2023* </span>
 
-1. <span style="color:blue">[J32]</span> Fé, I., Nguyen, T. A., Soares, A., Son, S., Choi, E., Min, D., Lee, J.-W., & Silva, F. A. (2023). **Model-driven Dependability and Power Consumption Quantification of Kubernetes based Cloud-Fog Continuum**. *IEEE Access*, 1–1. <https://doi.org/10.1109/ACCESS.2023.3340195>
+1. <span style="color:blue">[J32]</span> Fé, I., Nguyen, T. A., Soares, A., Son, S., Choi, E., Min, D., Lee, J.-W., & Silva, F. A. (2023). **Model-driven Dependability and Power Consumption Quantification of Kubernetes based Cloud-Fog Continuum**. *IEEE Access*, 1–1. <https://doi.org/10.1109/ACCESS.2023.3340195> (SCIE, JCR.Q2.CS.IS, 78/156, IF2019=3.9)
    
 2. <span style="color:blue">[J31]</span> Silva, L. G., Cardoso, I., Brito, C., Barbosa, V., Nogueira, B., Choi, E., Nguyen, T. A., Min, D., Lee, J. W., & Silva, F. A. (2023). **Urban Advanced Mobility Dependability: A Model-Based Quantification on Vehicular Ad Hoc Networks with Virtual Machine Migration**. *Sensors*, 23(23), 9485. doi: [10.3390/s23239485](https://doi.org/10.3390/s23239485) (SCIE, JCR.Q2.Instru., Ranking 19/63, IF2022=3.9)
    
