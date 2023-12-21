@@ -7,7 +7,7 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Dec. 21, 2023* </span>
 
-1. <span style="color:blue">[J33]</span> Pham, V., Tyan, M., Nguyen, T. A., & Lee, J.-W. (2023). Extended Hierarchical Kriging Method for Aerodynamic Model Generation Incorporating Multiple Low-Fidelity Datasets. Aerospace, 11(1), 6. doi: [10.3390/aerospace11010006](https://doi.org/10.3390/aerospace11010006) (SCIE, JCR.Q1.Aerospace, Ranking 8/34, IF2022=2.6)
+1. <span style="color:blue">[J33]</span> Pham, V., Tyan, M., Nguyen, T. A., & Lee, J.-W. (2023). **Extended Hierarchical Kriging Method for Aerodynamic Model Generation Incorporating Multiple Low-Fidelity Datasets**. *Aerospace*, 11(1), 6. doi: [10.3390/aerospace11010006](https://doi.org/10.3390/aerospace11010006) (SCIE, JCR.Q1.Aerospace, Ranking 8/34, IF2022=2.6)
    
 2. <span style="color:blue">[J32]</span> Fé, I., Nguyen, T. A., Soares, A. B., Son, S., Choi, E., Min, D., Lee, J.-W., & Silva, F. A. (2023). **Model-driven Dependability and Power Consumption Quantification of Kubernetes based Cloud-Fog Continuum**. *IEEE Access*, 11, 140826–140852. doi: [10.1109/ACCESS.2023.3340195](https://doi.org/10.1109/ACCESS.2023.3340195) (SCIE, JCR.Q2.CS.IS, 78/156, IF2022=3.9)
    
