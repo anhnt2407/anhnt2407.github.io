@@ -5,9 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Dec. 21, 2023* </span>
+<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Feb. 23, 2023* </span>
 
-1. <span style="color:blue">[J34]</span> F. A. Silva, I. Fé, F. Silva, and T. A. Nguyen, **“Quantifying the impact of resource redundancy on smart city system dependability: a model-driven approach,”** *Cluster Comput.*, Feb. 2024, doi: [10.1007/s10586-023-04259-5](https://doi.org/10.1007/s10586-023-04259-5) (SCIE, JCR.Q1.Aerospace, Ranking 8/34, IF2022=2.6)
+1. <span style="color:blue">[J34]</span> F. A. Silva, I. Fé, F. Silva, and T. A. Nguyen, **“Quantifying the impact of resource redundancy on smart city system dependability: a model-driven approach,”** *Cluster Comput.*, Feb. 2024, doi: [10.1007/s10586-023-04259-5](https://doi.org/10.1007/s10586-023-04259-5) (SCIE, JCR.Q1.CS.Theory&Methods, Ranking 24/111, IF2022=4.4)
 
 1. <span style="color:blue">[J33]</span> Pham, V., Tyan, M., Nguyen, T. A., & Lee, J.-W. (2023). **Extended Hierarchical Kriging Method for Aerodynamic Model Generation Incorporating Multiple Low-Fidelity Datasets**. *Aerospace*, 11(1), 6. doi: [10.3390/aerospace11010006](https://doi.org/10.3390/aerospace11010006) (SCIE, JCR.Q1.Aerospace, Ranking 8/34, IF2022=2.6)
    
