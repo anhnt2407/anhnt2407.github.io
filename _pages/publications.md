@@ -5,7 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Feb. 23, 2023* </span>
+<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Feb. 25, 2024* </span>
+
+1. <span style="color:blue">[J35]</span> Ywet, N.L.; Maw, A.A.; Nguyen, T.A.; Lee, J.-W. **YOLOTransfer-DT: An Operational Digital Twin Framework with Deep and Transfer Learning for Collision Detection and Situation Awareness in Urban Aerial Mobility.** *Aerospace* 2024, 11, 179., doi: [10.3390/aerospace11030179](https://doi.org/10.3390/aerospace11030179) (SCIE, JCR.Q1.Aerospace, Ranking 8/34, IF2022=2.6)
 
 1. <span style="color:blue">[J34]</span> F. A. Silva, I. Fé, F. Silva, and T. A. Nguyen, **“Quantifying the impact of resource redundancy on smart city system dependability: a model-driven approach,”** *Cluster Comput.*, Feb. 2024, doi: [10.1007/s10586-023-04259-5](https://doi.org/10.1007/s10586-023-04259-5) (SCIE, JCR.Q1.CS.Theory&Methods, Ranking 24/111, IF2022=4.4)
 
