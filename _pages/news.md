@@ -57,12 +57,12 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 <body>
     <table>
         <tr>
-            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT Simulation System.jpg" alt="VDT Simulation System"></td>
-            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT Techs..jpg" alt="VDT Techs"></td>
+            <td><img src="images/news/VDT Simulation System.jpg" alt="VDT Simulation System"></td>
+            <td><img src="images/news/VDT Techs..jpg" alt="VDT Techs"></td>
         </tr>
         <tr>
-            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS-Rezied.jpg" alt="VDT-CILS Resized"></td>
-            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS.jpg" alt="VDT-CILS"></td>
+            <td><img src="images/news/VDT-CILS-Rezied.jpg" alt="VDT-CILS Resized"></td>
+            <td><img src="images/news/VDT-CILS.jpg" alt="VDT-CILS"></td>
         </tr>
         <tr>
             <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT"></td>
