@@ -31,3 +31,49 @@ Our key features include cloud server integration, AI-driven operations, digital
 Special thanks to our diligent KADA engineers and researchers! Jeongseok Hyun Minseok Jang Vinh Pham AYE AYE MAW
 
 Excited about the possibilities that lie ahead as we continue to innovate and drive advancements in the realm of Advanced Air Mobility. hashtag#AAM hashtag#UAM hashtag#DigitalTwin hashtag#AI hashtag#CloudComputing hashtag#Innovation 😊
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photos in Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        img {
+            width: 100%; /* Adjust this value based on your design needs */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT Simulation System.jpg" alt="VDT Simulation System"></td>
+            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT Techs..jpg" alt="VDT Techs"></td>
+        </tr>
+        <tr>
+            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS-Rezied.jpg" alt="VDT-CILS Resized"></td>
+            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS.jpg" alt="VDT-CILS"></td>
+        </tr>
+        <tr>
+            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT"></td>
+            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified"></td>
+        </tr>
+        <tr>
+            <!-- As there is an odd number of images, the last row will have just one cell. -->
+            <td><img src="anhnt2407/anhnt2407.github.io/images/news/VDT-SITL.jpg" alt="VDT SITL"></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
+
