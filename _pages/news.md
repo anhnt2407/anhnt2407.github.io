@@ -9,6 +9,9 @@ header:
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> May 12, 2024 </span>
 
+
+# <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
+
 Excited to share our achievements after a year of leading the AAM-VDT project at Konkuk Aerospace Design-Airworthiness Institute (KADA). We've made significant progress in developing an integrated simulation platform for the Konkuk Passenger Vehicle (KP-2) digital twin in the Advanced Air Mobility (AAM) sector. Our focus on cutting-edge technologies has paved the way for a revolutionary system in urban air mobility.
 
 The Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) project integrates cloud computing, artificial intelligence, and simulation to manage heterogeneous vehicles in real-time. Our collaboration within the KADA Research Groups - Design and Analysis, Simulation and Control, and AI Applications - has been instrumental in achieving our goals.
