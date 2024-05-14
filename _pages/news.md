@@ -59,6 +59,9 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
     </style>
 </head>
 <body>
+
+<h1>Gallery of Images</h1>
+
     <figure>
         <img src="../images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
         <figcaption>VDT Technologies of KADA</figcaption>
@@ -84,7 +87,10 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
         <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
     </figure>
 
-    <!-- Embedded YouTube Videos -->
+    <div class="separator"></div>
+
+    <h1>Embedded YouTube Videos</h1>
+
     <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe src="https://www.youtube.com/embed/9effNK__aOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe src="https://www.youtube.com/embed/X20FuC0C7pM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -98,7 +104,32 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 </body>
 </html>
 
-------------------
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Separator Example</title>
+    <style>
+        .separator {
+            width: 100%;
+            height: 2px; /* Adjust thickness as needed */
+            background-color: #333; /* Change color as needed */
+            margin: 40px 0; /* Adjust spacing as needed */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Section 1</h1>
+<p>This is the content of the first section.</p>
+
+<div class="separator"></div>
+
+<h1>Section 2</h1>
+<p>This is the content of the second section.</p>
+
+</body>
+</html>
 
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 10, 2024 </span>
 
