@@ -128,25 +128,25 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 
 <div class="gallery">
     <div class="thumbnail">
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT Simulation System.jpg" alt="VDT Simulation System" onclick="openModal(this)">
+        <img src="../images/news/VDT Simulation System.jpg" alt="VDT Simulation System" onclick="openModal(this)">
     </div>
     <div class="thumbnail">
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT Techs..jpg" alt="VDT Techs" onclick="openModal(this)">
+        <img src="../images/news/VDT Techs..jpg" alt="VDT Techs" onclick="openModal(this)">
     </div>
     <div class="thumbnail">
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS-Rezied.jpg" alt="VDT-CILS Resized" onclick="openModal(this)">
+        <img src="../images/news/VDT-CILS-Rezied.jpg" alt="VDT-CILS Resized" onclick="openModal(this)">
     </div>
     <div class="thumbnail">
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS.jpg" alt="VDT-CILS" onclick="openModal(this)">
+        <img src="../images/news/VDT-CILS.jpg" alt="VDT-CILS" onclick="openModal(this)">
     </div>
     <div class="thumbnail">
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT" onclick="openModal(this)">
+        <img src="../images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT" onclick="openModal(this)">
     </div>
     <div class="thumbnail">
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified" onclick="openModal(this)">
+        <img src="../images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified" onclick="openModal(this)">
     </div>
     <div class="thumbnail">
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-SITL.jpg" alt="VDT SITL" onclick="openModal(this)">
+        <img src="../images/news/VDT-SITL.jpg" alt="VDT SITL" onclick="openModal(this)">
     </div>
 </div>
 
@@ -185,6 +185,6 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 
 ------------------
 
-<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> May 10, 2024 </span>
+<span style="font-family: times, serif; font-size:1pt; font-style:italic; color:red"> May 10, 2024 </span>
 
-# <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
+# <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> IEEE/IFIP Network Operations and Management Symposium </span>
