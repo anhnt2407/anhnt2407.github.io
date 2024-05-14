@@ -68,21 +68,21 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
             display: none;
             position: fixed;
             z-index: 1;
-            padding-top: 100px;
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
             overflow: auto;
-            background-color: rgb(0,0,0);
             background-color: rgba(0,0,0,0.9);
+            justify-content: center;
+            align-items: center;
         }
         /* Modal Content (image) */
         .modal-content {
+            max-width: 90%;
+            max-height: 90%;
             margin: auto;
             display: block;
-            width: 80%;
-            max-width: 700px;
         }
         /* Caption of Modal Image */
         .caption {
@@ -93,21 +93,11 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
             text-align: center;
             color: #ccc;
             padding: 10px 0;
-            height: 150px;
-        }
-        /* Add Animation */
-        .modal-content, .caption {  
-            animation-name: zoom;
-            animation-duration: 0.6s;
-        }
-        @keyframes zoom {
-            from {transform:scale(0)}
-            to {transform:scale(1)}
         }
         /* The Close Button */
         .close {
             position: absolute;
-            top: 50px;
+            top: 20px;
             right: 35px;
             color: #f1f1f1;
             font-size: 40px;
@@ -151,7 +141,7 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 </div>
 
 <!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="myModal" class="modal" onclick="closeModal(event)">
     <span class="close" onclick="closeModal()">&times;</span>
     <img class="modal-content" id="img01">
     <div class="caption" id="caption"></div>
@@ -159,15 +149,26 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 
 <script>
     function openModal(element) {
-        document.getElementById('myModal').style.display = "block";
-        document.getElementById('img01').src = element.src;
-        document.getElementById('caption').innerHTML = element.alt;
+        var modal = document.getElementById('myModal');
+        var modalImg = document.getElementById('img01');
+        var captionText = document.getElementById('caption');
+
+        modal.style.display = "flex";
+        modalImg.src = element.src;
+        captionText.innerHTML = element.alt;
     }
 
-    function closeModal() {
-        document.getElementById('myModal').style.display = "none";
+    function closeModal(event) {
+        var modal = document.getElementById('myModal');
+        if (event.target === modal || event.target.className === 'close') {
+            modal.style.display = "none";
+        }
     }
 </script>
+
+</body>
+</html>
+
 
     <!-- Embedded YouTube Videos -->
     <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
