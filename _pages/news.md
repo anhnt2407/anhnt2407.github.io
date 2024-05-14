@@ -69,8 +69,6 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 <html lang="en">
 <body>
 
-<h1>Gallery of Images</h1>
-
 <figure>
     <img src="../images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
     <figcaption>VDT Technologies of KADA</figcaption>
@@ -97,8 +95,6 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 </figure>
 
 -------------------------
-
-<h1>Embedded YouTube Videos</h1>
 
 <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/9effNK__aOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -127,15 +123,8 @@ I am excited to announce my attendance at the 2024 IEEE/IFIP Network Operations 
 
 At NOMS 2024, we presented our paper titled **"Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm,"** authored by Carlos Melo, Glauber Gonçalves, Francisco A. Silva, Leonel Feitosa, Iure Fé, André Soares, Eunmi Choi, Tuan Anh Nguyen, and Dugki Min. Our research focuses on Hyperledger Fabric, a leading framework for permissioned blockchain systems, and aims to enhance blockchain performance and efficiency. We developed a Stochastic Petri Net (SPN) model to evaluate Hyperledger Fabric's performance under various configurations, offering detailed analyses of the endorsement, ordering, and commit phases of transactions. The model provides actionable insights for optimizing blockchain configurations, supported by practical case studies and a sensitivity analysis identifying critical factors affecting mean response time (MRT). The findings highlight the impact of block size and transaction arrival rates on system response times, validating the model's utility in real-world applications. This research offers a robust framework for pre-deployment performance evaluation and capacity planning in Hyperledger Fabric, paving the way for more efficient and scalable blockchain implementations in enterprise environments.
 
-```html
-<img src="../images/news/240510/NOMS 2024/NOMS 2024 (01).jpg" alt="NOMS 2024 Photo 1">
-<img src="../images/news/240510/NOMS 2024/NOMS 2024 (02).jpg" alt="NOMS 2024 Photo 2">
-<img src="../images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
-```
 <html lang="en">
 <body>
-
-<h1>Gallery of Images</h1>
 
 <figure>
     <img src="../images/news/240510/NOMS 2024/NOMS 2024 (01).jpg" alt="NOMS 2024 Photo 1">
