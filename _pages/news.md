@@ -62,47 +62,49 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 
 <h1>Gallery of Images</h1>
 
-    <figure>
-        <img src="../images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
-        <figcaption>VDT Technologies of KADA</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/240512/AAM-VDT/VDT Simulation System.jpg" alt="VDT Simulation System">
-        <figcaption>VDT Simulation System for Demonstration</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/240512/AAM-VDT/VDT-CILS.jpg" alt="VDT-CILS">
-        <figcaption> VDT Cloud in the loop simulation (CILS) </figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/240512/AAM-VDT/VDT-Single-ODT.jpg" alt="VDT Single ODT">
-        <figcaption>VDT Single Vehicle integrated with operational digital twin (ODT)</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/240512/AAM-VDT/VDT-SITL.jpg" alt="VDT SITL">
-        <figcaption>VDT software in the loop simulation (SITL)</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/240512/AAM-VDT/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
-        <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
-    </figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
+    <figcaption>VDT Technologies of KADA</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT Simulation System.jpg" alt="VDT Simulation System">
+    <figcaption>VDT Simulation System for Demonstration</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT-CILS.jpg" alt="VDT-CILS">
+    <figcaption> VDT Cloud in the loop simulation (CILS) </figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT-Single-ODT.jpg" alt="VDT Single ODT">
+    <figcaption>VDT Single Vehicle integrated with operational digital twin (ODT)</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT-SITL.jpg" alt="VDT SITL">
+    <figcaption>VDT software in the loop simulation (SITL)</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
+    <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
+</figure>
 
-    <div class="separator"></div>
+<div class="separator"></div>
 
-    <h1>Embedded YouTube Videos</h1>
+<h1>Embedded YouTube Videos</h1>
 
-    <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/9effNK__aOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/X20FuC0C7pM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/huKKna1OFjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/luD0U2uVrgg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/QfZZfo9YNls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/qfMXk1IYKFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/u0xFRdc-97Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/FqyS67FReXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9effNK__aOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/X20FuC0C7pM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/huKKna1OFjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/luD0U2uVrgg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/QfZZfo9YNls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/qfMXk1IYKFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/u0xFRdc-97Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/FqyS67FReXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </body>
 </html>
+
+------------
 
 <html lang="en">
 <head>
@@ -113,23 +115,15 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
         .separator {
             width: 100%;
             height: 2px; /* Adjust thickness as needed */
-            background-color: #333; /* Change color as needed */
+            background-color: #0000FF; /* Change color as needed */
             margin: 40px 0; /* Adjust spacing as needed */
         }
     </style>
 </head>
-<body>
-
-<h1>Section 1</h1>
-<p>This is the content of the first section.</p>
-
-<div class="separator"></div>
-
-<h1>Section 2</h1>
-<p>This is the content of the second section.</p>
-
-</body>
+<body> <div class="separator"></div> </body>
 </html>
+
+----------------
 
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 10, 2024 </span>
 
