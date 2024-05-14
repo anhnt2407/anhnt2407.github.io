@@ -132,3 +132,22 @@ At NOMS 2024, we presented our paper titled **"Optimal Resource Utilization in H
 <img src="../images/news/240510/NOMS 2024/NOMS 2024 (02).jpg" alt="NOMS 2024 Photo 2">
 <img src="../images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
 ```
+<html lang="en">
+<body>
+
+<h1>Gallery of Images</h1>
+
+<figure>
+    <img src="../images/news/240510/NOMS 2024/NOMS 2024 (01).jpg" alt="NOMS 2024 Photo 1">
+    <figcaption>Our presentation at NOMS</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240510/NOMS 2024/NOMS 2024 (02).jpg" alt="NOMS 2024 Photo 2">
+    <figcaption>NOMS 2024 whole week schedule</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
+    <figcaption> A system demonstration at NOMS 2024 </figcaption>
+</figure>
+</body>
+</html>
