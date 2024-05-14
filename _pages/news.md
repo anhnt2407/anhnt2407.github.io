@@ -30,10 +30,11 @@ Our key features include cloud server integration, AI-driven operations, digital
 - KP2C es-DNLC Flight Test: <https://lnkd.in/g92NiTKz>
 - KP2C LQR Flight Test: <https://lnkd.in/gR8q7zXD>
 
-Special thanks to our diligent KADA engineers and researchers! Jeongseok Hyun Minseok Jang Vinh Pham AYE AYE MAW
+Special thanks to our diligent KADA engineers and researchers! Jeongseok Hyun, Minseok Jang, Vinh Pham, AYE AYE MAW
 
 Excited about the possibilities that lie ahead as we continue to innovate and drive advancements in the realm of Advanced Air Mobility. #AAM #UAM #DigitalTwin #AI #CloudComputing
 
+```html
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,16 +42,15 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
     <title>Gallery of Images</title>
     <style>
         figure {
-            /* Aligning figure centrally */
             text-align: center;
-            margin: 20px; /* Space around each image */
+            margin: 20px;
         }
         figcaption {
-            color: blue; /* Color of the label text */
+            color: blue;
         }
         img {
-            width: 80%; /* Adjust width as necessary */
-            height: auto; /* Maintain aspect ratio */
+            width: 80%;
+            height: auto;
         }
     </style>
 </head>
@@ -85,4 +85,3 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
     </figure>
 </body>
 </html>
-
