@@ -132,7 +132,9 @@ At NOMS 2024, we presented our paper titled <span style="font-family: times, ser
 
 This research provides a robust framework for pre-deployment performance evaluation and capacity planning in Hyperledger Fabric, paving the way for more efficient and scalable blockchain implementations in enterprise environments.
 
-Special thanks to our Brazillian team, coordianted by [Francisco Airton Silva](https://iuresf.gitlab.io/pasid-site/airton.html), Laboratory of Applied Research to Distributed Systems (PASID), Federal University of Piauí (UFPI) (campus Picos), Teresina, Piauí, Brazil
+Special thanks to our Brazillian team, coordinated by [Francisco Airton Silva](https://iuresf.gitlab.io/pasid-site/airton.html), Laboratory of Applied Research to Distributed Systems (PASID), Federal University of Piauí (UFPI) (campus Picos), Teresina, Piauí, Brazil, for their collaboration in the research.
+
+During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://people.cs.vt.edu/~jicho/), a collaborator of my Ph.D. supervisor, [Dongseong Kim](https://researchers.uq.edu.au/researcher/23703). Jin-Hee Cho is now an Associate Professor in the Department of Computer Science at Virginia Tech. It was great to converse with her and attend her fascinating research presentation. It's remarkable how small and interconnected the world can be.
 
 <html lang="en">
 <body>
