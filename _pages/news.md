@@ -59,34 +59,26 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
         }
     </style>
 </head>
-<body>
-    <figure>
-        <img src="../images/news/VDT Simulation System.jpg" alt="VDT Simulation System">
-        <figcaption>VDT Simulation System</figcaption>
-    </figure>
+<body>    
     <figure>
         <img src="../images/news/VDT Techs..jpg" alt="VDT Techs">
-        <figcaption>VDT Techs</figcaption>
+        <figcaption>VDT Technologies of KADA</figcaption>
     </figure>
     <figure>
-        <img src="../images/news/VDT-CILS-Rezied.jpg" alt="VDT-CILS Resized">
-        <figcaption>VDT-CILS Resized</figcaption>
+        <img src="../images/news/VDT Simulation System.jpg" alt="VDT Simulation System">
+        <figcaption>VDT Simulation System for Demonstration</figcaption>
     </figure>
     <figure>
         <img src="../images/news/VDT-CILS.jpg" alt="VDT-CILS">
-        <figcaption>VDT-CILS</figcaption>
+        <figcaption> VDT Cloud in the loop simulation (CILS) </figcaption>
     </figure>
     <figure>
         <img src="../images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT">
-        <figcaption>VDT Single ODT</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
-        <figcaption>VDT SITL Simplified</figcaption>
+        <figcaption>VDT Single Vehicle integrated with operational digital twin (ODT)</figcaption>
     </figure>
     <figure>
         <img src="../images/news/VDT-SITL.jpg" alt="VDT SITL">
-        <figcaption>VDT SITL</figcaption>
+        <figcaption>VDT software in the loop simulation (SITL)</figcaption>
     </figure>
 
     <!-- Embedded YouTube Videos -->
