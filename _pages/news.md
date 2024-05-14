@@ -166,10 +166,6 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
     }
 </script>
 
-</body>
-</html>
-
-
     <!-- Embedded YouTube Videos -->
     <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe src="https://www.youtube.com/embed/9effNK__aOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
