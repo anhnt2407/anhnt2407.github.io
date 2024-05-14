@@ -61,31 +61,31 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 </head>
 <body>
     <figure>
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT Simulation System.jpg" alt="VDT Simulation System">
+        <img src="../images/news/VDT Simulation System.jpg" alt="VDT Simulation System">
         <figcaption>VDT Simulation System</figcaption>
     </figure>
     <figure>
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT Techs..jpg" alt="VDT Techs">
+        <img src="../images/news/VDT Techs..jpg" alt="VDT Techs">
         <figcaption>VDT Techs</figcaption>
     </figure>
     <figure>
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS-Rezied.jpg" alt="VDT-CILS Resized">
+        <img src="../images/news/VDT-CILS-Rezied.jpg" alt="VDT-CILS Resized">
         <figcaption>VDT-CILS Resized</figcaption>
     </figure>
     <figure>
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS.jpg" alt="VDT-CILS">
+        <img src="../images/news/VDT-CILS.jpg" alt="VDT-CILS">
         <figcaption>VDT-CILS</figcaption>
     </figure>
     <figure>
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT">
+        <img src="../images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT">
         <figcaption>VDT Single ODT</figcaption>
     </figure>
     <figure>
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
+        <img src="../images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
         <figcaption>VDT SITL Simplified</figcaption>
     </figure>
     <figure>
-        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-SITL.jpg" alt="VDT SITL">
+        <img src="../images/news/VDT-SITL.jpg" alt="VDT SITL">
         <figcaption>VDT SITL</figcaption>
     </figure>
 
