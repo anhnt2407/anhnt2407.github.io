@@ -37,52 +37,137 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery of Images and Videos</title>
+    <title>Gallery with Thumbnails</title>
     <style>
-        figure {
-            text-align: center;
-            margin: 20px;
+        body {
+            font-family: Arial, sans-serif;
         }
-        figcaption {
-            color: blue;
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
         }
-        img {
-            width: 80%;
+        .thumbnail {
+            width: 150px;
+            height: 100px;
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid #ddd;
+            transition: 0.3s;
+        }
+        .thumbnail img {
+            width: 100%;
             height: auto;
         }
-        iframe {
-            width: 80%;
-            height: 315px;
-            margin: 20px auto;
+        .thumbnail:hover {
+            border-color: #333;
+        }
+        /* The Modal (background) */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.9);
+        }
+        /* Modal Content (image) */
+        .modal-content {
+            margin: auto;
             display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+        /* Caption of Modal Image */
+        .caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+        }
+        /* Add Animation */
+        .modal-content, .caption {  
+            animation-name: zoom;
+            animation-duration: 0.6s;
+        }
+        @keyframes zoom {
+            from {transform:scale(0)}
+            to {transform:scale(1)}
+        }
+        /* The Close Button */
+        .close {
+            position: absolute;
+            top: 50px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
         }
     </style>
 </head>
-<body>    
-    <figure>
-        <img src="../images/news/VDT Techs..jpg" alt="VDT Techs">
-        <figcaption>VDT Technologies of KADA</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/VDT Simulation System.jpg" alt="VDT Simulation System">
-        <figcaption>VDT Simulation System for Demonstration</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/VDT-CILS.jpg" alt="VDT-CILS">
-        <figcaption> VDT Cloud in the loop simulation (CILS) </figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT">
-        <figcaption>VDT Single Vehicle integrated with operational digital twin (ODT)</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/VDT-SITL.jpg" alt="VDT SITL">
-        <figcaption>VDT software in the loop simulation (SITL)</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
-        <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
-    </figure>
+<body>
+
+<h1>Gallery with Thumbnails</h1>
+
+<div class="gallery">
+    <div class="thumbnail">
+        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT Simulation System.jpg" alt="VDT Simulation System" onclick="openModal(this)">
+    </div>
+    <div class="thumbnail">
+        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT Techs..jpg" alt="VDT Techs" onclick="openModal(this)">
+    </div>
+    <div class="thumbnail">
+        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS-Rezied.jpg" alt="VDT-CILS Resized" onclick="openModal(this)">
+    </div>
+    <div class="thumbnail">
+        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-CILS.jpg" alt="VDT-CILS" onclick="openModal(this)">
+    </div>
+    <div class="thumbnail">
+        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT" onclick="openModal(this)">
+    </div>
+    <div class="thumbnail">
+        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified" onclick="openModal(this)">
+    </div>
+    <div class="thumbnail">
+        <img src="anhnt2407/anhnt2407.github.io/images/news/VDT-SITL.jpg" alt="VDT SITL" onclick="openModal(this)">
+    </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="img01">
+    <div class="caption" id="caption"></div>
+</div>
+
+<script>
+    function openModal(element) {
+        document.getElementById('myModal').style.display = "block";
+        document.getElementById('img01').src = element.src;
+        document.getElementById('caption').innerHTML = element.alt;
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+</script>
 
     <!-- Embedded YouTube Videos -->
     <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -97,3 +182,9 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 
 </body>
 </html>
+
+------------------
+
+<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> May 10, 2024 </span>
+
+# <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
