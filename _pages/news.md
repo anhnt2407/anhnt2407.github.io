@@ -19,16 +19,15 @@ Our key features include cloud server integration, AI-driven operations, digital
 
 ## Medias
 
-- VDT Simulation System: <https://lnkd.in/g4Q9SEKM>
-- VDT Concept Illustration: <https://lnkd.in/gYb5yESg>
-- VDT Simulation in KU Map (01): <https://lnkd.in/g_pYmn9T>
-- VDT Simulation in KU Map (02): <https://lnkd.in/gPGNAHCG>
-- VDT Simulation in KU Map (03)-JS Transition Scheduling Algorithm: <https://lnkd.in/gb24sZsy>
-- VDT Simulation in Seoul Map (Fixed Wing): <https://lnkd.in/gSJ-sFeM>
-- VDT Simulation Scenarios: <https://lnkd.in/gTzbUa85>
-- KP2C Real Flight Test: <https://lnkd.in/gpkBcx4i>
-- KP2C es-DNLC Flight Test: <https://lnkd.in/g92NiTKz>
-- KP2C LQR Flight Test: <https://lnkd.in/gR8q7zXD>
+- [VDT Simulation System](https://youtu.be/ePH-f1H2PH8)
+- [VDT Concept Illustration](https://youtu.be/9effNK__aOU)
+- [VDT Simulation in KU Map (01)](https://youtu.be/X20FuC0C7pM)
+- [VDT Simulation in KU Map (02)](https://youtu.be/huKKna1OFjA)
+- [VDT Simulation in Seoul Map (Fixed Wing)](https://youtu.be/luD0U2uVrgg)
+- [VDT Simulation Scenarios](https://youtu.be/QfZZfo9YNls)
+- [KP2C Real Flight Test](https://youtu.be/qfMXk1IYKFA)
+- [KP2C es-DNLC Flight Test](https://youtu.be/u0xFRdc-97Q)
+- [KP2C LQR Flight Test](https://youtu.be/FqyS67FReXo)
 
 Special thanks to our diligent KADA engineers and researchers! Jeongseok Hyun, Minseok Jang, Taeho Kwag, Nghia Nguyen, Vinh Pham, AYE AYE MAW
 
