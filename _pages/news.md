@@ -80,6 +80,10 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
         <img src="../images/news/VDT-SITL.jpg" alt="VDT SITL">
         <figcaption>VDT software in the loop simulation (SITL)</figcaption>
     </figure>
+    <figure>
+        <img src="../images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
+        <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
+    </figure>
 
     <!-- Embedded YouTube Videos -->
     <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
