@@ -132,6 +132,8 @@ At NOMS 2024, we presented our paper titled "Optimal Resource Utilization in Hyp
 
 This research provides a robust framework for pre-deployment performance evaluation and capacity planning in Hyperledger Fabric, paving the way for more efficient and scalable blockchain implementations in enterprise environments.
 
+Special thanks to our Brazillian team, coordianted by [Francisco Airton Silva](https://iuresf.gitlab.io/pasid-site/airton.html), Laboratory of Applied Research to Distributed Systems (PASID), Federal University of Piauí (UFPI) (campus Picos), Teresina, Piauí, Brazil
+
 <html lang="en">
 <body>
 
