@@ -7,7 +7,7 @@ header:
   og_image: "collaborators/ecdf.png"
 ---
 
-<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> May 12, 2024 </span>
+<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 12, 2024 </span>
 
 # <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
 
@@ -58,29 +58,29 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
         }
     </style>
 </head>
-<body>    
+<body>
     <figure>
-        <img src="../images/news/VDT Techs..jpg" alt="VDT Techs">
+        <img src="../images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
         <figcaption>VDT Technologies of KADA</figcaption>
     </figure>
     <figure>
-        <img src="../images/news/VDT Simulation System.jpg" alt="VDT Simulation System">
+        <img src="../images/news/240512/AAM-VDT/VDT Simulation System.jpg" alt="VDT Simulation System">
         <figcaption>VDT Simulation System for Demonstration</figcaption>
     </figure>
     <figure>
-        <img src="../images/news/VDT-CILS.jpg" alt="VDT-CILS">
+        <img src="../images/news/240512/AAM-VDT/VDT-CILS.jpg" alt="VDT-CILS">
         <figcaption> VDT Cloud in the loop simulation (CILS) </figcaption>
     </figure>
     <figure>
-        <img src="../images/news/VDT-Single-ODT.jpg" alt="VDT Single ODT">
+        <img src="../images/news/240512/AAM-VDT/VDT-Single-ODT.jpg" alt="VDT Single ODT">
         <figcaption>VDT Single Vehicle integrated with operational digital twin (ODT)</figcaption>
     </figure>
     <figure>
-        <img src="../images/news/VDT-SITL.jpg" alt="VDT SITL">
+        <img src="../images/news/240512/AAM-VDT/VDT-SITL.jpg" alt="VDT SITL">
         <figcaption>VDT software in the loop simulation (SITL)</figcaption>
     </figure>
     <figure>
-        <img src="../images/news/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
+        <img src="../images/news/240512/AAM-VDT/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
         <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
     </figure>
 
@@ -100,6 +100,6 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 
 ------------------
 
-<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> May 10, 2024 </span>
+<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 10, 2024 </span>
 
-# <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
+# <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> IEEE/IFIP Network Operations and Management Symposium (NOMS 2024) - 6–10 May 2024 // Seoul, South Korea </span>
