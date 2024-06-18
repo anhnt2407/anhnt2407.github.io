@@ -7,6 +7,8 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: April. 17, 2024* </span>
 
+1. <span style="color:blue">[J38]</span> Fé, I., Nguyen, T.A., Mauro, M.D. et al. **Energy-aware dynamic response and efficient consolidation strategies for disaster survivability of cloud microservices architecture**. *Computing* (2024). doi: [10.1007/s00607-024-01305-x](https://doi.org/10.1007/s00607-024-01305-x) (SCIE, JCR.Q2.CS.Theory\&Methods, 31/111, IF2022=3.7)
+
 1. <span style="color:blue">[J37]</span> Santos, L., Brito, C., Fé, I., Carvalho, J., Torquato, M., Choi, E., Min, D., Lee, J.-W., Nguyen, T. A., & Silva, F. A. (2024). **Event-Based Moving Target Defense in Cloud Computing with VM Migration: A Performance Modeling Approach**. *IEEE Access*, 1–1. doi: [10.1109/ACCESS.2024.3393998](https://doi.org/10.1109/ACCESS.2024.3393998) (SCIE, JCR.Q2.CS.IS, 78/156, IF2022=3.9)
 
 1. <span style="color:blue">[PREPRINT 01]</span> Nguyen, T. A., Kwag, T., Pham, V., Nguyen, V. N., Hyun, J., Jang, M., & Lee, J.-W. (2024). **AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility**. doi: [10.48550/arXiv.2404.09621](https://doi.org/10.48550/arXiv.2404.09621)
