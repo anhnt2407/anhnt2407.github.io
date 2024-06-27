@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: April. 17, 2024* </span>
+<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: June. 27, 2024* </span>
 
 1. <span style="color:blue">[J38]</span> Fé, I., Nguyen, T.A., Mauro, M.D. et al. **Energy-aware dynamic response and efficient consolidation strategies for disaster survivability of cloud microservices architecture**. *Computing* (2024). doi: [10.1007/s00607-024-01305-x](https://doi.org/10.1007/s00607-024-01305-x) (SCIE, JCR.Q2.CS.Theory\&Methods, 31/111, IF2022=3.7)
 
