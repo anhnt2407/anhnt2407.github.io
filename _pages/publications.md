@@ -41,7 +41,7 @@ author_profile: true
 
 10. <span style="color:blue">[J25]</span> S. Jeon, H. Lee, V. K. Kaliappan, *T. A. Nguyen*, H. Jo, H. Cho, and D. Min, **“Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control,”** *Energies*, vol. 15, no. 19, p. 7426, Oct. 2022, doi: [10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3.Energy/Fuels., Ranking 80/119, IF2021=3.252)
 
-11. <span style="color:blue">[J24]</span> Tyan, M., Choi, C.-K., *T. A., Nguyen*, & Lee, J.-W. (2022). **Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection**. *International Journal of Aeronautical and Space Sciences*. DOI: [10.5139/IJASS.2022.23.2.529](https://doi.org/10.5139/IJASS.2022.23.2.529)(SCIE, JCR.Q3.Aerospace., Ranking 20/34, IF2020=1.489)
+11. <span style="color:blue">[J24]</span> Tyan, M., Choi, C.-K., *T. A., Nguyen*, & Lee, J.-W. (2022). **Rapid Airfoil Inverse Design Method with a Deep Neural Network and Hyperparameter Selection**. *International Journal of Aeronautical and Space Sciences*. DOI: [10.1007/s42405-022-00507-x](https://doi.org/10.1007/s42405-022-00507-x)(SCIE, JCR.Q3.Aerospace., Ranking 20/34, IF2020=1.489)
 
 12. <span style="color:blue">[J23]</span> Rocha, P., Souza, A., Maia, G., Mattos, C., Silva, F. A., Rego, P., *T. A., Nguyen*, & Lee, J.-W. (2022). **Evaluating Link Lifetime Prediction to Support Computational Offloading Decision in VANETs.** *Sensors*, vol. 22, no. 16, Aug. 2022, p. 6038, DOI: [10.3390/s22166038](https://doi.org/10.3390/s22166038) (SCIE, JCR.Q2.Instru., Ranking 19/64, IF2021=3.847)
 
