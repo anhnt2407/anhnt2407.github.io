@@ -73,11 +73,6 @@ hashtag#CACRE2024 hashtag#Automation hashtag#Control hashtag#Robotics hashtag#Ad
 
 ------------
 
-<html lang="en">
-<body> <div class="separator"></div> </body>
-</html>
-
-
 # <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
 
 Excited to share our achievements after a year of leading the AAM-VDT project at Konkuk Aerospace Design-Airworthiness Institute (KADA). We've made significant progress in developing an integrated simulation platform for the Konkuk Passenger Vehicle (KP-2) digital twin in the Advanced Air Mobility (AAM) sector. Our focus on cutting-edge technologies has paved the way for a revolutionary system in urban air mobility.
