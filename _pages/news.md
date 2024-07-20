@@ -60,11 +60,11 @@ hashtag#CACRE2024 hashtag#Automation hashtag#Control hashtag#Robotics hashtag#Ad
 <body>
 
 <figure>
-    <img src="../images/news/240512/CACRE_2024_Presentation.jpg" alt="Presentation at CACRE 2024">
+    <img src="../images/news/240720/CACRE_2024_Presentation.jpg" alt="Presentation at CACRE 2024">
     <figcaption>AAM-VDT Presentation at CACRE 2024</figcaption>
 </figure>
 <figure>
-    <img src="../images/news/240512/CACRE_2024_Information.png" alt="CACRE 2024 Information">
+    <img src="../images/news/240720/CACRE_2024_Information.png" alt="CACRE 2024 Information">
     <figcaption>CACRE 2024 Information</figcaption>
 </figure>
 
