@@ -42,7 +42,7 @@ header:
 
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
 
-# Breakthroughs in PILS-VR and Cloud Simulation by Our Team
+# Pilot-in-the-loop simulation with virtual reality (PILS-VR) running on top of cloud-in-the-loop simulation (CILS)
 
 I am excited to share the progress our team has made in a short period. It was an honor to represent our group at the Conference on Automation, Control, and Robotics Engineering (CACRE 2024) in Jeju. Our collaboration with Korean students, combined with the relentless efforts of our Vietnamese team at KADA, has led to remarkable developments. 
 
