@@ -40,7 +40,40 @@ header:
 </head>
 </html>
 
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 12, 2024 </span>
+<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
+
+# <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> 2024 9th International Conference on Automation, Control and Robotics Engineering (CACRE 2024) </span>
+
+🚀 Exciting Update! 🚀
+
+I am thrilled to share that I had the incredible opportunity to attend and present at the 2024 International Conference on Automation, Control, and Robotics Engineering (CACRE 2024) held on Jeju Island, South Korea, from July 18-20, 2024. This prestigious conference brought together leading experts, researchers, and practitioners in the fields of automation, control, and robotics from around the world.
+
+As part of the conference, I presented our latest research from the Konkuk Aerospace Design-Airworthiness Institute (KADA). Our study, titled "AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility," delves into the innovative use of digital twin technology for enhancing tele-operations in the realm of advanced air mobility. 
+
+I am honored to share that our presentation received the Excellent Oral Presentation award in the Special Session IX: Modeling, Control, and AI for Autonomous Vehicles. This session was chaired by Sungjin Cho from Sunchon National University, South Korea, with Sangho Kim from Konkuk University, South Korea, serving as Vice Session Chair.
+
+I am incredibly grateful to my professor and co-author, Professor Jae-Woo Lee, the Director of KADA, and all the contributors for their hard work and dedication to this project. A special thank you to the conference organizers and attendees for providing such a fantastic platform to share our work and engage with the global community.
+
+Looking forward to the future collaborations and advancements in this exciting field!
+
+hashtag#CACRE2024 hashtag#Automation hashtag#Control hashtag#Robotics hashtag#AdvancedAirMobility hashtag#DigitalTwin hashtag#KonkukUniversity hashtag#Research hashtag#Innovation hashtag#TeleOperations hashtag#AirMobility hashtag#AI hashtag#AutonomousVehicles
+
+<html lang="en">
+<body>
+
+<figure>
+    <img src="../images/news/240512/CACRE_2024_Presentation.jpg" alt="Presentation at CACRE 2024">
+    <figcaption>AAM-VDT Presentation at CACRE 2024</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/CACRE_2024_Information.png" alt="CACRE 2024 Information">
+    <figcaption>CACRE 2024 Information</figcaption>
+</figure>
+
+
+
+</body>
+</html>
 
 # <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
 
