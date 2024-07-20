@@ -44,8 +44,6 @@ header:
 
 # <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> 2024 9th International Conference on Automation, Control and Robotics Engineering (CACRE 2024) </span>
 
-🚀 Exciting Update! 🚀
-
 I am thrilled to share that I had the incredible opportunity to attend and present at the 2024 International Conference on Automation, Control, and Robotics Engineering (CACRE 2024) held on Jeju Island, South Korea, from July 18-20, 2024. This prestigious conference brought together leading experts, researchers, and practitioners in the fields of automation, control, and robotics from around the world.
 
 As part of the conference, I presented our latest research from the Konkuk Aerospace Design-Airworthiness Institute (KADA). Our study, titled "AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility," delves into the innovative use of digital twin technology for enhancing tele-operations in the realm of advanced air mobility. 
