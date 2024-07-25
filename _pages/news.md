@@ -79,9 +79,7 @@ All data from KFDS and PX4 are collected in run-time simulation for further anal
 <body>
 
 <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <iframe src="https://www.youtube.com/watch?v=1BYQKzVgXeQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <iframe src="https://www.youtube.com/watch?v=byyYU9jCaTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </body>
