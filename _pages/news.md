@@ -75,7 +75,7 @@ Using this method, we can input control signal data from pre-existing files into
 
 All data from KFDS and PX4 are collected in run-time simulation for further analysis and prediction for future updates of digital twin models in the virtual world.
 
-<html lang="en">
+<!-- <html lang="en">
 <body>
 
 <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -83,7 +83,7 @@ All data from KFDS and PX4 are collected in run-time simulation for further anal
 <iframe src="https://www.youtube.com/watch?v=byyYU9jCaTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </body>
-</html>
+</html> -->
 
 ----------
 
