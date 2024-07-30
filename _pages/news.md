@@ -44,17 +44,6 @@ header:
 
 
 
----------------------------------------
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
-
-# 🚀 SHANGUS: Redefining Autonomous Exploration with Deep Reinforcement Learning
-
-I am pleased to share some exciting advancements in our research and development at the Distributed Multimedia Systems Laboratory (DMS). Our team has been working diligently on SHANGUS, an innovative framework that integrates Deep Reinforcement Learning (DRL) with heuristic optimization to improve autonomous exploration in unknown environments.
-
-## Key Highlights:
-
-🔹 **Integration of DRL and Heuristic Optimization:** SHANGUS combines the adaptability of DRL with heuristic prioritization to enhance exploration efficiency, reduce completion time, and minimize travel distance.
-
 🔹 **Advanced Frontier Selection and Navigation Strategy:** Our approach features a frontier selection node and a DRL navigation node using the TD3 algorithm, ensuring robust path planning and dynamic obstacle avoidance.
 
 🔹 **Superior Performance in Simulations:** Through extensive experiments in ROS2 and Gazebo environments, SHANGUS has shown promising results, outperforming traditional methods like Nearest Frontier (NF), CFE, and GDAE, particularly in complex scenarios.
@@ -73,6 +62,16 @@ We are excited about these developments and their potential applications in indu
 
 #AI #Robotics #DeepLearning #AutonomousVehicles #Innovation
 
+---------------------------------------
+<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
+
+# 🚀 SHANGUS: Redefining Autonomous Exploration with Deep Reinforcement Learning
+
+I am pleased to share some exciting advancements in our research and development at the Distributed Multimedia Systems Laboratory (DMS). Our team has been working diligently on SHANGUS, an innovative framework that integrates Deep Reinforcement Learning (DRL) with heuristic optimization to improve autonomous exploration in unknown environments.
+
+## Key Highlights:
+
+🔹 **Integration of DRL and Heuristic Optimization:** SHANGUS combines the adaptability of DRL with heuristic prioritization to enhance exploration efficiency, reduce completion time, and minimize travel distance.
 
 # Pilot-in-the-loop simulation with virtual reality (PILS-VR) running on top of cloud-in-the-loop simulation (CILS)
 
