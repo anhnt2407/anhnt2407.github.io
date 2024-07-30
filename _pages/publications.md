@@ -7,7 +7,7 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: July. 26, 2024* </span>
 
-1. <span style="color:blue">[PREPRINT 02]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2024). **SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization for Speedy Frontier-Based Exploration of Autonomous Vehicles in Unknown Spaces.** arXiv: [2407.18892](http://arxiv.org/abs/2407.18892) 
+1. <span style="color:blue">[P02]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2024). **SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization for Speedy Frontier-Based Exploration of Autonomous Vehicles in Unknown Spaces.** arXiv: [2407.18892](http://arxiv.org/abs/2407.18892) 
 
 1. <span style="color:green">[C36]</span> Melo C., Gonçalves G., Silva F. A., Feitosa L., Fé I., Soares A., Choi E., Nguyen T. A., and Min D., **Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm.** In: *NOMS 2024-2024 IEEE Network Operations and Management Symposium*. IEEE; 2024:1-7. doi: [10.1109/NOMS59830.2024.10575284](https://doi.org/10.1109/NOMS59830.2024.10575284)
 
@@ -15,7 +15,7 @@ author_profile: true
 
 1. <span style="color:blue">[J37]</span> Santos, L., Brito, C., Fé, I., Carvalho, J., Torquato, M., Choi, E., Min, D., Lee, J.-W., Nguyen, T. A., & Silva, F. A. (2024). **Event-Based Moving Target Defense in Cloud Computing with VM Migration: A Performance Modeling Approach**. *IEEE Access*, 1–1. doi: [10.1109/ACCESS.2024.3393998](https://doi.org/10.1109/ACCESS.2024.3393998) (SCIE, JCR.Q2.CS.IS, 78/156, IF2022=3.9)
 
-1. <span style="color:blue">[PREPRINT 01]</span> Nguyen, T. A., Kwag, T., Pham, V., Nguyen, V. N., Hyun, J., Jang, M., & Lee, J.-W. (2024). **AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility**. doi: [10.48550/arXiv.2404.09621](https://doi.org/10.48550/arXiv.2404.09621)
+1. <span style="color:blue">[P01]</span> Nguyen, T. A., Kwag, T., Pham, V., Nguyen, V. N., Hyun, J., Jang, M., & Lee, J.-W. (2024). **AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility**. doi: [10.48550/arXiv.2404.09621](https://doi.org/10.48550/arXiv.2404.09621)
 
 1. <span style="color:blue">[J36]</span> Araújo, G., Barbosa, V., Lima, L. N., Sabino, A., Brito, C., Fé, I., Rego, P., Choi, E., Min, D., Nguyen, T. A., & Silva, F. A. (2024). **Energy Consumption in Microservices Architectures: A Systematic Literature Review.** *IEEE Access*, 1–1. doi: [10.1109/ACCESS.2024.3389064](https://doi.org/10.1109/ACCESS.2024.3389064) (SCIE, JCR.Q2.CS.IS, 78/156, IF2022=3.9)
 
