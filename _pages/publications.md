@@ -7,7 +7,7 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: July. 26, 2024* </span>
 
-1. <span style="color:blue">[PREPRINT 02]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2024). **SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization for Speedy Frontier-Based Exploration of Autonomous Vehicles in Unknown Spaces.** http://arxiv.org/abs/2407.18892
+1. <span style="color:blue">[PREPRINT 02]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2024). **SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization for Speedy Frontier-Based Exploration of Autonomous Vehicles in Unknown Spaces.** arXiv: [2407.18892](http://arxiv.org/abs/2407.18892) 
 
 1. <span style="color:green">[C36]</span> Melo C., Gonçalves G., Silva F. A., Feitosa L., Fé I., Soares A., Choi E., Nguyen T. A., and Min D., **Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm.** In: *NOMS 2024-2024 IEEE Network Operations and Management Symposium*. IEEE; 2024:1-7. doi: [10.1109/NOMS59830.2024.10575284](https://doi.org/10.1109/NOMS59830.2024.10575284)
 
