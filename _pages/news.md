@@ -39,8 +39,40 @@ header:
     </style>
 </head>
 </html>
+--------------------------------------
+<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 29, 2024 </span>
+
+
+
 ---------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
+
+# 🚀 SHANGUS: Redefining Autonomous Exploration with Deep Reinforcement Learning
+
+I am pleased to share some exciting advancements in our research and development at the Distributed Multimedia Systems Laboratory (DMS). Our team has been working diligently on SHANGUS, an innovative framework that integrates Deep Reinforcement Learning (DRL) with heuristic optimization to improve autonomous exploration in unknown environments.
+
+## Key Highlights:
+
+🔹 **Integration of DRL and Heuristic Optimization:** SHANGUS combines the adaptability of DRL with heuristic prioritization to enhance exploration efficiency, reduce completion time, and minimize travel distance.
+
+🔹 **Advanced Frontier Selection and Navigation Strategy:** Our approach features a frontier selection node and a DRL navigation node using the TD3 algorithm, ensuring robust path planning and dynamic obstacle avoidance.
+
+🔹 **Superior Performance in Simulations:** Through extensive experiments in ROS2 and Gazebo environments, SHANGUS has shown promising results, outperforming traditional methods like Nearest Frontier (NF), CFE, and GDAE, particularly in complex scenarios.
+
+## Watch Our Demos:
+
+- **Simple World:** [Watch the demo](https://www.youtube.com/watch?v=XwZ63Wk4ATA)
+- **Moderate Complex World:** [Watch the demo](https://www.youtube.com/watch?v=ZNepJp0hCFQ)
+- **Most Complex World:** [Watch the demo](https://www.youtube.com/watch?v=Fm22Bq6hr68)
+
+For those interested in a deeper dive into our research, you can read our full paper, published as a preprint on arXiv: [SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization](http://arxiv.org/abs/2407.18892). 
+
+We hope to receive feedback and contributions from friends and colleagues to further extend our research and enhance the quality of our paper. 
+
+We are excited about these developments and their potential applications in industrial automation, autonomous driving, household robotics, and space exploration. Thank you for your continued support and interest in our work at DMS Lab!
+
+#AI #Robotics #DeepLearning #AutonomousVehicles #Innovation
+
 
 # Pilot-in-the-loop simulation with virtual reality (PILS-VR) running on top of cloud-in-the-loop simulation (CILS)
 
