@@ -51,8 +51,8 @@ We just explored a groundbreaking study titled **"Efficient Strategies for Unman
 <body>
 
 <figure>
-    <img src="../images/news/240720/Efficient_UAV_Strategies_Battery_Performance.png" alt="Presentation at CACRE 2024">
-    <figcaption>AAM-VDT Presentation at CACRE 2024</figcaption>
+    <img src="../images/news/240828/Transport_system_with_without_considering_package_transfer.png" alt="Transport system with/without considering package transfer" width="500">
+    <figcaption>Transport system with/without considering package transfer</figcaption>
 </figure>
 
 </body>
