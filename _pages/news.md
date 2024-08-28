@@ -47,6 +47,17 @@ header:
 
 We just explored a groundbreaking study titled **"Efficient Strategies for Unmanned Aerial Vehicle Flights: Analyzing Battery Life and Operational Performance in Delivery Services using Stochastic Models"** published in *IEEE Access*. This research, conducted by Francisco Airton Silva, Vandirleya Barbosa, Luiz Nelson Lima, Arthur Sabino, Paulo Rego, Luiz F. Bittencourt, Jae-Woo Lee, Dugki Min, and Tuan Anh Nguyen, is pushing the boundaries of what's possible in UAV (drone) delivery services! 🔋✈️
 
+<html lang="en">
+<body>
+
+<figure>
+    <img src="../images/news/240720/Efficient_UAV_Strategies_Battery_Performance.png" alt="Presentation at CACRE 2024">
+    <figcaption>AAM-VDT Presentation at CACRE 2024</figcaption>
+</figure>
+
+</body>
+</html>
+
 **What's the Buzz?**
 
 These researchers introduced two advanced models to evaluate and boost drone delivery efficiency. Whether it's solo drone missions or cooperative ones (where drones hand off packages to each other), these models are helping us understand how to make drone deliveries faster, more reliable, and way more efficient!
