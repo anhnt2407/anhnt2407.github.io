@@ -7,7 +7,7 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: July. 26, 2024* </span>
 
-1. <span style="color:blue">[P02]</span> Silva, F. A., Barbosa, V., Lima, L. N., Sabino, A., Rego, P., Bittencourt, L. F., Lee, J.-W., Min, D., & Nguyen, T. A. (2024). **Efficient Strategies for Unmanned Aerial Vehicle Flights: Analyzing Battery Life and Operational Performance in Delivery Services using Stochastic Models.**, *IEEE Access*, 1–1. doi: [10.1109/ACCESS.2024.3449283](https://doi.org/10.1109/ACCESS.2024.3449283) (SCIE, JCR.Q2.CS.IS, 78/156, IF2022=3.9)  
+1. <span style="color:blue">[J39]</span> Silva, F. A., Barbosa, V., Lima, L. N., Sabino, A., Rego, P., Bittencourt, L. F., Lee, J.-W., Min, D., & Nguyen, T. A. (2024). **Efficient Strategies for Unmanned Aerial Vehicle Flights: Analyzing Battery Life and Operational Performance in Delivery Services using Stochastic Models.**, *IEEE Access*, 1–1. doi: [10.1109/ACCESS.2024.3449283](https://doi.org/10.1109/ACCESS.2024.3449283) (SCIE, JCR.Q2.CS.IS, 78/156, IF2022=3.9)  
 
 1. <span style="color:blue">[P02]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2024). **SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization for Speedy Frontier-Based Exploration of Autonomous Vehicles in Unknown Spaces.** arXiv: [2407.18892](http://arxiv.org/abs/2407.18892) 
 
