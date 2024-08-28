@@ -152,6 +152,7 @@ All data from KFDS and PX4 are collected in run-time simulation for further anal
 </html> -->
 
 ----------
+<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
 
 # <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> 2024 9th International Conference on Automation, Control and Robotics Engineering (CACRE 2024) </span>
 
