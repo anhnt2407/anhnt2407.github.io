@@ -43,6 +43,35 @@ header:
 --------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> September 14, 2024 </span>
 
+🌐 **Enhancing IoT Disaster Detection Systems with Stochastic Models Across Multiple Geographic Areas** 🚨
+
+We are thrilled to introduce our latest research published in **ICT Express** (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1)! 🌍📡 This study presents advanced Stochastic Petri Net (SPN) models to optimize IoT sensor operations in LoRaWAN networks, addressing key challenges in large-scale, disaster-prone regions.
+
+<html lang="en">
+<body>
+
+<figure>
+    <img src="../images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="500">
+    <figcaption>IoT Disaster Detection System and Stochastic Modeling</figcaption>
+</figure>
+
+</body>
+</html>
+
+🔑 **Key Highlights:**
+- Introduced two SPN models to simulate and enhance IoT sensor performance, focusing on crucial metrics like Mean Response Time (MRT) and Drop Probability (DP).
+- Conducted a detailed sensitivity analysis to identify essential factors affecting system efficiency, including fog computing resources and server capacities.
+- Demonstrated that strategic optimization of fog computing and server resources significantly boosts system responsiveness and reliability. ⚡
+
+🌟 **Impact:** This research offers a robust framework for designing resilient, cost-effective disaster management systems. It provides actionable insights for the future of disaster detection and smart city infrastructure. 🌱💡
+
+Discover how IoT and fog computing can revolutionize disaster response in our full paper! 📖✨
+
+**Citation:**  
+Araújo, I., Silva, L. G., Brito, C., Min, D., Lee, J.-W., Nguyen, T. A., Leão, E., & Silva, F. A. (2024). DDS-P: Stochastic models based performance of IoT disaster detection systems across multiple geographic areas. *ICT Express,* doi: 10.1016/j.icte.2024.09.005
+
+#IoT #DisasterDetection #Research #LoRaWAN #FogComputing #SmartCities #Innovationizing
+
 
 
 
