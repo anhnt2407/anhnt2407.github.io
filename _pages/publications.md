@@ -109,7 +109,7 @@ author_profile: true
 
 41. <span style="color:green">[C29]</span> S. Nam, C. Woo, S. Kang, *T. A. Nguyen* and D. Min, "**iNAV-drlSLAM: An Improved Indoor Self-Driving Framework for Mobile Robots using Deep Reinforcement Learning integrated with SLAM,**" 2023 15th International Conference on Advanced Computational Intelligence (*ICACI*), Seoul, Korea, Republic of, *2023*, pp. 1-8, doi:[10.1109/ICACI58115.2023.10146173](https://doi.org/10.1109/ICACI58115.2023.10146173)
 
-42. <span style="color:green">[C28]</span> Minseok Jang, Jeongseok Hyun, Taeho Kwag, Chan Gwak, *T. A. Nguyen* and Jae-Woo Lee. "**Robust Attitude Control for PAVs using DNN with Exponentially Stabilizing Control Lyapunov Functions**" AIAA 2023-1443. *AIAA SCITECH 2023 Forum.* January *2023*. doi:[10.2514/6.2023-1443](https://doi.org/10.2514/6.2023-1443)
+42. <span style="color:green">[C28]</span> Minseok Jang, Jeongseok Hyun, Taeho Kwag, Chan Gwak, *T. A. Nguyen* and Jae-Woo Lee. "**Robust Attitude Control for PAVs using DNN with Exponentially Stabilizing Control Lyapunov Functions**" AIAA 2023-1443. *2023 AIAA Science and Technology Forum and Exposition (AIAA SciTech Forum)*, January *2023*. doi:[10.2514/6.2023-1443](https://doi.org/10.2514/6.2023-1443)
 
 43. <span style="color:green">[C27]</span> Jang, Minseok, Jeongseok Hyun, Taeho Kwag, Chan Gwak, Chanyoung Jeong, *T. A. Nguyen*, and Jae-Woo Lee. "**es-DNLC: A Deep Neural Network Control with Exponentially Stabilizing Control Lyapunov Functions for Attitude Stabilization of PAV**" In 2022 22nd International Conference on Control, Automation and Systems (*ICCAS 2022*), pp. 81-86.*IEEE*,*2022*. doi: [10.23919/ICCAS55662.2022.10003776](https://doi.org/10.23919/ICCAS55662.2022.10003776)
 
