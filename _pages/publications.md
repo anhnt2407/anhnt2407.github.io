@@ -117,7 +117,7 @@ author_profile: true
 
 45. <span style="color:green">[C25]</span> *T.A. Nguyen*, J. -W. Lee, I. de Sousa Fé and F. A. Silva, **"A Hierarchical Model based Survivability and Resiliency Evaluation of Medical Edge Networks,"** 2022 *IEEE* Ninth International Conference on Communications and Electronics (*ICCE*), 2022, pp. 87-92, DOI: [10.1109/ICCE55644.2022.98520596](http://dx.doi.org/10.1109/ICCE55644.2022.9852059)  
 
-46. <span style="color:green">[C24]</span> *T. A. Nguyen*, K. Jeon, J.-W. Lee, I. Fe, and F. A. Silva, **“Model-driven Mission Dependability Design of Unmanned Aerial Systems,”** AIAA 2022-4091. *AIAA AVIATION 2022 Forum*. June 2022, DOI: [10.2514/6.2022-4091](https://doi.org/10.2514/6.2022-4091).
+46. <span style="color:green">[C24]</span> *T. A. Nguyen*, K. Jeon, J.-W. Lee, I. Fe, and F. A. Silva, **“Model-driven Mission Dependability Design of Unmanned Aerial Systems,”** AIAA 2022-4091. *2022 AIAA Aviation and Aeronautics Forum and Exposition (AIAA AVIATION Forum)*, June 2022, DOI: [10.2514/6.2022-4091](https://doi.org/10.2514/6.2022-4091).
 
 47. <span style="color:green">[C23]</span> Minseok Jang, Jeongseok Hyun, *T.A. Nguyen*, Jae-Woo Lee, (2022),  "**Attitude Stabilization of eVTOL in Hovering Mode using Neural Network based Control with Lyapunov Theorem**", *The Korean Society for Aeronautical & Space Sciences, 한국항공우주학회 학술발표회 초록집*, 2022.04, 322-323. (@[DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076828))
 
