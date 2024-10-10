@@ -7,7 +7,7 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: July. 26, 2024* </span>
 
-1. <span style="color:green">[C37]</span> Jang, M., Hyun, J., Kwag, T., Gwak, C., Nguyen, T. A., & Lee, J.-W. (2024). PIND-UAM: Physics-Informed Neural Dynamics of Boxed-Wing eVTOL Aircraft for UAM Vehicle Digital Twin. Transportation Research Procedia, 80, 30–37. doi: [10.1016/j.trpro.2024.09.005](https://doi.org/10.1016/j.trpro.2024.09.005) 
+1. <span style="color:green">[C37]</span> Jang, M., Hyun, J., Kwag, T., Gwak, C., Nguyen, T. A., & Lee, J.-W. (2024). **PIND-UAM: Physics-Informed Neural Dynamics of Boxed-Wing eVTOL Aircraft for UAM Vehicle Digital Twin**. Transportation Research Procedia, 80, 30–37. doi: [10.1016/j.trpro.2024.09.005](https://doi.org/10.1016/j.trpro.2024.09.005) 
    
 2. <span style="color:blue">[J40]</span> Araújo, I., Silva, L. G., Brito, C., Min, D., Lee, J.-W., Nguyen, T. A., Leão, E., & Silva, F. A. (2024). **DDS-P: Stochastic models based performance of IoT disaster detection systems across multiple geographic areas.** ICT Express, doi: [10.1016/j.icte.2024.09.005](https://doi.org/10.1016/j.icte.2024.09.005) (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1)
 
