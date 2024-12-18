@@ -7,9 +7,9 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: July. 26, 2024* </span>
 
-1. <span style="color:blue">[J42]</span> Barbosa, V., Sabino, A., Lima, L. N., Brito, C., Feitosa, L., Pereira, P., Maciel, P., Nguyen, T. A., & Silva, F. A. (2025). Performance Evaluation of IoT-Based Industrial Automation Using Edge, Fog, and Cloud Architectures. Journal of Network and Systems Management, 33(1), 15. https://doi.org/10.1007/s10922-024-09893-x (SCIE, JCR.Q1.CS.IS., Ranking 58/250, IF2023=4.1)
+1. <span style="color:blue">[J42]</span> Barbosa, V., Sabino, A., Lima, L. N., Brito, C., Feitosa, L., Pereira, P., Maciel, P., Nguyen, T. A., & Silva, F. A. (2025). **Performance Evaluation of IoT-Based Industrial Automation Using Edge, Fog, and Cloud Architectures**. Journal of Network and Systems Management, 33(1), 15. https://doi.org/10.1007/s10922-024-09893-x (SCIE, JCR.Q1.CS.IS., Ranking 58/250, IF2023=4.1)
 
-1. <span style="color:blue">[J41]</span> Melo, C., Gonçalves, G., Silva, F. A., Fé, I., Moura, E., Soares, A., Choi, E., Min, D., Lee, J.-W., & Nguyen, T. A. (2024). Transactional dynamics in hyperledger fabric: A stochastic modeling and performance evaluation of permissioned blockchains. ICT Express. doi: [10.1016/j.icte.2024.10.009](https://doi.org/10.1016/j.icte.2024.10.009)  (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1)
+1. <span style="color:blue">[J41]</span> Melo, C., Gonçalves, G., Silva, F. A., Fé, I., Moura, E., Soares, A., Choi, E., Min, D., Lee, J.-W., & Nguyen, T. A. (2024). **Transactional dynamics in hyperledger fabric: A stochastic modeling and performance evaluation of permissioned blockchains**. ICT Express. doi: [10.1016/j.icte.2024.10.009](https://doi.org/10.1016/j.icte.2024.10.009)  (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1)
 
 2. <span style="color:green">[C37]</span> Jang, M., Hyun, J., Kwag, T., Gwak, C., Nguyen, T. A., & Lee, J.-W. (2024). **PIND-UAM: Physics-Informed Neural Dynamics of Boxed-Wing eVTOL Aircraft for UAM Vehicle Digital Twin**. Transportation Research Procedia, 80, 30–37. doi: [10.1016/j.trpro.2024.09.005](https://doi.org/10.1016/j.trpro.2024.09.005) [Scopus]
    
