@@ -47,7 +47,9 @@ header:
 
 Our latest research presents mhmcTD3, a novel multi-head, memory-enhanced DRL architecture that integrates advanced LiDAR preprocessing with CNN and LSTM modules. This combination ensures:
  ✅ Enhanced detection and avoidance of small, moving obstacles.
+
  ✅ Improved stability and learning efficiency through SiLU activation and CoRE optimization.
+ 
  ✅ Smooth adaptation across various LiDAR resolutions, validated in both simulated (ROS2, Gazebo) and real-world (Turtlebot3) tests.
 
 The result is a more adaptive, responsive, and reliable autonomous navigation solution ready to meet the complexities of dynamic environments.
