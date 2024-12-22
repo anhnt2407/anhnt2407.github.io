@@ -46,22 +46,22 @@ header:
 💡 Introducing mhmcTD3: A Multi-Head DRL Architecture for Autonomous Navigation
 
 Our latest research presents mhmcTD3, a novel multi-head, memory-enhanced DRL architecture that integrates advanced LiDAR preprocessing with CNN and LSTM modules. This combination ensures:
-</br>
+
  ✅ Enhanced detection and avoidance of small, moving obstacles.
-</br>
+
  ✅ Improved stability and learning efficiency through SiLU activation and CoRE optimization.
-</br>
+
  ✅ Smooth adaptation across various LiDAR resolutions, validated in both simulated (ROS2, Gazebo) and real-world (Turtlebot3) tests.
-</br>
+
 The result is a more adaptive, responsive, and reliable autonomous navigation solution ready to meet the complexities of dynamic environments.
-</br>
+
 <figure>
     <img src="../images/news/241221/mhmcTD3_architectutre.jpeg" alt="mhmcTD3 architecture for autonomous navigation" width="500">
     <figcaption>mhmcTD3 architecture for autonomous navigation</figcaption>
     <img src="../images/news/241221/multi_head_actor_critic_networks.jpeg" alt="multi-head actor-critic network architectures" width="500">
     <figcaption>multi-head actor-critic network architectures</figcaption>
 </figure>
-</br>
+
 --------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> September 14, 2024 </span>
 
