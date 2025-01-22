@@ -7,7 +7,7 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Jan. 22, 2025* </span>
 
-1. <span style="color:blue">[J4]</span> Nguyen, T., Vinicius, L., & Silva, F. A. (2024). **Internet of medical things: a performability performance analysis.** *International Journal of Computer Applications in Technology*, 1(1). https://doi.org/10.1504/IJCAT.2024.10068882 doi:[10.1504/IJCAT.2024.10068882](https://doi.org/10.1504/IJCAT.2024.10068882)
+1. <span style="color:blue">[J4]</span> Vinicius, L., Nguyen, T. A., & Silva, F. A. (2024). **Internet of medical things: a performability performance analysis.** *International Journal of Computer Applications in Technology*, 1(1). https://doi.org/10.1504/IJCAT.2024.10068882 doi:[10.1504/IJCAT.2024.10068882](https://doi.org/10.1504/IJCAT.2024.10068882)
 
 2. <span style="color:blue">[P03]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2025).**Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation**. https://doi.org/10.36227/techrxiv.173747402.29145488/v1
    
