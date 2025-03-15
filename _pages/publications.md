@@ -8,6 +8,9 @@ author_profile: true
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Jan. 22, 2025* </span>
 
 1. <span style="color:blue">[P03]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2025).**Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation**. https://doi.org/10.36227/techrxiv.173747402.29145488/v1
+
+2. <span style="color:green">[C38]</span>Fé, I., Silva, L. G., Soares, A., Silva, F. A., Mei, A., Rego, P. A. L., Choi, E., Nguyen, T. A., Lee, J. W., & Min, D. (2024). **Resilient and Efficient Microservices: Stochastic Modeling and Quantification of Energy Consumption and Recovery Times**. GLOBECOM 2024 - 2024 IEEE Global Communications Conference, 5307–5312. https://doi.org/10.1109/GLOBECOM52923.2024.10901098
+
 2. <span style="color:blue">[J43]</span> Vinicius, L., Nguyen, T. A., & Silva, F. A. (2024). **Internet of medical things: a performability performance analysis.** *International Journal of Computer Applications in Technology*, 1(1). https://doi.org/10.1504/IJCAT.2024.10068882 doi:[10.1504/IJCAT.2024.10068882](https://doi.org/10.1504/IJCAT.2024.10068882) (Scopus, ESCI, JCR.Q4.Interdisciplinary., Ranking 138/170, IF2023=1.2) 
 
 3. <span style="color:blue">[J42]</span> Barbosa, V., Sabino, A., Lima, L. N., Brito, C., Feitosa, L., Pereira, P., Maciel, P., Nguyen, T. A., & Silva, F. A. (2025). **Performance Evaluation of IoT-Based Industrial Automation Using Edge, Fog, and Cloud Architectures**. Journal of Network and Systems Management, 33(1), 15. doi:[10.1007/s10922-024-09893-x](https://doi.org/10.1007/s10922-024-09893-x) (SCIE, JCR.Q1.CS.IS., Ranking 58/250, IF2023=4.1)
