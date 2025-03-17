@@ -7,6 +7,8 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red"> *Last Update: Jan. 22, 2025* </span>
 
+1. <span style="color:blue">[J44]</span> Feitosa, L., Barbosa, V., Sabino, A., Lima, L. N., Fé, I., Silva, L. G., Callou, G., Carvalho, J., Leão, E., Nguyen, T. A., Rego, P., & Silva, F. A. (2025). **A comprehensive performance evaluation of container migration strategies**. Computing, 107(2), 64. https://doi.org/10.1007/s00607-025-01423-0 (SCIE, JCR.Q2.Theory\&Methods, Ranking 37/144, IF2023=3.33)
+
 1. <span style="color:blue">[P03]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2025).**Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation**. https://doi.org/10.36227/techrxiv.173747402.29145488/v1
 
 2. <span style="color:green">[C38]</span>Fé, I., Silva, L. G., Soares, A., Silva, F. A., Mei, A., Rego, P. A. L., Choi, E., Nguyen, T. A., Lee, J. W., & Min, D. (2024). **Resilient and Efficient Microservices: Stochastic Modeling and Quantification of Energy Consumption and Recovery Times**. GLOBECOM 2024 - 2024 IEEE Global Communications Conference, 5307–5312. https://doi.org/10.1109/GLOBECOM52923.2024.10901098
