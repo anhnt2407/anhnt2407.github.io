@@ -7,6 +7,14 @@ author_profile: true
 
 <span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red">*Last Update: Feb. 4, 2026*</span>
 
+<p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">Publication Domain Overview</span></p>
+
+- **Domain 1. Artificial intelligence and reinforcement learning for autonomous control, navigation and perception:** Deep and multi-agent reinforcement learning, neural control, physics-informed and generative models, and work with vision language and large language models for robustness, security, and control.
+- **Domain 2. Quantitative dependability, performance and energy modeling of computing and network infrastructures:** Data centers, virtualized servers, SDN, storage systems, cloud-fog-edge environments, container and microservice platforms, blockchain platforms, and identity infrastructures.
+- **Domain 3. IoT, smart environments and cyber physical systems:** Internet of Things, smart cities and buildings, healthcare and industrial IoT, Internet of Robotic Things (IoRT), and IoT-based disaster detection.
+- **Domain 4. Digital twin and dependable platforms for advanced and urban air mobility and unmanned aerial systems:** Digital twins for UAM and AAM vehicles, cloud-in-the-loop platforms, software aging in digital twin backends, and mission dependability of UAS.
+- **Domain 5. Aerospace and space systems:** Aerodynamic modeling and data fusion, airfoil design with learning models, eVTOL flight mechanics and control, and early work on unmanned airships and nano satellites.
+
 <p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">A. Manuscripts under review / revision</span></p>
 
 - Nam, S., Nguyen, T. A., Choi, E., & Min, D. **FH-DRL: Exponential-Hyperbolic Frontier Heuristics with DRL for Accelerated Exploration in Unknown Environments.** *IEEE Transactions on Intelligent Vehicles* (Manuscript ID: T-IV-25-02-0130; submitted 14-Feb-2025).
@@ -15,14 +23,6 @@ author_profile: true
 - Nam, S., Nguyen, T. A., Choi, E., & Min, D. **Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation.** Manuscript under review.
 - Folåsen, H., Nguyen, T. A., & Min, D. **FreqStack: Adaptive Spectral Mixture-of-Experts for Robust Zero-shot Deepfake Detection.** Manuscript under review.
 - Folåsen, H., Min, D., & Nguyen, T. A. **From Global FFT to Local DWT: A Soft MoE Detector for Robust Deepfake Recognition.** Manuscript under review.
-
-<p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">Publication Domain Overview (before detailed listing)</span></p>
-
-- **Domain 1. Artificial intelligence and reinforcement learning for autonomous control, navigation and perception:** Deep and multi-agent reinforcement learning, neural control, physics-informed and generative models, and work with vision language and large language models for robustness, security, and control.
-- **Domain 2. Quantitative dependability, performance and energy modeling of computing and network infrastructures:** Data centers, virtualized servers, SDN, storage systems, cloud-fog-edge environments, container and microservice platforms, blockchain platforms, and identity infrastructures.
-- **Domain 3. IoT, smart environments and cyber physical systems:** Internet of Things, smart cities and buildings, healthcare and industrial IoT, Internet of Robotic Things (IoRT), and IoT-based disaster detection.
-- **Domain 4. Digital twin and dependable platforms for advanced and urban air mobility and unmanned aerial systems:** Digital twins for UAM and AAM vehicles, cloud-in-the-loop platforms, software aging in digital twin backends, and mission dependability of UAS.
-- **Domain 5. Aerospace and space systems:** Aerodynamic modeling and data fusion, airfoil design with learning models, eVTOL flight mechanics and control, and early work on unmanned airships and nano satellites.
 
 <p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">B. Domain 1. Artificial intelligence and reinforcement learning for autonomous control, navigation and perception</span></p>
 
