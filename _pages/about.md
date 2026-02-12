@@ -10,7 +10,7 @@ redirect_from:
 
 ## **Experiences**  🔬🚀🤖
 
-- Tuan Anh Nguyen is currently serving as **an Academic Research Professor (학술연구교수)** in Computer Science, with a specialization in Dependable, Autonomous, and Intelligent Systems (DAIS), at the Konkuk Aerospace Design-Airworthiness Institute ([KADA](http://kada.konkuk.ac.kr/)) (총장지정KU연구소, 항공우주설계인증연구소). He collaborates closely with Prof. [Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea, since July 2020.
+- Tuan Anh Nguyen was **an Academic Research Professor (학술연구교수)** in Computer Science, with a specialization in Dependable, Autonomous, and Intelligent Systems (DAIS), at the Konkuk Aerospace Design-Airworthiness Institute ([KADA](http://kada.konkuk.ac.kr/)) (총장지정KU연구소, 항공우주설계인증연구소). He collaborates closely with Prof. [Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea, since July 2020.
 
 - He was formerly a professional member of **AIAA** and is currently a professional member of **IEEE**, **IEEE Computer**, **IEEE Robotics and Automation (IEEE RAS)**, **IEEE Aerospace and Electronic Systems (IEEE AESS)**, and the **IEEE Reliability** Societies.
 
