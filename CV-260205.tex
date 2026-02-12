@@ -1,0 +1,135 @@
+\documentclass[a4paper,skipsamekey,11pt,english]{curve}
+\PassOptionsToPackage{style=ieee,sorting=ydnt,uniquename=init,defernumbers=true}{biblatex}
+\usepackage{settings}
+\DefineBibliographyStrings{english}{url={\textsc{url}}}
+\addbibresource{own-bib.bib}
+\mynames{Lim/Lian\bibnamedelima Tze,
+  Wong/Lian\bibnamedelima Tze,
+  Lim/Tracy,
+  Lim/L.\bibnamedelimi T.}
+\ifxetexorluatex % If you're using XeLaTeX or LuaLaTeX
+  \usepackage{fontspec}
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage[medium,bold]{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\else % If you're using pdfLaTeX or latex
+  \usepackage[T1]{fontenc}
+  \usepackage[p,osf,swashQ]{cochineal}
+  \usepackage{cabin}
+  \usepackage[varqu,varl,scale=0.9]{zi4}
+\fi
+
+% Change the page margins if you want
+% \geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
+
+% Change the colours if you want
+% \definecolor{SwishLineColour}{HTML}{00FFFF}
+% \definecolor{MarkerColour}{HTML}{0000CC}
+
+% Change the item prefix marker if you want
+\prefixmarker{$\diamond$}
+
+% Header layout: balance text vs photo
+\headerscale{1.025}
+
+%% Photo is only shown if "fullonly" is included
+\includecomment{fullonly}
+% \excludecomment{fullonly}
+\setlength{\photosep}{0pt}
+
+% Round photo with border using TikZ; works with the built-in \photo hook
+\makeatletter
+\newlength{\photoradius}
+\def\includephoto@circle{%
+  \setlength{\photoradius}{0.5\photo@width}%
+  \begin{tikzpicture}
+    \clip (0,0) circle (\photoradius);
+    \node at (0,0) {\includegraphics[width=\photo@width]{\photo@file}};
+    \draw[line width=0.8pt,color=MarkerColour] (0,0) circle (\photoradius);
+  \end{tikzpicture}%
+}
+\let\includephoto@t\includephoto@circle
+\let\includephoto@c\includephoto@circle
+\let\includephoto@b\includephoto@circle
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\leftheader{%
+  {\LARGE\bfseries\sffamily Tuan Anh Nguyen (Ph.D.)} \\[2pt]
+  {\large Director of Avionics} \\[-1pt]
+  {\large Assistant Professor} \\[-1pt]
+  {\small Dependable, Autonomous and Intelligent Systems (DAIS)}
+}
+
+\rightheader{}
+
+\begin{fullonly}
+  \photo[r]{Profile}
+  \photoscale{0.18}
+\end{fullonly}
+
+\title{Curriculum Vitae}
+
+\begin{document}
+\makeheaders[c]
+
+% Contact and profile block below the header, full width
+{\small
+\noindent
+\faBuilding\;Director of Avionics, Viettel Aviation Technology Center (VATC), Viettel Group, Hanoi, Vietnam
+\\
+\faUniversity\;Assistant Professor, Department of Artificial Intelligence, Graduate School, Konkuk University
+\\ 
+\faUniversity\;Academic Research Professor, Konkuk Aerospace Design-Airworthiness Institute, President-Designated KU Research, Konkuk University \\[3pt]
+
+\faBirthdayCake\;July 24, 1985 \textbar\ 
+\faMobile*\;(+84) 8-6767-2407 \textbar\ 
+\faEnvelope[regular]\;\href{mailto:anhnt2407@gmail.com}{\texttt{anhnt2407@gmail.com}} \textbar\ 
+\faGithub\;\texttt{anhnt2407} \textbar\ \faLinkedin\;\texttt{anhnt2407} \\[3pt] 
+% \faOrcid\;\href{https://orcid.org/0000-0002-9123-3584}{0000-0002-9123-3584} \textbar\ 
+% \faLink\;Web of Science: T-2374-2019 \textbar\ 
+% \faGoogle\;Google Scholar: q6gCa4cAAAAJ\&hl \textbar\ 
+% \faLink\;ResearchGate: Anh\_Nguyen56 \textbar\ 
+% \faLink\;DBLP: 26/11188-2 \textbar\ 
+% \faLink\;Scopus: 56433780500 \textbar\ 
+% \faChartBar\;SCIE journal papers: 38 \textbar\ 
+% \faChartBar\;Conference papers: 35 \textbar\ 
+% \faChartBar\;Book chapters: 1 \textbar\ 
+% \faChartBar\;Citations (GS): 499 \textbar\ 
+% \faChartBar\;h-index (GS): 12 \textbar\ 
+% \faChartBar\;i10-index (GS): 15 \\[6pt]
+\faBookmark\;Professional member of AIAA, IEEE, IEEE Computer Society, IEEE Robotics and Automation (IEEE RAS), IEEE Aerospace and Electronic Systems (IEEE AESS), and IEEE Reliability Societies
+}
+
+{\small
+\noindent
+Brief summary paragraph
+{\itshape\color{gray}%
+\begin{itemize}
+  \item "Director of Avionices in a Military Helicopter Project in Vietnam; 
+  \item Project Technical Leader and Lead Researcher of Artificial Intelligence Digital Twin Research for Smart Urban Air Mobility (UAM) (approx. KRW 7.7B over 9 years, ~30 full-time M.Sc/Ph.D. researchers) funded by NRF in Korea. 
+  \item 5+ years teaching/supervision in US/Korea; 1+ year R\&D on LLMs and LoRA; 5+ years in deep learning/generative AI (CNN, RNN/LSTM, GAN, Transformer, DRL: DQN/PPO/TRPO/A2C/A3C) and ML (surrogates, clustering) for digital twin dynamics/control, aerospace mission planning, and healthcare robotics. 12+ years AI cloud systems engineering focused on modeling, simulation, and dependability for aerospace/computing systems.  
+  \item Research focuses on Artificial intelligence, reinforcement learning and generative modeling for autonomous control, navigation, perception and optimization, AI-driven digital twins and dependable platform for advanced and urban air mobility and unmanned aerial systems; dependable cloud/edge/IoT platforms for autonomous and mission-critical systems; Quantitative dependability, performance and energy modeling of computing and network infrastructures, cyber-physical and robotic systems.%
+  \item Experienced in theory, simulation, and prototypes. Author of numerous top-tier publications. Contributions span AI, computing, and system engineering.
+\end{itemize}
+}
+}
+
+\makerubric{employment}
+\makerubric{education}
+\makerubric{projects}
+\makerubric{honors}
+\makerubric{patents}
+\makerubric{software}
+\makerubric{teaching}
+\makerubric{supervision}
+\makerubric{activities-programs}
+\makerubric{skills}
+\input{dissertation-thesis}
+\input{publications}
+\makerubric{academic-services}
+\newpage
+\makerubric{referee}
+
+\end{document}
