@@ -312,6 +312,13 @@ a:hover {
   font-weight: 700;
 }
 
+.author__urls-wrapper .btn--inverse {
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--accent-dark), var(--accent));
+  border: 0;
+  box-shadow: 0 12px 24px rgba(11, 52, 87, 0.18);
+}
+
 .author__urls a,
 .author__urls li {
   font-size: 1rem;
