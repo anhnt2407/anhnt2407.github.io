@@ -5,9 +5,13 @@
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
+{% assign is_home_page = false %}
+{% if page.url == "/" or page.url == "" or page.url == "/index.html" or page.permalink == "/" %}
+  {% assign is_home_page = true %}
+{% endif %}
 
 {% if page.title %}
-  {% if page.url == "/" %}
+  {% if is_home_page %}
     {% assign seo_title = site.title %}
   {% else %}
     {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
@@ -22,7 +26,7 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+<title>{% if is_home_page %}{{ site.title }}{% else %}{{ seo_title | default: site.title }}{% endif %}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -45,7 +49,7 @@
 
 <meta property="og:locale" content="{{ site.locale | default: "en" }}">
 <meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ seo_title | default: site.title }}">
+<meta property="og:title" content="{% if is_home_page %}{{ site.title }}{% else %}{{ seo_title | default: site.title }}{% endif %}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
@@ -58,7 +62,7 @@
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
-  <meta name="twitter:title" content="{{ seo_title | default: site.title }}">
+  <meta name="twitter:title" content="{% if is_home_page %}{{ site.title }}{% else %}{{ seo_title | default: site.title }}{% endif %}">
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
 
