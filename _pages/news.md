@@ -40,16 +40,10 @@ The result is a more adaptive, responsive, and reliable autonomous navigation so
 
 We are thrilled to introduce our latest research published in **ICT Express** (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1)! 🌍📡 This study presents advanced Stochastic Petri Net (SPN) models to optimize IoT sensor operations in LoRaWAN networks, addressing key challenges in large-scale, disaster-prone regions.
 
-<html lang="en">
-<body>
-
 <figure>
     <img src="../images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="500">
     <figcaption>IoT Disaster Detection System and Stochastic Modeling</figcaption>
 </figure>
-
-</body>
-</html>
 
 🔑 **Key Highlights:**
 - Introduced two SPN models to simulate and enhance IoT sensor performance, focusing on crucial metrics like Mean Response Time (MRT) and Drop Probability (DP).
@@ -75,16 +69,10 @@ Araújo, I., Silva, L. G., Brito, C., Min, D., Lee, J.-W., Nguyen, T. A., Leão,
 
 We just explored a groundbreaking study titled **"Efficient Strategies for Unmanned Aerial Vehicle Flights: Analyzing Battery Life and Operational Performance in Delivery Services using Stochastic Models"** published in *IEEE Access*. This research, conducted by Francisco Airton Silva, Vandirleya Barbosa, Luiz Nelson Lima, Arthur Sabino, Paulo Rego, Luiz F. Bittencourt, Jae-Woo Lee, Dugki Min, and Tuan Anh Nguyen, is pushing the boundaries of what's possible in UAV (drone) delivery services! 🔋✈️
 
-<html lang="en">
-<body>
-
 <figure>
     <img src="../images/news/240828/Transport_system_with_without_considering_package_transfer.png" alt="Transport system with/without considering package transfer" width="500">
     <figcaption>Transport system with/without considering package transfer</figcaption>
 </figure>
-
-</body>
-</html>
 
 **What's the Buzz?**
 
@@ -196,9 +184,6 @@ Looking forward to the future collaborations and advancements in this exciting f
 
 hashtag#CACRE2024 hashtag#Automation hashtag#Control hashtag#Robotics hashtag#AdvancedAirMobility hashtag#DigitalTwin hashtag#KonkukUniversity hashtag#Research hashtag#Innovation hashtag#TeleOperations hashtag#AirMobility hashtag#AI hashtag#AutonomousVehicles
 
-<html lang="en">
-<body>
-
 <figure>
     <img src="../images/news/240720/CACRE_2024_Presentation.jpg" alt="Presentation at CACRE 2024">
     <figcaption>AAM-VDT Presentation at CACRE 2024</figcaption>
@@ -207,9 +192,6 @@ hashtag#CACRE2024 hashtag#Automation hashtag#Control hashtag#Robotics hashtag#Ad
     <img src="../images/news/240720/CACRE_2024_Information.png" alt="CACRE 2024 Information">
     <figcaption>CACRE 2024 Information</figcaption>
 </figure>
-
-</body>
-</html>
 
 ---------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 14, 2024 </span>
@@ -237,9 +219,6 @@ Our key features include cloud server integration, AI-driven operations, digital
 Special thanks to our diligent KADA engineers and researchers! Jeongseok Hyun, Minseok Jang, Taeho Kwag, Nghia Nguyen, Vinh Pham, AYE AYE MAW
 
 Excited about the possibilities that lie ahead as we continue to innovate and drive advancements in the realm of Advanced Air Mobility. #AAM #UAM #DigitalTwin #AI #CloudComputing
-
-<html lang="en">
-<body>
 
 <figure>
     <img src="../images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
@@ -278,12 +257,7 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 <iframe src="https://www.youtube.com/embed/u0xFRdc-97Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/FqyS67FReXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</body>
-</html>
-
-<html lang="en">
-<body> <div class="separator"></div> </body>
-</html>
+<div class="separator"></div>
 
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 10, 2024 </span>
 
@@ -308,9 +282,6 @@ Special thanks to our Brazillian team, coordinated by [Francisco Airton Silva](h
 
 During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://people.cs.vt.edu/~jicho/), a collaborator of my Ph.D. supervisor, [Dongseong Kim](https://researchers.uq.edu.au/researcher/23703). Jin-Hee Cho is now an Associate Professor in the Department of Computer Science at Virginia Tech. It was great to converse with her and attend her fascinating research presentation. It's remarkable how small and interconnected the world can be.
 
-<html lang="en">
-<body>
-
 <figure>
     <img src="../images/news/240510/NOMS 2024/NOMS 2024 (01).jpg" alt="NOMS 2024 Photo 1">
     <figcaption>Our presentation at NOMS</figcaption>
@@ -323,5 +294,3 @@ During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://peopl
     <img src="../images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
     <figcaption> A system demonstration at NOMS 2024 </figcaption>
 </figure>
-</body>
-</html>
