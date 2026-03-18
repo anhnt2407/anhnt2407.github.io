@@ -1,12 +1,52 @@
 ---
 permalink: /
-title: "Xin chào-Welcome-환영-Bonjour"
-excerpt: "Tuan Anh Nguyen Webpage"
+title: "Tuan Anh Nguyen"
+excerpt: "Academic research assistant professor in computer science, dependable AI, digital twins, and advanced autonomous systems."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+<div class="home-hero">
+  <p class="home-hero__eyebrow">Xin chao · Welcome · 환영 · Bonjour</p>
+  <h2>Dependable, autonomous, and intelligent systems for digital twins, robotics, and aerospace applications.</h2>
+  <p>I work at the intersection of dependable AI, digital twin systems, neural dynamics and control, and trustworthy cyber-physical infrastructures for advanced air mobility, robotics, and complex networked systems.</p>
+  <div class="site-cta-group">
+    <a class="site-cta site-cta--primary" href="/publications/">Browse Publications</a>
+    <a class="site-cta site-cta--secondary" href="/research/">Explore Research</a>
+    <a class="site-cta site-cta--secondary" href="/news/">Recent News</a>
+  </div>
+  <ul class="site-pills">
+    <li>Dependable AI and control</li>
+    <li>Digital twins and UAM systems</li>
+    <li>Trustworthy computing infrastructures</li>
+    <li>Robotics and autonomous navigation</li>
+    <li>Seoul, South Korea</li>
+  </ul>
+</div>
+
+<div class="home-focus-grid">
+  <a class="home-focus-card" href="/research/Neural_Dynamics_Control">
+    <span class="home-focus-card__eyebrow">Track 1</span>
+    <h3>Neural Dynamics and Control</h3>
+    <p>Learning-enabled dynamics modeling, intelligent control, and safety-aware autonomy for robotic and aerial systems.</p>
+  </a>
+  <a class="home-focus-card" href="/research/Digital_Twin">
+    <span class="home-focus-card__eyebrow">Track 2</span>
+    <h3>Digital Twin Systems</h3>
+    <p>Operational digital twins, cloud-backed twin infrastructures, and AI-driven simulation ecosystems for UAM and AAM.</p>
+  </a>
+  <a class="home-focus-card" href="/research/Dependability_Security">
+    <span class="home-focus-card__eyebrow">Track 3</span>
+    <h3>Dependability and Security</h3>
+    <p>Quantitative modeling, performance analysis, resilience, and trustworthiness of distributed systems and networked infrastructures.</p>
+  </a>
+</div>
+
+<div class="page-lead">
+  <p>This website brings together current research directions, publications, collaborators, and project updates, alongside academic background and contact information.</p>
+</div>
 
 ## **Experiences**  🔬🚀🤖
 

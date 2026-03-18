@@ -7,8 +7,30 @@ header:
   og_image: "collaborators/ecdf.png"
 ---
 
+<div class="page-lead">
+  <p>My research spans dependable AI, digital twins, intelligent control, and trustworthy computing infrastructures, with applications in robotics, advanced air mobility, cloud-edge systems, and cyber-physical platforms.</p>
+</div>
+
+<div class="research-track-grid">
+  <a class="research-track-card" href="/research/Neural_Dynamics_Control">
+    <span class="research-track-card__eyebrow">Track 1</span>
+    <h2>Neural Dynamics and Control</h2>
+    <p>Data-driven dynamics, neural control, reinforcement learning, and safe autonomy for robotic and aerial systems.</p>
+  </a>
+  <a class="research-track-card" href="/research/Digital_Twin">
+    <span class="research-track-card__eyebrow">Track 2</span>
+    <h2>Digital Twin Systems</h2>
+    <p>Operational digital twins, cloud-integrated simulation platforms, and AI-enabled twin engines for UAM and AAM.</p>
+  </a>
+  <a class="research-track-card" href="/research/Dependability_Security">
+    <span class="research-track-card__eyebrow">Track 3</span>
+    <h2>Dependability and Security</h2>
+    <p>Quantitative dependability, resilience analysis, performance evaluation, and trustworthiness of complex infrastructures.</p>
+  </a>
+</div>
+
 ## Overview
-Our fields of research are now on:
+Current research domains:
 <ol type="a">
 <li>Dynamics and Control Theory and Systems</li>
 <li>AI based Digital Twin Systems and Methods</li>
@@ -17,7 +39,7 @@ Our fields of research are now on:
 <li>Mechatronics and Aerospace Robotic Systems</li>
 </ol>
 
-Particularly, we are working on the following tracks:
+Particular emphasis is placed on the following directions:
 - intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, 
 - reinforcement learning based intelligent control for unmanned vehicles and robotic systems, 
 - generative adversarial networks (GANs) for digital twins, 
