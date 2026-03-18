@@ -1,11 +1,14 @@
 ---
 layout: archive
-title: ""
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-<span style="font-family: times, serif; font-size:10pt; font-style:italic; color:red">*Last Update: Feb. 4, 2026*</span>
+<div class="page-lead">
+  <p>Selected journal articles, conference papers, preprints, manuscripts under review, and book contributions organized by research domain.</p>
+  <p class="page-metadata">Last updated: February 4, 2026</p>
+</div>
 
 <p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">Publication Domain Overview</span></p>
 

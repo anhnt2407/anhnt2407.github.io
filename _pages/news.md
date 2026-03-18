@@ -7,38 +7,9 @@ header:
   og_image: "collaborators/ecdf.png"
 ---
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
-    <style>
-        figure {
-            text-align: center;
-            margin: 20px;
-        }
-        figcaption {
-            color: blue;
-        }
-        img {
-            width: 80%;
-            height: auto;
-        }
-        iframe {
-            width: 80%;
-            height: 315px;
-            margin: 20px auto;
-            display: block;
-        }
-        .separator {
-            width: 100%;
-            height: 2px; /* Adjust thickness as needed */
-            background-color: #0000FF; /* Change color as needed */
-            margin: 40px 0; /* Adjust spacing as needed */
-        }
-    </style>
-</head>
-</html>
+<div class="page-lead">
+  <p>Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates.</p>
+</div>
 
 --------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> December 21, 2024 </span>

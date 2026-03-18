@@ -1,7 +1,11 @@
 ---
 permalink: /miscellaneous/
-title: ""
+title: "Notes & Links"
 ---
+
+<div class="page-lead">
+  <p>A curated collection of essays, interviews, talks, rankings, and thought-provoking links related to science, technology, work, and society.</p>
+</div>
 
 1. Nước Việt Nam là một! [.](https://www.facebook.com/nguyen.nam.54/posts/10216502640347136)
 2. This AI Pioneer Thinks AI Is Dumber Than a Cat [.](https://www.wsj.com/tech/ai/yann-lecun-ai-meta-aa59e2f5?st=ri92fU)
