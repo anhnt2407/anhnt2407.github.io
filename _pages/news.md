@@ -57,11 +57,6 @@ Discover how IoT and fog computing can revolutionize disaster response in our fu
 **Citation:**  
 Araújo, I., Silva, L. G., Brito, C., Min, D., Lee, J.-W., Nguyen, T. A., Leão, E., & Silva, F. A. (2024). DDS-P: Stochastic models based performance of IoT disaster detection systems across multiple geographic areas. *ICT Express,* doi: 10.1016/j.icte.2024.09.005
 
-#IoT #DisasterDetection #Research #LoRaWAN #FogComputing #SmartCities #Innovationizing
-
-
-
-
 --------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> August 28, 2024 </span>
 
@@ -90,8 +85,6 @@ This research sets the stage for a new era in logistics, where drone deliveries 
 
 Curious about the details? Dive into the full study in *IEEE Access* and see how these strategies can revolutionize our delivery services!
 
-#DroneDelivery #UAVTech #LogisticsInnovation #FutureOfDelivery #SmartLogistics
-
 --------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 29, 2024 </span>
 
@@ -118,8 +111,6 @@ For those interested in a deeper dive into our research, you can read our full p
 We hope to receive feedback and contributions from friends and colleagues to further extend our research and enhance the quality of our paper. 
 
 We are excited about these developments and their potential applications in industrial automation, autonomous driving, household robotics, and space exploration. Thank you for your continued support and interest in our work at DMS Lab!
-
-#AI #Robotics #DeepLearning #AutonomousVehicles #Innovation
 
 ---------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
