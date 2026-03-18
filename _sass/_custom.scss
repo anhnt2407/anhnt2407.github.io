@@ -38,3 +38,35 @@
 .container:hover .overlay {
   opacity: 0.25;
 }
+
+/*
+   Author avatar
+   ========================================================================== */
+
+div.author__avatar {
+  width: 110px;
+
+  @include breakpoint($large) {
+    width: 175px;
+  }
+}
+
+.author__avatar > .author__avatar-image {
+  display: block;
+  width: 110px;
+  height: 110px;
+  max-width: none;
+  object-fit: contain;
+  object-position: center;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  background-color: #fff;
+
+  @include breakpoint($large) {
+    width: 175px;
+    height: 175px;
+    padding: 5px;
+  }
+}
