@@ -7,6 +7,10 @@ header:
   og_image: "collaborators/ecdf.png"
 ---
 
+<div class="page-lead">
+  <p>Selected academic collaborators, mentors, and research partners across dependable systems, aerospace, AI, digital twins, and networked infrastructures.</p>
+</div>
+
 - [Francisco Airton Silva](https://iuresf.gitlab.io/pasid-site/airton.html), Laboratory of Applied Research to Distributed Systems (PASID), Federal University of Piauí (UFPI) (campus Picos), Teresina, Piauí, Brazil
 - [Paulo Romero Martin Maciel](https://www.modcs.org/), MoDCS Research Group, Informatics Center, Federal University of Pernambuco, Brazil
 - [Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/), Department of Aerospace Engineering, Konkuk University, Seoul 05029, Korea
@@ -17,4 +21,3 @@ header:
 - [Fumio Machida](http://www.cs.tsukuba.ac.jp/~machida/en/machida.html), Laboratory for System Dependability, University of Tsukuba, Japan
 - [Manish Pokharel](https://www.researchgate.net/profile/Manish_Pokharel2), Department of Computer Science and Engineering, Karthmandu University
 - [Dinh Van Phong](https://sme.hust.edu.vn/can-bo/gs-ts-dinh-van-phong.html), Department of Applied Mechanics, Hanoi University of Science and Technology (HUST), Hanoi, Vietnam
-
