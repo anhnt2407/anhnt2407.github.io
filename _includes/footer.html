@@ -1,24 +1,38 @@
 {% include base_path %}
 
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+<div class="page__footer-panel">
+  <div class="page__footer-brand">
+    <p class="page__footer-title">{{ site.title }}</p>
+    <p class="page__footer-description">{{ site.description }}</p>
+  </div>
+
+  <div class="page__footer-links">
+    {% if site.author.email %}
+      <a href="mailto:{{ site.author.email }}">Email</a>
     {% endif %}
-    {% if site.twitter.username %}
-      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    {% if site.author.orcid %}
+      <a href="{{ site.author.orcid }}">ORCID</a>
     {% endif %}
-    {% if site.facebook.username %}
-      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+    {% if site.author.googlescholar %}
+      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+    {% endif %}
+    {% if site.author.researchgate %}
+      <a href="{{ site.author.researchgate }}">ResearchGate</a>
     {% endif %}
     {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
     {% endif %}
-    {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% if site.author.gitlab %}
+      <a href="https://gitlab.com/{{ site.author.gitlab }}">GitLab</a>
     {% endif %}
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-  </ul>
+  </div>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://github.com/jayrobwilliams/jayrobwilliams.github.io" rel="nofollow">Jayrob Williams</a>.</div>
+<div class="page__footer-meta">
+  <p class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Built with Jekyll and refined for a clean academic web presence.</p>
+
+  <div class="page__footer-utility">
+    <a href="{{ base_path }}/sitemap.xml">Sitemap</a>
+    <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a>
+  </div>
+</div>

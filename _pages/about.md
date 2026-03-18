@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div class="home-hero">
-  <p class="home-hero__eyebrow">Xin chao · Welcome · 환영 · Bonjour</p>
+  <p class="home-hero__eyebrow">Xin chào · Welcome · 환영 · Bonjour</p>
   <h2>Dependable, autonomous, and intelligent systems for digital twins, robotics, and aerospace applications.</h2>
   <p>I work at the intersection of dependable AI, digital twin systems, neural dynamics and control, and trustworthy cyber-physical infrastructures for advanced air mobility, robotics, and complex networked systems.</p>
   <div class="site-cta-group">
@@ -120,7 +120,7 @@ His current research interests include Dynamics and Control Theory and Systems, 
 
 - His hometown is [Hanoi, Vietnam](https://www.google.co.kr/maps/place/Hanoi,+Ho%C3%A0n+Ki%E1%BA%BFm,+Hanoi,+Vietnam/@20.0953225,105.7067677,8z/data=!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.0277644!4d105.8341598).
 
-- E-mail: anhnt2407 at konkuk.ac.kr​
+- E-mail: [anhnt2407@konkuk.ac.kr](mailto:anhnt2407@konkuk.ac.kr)
 
 - Address:  
   * 서울특별시 광진구 능동로 120 (건국대학교 서울 캠퍼스) (신공학관 1207호 or 중장비실험동 204호)  

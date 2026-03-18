@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+excerpt: "Selected journal articles, conference papers, preprints, manuscripts under review, and book contributions organized by research domain."
 permalink: /publications/
 author_profile: true
 ---
@@ -10,7 +11,7 @@ author_profile: true
   <p class="page-metadata">Last updated: February 4, 2026</p>
 </div>
 
-<p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">Publication Domain Overview</span></p>
+## Publication Domain Overview
 
 - **Domain 1. Artificial intelligence and reinforcement learning for autonomous control, navigation and perception:** Deep and multi-agent reinforcement learning, neural control, physics-informed and generative models, and work with vision language and large language models for robustness, security, and control.
 - **Domain 2. Quantitative dependability, performance and energy modeling of computing and network infrastructures:** Data centers, virtualized servers, SDN, storage systems, cloud-fog-edge environments, container and microservice platforms, blockchain platforms, and identity infrastructures.
@@ -18,7 +19,7 @@ author_profile: true
 - **Domain 4. Digital twin and dependable platforms for advanced and urban air mobility and unmanned aerial systems:** Digital twins for UAM and AAM vehicles, cloud-in-the-loop platforms, software aging in digital twin backends, and mission dependability of UAS.
 - **Domain 5. Aerospace and space systems:** Aerodynamic modeling and data fusion, airfoil design with learning models, eVTOL flight mechanics and control, and early work on unmanned airships and nano satellites.
 
-<p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">A. Manuscripts under review / revision</span></p>
+## A. Manuscripts under review / revision
 
 - Nam, S., Nguyen, T. A., Choi, E., & Min, D. **FH-DRL: Exponential-Hyperbolic Frontier Heuristics with DRL for Accelerated Exploration in Unknown Environments.** *IEEE Transactions on Intelligent Vehicles* (Manuscript ID: T-IV-25-02-0130; submitted 14-Feb-2025).
 - Lee, U., Hwang, C., Park, Y., Jin, H., Nguyen, T. A., Choi, E., & Min, D. **VAE+DDPG: An Attention-Enhanced Variational Autoencoder for Deep Reinforcement Learning-Based Autonomous Navigation in Low-Light Environments.** *Advanced Intelligent Systems* (Manuscript No.: aisy.202500636R2; R2).
@@ -27,7 +28,7 @@ author_profile: true
 - Folåsen, H., Nguyen, T. A., & Min, D. **FreqStack: Adaptive Spectral Mixture-of-Experts for Robust Zero-shot Deepfake Detection.** Manuscript under review.
 - Folåsen, H., Min, D., & Nguyen, T. A. **From Global FFT to Local DWT: A Soft MoE Detector for Robust Deepfake Recognition.** Manuscript under review.
 
-<p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">B. Domain 1. Artificial intelligence and reinforcement learning for autonomous control, navigation and perception</span></p>
+## B. Domain 1. Artificial intelligence and reinforcement learning for autonomous control, navigation and perception
 
 Deep and multi-agent reinforcement learning, neural control, physics-informed and generative models, and work with vision language and large language models for robustness, security, and control.
 
@@ -79,7 +80,7 @@ Deep and multi-agent reinforcement learning, neural control, physics-informed an
 
 22. <span style="color:green">[C23]</span> Jang, M., Hyun, J., Nguyen, T. A., & Lee, J.-W. (2022). **Attitude Stabilization of eVTOL in Hovering Mode using Neural Network based Control with Lyapunov Theorem.** *The Korean Society for Aeronautical & Space Sciences Conference*, 322--323. [DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076828). [2022-11-16]
 
-<p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">C. Domain 2. Quantitative dependability, performance and energy modeling of computing and network infrastructures</span></p>
+## C. Domain 2. Quantitative dependability, performance and energy modeling of computing and network infrastructures
 
 Data centers, virtualized servers, SDN, storage systems, cloud-fog-edge environments, container and microservice platforms, blockchain platforms, and identity infrastructures.
 
@@ -165,7 +166,7 @@ Data centers, virtualized servers, SDN, storage systems, cloud-fog-edge environm
 
 61. <span style="color:green">[C05]</span> Nguyen, T. A., Lee, D., & Park, J. S. (2013). **Towards Virtualization Technology on Satellite On-board Computer System with Hardware Redundancy, Software Rejuvenation, and Virtual Machine Live Migration Techniques--Modeling, Analysis and Implementation Proposal**. *IEICE Tech. Rep.*, vol. 113, no. 335, SANE2013-98, 157--162. [paper](http://www.ieice.org/ken/paper/20131203lB7P/eng/). [2013-12-03]
 
-<p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">D. Domain 3. IoT, smart environments and cyber physical systems</span></p>
+## D. Domain 3. IoT, smart environments and cyber physical systems
 
 Internet of Things, smart cities and buildings, healthcare and industrial IoT, Internet of Robotic Things (IoRT), and IoT-based disaster detection.
 
@@ -219,7 +220,7 @@ Internet of Things, smart cities and buildings, healthcare and industrial IoT, I
 
 84. <span style="color:green">[C16]</span> Victor, C., Nguyen, T. A., Silva, L. A., Andrade, E., Santos, G. L., Min, D., Lee, J. W., & Silva, F. A. (2021). **Performability Assessment and Sensitivity Analysis of a Home Automation System.** In: *2021 IEEE/ACM 25th International Symposium on Distributed Simulation and Real Time Applications (DS-RT)*, 1--4. [doi:10.1109/DS-RT52167.2021.9576142](https://doi.org/10.1109/DS-RT52167.2021.9576142). [2021-09-27]
 
-<p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">E. Domain 4. Digital twin and dependable platforms for advanced and urban air mobility and unmanned aerial systems</span></p>
+## E. Domain 4. Digital twin and dependable platforms for advanced and urban air mobility and unmanned aerial systems
 
 Digital twins for UAM and AAM vehicles, cloud-in-the-loop platforms, software aging in digital twin backends, and mission dependability of UAS.
 
@@ -257,7 +258,7 @@ Digital twins for UAM and AAM vehicles, cloud-in-the-loop platforms, software ag
 
 99. <span style="color:green">[C14]</span> Nguyen, T. A., Min, D. K., & Lee, J. W. (2020). **iUAM: Service Survivability of Digital Twin Urban Aerial Mobility**. *The Korean Society for Aeronautical & Space Sciences Conference*, 689--690. [DBpia](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526249). [2020-11-18]
 
-<p style="margin-top:1.0em;"><span style="color:#1f4e8c; font-weight:700">F. Domain 5. Aerospace and space systems</span></p>
+## F. Domain 5. Aerospace and space systems
 
 Aerodynamic modeling and data fusion, airfoil design with learning models, eVTOL flight mechanics and control, and early work on unmanned airships and nano satellites.
 

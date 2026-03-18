@@ -1,10 +1,9 @@
 ---
 layout: archive
 title: "Research"
+excerpt: "Research directions in dependable AI, digital twins, intelligent control, trustworthy computing infrastructures, and cyber-physical systems."
 permalink: /research/
 author_profile: true
-header:
-  og_image: "collaborators/ecdf.png"
 ---
 
 <div class="page-lead">
