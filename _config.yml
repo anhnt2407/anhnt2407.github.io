@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Tuan Anh Nguyen"
 title_separator          : "-"
 name                     : &name "Tuan Anh Nguyen (투안안)"
-description              : &description "Academic Research Assistant Professor (힉술연구교수) with Specialization in Dependable, Autonomous and Intelligent Systems"
+description              : &description "Academic Research Assistant Professor (학술연구교수) with specialization in dependable, autonomous, and intelligent systems"
 url                      : https://anhnt2407.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "anhnt2407/anhnt2407.github.io"
@@ -62,13 +62,19 @@ facebook:
   username               : anhnt2407
   app_id                 : anhnt2407
   publisher              :
-og_image                 : profile.png # Open Graph/Twitter default site image
+og_image                 : tuan-anh-nguyen-avatar.jpg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Tuan Anh Nguyen"
+  links:
+    - "https://orcid.org/0000-0002-9123-3584"
+    - "https://scholar.google.com/citations?hl=en&user=q6gCa4cAAAAJ"
+    - "https://www.researchgate.net/profile/Tuan-Anh-Nguyen-15"
+    - "https://github.com/anhnt2407"
+    - "https://gitlab.com/anhnt2407"
+    - "https://twitter.com/anhnt2407"
 
 
 # Analytics
