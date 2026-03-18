@@ -1,6 +1,7 @@
 ---
 permalink: /miscellaneous/
 title: "Notes & Links"
+excerpt: "A curated reading list of essays, interviews, talks, rankings, and thought-provoking links related to science, technology, work, and society."
 ---
 
 <div class="page-lead">

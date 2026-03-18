@@ -1,10 +1,9 @@
 ---
 layout: archive
 title: "News"
+excerpt: "Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates."
 permalink: /news/
 author_profile: true
-header:
-  og_image: "collaborators/ecdf.png"
 ---
 
 <div class="page-lead">
@@ -12,17 +11,17 @@ header:
 </div>
 
 --------------------------------------
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> December 21, 2024 </span>
+<p class="news-date">December 21, 2024</p>
 
-💡 Introducing mhmcTD3: A Multi-Head DRL Architecture for Autonomous Navigation
+## mhmcTD3: A Multi-Head DRL Architecture for Autonomous Navigation
 
 Our latest research presents mhmcTD3, a novel multi-head, memory-enhanced DRL architecture that integrates advanced LiDAR preprocessing with CNN and LSTM modules. This combination ensures:
 
- ✅ Enhanced detection and avoidance of small, moving obstacles.
+- Enhanced detection and avoidance of small, moving obstacles.
 
- ✅ Improved stability and learning efficiency through SiLU activation and CoRE optimization.
+- Improved stability and learning efficiency through SiLU activation and CoRE optimization.
 
- ✅ Smooth adaptation across various LiDAR resolutions, validated in both simulated (ROS2, Gazebo) and real-world (Turtlebot3) tests.
+- Smooth adaptation across various LiDAR resolutions, validated in both simulated (ROS2, Gazebo) and real-world (Turtlebot3) tests.
 
 The result is a more adaptive, responsive, and reliable autonomous navigation solution ready to meet the complexities of dynamic environments.
 
@@ -34,65 +33,65 @@ The result is a more adaptive, responsive, and reliable autonomous navigation so
 </figure>
 
 --------------------------------------
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> September 14, 2024 </span>
+<p class="news-date">September 14, 2024</p>
 
-🌐 **Enhancing IoT Disaster Detection Systems with Stochastic Models Across Multiple Geographic Areas** 🚨
+## Enhancing IoT Disaster Detection Systems with Stochastic Models Across Multiple Geographic Areas
 
-We are thrilled to introduce our latest research published in **ICT Express** (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1)! 🌍📡 This study presents advanced Stochastic Petri Net (SPN) models to optimize IoT sensor operations in LoRaWAN networks, addressing key challenges in large-scale, disaster-prone regions.
+We are pleased to introduce our latest research published in **ICT Express** (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1). This study presents advanced Stochastic Petri Net (SPN) models to optimize IoT sensor operations in LoRaWAN networks, addressing key challenges in large-scale, disaster-prone regions.
 
 <figure>
     <img src="../images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="500">
     <figcaption>IoT Disaster Detection System and Stochastic Modeling</figcaption>
 </figure>
 
-🔑 **Key Highlights:**
+### Key Highlights
 - Introduced two SPN models to simulate and enhance IoT sensor performance, focusing on crucial metrics like Mean Response Time (MRT) and Drop Probability (DP).
 - Conducted a detailed sensitivity analysis to identify essential factors affecting system efficiency, including fog computing resources and server capacities.
-- Demonstrated that strategic optimization of fog computing and server resources significantly boosts system responsiveness and reliability. ⚡
+- Demonstrated that strategic optimization of fog computing and server resources significantly boosts system responsiveness and reliability.
 
-🌟 **Impact:** This research offers a robust framework for designing resilient, cost-effective disaster management systems. It provides actionable insights for the future of disaster detection and smart city infrastructure. 🌱💡
+**Impact:** This research offers a robust framework for designing resilient, cost-effective disaster management systems. It provides actionable insights for the future of disaster detection and smart city infrastructure.
 
-Discover how IoT and fog computing can revolutionize disaster response in our full paper! 📖✨
+Discover how IoT and fog computing can strengthen disaster response in the full paper.
 
 **Citation:**  
 Araújo, I., Silva, L. G., Brito, C., Min, D., Lee, J.-W., Nguyen, T. A., Leão, E., & Silva, F. A. (2024). DDS-P: Stochastic models based performance of IoT disaster detection systems across multiple geographic areas. *ICT Express,* doi: 10.1016/j.icte.2024.09.005
 
 --------------------------------------
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> August 28, 2024 </span>
+<p class="news-date">August 28, 2024</p>
 
-🚀 **Exciting News in Drone Delivery Tech!** 🚀
+## Efficient UAV Flights and Operational Performance in Delivery Services
 
-We just explored a groundbreaking study titled **"Efficient Strategies for Unmanned Aerial Vehicle Flights: Analyzing Battery Life and Operational Performance in Delivery Services using Stochastic Models"** published in *IEEE Access*. This research, conducted by Francisco Airton Silva, Vandirleya Barbosa, Luiz Nelson Lima, Arthur Sabino, Paulo Rego, Luiz F. Bittencourt, Jae-Woo Lee, Dugki Min, and Tuan Anh Nguyen, is pushing the boundaries of what's possible in UAV (drone) delivery services! 🔋✈️
+We recently highlighted the study **"Efficient Strategies for Unmanned Aerial Vehicle Flights: Analyzing Battery Life and Operational Performance in Delivery Services using Stochastic Models"** published in *IEEE Access*. This research, conducted by Francisco Airton Silva, Vandirleya Barbosa, Luiz Nelson Lima, Arthur Sabino, Paulo Rego, Luiz F. Bittencourt, Jae-Woo Lee, Dugki Min, and Tuan Anh Nguyen, advances what is possible in UAV delivery services.
 
 <figure>
     <img src="../images/news/240828/Transport_system_with_without_considering_package_transfer.png" alt="Transport system with/without considering package transfer" width="500">
     <figcaption>Transport system with/without considering package transfer</figcaption>
 </figure>
 
-**What's the Buzz?**
+### Overview
 
 We introduced two advanced models to evaluate and boost drone delivery efficiency. Whether it's solo drone missions or cooperative ones (where drones hand off packages to each other), these models are helping us understand how to make drone deliveries faster, more reliable, and way more efficient!
 
-**Why Does This Matter?**
+### Why It Matters
 
 - **Strategic Charging:** The study shows that where we place charging stations can make or break the delivery times. Think faster deliveries, fewer delays!
 - **Cooperation is Key:** Drones working together are more effective, especially in busy urban areas. More drones, less hassle!
 - **Optimized Operations:** The research highlights the importance of careful planning – from the number of drones to how long they charge – to maximize efficiency.
 
-**The Future of Drone Deliveries is Here!** 🛸💨
+**Why this matters for practice**
 
 This research sets the stage for a new era in logistics, where drone deliveries are not just a concept but a highly optimized, efficient reality. 
 
 Curious about the details? Dive into the full study in *IEEE Access* and see how these strategies can revolutionize our delivery services!
 
 --------------------------------------
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 29, 2024 </span>
+<p class="news-date">July 29, 2024</p>
 
 ## SHANGUS: Redefining Autonomous Exploration with Deep Reinforcement Learning
 
 I am pleased to share some exciting advancements in our research and development at the Distributed Multimedia Systems Laboratory (DMS). Our team has been working diligently on SHANGUS, an innovative framework that integrates Deep Reinforcement Learning (DRL) with heuristic optimization to improve autonomous exploration in unknown environments.
 
-## Key Highlights:
+### Key Highlights
 
 🔹 **Integration of DRL and Heuristic Optimization:** SHANGUS combines the adaptability of DRL with heuristic prioritization to enhance exploration efficiency, reduce completion time, and minimize travel distance.
 
@@ -100,7 +99,7 @@ I am pleased to share some exciting advancements in our research and development
 
 🔹 **Superior Performance in Simulations:** Through extensive experiments in ROS2 and Gazebo environments, SHANGUS has shown promising results, outperforming traditional methods like Nearest Frontier (NF), CFE, and GDAE, particularly in complex scenarios.
 
-## Watch Our Demos:
+### Watch Our Demos
 
 - **Simple World:** [Watch the demo](https://www.youtube.com/watch?v=XwZ63Wk4ATA)
 - **Moderate Complex World:** [Watch the demo](https://www.youtube.com/watch?v=ZNepJp0hCFQ)
@@ -113,7 +112,7 @@ We hope to receive feedback and contributions from friends and colleagues to fur
 We are excited about these developments and their potential applications in industrial automation, autonomous driving, household robotics, and space exploration. Thank you for your continued support and interest in our work at DMS Lab!
 
 ---------------------------------------
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
+<p class="news-date">July 20, 2024</p>
 
 ## Pilot-in-the-loop simulation with virtual reality (PILS-VR) running on top of cloud-in-the-loop simulation (CILS)
 
@@ -121,7 +120,7 @@ I am excited to share the progress our team has made in a short period. It was a
 
 In a short time, we have successfully expanded our Pilot-in-the-Loop Simulation (PILS) system by integrating it with Virtual Reality (VR) on the Cloud-in-the-Loop Simulation (CILS) platform. A special thanks to my colleagues: Dr. Vinh Vinh Phạm, Nghĩa, and Nguyễn Viết Nghĩa. Please excuse the rudimentary graphics as our focus wasn't on 3D development.
 
-## PILS-VR System Overview
+### PILS-VR System Overview
 
 [Watch our video on the latest in aviation simulation technology: the Pilot-in-the-Loop Simulation with Virtual Reality (PILS-VR)](https://youtu.be/_kyAtntDHmc)
 
