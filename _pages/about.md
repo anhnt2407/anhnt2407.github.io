@@ -54,7 +54,7 @@ redirect_from:
 
 - He was formerly a professional member of **AIAA** and is currently a professional member of **IEEE**, **IEEE Computer**, **IEEE Robotics and Automation (IEEE RAS)**, **IEEE Aerospace and Electronic Systems (IEEE AESS)**, and the **IEEE Reliability** Societies.
 
-- His Ph.D. advisor (Prof. Dong Seong Kim (김동성)) is an Elected Member of the <span style="color:blue">**IFIP WG 10.4 on Dependable Computing and Fault Tolerance**</span> (from 2021 onwards). The IFIP WG 10.4 comprises over <span style="color:blue">**60 experts**</span> in fault tolerance, dependable, and secure computing.
+- His Ph.D. advisor (Prof. Dong Seong Kim (김동성)) is an Elected Member of **IFIP WG 10.4 on Dependable Computing and Fault Tolerance** (from 2021 onwards). The IFIP WG 10.4 comprises over **60 experts** in fault tolerance, dependable, and secure computing.
 
 - Previously, he worked as a Research Professor (연구교수) at the Office of Research, University-Industry Cooperation Foundation (건국대학교 산학협력단), collaborating with Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University from March 2016 to February 2020.
 
@@ -62,9 +62,9 @@ redirect_from:
 
 - He was a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) under Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703) at Korea Aerospace University (KAU) between 2011 and 2015.
 
-- He worked as a full-time researcher at the FPT Space Technology Research (F-Space) Laboratory under the FPT Technology Research Institute (FTRI), FPT University, FPT Cooperation, Hanoi, Vietnam, during 2009–2010.
+- He worked as a full-time researcher at the FPT Space Technology Research (F-Space) Laboratory under the FPT Technology Research Institute (FTRI), FPT University, FPT Corporation, Hanoi, Vietnam, during 2009–2010.
 
-- He also served as a research engineer in the Real-time Operating System Nucleus (TRON) Laboratory at FPT Software, FPT Cooperation, Hanoi, Vietnam, in 2008.
+- He also served as a research engineer in the Real-time Operating System Nucleus (TRON) Laboratory at FPT Software, FPT Corporation, Hanoi, Vietnam, in 2008.
 
 ## **Education**  🎓🧠💻
 
@@ -94,14 +94,13 @@ redirect_from:
 
 ## **Research Interests**  💡⚙️🔧
 
-His current areas of research include:  
-<ol type="a">
-<li>Dynamics and Control Theory and Systems</li>
-<li>AI-based Digital Twin Systems and Methods</li>
-<li>Computer Science and Software Engineering with specialization in Dependable, Autonomous, and Intelligent Systems</li>
-<li>Dependable Computing and Fault-Tolerance of Systems and Networks</li>
-<li>Mechatronics and Aerospace Robotic Systems</li>
-</ol>
+His current areas of research include:
+
+- Dynamics and control theory and systems
+- AI-based digital twin systems and methods
+- Computer science and software engineering with specialization in dependable, autonomous, and intelligent systems
+- Dependable computing and fault-tolerance of systems and networks
+- Mechatronics and aerospace robotic systems
 
 <!-- 
 20230121:  
@@ -112,7 +111,7 @@ His current areas of research include:
 
 Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) currently serves as an Academic Research (Assistant) Professor of Computer Science and System Engineering at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea. He has been the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He is also a professional member of AIAA, IEEE, IEEE Computer, IEEE Robotics and Automation (IEEE RAS), IEEE Aerospace and Electronic Systems (IEEE AESS), and IEEE Reliability Societies. 
 
-He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Prior to his current position, Dr. Nguyen was a Research (Assistant) Professor in the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively. 
+He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Prior to his current position, Dr. Nguyen was a Research (Assistant) Professor in the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively.
 
 His current research interests include Dynamics and Control Theory and Systems, AI-based Digital Twin Systems and Methods, Computer Science and Software Engineering with specialization in Dependable, Autonomous, and Intelligent Systems, Dependable Computing and Fault-Tolerance of Systems and Networks, and Mechatronics and Aerospace Robotic Systems.
 

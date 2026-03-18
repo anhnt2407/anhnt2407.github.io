@@ -12,7 +12,7 @@ excerpt: "A curated reading list of essays, interviews, talks, rankings, and tho
 2. This AI Pioneer Thinks AI Is Dumber Than a Cat [.](https://www.wsj.com/tech/ai/yann-lecun-ai-meta-aa59e2f5?st=ri92fU)
 3. No more Fridays [.](https://www.businessinsider.com/4-day-workweek-successful-trial-evidence-productivity-retention-revenue-2023-1)
 4. A Conversation With Quoc Le: The AI Expert Behind Google AutoML [.](https://medium.com/syncedreview/a-conversation-with-quoc-le-the-ai-expert-behind-google-automl-73a7d0c9fe38)
-5. An algorithm that learns through rewards may show how our brain does too [.](https://www.technologyreview.com/s/615054/deepmind-ai-reiforcement-learning-reveals-dopamine-neurons-in-brain/)
+5. An algorithm that learns through rewards may show how our brain does too [.](https://www.technologyreview.com/s/615054/deepmind-ai-reinforcement-learning-reveals-dopamine-neurons-in-brain/)
 6. The Secrets of Jewish Genius [.](https://www.nytimes.com/2019/12/27/opinion/jewish-culture-genius-iq.html?auth=link-dismiss-google1tap) [..](https://vnexpress.net/the-gioi/bi-mat-cua-nhung-thien-tai-do-thai-4034280.html)
 7. American Lucifers: The Dark History of Artificial Light, 1750-1865 [.](https://www.nature.com/articles/d41586-019-03049-7?utm_source=fbk_nnc&utm_medium=social&utm_campaign=naturenews&sf221449813=1&fbclid=IwAR3FneYzzSEdTrRjqKFglFEfEGRKVzhwxnRYRXHLLTzR8t_vKWe9lsAeqhU)
 8. China: How science made a superpower [.](https://www.nature.com/articles/d41586-019-02937-2?utm_source=facebook&utm_medium=social&utm_content=organic&utm_campaign=NGMT_2_JNC_Nature&fbclid=IwAR1_A1GYQQSha8wi3DOozn6HHuaP0RD8K91hTq0UsWUmR_f_VionObbSxp0)

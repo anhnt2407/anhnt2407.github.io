@@ -10,7 +10,6 @@ author_profile: true
   <p>Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates.</p>
 </div>
 
---------------------------------------
 <p class="news-date">December 21, 2024</p>
 
 ## mhmcTD3: A Multi-Head DRL Architecture for Autonomous Navigation
@@ -25,14 +24,18 @@ Our latest research presents mhmcTD3, a novel multi-head, memory-enhanced DRL ar
 
 The result is a more adaptive, responsive, and reliable autonomous navigation solution ready to meet the complexities of dynamic environments.
 
-<figure>
+<div class="figure-grid figure-grid--two">
+  <figure>
     <img src="../images/news/241221/mhmcTD3_architectutre.jpeg" alt="mhmcTD3 architecture for autonomous navigation" width="500">
-    <figcaption>mhmcTD3 architecture for autonomous navigation</figcaption>
+    <figcaption>mhmcTD3 architecture for autonomous navigation.</figcaption>
+  </figure>
+  <figure>
     <img src="../images/news/241221/multi_head_actor_critic_networks.jpeg" alt="multi-head actor-critic network architectures" width="500">
-    <figcaption>multi-head actor-critic network architectures</figcaption>
-</figure>
+    <figcaption>Multi-head actor-critic network architectures.</figcaption>
+  </figure>
+</div>
 
---------------------------------------
+---
 <p class="news-date">September 14, 2024</p>
 
 ## Enhancing IoT Disaster Detection Systems with Stochastic Models Across Multiple Geographic Areas
@@ -56,7 +59,7 @@ Discover how IoT and fog computing can strengthen disaster response in the full 
 **Citation:**  
 Araújo, I., Silva, L. G., Brito, C., Min, D., Lee, J.-W., Nguyen, T. A., Leão, E., & Silva, F. A. (2024). DDS-P: Stochastic models based performance of IoT disaster detection systems across multiple geographic areas. *ICT Express,* doi: 10.1016/j.icte.2024.09.005
 
---------------------------------------
+---
 <p class="news-date">August 28, 2024</p>
 
 ## Efficient UAV Flights and Operational Performance in Delivery Services
@@ -84,7 +87,7 @@ This research sets the stage for a new era in logistics, where drone deliveries 
 
 Curious about the details? Dive into the full study in *IEEE Access* and see how these strategies can revolutionize our delivery services!
 
---------------------------------------
+---
 <p class="news-date">July 29, 2024</p>
 
 ## SHANGUS: Redefining Autonomous Exploration with Deep Reinforcement Learning
@@ -111,7 +114,7 @@ We hope to receive feedback and contributions from friends and colleagues to fur
 
 We are excited about these developments and their potential applications in industrial automation, autonomous driving, household robotics, and space exploration. Thank you for your continued support and interest in our work at DMS Lab!
 
----------------------------------------
+---
 <p class="news-date">July 20, 2024</p>
 
 ## Pilot-in-the-loop simulation with virtual reality (PILS-VR) running on top of cloud-in-the-loop simulation (CILS)
@@ -147,7 +150,7 @@ Using this method, we can input control signal data from pre-existing files into
 
 All data from KFDS and PX4 are collected in run-time simulation for further analysis and prediction for future updates of digital twin models in the virtual world.
 
-----------
+---
 <p class="news-date">July 20, 2024</p>
 
 ## 2024 9th International Conference on Automation, Control and Robotics Engineering (CACRE 2024)
@@ -171,7 +174,7 @@ Looking forward to the future collaborations and advancements in this exciting f
     <figcaption>CACRE 2024 Information</figcaption>
 </figure>
 
----------------------------------------
+---
 <p class="news-date">May 14, 2024</p>
 
 ## Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT)
@@ -223,7 +226,7 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
     <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
 </figure>
 
--------------------------
+---
 
 <iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/9effNK__aOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -256,7 +259,7 @@ At NOMS 2024, we presented our paper titled *"Optimal Resource Utilization in Hy
 
 This research provides a robust framework for pre-deployment performance evaluation and capacity planning in Hyperledger Fabric, paving the way for more efficient and scalable blockchain implementations in enterprise environments.
 
-Special thanks to our Brazillian team, coordinated by [Francisco Airton Silva](https://iuresf.gitlab.io/pasid-site/airton.html), Laboratory of Applied Research to Distributed Systems (PASID), Federal University of Piauí (UFPI) (campus Picos), Teresina, Piauí, Brazil, for their collaboration in the research.
+Special thanks to our Brazilian team, coordinated by [Francisco Airton Silva](https://iuresf.gitlab.io/pasid-site/airton.html), Laboratory of Applied Research to Distributed Systems (PASID), Federal University of Piauí (UFPI) (campus Picos), Teresina, Piauí, Brazil, for their collaboration in the research.
 
 During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://people.cs.vt.edu/~jicho/), a collaborator of my Ph.D. supervisor, [Dongseong Kim](https://researchers.uq.edu.au/researcher/23703). Jin-Hee Cho is now an Associate Professor in the Department of Computer Science at Virginia Tech. It was great to converse with her and attend her fascinating research presentation. It's remarkable how small and interconnected the world can be.
 
