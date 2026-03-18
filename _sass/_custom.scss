@@ -732,72 +732,140 @@ a:hover {
 .page__footer footer {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 1.2rem clamp(1.25rem, 2vw, 2rem) 0;
-  border-top: 1px solid rgba(15, 76, 129, 0.12);
+  padding: 0;
+  border-top: 0;
+}
+
+.page__footer-shell {
+  padding: 1.3rem clamp(1.25rem, 2vw, 2rem);
+  border: 1px solid rgba(15, 76, 129, 0.12);
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(246, 250, 252, 0.94));
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
 }
 
 .page__footer-panel {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 34rem);
   gap: 1.5rem 2rem;
+  align-items: start;
   padding-bottom: 1rem;
+}
+
+.page__footer-eyebrow,
+.page__footer-links-label {
+  margin: 0 0 0.45rem;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .page__footer-title {
   margin: 0;
   font-family: "Source Serif 4", serif;
-  font-size: 1.35rem;
+  font-size: clamp(1.45rem, 2vw, 1.9rem);
   font-weight: 700;
   color: var(--text-strong);
+  line-height: 1.05;
 }
 
 .page__footer-description {
-  max-width: 42rem;
+  max-width: 38rem;
   margin: 0.45rem 0 0;
   color: var(--text-muted);
+  line-height: 1.65;
 }
 
-.page__footer-links,
+.page__footer-location {
+  margin: 0.75rem 0 0;
+  color: var(--accent-dark);
+  font-size: 0.94rem;
+  font-weight: 700;
+}
+
+.page__footer-links-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.page__footer-links-label {
+  margin-bottom: 0;
+}
+
 .page__footer-utility {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
 }
 
-.page__footer-links a,
-.page__footer-utility a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.6rem 0.9rem;
-  border: 1px solid var(--border-soft);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.78);
-  color: var(--accent-dark);
-  font-weight: 700;
-  text-decoration: none;
+.page__footer-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
 }
 
-.page__footer-links a:hover,
-.page__footer-utility a:hover {
+.page__footer-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.2rem;
+  padding: 0.75rem 0.95rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--accent-dark);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 22px rgba(15, 23, 42, 0.05);
+}
+
+.page__footer-links a:hover {
   border-color: rgba(15, 76, 129, 0.24);
-  background: rgba(15, 76, 129, 0.08);
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 14px 26px rgba(15, 23, 42, 0.08);
+  transform: translateY(-1px);
 }
 
 .page__footer-meta {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 1rem 1.5rem;
+  gap: 0.85rem 1.5rem;
   padding: 1rem 0 0;
   border-top: 1px solid rgba(15, 76, 129, 0.1);
 }
 
 .page__footer-copyright {
   margin: 0;
+  max-width: 42rem;
   color: var(--text-muted);
-  font-size: 0.94rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.page__footer-utility {
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.page__footer-utility a {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.page__footer-utility a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  background: transparent;
 }
 
 @include breakpoint(max-width $large) {
@@ -815,9 +883,20 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
-  .page__footer-panel,
+  .page__footer-panel {
+    grid-template-columns: 1fr;
+  }
+
   .page__footer-meta {
     flex-direction: column;
+  }
+
+  .page__footer-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .page__footer-shell {
+    border-radius: 24px;
   }
 
   .page,
@@ -828,5 +907,11 @@ a:hover {
   .page__content iframe,
   .archive iframe {
     min-height: 240px;
+  }
+}
+
+@media (max-width: 40em) {
+  .page__footer-links {
+    grid-template-columns: 1fr;
   }
 }
