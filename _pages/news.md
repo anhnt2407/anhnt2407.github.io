@@ -93,11 +93,11 @@ I am pleased to share some exciting advancements in our research and development
 
 ### Key Highlights
 
-🔹 **Integration of DRL and Heuristic Optimization:** SHANGUS combines the adaptability of DRL with heuristic prioritization to enhance exploration efficiency, reduce completion time, and minimize travel distance.
+- **Integration of DRL and heuristic optimization:** SHANGUS combines the adaptability of DRL with heuristic prioritization to enhance exploration efficiency, reduce completion time, and minimize travel distance.
 
-🔹 **Advanced Frontier Selection and Navigation Strategy:** Our approach features a frontier selection node and a DRL navigation node using the TD3 algorithm, ensuring robust path planning and dynamic obstacle avoidance.
+- **Advanced frontier selection and navigation strategy:** Our approach features a frontier selection node and a DRL navigation node using the TD3 algorithm, ensuring robust path planning and dynamic obstacle avoidance.
 
-🔹 **Superior Performance in Simulations:** Through extensive experiments in ROS2 and Gazebo environments, SHANGUS has shown promising results, outperforming traditional methods like Nearest Frontier (NF), CFE, and GDAE, particularly in complex scenarios.
+- **Superior performance in simulations:** Through extensive experiments in ROS2 and Gazebo environments, SHANGUS has shown promising results, outperforming traditional methods like Nearest Frontier (NF), CFE, and GDAE, particularly in complex scenarios.
 
 ### Watch Our Demos
 
@@ -148,9 +148,9 @@ Using this method, we can input control signal data from pre-existing files into
 All data from KFDS and PX4 are collected in run-time simulation for further analysis and prediction for future updates of digital twin models in the virtual world.
 
 ----------
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
+<p class="news-date">July 20, 2024</p>
 
-## <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> 2024 9th International Conference on Automation, Control and Robotics Engineering (CACRE 2024) </span>
+## 2024 9th International Conference on Automation, Control and Robotics Engineering (CACRE 2024)
 
 I am thrilled to share that I had the incredible opportunity to attend and present at the 2024 International Conference on Automation, Control, and Robotics Engineering (CACRE 2024) held on Jeju Island, South Korea, from July 18-20, 2024. This prestigious conference brought together leading experts, researchers, and practitioners in the fields of automation, control, and robotics from around the world.
 
@@ -172,9 +172,9 @@ Looking forward to the future collaborations and advancements in this exciting f
 </figure>
 
 ---------------------------------------
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 14, 2024 </span>
+<p class="news-date">May 14, 2024</p>
 
-## <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
+## Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT)
 
 Excited to share our achievements after a year of leading the AAM-VDT project at Konkuk Aerospace Design-Airworthiness Institute (KADA). We've made significant progress in developing an integrated simulation platform for the Konkuk Passenger Vehicle (KP-2) digital twin in the Advanced Air Mobility (AAM) sector. Our focus on cutting-edge technologies has paved the way for a revolutionary system in urban air mobility.
 
@@ -196,7 +196,7 @@ Our key features include cloud server integration, AI-driven operations, digital
 
 Special thanks to our diligent KADA engineers and researchers! Jeongseok Hyun, Minseok Jang, Taeho Kwag, Nghia Nguyen, Vinh Pham, AYE AYE MAW
 
-Excited about the possibilities that lie ahead as we continue to innovate and drive advancements in the realm of Advanced Air Mobility. #AAM #UAM #DigitalTwin #AI #CloudComputing
+Excited about the possibilities that lie ahead as we continue to innovate and drive advancements in advanced air mobility.
 
 <figure>
     <img src="../images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
@@ -237,15 +237,15 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 
 <div class="separator"></div>
 
-<span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 10, 2024 </span>
+<p class="news-date">May 10, 2024</p>
 
-## <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> IEEE/IFIP Network Operations and Management Symposium (NOMS 2024) - 6–10 May 2024 // Seoul, South Korea </span>
+## IEEE/IFIP Network Operations and Management Symposium (NOMS 2024) - 6-10 May 2024 // Seoul, South Korea
 
 [NOMS 2024 Symposium](https://noms2024.ieee-noms.org/)
 
 I am excited to announce my attendance at the 2024 IEEE/IFIP Network Operations and Management Symposium (NOMS 2024), which took place from May 6 to May 10, 2024, at The-K Hotel in Seoul, South Korea. Returning to Korea after two decades, this symposium was a pivotal event for professionals in the network operations and management field. NOMS 2024 featured an extensive program with keynotes, technical sessions, panel discussions, and various workshops. The theme for this year was “Towards intelligent, reliable, and sustainable network and service management,” focusing on the latest advancements in 5G and emerging 6G networks and their roles in supporting critical applications such as IoT, smart cities, and autonomous vehicles. This event gathered researchers, developers, service providers, and policymakers, offering a unique platform for knowledge exchange and collaboration in shaping the future of network management.
 
-At NOMS 2024, we presented our paper titled <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> "Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm," </span> authored by Carlos Melo, Glauber Gonçalves, Francisco A. Silva, Leonel Feitosa, Iure Fé, André Soares, Eunmi Choi, Tuan Anh Nguyen, and Dugki Min. Our research focuses on Hyperledger Fabric, a leading framework for permissioned blockchain systems, and aims to enhance blockchain performance and efficiency. Key points of our presentation include:
+At NOMS 2024, we presented our paper titled *"Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm,"* authored by Carlos Melo, Glauber Goncalves, Francisco A. Silva, Leonel Feitosa, Iure Fe, Andre Soares, Eunmi Choi, Tuan Anh Nguyen, and Dugki Min. Our research focuses on Hyperledger Fabric, a leading framework for permissioned blockchain systems, and aims to enhance blockchain performance and efficiency. Key points of our presentation include:
 
 - **Development of a Stochastic Petri Net (SPN) Model:** We created an SPN model to evaluate Hyperledger Fabric's performance under various configurations.
 - **Detailed Transaction Phase Analysis:** Our model offers in-depth analyses of the endorsement, ordering, and commit phases of transactions.
