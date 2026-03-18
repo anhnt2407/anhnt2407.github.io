@@ -1,38 +1,47 @@
 {% include base_path %}
 
-<div class="page__footer-panel">
-  <div class="page__footer-brand">
-    <p class="page__footer-title">{{ site.title }}</p>
-    <p class="page__footer-description">{{ site.description }}</p>
+<div class="page__footer-shell">
+  <div class="page__footer-panel">
+    <div class="page__footer-brand">
+      <p class="page__footer-eyebrow">Academic Research Website</p>
+      <p class="page__footer-title">{{ site.title }}</p>
+      <p class="page__footer-description">{{ site.description }}</p>
+      {% if site.author.location %}
+        <p class="page__footer-location">{{ site.author.location }}</p>
+      {% endif %}
+    </div>
+
+    <div class="page__footer-links-wrap">
+      <p class="page__footer-links-label">Profiles &amp; Contact</p>
+      <div class="page__footer-links">
+        {% if site.author.email %}
+          <a href="mailto:{{ site.author.email }}">Email</a>
+        {% endif %}
+        {% if site.author.orcid %}
+          <a href="{{ site.author.orcid }}">ORCID</a>
+        {% endif %}
+        {% if site.author.googlescholar %}
+          <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+        {% endif %}
+        {% if site.author.researchgate %}
+          <a href="{{ site.author.researchgate }}">ResearchGate</a>
+        {% endif %}
+        {% if site.author.github %}
+          <a href="https://github.com/{{ site.author.github }}">GitHub</a>
+        {% endif %}
+        {% if site.author.gitlab %}
+          <a href="https://gitlab.com/{{ site.author.gitlab }}">GitLab</a>
+        {% endif %}
+      </div>
+    </div>
   </div>
 
-  <div class="page__footer-links">
-    {% if site.author.email %}
-      <a href="mailto:{{ site.author.email }}">Email</a>
-    {% endif %}
-    {% if site.author.orcid %}
-      <a href="{{ site.author.orcid }}">ORCID</a>
-    {% endif %}
-    {% if site.author.googlescholar %}
-      <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-    {% endif %}
-    {% if site.author.researchgate %}
-      <a href="{{ site.author.researchgate }}">ResearchGate</a>
-    {% endif %}
-    {% if site.author.github %}
-      <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-    {% endif %}
-    {% if site.author.gitlab %}
-      <a href="https://gitlab.com/{{ site.author.gitlab }}">GitLab</a>
-    {% endif %}
-  </div>
-</div>
+  <div class="page__footer-meta">
+    <p class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. All rights reserved.</p>
 
-<div class="page__footer-meta">
-  <p class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Built with Jekyll and refined for a clean academic web presence.</p>
-
-  <div class="page__footer-utility">
-    <a href="{{ base_path }}/sitemap.xml">Sitemap</a>
-    <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a>
+    <div class="page__footer-utility">
+      <a href="{{ base_path }}/sitemap.xml">Sitemap</a>
+      <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">{{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a>
+    </div>
   </div>
 </div>
