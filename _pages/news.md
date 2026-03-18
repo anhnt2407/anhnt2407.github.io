@@ -95,7 +95,7 @@ Curious about the details? Dive into the full study in *IEEE Access* and see how
 --------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 29, 2024 </span>
 
-# 🚀 SHANGUS: Redefining Autonomous Exploration with Deep Reinforcement Learning
+## SHANGUS: Redefining Autonomous Exploration with Deep Reinforcement Learning
 
 I am pleased to share some exciting advancements in our research and development at the Distributed Multimedia Systems Laboratory (DMS). Our team has been working diligently on SHANGUS, an innovative framework that integrates Deep Reinforcement Learning (DRL) with heuristic optimization to improve autonomous exploration in unknown environments.
 
@@ -124,7 +124,7 @@ We are excited about these developments and their potential applications in indu
 ---------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
 
-# Pilot-in-the-loop simulation with virtual reality (PILS-VR) running on top of cloud-in-the-loop simulation (CILS)
+## Pilot-in-the-loop simulation with virtual reality (PILS-VR) running on top of cloud-in-the-loop simulation (CILS)
 
 I am excited to share the progress our team has made in a short period. It was an honor to represent our group at the Conference on Automation, Control, and Robotics Engineering (CACRE 2024) in Jeju. Our collaboration with Korean students, combined with the relentless efforts of our Vietnamese team at KADA, has led to remarkable developments. 
 
@@ -157,20 +157,10 @@ Using this method, we can input control signal data from pre-existing files into
 
 All data from KFDS and PX4 are collected in run-time simulation for further analysis and prediction for future updates of digital twin models in the virtual world.
 
-<!-- <html lang="en">
-<body>
-
-<iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/watch?v=1BYQKzVgXeQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe src="https://www.youtube.com/watch?v=byyYU9jCaTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</body>
-</html> -->
-
 ----------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> July 20, 2024 </span>
 
-# <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> 2024 9th International Conference on Automation, Control and Robotics Engineering (CACRE 2024) </span>
+## <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> 2024 9th International Conference on Automation, Control and Robotics Engineering (CACRE 2024) </span>
 
 I am thrilled to share that I had the incredible opportunity to attend and present at the 2024 International Conference on Automation, Control, and Robotics Engineering (CACRE 2024) held on Jeju Island, South Korea, from July 18-20, 2024. This prestigious conference brought together leading experts, researchers, and practitioners in the fields of automation, control, and robotics from around the world.
 
@@ -181,8 +171,6 @@ I am honored to share that our presentation received the Excellent Oral Presenta
 I am incredibly grateful to my professor and co-author, Professor Jae-Woo Lee, the Director of KADA, and all the contributors for their hard work and dedication to this project. A special thank you to the conference organizers and attendees for providing such a fantastic platform to share our work and engage with the global community.
 
 Looking forward to the future collaborations and advancements in this exciting field!
-
-hashtag#CACRE2024 hashtag#Automation hashtag#Control hashtag#Robotics hashtag#AdvancedAirMobility hashtag#DigitalTwin hashtag#KonkukUniversity hashtag#Research hashtag#Innovation hashtag#TeleOperations hashtag#AirMobility hashtag#AI hashtag#AutonomousVehicles
 
 <figure>
     <img src="../images/news/240720/CACRE_2024_Presentation.jpg" alt="Presentation at CACRE 2024">
@@ -196,7 +184,7 @@ hashtag#CACRE2024 hashtag#Automation hashtag#Control hashtag#Robotics hashtag#Ad
 ---------------------------------------
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 14, 2024 </span>
 
-# <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
+## <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) </span>
 
 Excited to share our achievements after a year of leading the AAM-VDT project at Konkuk Aerospace Design-Airworthiness Institute (KADA). We've made significant progress in developing an integrated simulation platform for the Konkuk Passenger Vehicle (KP-2) digital twin in the Advanced Air Mobility (AAM) sector. Our focus on cutting-edge technologies has paved the way for a revolutionary system in urban air mobility.
 
@@ -204,7 +192,7 @@ The Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) project integrates clou
 
 Our key features include cloud server integration, AI-driven operations, digital twin technology, and a strong emphasis on operational safety and management. By utilizing digital twin dynamics, ensuring safety and reliability, and implementing multi-vehicle coordination, we are shaping the future of AAM operations.
 
-## Medias
+### Media
 
 - [VDT Simulation System](https://youtu.be/ePH-f1H2PH8)
 - [VDT Concept Illustration](https://youtu.be/9effNK__aOU)
@@ -261,9 +249,9 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 
 <span style="font-family: times, serif; font-size:14pt; font-style:italic; color:red"> May 10, 2024 </span>
 
-# <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> IEEE/IFIP Network Operations and Management Symposium (NOMS 2024) - 6–10 May 2024 // Seoul, South Korea </span>
+## <span style="font-family: times, serif; font-size:18pt; font-style:bold; color:blue"> IEEE/IFIP Network Operations and Management Symposium (NOMS 2024) - 6–10 May 2024 // Seoul, South Korea </span>
 
-[[NOMS 2024 Symposium](https://noms2024.ieee-noms.org/)](<https://noms2024.ieee-noms.org/>)
+[NOMS 2024 Symposium](https://noms2024.ieee-noms.org/)
 
 I am excited to announce my attendance at the 2024 IEEE/IFIP Network Operations and Management Symposium (NOMS 2024), which took place from May 6 to May 10, 2024, at The-K Hotel in Seoul, South Korea. Returning to Korea after two decades, this symposium was a pivotal event for professionals in the network operations and management field. NOMS 2024 featured an extensive program with keynotes, technical sessions, panel discussions, and various workshops. The theme for this year was “Towards intelligent, reliable, and sustainable network and service management,” focusing on the latest advancements in 5G and emerging 6G networks and their roles in supporting critical applications such as IoT, smart cities, and autonomous vehicles. This event gathered researchers, developers, service providers, and policymakers, offering a unique platform for knowledge exchange and collaboration in shaping the future of network management.
 
