@@ -1,22 +1,22 @@
 {
-  "name": "minimal-mistakes",
+  "name": "anhnt2407-website",
   "version": "3.4.2",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "description": "Build scripts for Tuan Anh Nguyen's academic website",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/anhnt2407/anhnt2407.github.io.git"
   },
   "keywords": [
     "jekyll",
-    "theme",
-    "minimal"
+    "academic",
+    "website"
   ],
   "author": "Tuan Anh Nguyen",
   "license": "Konkuk University (KU)",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/anhnt2407/anhnt2407.github.io/issues"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://anhnt2407.github.io/",
   "engines": {
     "node": ">= 0.10.0"
   },
