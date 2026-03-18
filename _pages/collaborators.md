@@ -13,8 +13,8 @@ author_profile: true
 <div class="collaborator-grid">
   <article class="collaborator-card">
     <h2><a href="https://iuresf.gitlab.io/pasid-site/airton.html">Francisco Airton Silva</a></h2>
-    <p class="collaborator-card__meta">Federal University of Piaui, Brazil</p>
-    <p>Laboratory of Applied Research to Distributed Systems (PASID), campus Picos, Teresina, Piaui.</p>
+    <p class="collaborator-card__meta">Federal University of Piauí, Brazil</p>
+    <p>Laboratory of Applied Research to Distributed Systems (PASID), campus Picos, Teresina, Piauí.</p>
   </article>
 
   <article class="collaborator-card">
