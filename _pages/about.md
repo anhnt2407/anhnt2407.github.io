@@ -3,6 +3,7 @@ permalink: /
 title: "Tuan Anh Nguyen"
 excerpt: "Academic research assistant professor in computer science, dependable AI, digital twins, and advanced autonomous systems."
 author_profile: true
+show_page_title: false
 redirect_from: 
   - /about/
   - /about.html
