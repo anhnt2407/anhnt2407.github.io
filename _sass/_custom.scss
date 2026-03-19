@@ -143,14 +143,15 @@ a:hover {
 .masthead__menu {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .greedy-nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 100%;
   min-width: 0;
+  width: 100%;
   background: transparent;
 }
 
@@ -173,7 +174,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 100%;
+  margin-left: auto;
   gap: 0.35rem;
 }
 
@@ -186,10 +187,25 @@ a:hover {
   right: auto;
   height: auto;
   margin-left: auto;
+  order: 2;
   padding: 0.7rem;
   border-radius: 16px;
   background: linear-gradient(135deg, var(--accent-dark), var(--accent));
   box-shadow: 0 12px 24px rgba(11, 52, 87, 0.18);
+}
+
+@include breakpoint($large) {
+  .greedy-nav button {
+    display: none;
+  }
+
+  .greedy-nav .hidden-links {
+    display: none !important;
+  }
+
+  .greedy-nav .visible-links {
+    display: flex !important;
+  }
 }
 
 .masthead__menu-item.is-active a {
