@@ -111,46 +111,57 @@ redirect_from:
   </article>
 </div>
 
-## **Education**  🎓🧠💻
+## **Education**
 
-- He received his Ph.D. (2011–2015) in Computer Science and System Engineering from the Embedded Systems and Network Security Laboratory (NS Lab.), Department of Computer Engineering, Korea Aerospace University, under the supervision of Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703).
+<p class="experience-intro">Formal academic training in computer science, systems engineering, and mechatronics.</p>
 
-- He obtained his M.Sc. (2008–2010) and B.Eng. (2003–2008) in Mechatronics under Prof. [Dinh Van Phong](https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html) at Hanoi University of Science and Technology (HUST), Hanoi, Vietnam.
+<div class="experience-grid">
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Ph.D. · 2011 - 2015</p>
+    <h3>Computer Science and System Engineering</h3>
+    <p class="experience-card__meta">Korea Aerospace University · Department of Computer Engineering</p>
+    <p>Completed doctoral research in the Embedded Systems and Network Security Laboratory under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>.</p>
+  </article>
 
-## **Academic Genealogy**  🧬🔭
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">M.Sc. and B.Eng. · 2003 - 2010</p>
+    <h3>Mechatronics</h3>
+    <p class="experience-card__meta">Hanoi University of Science and Technology (HUST) · Hanoi, Vietnam</p>
+    <p>Earned master's and bachelor's degrees under Prof. <a href="https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html">Dinh Van Phong</a>, building the engineering foundation for later work in autonomous and intelligent systems.</p>
+  </article>
+</div>
 
-- His Ph.D. dissertation advisors were Professor [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) (Pennsylvania State University, USA, 1994) and Professor [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703) (Korea Aerospace University, South Korea, 2008), who was also a descendant of Prof. Park.
+## **Academic Genealogy**
 
-- Professor Dong Seong Kim’s postdoctoral advisor was [Kishor S. Trivedi](https://www.google.com/url?q=https%3A%2F%2Fece.duke.edu%2Ffaculty%2Fkishor-trivedi&sa=D&sntz=1&usg=AFQjCNFbOKBMwU9THL6jJI0bZu8R0SaRVQ) (UIUC, 1974), the Hudson **Distinguished** Professor of Electrical and Computer Engineering at Duke University, USA.
+<p class="experience-intro">A concise view of doctoral mentorship and the broader academic lineage behind his research formation.</p>
 
-- Professor Jong Sou Park’s advisor was Paul Thomas Hulina (Pennsylvania State University, 1969). Tracing further back:
-  - Jon G. Bredeson (Northwestern University, 1967)
-  - [Seifollah Louis Hakimi](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FS._L._Hakimi&sa=D&sntz=1&usg=AFQjCNEqXq5_KfWXkkUe3PrJTr8EN7YZCw) (University of Illinois at Urbana-Champaign (UIUC), 1959)
-  - [Mac Van Valkenburg](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMac_Van_Valkenburg&sa=D&sntz=1&usg=AFQjCNFkBZiGAm9t39uznB0j4JEqxSQ2sA) (Stanford University, 1952)
-  - [Oswald Garrison Villard, Jr.](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOswald_Garrison_Villard%2C_Jr.&sa=D&sntz=1&usg=AFQjCNG8TNAAeOdLs8YniBbX4vWyISliJg) (Stanford University, 1949)
-  - [Frederick Emmons Terman](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFrederick_Emmons_Terman&sa=D&sntz=1&usg=AFQjCNGty-3D-viju7fSXzxgsNun8NDdhg) (Massachusetts Institute of Technology (MIT), 1924, Sc.D.)
-  - [Vannevar Bush](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FVannevar_Bush&sa=D&sntz=1&usg=AFQjCNFCyDxRFBhDAo0pA_CVaHrDWmmDSA) (MIT, 1916)  
-  and eventually
-  - [Arthur Edwin Kennelly](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FArthur_E._Kennelly&sa=D&sntz=1&usg=AFQjCNFgMRSTzZqSIedHfylAc4Sb1yPMxQ) (self-taught), who worked at [Thomas Edison](https://www.google.com/url?q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThomas_Edison&sa=D&sntz=1&usg=AFQjCNFhwqmC10rAp2qAGR6L5MPnzD_2Gw)'s West Orange Laboratory from December 1887 to March 1894, and Duglad C. Jacson.
+<div class="experience-grid">
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Primary Advisors</p>
+    <h3>Doctoral Supervision</h3>
+    <p class="experience-card__meta">Pennsylvania State University, 1994 / Korea Aerospace University, 2008</p>
+    <p>Ph.D. dissertation advisors were Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>. Prof. Kim also belongs to Prof. Park's broader academic line.</p>
+  </article>
 
-- For more information, please refer to Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703).
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Extended Lineage</p>
+    <h3>Broader Academic Line</h3>
+    <p class="experience-card__meta">Selected senior lineage nodes in computing and engineering</p>
+    <p>The broader genealogy includes Kishor S. Trivedi, Paul Thomas Hulina, Jon G. Bredeson, Seifollah Louis Hakimi, Mac Van Valkenburg, Oswald Garrison Villard, Jr., Frederick Emmons Terman, Vannevar Bush, and Arthur Edwin Kennelly.</p>
+  </article>
+</div>
 
-- **Computer Science academic [tree](https://academictree.org/computerscience/tree.php?pid=883276)**
+<div class="experience-highlight-grid">
+  <article class="experience-note">
+    <p class="experience-note__eyebrow">Advisor Context</p>
+    <p>Prof. Dong Seong Kim’s postdoctoral advisor was <a href="https://www.google.com/url?q=https%3A%2F%2Fece.duke.edu%2Ffaculty%2Fkishor-trivedi&sa=D&sntz=1&usg=AFQjCNFbOKBMwU9THL6jJI0bZu8R0SaRVQ">Kishor S. Trivedi</a>, Hudson Distinguished Professor of Electrical and Computer Engineering at Duke University.</p>
+  </article>
 
-## **Research Interests**  💡⚙️🔧
-
-His current areas of research include:
-
-- Dynamics and control theory and systems
-- AI-based digital twin systems and methods
-- Computer science and software engineering with specialization in dependable, autonomous, and intelligent systems
-- Dependable computing and fault-tolerance of systems and networks
-- Mechatronics and aerospace robotic systems
-
-<!-- 
-20230121:  
--   His research interests include intelligent, dependable and secure digital twins, digital twin for urban aerial mobility, reinforcement learning based intelligent control for unmanned vehicles and robotic systems, generative adversarial networks (GANs) for digital twins, dependability and security of systems and networks, fault tolerance of embedded systems in aerospace and mechatronics, disaster tolerance and recovery of computing systems, integration of cloud/fog/edge computing paradigms, dependability and security analytical quantification for Internet of Things, cloud data centers, unmanned vehicles, mechatronic production chains, and e-logistics. 
--->
+  <article class="experience-note">
+    <p class="experience-note__eyebrow">Reference Links</p>
+    <p>For a more detailed lineage, see Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a> and the Computer Science academic <a href="https://academictree.org/computerscience/tree.php?pid=883276">tree</a>.</p>
+  </article>
+</div>
 
 ## **In brief**  🌐📡💼
 
@@ -158,14 +169,29 @@ Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) works in computer scien
 
 He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Prior to his current position, Dr. Nguyen worked in research at the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively.
 
-His current research interests include Dynamics and Control Theory and Systems, AI-based Digital Twin Systems and Methods, Computer Science and Software Engineering with specialization in Dependable, Autonomous, and Intelligent Systems, Dependable Computing and Fault-Tolerance of Systems and Networks, and Mechatronics and Aerospace Robotic Systems.
+## **Contact**
 
-## **Contact**  ✉️🌏
+<p class="experience-intro">Primary contact channels and location information for academic correspondence.</p>
 
-- His hometown is [Hanoi, Vietnam](https://www.google.co.kr/maps/place/Hanoi,+Ho%C3%A0n+Ki%E1%BA%BFm,+Hanoi,+Vietnam/@20.0953225,105.7067677,8z/data=!4m5!3m4!1s0x3135ab9bd9861ca1:0xe7887f7b72ca17a9!8m2!3d21.0277644!4d105.8341598).
+<div class="experience-grid">
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Location</p>
+    <h3>Hanoi, Vietnam</h3>
+    <p class="experience-card__meta">Profile location</p>
+    <p>Current location shown across the public profile.</p>
+  </article>
 
-- E-mail: [anhnt2407@konkuk.ac.kr](mailto:anhnt2407@konkuk.ac.kr)
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Email</p>
+    <h3>Primary Academic Contact</h3>
+    <p class="experience-card__meta"><a href="mailto:anhnt2407@konkuk.ac.kr">anhnt2407@konkuk.ac.kr</a></p>
+    <p>Best used for research collaboration, publications, and academic correspondence.</p>
+  </article>
 
-- Address:  
-  * 서울특별시 광진구 능동로 120 (건국대학교 서울 캠퍼스) (신공학관 1207호 or 중장비실험동 204호)  
-  * (05029) 120 Neungdong-ro, Gwangjin-gu, Seoul, KOREA (Konkuk University, Seoul Campus) (New Engineering Building, Room #1207) or (Heavy Experimental Lab.'s Building, Room #204)
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Institutional Address</p>
+    <h3>Konkuk University, Seoul Campus</h3>
+    <p class="experience-card__meta">(05029) 120 Neungdong-ro, Gwangjin-gu, Seoul, Korea</p>
+    <p>New Engineering Building, Room #1207 or Heavy Experimental Lab.'s Building, Room #204.</p>
+  </article>
+</div>
