@@ -530,7 +530,7 @@ a:hover {
   border: 0;
   color: #ffffff;
   font-family: "Source Sans 3", sans-serif;
-  font-size: clamp(1.6rem, 1.05rem + 1.35vw, 2.28rem);
+  font-size: clamp(1.6rem, calc(1.05rem + 1.35vw), 2.28rem);
   line-height: 1.03;
   font-weight: 800;
   letter-spacing: -0.035em;
