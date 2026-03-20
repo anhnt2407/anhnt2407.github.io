@@ -57,10 +57,10 @@ redirect_from:
 
 <div class="experience-grid">
   <article class="experience-card">
-    <p class="experience-card__eyebrow">Current · Since Jul 2020</p>
+    <p class="experience-card__eyebrow">Research Appointment · Jul 2020 - Jun 2025</p>
     <h3>Dependable, Autonomous, and Intelligent Systems Research</h3>
     <p class="experience-card__meta">Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University · Seoul, South Korea</p>
-    <p>Conducts research in dependable, autonomous, and intelligent systems, collaborating with Prof. <a href="http://kada.konkuk.ac.kr/aadl_teams/profjwlee/">Jae Woo Lee</a> and Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
+    <p>Conducted research in dependable, autonomous, and intelligent systems, collaborating with Prof. <a href="http://kada.konkuk.ac.kr/aadl_teams/profjwlee/">Jae Woo Lee</a> and Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
   </article>
 
   <article class="experience-card">
@@ -165,9 +165,9 @@ redirect_from:
 
 ## **In brief**  🌐📡💼
 
-Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) works in computer science and system engineering research at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea. He has been the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He was formerly a professional member of AIAA, IEEE, the IEEE Computer Society, the IEEE Robotics and Automation Society (IEEE RAS), the IEEE Aerospace and Electronic Systems Society (IEEE AESS), and the IEEE Reliability Society. 
+Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) worked in computer science and system engineering research at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea, from July 2020 to June 2025. During this period, he served as the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He was formerly a professional member of AIAA, IEEE, the IEEE Computer Society, the IEEE Robotics and Automation Society (IEEE RAS), the IEEE Aerospace and Electronic Systems Society (IEEE AESS), and the IEEE Reliability Society. 
 
-He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Prior to his current position, Dr. Nguyen worked in research at the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively.
+He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Previously, Dr. Nguyen worked in research at the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively.
 
 ## **Contact**
 
