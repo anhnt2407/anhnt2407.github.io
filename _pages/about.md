@@ -51,23 +51,65 @@ redirect_from:
   <p>This website brings together current research directions, publications, collaborators, and project updates, alongside academic background and contact information.</p>
 </div>
 
-## **Experiences**  🔬🚀🤖
+## **Experiences**
 
-- Tuan Anh Nguyen has worked in computer science research, with a specialization in Dependable, Autonomous, and Intelligent Systems (DAIS), at the Konkuk Aerospace Design-Airworthiness Institute ([KADA](http://kada.konkuk.ac.kr/)) (총장지정KU연구소, 항공우주설계인증연구소). He collaborates closely with Prof. [Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea, since July 2020.
+<p class="experience-intro">Selected academic and industry appointments across dependable systems, robotics, aerospace research, and computer science.</p>
 
-- He was formerly a professional member of **AIAA** and is currently a professional member of **IEEE**, **IEEE Computer**, **IEEE Robotics and Automation (IEEE RAS)**, **IEEE Aerospace and Electronic Systems (IEEE AESS)**, and the **IEEE Reliability** Societies.
+<div class="experience-grid">
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Current · Since Jul 2020</p>
+    <h3>Dependable, Autonomous, and Intelligent Systems Research</h3>
+    <p class="experience-card__meta">Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University · Seoul, South Korea</p>
+    <p>Conducts research in dependable, autonomous, and intelligent systems, collaborating with Prof. <a href="http://kada.konkuk.ac.kr/aadl_teams/profjwlee/">Jae Woo Lee</a> and Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
+  </article>
 
-- His Ph.D. advisor (Prof. Dong Seong Kim (김동성)) is an Elected Member of **IFIP WG 10.4 on Dependable Computing and Fault Tolerance** (from 2021 onwards). The IFIP WG 10.4 comprises over **60 experts** in fault tolerance, dependable, and secure computing.
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">University Research · Mar 2016 - Feb 2020</p>
+    <h3>Research Collaboration at Konkuk University</h3>
+    <p class="experience-card__meta">Office of Research, University-Industry Cooperation Foundation · Konkuk University</p>
+    <p>Worked in university research collaboration, contributing to dependable and autonomous systems projects with Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
+  </article>
 
-- Previously, he worked in research at the Office of Research, University-Industry Cooperation Foundation (건국대학교 산학협력단), collaborating with Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University from March 2016 to February 2020.
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Postdoctoral Research · Aug 2015 - Feb 2016</p>
+    <h3>Distributed Multimedia Systems Laboratory</h3>
+    <p class="experience-card__meta">Konkuk University · Seoul, South Korea</p>
+    <p>Served as a Post-doctoral Research Associate in the DMS Lab., working under Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
+  </article>
 
-- He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) under Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea, from August 2015 to February 2016.
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Doctoral Research · 2011 - 2015</p>
+    <h3>Network Security and Systems Laboratory</h3>
+    <p class="experience-card__meta">Korea Aerospace University (KAU) · South Korea</p>
+    <p>Worked as a Ph.D. Research Associate under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>.</p>
+  </article>
 
-- He was a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) under Prof. [Jong Sou Park (박종서)](http://college.kau.ac.kr/web/pages/gc83710h.do) and Prof. [Dong Seong Kim (김동성)](https://researchers.uq.edu.au/researcher/23703) at Korea Aerospace University (KAU) between 2011 and 2015.
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Industry Research · 2009 - 2010</p>
+    <h3>FPT Space Technology Research Laboratory</h3>
+    <p class="experience-card__meta">FPT Technology Research Institute (FTRI), FPT University, FPT Corporation · Hanoi, Vietnam</p>
+    <p>Worked as a full-time researcher on space technology research initiatives.</p>
+  </article>
 
-- He worked as a full-time researcher at the FPT Space Technology Research (F-Space) Laboratory under the FPT Technology Research Institute (FTRI), FPT University, FPT Corporation, Hanoi, Vietnam, during 2009–2010.
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Research Engineering · 2008</p>
+    <h3>TRON Laboratory</h3>
+    <p class="experience-card__meta">FPT Software, FPT Corporation · Hanoi, Vietnam</p>
+    <p>Served as a research engineer in real-time operating system research and development.</p>
+  </article>
+</div>
 
-- He also served as a research engineer in the Real-time Operating System Nucleus (TRON) Laboratory at FPT Software, FPT Corporation, Hanoi, Vietnam, in 2008.
+<div class="experience-highlight-grid">
+  <article class="experience-note">
+    <p class="experience-note__eyebrow">Professional Memberships</p>
+    <p>Formerly a professional member of <strong>AIAA</strong>; currently a professional member of <strong>IEEE</strong>, <strong>IEEE Computer</strong>, <strong>IEEE Robotics and Automation (IEEE RAS)</strong>, <strong>IEEE Aerospace and Electronic Systems (IEEE AESS)</strong>, and the <strong>IEEE Reliability</strong> Societies.</p>
+  </article>
+
+  <article class="experience-note">
+    <p class="experience-note__eyebrow">Academic Network</p>
+    <p>Ph.D. advisor Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a> has been an elected member of <strong>IFIP WG 10.4 on Dependable Computing and Fault Tolerance</strong> since 2021. The working group includes more than <strong>60 experts</strong> in dependable, fault-tolerant, and secure computing.</p>
+  </article>
+</div>
 
 ## **Education**  🎓🧠💻
 
