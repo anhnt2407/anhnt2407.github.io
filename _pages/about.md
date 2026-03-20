@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Tuan Anh Nguyen"
-excerpt: "Academic research assistant professor in computer science, dependable AI, digital twins, and advanced autonomous systems."
+excerpt: "Research in dependable AI, digital twin systems, robotics, and aerospace applications."
 author_profile: true
 show_page_title: false
 redirect_from: 
@@ -53,13 +53,13 @@ redirect_from:
 
 ## **Experiences**  🔬🚀🤖
 
-- Tuan Anh Nguyen was **an Academic Research Professor (학술연구교수)** in Computer Science, with a specialization in Dependable, Autonomous, and Intelligent Systems (DAIS), at the Konkuk Aerospace Design-Airworthiness Institute ([KADA](http://kada.konkuk.ac.kr/)) (총장지정KU연구소, 항공우주설계인증연구소). He collaborates closely with Prof. [Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea, since July 2020.
+- Tuan Anh Nguyen has worked in computer science research, with a specialization in Dependable, Autonomous, and Intelligent Systems (DAIS), at the Konkuk Aerospace Design-Airworthiness Institute ([KADA](http://kada.konkuk.ac.kr/)) (총장지정KU연구소, 항공우주설계인증연구소). He collaborates closely with Prof. [Jae Woo Lee (이재우)](http://kada.konkuk.ac.kr/aadl_teams/profjwlee/) and Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea, since July 2020.
 
 - He was formerly a professional member of **AIAA** and is currently a professional member of **IEEE**, **IEEE Computer**, **IEEE Robotics and Automation (IEEE RAS)**, **IEEE Aerospace and Electronic Systems (IEEE AESS)**, and the **IEEE Reliability** Societies.
 
 - His Ph.D. advisor (Prof. Dong Seong Kim (김동성)) is an Elected Member of **IFIP WG 10.4 on Dependable Computing and Fault Tolerance** (from 2021 onwards). The IFIP WG 10.4 comprises over **60 experts** in fault tolerance, dependable, and secure computing.
 
-- Previously, he worked as a Research Professor (연구교수) at the Office of Research, University-Industry Cooperation Foundation (건국대학교 산학협력단), collaborating with Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University from March 2016 to February 2020.
+- Previously, he worked in research at the Office of Research, University-Industry Cooperation Foundation (건국대학교 산학협력단), collaborating with Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University from March 2016 to February 2020.
 
 - He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) under Prof. [Dugki Min (민덕기)](https://dmslab-konkuk.github.io/people/DugkiMin/) at Konkuk University, Seoul, South Korea, from August 2015 to February 2016.
 
@@ -112,9 +112,9 @@ His current areas of research include:
 
 ## **In brief**  🌐📡💼
 
-Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) currently serves as an Academic Research (Assistant) Professor of Computer Science and System Engineering at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea. He has been the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He is also a professional member of AIAA, IEEE, IEEE Computer, IEEE Robotics and Automation (IEEE RAS), IEEE Aerospace and Electronic Systems (IEEE AESS), and IEEE Reliability Societies. 
+Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) works in computer science and system engineering research at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea. He has been the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He is also a professional member of AIAA, IEEE, IEEE Computer, IEEE Robotics and Automation (IEEE RAS), IEEE Aerospace and Electronic Systems (IEEE AESS), and IEEE Reliability Societies. 
 
-He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Prior to his current position, Dr. Nguyen was a Research (Assistant) Professor in the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively.
+He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Prior to his current position, Dr. Nguyen worked in research at the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively.
 
 His current research interests include Dynamics and Control Theory and Systems, AI-based Digital Twin Systems and Methods, Computer Science and Software Engineering with specialization in Dependable, Autonomous, and Intelligent Systems, Dependable Computing and Fault-Tolerance of Systems and Networks, and Mechatronics and Aerospace Robotic Systems.
 
