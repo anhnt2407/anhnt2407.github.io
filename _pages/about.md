@@ -24,7 +24,7 @@ redirect_from:
       <li class="site-pill site-pill--feature">Digital twins and UAM systems</li>
       <li class="site-pill site-pill--wide">Trustworthy computing infrastructures</li>
       <li class="site-pill site-pill--wide">Robotics and autonomous navigation</li>
-      <li class="site-pill site-pill--compact">Seoul, South Korea</li>
+      <li class="site-pill site-pill--compact">Hanoi, Vietnam</li>
     </ul>
   </div>
 </div>
