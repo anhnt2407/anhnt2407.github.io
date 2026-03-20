@@ -20,11 +20,11 @@ redirect_from:
       <a class="site-cta site-cta--secondary" href="/news/">Recent News</a>
     </div>
     <ul class="site-pills">
-      <li>Dependable AI and control</li>
-      <li>Digital twins and UAM systems</li>
-      <li>Trustworthy computing infrastructures</li>
-      <li>Robotics and autonomous navigation</li>
-      <li>Seoul, South Korea</li>
+      <li class="site-pill site-pill--compact">Dependable AI and control</li>
+      <li class="site-pill site-pill--feature">Digital twins and UAM systems</li>
+      <li class="site-pill site-pill--wide">Trustworthy computing infrastructures</li>
+      <li class="site-pill site-pill--wide">Robotics and autonomous navigation</li>
+      <li class="site-pill site-pill--compact">Seoul, South Korea</li>
     </ul>
   </div>
 </div>
