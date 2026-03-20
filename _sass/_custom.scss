@@ -490,7 +490,7 @@ a:hover {
   position: relative;
   overflow: hidden;
   margin-bottom: 1.5rem;
-  padding: clamp(1.68rem, 2.9vw, 2.45rem) clamp(1.45rem, 2.9vw, 2.65rem);
+  padding: clamp(1.65rem, 2.8vw, 2.35rem) clamp(1.35rem, 2.6vw, 2.35rem);
   border-radius: 30px;
   background: linear-gradient(135deg, rgba(11, 52, 87, 0.98), rgba(26, 101, 156, 0.9));
   box-shadow: 0 24px 56px rgba(11, 52, 87, 0.22);
@@ -499,7 +499,7 @@ a:hover {
 .home-hero__content {
   position: relative;
   z-index: 1;
-  max-width: clamp(33rem, 65%, 45rem);
+  max-width: 100%;
 }
 
 .home-hero::after {
@@ -514,7 +514,7 @@ a:hover {
 }
 
 .home-hero__eyebrow {
-  margin: 0 0 0.72rem;
+  margin: 0 0 0.68rem;
   color: rgba(255, 255, 255, 0.76);
   font-size: 0.76rem;
   font-weight: 700;
@@ -524,22 +524,22 @@ a:hover {
 }
 
 .home-hero .home-hero__title {
-  max-width: 24ch;
+  max-width: 100%;
   margin: 0;
   padding: 0;
   border: 0;
   color: #ffffff;
-  font-size: clamp(1.58rem, 1.22rem + 0.86vw, 2rem);
-  line-height: 1.08;
-  font-weight: 700;
-  letter-spacing: -0.024em;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: clamp(1.6rem, 1.05rem + 1.35vw, 2.28rem);
+  line-height: 1.03;
+  font-weight: 800;
+  letter-spacing: -0.035em;
   text-wrap: balance;
-  text-wrap: pretty;
 }
 
 .home-hero .home-hero__lead {
-  max-width: 38rem;
-  margin: 0.92rem 0 0;
+  max-width: 46rem;
+  margin: 0.9rem 0 0;
   color: rgba(255, 255, 255, 0.88);
   font-size: 0.95rem;
   line-height: 1.66;
@@ -549,7 +549,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-top: 1.18rem;
+  margin-top: 1.08rem;
 }
 
 .site-cta {
@@ -584,8 +584,8 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  max-width: 41rem;
-  margin: 0.9rem 0 0;
+  max-width: 44rem;
+  margin: 0.88rem 0 0;
   padding: 0;
   list-style: none;
 }
@@ -978,52 +978,16 @@ a:hover {
 }
 
 @media (min-width: 80em) {
-  .home-hero {
-    padding: clamp(1.58rem, 2.5vw, 2.1rem) clamp(1.25rem, 2.4vw, 2.15rem);
-  }
-
-  .home-hero__content {
-    max-width: 100%;
-  }
-
-  .home-hero__eyebrow {
-    margin-bottom: 0.68rem;
-  }
-
   .home-hero .home-hero__title {
-    max-width: none;
     white-space: nowrap;
-    font-family: "Source Sans 3", sans-serif;
     font-size: 1.08rem;
-    line-height: 1.08;
-    font-weight: 800;
-    letter-spacing: -0.035em;
-  }
-
-  .home-hero .home-hero__lead {
-    max-width: 46rem;
-    margin-top: 0.9rem;
-  }
-
-  .site-cta-group {
-    margin-top: 1.08rem;
-  }
-
-  .site-pills {
-    max-width: 44rem;
-    margin-top: 0.88rem;
   }
 }
 
 @media (max-width: 40em) {
-  .home-hero__content {
-    max-width: 100%;
-  }
-
   .home-hero .home-hero__title {
-    max-width: 100%;
-    font-size: clamp(1.42rem, 4.95vw, 1.8rem);
-    line-height: 1.12;
+    font-size: clamp(1.35rem, 4.7vw, 1.72rem);
+    line-height: 1.08;
   }
 
   .home-hero .home-hero__lead {
