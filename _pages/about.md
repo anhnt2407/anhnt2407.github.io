@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Tuan Anh Nguyen"
-excerpt: "Research in dependable AI, digital twin systems, robotics, and aerospace applications."
+excerpt: "Researcher in Computer Science with Specialization in Dependable, Autonomous and Intelligent Systems."
 author_profile: true
 show_page_title: false
 redirect_from: 
