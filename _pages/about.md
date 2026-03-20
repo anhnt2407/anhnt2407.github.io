@@ -10,21 +10,23 @@ redirect_from:
 ---
 
 <div class="home-hero">
-  <p class="home-hero__eyebrow">Xin chào · Welcome · 환영 · Bonjour</p>
-  <h2>Dependable, autonomous, and intelligent systems for digital twins, robotics, and aerospace applications.</h2>
-  <p>I work at the intersection of dependable AI, digital twin systems, neural dynamics and control, and trustworthy cyber-physical infrastructures for advanced air mobility, robotics, and complex networked systems.</p>
-  <div class="site-cta-group">
-    <a class="site-cta site-cta--primary" href="/publications/">Browse Publications</a>
-    <a class="site-cta site-cta--secondary" href="/research/">Explore Research</a>
-    <a class="site-cta site-cta--secondary" href="/news/">Recent News</a>
+  <div class="home-hero__content">
+    <p class="home-hero__eyebrow">Xin chào · Welcome · 환영 · Bonjour</p>
+    <h2 class="home-hero__title">Dependable, autonomous, and intelligent systems for digital twins, robotics, and aerospace applications.</h2>
+    <p class="home-hero__lead">I work at the intersection of dependable AI, digital twin systems, neural dynamics and control, and trustworthy cyber-physical infrastructures for advanced air mobility, robotics, and complex networked systems.</p>
+    <div class="site-cta-group">
+      <a class="site-cta site-cta--primary" href="/publications/">Browse Publications</a>
+      <a class="site-cta site-cta--secondary" href="/research/">Explore Research</a>
+      <a class="site-cta site-cta--secondary" href="/news/">Recent News</a>
+    </div>
+    <ul class="site-pills">
+      <li>Dependable AI and control</li>
+      <li>Digital twins and UAM systems</li>
+      <li>Trustworthy computing infrastructures</li>
+      <li>Robotics and autonomous navigation</li>
+      <li>Seoul, South Korea</li>
+    </ul>
   </div>
-  <ul class="site-pills">
-    <li>Dependable AI and control</li>
-    <li>Digital twins and UAM systems</li>
-    <li>Trustworthy computing infrastructures</li>
-    <li>Robotics and autonomous navigation</li>
-    <li>Seoul, South Korea</li>
-  </ul>
 </div>
 
 <div class="home-focus-grid">
