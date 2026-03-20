@@ -402,8 +402,13 @@ a:hover {
 
 .sidebar .author__name {
   font-family: "Source Serif 4", serif;
-  font-size: clamp(1.65rem, 2vw, 2rem);
-  line-height: 1.05;
+  max-width: 11ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: clamp(1.34rem, 1.45vw, 1.62rem);
+  line-height: 1.08;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
 }
 
 .author__bio {
