@@ -490,10 +490,16 @@ a:hover {
   position: relative;
   overflow: hidden;
   margin-bottom: 1.5rem;
-  padding: clamp(1.35rem, 3vw, 2.35rem);
+  padding: clamp(1.68rem, 2.9vw, 2.45rem) clamp(1.45rem, 2.9vw, 2.65rem);
   border-radius: 30px;
   background: linear-gradient(135deg, rgba(11, 52, 87, 0.98), rgba(26, 101, 156, 0.9));
   box-shadow: 0 24px 56px rgba(11, 52, 87, 0.22);
+}
+
+.home-hero__content {
+  position: relative;
+  z-index: 1;
+  max-width: clamp(33rem, 65%, 45rem);
 }
 
 .home-hero::after {
@@ -508,45 +514,42 @@ a:hover {
 }
 
 .home-hero__eyebrow {
-  position: relative;
-  z-index: 1;
-  margin: 0;
+  margin: 0 0 0.72rem;
   color: rgba(255, 255, 255, 0.76);
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   font-weight: 700;
-  letter-spacing: 0.16em;
+  line-height: 1.35;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
 }
 
-.home-hero h2 {
-  position: relative;
-  z-index: 1;
-  max-width: 14ch;
-  margin: 0.55rem 0 0.85rem;
+.home-hero .home-hero__title {
+  max-width: 24ch;
+  margin: 0;
   padding: 0;
   border: 0;
   color: #ffffff;
-  font-size: clamp(1.85rem, 3.2vw, 2.95rem);
+  font-size: clamp(1.58rem, 1.22rem + 0.86vw, 2rem);
   line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: -0.024em;
+  text-wrap: balance;
+  text-wrap: pretty;
 }
 
-.home-hero p {
-  position: relative;
-  z-index: 1;
-  max-width: 46rem;
-  margin: 0;
+.home-hero .home-hero__lead {
+  max-width: 38rem;
+  margin: 0.92rem 0 0;
   color: rgba(255, 255, 255, 0.88);
-  font-size: 1rem;
-  line-height: 1.72;
+  font-size: 0.95rem;
+  line-height: 1.66;
 }
 
 .site-cta-group {
-  position: relative;
-  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-top: 1.3rem;
+  margin-top: 1.18rem;
 }
 
 .site-cta {
@@ -578,22 +581,21 @@ a:hover {
 }
 
 .site-pills {
-  position: relative;
-  z-index: 1;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
-  margin: 1.15rem 0 0;
+  gap: 0.5rem;
+  max-width: 41rem;
+  margin: 0.9rem 0 0;
   padding: 0;
   list-style: none;
 }
 
 .site-pills li {
-  padding: 0.42rem 0.75rem;
+  padding: 0.34rem 0.64rem;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.14);
   color: #ffffff;
-  font-size: 0.88rem;
+  font-size: 0.83rem;
   font-weight: 600;
 }
 
@@ -975,7 +977,64 @@ a:hover {
   }
 }
 
+@media (min-width: 80em) {
+  .home-hero {
+    padding: clamp(1.58rem, 2.5vw, 2.1rem) clamp(1.25rem, 2.4vw, 2.15rem);
+  }
+
+  .home-hero__content {
+    max-width: 100%;
+  }
+
+  .home-hero__eyebrow {
+    margin-bottom: 0.68rem;
+  }
+
+  .home-hero .home-hero__title {
+    max-width: none;
+    white-space: nowrap;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.08rem;
+    line-height: 1.08;
+    font-weight: 800;
+    letter-spacing: -0.035em;
+  }
+
+  .home-hero .home-hero__lead {
+    max-width: 46rem;
+    margin-top: 0.9rem;
+  }
+
+  .site-cta-group {
+    margin-top: 1.08rem;
+  }
+
+  .site-pills {
+    max-width: 44rem;
+    margin-top: 0.88rem;
+  }
+}
+
 @media (max-width: 40em) {
+  .home-hero__content {
+    max-width: 100%;
+  }
+
+  .home-hero .home-hero__title {
+    max-width: 100%;
+    font-size: clamp(1.42rem, 4.95vw, 1.8rem);
+    line-height: 1.12;
+  }
+
+  .home-hero .home-hero__lead {
+    font-size: 0.93rem;
+    line-height: 1.62;
+  }
+
+  .site-pills li {
+    font-size: 0.8rem;
+  }
+
   .page__footer-links {
     grid-template-columns: 1fr;
   }
