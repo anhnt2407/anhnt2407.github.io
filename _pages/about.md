@@ -47,10 +47,6 @@ redirect_from:
   </a>
 </div>
 
-<div class="page-lead">
-  <p>This website brings together current research directions, publications, collaborators, and project updates, alongside academic background and contact information.</p>
-</div>
-
 ## **Experiences**
 
 <p class="experience-intro">Selected academic and industry appointments across dependable systems, robotics, aerospace research, and computer science.</p>
