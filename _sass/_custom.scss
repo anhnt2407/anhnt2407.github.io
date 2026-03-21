@@ -784,6 +784,10 @@ a:hover {
   overflow: hidden;
 }
 
+.experience-card--featured {
+  grid-column: 1 / -1;
+}
+
 .experience-card::before {
   content: "";
   position: absolute;
@@ -828,6 +832,61 @@ a:hover {
   margin: 0;
   font-size: 0.95rem;
   line-height: 1.64;
+}
+
+.experience-role-list {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.experience-role {
+  position: relative;
+  padding: 0.05rem 0 0 1.3rem;
+}
+
+.experience-role::before {
+  content: "";
+  position: absolute;
+  top: 0.42rem;
+  left: 0;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 6px rgba(15, 76, 129, 0.08);
+}
+
+.experience-role:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  bottom: -0.9rem;
+  left: 0.32rem;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(15, 76, 129, 0.28), rgba(15, 76, 129, 0.08));
+}
+
+.experience-role h4 {
+  margin: 0 0 0.15rem;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.experience-role__meta,
+.experience-role__location {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.experience-role__meta {
+  color: var(--text-strong);
+  font-weight: 700;
+}
+
+.experience-role__location {
+  color: var(--text-muted);
 }
 
 .experience-highlight-grid {

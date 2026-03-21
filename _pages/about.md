@@ -52,6 +52,27 @@ redirect_from:
 <p class="experience-intro">Selected academic and industry appointments across dependable systems, robotics, aerospace research, and computer science.</p>
 
 <div class="experience-grid">
+  <article class="experience-card experience-card--featured">
+    <p class="experience-card__eyebrow">Full-time · Jun 2025 - Present</p>
+    <h3>Viettel Group</h3>
+    <p class="experience-card__meta">On-site · Hanoi, Vietnam</p>
+    <p>Progressed through two Principal Engineer appointments within Viettel Group, moving from the High-Tech Industry Management Division to the Viettel Aviation Technology Center (VATC).</p>
+
+    <div class="experience-role-list" aria-label="Viettel Group role progression">
+      <div class="experience-role">
+        <h4>Principal Engineer, Viettel Aviation Technology Center (VATC)</h4>
+        <p class="experience-role__meta">Oct 2025 - Present</p>
+        <p class="experience-role__location">Hanoi Capital Region</p>
+      </div>
+
+      <div class="experience-role">
+        <h4>Principal Engineer, High-Tech Industry Management Division (Ban Công nghiệp Công nghệ Cao)</h4>
+        <p class="experience-role__meta">Jun 2025 - Oct 2025</p>
+        <p class="experience-role__location">Hanoi, Vietnam</p>
+      </div>
+    </div>
+  </article>
+
   <article class="experience-card">
     <p class="experience-card__eyebrow">Research Appointment · Jul 2020 - Jun 2025</p>
     <h3>Dependable, Autonomous, and Intelligent Systems Research</h3>
@@ -161,7 +182,7 @@ redirect_from:
 
 ## **In brief**  🌐📡💼
 
-Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) worked in computer science and system engineering research at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea, from July 2020 to June 2025. During this period, he served as the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He was formerly a professional member of AIAA, IEEE, the IEEE Computer Society, the IEEE Robotics and Automation Society (IEEE RAS), the IEEE Aerospace and Electronic Systems Society (IEEE AESS), and the IEEE Reliability Society. 
+Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) is currently a Principal Engineer at Viettel Group in Hanoi, Vietnam. Since June 2025, he has served in the High-Tech Industry Management Division and, from October 2025, at the Viettel Aviation Technology Center (VATC). Previously, he worked in computer science and system engineering research at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea, from July 2020 to June 2025. During this period, he served as the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He was formerly a professional member of AIAA, IEEE, the IEEE Computer Society, the IEEE Robotics and Automation Society (IEEE RAS), the IEEE Aerospace and Electronic Systems Society (IEEE AESS), and the IEEE Reliability Society.
 
 He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Previously, Dr. Nguyen worked in research at the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively.
 
