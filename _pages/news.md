@@ -8,8 +8,165 @@ author_profile: true
 
 <div class="page-lead">
   <p>Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates.</p>
+  <p class="page-lead__note">Curated on March 21, 2026. The recent publication highlights below were cross-checked against DOI records, publisher pages, conference proceedings, arXiv, and the publications list on this site.</p>
 </div>
 
+<p class="news-date">December 5, 2025</p>
+
+## S-iNAS: Performance-Centric Scaling for Ceph-Based Industrial Storage
+
+We are pleased to share the publication of **S-iNAS** in the *Journal of Network and Systems Management*. The paper addresses a systems problem that matters directly to Industry 4.0 and digital twin deployments: how to keep Ceph-based industrial network-attached storage responsive when data streams become bursty, highly concurrent, and operationally uneven.
+
+<figure>
+  <img src="../images/news/251205/sinas-brochure.svg" alt="Brochure-style visual summary of the S-iNAS paper on adaptive Ceph scaling for industrial storage" width="1200">
+  <figcaption>S-iNAS research brochure: SRN-based analysis of time-based and event-based scaling for Ceph-backed industrial storage.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Introduces an SRN-based modeling framework that captures concurrent read and write workflows, replication overhead, and dynamic scaling triggers for Ceph Object Storage Daemons (OSDs).
+- Compares two scaling policies head-to-head: scheduled time-based expansion and event-based expansion driven by workload thresholds.
+- Studies the effect of arrival rate, client concurrency, VM instantiation delay, and read/write composition on throughput and latency.
+
+### Why this matters
+
+- The Springer abstract shows that time-based scaling stays stable under moderate load but can react too slowly when demand spikes abruptly.
+- Event-based scaling adapts faster and helps reduce latency, though it may cause more frequent reconfigurations.
+- The paper turns these trade-offs into actionable guidance for tuning storage services in industrial workflows and digital twin ecosystems.
+
+**Publication record:** Published online on December 5, 2025 in *Journal of Network and Systems Management*, Volume 34, Article 34 ([DOI](https://doi.org/10.1007/s10922-025-10005-6), [Springer article](https://link.springer.com/article/10.1007/s10922-025-10005-6)).
+
+---
+<p class="news-date">November 1, 2025</p>
+
+## Energy-Aware Kubernetes Autoscaling for Microservices
+
+Our recent article in the *Journal of Network and Computer Applications* studies Kubernetes autoscaling from a more useful engineering perspective: not only whether a deployment stays responsive, but whether it does so without wasting electrical power. This is especially important for cloud and edge platforms that must balance service quality, infrastructure cost, and sustainability at the same time.
+
+<figure>
+  <img src="../images/news/251101/kubernetes-gspn-brochure.svg" alt="Brochure-style visual summary of the Kubernetes microservices paper on performance and energy trade-offs" width="1200">
+  <figcaption>Research brochure for the Kubernetes microservices paper: balancing response time and energy use with GSPN-based analysis.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Builds a Generalized Stochastic Petri Net (GSPN) model for Kubernetes-orchestrated microservices that jointly represents Horizontal Pod Autoscaling (HPA), Cluster Autoscaling (CA), application behavior, and infrastructure capacity.
+- Introduces the **Energy-Response Time Weighted Product (ERWP)** metric to evaluate performance and energy efficiency together rather than in isolation.
+- Uses sensitivity analysis and realistic case studies to reveal which autoscaling parameters most strongly influence energy use, throughput, and response time.
+
+### Why this matters
+
+- The publisher abstract reports that higher autoscaling thresholds under low workloads can reduce electrical consumption by about **32%** without materially hurting performance.
+- Under high arrival-rate conditions, the same choice can still cut consumption by about **37%**, but at the cost of a **175%** increase in response time.
+- The result is a concrete workload-aware guide for tuning Kubernetes deployments instead of relying on heuristic trial and error.
+
+**Publication record:** Published in November 2025 in *Journal of Network and Computer Applications*, Volume 243, Article 104287 ([DOI](https://doi.org/10.1016/j.jnca.2025.104287), [ScienceDirect article](https://www.sciencedirect.com/science/article/abs/pii/S1084804525001845)).
+
+---
+<p class="news-date">September 1, 2025</p>
+
+## RT-VLM: Re-Thinking Vision-Language Robustness for Real-World Recognition
+
+We are also excited to share **RT-VLM**, a new arXiv preprint focused on one of the most persistent problems in real-world perception: domain shift. When image statistics, viewing angles, occlusion patterns, or neighboring object classes change, recognition performance often drops sharply. RT-VLM tackles that problem by combining structured multimodal evidence with an explicit self-correction loop.
+
+<figure>
+  <img src="../images/news/250901/rt-vlm-brochure.svg" alt="Brochure-style visual summary of RT-VLM and its four-clue re-thinking process" width="1200">
+  <figcaption>RT-VLM brochure card: four-clue supervision and a two-stage re-thinking pipeline for more robust visual understanding.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Introduces a synthetic dataset generation pipeline annotated with four structured clues: bounding boxes, class names, object-level captions, and a scene-level context caption.
+- Uses parameter-efficient supervised tuning of **Llama 3.2 11B Vision Instruct** on that multimodal supervision.
+- Applies a two-stage inference process in which the model first generates its own clues and then re-examines them as evidence to iteratively correct the final recognition result.
+
+### Why this matters
+
+- The arXiv abstract frames RT-VLM around four important sources of robustness failure: low-level image variation, pose and viewpoint change, partial occlusion, and confusion among nearby classes.
+- The reported gains across robustness benchmarks suggest that structured evidence plus self-critique is a promising direction for more reliable real-world visual perception.
+- This is particularly relevant for embodied AI, robotics, and safety-critical recognition settings where robustness matters more than single-dataset accuracy.
+
+**Publication record:** Posted on September 1, 2025 as an arXiv preprint ([arXiv abstract](https://arxiv.org/abs/2509.05333), [DOI](https://doi.org/10.48550/arXiv.2509.05333)).
+
+---
+<p class="news-date">August 1, 2025</p>
+
+## Queueing-Theoretic Performance Design for Cloud-Edge-Sensor Data Harvesting
+
+Published in *ICT Express*, this paper studies how cloud-edge-sensor infrastructures can be sized and tuned for data harvesting systems, with agricultural monitoring as a motivating application. Rather than treating sensing pipelines as black boxes, the work uses queueing theory to expose where latency, overload, and under-provisioning emerge before costly infrastructure changes are made.
+
+<figure>
+  <img src="../images/news/250801/data-harvesting-brochure.svg" alt="Brochure-style visual summary of the cloud-edge-sensor data harvesting paper" width="1200">
+  <figcaption>Cloud-edge-sensor brochure card: queueing-theoretic design guidance for scalable data harvesting systems.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Models a Cloud-Edge-sensors architecture using **M/M/c/K** queueing theory to evaluate data-handling performance in sensing systems.
+- Analyzes how configuration choices affect efficiency, scalability, and real-time data handling.
+- Provides a predictive framework for identifying bottlenecks and adjusting parameters without immediately resorting to expensive structural overbuild.
+
+### Why this matters
+
+- According to the ScienceDirect abstract, the model achieved **more than 90% utilization** in both the cloud and edge layers while still serving as a useful planning instrument.
+- The paper is positioned around precision agriculture, where real-time sensing quality directly affects downstream decisions.
+- At the same time, the abstract notes that the framework is versatile enough to inform broader IoT scenarios that need efficient real-time analysis and resource management.
+
+**Publication record:** Published in August 2025 in *ICT Express*, Volume 11, Issue 4, Pages 597-602 ([DOI](https://doi.org/10.1016/j.icte.2025.04.017), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959525000621)).
+
+---
+<p class="news-date">May 19, 2025</p>
+
+## Smart Building Surveillance with Edge-Fog Capacity Planning
+
+Another recent publication appeared in the **SBRC 2025** proceedings and focuses on intelligent camera surveillance in smart buildings. The core challenge is straightforward but operationally demanding: real-time video analytics requires significant compute resources, and poorly planned edge-fog pipelines can quickly become overloaded, slow, or wasteful.
+
+<figure>
+  <img src="../images/news/250519/smart-surveillance-brochure.svg" alt="Brochure-style visual summary of the smart building surveillance paper" width="1200">
+  <figcaption>Smart surveillance brochure card: SPN-based capacity planning for real-time camera analytics over edge and fog layers.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses **Stochastic Petri Net (SPN)** models to evaluate mean response time, throughput, resource utilization, and drop probability in intelligent surveillance infrastructures.
+- Shows how edge and fog resource allocation decisions influence service quality under different message arrival rates.
+- Offers planning guidance for scaling video analytics infrastructure in a controlled and explainable way.
+
+### Why this matters
+
+- Crossref metadata for the paper reports that increasing the Fog layer to **10 processing cores** reduces drop probability to around **35%** at an arrival rate of **47.37 msg/ms**.
+- The same abstract reports that mean response time stays below **10 ms** at moderate arrival rates up to about **29 msg/ms**.
+- The official SBRC 2025 proceedings page notes that **74 full papers** were accepted from **203 submissions**, corresponding to a **36.5% acceptance rate**, underlining the competitiveness of the venue.
+
+**Publication record:** Published on May 19, 2025 in the *Anais do XLIII Simposio Brasileiro de Redes de Computadores e Sistemas Distribuidos (SBRC 2025)* ([DOI](https://doi.org/10.5753/sbrc.2025.5744), [proceedings article](https://sol.sbc.org.br/index.php/sbrc/article/view/35119), [SBRC 2025 proceedings](https://sol.sbc.org.br/index.php/sbrc/index)).
+
+---
+<p class="news-date">February 1, 2025</p>
+
+## Transactional Dynamics in Hyperledger Fabric
+
+We are pleased to highlight a new *ICT Express* publication on permissioned blockchain performance. The paper models transaction processing in **Hyperledger Fabric** using Stochastic Petri Nets, with the goal of helping administrators understand how configuration choices affect response time, throughput, and resource efficiency before deployment decisions become expensive.
+
+<figure>
+  <img src="../images/news/250205/hyperledger-brochure.svg" alt="Brochure-style visual summary of the Hyperledger Fabric performance paper" width="1200">
+  <figcaption>Hyperledger Fabric brochure card: SPN-based analysis of transactional flow, response time, and throughput.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Develops an SPN-based transaction-flow model for permissioned Hyperledger Fabric environments.
+- Uses sensitivity analysis to identify the configuration factors that most strongly affect mean response time and throughput.
+- Validates the model against system behavior and provides a pre-deployment tool for more disciplined performance planning.
+
+### Why this matters
+
+- The ScienceDirect abstract reports a **95% confidence interval** for response-time analysis using the proposed model.
+- Case studies show that block size can change throughput and response time by as much as **200%**, making configuration discipline essential.
+- This turns the paper into a practical operations guide for enterprise blockchain administrators rather than a purely theoretical analysis.
+
+**Publication record:** Published in February 2025 in *ICT Express*, Volume 11, Issue 1, Pages 87-92 ([DOI](https://doi.org/10.1016/j.icte.2024.10.009), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959524001383)).
+
+---
 <p class="news-date">December 21, 2024</p>
 
 ## mhmcTD3: A Multi-Head DRL Architecture for Autonomous Navigation
