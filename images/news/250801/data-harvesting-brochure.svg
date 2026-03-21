@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud-edge-sensor data harvesting brochure card</title>
+  <desc id="desc">Visual summary of the ICT Express paper on queueing-based performance quantification for cloud-edge-sensor data harvesting systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4fbfa"/>
+      <stop offset="100%" stop-color="#d8efea"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#edf8f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="1090" cy="130" r="126" fill="#e4f5f0"/>
+  <circle cx="120" cy="618" r="100" fill="#edf8f5"/>
+  <rect x="48" y="48" width="1104" height="624" rx="34" fill="url(#panel)" stroke="#8fc6b6" stroke-width="2"/>
+  <text x="84" y="102" fill="#14605a" font-family="Arial, sans-serif" font-size="22" font-weight="700">Journal Article - August 2025</text>
+  <text x="84" y="170" fill="#13413d" font-family="Georgia, serif" font-size="48" font-weight="700">
+    <tspan x="84" dy="0">Queueing Design for</tspan>
+    <tspan x="84" dy="56">Cloud-Edge-Sensor Harvesting</tspan>
+  </text>
+  <text x="84" y="302" fill="#52706b" font-family="Arial, sans-serif" font-size="25">
+    <tspan x="84" dy="0">M/M/c/K modeling for scalable sensing pipelines with</tspan>
+    <tspan x="84" dy="34">real-time data handling and predictive bottleneck analysis.</tspan>
+  </text>
+  <rect x="84" y="432" width="216" height="112" rx="22" fill="#0d6b65"/>
+  <rect x="318" y="432" width="216" height="112" rx="22" fill="#1d7d59"/>
+  <rect x="552" y="432" width="216" height="112" rx="22" fill="#2c668d"/>
+  <text x="108" y="470" fill="#d6f3f0" font-family="Arial, sans-serif" font-size="18" font-weight="700">UTILIZATION</text>
+  <text x="108" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="36" font-weight="700">90%+</text>
+  <text x="342" y="470" fill="#ddf7e8" font-family="Arial, sans-serif" font-size="18" font-weight="700">APPLICATION</text>
+  <text x="342" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="30" font-weight="700">Precision agriculture</text>
+  <text x="576" y="470" fill="#dbeafa" font-family="Arial, sans-serif" font-size="18" font-weight="700">MODEL</text>
+  <text x="576" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="30" font-weight="700">M/M/c/K queues</text>
+  <rect x="812" y="128" width="276" height="418" rx="28" fill="#13413d"/>
+  <circle cx="864" cy="220" r="26" fill="#d9f3ee"/>
+  <circle cx="932" cy="220" r="26" fill="#d9f3ee"/>
+  <circle cx="1000" cy="220" r="26" fill="#d9f3ee"/>
+  <path d="M864 248 V308 H950" stroke="#8bd1c6" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <rect x="912" y="288" width="76" height="52" rx="12" fill="#8bd1c6"/>
+  <path d="M950 340 V398" stroke="#62c098" stroke-width="8" stroke-linecap="round"/>
+  <rect x="894" y="410" width="112" height="70" rx="14" fill="#c7ddf5"/>
+  <text x="854" y="516" fill="#d8eff1" font-family="Arial, sans-serif" font-size="18" font-weight="700">Sensors -> Edge -> Cloud</text>
+  <text x="84" y="610" fill="#14605a" font-family="Arial, sans-serif" font-size="18" font-weight="700">ICT Express - Volume 11, Issue 4, Pages 597-602</text>
+  <text x="84" y="638" fill="#5f7771" font-family="Arial, sans-serif" font-size="17">Verified from ScienceDirect highlights, abstract, and DOI metadata.</text>
+</svg>
