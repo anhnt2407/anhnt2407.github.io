@@ -47,9 +47,76 @@ redirect_from:
   </a>
 </div>
 
+<div class="career-overview">
+  <div class="career-overview__header">
+    <p class="career-overview__eyebrow">Career Timeline</p>
+    <p class="career-overview__title">A professional trajectory from research engineering foundations to principal engineering leadership in dependable AI, digital twins, robotics, and aerospace systems.</p>
+    <p class="career-overview__lead">This overview is designed to give a high-level reading path before the detailed appointments below, showing how early systems work evolved into doctoral research, university-led programs, and current leadership roles in advanced aviation technology.</p>
+  </div>
+
+  <div class="career-overview__metrics">
+    <div class="career-metric">
+      <p class="career-metric__value">2008 - Present</p>
+      <p class="career-metric__label">Continuous research and engineering practice across industry and academia.</p>
+    </div>
+
+    <div class="career-metric">
+      <p class="career-metric__value">FPT -> KAU -> Konkuk -> Viettel</p>
+      <p class="career-metric__label">A progression through applied R&D, doctoral formation, university research, and principal engineering.</p>
+    </div>
+
+    <div class="career-metric">
+      <p class="career-metric__value">Dependability, AI, Digital Twins, Aerospace</p>
+      <p class="career-metric__label">Core technical themes that connect the full professional journey.</p>
+    </div>
+  </div>
+
+  <div class="career-path" aria-label="Professional timeline overview">
+    <article class="career-stage">
+      <p class="career-stage__track">Foundation</p>
+      <p class="career-stage__period">2008</p>
+      <h3>Research Engineering</h3>
+      <p class="career-stage__meta">TRON Laboratory, FPT Software · Hanoi</p>
+      <p class="career-stage__text">Built early foundations in real-time operating systems research and engineering.</p>
+    </article>
+
+    <article class="career-stage">
+      <p class="career-stage__track">Applied R&amp;D</p>
+      <p class="career-stage__period">2009 - 2010</p>
+      <h3>Space Technology Research</h3>
+      <p class="career-stage__meta">FPT Technology Research Institute · Hanoi</p>
+      <p class="career-stage__text">Expanded into full-time industrial research focused on space technology initiatives.</p>
+    </article>
+
+    <article class="career-stage">
+      <p class="career-stage__track">Doctoral Formation</p>
+      <p class="career-stage__period">2011 - 2015</p>
+      <h3>Ph.D. Research</h3>
+      <p class="career-stage__meta">Korea Aerospace University · South Korea</p>
+      <p class="career-stage__text">Developed deep expertise in dependable systems, network security, and aerospace-oriented computing.</p>
+    </article>
+
+    <article class="career-stage">
+      <p class="career-stage__track">University Research</p>
+      <p class="career-stage__period">2015 - 2025</p>
+      <h3>Academic Research and Project Leadership</h3>
+      <p class="career-stage__meta">Konkuk University · Seoul</p>
+      <p class="career-stage__text">Progressed through postdoctoral research, university-industry collaboration, and KADA-led aerospace digital twin programs.</p>
+    </article>
+
+    <article class="career-stage career-stage--current">
+      <p class="career-stage__track">Current</p>
+      <p class="career-stage__period">2025 - Present</p>
+      <h3>Principal Engineering</h3>
+      <p class="career-stage__meta">Viettel Group · Hanoi</p>
+      <p class="career-stage__text">Leading engineering work across high-tech industry management and the Viettel Aviation Technology Center.</p>
+    </article>
+  </div>
+</div>
+
 ## **Experiences**
 
-<p class="experience-intro">Selected academic and industry appointments across dependable systems, robotics, aerospace research, and computer science.</p>
+<p class="experience-intro">The trajectory above provides a concise overview; the detailed appointments below capture the specific roles, institutions, and locations across dependable systems, robotics, aerospace research, and computer science.</p>
 
 <div class="experience-grid">
   <article class="experience-card experience-card--featured">
