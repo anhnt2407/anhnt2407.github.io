@@ -1476,6 +1476,42 @@ a:hover {
 }
 
 @media (max-width: 72em) {
+  .career-overview__metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .career-path {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    margin-top: 1.2rem;
+    padding-top: 0.1rem;
+    padding-left: 1.4rem;
+  }
+
+  .career-stage::before {
+    top: 1rem;
+    left: -1.4rem;
+    transform: none;
+  }
+
+  .career-stage:not(:last-child)::after {
+    top: 1.36rem;
+    left: -1.06rem;
+    width: 2px;
+    height: calc(100% + 0.84rem);
+    background: linear-gradient(180deg, var(--accent), rgba(15, 76, 129, 0.18));
+  }
+
+  .career-stage:last-child::after {
+    top: auto;
+    bottom: -0.82rem;
+    left: -1.49rem;
+    border-left: 0.45rem solid transparent;
+    border-right: 0.45rem solid transparent;
+    border-top: 0.78rem solid var(--accent-dark);
+    border-bottom: 0;
+  }
+
   .home-hero .site-cta-group {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: 31rem;
@@ -1509,6 +1545,68 @@ a:hover {
 }
 
 @media (max-width: 40em) {
+  .career-overview {
+    margin-bottom: 1.4rem;
+    padding: 1rem 0.9rem 0.95rem;
+    border-radius: 24px;
+  }
+
+  .career-overview__title {
+    font-size: clamp(1.2rem, 4.6vw, 1.42rem);
+    line-height: 1.16;
+  }
+
+  .career-overview__lead {
+    font-size: 0.92rem;
+    line-height: 1.64;
+  }
+
+  .career-overview__metrics {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .career-metric {
+    padding: 0.85rem 0.88rem;
+    border-radius: 18px;
+  }
+
+  .career-path {
+    gap: 0.75rem;
+    padding-left: 1.22rem;
+  }
+
+  .career-stage {
+    padding: 0.95rem 0.9rem;
+    border-radius: 18px;
+  }
+
+  .career-stage::before {
+    top: 0.92rem;
+    left: -1.22rem;
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+
+  .career-stage:not(:last-child)::after {
+    top: 1.23rem;
+    left: -0.91rem;
+    height: calc(100% + 0.8rem);
+  }
+
+  .career-stage:last-child::after {
+    left: -1.31rem;
+  }
+
+  .career-stage h3 {
+    font-size: 0.98rem;
+  }
+
+  .career-stage__meta,
+  .career-stage__text {
+    font-size: 0.86rem;
+  }
+
   .home-page .page {
     padding: 1rem 0.9rem 1.15rem;
   }
