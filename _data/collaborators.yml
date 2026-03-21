@@ -12,15 +12,15 @@
       url: "https://iuresf.gitlab.io/pasid-site/"
 
 - name: "Paulo Romero Martins Maciel"
-  photo: "/images/collaborators/paulo-maciel.jpg"
-  profile_url: "https://secpos.cin.ufpe.br/corpo-docente"
+  photo: "/images/collaborators/paulo-maciel.png"
+  profile_url: "https://portal.cin.ufpe.br/staff/?alias=prmm"
   position: "Professor, Center for Informatics (CIn)"
   institution: "Federal University of Pernambuco (UFPE), Brazil"
   unit: "MoDCS Research Group"
   summary: "Works on performance, dependability, and stochastic modeling for computer systems."
   links:
     - label: "Official source"
-      url: "https://secpos.cin.ufpe.br/corpo-docente"
+      url: "https://portal.cin.ufpe.br/staff/?alias=prmm"
     - label: "MoDCS"
       url: "https://www.modcs.org/"
 
