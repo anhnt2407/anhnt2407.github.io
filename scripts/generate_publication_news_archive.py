@@ -132,10 +132,19 @@ def source_badge(entry: dict[str, str | int]) -> str:
     return "Sparse public metadata"
 
 
+def normalize_phrase(text: str) -> str:
+    phrase = text.strip().rstrip(".")
+    if re.match(r"^(A|An|The)\s", phrase):
+        return phrase[0].lower() + phrase[1:]
+    return phrase
+
+
 def lower_phrase(text: str) -> str:
     if ": " in text:
-        return text.split(": ", 1)[1].strip().rstrip(".")
-    return text.strip().rstrip(".")
+        head, tail = text.split(": ", 1)
+        if len(head.split()) <= 3:
+            return normalize_phrase(tail)
+    return normalize_phrase(text)
 
 
 def brochure_summary(entry: dict[str, str | int]) -> str:
@@ -165,12 +174,6 @@ def brochure_summary(entry: dict[str, str | int]) -> str:
             f"It broadens your {domain_line} portfolio by clarifying methods, themes, and open questions."
         )
 
-    if any(keyword in title_lower for keyword in ["framework", "architecture", "platform", "system"]):
-        return (
-            f"This {label} presents a structured contribution on {focus}. "
-            f"It extends your {domain_line} portfolio with a design-oriented research artifact."
-        )
-
     if any(
         keyword in title_lower
         for keyword in [
@@ -188,6 +191,12 @@ def brochure_summary(entry: dict[str, str | int]) -> str:
         return (
             f"This {label} highlights a model-driven view of {focus}. "
             f"It reinforces your {domain_line} research line with a quantitative publication milestone."
+        )
+
+    if any(keyword in title_lower for keyword in ["framework", "architecture", "platform", "system"]):
+        return (
+            f"This {label} presents a structured contribution on {focus}. "
+            f"It extends your {domain_line} portfolio with a design-oriented research artifact."
         )
 
     return (
