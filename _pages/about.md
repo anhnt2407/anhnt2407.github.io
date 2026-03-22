@@ -50,58 +50,66 @@ redirect_from:
 <div class="career-overview">
   <div class="career-overview__header">
     <p class="career-overview__eyebrow">Career Timeline</p>
-    <p class="career-overview__title">A professional trajectory from research engineering foundations to principal engineering leadership in dependable AI, digital twins, robotics, and aerospace systems.</p>
-    <p class="career-overview__lead">This overview is designed to give a high-level reading path before the detailed appointments below, showing how early systems work evolved into doctoral research, university-led programs, and current leadership roles in advanced aviation technology.</p>
+    <p class="career-overview__title">A professional trajectory from research engineering foundations to doctoral research, university programs, principal engineering appointments, concurrent teaching, and current robotics software leadership.</p>
+    <p class="career-overview__lead">This overview mirrors the full Experiences section below, preserving the full sequence from early systems work and Ph.D. formation through Konkuk University research appointments, KADA program leadership, Viettel principal engineering roles, concurrent HUIT teaching, and the current VinDynamics directorship.</p>
   </div>
 
   <div class="career-overview__metrics">
     <div class="career-metric">
       <p class="career-metric__value">2008 - Present</p>
-      <p class="career-metric__label">Continuous research and engineering practice across industry and academia.</p>
+      <p class="career-metric__label">Ten appointments and role transitions across industry R&amp;D, university research, concurrent teaching, and engineering leadership.</p>
     </div>
 
     <div class="career-metric">
-      <p class="career-metric__value">FPT -> KAU -> Konkuk -> Viettel -> VinDynamics</p>
-      <p class="career-metric__label">A progression through applied R&amp;D, doctoral formation, university research, principal engineering, and robotics software leadership.</p>
+      <p class="career-metric__value">FPT -> KAU -> Konkuk -> HUIT / Viettel -> VinDynamics</p>
+      <p class="career-metric__label">The stage map below now reflects every appointment called out in the detailed Experiences section.</p>
     </div>
 
     <div class="career-metric">
-      <p class="career-metric__value">Dependability, AI, Digital Twins, Aerospace</p>
-      <p class="career-metric__label">Core technical themes that connect the full professional journey.</p>
+      <p class="career-metric__value">Dependability, AI, Digital Twins, Robotics, Aerospace</p>
+      <p class="career-metric__label">Core technical themes that connect the full professional journey across research, teaching, and engineering practice.</p>
     </div>
   </div>
 
-  <div class="career-path" aria-label="Professional timeline overview">
+  <div class="career-path career-path--expanded" aria-label="Professional timeline overview">
     <article class="career-stage">
       <p class="career-stage__track">Foundation</p>
-      <p class="career-stage__period">2008</p>
-      <h3>Research Engineering</h3>
-      <p class="career-stage__meta">TRON Laboratory, FPT Software · Hanoi</p>
-      <p class="career-stage__text">Built early foundations in real-time operating systems research and engineering.</p>
-    </article>
-
-    <article class="career-stage">
-      <p class="career-stage__track">Applied R&amp;D</p>
-      <p class="career-stage__period">2009 - 2010</p>
-      <h3>Space Technology Research</h3>
-      <p class="career-stage__meta">FPT Technology Research Institute · Hanoi</p>
-      <p class="career-stage__text">Expanded into full-time industrial research focused on space technology initiatives.</p>
+      <p class="career-stage__period">2008 - 2010</p>
+      <h3>FPT Research Foundations</h3>
+      <p class="career-stage__meta">TRON Laboratory -> FPT Technology Research Institute · Hanoi</p>
+      <p class="career-stage__text">Started in TRON real-time operating systems research and then moved into full-time space technology research at FTRI.</p>
     </article>
 
     <article class="career-stage">
       <p class="career-stage__track">Doctoral Formation</p>
       <p class="career-stage__period">2011 - 2015</p>
-      <h3>Ph.D. Research</h3>
-      <p class="career-stage__meta">Korea Aerospace University · South Korea</p>
+      <h3>Ph.D. Research Associate</h3>
+      <p class="career-stage__meta">Network Security and Systems Laboratory, Korea Aerospace University · South Korea</p>
       <p class="career-stage__text">Developed deep expertise in dependable systems, network security, and aerospace-oriented computing.</p>
     </article>
 
     <article class="career-stage">
-      <p class="career-stage__track">University Research</p>
-      <p class="career-stage__period">2015 - 2025</p>
-      <h3>Academic Research and Project Leadership</h3>
-      <p class="career-stage__meta">Konkuk University · Seoul</p>
-      <p class="career-stage__text">Progressed through postdoctoral research, university-industry collaboration, and KADA-led aerospace digital twin programs.</p>
+      <p class="career-stage__track">Academic Transition</p>
+      <p class="career-stage__period">2015 - 2020</p>
+      <h3>Postdoctoral and University Research</h3>
+      <p class="career-stage__meta">DMS Lab. -> Office of Research, Konkuk University · Seoul</p>
+      <p class="career-stage__text">Progressed from postdoctoral research into university-industry collaboration on dependable and autonomous systems.</p>
+    </article>
+
+    <article class="career-stage">
+      <p class="career-stage__track">Aerospace Research</p>
+      <p class="career-stage__period">2020 - 2025</p>
+      <h3>KADA Research and Project Leadership</h3>
+      <p class="career-stage__meta">Konkuk Aerospace Design-Airworthiness Institute · Seoul</p>
+      <p class="career-stage__text">Led and contributed to dependable, autonomous, and intelligent systems research, including the UAM digital twin program.</p>
+    </article>
+
+    <article class="career-stage">
+      <p class="career-stage__track">Parallel Roles</p>
+      <p class="career-stage__period">2024 - Present / 2025 - 2026</p>
+      <h3>Teaching and Principal Engineering</h3>
+      <p class="career-stage__meta">HUIT · Remote / Viettel Group · Hanoi</p>
+      <p class="career-stage__text">Added a concurrent software engineering lecturer role while moving through two Principal Engineer appointments at Viettel, from the High-Tech Industry Management Division to VATC.</p>
     </article>
 
     <article class="career-stage career-stage--current">
@@ -109,7 +117,7 @@ redirect_from:
       <p class="career-stage__period">2026 - Present</p>
       <h3>Robotics Software and Control Leadership</h3>
       <p class="career-stage__meta">VinDynamics · Hanoi</p>
-      <p class="career-stage__text">Serving as Director of Robot Software and Control while continuing broader research and teaching engagements.</p>
+      <p class="career-stage__text">Serving as Director of Robot Software and Control while continuing the concurrent HUIT teaching appointment.</p>
     </article>
   </div>
 </div>

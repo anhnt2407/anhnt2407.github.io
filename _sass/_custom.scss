@@ -946,6 +946,37 @@ a:hover {
   padding-top: 2.25rem;
 }
 
+.career-path--expanded {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.career-path--expanded .career-stage {
+  padding: 1rem 0.92rem 0.96rem;
+  border-radius: 20px;
+}
+
+.career-path--expanded .career-stage__track {
+  margin-bottom: 0.55rem;
+  font-size: 0.65rem;
+}
+
+.career-path--expanded .career-stage__period {
+  font-size: 0.75rem;
+}
+
+.career-path--expanded .career-stage h3 {
+  font-size: 0.98rem;
+}
+
+.career-path--expanded .career-stage__meta {
+  font-size: 0.82rem;
+}
+
+.career-path--expanded .career-stage__text {
+  font-size: 0.84rem;
+  line-height: 1.56;
+}
+
 .career-stage {
   position: relative;
   display: grid;
