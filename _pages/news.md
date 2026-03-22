@@ -453,11 +453,56 @@ We are pleased to highlight a new *ICT Express* publication on permissioned bloc
 **Publication record:** Published in February 2025 in *ICT Express*, Volume 11, Issue 1, Pages 87-92 ([DOI](https://doi.org/10.1016/j.icte.2024.10.009), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959524001383)).
 
 ---
-## 2025 Publication Briefings
+<p class="news-date">February 1, 2025</p>
 
-The section below covers every publication currently listed on the [Publications](/publications/) page for the 2025 release year. Entries are ordered from most recent to earliest in the style of a research brochure archive, and the wording is intentionally conservative whenever the public metadata is limited to title, venue, DOI, or official proceedings records.
+## Multi-Region IoT Disaster Detection with Stochastic Modeling
 
-{% include publication_news_2025.html %}
+This *ICT Express* publication studies disaster detection as a geographically distributed systems problem rather than a single-site sensing setup. By combining LoRaWAN-oriented communication assumptions with cloud and fog resources, the paper examines how multi-region monitoring can be modeled before infrastructure is deployed at scale.
+
+<figure>
+  <img src="../images/news/250201/disaster-detection-brochure.svg" alt="Brochure-style visual summary of the IoT disaster detection paper across multiple geographic areas" width="1200">
+  <figcaption>Disaster detection brochure: LoRaWAN-aware stochastic models for cloud-fog monitoring across multiple regions.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Presents stochastic models for IoT disaster detection across **multiple geographic areas** using LoRaWAN, fog, and cloud resources.
+- Uses **Stochastic Petri Nets** to analyze key performance indicators such as average response time and utilization.
+- Positions the models as a planning tool for cost-efficient server and processing-capacity design.
+
+### Why this matters
+
+- The ScienceDirect highlights report that additional processing cores reduce **mean response time** and improve throughput.
+- The abstract also frames the work around financial and technical barriers to building cost-effective automated systems in high-risk and secluded areas.
+- This makes the paper directly relevant to resilient disaster-monitoring infrastructure, especially when coverage must extend beyond a single location.
+
+**Publication record:** Published in February 2025 in *ICT Express*, Volume 11, Issue 1, Pages 34-40 ([DOI](https://doi.org/10.1016/j.icte.2024.09.005), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959524001085)).
+
+---
+<p class="news-date">January 21, 2025</p>
+
+## mhmcTD3: Multi-Head DRL with Memory for End-to-End Navigation
+
+This TechRxiv preprint presents **mhmcTD3**, a multi-head actor-critic reinforcement learning architecture for autonomous navigation in dynamic and cluttered environments. The work is especially compelling because it aims to preserve rich LiDAR information, temporal context, and real-world transferability at the same time instead of optimizing only one of those dimensions.
+
+<figure>
+  <img src="../images/news/250121/mhmctd3-brochure.svg" alt="Brochure-style visual summary of the mhmcTD3 preprint for autonomous navigation" width="1200">
+  <figcaption>mhmcTD3 brochure: multi-head LiDAR fusion, memory contextualisation, and sim-to-real autonomous navigation.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Introduces the **Multi-Head Memory Contextualising TD3 (mhmcTD3)** architecture with specialized heads for LiDAR fusion, LiDAR features, robot states, and LiDAR memory.
+- Combines tailored LiDAR preprocessing, CNN-based feature extraction, an LSTM-based memory head, and the use of **SiLU** and **CoRE** for more stable learning.
+- Evaluates the framework in **ROS2/Gazebo** simulation and on a **Turtlebot3 waffle pi** platform across multiple LiDAR resolutions.
+
+### Why this matters
+
+- The official TechRxiv PDF reports strong performance in dense and fast-changing environments, including better handling of small dynamic obstacles.
+- The same preprint emphasizes that ablation studies confirm the importance of each head, showing that the architecture is not just larger, but meaningfully modular.
+- This makes mhmcTD3 a strong sim-to-real navigation contribution for robotics settings where map-free adaptability matters.
+
+**Publication record:** Posted on January 21, 2025 on *TechRxiv* ([DOI](https://doi.org/10.36227/techrxiv.173747402.29145488/v1)).
 
 ---
 <p class="news-date">December 21, 2024</p>
@@ -725,11 +770,3 @@ During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://peopl
     <img src="../images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
     <figcaption> A system demonstration at NOMS 2024 </figcaption>
 </figure>
-
----
-
-## Complete Publication Brochure Archive
-
-The archive below indexes all publication records listed on the [Publications](/publications/) page, sorted by publication date from most recent to earliest. The featured publication stories above are also retained in the archive below for completeness.
-
-{% include publication_news_archive.html %}
