@@ -72,53 +72,57 @@ redirect_from:
   </div>
 
   <div class="career-path career-path--expanded" aria-label="Professional timeline overview">
-    <article class="career-stage">
-      <p class="career-stage__track">Foundation</p>
-      <p class="career-stage__period">2008 - 2010</p>
-      <h3>FPT Research Foundations</h3>
-      <p class="career-stage__meta">TRON Laboratory -> FPT Technology Research Institute · Hanoi</p>
-      <p class="career-stage__text">Started in TRON real-time operating systems research and then moved into full-time space technology research at FTRI.</p>
-    </article>
+    <div class="career-path__row">
+      <article class="career-stage">
+        <p class="career-stage__track">Foundation</p>
+        <p class="career-stage__period">2008 - 2010</p>
+        <h3>FPT Research Foundations</h3>
+        <p class="career-stage__meta">TRON Laboratory -> FPT Technology Research Institute · Hanoi</p>
+        <p class="career-stage__text">Started in TRON real-time operating systems research and then moved into full-time space technology research at FTRI.</p>
+      </article>
 
-    <article class="career-stage">
-      <p class="career-stage__track">Doctoral Formation</p>
-      <p class="career-stage__period">2011 - 2015</p>
-      <h3>Ph.D. Research Associate</h3>
-      <p class="career-stage__meta">Network Security and Systems Laboratory, Korea Aerospace University · South Korea</p>
-      <p class="career-stage__text">Developed deep expertise in dependable systems, network security, and aerospace-oriented computing.</p>
-    </article>
+      <article class="career-stage">
+        <p class="career-stage__track">Doctoral Formation</p>
+        <p class="career-stage__period">2011 - 2015</p>
+        <h3>Ph.D. Research Associate</h3>
+        <p class="career-stage__meta">Network Security and Systems Laboratory, Korea Aerospace University · South Korea</p>
+        <p class="career-stage__text">Developed deep expertise in dependable systems, network security, and aerospace-oriented computing.</p>
+      </article>
 
-    <article class="career-stage">
-      <p class="career-stage__track">Academic Transition</p>
-      <p class="career-stage__period">2015 - 2020</p>
-      <h3>Postdoctoral and University Research</h3>
-      <p class="career-stage__meta">DMS Lab. -> Office of Research, Konkuk University · Seoul</p>
-      <p class="career-stage__text">Progressed from postdoctoral research into university-industry collaboration on dependable and autonomous systems.</p>
-    </article>
+      <article class="career-stage">
+        <p class="career-stage__track">Academic Transition</p>
+        <p class="career-stage__period">2015 - 2020</p>
+        <h3>Postdoctoral and University Research</h3>
+        <p class="career-stage__meta">DMS Lab. -> Office of Research, Konkuk University · Seoul</p>
+        <p class="career-stage__text">Progressed from postdoctoral research into university-industry collaboration on dependable and autonomous systems.</p>
+      </article>
+    </div>
 
-    <article class="career-stage">
-      <p class="career-stage__track">Aerospace Research</p>
-      <p class="career-stage__period">2020 - 2025</p>
-      <h3>KADA Research and Project Leadership</h3>
-      <p class="career-stage__meta">Konkuk Aerospace Design-Airworthiness Institute · Seoul</p>
-      <p class="career-stage__text">Led and contributed to dependable, autonomous, and intelligent systems research, including the UAM digital twin program.</p>
-    </article>
+    <div class="career-path__row">
+      <article class="career-stage">
+        <p class="career-stage__track">Aerospace Research</p>
+        <p class="career-stage__period">2020 - 2025</p>
+        <h3>KADA Research and Project Leadership</h3>
+        <p class="career-stage__meta">Konkuk Aerospace Design-Airworthiness Institute · Seoul</p>
+        <p class="career-stage__text">Led and contributed to dependable, autonomous, and intelligent systems research, including the UAM digital twin program.</p>
+      </article>
 
-    <article class="career-stage">
-      <p class="career-stage__track">Parallel Roles</p>
-      <p class="career-stage__period">2024 - Present / 2025 - 2026</p>
-      <h3>Teaching and Principal Engineering</h3>
-      <p class="career-stage__meta">HUIT · Remote / Viettel Group · Hanoi</p>
-      <p class="career-stage__text">Added a concurrent software engineering lecturer role while moving through two Principal Engineer appointments at Viettel, from the High-Tech Industry Management Division to VATC.</p>
-    </article>
+      <article class="career-stage">
+        <p class="career-stage__track">Parallel Roles</p>
+        <p class="career-stage__period">2024 - Present / 2025 - 2026</p>
+        <h3>Teaching and Principal Engineering</h3>
+        <p class="career-stage__meta">HUIT · Remote / Viettel Group · Hanoi</p>
+        <p class="career-stage__text">Added a concurrent software engineering lecturer role while moving through two Principal Engineer appointments at Viettel, from the High-Tech Industry Management Division to VATC.</p>
+      </article>
 
-    <article class="career-stage career-stage--current">
-      <p class="career-stage__track">Current</p>
-      <p class="career-stage__period">2026 - Present</p>
-      <h3>Robotics Software and Control Leadership</h3>
-      <p class="career-stage__meta">VinDynamics · Hanoi</p>
-      <p class="career-stage__text">Serving as Director of Robot Software and Control while continuing the concurrent HUIT teaching appointment.</p>
-    </article>
+      <article class="career-stage career-stage--current">
+        <p class="career-stage__track">Current</p>
+        <p class="career-stage__period">2026 - Present</p>
+        <h3>Robotics Software and Control Leadership</h3>
+        <p class="career-stage__meta">VinDynamics · Hanoi</p>
+        <p class="career-stage__text">Serving as Director of Robot Software and Control while continuing the concurrent HUIT teaching appointment.</p>
+      </article>
+    </div>
   </div>
 </div>
 
