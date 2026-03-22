@@ -12,6 +12,7 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 PUBLICATIONS_PATH = ROOT / "_pages" / "publications.md"
 OUTPUT_PATH = ROOT / "_includes" / "publication_news_archive.html"
+OUTPUT_2025_PATH = ROOT / "_includes" / "publication_news_2025.html"
 
 SPECIAL_LINKS = {
     13: {
@@ -25,9 +26,9 @@ SPECIAL_LINKS = {
         "badge": "DOI",
     },
     88: {
-        "label": "DBpia record",
-        "url": "https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12340734",
-        "badge": "DBpia",
+        "label": "KSAS proceedings",
+        "url": "https://ksas.or.kr/proceedings/2025a/data/%EC%B2%A8%EB%B6%804.%202025%EB%85%84%EB%8F%84%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C_%EB%85%BC%EB%AC%B8%EC%A7%91_All.pdf",
+        "badge": "Proceedings",
     },
     90: {
         "label": "DBpia record",
@@ -74,6 +75,121 @@ TITLE_RE = re.compile(r"\*\*(.+?)\*\*")
 DATE_RE = re.compile(r"\[(\d{4}-\d{2}-\d{2})\]\s*$")
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 TAG_RE = re.compile(r"\[([A-Z]\d+[A-Za-z]?)\]</span>")
+
+CURATED_SUMMARIES = {
+    "J49": (
+        "Published in Journal of Network and Systems Management, S-iNAS studies Ceph-based "
+        "industrial storage under bursty Industry 4.0 workloads with SRN models that compare "
+        "time-based and event-based scaling. The result is a practical design guide for when "
+        "scheduled expansion is stable enough and when threshold-driven scaling is needed to keep "
+        "latency under control."
+    ),
+    "J51": (
+        "This article extends SRN-based edge availability modeling to correlated failures rather "
+        "than isolated-fault assumptions. The public record highlights a Capacity-Oriented "
+        "Availability metric that captures the overhead of high-availability and live-migration "
+        "policies, giving planners a more realistic basis for resilient edge deployment decisions."
+    ),
+    "J48": (
+        "This Journal of Network and Computer Applications paper models Kubernetes autoscaling with "
+        "GSPN so that performance and energy can be evaluated together rather than separately. It "
+        "turns autoscaling thresholds into workload-aware trade-offs, showing how power savings and "
+        "response-time penalties can move in opposite directions."
+    ),
+    "J47": (
+        "This Computing article brings preventive maintenance into urban surveillance dependability "
+        "analysis through stochastic Petri nets. By centering sensitivity analysis, it frames "
+        "maintenance planning as a data-driven way to protect availability and service continuity "
+        "instead of reacting only after failures emerge."
+    ),
+    "P04": (
+        "RT-VLM rethinks real-world object recognition robustness around four structured clues: "
+        "bounding boxes, class names, object captions, and scene context. The arXiv abstract "
+        "positions the method as a two-stage vision-language pipeline that uses explicit evidence "
+        "and self-correction to handle domain shift, occlusion, and nearby-class confusion."
+    ),
+    "C46": (
+        "This MetaCom 2025 short paper examines aging dependability in a cloud-edge-in-the-loop "
+        "platform for AAM vehicle digital twins. It widens digital-twin evaluation from functional "
+        "integration to long-running resilience, an important step for metaverse-connected aviation "
+        "simulation stacks."
+    ),
+    "C45": (
+        "This MetaCom 2025 paper tackles malicious code detection with large language models through "
+        "token optimization. The contribution positions metaverse security as an inference-design "
+        "problem, where how code is represented to the model can materially affect detection quality."
+    ),
+    "C44": (
+        "This MetaCom 2025 paper introduces PGELU, a parametric GELU variant aimed at keeping "
+        "emotion and 3D object recognition both stable and scalable in metaverse pipelines. It "
+        "frames activation design as a lever for robustness when immersive applications mix "
+        "heterogeneous perception tasks."
+    ),
+    "C43": (
+        "This MetaCom 2025 workshop paper proposes an iterative prompt-optimization framework for "
+        "improving LLM performance across diverse tasks. Rather than treating prompts as static "
+        "text, it turns prompting into an adaptive loop that can be tuned and reused in metaverse "
+        "application workflows."
+    ),
+    "C42": (
+        "This MetaCom 2025 workshop paper focuses on sim-to-real reinforcement learning for "
+        "TurtleBot using ROS2 and Unreal Engine. It reinforces the idea that metaverse-ready "
+        "simulation can be a practical bridge from virtual training to deployable robot behavior."
+    ),
+    "C41": (
+        "This MetaCom 2025 paper quantifies high availability in metaverse-oriented distributed "
+        "storage with stochastic reward nets. It extends your reliability-modeling line into "
+        "storage backends that must keep immersive services responsive and resilient under "
+        "distributed demand."
+    ),
+    "J44": (
+        "This ICT Express article uses M/M/c/K queueing models to analyze cloud-edge-sensor data "
+        "harvesting, motivated by precision agriculture and other real-time IoT settings. It gives "
+        "designers a way to anticipate bottlenecks and provision sensing pipelines before "
+        "overbuilding the infrastructure."
+    ),
+    "C39": (
+        "This SBRC 2025 paper applies SPN models to intelligent camera surveillance in smart "
+        "buildings, studying response time, throughput, utilization, and drop probability across "
+        "edge-fog configurations. The paper turns capacity planning for video analytics into a "
+        "measurable engineering problem rather than an ad hoc deployment decision."
+    ),
+    "C51": (
+        "This KSAS 2025 proceedings paper reports the integration of a vehicle digital twin stack "
+        "and early flight-simulation results under steady-wind conditions. The official proceedings "
+        "describe a KADA KP2-c eVTOL case study that tracks how wind intensity changes yaw-rate "
+        "response, grounding the twin in flight-dynamics behavior rather than visualization alone."
+    ),
+    "J45": (
+        "This entry records the official correction linked to the container-migration article "
+        "published earlier in 2025. Keeping the corrected record visible is important for the "
+        "technical accuracy and long-term reliability of the publication trail."
+    ),
+    "J46": (
+        "This Computing article compares container-migration strategies from a systems-performance "
+        "perspective, giving operators a clearer basis for choosing how to relocate running "
+        "services. It adds practical evidence to live-migration decision making in cloud and edge "
+        "environments where continuity and overhead must be balanced."
+    ),
+    "J41": (
+        "This ICT Express paper models Hyperledger Fabric transaction flow with stochastic Petri "
+        "nets across endorsement, ordering, and commit phases. The associated public abstract "
+        "highlights how block size and transaction pressure can shift throughput, response time, and "
+        "resource efficiency before deployment."
+    ),
+    "J40": (
+        "This ICT Express article studies IoT disaster detection across multiple geographic areas "
+        "with stochastic models tailored to fog-assisted sensing infrastructures. It helps planners "
+        "reason about response time, drop probability, and resource sizing when disaster-monitoring "
+        "coverage has to scale beyond a single site."
+    ),
+    "P03": (
+        "Posted on TechRxiv, this preprint frames end-to-end autonomous navigation around "
+        "multi-head actor-critic fusion and memory contextualisation. The central idea is that "
+        "navigation policies become more robust when they combine richer sensor representations "
+        "with temporal context instead of relying on a single instantaneous policy view."
+    ),
+}
 
 
 def clean_venue(value: str, link: str) -> str:
@@ -148,6 +264,10 @@ def lower_phrase(text: str) -> str:
 
 
 def brochure_summary(entry: dict[str, str | int]) -> str:
+    tag = str(entry["tag"])
+    if tag in CURATED_SUMMARIES:
+        return CURATED_SUMMARIES[tag]
+
     title = str(entry["title"])
     venue = str(entry["venue"])
     label = str(entry["type"]).lower()
@@ -324,42 +444,70 @@ def render(entries: list[dict[str, str | int]]) -> str:
     for year in years:
         html_lines.append(f"  <h2>{escape(year)}</h2>")
         html_lines.append("  <div class=\"publication-news-list\">")
-
         for entry in by_year[year]:
-            html_lines.append("    <article class=\"publication-news-card\">")
-            html_lines.append("      <div class=\"publication-news-card__top\">")
-            html_lines.append(
-                f"        <span class=\"publication-news-badge publication-news-badge--date\">{escape(format_date(str(entry['date'])))}</span>"
-            )
-            html_lines.append(
-                f"        <span class=\"publication-news-badge\">{escape(str(entry['tag']))}</span>"
-            )
-            html_lines.append(
-                f"        <span class=\"publication-news-badge\">{escape(str(entry['type']))}</span>"
-            )
-            html_lines.append(
-                f"        <span class=\"publication-news-badge\">{escape(str(entry['domain_badge']))}</span>"
-            )
-            html_lines.append(
-                f"        <span class=\"publication-news-badge\">{escape(str(entry['source_badge']))}</span>"
-            )
-            html_lines.append("      </div>")
-            html_lines.append(f"      <h3>{escape(str(entry['title']))}</h3>")
-            html_lines.append(f"      <p>{escape(str(entry['summary']))}</p>")
-            html_lines.append(
-                f"      <p class=\"publication-news-card__record\"><strong>Publication record:</strong> <em>{escape(str(entry['venue']))}</em>.</p>"
-            )
-
-            if entry["link"]:
-                html_lines.append(
-                    f"      <p class=\"publication-news-card__links\"><a href=\"{escape(str(entry['link']), quote=True)}\">{escape(str(entry['link_label']) or 'Official record')}</a></p>"
-                )
-
-            html_lines.append("    </article>")
-
+            html_lines.extend(render_card(entry, "    "))
         html_lines.append("  </div>")
 
     html_lines.append("</div>")
+    return "\n".join(html_lines) + "\n"
+
+
+def render_card(entry: dict[str, str | int], indent: str) -> list[str]:
+    inner = indent + "  "
+    badge_indent = inner + "  "
+    lines = [
+        f"{indent}<article class=\"publication-news-card\">",
+        f"{inner}<div class=\"publication-news-card__top\">",
+        f"{badge_indent}<span class=\"publication-news-badge publication-news-badge--date\">{escape(format_date(str(entry['date'])))}</span>",
+        f"{badge_indent}<span class=\"publication-news-badge\">{escape(str(entry['tag']))}</span>",
+        f"{badge_indent}<span class=\"publication-news-badge\">{escape(str(entry['type']))}</span>",
+        f"{badge_indent}<span class=\"publication-news-badge\">{escape(str(entry['domain_badge']))}</span>",
+        f"{badge_indent}<span class=\"publication-news-badge\">{escape(str(entry['source_badge']))}</span>",
+        f"{inner}</div>",
+        f"{inner}<h3>{escape(str(entry['title']))}</h3>",
+        f"{inner}<p>{escape(str(entry['summary']))}</p>",
+        f"{inner}<p class=\"publication-news-card__record\"><strong>Publication record:</strong> <em>{escape(str(entry['venue']))}</em>.</p>",
+    ]
+
+    if entry["link"]:
+        lines.append(
+            f"{inner}<p class=\"publication-news-card__links\"><a href=\"{escape(str(entry['link']), quote=True)}\">{escape(str(entry['link_label']) or 'Official record')}</a></p>"
+        )
+
+    lines.append(f"{indent}</article>")
+    return lines
+
+
+def render_2025(entries: list[dict[str, str | int]]) -> str:
+    focused = [entry for entry in entries if str(entry["date"]).startswith("2025-")]
+    source_counts: Counter[str] = Counter(str(entry["source_badge"]) for entry in focused)
+    source_summary = ", ".join(
+        f"{source} {count}" for source, count in sorted(source_counts.items())
+    )
+    generated_on = datetime.now(timezone.utc).strftime("%B %-d, %Y")
+    newest = format_date(str(focused[0]["date"]))
+    oldest = format_date(str(focused[-1]["date"]))
+
+    html_lines = [
+        "<div class=\"publication-news-root\">",
+        "  <div class=\"publication-news-overview\">",
+        f"    <p><strong>Coverage:</strong> {len(focused)} publications released in 2025, sorted from most recent to earliest ({newest} to {oldest}).</p>",
+        "    <p><strong>2025 note:</strong> These briefing cards were written against official DOI or publisher records, arXiv abstracts, and official conference proceedings or accepted-paper listings when those are the primary public traces.</p>",
+        f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
+        f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
+        "  </div>",
+        "  <div class=\"publication-news-list\">",
+    ]
+
+    for entry in focused:
+        html_lines.extend(render_card(entry, "    "))
+
+    html_lines.extend(
+        [
+            "  </div>",
+            "</div>",
+        ]
+    )
     return "\n".join(html_lines) + "\n"
 
 
@@ -367,7 +515,9 @@ def main() -> None:
     markdown = PUBLICATIONS_PATH.read_text(encoding="utf-8")
     entries = parse_entries(markdown)
     OUTPUT_PATH.write_text(render(entries), encoding="utf-8")
+    OUTPUT_2025_PATH.write_text(render_2025(entries), encoding="utf-8")
     print(f"Wrote {len(entries)} publication cards to {OUTPUT_PATH}")
+    print(f"Wrote 2025 publication briefing cards to {OUTPUT_2025_PATH}")
 
 
 if __name__ == "__main__":
