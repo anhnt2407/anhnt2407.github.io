@@ -8,7 +8,7 @@ author_profile: true
 
 <div class="page-lead">
   <p>Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates.</p>
-  <p class="page-lead__note">Curated on March 22, 2026. The recent publication highlights below were cross-checked against DOI records, publisher pages, conference proceedings, arXiv, and the publications list on this site. A complete static publication brochure archive sorted by publication date is included at the end of this page.</p>
+  <p class="page-lead__note">Curated on March 22, 2026. The recent publication highlights below were cross-checked against DOI records, publisher pages, conference proceedings, arXiv, accepted-paper listings, and the publications list on this site. A dedicated 2025 publication briefing section now appears below, followed by the complete static publication brochure archive at the end of the page.</p>
 </div>
 
 <p class="news-date">December 5, 2025</p>
@@ -165,6 +165,13 @@ We are pleased to highlight a new *ICT Express* publication on permissioned bloc
 - This turns the paper into a practical operations guide for enterprise blockchain administrators rather than a purely theoretical analysis.
 
 **Publication record:** Published in February 2025 in *ICT Express*, Volume 11, Issue 1, Pages 87-92 ([DOI](https://doi.org/10.1016/j.icte.2024.10.009), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959524001383)).
+
+---
+## 2025 Publication Briefings
+
+The section below covers every publication currently listed on the [Publications](/publications/) page for the 2025 release year. Entries are ordered from most recent to earliest in the style of a research brochure archive, and the wording is intentionally conservative whenever the public metadata is limited to title, venue, DOI, or official proceedings records.
+
+{% include publication_news_2025.html %}
 
 ---
 <p class="news-date">December 21, 2024</p>
