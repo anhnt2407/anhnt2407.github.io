@@ -167,7 +167,7 @@ redirect_from:
     <p class="experience-card__eyebrow">Research Appointment · Jul 2020 - Jun 2025</p>
     <h3>Dependable, Autonomous, and Intelligent Systems Research</h3>
     <p class="experience-card__meta experience-card__meta--brand">
-      <span class="experience-logo experience-logo--ku"><img src="../images/experience-logos/konkuk-brand.png" alt="Konkuk University logo"></span>
+      <span class="experience-logo experience-logo--seal"><img src="../images/experience-logos/konkuk-authority.jpg" alt="Konkuk University authority mark"></span>
       <span>Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University · Seoul, South Korea</span>
     </p>
     <p>Conducted research in dependable, autonomous, and intelligent systems, collaborating with Prof. <a href="http://kada.konkuk.ac.kr/aadl_teams/profjwlee/">Jae Woo Lee</a> and Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
@@ -177,7 +177,7 @@ redirect_from:
     <p class="experience-card__eyebrow">University Research · Mar 2016 - Feb 2020</p>
     <h3>Research Collaboration at Konkuk University</h3>
     <p class="experience-card__meta experience-card__meta--brand">
-      <span class="experience-logo experience-logo--ku"><img src="../images/experience-logos/konkuk-brand.png" alt="Konkuk University logo"></span>
+      <span class="experience-logo experience-logo--seal"><img src="../images/experience-logos/konkuk-authority.jpg" alt="Konkuk University authority mark"></span>
       <span>Office of Research, University-Industry Cooperation Foundation · Konkuk University</span>
     </p>
     <p>Worked in university research collaboration, contributing to dependable and autonomous systems projects with Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
@@ -187,7 +187,7 @@ redirect_from:
     <p class="experience-card__eyebrow">Postdoctoral Research · Aug 2015 - Feb 2016</p>
     <h3>Distributed Multimedia Systems Laboratory</h3>
     <p class="experience-card__meta experience-card__meta--brand">
-      <span class="experience-logo experience-logo--ku"><img src="../images/experience-logos/konkuk-brand.png" alt="Konkuk University logo"></span>
+      <span class="experience-logo experience-logo--seal"><img src="../images/experience-logos/konkuk-authority.jpg" alt="Konkuk University authority mark"></span>
       <span>Konkuk University · Seoul, South Korea</span>
     </p>
     <p>Served as a Post-doctoral Research Associate in the DMS Lab., working under Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
