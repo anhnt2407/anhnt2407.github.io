@@ -940,14 +940,23 @@ a:hover {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 0.85rem;
+  gap: 1rem;
   margin-top: 1.45rem;
-  padding-top: 2.25rem;
 }
 
 .career-path--expanded {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1.05rem;
+}
+
+.career-path__row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+  padding-top: 2.25rem;
+}
+
+.career-path--expanded .career-path__row {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .career-path--expanded .career-stage {
@@ -1013,7 +1022,7 @@ a:hover {
   background: linear-gradient(90deg, var(--accent), rgba(15, 76, 129, 0.22));
 }
 
-.career-stage:last-child::after {
+.career-path__row:last-child .career-stage:last-child::after {
   content: "";
   position: absolute;
   top: -1.6rem;
@@ -1677,9 +1686,14 @@ a:hover {
   }
 
   .career-path {
-    grid-template-columns: 1fr;
     gap: 0.8rem;
     margin-top: 1.2rem;
+  }
+
+  .career-path__row,
+  .career-path--expanded .career-path__row {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
     padding-top: 0.1rem;
     padding-left: 1.4rem;
   }
@@ -1690,7 +1704,10 @@ a:hover {
     transform: none;
   }
 
-  .career-stage:not(:last-child)::after {
+  .career-stage:not(:last-child)::after,
+  .career-path__row:not(:last-child) .career-stage:last-child::after {
+    content: "";
+    position: absolute;
     top: 1.36rem;
     left: -1.06rem;
     width: 2px;
@@ -1698,7 +1715,7 @@ a:hover {
     background: linear-gradient(180deg, var(--accent), rgba(15, 76, 129, 0.18));
   }
 
-  .career-stage:last-child::after {
+  .career-path__row:last-child .career-stage:last-child::after {
     top: auto;
     bottom: -0.82rem;
     left: -1.49rem;
@@ -1769,6 +1786,11 @@ a:hover {
 
   .career-path {
     gap: 0.75rem;
+  }
+
+  .career-path__row,
+  .career-path--expanded .career-path__row {
+    gap: 0.75rem;
     padding-left: 1.22rem;
   }
 
@@ -1790,7 +1812,13 @@ a:hover {
     height: calc(100% + 0.8rem);
   }
 
-  .career-stage:last-child::after {
+  .career-path__row:not(:last-child) .career-stage:last-child::after {
+    top: 1.23rem;
+    left: -0.91rem;
+    height: calc(100% + 0.8rem);
+  }
+
+  .career-path__row:last-child .career-stage:last-child::after {
     left: -1.31rem;
   }
 
