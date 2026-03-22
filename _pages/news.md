@@ -8,7 +8,7 @@ author_profile: true
 
 <div class="page-lead">
   <p>Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates.</p>
-  <p class="page-lead__note">Curated on March 22, 2026. The recent publication highlights below were cross-checked against DOI records, publisher pages, conference proceedings, arXiv, accepted-paper listings, and the publications list on this site. A dedicated 2025 publication briefing section now appears below, followed by the complete static publication brochure archive at the end of the page.</p>
+  <p class="page-lead__note">Curated on March 22, 2026. The publication stories below were cross-checked against DOI records, publisher pages, conference proceedings, accepted-paper listings, arXiv, and the publications list on this site, then rewritten as brochure-style research highlights.</p>
 </div>
 
 <p class="news-date">December 5, 2025</p>
@@ -37,6 +37,32 @@ We are pleased to share the publication of **S-iNAS** in the *Journal of Network
 **Publication record:** Published online on December 5, 2025 in *Journal of Network and Systems Management*, Volume 34, Article 34 ([DOI](https://doi.org/10.1007/s10922-025-10005-6), [Springer article](https://link.springer.com/article/10.1007/s10922-025-10005-6)).
 
 ---
+<p class="news-date">December 1, 2025</p>
+
+## Availability Modeling for Edge Systems under Correlated Failures
+
+We are pleased to highlight a new publication in the *Journal of The Korea Society of Computer and Information* that focuses on a realism gap in edge dependability studies: failures in edge environments are often correlated rather than isolated. When power, network, or site-level disruptions strike multiple nodes at once, recovery policies that look effective under independent-failure assumptions can behave very differently in practice.
+
+<figure>
+  <img src="../images/news/251201/edge-availability-brochure.svg" alt="Brochure-style visual summary of the edge availability paper on correlated failures and recovery-policy trade-offs" width="1200">
+  <figcaption>Edge availability brochure: correlated-failure modeling, COA-based evaluation, and adaptive recovery guidance.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Extends an SRN-based edge availability model to explicitly represent correlated failures rather than only independent ones.
+- Defines a **Capacity-Oriented Availability (COA)** metric that captures the overhead of High Availability (HA) and Live Migration (LM) policies.
+- Uses discrete-event sensitivity analysis to compare recovery behavior across different failure intervals and correlated-failure scales.
+
+### Why this matters
+
+- The public abstract reports that the combined **HA+LM** policy performs better when failure intervals are long.
+- The same abstract reports a policy reversal once the number of correlated-failure nodes exceeds **5**, because LM node-search overhead slows recovery during larger incidents.
+- This turns the paper into practical guidance for adaptive recovery design in edge platforms rather than a fixed-policy recommendation.
+
+**Publication record:** Published on December 1, 2025 in *Journal of The Korea Society of Computer and Information*, 30(12), 25-35 ([DOI](https://doi.org/10.9708/jksci.2025.30.12.025), [public abstract record](https://k-knowledge.kr/srch/read.jsp?id=281327532)).
+
+---
 <p class="news-date">November 1, 2025</p>
 
 ## Energy-Aware Kubernetes Autoscaling for Microservices
@@ -61,6 +87,32 @@ Our recent article in the *Journal of Network and Computer Applications* studies
 - The result is a concrete workload-aware guide for tuning Kubernetes deployments instead of relying on heuristic trial and error.
 
 **Publication record:** Published in November 2025 in *Journal of Network and Computer Applications*, Volume 243, Article 104287 ([DOI](https://doi.org/10.1016/j.jnca.2025.104287), [ScienceDirect article](https://www.sciencedirect.com/science/article/abs/pii/S1084804525001845)).
+
+---
+<p class="news-date">October 14, 2025</p>
+
+## Maintenance-Centered Dependability for Urban Surveillance
+
+This *Computing* article reframes smart-city surveillance as a maintenance problem as much as a sensing or analytics problem. Urban surveillance platforms may include cameras, edge resources, communication links, and repair workflows, and their dependability depends heavily on how failures are anticipated, prioritized, and handled over time.
+
+<figure>
+  <img src="../images/news/251014/urban-surveillance-maintenance-brochure.svg" alt="Brochure-style visual summary of the urban surveillance maintenance paper on stochastic Petri net analysis" width="1200">
+  <figcaption>Urban surveillance brochure: stochastic Petri net evaluation of reactive, autonomous, and preventive maintenance strategies.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses **Stochastic Petri Net (SPN)** models to compare reactive, autonomous, and preventive maintenance strategies in an edge-enabled surveillance environment.
+- Integrates availability and reliability analysis into a unified maintenance-evaluation framework.
+- Applies sensitivity analysis to identify which components matter most for system availability and therefore deserve the greatest maintenance focus.
+
+### Why this matters
+
+- The Springer abstract emphasizes that maintenance strategy has a direct effect on the dependability and efficiency of urban surveillance systems.
+- It also highlights sensitivity analysis as the key mechanism for identifying high-impact components instead of spreading maintenance effort evenly.
+- For smart-city operators, that means maintenance planning can be made more targeted, more resilient, and more cost-effective.
+
+**Publication record:** Published on October 14, 2025 in *Computing*, Volume 107, Article 208 ([DOI](https://doi.org/10.1007/s00607-025-01561-5), [Springer article](https://link.springer.com/article/10.1007/s00607-025-01561-5)).
 
 ---
 <p class="news-date">September 1, 2025</p>
