@@ -121,21 +121,30 @@ redirect_from:
 <div class="experience-grid">
   <article class="experience-card experience-card--featured">
     <p class="experience-card__eyebrow">Full-time · Mar 2026 - Present</p>
-    <h3>VinDynamics</h3>
+    <h3 class="experience-card__brand">
+      <span class="experience-logo"><img src="../images/experience-logos/vindynamics-mark.png" alt="VinDynamics logo"></span>
+      <span>VinDynamics</span>
+    </h3>
     <p class="experience-card__meta">On-site · Hanoi Capital Region</p>
     <p>Serving as Director of Robot Software and Control in a full-time leadership role focused on robotics software and control engineering.</p>
   </article>
 
   <article class="experience-card">
     <p class="experience-card__eyebrow">Contract · Oct 2024 - Present</p>
-    <h3>Ho Chi Minh City University of Industry and Trade (HUIT)</h3>
+    <h3 class="experience-card__brand">
+      <span class="experience-logo"><img src="../images/experience-logos/huit-mark.svg" alt="HUIT logo"></span>
+      <span>Ho Chi Minh City University of Industry and Trade (HUIT)</span>
+    </h3>
     <p class="experience-card__meta">Remote · Ho Chi Minh City, Vietnam</p>
     <p>Serving as Lecturer of Software Engineering on a contract basis.</p>
   </article>
 
   <article class="experience-card">
     <p class="experience-card__eyebrow">Full-time · Jun 2025 - Feb 2026</p>
-    <h3>Viettel Group</h3>
+    <h3 class="experience-card__brand">
+      <span class="experience-logo"><img src="../images/experience-logos/viettel-mark.png" alt="Viettel Group logo"></span>
+      <span>Viettel Group</span>
+    </h3>
     <p class="experience-card__meta">On-site · Hanoi, Vietnam</p>
     <p>Progressed through two Principal Engineer appointments within Viettel Group, moving from the High-Tech Industry Management Division to the Viettel Aviation Technology Center (VATC).</p>
 
@@ -157,42 +166,60 @@ redirect_from:
   <article class="experience-card">
     <p class="experience-card__eyebrow">Research Appointment · Jul 2020 - Jun 2025</p>
     <h3>Dependable, Autonomous, and Intelligent Systems Research</h3>
-    <p class="experience-card__meta">Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University · Seoul, South Korea</p>
+    <p class="experience-card__meta experience-card__meta--brand">
+      <span class="experience-logo experience-logo--ku"><img src="../images/experience-logos/konkuk-brand.png" alt="Konkuk University logo"></span>
+      <span>Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University · Seoul, South Korea</span>
+    </p>
     <p>Conducted research in dependable, autonomous, and intelligent systems, collaborating with Prof. <a href="http://kada.konkuk.ac.kr/aadl_teams/profjwlee/">Jae Woo Lee</a> and Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
   </article>
 
   <article class="experience-card">
     <p class="experience-card__eyebrow">University Research · Mar 2016 - Feb 2020</p>
     <h3>Research Collaboration at Konkuk University</h3>
-    <p class="experience-card__meta">Office of Research, University-Industry Cooperation Foundation · Konkuk University</p>
+    <p class="experience-card__meta experience-card__meta--brand">
+      <span class="experience-logo experience-logo--ku"><img src="../images/experience-logos/konkuk-brand.png" alt="Konkuk University logo"></span>
+      <span>Office of Research, University-Industry Cooperation Foundation · Konkuk University</span>
+    </p>
     <p>Worked in university research collaboration, contributing to dependable and autonomous systems projects with Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
   </article>
 
   <article class="experience-card">
     <p class="experience-card__eyebrow">Postdoctoral Research · Aug 2015 - Feb 2016</p>
     <h3>Distributed Multimedia Systems Laboratory</h3>
-    <p class="experience-card__meta">Konkuk University · Seoul, South Korea</p>
+    <p class="experience-card__meta experience-card__meta--brand">
+      <span class="experience-logo experience-logo--ku"><img src="../images/experience-logos/konkuk-brand.png" alt="Konkuk University logo"></span>
+      <span>Konkuk University · Seoul, South Korea</span>
+    </p>
     <p>Served as a Post-doctoral Research Associate in the DMS Lab., working under Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
   </article>
 
   <article class="experience-card">
     <p class="experience-card__eyebrow">Doctoral Research · 2011 - 2015</p>
     <h3>Network Security and Systems Laboratory</h3>
-    <p class="experience-card__meta">Korea Aerospace University (KAU) · South Korea</p>
+    <p class="experience-card__meta experience-card__meta--brand">
+      <span class="experience-logo experience-logo--wide"><img src="../images/experience-logos/kau-wordmark.png" alt="Korea Aerospace University logo"></span>
+      <span>Korea Aerospace University (KAU) · South Korea</span>
+    </p>
     <p>Worked as a Ph.D. Research Associate under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>.</p>
   </article>
 
   <article class="experience-card">
     <p class="experience-card__eyebrow">Industry Research · 2009 - 2010</p>
     <h3>FPT Space Technology Research Laboratory</h3>
-    <p class="experience-card__meta">FPT Technology Research Institute (FTRI), FPT University, FPT Corporation · Hanoi, Vietnam</p>
+    <p class="experience-card__meta experience-card__meta--brand">
+      <span class="experience-logo"><img src="../images/experience-logos/fpt-mark.png" alt="FPT logo"></span>
+      <span>FPT Technology Research Institute (FTRI), FPT University, FPT Corporation · Hanoi, Vietnam</span>
+    </p>
     <p>Worked as a full-time researcher on space technology research initiatives.</p>
   </article>
 
   <article class="experience-card">
     <p class="experience-card__eyebrow">Research Engineering · 2008</p>
     <h3>TRON Laboratory</h3>
-    <p class="experience-card__meta">FPT Software, FPT Corporation · Hanoi, Vietnam</p>
+    <p class="experience-card__meta experience-card__meta--brand">
+      <span class="experience-logo"><img src="../images/experience-logos/fpt-mark.png" alt="FPT logo"></span>
+      <span>FPT Software, FPT Corporation · Hanoi, Vietnam</span>
+    </p>
     <p>Served as a research engineer in real-time operating system research and development.</p>
   </article>
 </div>
@@ -217,14 +244,20 @@ redirect_from:
   <article class="experience-card">
     <p class="experience-card__eyebrow">Ph.D. · 2011 - 2015</p>
     <h3>Computer Science and System Engineering</h3>
-    <p class="experience-card__meta">Korea Aerospace University · Department of Computer Engineering</p>
+    <p class="experience-card__meta experience-card__meta--brand">
+      <span class="experience-logo experience-logo--wide"><img src="../images/experience-logos/kau-wordmark.png" alt="Korea Aerospace University logo"></span>
+      <span>Korea Aerospace University · Department of Computer Engineering</span>
+    </p>
     <p>Completed doctoral research in the Embedded Systems and Network Security Laboratory under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>.</p>
   </article>
 
   <article class="experience-card">
     <p class="experience-card__eyebrow">M.Sc. and B.Eng. · 2003 - 2010</p>
     <h3>Mechatronics</h3>
-    <p class="experience-card__meta">Hanoi University of Science and Technology (HUST) · Hanoi, Vietnam</p>
+    <p class="experience-card__meta experience-card__meta--brand">
+      <span class="experience-logo experience-logo--tall"><img src="../images/experience-logos/hust-logo.png" alt="Hanoi University of Science and Technology logo"></span>
+      <span>Hanoi University of Science and Technology (HUST) · Hanoi, Vietnam</span>
+    </p>
     <p>Earned master's and bachelor's degrees under Prof. <a href="https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html">Dinh Van Phong</a>, building the engineering foundation for later work in autonomous and intelligent systems.</p>
   </article>
 </div>
