@@ -1,320 +1,442 @@
 ---
 layout: archive
 title: "News"
-excerpt: "Chronological publication news archive based on the Publications page, with externally verified records and concise research notes for each item."
+excerpt: "Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates."
 permalink: /news/
 author_profile: true
 ---
 
 <div class="page-lead">
-  <p>A chronological publication news archive generated from the Publications page and curated as of March 22, 2026.</p>
-  <p class="page-lead__note">The archive below covers all publication records listed on the Publications page, sorted from most recent to earliest, and excludes manuscripts under review. Verification relies primarily on DOI records already listed on the Publications page, supplemented with OpenReview, DBpia, direct paper links, KCI, and official venue or program traces when DOI metadata is unavailable.</p>
+  <p>Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates.</p>
+  <p class="page-lead__note">Curated on March 22, 2026. The recent publication highlights below were cross-checked against DOI records, publisher pages, conference proceedings, arXiv, and the publications list on this site. A complete static publication brochure archive sorted by publication date is included at the end of this page.</p>
 </div>
 
-<div id="publication-news-root" class="publication-news-root">
-  <div class="publication-news-overview">
-    <p><strong>Preparing publication archive...</strong></p>
-    <p>The News timeline is being generated directly from the Publications source so that the archive stays synchronized with future updates.</p>
-  </div>
+<p class="news-date">December 5, 2025</p>
+
+## S-iNAS: Performance-Centric Scaling for Ceph-Based Industrial Storage
+
+We are pleased to share the publication of **S-iNAS** in the *Journal of Network and Systems Management*. The paper addresses a systems problem that matters directly to Industry 4.0 and digital twin deployments: how to keep Ceph-based industrial network-attached storage responsive when data streams become bursty, highly concurrent, and operationally uneven.
+
+<figure>
+  <img src="../images/news/251205/sinas-brochure.svg" alt="Brochure-style visual summary of the S-iNAS paper on adaptive Ceph scaling for industrial storage" width="1200">
+  <figcaption>S-iNAS research brochure: SRN-based analysis of time-based and event-based scaling for Ceph-backed industrial storage.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Introduces an SRN-based modeling framework that captures concurrent read and write workflows, replication overhead, and dynamic scaling triggers for Ceph Object Storage Daemons (OSDs).
+- Compares two scaling policies head-to-head: scheduled time-based expansion and event-based expansion driven by workload thresholds.
+- Studies the effect of arrival rate, client concurrency, VM instantiation delay, and read/write composition on throughput and latency.
+
+### Why this matters
+
+- The Springer abstract shows that time-based scaling stays stable under moderate load but can react too slowly when demand spikes abruptly.
+- Event-based scaling adapts faster and helps reduce latency, though it may cause more frequent reconfigurations.
+- The paper turns these trade-offs into actionable guidance for tuning storage services in industrial workflows and digital twin ecosystems.
+
+**Publication record:** Published online on December 5, 2025 in *Journal of Network and Systems Management*, Volume 34, Article 34 ([DOI](https://doi.org/10.1007/s10922-025-10005-6), [Springer article](https://link.springer.com/article/10.1007/s10922-025-10005-6)).
+
+---
+<p class="news-date">November 1, 2025</p>
+
+## Energy-Aware Kubernetes Autoscaling for Microservices
+
+Our recent article in the *Journal of Network and Computer Applications* studies Kubernetes autoscaling from a more useful engineering perspective: not only whether a deployment stays responsive, but whether it does so without wasting electrical power. This is especially important for cloud and edge platforms that must balance service quality, infrastructure cost, and sustainability at the same time.
+
+<figure>
+  <img src="../images/news/251101/kubernetes-gspn-brochure.svg" alt="Brochure-style visual summary of the Kubernetes microservices paper on performance and energy trade-offs" width="1200">
+  <figcaption>Research brochure for the Kubernetes microservices paper: balancing response time and energy use with GSPN-based analysis.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Builds a Generalized Stochastic Petri Net (GSPN) model for Kubernetes-orchestrated microservices that jointly represents Horizontal Pod Autoscaling (HPA), Cluster Autoscaling (CA), application behavior, and infrastructure capacity.
+- Introduces the **Energy-Response Time Weighted Product (ERWP)** metric to evaluate performance and energy efficiency together rather than in isolation.
+- Uses sensitivity analysis and realistic case studies to reveal which autoscaling parameters most strongly influence energy use, throughput, and response time.
+
+### Why this matters
+
+- The publisher abstract reports that higher autoscaling thresholds under low workloads can reduce electrical consumption by about **32%** without materially hurting performance.
+- Under high arrival-rate conditions, the same choice can still cut consumption by about **37%**, but at the cost of a **175%** increase in response time.
+- The result is a concrete workload-aware guide for tuning Kubernetes deployments instead of relying on heuristic trial and error.
+
+**Publication record:** Published in November 2025 in *Journal of Network and Computer Applications*, Volume 243, Article 104287 ([DOI](https://doi.org/10.1016/j.jnca.2025.104287), [ScienceDirect article](https://www.sciencedirect.com/science/article/abs/pii/S1084804525001845)).
+
+---
+<p class="news-date">September 1, 2025</p>
+
+## RT-VLM: Re-Thinking Vision-Language Robustness for Real-World Recognition
+
+We are also excited to share **RT-VLM**, a new arXiv preprint focused on one of the most persistent problems in real-world perception: domain shift. When image statistics, viewing angles, occlusion patterns, or neighboring object classes change, recognition performance often drops sharply. RT-VLM tackles that problem by combining structured multimodal evidence with an explicit self-correction loop.
+
+<figure>
+  <img src="../images/news/250901/rt-vlm-brochure.svg" alt="Brochure-style visual summary of RT-VLM and its four-clue re-thinking process" width="1200">
+  <figcaption>RT-VLM brochure card: four-clue supervision and a two-stage re-thinking pipeline for more robust visual understanding.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Introduces a synthetic dataset generation pipeline annotated with four structured clues: bounding boxes, class names, object-level captions, and a scene-level context caption.
+- Uses parameter-efficient supervised tuning of **Llama 3.2 11B Vision Instruct** on that multimodal supervision.
+- Applies a two-stage inference process in which the model first generates its own clues and then re-examines them as evidence to iteratively correct the final recognition result.
+
+### Why this matters
+
+- The arXiv abstract frames RT-VLM around four important sources of robustness failure: low-level image variation, pose and viewpoint change, partial occlusion, and confusion among nearby classes.
+- The reported gains across robustness benchmarks suggest that structured evidence plus self-critique is a promising direction for more reliable real-world visual perception.
+- This is particularly relevant for embodied AI, robotics, and safety-critical recognition settings where robustness matters more than single-dataset accuracy.
+
+**Publication record:** Posted on September 1, 2025 as an arXiv preprint ([arXiv abstract](https://arxiv.org/abs/2509.05333), [DOI](https://doi.org/10.48550/arXiv.2509.05333)).
+
+---
+<p class="news-date">August 1, 2025</p>
+
+## Queueing-Theoretic Performance Design for Cloud-Edge-Sensor Data Harvesting
+
+Published in *ICT Express*, this paper studies how cloud-edge-sensor infrastructures can be sized and tuned for data harvesting systems, with agricultural monitoring as a motivating application. Rather than treating sensing pipelines as black boxes, the work uses queueing theory to expose where latency, overload, and under-provisioning emerge before costly infrastructure changes are made.
+
+<figure>
+  <img src="../images/news/250801/data-harvesting-brochure.svg" alt="Brochure-style visual summary of the cloud-edge-sensor data harvesting paper" width="1200">
+  <figcaption>Cloud-edge-sensor brochure card: queueing-theoretic design guidance for scalable data harvesting systems.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Models a Cloud-Edge-sensors architecture using **M/M/c/K** queueing theory to evaluate data-handling performance in sensing systems.
+- Analyzes how configuration choices affect efficiency, scalability, and real-time data handling.
+- Provides a predictive framework for identifying bottlenecks and adjusting parameters without immediately resorting to expensive structural overbuild.
+
+### Why this matters
+
+- According to the ScienceDirect abstract, the model achieved **more than 90% utilization** in both the cloud and edge layers while still serving as a useful planning instrument.
+- The paper is positioned around precision agriculture, where real-time sensing quality directly affects downstream decisions.
+- At the same time, the abstract notes that the framework is versatile enough to inform broader IoT scenarios that need efficient real-time analysis and resource management.
+
+**Publication record:** Published in August 2025 in *ICT Express*, Volume 11, Issue 4, Pages 597-602 ([DOI](https://doi.org/10.1016/j.icte.2025.04.017), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959525000621)).
+
+---
+<p class="news-date">May 19, 2025</p>
+
+## Smart Building Surveillance with Edge-Fog Capacity Planning
+
+Another recent publication appeared in the **SBRC 2025** proceedings and focuses on intelligent camera surveillance in smart buildings. The core challenge is straightforward but operationally demanding: real-time video analytics requires significant compute resources, and poorly planned edge-fog pipelines can quickly become overloaded, slow, or wasteful.
+
+<figure>
+  <img src="../images/news/250519/smart-surveillance-brochure.svg" alt="Brochure-style visual summary of the smart building surveillance paper" width="1200">
+  <figcaption>Smart surveillance brochure card: SPN-based capacity planning for real-time camera analytics over edge and fog layers.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses **Stochastic Petri Net (SPN)** models to evaluate mean response time, throughput, resource utilization, and drop probability in intelligent surveillance infrastructures.
+- Shows how edge and fog resource allocation decisions influence service quality under different message arrival rates.
+- Offers planning guidance for scaling video analytics infrastructure in a controlled and explainable way.
+
+### Why this matters
+
+- Crossref metadata for the paper reports that increasing the Fog layer to **10 processing cores** reduces drop probability to around **35%** at an arrival rate of **47.37 msg/ms**.
+- The same abstract reports that mean response time stays below **10 ms** at moderate arrival rates up to about **29 msg/ms**.
+- The official SBRC 2025 proceedings page notes that **74 full papers** were accepted from **203 submissions**, corresponding to a **36.5% acceptance rate**, underlining the competitiveness of the venue.
+
+**Publication record:** Published on May 19, 2025 in the *Anais do XLIII Simposio Brasileiro de Redes de Computadores e Sistemas Distribuidos (SBRC 2025)* ([DOI](https://doi.org/10.5753/sbrc.2025.5744), [proceedings article](https://sol.sbc.org.br/index.php/sbrc/article/view/35119), [SBRC 2025 proceedings](https://sol.sbc.org.br/index.php/sbrc/index)).
+
+---
+<p class="news-date">February 1, 2025</p>
+
+## Transactional Dynamics in Hyperledger Fabric
+
+We are pleased to highlight a new *ICT Express* publication on permissioned blockchain performance. The paper models transaction processing in **Hyperledger Fabric** using Stochastic Petri Nets, with the goal of helping administrators understand how configuration choices affect response time, throughput, and resource efficiency before deployment decisions become expensive.
+
+<figure>
+  <img src="../images/news/250205/hyperledger-brochure.svg" alt="Brochure-style visual summary of the Hyperledger Fabric performance paper" width="1200">
+  <figcaption>Hyperledger Fabric brochure card: SPN-based analysis of transactional flow, response time, and throughput.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Develops an SPN-based transaction-flow model for permissioned Hyperledger Fabric environments.
+- Uses sensitivity analysis to identify the configuration factors that most strongly affect mean response time and throughput.
+- Validates the model against system behavior and provides a pre-deployment tool for more disciplined performance planning.
+
+### Why this matters
+
+- The ScienceDirect abstract reports a **95% confidence interval** for response-time analysis using the proposed model.
+- Case studies show that block size can change throughput and response time by as much as **200%**, making configuration discipline essential.
+- This turns the paper into a practical operations guide for enterprise blockchain administrators rather than a purely theoretical analysis.
+
+**Publication record:** Published in February 2025 in *ICT Express*, Volume 11, Issue 1, Pages 87-92 ([DOI](https://doi.org/10.1016/j.icte.2024.10.009), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959524001383)).
+
+---
+<p class="news-date">December 21, 2024</p>
+
+## mhmcTD3: A Multi-Head DRL Architecture for Autonomous Navigation
+
+Our latest research presents mhmcTD3, a novel multi-head, memory-enhanced DRL architecture that integrates advanced LiDAR preprocessing with CNN and LSTM modules. This combination ensures:
+
+- Enhanced detection and avoidance of small, moving obstacles.
+
+- Improved stability and learning efficiency through SiLU activation and CoRE optimization.
+
+- Smooth adaptation across various LiDAR resolutions, validated in both simulated (ROS2, Gazebo) and real-world (Turtlebot3) tests.
+
+The result is a more adaptive, responsive, and reliable autonomous navigation solution ready to meet the complexities of dynamic environments.
+
+<div class="figure-grid figure-grid--two">
+  <figure>
+    <img src="../images/news/241221/mhmcTD3_architectutre.jpeg" alt="mhmcTD3 architecture for autonomous navigation" width="500">
+    <figcaption>mhmcTD3 architecture for autonomous navigation.</figcaption>
+  </figure>
+  <figure>
+    <img src="../images/news/241221/multi_head_actor_critic_networks.jpeg" alt="multi-head actor-critic network architectures" width="500">
+    <figcaption>Multi-head actor-critic network architectures.</figcaption>
+  </figure>
 </div>
 
-<noscript>
-  <blockquote>
-    This publication news archive is rendered from the Publications source with JavaScript. If JavaScript is disabled, please use <a href="/publications/">/publications/</a>.
-  </blockquote>
-</noscript>
+---
+<p class="news-date">September 14, 2024</p>
 
-<script id="publications-markdown" type="text/plain">
-{% include_relative publications.md %}
-</script>
+## Enhancing IoT Disaster Detection Systems with Stochastic Models Across Multiple Geographic Areas
 
-<script>
-(function () {
-  const root = document.getElementById("publication-news-root");
-  const source = document.getElementById("publications-markdown");
+We are pleased to introduce our latest research published in **ICT Express** (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1). This study presents advanced Stochastic Petri Net (SPN) models to optimize IoT sensor operations in LoRaWAN networks, addressing key challenges in large-scale, disaster-prone regions.
 
-  if (!root || !source) {
-    return;
-  }
+<figure>
+    <img src="../images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="500">
+    <figcaption>IoT Disaster Detection System and Stochastic Modeling</figcaption>
+</figure>
 
-  const specialLinks = {
-    13: { label: "DBpia record", url: "https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11658488", badge: "DBpia" },
-    23: { label: "DOI record", url: "https://doi.org/10.9708/jksci.2025.30.12.025", badge: "DOI" },
-    88: { label: "DBpia record", url: "https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12340734", badge: "DBpia" },
-    90: { label: "DBpia record", url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12058721", badge: "DBpia" },
-    95: { label: "DBpia record", url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11658014", badge: "DBpia" },
-    103: { label: "Program record", url: "https://ksas.or.kr/proceedings/2024b/data/2024%EB%85%84%EB%8F%84%20%EC%B6%94%EA%B3%84%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%28%EC%95%88%29%20v9.pdf", badge: "Program" }
-  };
+### Key Highlights
+- Introduced two SPN models to simulate and enhance IoT sensor performance, focusing on crucial metrics like Mean Response Time (MRT) and Drop Probability (DP).
+- Conducted a detailed sensitivity analysis to identify essential factors affecting system efficiency, including fog computing resources and server capacities.
+- Demonstrated that strategic optimization of fog computing and server resources significantly boosts system responsiveness and reliability.
 
-  const domainBadges = {
-    "Domain 1": "AI & Autonomy",
-    "Domain 2": "Dependability & Infra",
-    "Domain 3": "IoT & CPS",
-    "Domain 4": "Digital Twin & UAM",
-    "Domain 5": "Aerospace Systems"
-  };
+**Impact:** This research offers a robust framework for designing resilient, cost-effective disaster management systems. It provides actionable insights for the future of disaster detection and smart city infrastructure.
 
-  const domainLines = {
-    "Domain 1": "artificial intelligence, reinforcement learning, autonomous control, navigation, and perception",
-    "Domain 2": "dependability, performance, energy, storage, cloud, SDN, and blockchain infrastructures",
-    "Domain 3": "IoT, smart environments, surveillance, healthcare, and cyber-physical infrastructures",
-    "Domain 4": "digital twin systems, advanced air mobility, unmanned aerial systems, and twin-enabled dependability",
-    "Domain 5": "aerospace systems, aerodynamic modeling, flight dynamics, and air vehicle design"
-  };
+Discover how IoT and fog computing can strengthen disaster response in the full paper.
 
-  function escapeHtml(value) {
-    return String(value)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#39;");
-  }
+**Citation:**  
+Araújo, I., Silva, L. G., Brito, C., Min, D., Lee, J.-W., Nguyen, T. A., Leão, E., & Silva, F. A. (2024). DDS-P: Stochastic models based performance of IoT disaster detection systems across multiple geographic areas. *ICT Express,* doi: 10.1016/j.icte.2024.09.005
 
-  function cleanVenue(value, link) {
-    let venue = (value || "").replace(/\*/g, "").trim().replace(/\.+$/, "");
+---
+<p class="news-date">August 28, 2024</p>
 
-    while (true) {
-      const trimmed = venue.replace(/\s*\([^()]*\)\s*$/, "").trim().replace(/\.+$/, "");
-      if (trimmed === venue) {
-        break;
-      }
-      venue = trimmed;
-    }
+## Efficient UAV Flights and Operational Performance in Delivery Services
 
-    venue = venue.replace(/--/g, "-").replace(/\s{2,}/g, " ");
+We recently highlighted the study **"Efficient Strategies for Unmanned Aerial Vehicle Flights: Analyzing Battery Life and Operational Performance in Delivery Services using Stochastic Models"** published in *IEEE Access*. This research, conducted by Francisco Airton Silva, Vandirleya Barbosa, Luiz Nelson Lima, Arthur Sabino, Paulo Rego, Luiz F. Bittencourt, Jae-Woo Lee, Dugki Min, and Tuan Anh Nguyen, advances what is possible in UAV delivery services.
 
-    if (!venue) {
-      if ((link || "").toLowerCase().includes("techrxiv")) {
-        return "TechRxiv";
-      }
-      return "External publication record";
-    }
+<figure>
+    <img src="../images/news/240828/Transport_system_with_without_considering_package_transfer.png" alt="Transport system with/without considering package transfer" width="500">
+    <figcaption>Transport system with/without considering package transfer</figcaption>
+</figure>
 
-    return venue;
-  }
+### Overview
 
-  function typeLabel(tag, venue, link) {
-    const venueLower = (venue || "").toLowerCase();
-    const linkLower = (link || "").toLowerCase();
+We introduced two advanced models to evaluate and boost drone delivery efficiency. Whether it's solo drone missions or cooperative ones (where drones hand off packages to each other), these models are helping us understand how to make drone deliveries faster, more reliable, and way more efficient!
 
-    if ((tag || "").startsWith("J")) {
-      return "Journal article";
-    }
-    if ((tag || "").startsWith("C")) {
-      return "Conference paper";
-    }
-    if ((tag || "").startsWith("B")) {
-      return "Book chapter";
-    }
-    if ((tag || "").startsWith("P")) {
-      if (venueLower.includes("withdrawn")) {
-        return "Submission record";
-      }
-      if (venueLower.includes("arxiv") || venueLower.includes("research square") || linkLower.includes("techrxiv")) {
-        return "Preprint";
-      }
-      return "Publication record";
-    }
-    return "Publication record";
-  }
+### Why It Matters
 
-  function sourceBadge(entry) {
-    if (specialLinks[entry.idx]) {
-      return specialLinks[entry.idx].badge;
-    }
-    if ((entry.link || "").includes("doi.org")) {
-      return "DOI";
-    }
-    if ((entry.link || "").includes("openreview")) {
-      return "OpenReview";
-    }
-    if ((entry.link || "").toLowerCase().includes("dbpia")) {
-      return "DBpia";
-    }
-    if (entry.link) {
-      return "Paper";
-    }
-    return "Sparse public metadata";
-  }
+- **Strategic Charging:** The study shows that where we place charging stations can make or break the delivery times. Think faster deliveries, fewer delays!
+- **Cooperation is Key:** Drones working together are more effective, especially in busy urban areas. More drones, less hassle!
+- **Optimized Operations:** The research highlights the importance of careful planning - from the number of drones to how long they charge - to maximize efficiency.
 
-  function summary(entry) {
-    const title = entry.title;
-    const venue = entry.venue || "";
-    const type = entry.type.toLowerCase();
-    const domainLine = domainLines[entry.domain];
-    const titleLower = title.toLowerCase();
+**Why this matters for practice**
 
-    if (titleLower.startsWith("correction to:")) {
-      const corrected = title.includes(":") ? title.split(":").slice(1).join(":").trim() : title;
-      const correctedLower = corrected ? corrected.charAt(0).toLowerCase() + corrected.slice(1) : corrected;
-      return "This " + type + " records an official correction linked to the earlier study on " + correctedLower + ". It preserves the accuracy of the published record within your " + domainLine + " track.";
-    }
+This research sets the stage for a new era in logistics, where drone deliveries are not just a concept but a highly optimized, efficient reality. 
 
-    if (venue.toLowerCase().includes("withdrawn submission")) {
-      return "This " + type + " documents a withdrawn submission on " + title + ". It remains part of your " + domainLine + " portfolio as a visible public research trace.";
-    }
+Curious about the details? Dive into the full study in *IEEE Access* and see how these strategies can revolutionize our delivery services!
 
-    if (titleLower.includes("systematic literature review") || (titleLower.includes("review") && !titleLower.startsWith("correction to:"))) {
-      return "This " + type + " synthesizes the literature around " + title + ". It broadens your " + domainLine + " portfolio by clarifying methods, themes, and open questions in the area.";
-    }
+---
+<p class="news-date">July 29, 2024</p>
 
-    return "This " + type + " advances your " + domainLine + " track through work on " + title + ". It is recorded here as a publication milestone in the venue below.";
-  }
+## SHANGUS: Redefining Autonomous Exploration with Deep Reinforcement Learning
 
-  function formatDate(value) {
-    const date = new Date(value + "T00:00:00Z");
-    return date.toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-      timeZone: "UTC"
-    });
-  }
+I am pleased to share some exciting advancements in our research and development at the Distributed Multimedia Systems Laboratory (DMS). Our team has been working diligently on SHANGUS, an innovative framework that integrates Deep Reinforcement Learning (DRL) with heuristic optimization to improve autonomous exploration in unknown environments.
 
-  function parsePublications(markdown) {
-    const lines = markdown.split(/\r?\n/);
-    const entries = [];
-    let domain = null;
+### Key Highlights
 
-    for (const line of lines) {
-      if (line.startsWith("## B. ")) {
-        domain = "Domain 1";
-      } else if (line.startsWith("## C. ")) {
-        domain = "Domain 2";
-      } else if (line.startsWith("## D. ")) {
-        domain = "Domain 3";
-      } else if (line.startsWith("## E. ")) {
-        domain = "Domain 4";
-      } else if (line.startsWith("## F. ")) {
-        domain = "Domain 5";
-      }
+- **Integration of DRL and heuristic optimization:** SHANGUS combines the adaptability of DRL with heuristic prioritization to enhance exploration efficiency, reduce completion time, and minimize travel distance.
 
-      if (!/^\d+\.\s/.test(line)) {
-        continue;
-      }
+- **Advanced frontier selection and navigation strategy:** Our approach features a frontier selection node and a DRL navigation node using the TD3 algorithm, ensuring robust path planning and dynamic obstacle avoidance.
 
-      const idxMatch = line.match(/^(\d+)\./);
-      const titleMatch = line.match(/\*\*(.+?)\*\*/);
-      const dateMatch = line.match(/\[(\d{4}-\d{2}-\d{2})\]\s*$/);
+- **Superior performance in simulations:** Through extensive experiments in ROS2 and Gazebo environments, SHANGUS has shown promising results, outperforming traditional methods like Nearest Frontier (NF), CFE, and GDAE, particularly in complex scenarios.
 
-      if (!idxMatch || !titleMatch || !dateMatch || !domain) {
-        continue;
-      }
+### Watch Our Demos
 
-      const idx = Number(idxMatch[1]);
-      const title = titleMatch[1].trim().replace(/\.$/, "");
+- **Simple World:** [Watch the demo](https://www.youtube.com/watch?v=XwZ63Wk4ATA)
+- **Moderate Complex World:** [Watch the demo](https://www.youtube.com/watch?v=ZNepJp0hCFQ)
+- **Most Complex World:** [Watch the demo](https://www.youtube.com/watch?v=Fm22Bq6hr68)
 
-      let rest = line.slice(titleMatch.index + titleMatch[0].length);
-      rest = rest.replace(/\s*\[(?:doi:[^\]]+|openreview\.net\/forum\?id=[^\]]+|DBpia|paper)\]\([^)]+\)/g, "");
-      rest = rest.replace(/\s*\[[^\]]*\]\s*$/, "").trim();
-      rest = rest.replace(/^[.\s]+/, "").trim();
+For those interested in a deeper dive into our research, you can read our full paper, published as a preprint on arXiv: [SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization](http://arxiv.org/abs/2407.18892). 
 
-      let venue = rest;
-      if (venue.startsWith("In: ")) {
-        venue = venue.slice(4);
-      } else if (venue.startsWith("In ")) {
-        venue = venue.slice(3);
-      }
+We hope to receive feedback and contributions from friends and colleagues to further extend our research and enhance the quality of our paper. 
 
-      const linkMatch = line.match(/\[(doi:[^\]]+|openreview\.net\/forum\?id=[^\]]+|DBpia|paper)\]\(([^)]+)\)/);
-      const link = linkMatch ? linkMatch[2] : "";
-      const tagMatch = line.match(/\[([A-Z]\d+[A-Za-z]?)\]<\/span>/);
-      const tag = tagMatch ? tagMatch[1] : "";
+We are excited about these developments and their potential applications in industrial automation, autonomous driving, household robotics, and space exploration. Thank you for your continued support and interest in our work at DMS Lab!
 
-      const entry = {
-        idx: idx,
-        tag: tag,
-        date: dateMatch[1],
-        title: title,
-        venue: cleanVenue(venue, link),
-        link: specialLinks[idx] ? specialLinks[idx].url : link,
-        linkLabel: specialLinks[idx]
-          ? specialLinks[idx].label
-          : link.includes("doi.org")
-            ? "DOI record"
-            : link.includes("openreview")
-              ? "OpenReview record"
-              : link.toLowerCase().includes("dbpia")
-                ? "DBpia record"
-                : link
-                  ? "Paper link"
-                  : "",
-        type: "",
-        domain: domain,
-        domainBadge: domainBadges[domain]
-      };
+---
+<p class="news-date">July 20, 2024</p>
 
-      entry.type = typeLabel(entry.tag, entry.venue, entry.link);
-      entry.sourceBadge = sourceBadge(entry);
-      entry.summary = summary(entry);
-      entries.push(entry);
-    }
+## Pilot-in-the-loop simulation with virtual reality (PILS-VR) running on top of cloud-in-the-loop simulation (CILS)
 
-    return entries.sort(function (a, b) {
-      if (a.date === b.date) {
-        return b.idx - a.idx;
-      }
-      return a.date < b.date ? 1 : -1;
-    });
-  }
+I am excited to share the progress our team has made in a short period. It was an honor to represent our group at the Conference on Automation, Control, and Robotics Engineering (CACRE 2024) in Jeju. Our collaboration with Korean students, combined with the relentless efforts of our Vietnamese team at KADA, has led to remarkable developments. 
 
-  function render(entries) {
-    const byYear = {};
-    const sourceCounts = {};
+In a short time, we have successfully expanded our Pilot-in-the-Loop Simulation (PILS) system by integrating it with Virtual Reality (VR) on the Cloud-in-the-Loop Simulation (CILS) platform. A special thanks to my colleagues: Dr. Vinh Vinh Phạm, Nghĩa, and Nguyễn Viết Nghĩa. Please excuse the rudimentary graphics as our focus wasn't on 3D development.
 
-    entries.forEach(function (entry) {
-      const year = entry.date.slice(0, 4);
-      byYear[year] = byYear[year] || [];
-      byYear[year].push(entry);
-      sourceCounts[entry.sourceBadge] = (sourceCounts[entry.sourceBadge] || 0) + 1;
-    });
+### PILS-VR System Overview
 
-    const sourceSummary = Object.keys(sourceCounts)
-      .sort()
-      .map(function (key) {
-        return key + " " + sourceCounts[key];
-      })
-      .join(", ");
+[Watch our video on the latest in aviation simulation technology: the Pilot-in-the-Loop Simulation with Virtual Reality (PILS-VR)](https://youtu.be/_kyAtntDHmc)
 
-    const years = Object.keys(byYear).sort().reverse();
-    const html = [];
+In this video, we showcase our innovative system developed at the Konkuk Aerospace Design Airworthiness Institute (KADA). We've successfully integrated PILS with our Cloud-in-the-Loop Simulation (CILS) system, built on the KP-2 platform for Future Advanced Air Mobility (AAM).
 
-    html.push("<div class=\"publication-news-overview\">");
-    html.push("<p><strong>Coverage:</strong> " + entries.length + " publications from 2010 to 2025.</p>");
-    html.push("<p><strong>Source mix:</strong> " + escapeHtml(sourceSummary) + ".</p>");
-    html.push("</div>");
+**Highlights of PILS-VR:**
 
-    years.forEach(function (year) {
-      html.push("<h2>" + escapeHtml(year) + "</h2>");
-      html.push("<div class=\"publication-news-list\">");
+- **Realistic VR Training:** Experience a highly immersive training environment that simulates real-world flight conditions and emergency scenarios.
+- **Cloud-Based Flexibility:** Seamless integration with CILS enables remote access, real-time data analysis, and collaborative training, enhancing flexibility and efficiency.
+- **Cost-Effective Solutions:** Reduce traditional training costs and increase accessibility with our advanced VR and cloud technologies.
+- **Personalized Feedback:** Benefit from detailed performance tracking and tailored feedback to accelerate learning and improve skills.
 
-      byYear[year].forEach(function (entry) {
-        html.push("<article class=\"publication-news-card\">");
-        html.push("<div class=\"publication-news-card__top\">");
-        html.push("<span class=\"publication-news-badge publication-news-badge--date\">" + escapeHtml(formatDate(entry.date)) + "</span>");
-        html.push("<span class=\"publication-news-badge\">" + escapeHtml(entry.tag || "Record") + "</span>");
-        html.push("<span class=\"publication-news-badge\">" + escapeHtml(entry.type) + "</span>");
-        html.push("<span class=\"publication-news-badge\">" + escapeHtml(entry.domainBadge) + "</span>");
-        html.push("<span class=\"publication-news-badge\">" + escapeHtml(entry.sourceBadge) + "</span>");
-        html.push("</div>");
-        html.push("<h3>" + escapeHtml(entry.title) + "</h3>");
-        html.push("<p>" + escapeHtml(entry.summary) + "</p>");
-        html.push("<p class=\"publication-news-card__record\"><strong>Publication record:</strong> <em>" + escapeHtml(entry.venue) + "</em>.</p>");
+Join us to see how PILS-VR is revolutionizing pilot training and setting new standards in aviation safety.
 
-        if (entry.link) {
-          html.push("<p class=\"publication-news-card__links\"><a href=\"" + escapeHtml(entry.link) + "\">" + escapeHtml(entry.linkLabel || "Official record") + "</a></p>");
-        }
+### Data Exchange Method Development
 
-        html.push("</article>");
-      });
+[Watch our video on the method to extract data exchanged between KFDS and PX4 during simulation run-time](https://www.youtube.com/watch?v=1BYQKzVgXeQ)
 
-      html.push("</div>");
-    });
+Using this method, we can input control signal data from pre-existing files into KFDS, which then loads these control data according to the predetermined times specified in the files. Subsequently, the flight state data generated by KFDS are recorded for validation or virtual certification purposes.
 
-    root.innerHTML = html.join("");
-  }
+### (p/d) Twin Data Center
 
-  render(parsePublications(source.textContent || ""));
-})();
-</script>
+[Watch our video on Twin Data Center](https://youtu.be/byyYU9jCaTk)
+
+All data from KFDS and PX4 are collected in run-time simulation for further analysis and prediction for future updates of digital twin models in the virtual world.
+
+---
+<p class="news-date">July 20, 2024</p>
+
+## 2024 9th International Conference on Automation, Control and Robotics Engineering (CACRE 2024)
+
+I am thrilled to share that I had the incredible opportunity to attend and present at the 2024 International Conference on Automation, Control, and Robotics Engineering (CACRE 2024) held on Jeju Island, South Korea, from July 18-20, 2024. This prestigious conference brought together leading experts, researchers, and practitioners in the fields of automation, control, and robotics from around the world.
+
+As part of the conference, I presented our latest research from the Konkuk Aerospace Design-Airworthiness Institute (KADA). Our study, titled "AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility," delves into the innovative use of digital twin technology for enhancing tele-operations in the realm of advanced air mobility. 
+
+I am honored to share that our presentation received the Excellent Oral Presentation award in the Special Session IX: Modeling, Control, and AI for Autonomous Vehicles. This session was chaired by Sungjin Cho from Sunchon National University, South Korea, with Sangho Kim from Konkuk University, South Korea, serving as Vice Session Chair.
+
+I am incredibly grateful to my professor and co-author, Professor Jae-Woo Lee, the Director of KADA, and all the contributors for their hard work and dedication to this project. A special thank you to the conference organizers and attendees for providing such a fantastic platform to share our work and engage with the global community.
+
+Looking forward to the future collaborations and advancements in this exciting field!
+
+<figure>
+    <img src="../images/news/240720/CACRE_2024_Presentation.jpg" alt="Presentation at CACRE 2024">
+    <figcaption>AAM-VDT Presentation at CACRE 2024</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240720/CACRE_2024_Information.png" alt="CACRE 2024 Information">
+    <figcaption>CACRE 2024 Information</figcaption>
+</figure>
+
+---
+<p class="news-date">May 14, 2024</p>
+
+## Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT)
+
+Excited to share our achievements after a year of leading the AAM-VDT project at Konkuk Aerospace Design-Airworthiness Institute (KADA). We've made significant progress in developing an integrated simulation platform for the Konkuk Passenger Vehicle (KP-2) digital twin in the Advanced Air Mobility (AAM) sector. Our focus on cutting-edge technologies has paved the way for a revolutionary system in urban air mobility.
+
+The Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) project integrates cloud computing, artificial intelligence, and simulation to manage heterogeneous vehicles in real-time. Our collaboration within the KADA Research Groups - Design and Analysis, Simulation and Control, and AI Applications - has been instrumental in achieving our goals.
+
+Our key features include cloud server integration, AI-driven operations, digital twin technology, and a strong emphasis on operational safety and management. By utilizing digital twin dynamics, ensuring safety and reliability, and implementing multi-vehicle coordination, we are shaping the future of AAM operations.
+
+### Media
+
+- [VDT Simulation System](https://youtu.be/ePH-f1H2PH8)
+- [VDT Concept Illustration](https://youtu.be/9effNK__aOU)
+- [VDT Simulation in KU Map (01)](https://youtu.be/X20FuC0C7pM)
+- [VDT Simulation in KU Map (02)](https://youtu.be/huKKna1OFjA)
+- [VDT Simulation in Seoul Map (Fixed Wing)](https://youtu.be/luD0U2uVrgg)
+- [VDT Simulation Scenarios](https://youtu.be/QfZZfo9YNls)
+- [KP2C Real Flight Test](https://youtu.be/qfMXk1IYKFA)
+- [KP2C es-DNLC Flight Test](https://youtu.be/u0xFRdc-97Q)
+- [KP2C LQR Flight Test](https://youtu.be/FqyS67FReXo)
+
+Special thanks to our diligent KADA engineers and researchers! Jeongseok Hyun, Minseok Jang, Taeho Kwag, Nghia Nguyen, Vinh Pham, AYE AYE MAW
+
+Excited about the possibilities that lie ahead as we continue to innovate and drive advancements in advanced air mobility.
+
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
+    <figcaption>VDT Technologies of KADA</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT Simulation System.jpg" alt="VDT Simulation System">
+    <figcaption>VDT Simulation System for Demonstration</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT-CILS.jpg" alt="VDT-CILS">
+    <figcaption> VDT Cloud in the loop simulation (CILS) </figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT-Single-ODT.jpg" alt="VDT Single ODT">
+    <figcaption>VDT Single Vehicle integrated with operational digital twin (ODT)</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT-SITL.jpg" alt="VDT SITL">
+    <figcaption>VDT software in the loop simulation (SITL)</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240512/AAM-VDT/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
+    <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
+</figure>
+
+---
+
+<iframe src="https://www.youtube.com/embed/ePH-f1H2PH8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/9effNK__aOU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/X20FuC0C7pM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/huKKna1OFjA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/luD0U2uVrgg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/QfZZfo9YNls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/qfMXk1IYKFA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/u0xFRdc-97Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/FqyS67FReXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="separator"></div>
+
+<p class="news-date">May 10, 2024</p>
+
+## IEEE/IFIP Network Operations and Management Symposium (NOMS 2024) - 6-10 May 2024 // Seoul, South Korea
+
+[NOMS 2024 Symposium](https://noms2024.ieee-noms.org/)
+
+I am excited to announce my attendance at the 2024 IEEE/IFIP Network Operations and Management Symposium (NOMS 2024), which took place from May 6 to May 10, 2024, at The-K Hotel in Seoul, South Korea. Returning to Korea after two decades, this symposium was a pivotal event for professionals in the network operations and management field. NOMS 2024 featured an extensive program with keynotes, technical sessions, panel discussions, and various workshops. The theme for this year was "Towards intelligent, reliable, and sustainable network and service management," focusing on the latest advancements in 5G and emerging 6G networks and their roles in supporting critical applications such as IoT, smart cities, and autonomous vehicles. This event gathered researchers, developers, service providers, and policymakers, offering a unique platform for knowledge exchange and collaboration in shaping the future of network management.
+
+At NOMS 2024, we presented our paper titled *"Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm,"* authored by Carlos Melo, Glauber Gonçalves, Francisco A. Silva, Leonel Feitosa, Iure Fé, André Soares, Eunmi Choi, Tuan Anh Nguyen, and Dugki Min. Our research focuses on Hyperledger Fabric, a leading framework for permissioned blockchain systems, and aims to enhance blockchain performance and efficiency. Key points of our presentation include:
+
+- **Development of a Stochastic Petri Net (SPN) Model:** We created an SPN model to evaluate Hyperledger Fabric's performance under various configurations.
+- **Detailed Transaction Phase Analysis:** Our model offers in-depth analyses of the endorsement, ordering, and commit phases of transactions.
+- **Actionable Insights for Optimization:** The model provides administrators with practical insights for optimizing blockchain configurations.
+- **Support from Case Studies and Sensitivity Analysis:** We included practical case studies and a sensitivity analysis identifying critical factors affecting mean response time (MRT).
+- **Impact of Configuration Parameters:** Our findings highlight the significant impact of block size and transaction arrival rates on system response times.
+- **Real-World Application Validation:** The model's utility was validated through real-world applications, demonstrating its effectiveness in optimizing resource utilization and transaction throughput.
+
+This research provides a robust framework for pre-deployment performance evaluation and capacity planning in Hyperledger Fabric, paving the way for more efficient and scalable blockchain implementations in enterprise environments.
+
+Special thanks to our Brazilian team, coordinated by [Francisco Airton Silva](https://iuresf.gitlab.io/pasid-site/airton.html), Laboratory of Applied Research to Distributed Systems (PASID), Federal University of Piauí (UFPI) (campus Picos), Teresina, Piauí, Brazil, for their collaboration in the research.
+
+During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://people.cs.vt.edu/~jicho/), a collaborator of my Ph.D. supervisor, [Dongseong Kim](https://researchers.uq.edu.au/researcher/23703). Jin-Hee Cho is now an Associate Professor in the Department of Computer Science at Virginia Tech. It was great to converse with her and attend her fascinating research presentation. It's remarkable how small and interconnected the world can be.
+
+<figure>
+    <img src="../images/news/240510/NOMS 2024/NOMS 2024 (01).jpg" alt="NOMS 2024 Photo 1">
+    <figcaption>Our presentation at NOMS</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240510/NOMS 2024/NOMS 2024 (02).jpg" alt="NOMS 2024 Photo 2">
+    <figcaption>NOMS 2024 whole week schedule</figcaption>
+</figure>
+<figure>
+    <img src="../images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
+    <figcaption> A system demonstration at NOMS 2024 </figcaption>
+</figure>
+
+---
+
+## Complete Publication Brochure Archive
+
+The archive below indexes all publication records listed on the [Publications](/publications/) page, sorted by publication date from most recent to earliest. The featured publication stories above are also retained in the archive below for completeness.
+
+{% include publication_news_archive.html %}
