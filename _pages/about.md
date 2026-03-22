@@ -61,8 +61,8 @@ redirect_from:
     </div>
 
     <div class="career-metric">
-      <p class="career-metric__value">FPT -> KAU -> Konkuk -> Viettel</p>
-      <p class="career-metric__label">A progression through applied R&D, doctoral formation, university research, and principal engineering.</p>
+      <p class="career-metric__value">FPT -> KAU -> Konkuk -> Viettel -> VinDynamics</p>
+      <p class="career-metric__label">A progression through applied R&amp;D, doctoral formation, university research, principal engineering, and robotics software leadership.</p>
     </div>
 
     <div class="career-metric">
@@ -106,10 +106,10 @@ redirect_from:
 
     <article class="career-stage career-stage--current">
       <p class="career-stage__track">Current</p>
-      <p class="career-stage__period">2025 - Present</p>
-      <h3>Principal Engineering</h3>
-      <p class="career-stage__meta">Viettel Group · Hanoi</p>
-      <p class="career-stage__text">Leading engineering work across high-tech industry management and the Viettel Aviation Technology Center.</p>
+      <p class="career-stage__period">2026 - Present</p>
+      <h3>Robotics Software and Control Leadership</h3>
+      <p class="career-stage__meta">VinDynamics · Hanoi</p>
+      <p class="career-stage__text">Serving as Director of Robot Software and Control while continuing broader research and teaching engagements.</p>
     </article>
   </div>
 </div>
@@ -120,7 +120,21 @@ redirect_from:
 
 <div class="experience-grid">
   <article class="experience-card experience-card--featured">
-    <p class="experience-card__eyebrow">Full-time · Jun 2025 - Present</p>
+    <p class="experience-card__eyebrow">Full-time · Mar 2026 - Present</p>
+    <h3>VinDynamics</h3>
+    <p class="experience-card__meta">On-site · Hanoi Capital Region</p>
+    <p>Serving as Director of Robot Software and Control in a full-time leadership role focused on robotics software and control engineering.</p>
+  </article>
+
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Contract · Oct 2024 - Present</p>
+    <h3>Ho Chi Minh City University of Industry and Trade (HUIT)</h3>
+    <p class="experience-card__meta">Remote · Ho Chi Minh City, Vietnam</p>
+    <p>Serving as Lecturer of Software Engineering on a contract basis.</p>
+  </article>
+
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Full-time · Jun 2025 - Feb 2026</p>
     <h3>Viettel Group</h3>
     <p class="experience-card__meta">On-site · Hanoi, Vietnam</p>
     <p>Progressed through two Principal Engineer appointments within Viettel Group, moving from the High-Tech Industry Management Division to the Viettel Aviation Technology Center (VATC).</p>
@@ -128,7 +142,7 @@ redirect_from:
     <div class="experience-role-list" aria-label="Viettel Group role progression">
       <div class="experience-role">
         <h4>Principal Engineer, Viettel Aviation Technology Center (VATC)</h4>
-        <p class="experience-role__meta">Oct 2025 - Present</p>
+        <p class="experience-role__meta">Oct 2025 - Feb 2026</p>
         <p class="experience-role__location">Hanoi Capital Region</p>
       </div>
 
@@ -249,7 +263,7 @@ redirect_from:
 
 ## **In brief**  🌐📡💼
 
-Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) is currently a Principal Engineer at Viettel Group in Hanoi, Vietnam. Since June 2025, he has served in the High-Tech Industry Management Division and, from October 2025, at the Viettel Aviation Technology Center (VATC). Previously, he worked in computer science and system engineering research at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea, from July 2020 to June 2025. During this period, he served as the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He was formerly a professional member of AIAA, IEEE, the IEEE Computer Society, the IEEE Robotics and Automation Society (IEEE RAS), the IEEE Aerospace and Electronic Systems Society (IEEE AESS), and the IEEE Reliability Society.
+Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) is currently Director of Robot Software and Control at VinDynamics in Hanoi Capital Region, Vietnam, a full-time role he began in March 2026. Since October 2024, he has also served remotely as a contract Lecturer of Software Engineering at Ho Chi Minh City University of Industry and Trade (HUIT). Previously, he was a Principal Engineer at Viettel Group in Hanoi, Vietnam, from June 2025 to February 2026, serving first in the High-Tech Industry Management Division and later at the Viettel Aviation Technology Center (VATC) from October 2025. Before that, he worked in computer science and system engineering research at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea, from July 2020 to June 2025. During this period, he served as the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He was formerly a professional member of AIAA, IEEE, the IEEE Computer Society, the IEEE Robotics and Automation Society (IEEE RAS), the IEEE Aerospace and Electronic Systems Society (IEEE AESS), and the IEEE Reliability Society.
 
 He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Previously, Dr. Nguyen worked in research at the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively.
 
