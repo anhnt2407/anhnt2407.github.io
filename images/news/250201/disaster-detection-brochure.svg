@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+        <title id="title">IoT Disaster Detection / across Geographic Areas brochure card</title>
+        <desc id="desc">LoRaWAN-aware stochastic models for cloud-fog disaster monitoring with capacity planning over multiple regions.</desc>
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#f7fbff"/>
+            <stop offset="100%" stop-color="#d9e9f5"/>
+          </linearGradient>
+          <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#eef6fb"/>
+          </linearGradient>
+        </defs>
+        <rect width="1200" height="720" fill="url(#bg)"/>
+        <circle cx="1060" cy="116" r="124" fill="#dcebf8"/>
+        <circle cx="1094" cy="610" r="138" fill="#f7fbff"/>
+        <rect x="48" y="48" width="1104" height="624" rx="34" fill="url(#panel)" stroke="#96b8cf" stroke-width="2"/>
+        <text x="84" y="102" fill="#12436f" font-family="Arial, sans-serif" font-size="22" font-weight="700">Journal Article - February 1, 2025</text>
+        <text x="84" y="170" fill="#18324e" font-family="Georgia, serif" font-size="50" font-weight="700">
+  <tspan x="84" dy="0">IoT Disaster Detection</tspan>
+  <tspan x="84" dy="56">across Geographic Areas</tspan>
+</text>
+        <text x="84" y="302" fill="#5c6e81" font-family="Arial, sans-serif" font-size="25" font-weight="400">
+  <tspan x="84" dy="0">LoRaWAN-aware stochastic models for cloud-fog disaster</tspan>
+  <tspan x="84" dy="34">monitoring with capacity planning over multiple regions.</tspan>
+</text>
+        <rect x="84" y="432" width="210" height="112" rx="22" fill="#0f4c81"/>  <text x="106" y="468" fill="#d7ebfb" font-family="Arial, sans-serif" font-size="18" font-weight="700">NETWORK</text>  <text x="106" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="30" font-weight="700">LoRa + cloud</text>  <rect x="312" y="432" width="210" height="112" rx="22" fill="#1c6a76"/>  <text x="334" y="468" fill="#dcf2f2" font-family="Arial, sans-serif" font-size="18" font-weight="700">METHOD</text>  <text x="334" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="30" font-weight="700">SPN analysis</text>  <rect x="540" y="432" width="210" height="112" rx="22" fill="#4f6f5f"/>  <text x="562" y="468" fill="#e5f0e7" font-family="Arial, sans-serif" font-size="18" font-weight="700">IMPACT</text>  <text x="562" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="28" font-weight="700">Robust monitoring</text>
+        <rect x="808" y="124" width="288" height="430" rx="28" fill="#16344e"/>
+        <text x="846" y="160" fill="#dcecf8" font-family="Arial, sans-serif" font-size="19" font-weight="700">BROCHURE INSIGHTS</text>
+        <rect x="850" y="180" width="78" height="52" rx="14" fill="#dcebf8"/>  <text x="868" y="213" fill="#12436f" font-family="Arial, sans-serif" font-size="18" font-weight="700">Sensors</text>  <rect x="950" y="180" width="78" height="52" rx="14" fill="#dcebf8"/>  <text x="968" y="213" fill="#12436f" font-family="Arial, sans-serif" font-size="18" font-weight="700">Fog</text>  <rect x="900" y="270" width="78" height="52" rx="14" fill="#bed9ed"/>  <text x="918" y="303" fill="#12436f" font-family="Arial, sans-serif" font-size="18" font-weight="700">Cloud</text>
+        <line x1="928" y1="232" x2="928" y2="270" stroke="#64c0d9" stroke-width="8" stroke-linecap="round"/>
+        <line x1="972" y1="232" x2="950" y2="270" stroke="#64c0d9" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 354 C918 314 978 314 1020 354" fill="none" stroke="#81c88c" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 382 C918 344 978 344 1020 382" fill="none" stroke="#64c0d9" stroke-width="8" stroke-linecap="round"/>
+        <text x="846" y="498" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Highlights stress cost-efficient capacity planning</text>  <text x="846" y="528" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">More cores reduce response time and improve throughput</text>  <text x="846" y="558" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Built for large-area disaster monitoring scenarios</text>
+        <text x="84" y="610" fill="#12436f" font-family="Arial, sans-serif" font-size="18" font-weight="700">ICT Express - Open access article</text>
+        <text x="84" y="638" fill="#5c6e81" font-family="Arial, sans-serif" font-size="17">Verified from the ScienceDirect highlights/abstract page and DOI metadata.</text>
+      </svg>

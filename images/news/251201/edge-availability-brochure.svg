@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+        <title id="title">Edge Availability under / Correlated Failures brochure card</title>
+        <desc id="desc">SRN modeling with Capacity-Oriented Availability for HA and live-migration trade-offs in edge recovery.</desc>
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#f5fbff"/>
+            <stop offset="100%" stop-color="#dbeaf6"/>
+          </linearGradient>
+          <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#eff6fb"/>
+          </linearGradient>
+        </defs>
+        <rect width="1200" height="720" fill="url(#bg)"/>
+        <circle cx="1060" cy="116" r="124" fill="#d5e8f7"/>
+        <circle cx="1094" cy="610" r="138" fill="#f5fbff"/>
+        <rect x="48" y="48" width="1104" height="624" rx="34" fill="url(#panel)" stroke="#8db5cf" stroke-width="2"/>
+        <text x="84" y="102" fill="#0b3457" font-family="Arial, sans-serif" font-size="22" font-weight="700">Journal Article - December 1, 2025</text>
+        <text x="84" y="170" fill="#17304b" font-family="Georgia, serif" font-size="50" font-weight="700">
+  <tspan x="84" dy="0">Edge Availability under</tspan>
+  <tspan x="84" dy="56">Correlated Failures</tspan>
+</text>
+        <text x="84" y="302" fill="#56697b" font-family="Arial, sans-serif" font-size="25" font-weight="400">
+  <tspan x="84" dy="0">SRN modeling with Capacity-Oriented Availability for</tspan>
+  <tspan x="84" dy="34">HA and live-migration trade-offs in edge recovery.</tspan>
+</text>
+        <rect x="84" y="432" width="210" height="112" rx="22" fill="#0f4c81"/>  <text x="106" y="468" fill="#d7ebfb" font-family="Arial, sans-serif" font-size="18" font-weight="700">MODEL EXTENSION</text>  <text x="106" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="28" font-weight="700">Correlated SRN</text>  <rect x="312" y="432" width="210" height="112" rx="22" fill="#176476"/>  <text x="334" y="468" fill="#d9eff4" font-family="Arial, sans-serif" font-size="18" font-weight="700">RECOVERY VIEW</text>  <text x="334" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="28" font-weight="700">HA vs HA+LM</text>  <rect x="540" y="432" width="210" height="112" rx="22" fill="#5c6b8c"/>  <text x="562" y="468" fill="#e5e8f4" font-family="Arial, sans-serif" font-size="18" font-weight="700">KEY THRESHOLD</text>  <text x="562" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="34" font-weight="700">5 nodes</text>
+        <rect x="808" y="124" width="288" height="430" rx="28" fill="#143753"/>
+        <text x="846" y="160" fill="#dcecf8" font-family="Arial, sans-serif" font-size="19" font-weight="700">BROCHURE INSIGHTS</text>
+        <rect x="850" y="180" width="78" height="52" rx="14" fill="#d5e8f7"/>  <text x="868" y="213" fill="#0b3457" font-family="Arial, sans-serif" font-size="18" font-weight="700">Failure</text>  <rect x="950" y="180" width="78" height="52" rx="14" fill="#d5e8f7"/>  <text x="968" y="213" fill="#0b3457" font-family="Arial, sans-serif" font-size="18" font-weight="700">HA</text>  <rect x="900" y="270" width="78" height="52" rx="14" fill="#b8d7ed"/>  <text x="918" y="303" fill="#0b3457" font-family="Arial, sans-serif" font-size="18" font-weight="700">LM</text>
+        <line x1="928" y1="232" x2="928" y2="270" stroke="#5fc5dc" stroke-width="8" stroke-linecap="round"/>
+        <line x1="972" y1="232" x2="950" y2="270" stroke="#5fc5dc" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 354 C918 314 978 314 1020 354" fill="none" stroke="#f2c25b" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 382 C918 344 978 344 1020 382" fill="none" stroke="#5fc5dc" stroke-width="8" stroke-linecap="round"/>
+        <text x="846" y="498" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Long intervals can favor HA+LM</text>  <text x="846" y="528" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Large correlated faults reverse the ranking</text>  <text x="846" y="558" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Recovery policy should adapt to fault scale</text>
+        <text x="84" y="610" fill="#0b3457" font-family="Arial, sans-serif" font-size="18" font-weight="700">Journal of The Korea Society of Computer and Information</text>
+        <text x="84" y="638" fill="#56697b" font-family="Arial, sans-serif" font-size="17">Verified from DOI metadata and the public K-Knowledge/KCI abstract page.</text>
+      </svg>

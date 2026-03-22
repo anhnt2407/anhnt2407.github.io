@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+        <title id="title">Metaverse Storage / High Availability brochure card</title>
+        <desc id="desc">Stochastic reward nets for quantifying resilience in distributed storage backbones that support persistent immersive services.</desc>
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#f6fbff"/>
+            <stop offset="100%" stop-color="#e0edf6"/>
+          </linearGradient>
+          <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f0f6fb"/>
+          </linearGradient>
+        </defs>
+        <rect width="1200" height="720" fill="url(#bg)"/>
+        <circle cx="1060" cy="116" r="124" fill="#d9ebf9"/>
+        <circle cx="1094" cy="610" r="138" fill="#f6fbff"/>
+        <rect x="48" y="48" width="1104" height="624" rx="34" fill="url(#panel)" stroke="#98b9d0" stroke-width="2"/>
+        <text x="84" y="102" fill="#12406c" font-family="Arial, sans-serif" font-size="22" font-weight="700">MetaCom Conference Paper - August 27, 2025</text>
+        <text x="84" y="170" fill="#18324d" font-family="Georgia, serif" font-size="50" font-weight="700">
+  <tspan x="84" dy="0">Metaverse Storage</tspan>
+  <tspan x="84" dy="56">High Availability</tspan>
+</text>
+        <text x="84" y="302" fill="#596c7f" font-family="Arial, sans-serif" font-size="25" font-weight="400">
+  <tspan x="84" dy="0">Stochastic reward nets for quantifying resilience in distributed</tspan>
+  <tspan x="84" dy="34">storage backbones that support persistent immersive services.</tspan>
+</text>
+        <rect x="84" y="432" width="210" height="112" rx="22" fill="#0f4c81"/>  <text x="106" y="468" fill="#d7ebfb" font-family="Arial, sans-serif" font-size="18" font-weight="700">METHOD</text>  <text x="106" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="30" font-weight="700">Reward nets</text>  <rect x="312" y="432" width="210" height="112" rx="22" fill="#406b8d"/>  <text x="334" y="468" fill="#e0e9f5" font-family="Arial, sans-serif" font-size="18" font-weight="700">TARGET</text>  <text x="334" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="26" font-weight="700">Distributed storage</text>  <rect x="540" y="432" width="210" height="112" rx="22" fill="#2f716b"/>  <text x="562" y="468" fill="#dcf0ec" font-family="Arial, sans-serif" font-size="18" font-weight="700">FOCUS</text>  <text x="562" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="28" font-weight="700">High availability</text>
+        <rect x="808" y="124" width="288" height="430" rx="28" fill="#15344f"/>
+        <text x="846" y="160" fill="#dcecf8" font-family="Arial, sans-serif" font-size="19" font-weight="700">BROCHURE INSIGHTS</text>
+        <rect x="850" y="180" width="78" height="52" rx="14" fill="#d9ebf9"/>  <text x="868" y="213" fill="#12406c" font-family="Arial, sans-serif" font-size="18" font-weight="700">Nodes</text>  <rect x="950" y="180" width="78" height="52" rx="14" fill="#d9ebf9"/>  <text x="968" y="213" fill="#12406c" font-family="Arial, sans-serif" font-size="18" font-weight="700">Replica</text>  <rect x="900" y="270" width="78" height="52" rx="14" fill="#c0d9ee"/>  <text x="918" y="303" fill="#12406c" font-family="Arial, sans-serif" font-size="18" font-weight="700">Service</text>
+        <line x1="928" y1="232" x2="928" y2="270" stroke="#63bdd8" stroke-width="8" stroke-linecap="round"/>
+        <line x1="972" y1="232" x2="950" y2="270" stroke="#63bdd8" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 354 C918 314 978 314 1020 354" fill="none" stroke="#77d0a2" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 382 C918 344 978 344 1020 382" fill="none" stroke="#63bdd8" stroke-width="8" stroke-linecap="round"/>
+        <text x="846" y="498" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Quantifies storage resilience, not just throughput</text>  <text x="846" y="528" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Fits metaverse architectures and applications</text>  <text x="846" y="558" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Extends reliability modeling into immersive storage</text>
+        <text x="84" y="610" fill="#12406c" font-family="Arial, sans-serif" font-size="18" font-weight="700">IEEE MetaCom 2025 - Conference Session 1</text>
+        <text x="84" y="638" fill="#596c7f" font-family="Arial, sans-serif" font-size="17">Verified from DOI metadata, the MetaCom program, and the accepted-paper listing.</text>
+      </svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+        <title id="title">mhmcTD3 for / Autonomous Navigation brochure card</title>
+        <desc id="desc">Multi-head actor-critic learning with memory contextualisation for map-free robot navigation in dynamic environments.</desc>
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#fff9f4"/>
+            <stop offset="100%" stop-color="#f5e2cf"/>
+          </linearGradient>
+          <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#fcf1e6"/>
+          </linearGradient>
+        </defs>
+        <rect width="1200" height="720" fill="url(#bg)"/>
+        <circle cx="1060" cy="116" r="124" fill="#f8e0c0"/>
+        <circle cx="1094" cy="610" r="138" fill="#fff9f4"/>
+        <rect x="48" y="48" width="1104" height="624" rx="34" fill="url(#panel)" stroke="#dfb58e" stroke-width="2"/>
+        <text x="84" y="102" fill="#84501a" font-family="Arial, sans-serif" font-size="22" font-weight="700">TechRxiv Preprint - January 21, 2025</text>
+        <text x="84" y="170" fill="#4b2f12" font-family="Georgia, serif" font-size="50" font-weight="700">
+  <tspan x="84" dy="0">mhmcTD3 for</tspan>
+  <tspan x="84" dy="56">Autonomous Navigation</tspan>
+</text>
+        <text x="84" y="302" fill="#745a44" font-family="Arial, sans-serif" font-size="25" font-weight="400">
+  <tspan x="84" dy="0">Multi-head actor-critic learning with memory contextualisation</tspan>
+  <tspan x="84" dy="34">for map-free robot navigation in dynamic environments.</tspan>
+</text>
+        <rect x="84" y="432" width="210" height="112" rx="22" fill="#c9771f"/>  <text x="106" y="468" fill="#feead7" font-family="Arial, sans-serif" font-size="18" font-weight="700">HEADS</text>  <text x="106" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="26" font-weight="700">Fusion + Memory</text>  <rect x="312" y="432" width="210" height="112" rx="22" fill="#a45c38"/>  <text x="334" y="468" fill="#fbe4dd" font-family="Arial, sans-serif" font-size="18" font-weight="700">SENSING</text>  <text x="334" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="30" font-weight="700">LiDAR-focused</text>  <rect x="540" y="432" width="210" height="112" rx="22" fill="#345d8d"/>  <text x="562" y="468" fill="#dde8f8" font-family="Arial, sans-serif" font-size="18" font-weight="700">TRANSFER</text>  <text x="562" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="32" font-weight="700">Sim to real</text>
+        <rect x="808" y="124" width="288" height="430" rx="28" fill="#4b2d10"/>
+        <text x="846" y="160" fill="#dcecf8" font-family="Arial, sans-serif" font-size="19" font-weight="700">BROCHURE INSIGHTS</text>
+        <rect x="850" y="180" width="78" height="52" rx="14" fill="#f8e0c0"/>  <text x="868" y="213" fill="#84501a" font-family="Arial, sans-serif" font-size="18" font-weight="700">LiDAR</text>  <rect x="950" y="180" width="78" height="52" rx="14" fill="#f8e0c0"/>  <text x="968" y="213" fill="#84501a" font-family="Arial, sans-serif" font-size="18" font-weight="700">Memory</text>  <rect x="900" y="270" width="78" height="52" rx="14" fill="#eccca7"/>  <text x="918" y="303" fill="#84501a" font-family="Arial, sans-serif" font-size="18" font-weight="700">Policy</text>
+        <line x1="928" y1="232" x2="928" y2="270" stroke="#efb55b" stroke-width="8" stroke-linecap="round"/>
+        <line x1="972" y1="232" x2="950" y2="270" stroke="#efb55b" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 354 C918 314 978 314 1020 354" fill="none" stroke="#69bdd7" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 382 C918 344 978 344 1020 382" fill="none" stroke="#efb55b" stroke-width="8" stroke-linecap="round"/>
+        <text x="846" y="498" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Evaluated in ROS2/Gazebo and on Turtlebot3</text>  <text x="846" y="528" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Targets small and moving obstacles in clutter</text>  <text x="846" y="558" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Ablations confirm the value of each head</text>
+        <text x="84" y="610" fill="#84501a" font-family="Arial, sans-serif" font-size="18" font-weight="700">TechRxiv - Posted January 21, 2025</text>
+        <text x="84" y="638" fill="#745a44" font-family="Arial, sans-serif" font-size="17">Verified from the official TechRxiv PDF and DOI record.</text>
+      </svg>
