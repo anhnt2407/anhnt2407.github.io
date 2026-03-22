@@ -141,6 +141,162 @@ We are also excited to share **RT-VLM**, a new arXiv preprint focused on one of 
 **Publication record:** Posted on September 1, 2025 as an arXiv preprint ([arXiv abstract](https://arxiv.org/abs/2509.05333), [DOI](https://doi.org/10.48550/arXiv.2509.05333)).
 
 ---
+<p class="news-date">August 27, 2025</p>
+
+## Aging Dependability for AAM Vehicle Digital Twins
+
+This MetaCom 2025 short paper expands digital-twin evaluation beyond realism and integration into the question of long-running dependability. For advanced air mobility (AAM) platforms, a cloud-edge-in-the-loop simulation stack is only useful if it can stay dependable while synchronizing models, services, and data flows over time.
+
+<figure>
+  <img src="../images/news/250827/metacom-cloud-edge-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on aging dependability in a cloud-edge AAM digital twin platform" width="1200">
+  <figcaption>AAM digital twin brochure: aging-aware dependability analysis for a cloud-edge-in-the-loop simulation platform.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Studies a **cloud-edge-in-the-loop** platform for an AAM vehicle digital twin rather than an isolated simulator component.
+- Frames the core research problem around **aging dependability**, which is especially important for persistent, always-on metaverse and digital-twin systems.
+- Positions dependability evaluation as part of digital-twin architecture design for aviation-oriented experimentation.
+
+### Why this matters
+
+- The official MetaCom record verifies the work as a 2025 short paper on metaverse cloud-edge computing for vehicle digital twins.
+- This perspective is important because operational twin platforms degrade under sustained service time, not only under single-shot test conditions.
+- It strengthens the bridge between digital-twin fidelity and trustworthy long-duration experimentation for AAM.
+
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00020), [accepted papers](https://ieee-metacom.org/accept-papers.html)).
+
+---
+<p class="news-date">August 27, 2025</p>
+
+## High-Availability Quantification for Metaverse Storage Backbones
+
+Persistent metaverse environments depend on storage systems that keep state available across distributed services and users. This MetaCom 2025 paper brings formal availability modeling directly into that layer, asking how resilience in distributed storage should be quantified rather than assumed.
+
+<figure>
+  <img src="../images/news/250827/metacom-storage-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on high availability quantification for metaverse distributed storage" width="1200">
+  <figcaption>Metaverse storage brochure: stochastic reward net analysis for resilient distributed storage services.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses **Stochastic Reward Nets** to quantify high availability in metaverse-oriented distributed storage.
+- Places storage dependability inside the architectural core of immersive systems instead of treating it as a backend afterthought.
+- Extends your broader dependability modeling line into storage infrastructures designed for persistent virtual environments.
+
+### Why this matters
+
+- The official MetaCom program lists the paper in **Conference Session 1: Metaverse Computing, Architectures, and Applications**.
+- That placement reflects the architectural significance of storage availability for immersive services, digital assets, and synchronized state.
+- The result is a stronger basis for reasoning about resilience in metaverse infrastructures before deployment.
+
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00039), [MetaCom program](https://ieee-metacom.org/program.html)).
+
+---
+<p class="news-date">August 27, 2025</p>
+
+## Sim-to-Real Reinforcement Learning with ROS2 and Unreal Engine
+
+This MetaCom 2025 workshop paper focuses on one of robotics' most practical bottlenecks: how to make virtual training transfer into physical behavior. By combining ROS2, Unreal Engine, and reinforcement learning for TurtleBot experimentation, the work treats metaverse-ready simulation as a deployment bridge rather than only a visualization environment.
+
+<figure>
+  <img src="../images/news/250827/metacom-sim2real-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on sim-to-real reinforcement learning for TurtleBot in ROS2 and Unreal Engine" width="1200">
+  <figcaption>Sim-to-real brochure: ROS2, Unreal Engine, and reinforcement learning combined for metaverse-ready robotics.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Couples a **ROS2 + Unreal Engine** stack with reinforcement learning for TurtleBot-based sim-to-real experimentation.
+- Treats the metaverse as a controllable training and evaluation environment for robot behavior transfer.
+- Connects virtual-world experimentation with physical navigation deployment in a concrete robotics workflow.
+
+### Why this matters
+
+- The official MetaCom program lists the paper in **Workshop Session 1**, confirming its role in testbed-oriented metaverse research.
+- Sim-to-real transfer remains a central barrier in robotic learning systems, especially when moving from controlled simulation to messy physical environments.
+- This paper makes the metaverse framing operational by tying it directly to deployable robot-control practice.
+
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00008), [MetaCom program](https://ieee-metacom.org/program.html)).
+
+---
+<p class="news-date">August 27, 2025</p>
+
+## LLM-Based Malicious Code Detection for Metaverse Security
+
+As metaverse platforms become more programmable, security questions move closer to code generation, code review, and automated filtering pipelines. This MetaCom 2025 paper addresses that direction by studying malicious code detection with large language models and by treating token optimization as part of the detection design space.
+
+<figure>
+  <img src="../images/news/250827/metacom-malicious-code-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on LLM-based malicious code detection through token optimization" width="1200">
+  <figcaption>Metaverse security brochure: LLM-based malicious code detection with token-level optimization.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Frames malicious code detection as an **LLM-based security analysis** task.
+- Uses **token optimization** as the main lever for improving code-oriented model behavior.
+- Places code-security tooling squarely inside metaverse security research rather than outside it.
+
+### Why this matters
+
+- The official MetaCom program places the paper in **Conference Session 4: Security, Privacy, and Trust**.
+- That positioning shows the work is not only about language models, but about securing programmable metaverse ecosystems.
+- The paper therefore points toward a practical developer-security workflow for safer code handling in immersive platforms.
+
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00057), [MetaCom program](https://ieee-metacom.org/program.html)).
+
+---
+<p class="news-date">August 27, 2025</p>
+
+## Iterative Prompt Optimization for Diverse Metaverse Tasks
+
+This workshop paper treats prompting not as a one-off instruction-writing trick, but as an adaptive optimization problem. In metaverse applications where tasks can vary widely across content generation, interaction, assistance, and moderation, that shift matters because prompt quality becomes part of system performance.
+
+<figure>
+  <img src="../images/news/250827/metacom-adaptive-prompting-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on adaptive prompting for metaverse tasks" width="1200">
+  <figcaption>Adaptive prompting brochure: iterative prompt optimization for diverse LLM-driven metaverse tasks.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Proposes an **iterative prompt optimization** framework for improving LLM performance across diverse tasks.
+- Reframes prompts as adaptive artifacts that can be refined through repeated feedback rather than fixed text strings.
+- Extends LLM performance engineering into metaverse application workflows.
+
+### Why this matters
+
+- The MetaCom program confirms the work as part of **Workshop Session 1**, where experimental and framework-oriented systems were presented.
+- In practice, metaverse tasks are heterogeneous, so prompt behavior often needs to be tuned across contexts instead of reused unchanged.
+- This makes the paper especially relevant for robust, reusable LLM tooling in interactive virtual environments.
+
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00009), [MetaCom program](https://ieee-metacom.org/program.html)).
+
+---
+<p class="news-date">August 27, 2025</p>
+
+## PGELU for Stable and Scalable Metaverse Perception
+
+This MetaCom 2025 paper introduces **PGELU**, a parametric GELU variant designed for recognition workloads that span both emotional signals and 3D object understanding. That combination is notable because metaverse perception often mixes human-centered and scene-centered recognition tasks in the same pipeline.
+
+<figure>
+  <img src="../images/news/250827/metacom-pgelu-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on PGELU for emotion and 3D object recognition" width="1200">
+  <figcaption>PGELU brochure: activation-level design for stable emotion and 3D object recognition in metaverse pipelines.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Proposes a **parametric GELU** formulation for metaverse-driven deep learning.
+- Targets the stability and scalability of recognition pipelines for **emotion analysis** and **3D object recognition**.
+- Highlights activation design itself as a useful lever in metaverse perception systems.
+
+### Why this matters
+
+- The official MetaCom program places the paper in **Conference Session 2: AI for the Metaverse**.
+- That context underscores the paper's relevance to practical AI architectures in immersive environments.
+- The work is therefore meaningful not only as a new activation variant, but as a systems-oriented attempt to stabilize mixed perception workloads.
+
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00044), [MetaCom program](https://ieee-metacom.org/program.html)).
+
+---
 <p class="news-date">August 1, 2025</p>
 
 ## Queueing-Theoretic Performance Design for Cloud-Edge-Sensor Data Harvesting
