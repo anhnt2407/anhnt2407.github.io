@@ -1643,6 +1643,11 @@ a:hover {
     grid-template-columns: 1fr;
   }
 
+  .page__footer-links-wrap {
+    max-width: none;
+    justify-self: stretch;
+  }
+
   .page__footer-meta {
     flex-direction: column;
   }
