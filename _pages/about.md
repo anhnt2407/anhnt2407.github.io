@@ -197,7 +197,7 @@ redirect_from:
     <p class="experience-card__eyebrow">Doctoral Research · 2011 - 2015</p>
     <h3>Network Security and Systems Laboratory</h3>
     <p class="experience-card__meta experience-card__meta--brand">
-      <span class="experience-logo experience-logo--wide"><img src="../images/experience-logos/kau-wordmark.png" alt="Korea Aerospace University logo"></span>
+      <span class="experience-logo experience-logo--seal"><img src="../images/experience-logos/kau-emblem.png" alt="Korea Aerospace University emblem"></span>
       <span>Korea Aerospace University (KAU) · South Korea</span>
     </p>
     <p>Worked as a Ph.D. Research Associate under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>.</p>
@@ -245,7 +245,7 @@ redirect_from:
     <p class="experience-card__eyebrow">Ph.D. · 2011 - 2015</p>
     <h3>Computer Science and System Engineering</h3>
     <p class="experience-card__meta experience-card__meta--brand">
-      <span class="experience-logo experience-logo--wide"><img src="../images/experience-logos/kau-wordmark.png" alt="Korea Aerospace University logo"></span>
+      <span class="experience-logo experience-logo--seal"><img src="../images/experience-logos/kau-emblem.png" alt="Korea Aerospace University emblem"></span>
       <span>Korea Aerospace University · Department of Computer Engineering</span>
     </p>
     <p>Completed doctoral research in the Embedded Systems and Network Security Laboratory under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>.</p>
