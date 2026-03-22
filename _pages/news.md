@@ -349,6 +349,84 @@ Another recent publication appeared in the **SBRC 2025** proceedings and focuses
 **Publication record:** Published on May 19, 2025 in the *Anais do XLIII Simposio Brasileiro de Redes de Computadores e Sistemas Distribuidos (SBRC 2025)* ([DOI](https://doi.org/10.5753/sbrc.2025.5744), [proceedings article](https://sol.sbc.org.br/index.php/sbrc/article/view/35119), [SBRC 2025 proceedings](https://sol.sbc.org.br/index.php/sbrc/index)).
 
 ---
+<p class="news-date">April 2, 2025</p>
+
+## Vehicle Digital Twin Integration under Steady Wind Conditions
+
+This proceedings paper from the Korean Society for Aeronautical and Space Sciences focuses on a vehicle digital twin as an integrated engineering system rather than a visualization layer. The study reports preliminary flight-simulation behavior for an eVTOL platform under steady-wind conditions, linking digital-twin design to actual flight-dynamics response.
+
+<figure>
+  <img src="../images/news/250402/vehicle-digital-twin-brochure.svg" alt="Brochure-style visual summary of the vehicle digital twin paper on steady-wind flight simulation" width="1200">
+  <figcaption>Vehicle digital twin brochure: integrated flight simulation for the KADA KP2-c under steady-wind conditions.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Integrates the subsystems of a **vehicle digital twin** and reports preliminary flight-simulation results.
+- Studies the **KADA KP2-c eVTOL** in CTOL mode under light (**10 knots**) and moderate (**20 knots**) steady wind.
+- Tracks how yaw-rate response changes under wind loading as part of the twin's dynamic behavior.
+
+### Why this matters
+
+- The official KSAS proceedings state that yaw-rate response varies significantly between **2.5** and **1.5 rad/s** under the tested wind conditions.
+- The same proceedings record positions the twin around high-fidelity dynamics and control response rather than immersive visualization alone.
+- This makes the study a solid engineering step toward validating flight-oriented twins with future flight-test data.
+
+**Publication record:** Published on April 2, 2025 in the *Proceedings of the Korean Society for Aeronautical & Space Sciences Spring Conference 2025*, Pages 381-382 ([KSAS proceedings](https://ksas.or.kr/proceedings/2025a/data/%EC%B2%A8%EB%B6%804.%202025%EB%85%84%EB%8F%84%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C_%EB%85%BC%EB%AC%B8%EC%A7%91_All.pdf), [DBpia record](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12340734)).
+
+---
+<p class="news-date">March 13, 2025</p>
+
+## Correction Notice for the Container Migration Study
+
+This publication record marks the formal correction linked to the container migration article published earlier in 2025. While shorter than a research paper, it still matters because dependable scholarship also depends on maintaining an accurate and transparent publication trail.
+
+<figure>
+  <img src="../images/news/250313/container-migration-correction-brochure.svg" alt="Brochure-style visual summary of the correction notice for the container migration study" width="1200">
+  <figcaption>Publication record brochure: correction notice tied to the container migration performance study.</figcaption>
+</figure>
+
+### What the record contributes
+
+- Establishes the official correction entry connected to the original container migration article.
+- Keeps the corrected version and the original publication record explicitly linked.
+- Preserves downstream citation clarity and metadata consistency.
+
+### Why this matters
+
+- The Springer correction record is part of the scholarly history of the article and should remain visible as such.
+- Accurate change tracking is especially important for technical papers that may be reused in later comparative or modeling studies.
+- This entry therefore supports the integrity of the broader research line, even though it is not a new experimental study by itself.
+
+**Publication record:** Published on March 13, 2025 in *Computing*, Volume 107, Article 93 ([DOI](https://doi.org/10.1007/s00607-025-01447-6), [original article](https://doi.org/10.1007/s00607-025-01423-0)).
+
+---
+<p class="news-date">February 5, 2025</p>
+
+## Comparative Performance Modeling for Container Migration
+
+Container migration is one of the key mechanisms that allows cloud and edge services to remain available while workloads move, fail over, or rebalance. This *Computing* article studies that problem systematically using stochastic Petri net models instead of relying only on ad hoc operational trial and error.
+
+<figure>
+  <img src="../images/news/250205/container-migration-brochure.svg" alt="Brochure-style visual summary of the container migration strategies paper" width="1200">
+  <figcaption>Container migration brochure: stochastic comparison of Cold, PreCopy, PostCopy, and Hybrid strategies.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Proposes **two SPN models**, one with an absorbing state and one without, to evaluate container migration performance.
+- Compares **Cold**, **PreCopy**, **PostCopy**, and **Hybrid** migration strategies under realistic demand and capacity assumptions.
+- Analyzes metrics including total migration time, migration rate, utilization, and discard probability, with additional sensitivity analysis for the Hybrid policy.
+
+### Why this matters
+
+- The Springer abstract reports that the **Cold** strategy achieves lower total migration time under higher migration-arrival pressure.
+- The same abstract reports that **PostCopy** produces the lowest discard probability in high-demand scenarios.
+- The paper therefore offers operators a structured way to choose migration policy based on workload conditions rather than intuition alone.
+
+**Publication record:** Published on February 5, 2025 in *Computing*, Volume 107, Article 64 ([DOI](https://doi.org/10.1007/s00607-025-01423-0), [Springer article](https://link.springer.com/article/10.1007/s00607-025-01423-0)).
+
+---
 <p class="news-date">February 1, 2025</p>
 
 ## Transactional Dynamics in Hyperledger Fabric
