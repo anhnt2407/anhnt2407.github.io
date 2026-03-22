@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+        <title id="title">Urban Surveillance / Maintenance Planning brochure card</title>
+        <desc id="desc">Stochastic Petri net analysis of reactive, autonomous, and preventive strategies for smart-city surveillance.</desc>
+        <defs>
+          <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#fdfaf5"/>
+            <stop offset="100%" stop-color="#f3e4d3"/>
+          </linearGradient>
+          <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#fbf4ec"/>
+          </linearGradient>
+        </defs>
+        <rect width="1200" height="720" fill="url(#bg)"/>
+        <circle cx="1060" cy="116" r="124" fill="#f8e0bf"/>
+        <circle cx="1094" cy="610" r="138" fill="#fdfaf5"/>
+        <rect x="48" y="48" width="1104" height="624" rx="34" fill="url(#panel)" stroke="#d5b18e" stroke-width="2"/>
+        <text x="84" y="102" fill="#7c4d17" font-family="Arial, sans-serif" font-size="22" font-weight="700">Journal Article - October 14, 2025</text>
+        <text x="84" y="170" fill="#503219" font-family="Georgia, serif" font-size="50" font-weight="700">
+  <tspan x="84" dy="0">Urban Surveillance</tspan>
+  <tspan x="84" dy="56">Maintenance Planning</tspan>
+</text>
+        <text x="84" y="302" fill="#725a45" font-family="Arial, sans-serif" font-size="25" font-weight="400">
+  <tspan x="84" dy="0">Stochastic Petri net analysis of reactive, autonomous,</tspan>
+  <tspan x="84" dy="34">and preventive strategies for smart-city surveillance.</tspan>
+</text>
+        <rect x="84" y="432" width="210" height="112" rx="22" fill="#9a5b2a"/>  <text x="106" y="468" fill="#fdebd8" font-family="Arial, sans-serif" font-size="18" font-weight="700">MAINTENANCE</text>  <text x="106" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="22" font-weight="700">Reactive / Auto / Preventive</text>  <rect x="312" y="432" width="210" height="112" rx="22" fill="#8b7340"/>  <text x="334" y="468" fill="#f3eccd" font-family="Arial, sans-serif" font-size="18" font-weight="700">METHOD</text>  <text x="334" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="28" font-weight="700">Sensitivity analysis</text>  <rect x="540" y="432" width="210" height="112" rx="22" fill="#5b6d4b"/>  <text x="562" y="468" fill="#e7f0dd" font-family="Arial, sans-serif" font-size="18" font-weight="700">GOAL</text>  <text x="562" y="510" fill="#ffffff" font-family="Georgia, serif" font-size="28" font-weight="700">Higher availability</text>
+        <rect x="808" y="124" width="288" height="430" rx="28" fill="#4d2e11"/>
+        <text x="846" y="160" fill="#dcecf8" font-family="Arial, sans-serif" font-size="19" font-weight="700">BROCHURE INSIGHTS</text>
+        <rect x="850" y="180" width="78" height="52" rx="14" fill="#f8e0bf"/>  <text x="868" y="213" fill="#7c4d17" font-family="Arial, sans-serif" font-size="18" font-weight="700">Edge</text>  <rect x="950" y="180" width="78" height="52" rx="14" fill="#f8e0bf"/>  <text x="968" y="213" fill="#7c4d17" font-family="Arial, sans-serif" font-size="18" font-weight="700">Aging</text>  <rect x="900" y="270" width="78" height="52" rx="14" fill="#ead2aa"/>  <text x="918" y="303" fill="#7c4d17" font-family="Arial, sans-serif" font-size="18" font-weight="700">Repair</text>
+        <line x1="928" y1="232" x2="928" y2="270" stroke="#e79f45" stroke-width="8" stroke-linecap="round"/>
+        <line x1="972" y1="232" x2="950" y2="270" stroke="#e79f45" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 354 C918 314 978 314 1020 354" fill="none" stroke="#6fc28d" stroke-width="8" stroke-linecap="round"/>
+        <path d="M878 382 C918 344 978 344 1020 382" fill="none" stroke="#e79f45" stroke-width="8" stroke-linecap="round"/>
+        <text x="846" y="498" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Maintenance is treated as a design variable</text>  <text x="846" y="528" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Sensitivity points to the highest-impact components</text>  <text x="846" y="558" fill="#dcecf8" font-family="Arial, sans-serif" font-size="18" font-weight="700">Case studies support planner-facing decisions</text>
+        <text x="84" y="610" fill="#7c4d17" font-family="Arial, sans-serif" font-size="18" font-weight="700">Computing - Published October 14, 2025</text>
+        <text x="84" y="638" fill="#725a45" font-family="Arial, sans-serif" font-size="17">Verified from the Springer abstract page and DOI metadata.</text>
+      </svg>
