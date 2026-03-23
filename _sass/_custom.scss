@@ -940,23 +940,57 @@ a:hover {
   position: relative;
   z-index: 1;
   display: grid;
-  gap: 1rem;
+  --career-stage-gap: 0.85rem;
+  --career-row-gap: 1.05rem;
+  --career-row-pad-top: 2.25rem;
+  --career-line-y: 1.06rem;
+  --career-turn-space: 3rem;
+  --career-turn-anchor: 1.02rem;
+  --career-dot-size: 0.78rem;
+  gap: var(--career-row-gap);
   margin-top: 1.45rem;
 }
 
 .career-path--expanded {
-  gap: 1.05rem;
+  gap: var(--career-row-gap);
 }
 
 .career-path__row {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.85rem;
-  padding-top: 2.25rem;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  gap: var(--career-stage-gap);
+  padding-top: var(--career-row-pad-top);
+  padding-right: var(--career-turn-space);
 }
 
-.career-path--expanded .career-path__row {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.career-path__row::before {
+  content: "";
+  position: absolute;
+  top: var(--career-line-y);
+  left: calc((100% - var(--career-turn-space) - (2 * var(--career-stage-gap))) / 6);
+  right: var(--career-turn-anchor);
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), rgba(15, 76, 129, 0.22));
+}
+
+.career-path__row:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: var(--career-line-y);
+  right: var(--career-turn-anchor);
+  width: 2px;
+  height: calc(100% + var(--career-row-gap));
+  background: linear-gradient(180deg, var(--accent), rgba(15, 76, 129, 0.22));
+}
+
+.career-path__row--reverse {
+  flex-direction: row-reverse;
+}
+
+.career-path__row .career-stage {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .career-path--expanded .career-stage {
@@ -1002,36 +1036,30 @@ a:hover {
 .career-stage::before {
   content: "";
   position: absolute;
-  top: -1.58rem;
+  top: calc(var(--career-line-y) - var(--career-row-pad-top) - (var(--career-dot-size) / 2));
   left: 50%;
-  width: 0.78rem;
-  height: 0.78rem;
+  width: var(--career-dot-size);
+  height: var(--career-dot-size);
   border-radius: 999px;
   background: var(--accent);
   box-shadow: 0 0 0 6px rgba(15, 76, 129, 0.08);
   transform: translateX(-50%);
 }
 
-.career-stage:not(:last-child)::after {
-  content: "";
-  position: absolute;
-  top: -1.22rem;
-  left: 50%;
-  width: calc(100% + 0.85rem);
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent), rgba(15, 76, 129, 0.22));
+.career-stage::after {
+  content: none;
 }
 
-.career-path__row:last-child .career-stage:last-child::after {
+.career-path__row--reverse:last-child .career-stage:last-child::after {
   content: "";
   position: absolute;
-  top: -1.6rem;
-  left: calc(50% + 0.52rem);
+  top: calc(var(--career-line-y) - var(--career-row-pad-top) - 0.54rem);
+  right: calc(50% + 0.42rem);
   width: 0;
   height: 0;
   border-top: 0.45rem solid transparent;
   border-bottom: 0.45rem solid transparent;
-  border-left: 0.78rem solid var(--accent-dark);
+  border-right: 0.78rem solid var(--accent-dark);
 }
 
 .career-stage__track {
@@ -1686,16 +1714,27 @@ a:hover {
   }
 
   .career-path {
-    gap: 0.8rem;
+    --career-row-gap: 0.8rem;
     margin-top: 1.2rem;
   }
 
   .career-path__row,
   .career-path--expanded .career-path__row {
+    display: grid;
     grid-template-columns: 1fr;
-    gap: 0.8rem;
+    gap: var(--career-row-gap);
     padding-top: 0.1rem;
+    padding-right: 0;
     padding-left: 1.4rem;
+  }
+
+  .career-path__row::before,
+  .career-path__row::after {
+    content: none;
+  }
+
+  .career-path__row--reverse {
+    flex-direction: row;
   }
 
   .career-stage::before {
@@ -1715,10 +1754,14 @@ a:hover {
     background: linear-gradient(180deg, var(--accent), rgba(15, 76, 129, 0.18));
   }
 
+  .career-path__row--reverse:last-child .career-stage:last-child::after,
   .career-path__row:last-child .career-stage:last-child::after {
+    content: "";
+    position: absolute;
     top: auto;
     bottom: -0.82rem;
     left: -1.49rem;
+    right: auto;
     border-left: 0.45rem solid transparent;
     border-right: 0.45rem solid transparent;
     border-top: 0.78rem solid var(--accent-dark);
@@ -1785,12 +1828,12 @@ a:hover {
   }
 
   .career-path {
-    gap: 0.75rem;
+    --career-row-gap: 0.75rem;
   }
 
   .career-path__row,
   .career-path--expanded .career-path__row {
-    gap: 0.75rem;
+    gap: var(--career-row-gap);
     padding-left: 1.22rem;
   }
 
@@ -1818,8 +1861,11 @@ a:hover {
     height: calc(100% + 0.8rem);
   }
 
+  .career-path__row--reverse:last-child .career-stage:last-child::after,
   .career-path__row:last-child .career-stage:last-child::after {
+    top: auto;
     left: -1.31rem;
+    right: auto;
   }
 
   .career-stage h3 {

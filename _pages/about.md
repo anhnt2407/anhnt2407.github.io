@@ -98,7 +98,7 @@ redirect_from:
       </article>
     </div>
 
-    <div class="career-path__row">
+    <div class="career-path__row career-path__row--reverse">
       <article class="career-stage">
         <p class="career-stage__track">Aerospace Research</p>
         <p class="career-stage__period">2020 - 2025</p>
