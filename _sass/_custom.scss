@@ -1054,12 +1054,12 @@ a:hover {
   content: "";
   position: absolute;
   top: calc(var(--career-line-y) - var(--career-row-pad-top) - 0.54rem);
-  right: calc(50% + 0.42rem);
+  left: calc(50% + 0.42rem);
   width: 0;
   height: 0;
   border-top: 0.45rem solid transparent;
   border-bottom: 0.45rem solid transparent;
-  border-right: 0.78rem solid var(--accent-dark);
+  border-left: 0.78rem solid var(--accent-dark);
 }
 
 .career-stage__track {
