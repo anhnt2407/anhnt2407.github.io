@@ -8,9 +8,35 @@ author_profile: true
 
 <div class="page-lead">
   <p>Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates.</p>
-  <p class="page-lead__note">Curated on March 22, 2026. The publication stories below were cross-checked against DOI records, publisher pages, conference proceedings, accepted-paper listings, arXiv, and the publications list on this site, then rewritten as brochure-style research highlights.</p>
+  <p class="page-lead__note">Curated on March 24, 2026. The publication stories below were cross-checked against DOI records, publisher pages, conference proceedings, accepted-paper listings, arXiv, and the publications list on this site, then rewritten as brochure-style research highlights.</p>
 </div>
 
+<p class="news-date">February 22, 2026</p>
+
+## VAE+DDPG for Autonomous Navigation in Low-Light Environments
+
+We are pleased to share a new open-access article in *Advanced Intelligent Systems* that tackles a practical robotics bottleneck: indoor navigation when ambient light drops and depth sensing becomes unreliable. Instead of treating low-light degradation as only a control problem, the paper redesigns the representation itself so the policy learns from geometry-focused latent features rather than directly from brightness-sensitive observations.
+
+<figure>
+  <img src="../images/news/260222/vae-ddpg-brochure.svg" alt="Brochure-style visual summary of the VAE+DDPG paper on low-light autonomous navigation" width="1200">
+  <figcaption>VAE+DDPG brochure: attention-enhanced latent perception and jointly tuned reinforcement learning for low-light indoor navigation.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Introduces an attention-enhanced **VAE+** encoder that combines **Feature Pyramid Network (FPN)** structure and **CBAM** attention to learn illuminance-robust depth features.
+- Couples that encoder with **Deep Deterministic Policy Gradient (DDPG)** and jointly tunes the perception module and control policy instead of freezing the encoder after pretraining.
+- Evaluates the method in cluttered Gazebo navigation scenes and unseen-maze transfer tests; the public codebase shows a TurtleBot3-style setup with dual depth cameras and goal-conditioned state inputs.
+
+### Why this matters
+
+- Crossref metadata for the published abstract says the learned latent space shifts toward **geometric features rather than raw intensity values**, which is exactly the right bias when low-light sensing degrades.
+- A public abstract summary indexed alongside the DOI reports roughly **88%** success at **30 Lx** and almost **94%** at **300 Lx**, while plain DDPG stabilizes near **70%** and unseen-maze transfer drops only about **3 points**.
+- The published abstract also states that deployment processes depth frames at **10 Hz** on a single **RTX 4070**, suggesting the method is practical not only in simulation but also as an affordable indoor autonomy pipeline.
+
+**Publication record:** Published online on February 22, 2026 in *Advanced Intelligent Systems* as open access, article e202500636 ([DOI](https://doi.org/10.1002/aisy.202500636), [Wiley article](https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.202500636), [code repository](https://github.com/uiseoklee/VAEplusDDPG)).
+
+---
 <p class="news-date">December 5, 2025</p>
 
 ## S-iNAS: Performance-Centric Scaling for Ceph-Based Industrial Storage
