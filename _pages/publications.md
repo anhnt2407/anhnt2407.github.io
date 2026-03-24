@@ -8,7 +8,7 @@ author_profile: true
 
 <div class="page-lead">
   <p>Selected journal articles, conference papers, preprints, manuscripts under review, and book contributions organized by research domain.</p>
-  <p class="page-metadata">Last updated: March 18, 2026</p>
+  <p class="page-metadata">Last updated: March 24, 2026</p>
 </div>
 
 ## Publication Domain Overview
@@ -22,7 +22,6 @@ author_profile: true
 ## A. Manuscripts under review / revision
 
 - Nam, S., Nguyen, T. A., Choi, E., & Min, D. **FH-DRL: Exponential-Hyperbolic Frontier Heuristics with DRL for Accelerated Exploration in Unknown Environments.** *IEEE Transactions on Intelligent Vehicles* (Manuscript ID: T-IV-25-02-0130; submitted 14-Feb-2025).
-- Lee, U., Hwang, C., Park, Y., Jin, H., Nguyen, T. A., Choi, E., & Min, D. **VAE+DDPG: An Attention-Enhanced Variational Autoencoder for Deep Reinforcement Learning-Based Autonomous Navigation in Low-Light Environments.** *Advanced Intelligent Systems* (Manuscript No.: aisy.202500636R2; R2).
 - Nguyen, T. A., Lim, D., Kyung, M., & Min, D. **Distributed Edge Storage Systems: Proactive High-Availability Microservices with Live Migration and Rejuvenation Strategies.** Submitted to *Mathematics* (MDPI).
 - Nam, S., Nguyen, T. A., Choi, E., & Min, D. **Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation.** Manuscript under review.
 - Folåsen, H., Nguyen, T. A., & Min, D. **FreqStack: Adaptive Spectral Mixture-of-Experts for Robust Zero-shot Deepfake Detection.** Manuscript under review.
@@ -34,19 +33,21 @@ Deep and multi-agent reinforcement learning, neural control, physics-informed an
 
 *Journal and book publications*
 
-1. <span class="pub-tag">[P04]</span> Park, J., Nguyen, T. A., & Min, D. (2025). **RT-VLM: Re-Thinking Vision Language Model with 4-Clues for Real-World Object Recognition Robustness.** *arXiv preprint*, arXiv:2509.05333. [doi:10.48550/arXiv.2509.05333](https://doi.org/10.48550/arXiv.2509.05333). [2025-09-01]
+1. <span class="pub-tag">[J52]</span> Lee, U., Hwang, C., Kang, H., Park, Y., Jin, H., Nguyen, T. A., Choi, E., & Min, D. (2026). **VAE+DDPG: An Attention-Enhanced Variational Autoencoder for Deep Reinforcement Learning-Based Autonomous Navigation in Low-Light Environments.** *Advanced Intelligent Systems*, e202500636. [doi:10.1002/aisy.202500636](https://doi.org/10.1002/aisy.202500636). [2026-02-22]
 
-2. <span class="pub-tag">[P03]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2025). **Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation.** [doi:10.36227/techrxiv.173747402.29145488/v1](https://doi.org/10.36227/techrxiv.173747402.29145488/v1). [2025-01-21]
+2. <span class="pub-tag">[P04]</span> Park, J., Nguyen, T. A., & Min, D. (2025). **RT-VLM: Re-Thinking Vision Language Model with 4-Clues for Real-World Object Recognition Robustness.** *arXiv preprint*, arXiv:2509.05333. [doi:10.48550/arXiv.2509.05333](https://doi.org/10.48550/arXiv.2509.05333). [2025-09-01]
 
-3. <span class="pub-tag">[P02]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2025). **FH-DRL: Exponential-Hyperbolic Frontier Heuristics with DRL for accelerated Exploration in Unknown Environments.** *arXiv preprint*, arXiv:2407.18892. [doi:10.48550/arXiv.2407.18892](https://doi.org/10.48550/arXiv.2407.18892). [2024-07-27]
+3. <span class="pub-tag">[P03]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2025). **Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation.** [doi:10.36227/techrxiv.173747402.29145488/v1](https://doi.org/10.36227/techrxiv.173747402.29145488/v1). [2025-01-21]
 
-4. <span class="pub-tag">[J25]</span> Jeon, S., Lee, H., Kaliappan, V. K., Nguyen, T. A., Jo, H., Cho, H., & Min, D. (2022). **Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control.** *Energies*, 15(19), 7426. [doi:10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3 Energy/Fuels., Ranking 80/119, IF2021=3.252) [2022-10-10]
+4. <span class="pub-tag">[P02]</span> Nam, S., Nguyen, T. A., Choi, E., & Min, D. (2025). **FH-DRL: Exponential-Hyperbolic Frontier Heuristics with DRL for accelerated Exploration in Unknown Environments.** *arXiv preprint*, arXiv:2407.18892. [doi:10.48550/arXiv.2407.18892](https://doi.org/10.48550/arXiv.2407.18892). [2024-07-27]
 
-5. <span class="pub-tag">[J22]</span> Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., Nguyen, T. A., & Min, D. (2022). **hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast**. *Applied Sciences*, 12(13). [doi:10.3390/app12136412](https://doi.org/10.3390/app12136412). (SCIE, JCR.Q2 Engineering, 32/91, IF2020=2.679) [2022-06-24]
+5. <span class="pub-tag">[J25]</span> Jeon, S., Lee, H., Kaliappan, V. K., Nguyen, T. A., Jo, H., Cho, H., & Min, D. (2022). **Multiagent Reinforcement Learning Based on Fusion-Multiactor-Attention-Critic for Multiple-Unmanned-Aerial-Vehicle Navigation Control.** *Energies*, 15(19), 7426. [doi:10.3390/en15197426](https://doi.org/10.3390/en15197426). (SCIE, JCR.Q3 Energy/Fuels., Ranking 80/119, IF2021=3.252) [2022-10-10]
 
-6. <span class="pub-tag">[J20]</span> Kaliappan, V. K., Nguyen, T. A., Min, D., Lee, J.-W., & Sakthi, U. (2022). **Steering Behavior-based Multiple RUAV Obstacle Avoidance Control**. *Intelligent Automation & Soft Computing*, 34(1), 575--591. [doi:10.32604/iasc.2022.024577](https://doi.org/10.32604/iasc.2022.024577). (SCIE, JCR.Q3 Automation & Control., Ranking 44/64, IF2020=1.647) [2022-01-01]
+6. <span class="pub-tag">[J22]</span> Battisti, F., Silva, A., Pereira, L., Carvalho, T., Araujo, J., Choi, E., Nguyen, T. A., & Min, D. (2022). **hLSTM-Aging: A Hybrid LSTM Model for Software Aging Forecast**. *Applied Sciences*, 12(13). [doi:10.3390/app12136412](https://doi.org/10.3390/app12136412). (SCIE, JCR.Q2 Engineering, 32/91, IF2020=2.679) [2022-06-24]
 
-7. <span class="pub-tag">[J09]</span> Maw, A. A., Tyan, M., Nguyen, T. A., & Lee, J.-W. (2021). **iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV.** *Applied Sciences*, 11(9). [doi:10.3390/app11093948](https://doi.org/10.3390/app11093948). (SCIE, JCR.Q2 Engineering, 32/91, IF2019=2.474) [2021-04-27]
+7. <span class="pub-tag">[J20]</span> Kaliappan, V. K., Nguyen, T. A., Min, D., Lee, J.-W., & Sakthi, U. (2022). **Steering Behavior-based Multiple RUAV Obstacle Avoidance Control**. *Intelligent Automation & Soft Computing*, 34(1), 575--591. [doi:10.32604/iasc.2022.024577](https://doi.org/10.32604/iasc.2022.024577). (SCIE, JCR.Q3 Automation & Control., Ranking 44/64, IF2020=1.647) [2022-01-01]
+
+8. <span class="pub-tag">[J09]</span> Maw, A. A., Tyan, M., Nguyen, T. A., & Lee, J.-W. (2021). **iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV.** *Applied Sciences*, 11(9). [doi:10.3390/app11093948](https://doi.org/10.3390/app11093948). (SCIE, JCR.Q2 Engineering, 32/91, IF2019=2.474) [2021-04-27]
 
 *Conference and preprint publications*
 
