@@ -974,6 +974,10 @@ a:hover {
   background: linear-gradient(90deg, var(--accent), rgba(15, 76, 129, 0.22));
 }
 
+.career-path__row--reverse::before {
+  background: linear-gradient(90deg, rgba(15, 76, 129, 0.22), var(--accent));
+}
+
 .career-path__row:not(:last-child)::after {
   content: "";
   position: absolute;
@@ -1050,7 +1054,7 @@ a:hover {
   content: none;
 }
 
-.career-path__row--reverse:last-child .career-stage:last-child::after {
+.career-stage--timeline-end::after {
   content: "";
   position: absolute;
   top: calc(var(--career-line-y) - var(--career-row-pad-top) - 0.54rem);
@@ -1754,8 +1758,7 @@ a:hover {
     background: linear-gradient(180deg, var(--accent), rgba(15, 76, 129, 0.18));
   }
 
-  .career-path__row--reverse:last-child .career-stage:last-child::after,
-  .career-path__row:last-child .career-stage:last-child::after {
+  .career-stage--timeline-end::after {
     content: "";
     position: absolute;
     top: auto;
@@ -1861,8 +1864,7 @@ a:hover {
     height: calc(100% + 0.8rem);
   }
 
-  .career-path__row--reverse:last-child .career-stage:last-child::after,
-  .career-path__row:last-child .career-stage:last-child::after {
+  .career-stage--timeline-end::after {
     top: auto;
     left: -1.31rem;
     right: auto;
