@@ -974,6 +974,10 @@ a:hover {
   background: linear-gradient(90deg, var(--accent), rgba(15, 76, 129, 0.22));
 }
 
+.career-path__row--reverse::before {
+  background: linear-gradient(90deg, rgba(15, 76, 129, 0.22), var(--accent));
+}
+
 .career-path__row:not(:last-child)::after {
   content: "";
   position: absolute;
@@ -1050,19 +1054,6 @@ a:hover {
   content: none;
 }
 
-.career-stage--timeline-marker::after {
-  content: "";
-  position: absolute;
-  top: calc(var(--career-line-y) - var(--career-row-pad-top) - 0.54rem);
-  right: calc(50% + 0.42rem);
-  width: 0;
-  height: 0;
-  border-top: 0.45rem solid transparent;
-  border-bottom: 0.45rem solid transparent;
-  border-left: 0.78rem solid var(--accent-dark);
-  border-right: 0;
-}
-
 .career-stage__track {
   display: inline-flex;
   justify-self: start;
@@ -1121,6 +1112,18 @@ a:hover {
 .career-stage--current::before {
   background: var(--accent-dark);
   box-shadow: 0 0 0 7px rgba(11, 52, 87, 0.1);
+}
+
+.career-stage--current::after {
+  content: "";
+  position: absolute;
+  top: calc(var(--career-line-y) - var(--career-row-pad-top) - 0.54rem);
+  right: calc(50% + 0.42rem);
+  width: 0;
+  height: 0;
+  border-top: 0.45rem solid transparent;
+  border-bottom: 0.45rem solid transparent;
+  border-right: 0.78rem solid var(--accent-dark);
 }
 
 .career-stage--current .career-stage__track {
@@ -1755,17 +1758,16 @@ a:hover {
     background: linear-gradient(180deg, var(--accent), rgba(15, 76, 129, 0.18));
   }
 
-  .career-stage--timeline-marker::after {
+  .career-stage--current::after {
     content: "";
     position: absolute;
-    top: auto;
-    bottom: -0.82rem;
+    top: 0.18rem;
     left: -1.49rem;
     right: auto;
     border-left: 0.45rem solid transparent;
     border-right: 0.45rem solid transparent;
-    border-top: 0.78rem solid var(--accent-dark);
-    border-bottom: 0;
+    border-top: 0;
+    border-bottom: 0.78rem solid var(--accent-dark);
   }
 
   .home-hero .site-cta-group {
@@ -1861,8 +1863,8 @@ a:hover {
     height: calc(100% + 0.8rem);
   }
 
-  .career-stage--timeline-marker::after {
-    top: auto;
+  .career-stage--current::after {
+    top: 0.14rem;
     left: -1.31rem;
     right: auto;
   }

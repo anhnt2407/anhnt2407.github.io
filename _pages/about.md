@@ -115,7 +115,7 @@ redirect_from:
         <p class="career-stage__text">Developed deep expertise in dependable systems, network security, and aerospace-oriented computing.</p>
       </article>
 
-      <article class="career-stage career-stage--timeline-marker">
+      <article class="career-stage">
         <p class="career-stage__track">Foundation</p>
         <p class="career-stage__period">2008 - 2010</p>
         <h3>FPT Research Foundations</h3>
