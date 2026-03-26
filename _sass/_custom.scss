@@ -974,10 +974,6 @@ a:hover {
   background: linear-gradient(90deg, var(--accent), rgba(15, 76, 129, 0.22));
 }
 
-.career-path__row--reverse::before {
-  background: linear-gradient(90deg, rgba(15, 76, 129, 0.22), var(--accent));
-}
-
 .career-path__row:not(:last-child)::after {
   content: "";
   position: absolute;
@@ -1054,7 +1050,7 @@ a:hover {
   content: none;
 }
 
-.career-stage--timeline-end::after {
+.career-stage--timeline-marker::after {
   content: "";
   position: absolute;
   top: calc(var(--career-line-y) - var(--career-row-pad-top) - 0.54rem);
@@ -1063,7 +1059,8 @@ a:hover {
   height: 0;
   border-top: 0.45rem solid transparent;
   border-bottom: 0.45rem solid transparent;
-  border-right: 0.78rem solid var(--accent-dark);
+  border-left: 0.78rem solid var(--accent-dark);
+  border-right: 0;
 }
 
 .career-stage__track {
@@ -1758,7 +1755,7 @@ a:hover {
     background: linear-gradient(180deg, var(--accent), rgba(15, 76, 129, 0.18));
   }
 
-  .career-stage--timeline-end::after {
+  .career-stage--timeline-marker::after {
     content: "";
     position: absolute;
     top: auto;
@@ -1864,7 +1861,7 @@ a:hover {
     height: calc(100% + 0.8rem);
   }
 
-  .career-stage--timeline-end::after {
+  .career-stage--timeline-marker::after {
     top: auto;
     left: -1.31rem;
     right: auto;
