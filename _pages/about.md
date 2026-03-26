@@ -50,25 +50,6 @@ redirect_from:
 <div class="career-overview">
   <div class="career-overview__header">
     <p class="career-overview__eyebrow">Career Timeline</p>
-    <p class="career-overview__title">A professional trajectory from research engineering foundations to doctoral research, university programs, principal engineering appointments, concurrent teaching, and current robotics software leadership.</p>
-    <p class="career-overview__lead">This overview mirrors the full Experiences section below, preserving the full sequence from early systems work and Ph.D. formation through Konkuk University research appointments, KADA program leadership, Viettel principal engineering roles, concurrent HUIT teaching, and the current VinDynamics directorship.</p>
-  </div>
-
-  <div class="career-overview__metrics">
-    <div class="career-metric">
-      <p class="career-metric__value">2008 - Present</p>
-      <p class="career-metric__label">Ten appointments and role transitions across industry R&amp;D, university research, concurrent teaching, and engineering leadership.</p>
-    </div>
-
-    <div class="career-metric">
-      <p class="career-metric__value">FPT -> KAU -> Konkuk -> HUIT / Viettel -> VinDynamics</p>
-      <p class="career-metric__label">The stage map below now reflects every appointment called out in the detailed Experiences section.</p>
-    </div>
-
-    <div class="career-metric">
-      <p class="career-metric__value">Dependability, AI, Digital Twins, Robotics, Aerospace</p>
-      <p class="career-metric__label">Core technical themes that connect the full professional journey across research, teaching, and engineering practice.</p>
-    </div>
   </div>
 
   <div class="career-path career-path--expanded" aria-label="Professional timeline overview">
