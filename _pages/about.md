@@ -101,8 +101,6 @@ redirect_from:
 
 ## **Experiences**
 
-<p class="experience-intro">The trajectory above provides a concise overview; the detailed appointments below capture the specific roles, institutions, and locations across dependable systems, robotics, aerospace research, and computer science.</p>
-
 <div class="experience-grid">
   <article class="experience-card">
     <p class="experience-card__eyebrow">Contract · Oct 2024 - Present</p>
