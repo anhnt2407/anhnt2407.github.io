@@ -6,11 +6,6 @@ permalink: /news/
 author_profile: true
 ---
 
-<div class="page-lead">
-  <p>Recent research highlights, conference activities, project milestones, media, demonstrations, and publication updates.</p>
-  <p class="page-lead__note">Curated on March 24, 2026. The publication stories below were cross-checked against DOI records, publisher pages, conference proceedings, accepted-paper listings, arXiv, and the publications list on this site, then rewritten as brochure-style research highlights.</p>
-</div>
-
 <p class="news-date">February 22, 2026</p>
 
 ## VAE+DDPG for Autonomous Navigation in Low-Light Environments
