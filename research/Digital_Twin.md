@@ -23,7 +23,7 @@ Digital twin (DT) technology has the potential to revolutionize a variety of gro
 The overall architecture of a UAM operational digital twin (UAM-ODT) consists of four fundamental modules, as depicted in Figure 1: (i) neural digital twin dynamic engines (DTDE), (ii) neural digital twin control engines (DTCE), (iii) digital twin control frame, and (iv) cloud infrastructure (DTCI). The DTDE module utilizes learning-based techniques to replicate the aerodynamics of UAM vehicles. The DTCE module is responsible for control tasks, allowing for the production of robust, optimal, and adaptive control for the safety of the vehicle.
 
 <figure>
-  <img src="../assets/img/UAM_ODT.png" alt="Overall UAM vehicle digital twinization architecture">
+  <img src="/assets/img/UAM_ODT.png" alt="Overall UAM vehicle digital twinization architecture">
   <figcaption>Overall UAM vehicle digital twinization architecture.</figcaption>
 </figure>
 
@@ -35,15 +35,15 @@ To digitalize the dynamics of a vehicle, we propose the development of a deep le
 
 <div class="figure-grid figure-grid--three">
   <figure>
-    <img src="../assets/img/DTDE.png" alt="Neural dynamics engine for digital twin modeling">
+    <img src="/assets/img/DTDE.png" alt="Neural dynamics engine for digital twin modeling">
     <figcaption>Neural dynamics engine.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/DTDE_Transfer_Learning.png" alt="Transfer learning strategy for improving twin fidelity">
+    <img src="/assets/img/DTDE_Transfer_Learning.png" alt="Transfer learning strategy for improving twin fidelity">
     <figcaption>Transfer learning for fidelity improvement.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/DTDE_Dynamics_Prediction.png" alt="Dynamics prediction results for the digital twin dynamics engine">
+    <img src="/assets/img/DTDE_Dynamics_Prediction.png" alt="Dynamics prediction results for the digital twin dynamics engine">
     <figcaption>Initial dynamics prediction results.</figcaption>
   </figure>
 </div>
@@ -64,19 +64,19 @@ Preliminary results in Figure 3(d) indicate that our deep learning-based control
 
 <div class="figure-grid figure-grid--two">
   <figure>
-    <img src="../assets/img/Control_Robust.png" alt="Robust control module using es-DNLC">
+    <img src="/assets/img/Control_Robust.png" alt="Robust control module using es-DNLC">
     <figcaption>Robust control via es-DNLC.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/Control_Optimal.png" alt="Optimal control module using reinforcement learning">
+    <img src="/assets/img/Control_Optimal.png" alt="Optimal control module using reinforcement learning">
     <figcaption>Optimal tilting control using reinforcement learning.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/Control_Adaptive_Optimization.png" alt="Adaptive control with Bayesian optimization">
+    <img src="/assets/img/Control_Adaptive_Optimization.png" alt="Adaptive control with Bayesian optimization">
     <figcaption>Adaptive controller optimization.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/DTCE_Preliminary_Results.png" alt="Preliminary control results for the digital twin control engine">
+    <img src="/assets/img/DTCE_Preliminary_Results.png" alt="Preliminary control results for the digital twin control engine">
     <figcaption>Preliminary deep neural Lyapunov control results.</figcaption>
   </figure>
 </div>
@@ -86,7 +86,7 @@ Preliminary results in Figure 3(d) indicate that our deep learning-based control
 It is believed that the DTDE and DTCE can capture exactly how the physical vehicle can fly in the real space. At this time, the control in the digital space can be adopted for the real-world operations of the physical vehicle in the physical space. Tele-operations and fail-safe flights can be developed through the DTCF module in Fig. 4. A bridge for virtual-real space connection is developed using MAVLink API to transmit and receive aerospace data between the physical and digital vehicles in an asynchronous and irregular manner.
 
 <figure>
-  <img src="../assets/img/DTCF.png" alt="Digital twin control frame for bridging physical and digital vehicles">
+  <img src="/assets/img/DTCF.png" alt="Digital twin control frame for bridging physical and digital vehicles">
   <figcaption>Digital twin control frame (DTCF).</figcaption>
 </figure>
 
@@ -95,7 +95,7 @@ It is believed that the DTDE and DTCE can capture exactly how the physical vehic
 The above modules are for the DT development of a single UAM vehicle. To develop the UAM-ODT system for a huge number of vehicles, a cloud infrastructure is involved for the deployment of nucleus cores of **[dynamics and control]** of heterogeneous vehicles as shown in Fig. 5.
 
 <figure>
-  <img src="../assets/img/DTCI.png" alt="Cloud infrastructure for scalable UAM digital twin deployment">
+  <img src="/assets/img/DTCI.png" alt="Cloud infrastructure for scalable UAM digital twin deployment">
   <figcaption>Digital twin cloud infrastructure (DTCI).</figcaption>
 </figure>
 
