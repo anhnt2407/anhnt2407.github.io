@@ -20,27 +20,27 @@ Attitude stabilization is of paramount importance in the flight control of perso
 
 <div class="figure-grid figure-grid--two">
   <figure>
-    <img src="../assets/img/es_DNLC_DNN_Structure.png" alt="Deep neural network structure used in the es-DNLC framework">
+    <img src="/assets/img/es_DNLC_DNN_Structure.png" alt="Deep neural network structure used in the es-DNLC framework">
     <figcaption>DNN structure of the es-DNLC framework.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/es_DNLC_Training_Diagram.png" alt="Training diagram for the es-DNLC approach">
+    <img src="/assets/img/es_DNLC_Training_Diagram.png" alt="Training diagram for the es-DNLC approach">
     <figcaption>Training process for the es-DNLC controller.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/es_DNLC_Framework.png" alt="Overall es-DNLC framework">
+    <img src="/assets/img/es_DNLC_Framework.png" alt="Overall es-DNLC framework">
     <figcaption>End-to-end es-DNLC framework.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/es_DNLC_Controller_Diagram.png" alt="Controller diagram for the es-DNLC system">
+    <img src="/assets/img/es_DNLC_Controller_Diagram.png" alt="Controller diagram for the es-DNLC system">
     <figcaption>Controller architecture for deployment.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/es_DNLC_Yaw_Angle_Stabilization.png" alt="Yaw-angle stabilization results under disturbance">
+    <img src="/assets/img/es_DNLC_Yaw_Angle_Stabilization.png" alt="Yaw-angle stabilization results under disturbance">
     <figcaption>Yaw-angle stabilization under disturbance.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/es_DNLC_Yaw_Angle_Response_Comparison.png" alt="Response comparison between LQR and es-DNLC">
+    <img src="/assets/img/es_DNLC_Yaw_Angle_Response_Comparison.png" alt="Response comparison between LQR and es-DNLC">
     <figcaption>Response comparison between LQR and es-DNLC.</figcaption>
   </figure>
 </div>

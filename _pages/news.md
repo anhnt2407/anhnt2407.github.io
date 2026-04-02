@@ -13,7 +13,7 @@ author_profile: true
 We are pleased to share a new open-access article in *Advanced Intelligent Systems* that tackles a practical robotics bottleneck: indoor navigation when ambient light drops and depth sensing becomes unreliable. Instead of treating low-light degradation as only a control problem, the paper redesigns the representation itself so the policy learns from geometry-focused latent features rather than directly from brightness-sensitive observations.
 
 <figure>
-  <img src="../images/news/260222/vae-ddpg-brochure.svg" alt="Brochure-style visual summary of the VAE+DDPG paper on low-light autonomous navigation" width="1200">
+  <img src="/images/news/260222/vae-ddpg-brochure.svg" alt="Brochure-style visual summary of the VAE+DDPG paper on low-light autonomous navigation" width="1200">
   <figcaption>VAE+DDPG brochure: attention-enhanced latent perception and jointly tuned reinforcement learning for low-light indoor navigation.</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ We are pleased to share a new open-access article in *Advanced Intelligent Syste
 We are pleased to share the publication of **S-iNAS** in the *Journal of Network and Systems Management*. The paper addresses a systems problem that matters directly to Industry 4.0 and digital twin deployments: how to keep Ceph-based industrial network-attached storage responsive when data streams become bursty, highly concurrent, and operationally uneven.
 
 <figure>
-  <img src="../images/news/251205/sinas-brochure.svg" alt="Brochure-style visual summary of the S-iNAS paper on adaptive Ceph scaling for industrial storage" width="1200">
+  <img src="/images/news/251205/sinas-brochure.svg" alt="Brochure-style visual summary of the S-iNAS paper on adaptive Ceph scaling for industrial storage" width="1200">
   <figcaption>S-iNAS research brochure: SRN-based analysis of time-based and event-based scaling for Ceph-backed industrial storage.</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ We are pleased to share the publication of **S-iNAS** in the *Journal of Network
 We are pleased to highlight a new publication in the *Journal of The Korea Society of Computer and Information* that focuses on a realism gap in edge dependability studies: failures in edge environments are often correlated rather than isolated. When power, network, or site-level disruptions strike multiple nodes at once, recovery policies that look effective under independent-failure assumptions can behave very differently in practice.
 
 <figure>
-  <img src="../images/news/251201/edge-availability-brochure.svg" alt="Brochure-style visual summary of the edge availability paper on correlated failures and recovery-policy trade-offs" width="1200">
+  <img src="/images/news/251201/edge-availability-brochure.svg" alt="Brochure-style visual summary of the edge availability paper on correlated failures and recovery-policy trade-offs" width="1200">
   <figcaption>Edge availability brochure: correlated-failure modeling, COA-based evaluation, and adaptive recovery guidance.</figcaption>
 </figure>
 
@@ -91,7 +91,7 @@ We are pleased to highlight a new publication in the *Journal of The Korea Socie
 Our recent article in the *Journal of Network and Computer Applications* studies Kubernetes autoscaling from a more useful engineering perspective: not only whether a deployment stays responsive, but whether it does so without wasting electrical power. This is especially important for cloud and edge platforms that must balance service quality, infrastructure cost, and sustainability at the same time.
 
 <figure>
-  <img src="../images/news/251101/kubernetes-gspn-brochure.svg" alt="Brochure-style visual summary of the Kubernetes microservices paper on performance and energy trade-offs" width="1200">
+  <img src="/images/news/251101/kubernetes-gspn-brochure.svg" alt="Brochure-style visual summary of the Kubernetes microservices paper on performance and energy trade-offs" width="1200">
   <figcaption>Research brochure for the Kubernetes microservices paper: balancing response time and energy use with GSPN-based analysis.</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ Our recent article in the *Journal of Network and Computer Applications* studies
 This *Computing* article reframes smart-city surveillance as a maintenance problem as much as a sensing or analytics problem. Urban surveillance platforms may include cameras, edge resources, communication links, and repair workflows, and their dependability depends heavily on how failures are anticipated, prioritized, and handled over time.
 
 <figure>
-  <img src="../images/news/251014/urban-surveillance-maintenance-brochure.svg" alt="Brochure-style visual summary of the urban surveillance maintenance paper on stochastic Petri net analysis" width="1200">
+  <img src="/images/news/251014/urban-surveillance-maintenance-brochure.svg" alt="Brochure-style visual summary of the urban surveillance maintenance paper on stochastic Petri net analysis" width="1200">
   <figcaption>Urban surveillance brochure: stochastic Petri net evaluation of reactive, autonomous, and preventive maintenance strategies.</figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ This *Computing* article reframes smart-city surveillance as a maintenance probl
 We are also excited to share **RT-VLM**, a new arXiv preprint focused on one of the most persistent problems in real-world perception: domain shift. When image statistics, viewing angles, occlusion patterns, or neighboring object classes change, recognition performance often drops sharply. RT-VLM tackles that problem by combining structured multimodal evidence with an explicit self-correction loop.
 
 <figure>
-  <img src="../images/news/250901/rt-vlm-brochure.svg" alt="Brochure-style visual summary of RT-VLM and its four-clue re-thinking process" width="1200">
+  <img src="/images/news/250901/rt-vlm-brochure.svg" alt="Brochure-style visual summary of RT-VLM and its four-clue re-thinking process" width="1200">
   <figcaption>RT-VLM brochure card: four-clue supervision and a two-stage re-thinking pipeline for more robust visual understanding.</figcaption>
 </figure>
 
@@ -169,7 +169,7 @@ We are also excited to share **RT-VLM**, a new arXiv preprint focused on one of 
 This MetaCom 2025 short paper expands digital-twin evaluation beyond realism and integration into the question of long-running dependability. For advanced air mobility (AAM) platforms, a cloud-edge-in-the-loop simulation stack is only useful if it can stay dependable while synchronizing models, services, and data flows over time.
 
 <figure>
-  <img src="../images/news/250827/metacom-cloud-edge-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on aging dependability in a cloud-edge AAM digital twin platform" width="1200">
+  <img src="/images/news/250827/metacom-cloud-edge-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on aging dependability in a cloud-edge AAM digital twin platform" width="1200">
   <figcaption>AAM digital twin brochure: aging-aware dependability analysis for a cloud-edge-in-the-loop simulation platform.</figcaption>
 </figure>
 
@@ -195,7 +195,7 @@ This MetaCom 2025 short paper expands digital-twin evaluation beyond realism and
 Persistent metaverse environments depend on storage systems that keep state available across distributed services and users. This MetaCom 2025 paper brings formal availability modeling directly into that layer, asking how resilience in distributed storage should be quantified rather than assumed.
 
 <figure>
-  <img src="../images/news/250827/metacom-storage-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on high availability quantification for metaverse distributed storage" width="1200">
+  <img src="/images/news/250827/metacom-storage-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on high availability quantification for metaverse distributed storage" width="1200">
   <figcaption>Metaverse storage brochure: stochastic reward net analysis for resilient distributed storage services.</figcaption>
 </figure>
 
@@ -221,7 +221,7 @@ Persistent metaverse environments depend on storage systems that keep state avai
 This MetaCom 2025 workshop paper focuses on one of robotics' most practical bottlenecks: how to make virtual training transfer into physical behavior. By combining ROS2, Unreal Engine, and reinforcement learning for TurtleBot experimentation, the work treats metaverse-ready simulation as a deployment bridge rather than only a visualization environment.
 
 <figure>
-  <img src="../images/news/250827/metacom-sim2real-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on sim-to-real reinforcement learning for TurtleBot in ROS2 and Unreal Engine" width="1200">
+  <img src="/images/news/250827/metacom-sim2real-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on sim-to-real reinforcement learning for TurtleBot in ROS2 and Unreal Engine" width="1200">
   <figcaption>Sim-to-real brochure: ROS2, Unreal Engine, and reinforcement learning combined for metaverse-ready robotics.</figcaption>
 </figure>
 
@@ -247,7 +247,7 @@ This MetaCom 2025 workshop paper focuses on one of robotics' most practical bott
 As metaverse platforms become more programmable, security questions move closer to code generation, code review, and automated filtering pipelines. This MetaCom 2025 paper addresses that direction by studying malicious code detection with large language models and by treating token optimization as part of the detection design space.
 
 <figure>
-  <img src="../images/news/250827/metacom-malicious-code-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on LLM-based malicious code detection through token optimization" width="1200">
+  <img src="/images/news/250827/metacom-malicious-code-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on LLM-based malicious code detection through token optimization" width="1200">
   <figcaption>Metaverse security brochure: LLM-based malicious code detection with token-level optimization.</figcaption>
 </figure>
 
@@ -273,7 +273,7 @@ As metaverse platforms become more programmable, security questions move closer 
 This workshop paper treats prompting not as a one-off instruction-writing trick, but as an adaptive optimization problem. In metaverse applications where tasks can vary widely across content generation, interaction, assistance, and moderation, that shift matters because prompt quality becomes part of system performance.
 
 <figure>
-  <img src="../images/news/250827/metacom-adaptive-prompting-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on adaptive prompting for metaverse tasks" width="1200">
+  <img src="/images/news/250827/metacom-adaptive-prompting-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on adaptive prompting for metaverse tasks" width="1200">
   <figcaption>Adaptive prompting brochure: iterative prompt optimization for diverse LLM-driven metaverse tasks.</figcaption>
 </figure>
 
@@ -299,7 +299,7 @@ This workshop paper treats prompting not as a one-off instruction-writing trick,
 This MetaCom 2025 paper introduces **PGELU**, a parametric GELU variant designed for recognition workloads that span both emotional signals and 3D object understanding. That combination is notable because metaverse perception often mixes human-centered and scene-centered recognition tasks in the same pipeline.
 
 <figure>
-  <img src="../images/news/250827/metacom-pgelu-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on PGELU for emotion and 3D object recognition" width="1200">
+  <img src="/images/news/250827/metacom-pgelu-brochure.svg" alt="Brochure-style visual summary of the MetaCom paper on PGELU for emotion and 3D object recognition" width="1200">
   <figcaption>PGELU brochure: activation-level design for stable emotion and 3D object recognition in metaverse pipelines.</figcaption>
 </figure>
 
@@ -325,7 +325,7 @@ This MetaCom 2025 paper introduces **PGELU**, a parametric GELU variant designed
 Published in *ICT Express*, this paper studies how cloud-edge-sensor infrastructures can be sized and tuned for data harvesting systems, with agricultural monitoring as a motivating application. Rather than treating sensing pipelines as black boxes, the work uses queueing theory to expose where latency, overload, and under-provisioning emerge before costly infrastructure changes are made.
 
 <figure>
-  <img src="../images/news/250801/data-harvesting-brochure.svg" alt="Brochure-style visual summary of the cloud-edge-sensor data harvesting paper" width="1200">
+  <img src="/images/news/250801/data-harvesting-brochure.svg" alt="Brochure-style visual summary of the cloud-edge-sensor data harvesting paper" width="1200">
   <figcaption>Cloud-edge-sensor brochure card: queueing-theoretic design guidance for scalable data harvesting systems.</figcaption>
 </figure>
 
@@ -351,7 +351,7 @@ Published in *ICT Express*, this paper studies how cloud-edge-sensor infrastruct
 Another recent publication appeared in the **SBRC 2025** proceedings and focuses on intelligent camera surveillance in smart buildings. The core challenge is straightforward but operationally demanding: real-time video analytics requires significant compute resources, and poorly planned edge-fog pipelines can quickly become overloaded, slow, or wasteful.
 
 <figure>
-  <img src="../images/news/250519/smart-surveillance-brochure.svg" alt="Brochure-style visual summary of the smart building surveillance paper" width="1200">
+  <img src="/images/news/250519/smart-surveillance-brochure.svg" alt="Brochure-style visual summary of the smart building surveillance paper" width="1200">
   <figcaption>Smart surveillance brochure card: SPN-based capacity planning for real-time camera analytics over edge and fog layers.</figcaption>
 </figure>
 
@@ -377,7 +377,7 @@ Another recent publication appeared in the **SBRC 2025** proceedings and focuses
 This proceedings paper from the Korean Society for Aeronautical and Space Sciences focuses on a vehicle digital twin as an integrated engineering system rather than a visualization layer. The study reports preliminary flight-simulation behavior for an eVTOL platform under steady-wind conditions, linking digital-twin design to actual flight-dynamics response.
 
 <figure>
-  <img src="../images/news/250402/vehicle-digital-twin-brochure.svg" alt="Brochure-style visual summary of the vehicle digital twin paper on steady-wind flight simulation" width="1200">
+  <img src="/images/news/250402/vehicle-digital-twin-brochure.svg" alt="Brochure-style visual summary of the vehicle digital twin paper on steady-wind flight simulation" width="1200">
   <figcaption>Vehicle digital twin brochure: integrated flight simulation for the KADA KP2-c under steady-wind conditions.</figcaption>
 </figure>
 
@@ -403,7 +403,7 @@ This proceedings paper from the Korean Society for Aeronautical and Space Scienc
 This publication record marks the formal correction linked to the container migration article published earlier in 2025. While shorter than a research paper, it still matters because dependable scholarship also depends on maintaining an accurate and transparent publication trail.
 
 <figure>
-  <img src="../images/news/250313/container-migration-correction-brochure.svg" alt="Brochure-style visual summary of the correction notice for the container migration study" width="1200">
+  <img src="/images/news/250313/container-migration-correction-brochure.svg" alt="Brochure-style visual summary of the correction notice for the container migration study" width="1200">
   <figcaption>Publication record brochure: correction notice tied to the container migration performance study.</figcaption>
 </figure>
 
@@ -429,7 +429,7 @@ This publication record marks the formal correction linked to the container migr
 Container migration is one of the key mechanisms that allows cloud and edge services to remain available while workloads move, fail over, or rebalance. This *Computing* article studies that problem systematically using stochastic Petri net models instead of relying only on ad hoc operational trial and error.
 
 <figure>
-  <img src="../images/news/250205/container-migration-brochure.svg" alt="Brochure-style visual summary of the container migration strategies paper" width="1200">
+  <img src="/images/news/250205/container-migration-brochure.svg" alt="Brochure-style visual summary of the container migration strategies paper" width="1200">
   <figcaption>Container migration brochure: stochastic comparison of Cold, PreCopy, PostCopy, and Hybrid strategies.</figcaption>
 </figure>
 
@@ -455,7 +455,7 @@ Container migration is one of the key mechanisms that allows cloud and edge serv
 We are pleased to highlight a new *ICT Express* publication on permissioned blockchain performance. The paper models transaction processing in **Hyperledger Fabric** using Stochastic Petri Nets, with the goal of helping administrators understand how configuration choices affect response time, throughput, and resource efficiency before deployment decisions become expensive.
 
 <figure>
-  <img src="../images/news/250205/hyperledger-brochure.svg" alt="Brochure-style visual summary of the Hyperledger Fabric performance paper" width="1200">
+  <img src="/images/news/250205/hyperledger-brochure.svg" alt="Brochure-style visual summary of the Hyperledger Fabric performance paper" width="1200">
   <figcaption>Hyperledger Fabric brochure card: SPN-based analysis of transactional flow, response time, and throughput.</figcaption>
 </figure>
 
@@ -481,7 +481,7 @@ We are pleased to highlight a new *ICT Express* publication on permissioned bloc
 This *ICT Express* publication studies disaster detection as a geographically distributed systems problem rather than a single-site sensing setup. By combining LoRaWAN-oriented communication assumptions with cloud and fog resources, the paper examines how multi-region monitoring can be modeled before infrastructure is deployed at scale.
 
 <figure>
-  <img src="../images/news/250201/disaster-detection-brochure.svg" alt="Brochure-style visual summary of the IoT disaster detection paper across multiple geographic areas" width="1200">
+  <img src="/images/news/250201/disaster-detection-brochure.svg" alt="Brochure-style visual summary of the IoT disaster detection paper across multiple geographic areas" width="1200">
   <figcaption>Disaster detection brochure: LoRaWAN-aware stochastic models for cloud-fog monitoring across multiple regions.</figcaption>
 </figure>
 
@@ -507,7 +507,7 @@ This *ICT Express* publication studies disaster detection as a geographically di
 This TechRxiv preprint presents **mhmcTD3**, a multi-head actor-critic reinforcement learning architecture for autonomous navigation in dynamic and cluttered environments. The work is especially compelling because it aims to preserve rich LiDAR information, temporal context, and real-world transferability at the same time instead of optimizing only one of those dimensions.
 
 <figure>
-  <img src="../images/news/250121/mhmctd3-brochure.svg" alt="Brochure-style visual summary of the mhmcTD3 preprint for autonomous navigation" width="1200">
+  <img src="/images/news/250121/mhmctd3-brochure.svg" alt="Brochure-style visual summary of the mhmcTD3 preprint for autonomous navigation" width="1200">
   <figcaption>mhmcTD3 brochure: multi-head LiDAR fusion, memory contextualisation, and sim-to-real autonomous navigation.</figcaption>
 </figure>
 
@@ -542,11 +542,11 @@ The result is a more adaptive, responsive, and reliable autonomous navigation so
 
 <div class="figure-grid figure-grid--two">
   <figure>
-    <img src="../images/news/241221/mhmcTD3_architectutre.jpeg" alt="mhmcTD3 architecture for autonomous navigation" width="500">
+    <img src="/images/news/241221/mhmcTD3_architectutre.jpeg" alt="mhmcTD3 architecture for autonomous navigation" width="500">
     <figcaption>mhmcTD3 architecture for autonomous navigation.</figcaption>
   </figure>
   <figure>
-    <img src="../images/news/241221/multi_head_actor_critic_networks.jpeg" alt="multi-head actor-critic network architectures" width="500">
+    <img src="/images/news/241221/multi_head_actor_critic_networks.jpeg" alt="multi-head actor-critic network architectures" width="500">
     <figcaption>Multi-head actor-critic network architectures.</figcaption>
   </figure>
 </div>
@@ -559,7 +559,7 @@ The result is a more adaptive, responsive, and reliable autonomous navigation so
 We are pleased to introduce our latest research published in **ICT Express** (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1). This study presents advanced Stochastic Petri Net (SPN) models to optimize IoT sensor operations in LoRaWAN networks, addressing key challenges in large-scale, disaster-prone regions.
 
 <figure>
-    <img src="../images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="500">
+    <img src="/images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="500">
     <figcaption>IoT Disaster Detection System and Stochastic Modeling</figcaption>
 </figure>
 
@@ -583,7 +583,7 @@ Araújo, I., Silva, L. G., Brito, C., Min, D., Lee, J.-W., Nguyen, T. A., Leão,
 We recently highlighted the study **"Efficient Strategies for Unmanned Aerial Vehicle Flights: Analyzing Battery Life and Operational Performance in Delivery Services using Stochastic Models"** published in *IEEE Access*. This research, conducted by Francisco Airton Silva, Vandirleya Barbosa, Luiz Nelson Lima, Arthur Sabino, Paulo Rego, Luiz F. Bittencourt, Jae-Woo Lee, Dugki Min, and Tuan Anh Nguyen, advances what is possible in UAV delivery services.
 
 <figure>
-    <img src="../images/news/240828/Transport_system_with_without_considering_package_transfer.png" alt="Transport system with/without considering package transfer" width="500">
+    <img src="/images/news/240828/Transport_system_with_without_considering_package_transfer.png" alt="Transport system with/without considering package transfer" width="500">
     <figcaption>Transport system with/without considering package transfer</figcaption>
 </figure>
 
@@ -682,11 +682,11 @@ I am incredibly grateful to my professor and co-author, Professor Jae-Woo Lee, t
 Looking forward to the future collaborations and advancements in this exciting field!
 
 <figure>
-    <img src="../images/news/240720/CACRE_2024_Presentation.jpg" alt="Presentation at CACRE 2024">
+    <img src="/images/news/240720/CACRE_2024_Presentation.jpg" alt="Presentation at CACRE 2024">
     <figcaption>AAM-VDT Presentation at CACRE 2024</figcaption>
 </figure>
 <figure>
-    <img src="../images/news/240720/CACRE_2024_Information.png" alt="CACRE 2024 Information">
+    <img src="/images/news/240720/CACRE_2024_Information.png" alt="CACRE 2024 Information">
     <figcaption>CACRE 2024 Information</figcaption>
 </figure>
 
@@ -718,27 +718,27 @@ Special thanks to our diligent KADA engineers and researchers! Jeongseok Hyun, M
 Excited about the possibilities that lie ahead as we continue to innovate and drive advancements in advanced air mobility.
 
 <figure>
-    <img src="../images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
+    <img src="/images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
     <figcaption>VDT Technologies of KADA</figcaption>
 </figure>
 <figure>
-    <img src="../images/news/240512/AAM-VDT/VDT Simulation System.jpg" alt="VDT Simulation System">
+    <img src="/images/news/240512/AAM-VDT/VDT Simulation System.jpg" alt="VDT Simulation System">
     <figcaption>VDT Simulation System for Demonstration</figcaption>
 </figure>
 <figure>
-    <img src="../images/news/240512/AAM-VDT/VDT-CILS.jpg" alt="VDT-CILS">
+    <img src="/images/news/240512/AAM-VDT/VDT-CILS.jpg" alt="VDT-CILS">
     <figcaption> VDT Cloud in the loop simulation (CILS) </figcaption>
 </figure>
 <figure>
-    <img src="../images/news/240512/AAM-VDT/VDT-Single-ODT.jpg" alt="VDT Single ODT">
+    <img src="/images/news/240512/AAM-VDT/VDT-Single-ODT.jpg" alt="VDT Single ODT">
     <figcaption>VDT Single Vehicle integrated with operational digital twin (ODT)</figcaption>
 </figure>
 <figure>
-    <img src="../images/news/240512/AAM-VDT/VDT-SITL.jpg" alt="VDT SITL">
+    <img src="/images/news/240512/AAM-VDT/VDT-SITL.jpg" alt="VDT SITL">
     <figcaption>VDT software in the loop simulation (SITL)</figcaption>
 </figure>
 <figure>
-    <img src="../images/news/240512/AAM-VDT/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
+    <img src="/images/news/240512/AAM-VDT/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
     <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
 </figure>
 
@@ -780,14 +780,14 @@ Special thanks to our Brazilian team, coordinated by [Francisco Airton Silva](ht
 During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://people.cs.vt.edu/~jicho/), a collaborator of my Ph.D. supervisor, [Dongseong Kim](https://researchers.uq.edu.au/researcher/23703). Jin-Hee Cho is now an Associate Professor in the Department of Computer Science at Virginia Tech. It was great to converse with her and attend her fascinating research presentation. It's remarkable how small and interconnected the world can be.
 
 <figure>
-    <img src="../images/news/240510/NOMS 2024/NOMS 2024 (01).jpg" alt="NOMS 2024 Photo 1">
+    <img src="/images/news/240510/NOMS 2024/NOMS 2024 (01).jpg" alt="NOMS 2024 Photo 1">
     <figcaption>Our presentation at NOMS</figcaption>
 </figure>
 <figure>
-    <img src="../images/news/240510/NOMS 2024/NOMS 2024 (02).jpg" alt="NOMS 2024 Photo 2">
+    <img src="/images/news/240510/NOMS 2024/NOMS 2024 (02).jpg" alt="NOMS 2024 Photo 2">
     <figcaption>NOMS 2024 whole week schedule</figcaption>
 </figure>
 <figure>
-    <img src="../images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
+    <img src="/images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
     <figcaption> A system demonstration at NOMS 2024 </figcaption>
 </figure>

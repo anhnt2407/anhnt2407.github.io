@@ -64,7 +64,7 @@ author:
   orcid            : "https://orcid.org/0000-0002-9123-3584"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=q6gCa4cAAAAJ"
   email            : "anhnt2407@gmail.com"
-  researchgate     :  https://www.researchgate.net/profile/Tuan-Anh-Nguyen-15
+  researchgate     : "https://www.researchgate.net/profile/Tuan-Anh-Nguyen-15"
   uri              :
   bitbucket        :
   codepen          :
@@ -199,7 +199,7 @@ plugins:
 whitelist:
   - jekyll-sitemap
   - jekyll-feed
-  - jemoji
+  - jekyll-redirect-from
 
 
 #     tag: archive-taxonomy

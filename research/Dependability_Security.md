@@ -18,19 +18,19 @@ The analysis focuses on steady-state availability, annual downtime, transaction 
 
 <div class="figure-grid figure-grid--two">
   <figure>
-    <img src="../assets/img/DS_VSS_Architecture.png" alt="Architecture of a virtualized server system with multiple hosts, VMMs, and VMs">
+    <img src="/assets/img/DS_VSS_Architecture.png" alt="Architecture of a virtualized server system with multiple hosts, VMMs, and VMs">
     <figcaption>Architecture of a virtualized server system (VSS).</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/DS_VSS_SRN_Model.jpg" alt="Stochastic reward net model for a virtualized server system">
+    <img src="/assets/img/DS_VSS_SRN_Model.jpg" alt="Stochastic reward net model for a virtualized server system">
     <figcaption>SRN model of the virtualized server system.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/DS_VSS_Sensitivity_VMM.jpg" alt="Sensitivity analysis with respect to VMM rejuvenation interval">
+    <img src="/assets/img/DS_VSS_Sensitivity_VMM.jpg" alt="Sensitivity analysis with respect to VMM rejuvenation interval">
     <figcaption>Sensitivity of steady-state availability to VMM rejuvenation.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/DS_VSS_Sensitivity_VM.jpg" alt="Sensitivity analysis with respect to VM rejuvenation interval">
+    <img src="/assets/img/DS_VSS_Sensitivity_VM.jpg" alt="Sensitivity analysis with respect to VM rejuvenation interval">
     <figcaption>Sensitivity of steady-state availability to VM rejuvenation.</figcaption>
   </figure>
 </div>
@@ -52,7 +52,7 @@ The model includes active-active operation between sites, active-passive operati
 - design guidance for balancing availability, downtime cost, and infrastructure cost
 
 <figure>
-  <img src="../assets/img/DTDC_Disaster_Tolerant_Configuration.png" alt="Operational configurations for disaster-tolerant data centers">
+  <img src="/assets/img/DTDC_Disaster_Tolerant_Configuration.png" alt="Operational configurations for disaster-tolerant data centers">
   <figcaption>Operational configurations for DTDC deployment.</figcaption>
 </figure>
 
@@ -75,19 +75,19 @@ The framework combines a top-level fault-tree system model, subsystem-level faul
 
 <div class="figure-grid figure-grid--two">
   <figure>
-    <img src="../assets/img/IoMT_Hierarchical_Modeling_Framework.jpg" alt="Hierarchical modeling framework for an Internet of Medical Things infrastructure">
+    <img src="/assets/img/IoMT_Hierarchical_Modeling_Framework.jpg" alt="Hierarchical modeling framework for an Internet of Medical Things infrastructure">
     <figcaption>Hierarchical modeling framework for IoMT infrastructures.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/IoMT_Architecture.jpg" alt="Architecture of an Internet of Medical Things system for healthcare monitoring">
+    <img src="/assets/img/IoMT_Architecture.jpg" alt="Architecture of an Internet of Medical Things system for healthcare monitoring">
     <figcaption>Representative IoMT architecture for healthcare monitoring.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/IoMT_SRN.jpg" alt="Stochastic model of the Internet of Medical Things infrastructure">
+    <img src="/assets/img/IoMT_SRN.jpg" alt="Stochastic model of the Internet of Medical Things infrastructure">
     <figcaption>Stochastic reward net model of the IoMT infrastructure.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/IoMT_Availability_Sensitivity.jpg" alt="Availability sensitivity analysis for the Internet of Medical Things infrastructure">
+    <img src="/assets/img/IoMT_Availability_Sensitivity.jpg" alt="Availability sensitivity analysis for the Internet of Medical Things infrastructure">
     <figcaption>Availability sensitivity analysis for IoMT deployment.</figcaption>
   </figure>
 </div>
@@ -104,19 +104,19 @@ The proposed models capture time-based IP shuffling, switch-over strategies betw
 
 <div class="figure-grid figure-grid--two">
   <figure>
-    <img src="../assets/img/SDN_Architecture.jpg" alt="System architecture of a software-defined network with moving target defense">
+    <img src="/assets/img/SDN_Architecture.jpg" alt="System architecture of a software-defined network with moving target defense">
     <figcaption>Software-defined network architecture with MTD support.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/SDN_SRN_Model.jpg" alt="Stochastic model of moving target defense strategies in software-defined networks">
+    <img src="/assets/img/SDN_SRN_Model.jpg" alt="Stochastic model of moving target defense strategies in software-defined networks">
     <figcaption>SRN model of switch-over MTD strategies in SDN.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/SDN_Performance_Analysis.jpg" alt="System response-time analysis for moving target defense strategies">
+    <img src="/assets/img/SDN_Performance_Analysis.jpg" alt="System response-time analysis for moving target defense strategies">
     <figcaption>Performance analysis of system response time.</figcaption>
   </figure>
   <figure>
-    <img src="../assets/img/SDN_Performance_Analysis_Jobs.jpg" alt="Dropped-jobs analysis for moving target defense strategies">
+    <img src="/assets/img/SDN_Performance_Analysis_Jobs.jpg" alt="Dropped-jobs analysis for moving target defense strategies">
     <figcaption>Impact of MTD strategies on dropped jobs.</figcaption>
   </figure>
 </div>
