@@ -304,16 +304,9 @@ He earned his Ph.D. in Computer Science and Systems Engineering from the Departm
   </article>
 
   <article class="experience-card">
-    <p class="experience-card__eyebrow">Email</p>
-    <h3>Primary Academic Contact</h3>
-    <p class="experience-card__meta"><a href="mailto:anhnt2407@konkuk.ac.kr">anhnt2407@konkuk.ac.kr</a></p>
-    <p>Best used for research collaboration, publications, and academic correspondence.</p>
-  </article>
-
-  <article class="experience-card">
-    <p class="experience-card__eyebrow">Institutional Address</p>
-    <h3>Konkuk University, Seoul Campus</h3>
-    <p class="experience-card__meta">(05029) 120 Neungdong-ro, Gwangjin-gu, Seoul, Korea</p>
-    <p>New Engineering Building, Room #1207 or Heavy Experimental Lab.'s Building, Room #204.</p>
+    <p class="experience-card__eyebrow">Office Address</p>
+    <h3>VinDynamics</h3>
+    <p class="experience-card__meta">Floor 18, TechnoPark Tower, Vinhomes Ocean Park, Đa Tốn, Gia Lâm, Hanoi, Vietnam</p>
+    <p>Primary workplace and office location.</p>
   </article>
 </div>
