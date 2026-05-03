@@ -1,3 +1,19 @@
 {
-    "gitdoc.enabled": true
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "gitdoc.enabled": true,
+    "gitdoc.autoCommitDelay": 5000,
+    "gitdoc.autoPull": "afterDelay",
+    "gitdoc.autoPullDelay": 5000,
+    "gitdoc.autoPush": "afterDelay",
+    "gitdoc.autoPushDelay": 5000,
+    "gitdoc.pushMode": "push",
+    "gitdoc.pullOnOpen": true,
+    "gitdoc.commitOnClose": true,
+    "gitdoc.commitValidationLevel": "none",
+    "gitdoc.noVerify": true,
+    "gitdoc.filePattern": "**/*"
 }
