@@ -8,7 +8,7 @@ author_profile: true
 
 <div class="page-lead">
   <p>Selected journal articles, conference papers, preprints, manuscripts under review, and book contributions organized by research domain.</p>
-  <p class="page-metadata">Last updated: March 24, 2026</p>
+  <p class="page-metadata">Last updated: May 16, 2026</p>
 </div>
 
 ## Publication Domain Overview
@@ -22,7 +22,6 @@ author_profile: true
 ## A. Manuscripts under review / revision
 
 - Nam, S., Nguyen, T. A., Choi, E., & Min, D. **FH-DRL: Exponential-Hyperbolic Frontier Heuristics with DRL for Accelerated Exploration in Unknown Environments.** *IEEE Transactions on Intelligent Vehicles* (Manuscript ID: T-IV-25-02-0130; submitted 14-Feb-2025).
-- Nguyen, T. A., Lim, D., Kyung, M., & Min, D. **Distributed Edge Storage Systems: Proactive High-Availability Microservices with Live Migration and Rejuvenation Strategies.** Submitted to *Mathematics* (MDPI).
 - Nam, S., Nguyen, T. A., Choi, E., & Min, D. **Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation.** Manuscript under review.
 - Folåsen, H., Nguyen, T. A., & Min, D. **FreqStack: Adaptive Spectral Mixture-of-Experts for Robust Zero-shot Deepfake Detection.** Manuscript under review.
 - Folåsen, H., Min, D., & Nguyen, T. A. **From Global FFT to Local DWT: A Soft MoE Detector for Robust Deepfake Recognition.** Manuscript under review.
@@ -86,6 +85,8 @@ Deep and multi-agent reinforcement learning, neural control, physics-informed an
 Data centers, virtualized servers, SDN, storage systems, cloud-fog-edge environments, container and microservice platforms, blockchain platforms, and identity infrastructures.
 
 *Journal and book publications*
+
+23. <span class="pub-tag">[J53]</span> Nguyen, T. A., Lim, D., Kyung, M., & Min, D. (2026). **Distributed Edge Storage Systems: Proactive High-Availability Microservices with Live Migration and Rejuvenation Strategies.** *Mathematics*, 14(10), 1704. [doi:10.3390/math14101704](https://doi.org/10.3390/math14101704). (SCIE, JCR.Q1 Mathematics, IF2024=2.2) [2026-05-15]
 
 23. <span class="pub-tag">[J51]</span> Lim, D., Nguyen, T. A., Min, D., & Kyung, M. (2025). **An SRN-based Availability Modeling and Analysis for Edge Computing Systems with Correlated Failures.** *Journal of The Korea Society of Computer and Information*, 30(12), 25--35. [2025-12-01]
 

@@ -15,32 +15,32 @@ OUTPUT_PATH = ROOT / "_includes" / "publication_news_archive.html"
 OUTPUT_2025_PATH = ROOT / "_includes" / "publication_news_2025.html"
 
 SPECIAL_LINKS = {
-    13: {
+    "C48": {
         "label": "DBpia record",
         "url": "https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11658488",
         "badge": "DBpia",
     },
-    23: {
+    "J51": {
         "label": "DOI record",
         "url": "https://doi.org/10.9708/jksci.2025.30.12.025",
         "badge": "DOI",
     },
-    88: {
+    "C51": {
         "label": "KSAS proceedings",
         "url": "https://ksas.or.kr/proceedings/2025a/data/%EC%B2%A8%EB%B6%804.%202025%EB%85%84%EB%8F%84%EC%B6%98%EA%B3%84%ED%95%99%EC%88%A0%EB%8C%80%ED%9A%8C_%EB%85%BC%EB%AC%B8%EC%A7%91_All.pdf",
         "badge": "Proceedings",
     },
-    90: {
+    "C49": {
         "label": "DBpia record",
         "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12058721",
         "badge": "DBpia",
     },
-    95: {
+    "C47": {
         "label": "DBpia record",
         "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11658014",
         "badge": "DBpia",
     },
-    103: {
+    "C50": {
         "label": "Program record",
         "url": "https://ksas.or.kr/proceedings/2024b/data/2024%EB%85%84%EB%8F%84%20%EC%B6%94%EA%B3%84%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%28%EC%95%88%29%20v9.pdf",
         "badge": "Program",
@@ -77,6 +77,13 @@ LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 TAG_RE = re.compile(r"\[([A-Z]\d+[A-Za-z]?)\]</span>")
 
 CURATED_SUMMARIES = {
+    "J53": (
+        "Published in Mathematics, this article models microservice-based distributed edge "
+        "storage with stochastic reward nets across hardware failures, software failures, "
+        "software aging, high availability, live migration, and rejuvenation. It compares six "
+        "policy scenarios through Capacity-Oriented Availability and shows why migration must "
+        "finish before rejuvenation to avoid Proactive Crash behavior."
+    ),
     "J49": (
         "Published in Journal of Network and Systems Management, S-iNAS studies Ceph-based "
         "industrial storage under bursty Industry 4.0 workloads with SRN models that compare "
@@ -232,11 +239,11 @@ def type_label(tag: str, venue: str, link: str) -> str:
 
 
 def source_badge(entry: dict[str, str | int]) -> str:
-    idx = int(entry["idx"])
+    tag = str(entry["tag"])
     link = str(entry["link"])
 
-    if idx in SPECIAL_LINKS:
-        return SPECIAL_LINKS[idx]["badge"]
+    if tag in SPECIAL_LINKS:
+        return SPECIAL_LINKS[tag]["badge"]
     if "doi.org" in link:
         return "DOI"
     if "openreview" in link:
@@ -329,9 +336,9 @@ def format_date(value: str) -> str:
     return datetime.strptime(value, "%Y-%m-%d").strftime("%B %-d, %Y")
 
 
-def find_best_link(line: str, idx: int) -> tuple[str, str]:
-    if idx in SPECIAL_LINKS:
-        special = SPECIAL_LINKS[idx]
+def find_best_link(line: str, tag: str) -> tuple[str, str]:
+    if tag in SPECIAL_LINKS:
+        special = SPECIAL_LINKS[tag]
         return special["url"], special["label"]
 
     for label, url in LINK_RE.findall(line):
@@ -389,7 +396,7 @@ def parse_entries(markdown: str) -> list[dict[str, str | int]]:
         elif rest.startswith("In "):
             rest = rest[3:]
 
-        link, link_label = find_best_link(line, idx)
+        link, link_label = find_best_link(line, tag)
         venue = clean_venue(rest, link)
 
         entry: dict[str, str | int] = {
