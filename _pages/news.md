@@ -6,6 +6,32 @@ permalink: /news/
 author_profile: true
 ---
 
+<p class="news-date">May 15, 2026</p>
+
+## Distributed Edge Storage Systems in *Mathematics*
+
+We are pleased to share a new open-access article in *Mathematics* on proactive high availability for microservice-based distributed edge storage. The paper studies a practical reliability problem for mobile edge computing: storage services must remain available for immersive and IoT workloads while facing both abrupt failures and slower software-aging effects.
+
+<figure>
+  <img src="/images/news/260515/distributed-edge-storage-brochure.svg" alt="Brochure-style visual summary of the distributed edge storage paper on live migration and rejuvenation" width="1200">
+  <figcaption>Distributed edge storage brochure: SRN-based availability analysis for live migration, rejuvenation, and proactive high-availability policies.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Develops a **Stochastic Reward Net (SRN)** model for a multi-node edge storage architecture with hardware failures, software failures, software aging, high availability, live migration, and rejuvenation.
+- Evaluates six policy scenarios and introduces **Capacity-Oriented Availability (COA)** as the expected number of usable microservices while the storage layer remains operational.
+- Runs steady-state and sensitivity analyses over twelve timing parameters to identify which policy and timing choices most affect service availability.
+
+### Why this matters
+
+- The Crossref abstract verifies that policies including **live migration** achieve the highest, or effectively tied-highest, COA across broad failure and repair ranges.
+- The paper highlights a subtle operational risk called **Proactive Crash (PC)**: uncoordinated rejuvenation can reduce availability when services are terminated before live migration finishes evacuating them.
+- The results give concrete configuration guidance: let migration complete before rejuvenation, and tune rejuvenation intervals so they are neither too frequent nor too sparse.
+
+**Publication record:** Published online on May 15, 2026 in *Mathematics*, Volume 14, Issue 10, Article 1704 ([DOI](https://doi.org/10.3390/math14101704), [MDPI article](https://www.mdpi.com/2227-7390/14/10/1704)).
+
+---
 <p class="news-date">February 22, 2026</p>
 
 ## VAE+DDPG for Autonomous Navigation in Low-Light Environments
