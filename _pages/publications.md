@@ -88,7 +88,7 @@ Data centers, virtualized servers, SDN, storage systems, cloud-fog-edge environm
 
 23. <span class="pub-tag">[J53]</span> Nguyen, T. A., Lim, D., Kyung, M., & Min, D. (2026). **Distributed Edge Storage Systems: Proactive High-Availability Microservices with Live Migration and Rejuvenation Strategies.** *Mathematics*, 14(10), 1704. [doi:10.3390/math14101704](https://doi.org/10.3390/math14101704). (SCIE, JCR.Q1 Mathematics, IF2024=2.2) [2026-05-15]
 
-23. <span class="pub-tag">[J51]</span> Lim, D., Nguyen, T. A., Min, D., & Kyung, M. (2025). **An SRN-based Availability Modeling and Analysis for Edge Computing Systems with Correlated Failures.** *Journal of The Korea Society of Computer and Information*, 30(12), 25--35. [2025-12-01]
+23. <span class="pub-tag">[J51]</span> Lim, D., Nguyen, T. A., Min, D., & Kyung, M. (2025). **An SRN-based Availability Modeling and Analysis for Edge Computing Systems with Correlated Failures.** *Journal of The Korea Society of Computer and Information*, 30(12), 25--35. [doi:10.9708/jksci.2025.30.12.025](https://doi.org/10.9708/jksci.2025.30.12.025). [2025-12-31]
 
 24. <span class="pub-tag">[J49]</span> Lim, D., Nguyen, T. A., Li, J., Choi, E., Min, D., Cadena, R. M., Nogueira, B., Andrade, E., Callou, G., Di Mauro, M., Torquato, M., Silva, F. A., & Maciel, P. (2025). **S-iNAS: A performance-centric SRN modeling and analysis of time and event based scaling strategies in Ceph-based industrial network-attached storage.** *Journal of Network and Systems Management*, 34(1), Article 34. [doi:10.1007/s10922-025-10005-6](https://doi.org/10.1007/s10922-025-10005-6). [2025-12-05]
 

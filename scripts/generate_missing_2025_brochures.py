@@ -20,7 +20,7 @@ BROCHURES = [
     {
         "output": ROOT / "images/news/251201/edge-availability-brochure.svg",
         "type": "Journal Article",
-        "date": "December 1, 2025",
+        "date": "December 31, 2025",
         "title": ["Edge Availability under", "Correlated Failures"],
         "subtitle": [
             "SRN modeling with Capacity-Oriented Availability for",
@@ -38,7 +38,7 @@ BROCHURES = [
             "Recovery policy should adapt to fault scale",
         ],
         "venue": "Journal of The Korea Society of Computer and Information",
-        "note": "Verified from DOI metadata and the public K-Knowledge/KCI abstract page.",
+        "note": "Verified from DOI metadata and the official KCI article page.",
         "palette": {
             "bg0": "#f5fbff",
             "bg1": "#dbeaf6",

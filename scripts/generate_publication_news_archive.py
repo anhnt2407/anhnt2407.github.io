@@ -103,6 +103,66 @@ DOMAIN_HEADINGS = {
     "## F. ": "Domain 5",
 }
 
+DOMAIN_VISUAL_CLASSES = {
+    "Domain 1": "publication-news-card--ai",
+    "Domain 2": "publication-news-card--infra",
+    "Domain 3": "publication-news-card--iot",
+    "Domain 4": "publication-news-card--twin",
+    "Domain 5": "publication-news-card--aero",
+}
+
+DOMAIN_VISUAL_LABELS = {
+    "Domain 1": "AI autonomy",
+    "Domain 2": "Dependability",
+    "Domain 3": "IoT systems",
+    "Domain 4": "Digital twin",
+    "Domain 5": "Aerospace",
+}
+
+TYPE_VISUAL_CLASSES = {
+    "Journal article": "publication-news-card--journal",
+    "Conference paper": "publication-news-card--conference",
+    "Preprint": "publication-news-card--preprint",
+    "Book chapter": "publication-news-card--book",
+    "Submission record": "publication-news-card--record",
+    "Publication record": "publication-news-card--record",
+}
+
+VISUAL_KEYWORDS = (
+    ("stochastic reward", "SRN"),
+    ("stochastic petri", "SPN"),
+    ("petri", "SPN"),
+    ("queue", "Queueing"),
+    ("availability", "Availability"),
+    ("dependability", "Dependability"),
+    ("reliability", "Reliability"),
+    ("energy", "Energy"),
+    ("kubernetes", "K8s"),
+    ("microservice", "Microservices"),
+    ("migration", "Migration"),
+    ("blockchain", "Blockchain"),
+    ("hyperledger", "Fabric"),
+    ("internet of medical", "IoMT"),
+    ("smart city", "Smart city"),
+    ("smart building", "Smart building"),
+    ("surveillance", "Surveillance"),
+    ("robot", "Robotics"),
+    ("reinforcement", "DRL"),
+    ("navigation", "Navigation"),
+    ("vision", "Vision"),
+    ("language model", "VLM/LLM"),
+    ("deep learning", "Deep learning"),
+    ("digital twin", "Digital twin"),
+    ("uam", "UAM"),
+    ("aam", "AAM"),
+    ("evtol", "eVTOL"),
+    ("aerial", "Aerial"),
+    ("uav", "UAV"),
+    ("airfoil", "Airfoil"),
+    ("aerodynamic", "Aerodynamics"),
+    ("satellite", "Satellite"),
+)
+
 TITLE_RE = re.compile(r"\*\*(.+?)\*\*")
 DATE_RE = re.compile(r"\[(\d{4}-\d{2}-\d{2})\]\s*$")
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
@@ -368,6 +428,240 @@ def format_date(value: str) -> str:
     return datetime.strptime(value, "%Y-%m-%d").strftime("%B %-d, %Y")
 
 
+def safe_id(value: str) -> str:
+    cleaned = re.sub(r"[^A-Za-z0-9_-]+", "-", value).strip("-")
+    return cleaned or "publication"
+
+
+def card_classes(entry: dict[str, str | int]) -> str:
+    classes = ["publication-news-card"]
+    classes.append(DOMAIN_VISUAL_CLASSES[str(entry["domain"])])
+    classes.append(TYPE_VISUAL_CLASSES.get(str(entry["type"]), "publication-news-card--record"))
+    return " ".join(classes)
+
+
+def metric_values(entry: dict[str, str | int], count: int = 8) -> list[int]:
+    seed_text = f"{entry['tag']} {entry['date']} {entry['title']}"
+    seed = sum((idx + 1) * ord(char) for idx, char in enumerate(seed_text))
+    return [28 + ((seed // (idx + 3) + idx * 17) % 54) for idx in range(count)]
+
+
+def visual_labels(entry: dict[str, str | int]) -> list[str]:
+    text = f"{entry['title']} {entry['venue']}".lower()
+    labels: list[str] = []
+
+    for keyword, label in VISUAL_KEYWORDS:
+        if keyword in text and label not in labels:
+            labels.append(label)
+        if len(labels) == 2:
+            break
+
+    domain_label = DOMAIN_VISUAL_LABELS[str(entry["domain"])]
+    if domain_label not in labels:
+        labels.append(domain_label)
+
+    type_label_short = {
+        "Journal article": "Journal",
+        "Conference paper": "Conference",
+        "Preprint": "Preprint",
+        "Book chapter": "Book",
+        "Submission record": "Submission",
+        "Publication record": "Record",
+    }.get(str(entry["type"]), "Record")
+    if type_label_short not in labels:
+        labels.append(type_label_short)
+
+    return labels[:3]
+
+
+def render_metric_trace(values: list[int]) -> str:
+    point_step = 40
+    points = []
+    bars = []
+
+    for idx, value in enumerate(values):
+        x = 42 + idx * point_step
+        y = 210 - value
+        points.append(f"{x},{y}")
+        bar_height = 22 + value * 0.46
+        bars.append(
+            f'<rect class="publication-news-visual__bar" x="{x - 5:.1f}" '
+            f'y="{218 - bar_height:.1f}" width="10" height="{bar_height:.1f}" rx="5" />'
+        )
+
+    circles = "\n".join(
+        f'<circle class="publication-news-visual__dot" cx="{42 + idx * point_step}" '
+        f'cy="{210 - value}" r="4.5" />'
+        for idx, value in enumerate(values)
+    )
+
+    return "\n".join(
+        [
+            '<g class="publication-news-visual__metrics" aria-hidden="true">',
+            *bars,
+            f'  <polyline class="publication-news-visual__trace" points="{" ".join(points)}" />',
+            circles,
+            "</g>",
+        ]
+    )
+
+
+def render_visual_chips(labels: list[str]) -> str:
+    chip_lines = []
+    for idx, label in enumerate(labels):
+        x = 30 + idx * 124
+        chip_lines.extend(
+            [
+                f'<rect class="publication-news-visual__chip-bg" x="{x}" y="224" width="112" height="24" rx="12" />',
+                f'<text class="publication-news-visual__chip" x="{x + 56}" y="240" text-anchor="middle">{escape(label)}</text>',
+            ]
+        )
+    return "\n".join(chip_lines)
+
+
+def render_ai_motif() -> str:
+    nodes = [(78, 78), (132, 54), (152, 122), (218, 82), (286, 64), (326, 130)]
+    edges = [(0, 1), (0, 2), (1, 3), (2, 3), (3, 4), (3, 5), (4, 5)]
+    edge_lines = "\n".join(
+        f'<line class="publication-news-visual__line publication-news-visual__line--soft" '
+        f'x1="{nodes[start][0]}" y1="{nodes[start][1]}" x2="{nodes[end][0]}" y2="{nodes[end][1]}" />'
+        for start, end in edges
+    )
+    node_lines = "\n".join(
+        f'<circle class="publication-news-visual__node" cx="{x}" cy="{y}" r="{7 + idx % 3}" />'
+        for idx, (x, y) in enumerate(nodes)
+    )
+    return "\n".join(
+        [
+            '<path class="publication-news-visual__halo" d="M48 124 C86 28, 202 20, 250 78 C298 136, 360 88, 374 156 C326 184, 238 168, 162 178 C94 188, 52 168, 48 124Z" />',
+            edge_lines,
+            node_lines,
+            '<path class="publication-news-visual__line" d="M64 160 C104 132, 126 164, 164 140 S236 108, 274 140 S326 172, 360 132" />',
+            '<path class="publication-news-visual__line publication-news-visual__line--accent2" d="M282 164 q30 -54 60 0 M296 164 q16 -30 32 0" />',
+        ]
+    )
+
+
+def render_infra_motif() -> str:
+    return "\n".join(
+        [
+            '<path class="publication-news-visual__halo" d="M70 116 C62 82, 94 62, 126 74 C142 46, 190 48, 204 82 C242 74, 272 96, 266 128 C258 160, 210 158, 174 154 C130 150, 80 152, 70 116Z" />',
+            '<rect class="publication-news-visual__panel" x="70" y="134" width="86" height="76" rx="14" />',
+            '<rect class="publication-news-visual__panel" x="174" y="116" width="86" height="94" rx="14" />',
+            '<rect class="publication-news-visual__panel" x="278" y="142" width="72" height="68" rx="14" />',
+            '<line class="publication-news-visual__line" x1="156" y1="172" x2="174" y2="162" />',
+            '<line class="publication-news-visual__line" x1="260" y1="162" x2="278" y2="176" />',
+            '<circle class="publication-news-visual__node" cx="104" cy="158" r="5" />',
+            '<circle class="publication-news-visual__node" cx="126" cy="158" r="5" />',
+            '<circle class="publication-news-visual__node" cx="208" cy="142" r="5" />',
+            '<circle class="publication-news-visual__node" cx="230" cy="142" r="5" />',
+            '<circle class="publication-news-visual__node" cx="312" cy="166" r="5" />',
+            '<path class="publication-news-visual__line publication-news-visual__line--accent2" d="M88 190 H136 M192 190 H242 M294 190 H336" />',
+        ]
+    )
+
+
+def render_iot_motif() -> str:
+    return "\n".join(
+        [
+            '<rect class="publication-news-visual__panel" x="56" y="146" width="52" height="64" rx="10" />',
+            '<rect class="publication-news-visual__panel" x="126" y="122" width="58" height="88" rx="10" />',
+            '<rect class="publication-news-visual__panel" x="206" y="136" width="48" height="74" rx="10" />',
+            '<rect class="publication-news-visual__panel" x="276" y="112" width="68" height="98" rx="10" />',
+            '<path class="publication-news-visual__line" d="M82 128 q36 -54 72 0 M96 128 q22 -32 44 0" />',
+            '<path class="publication-news-visual__line publication-news-visual__line--accent2" d="M232 118 q42 -64 84 0 M250 118 q24 -36 48 0" />',
+            '<circle class="publication-news-visual__node" cx="82" cy="124" r="7" />',
+            '<circle class="publication-news-visual__node" cx="232" cy="114" r="7" />',
+            '<line class="publication-news-visual__line publication-news-visual__line--soft" x1="82" y1="124" x2="232" y2="114" />',
+            '<line class="publication-news-visual__line publication-news-visual__line--soft" x1="232" y1="114" x2="312" y2="104" />',
+            '<circle class="publication-news-visual__halo" cx="312" cy="104" r="28" />',
+        ]
+    )
+
+
+def render_twin_motif() -> str:
+    return "\n".join(
+        [
+            '<path class="publication-news-visual__halo" d="M64 124 C118 54, 266 42, 346 112 C312 184, 160 196, 64 124Z" />',
+            '<path class="publication-news-visual__line publication-news-visual__line--soft" d="M84 150 C138 102, 236 96, 330 146" />',
+            '<path class="publication-news-visual__aircraft" d="M92 130 L190 108 L318 134 L196 146 Z" />',
+            '<line class="publication-news-visual__line" x1="196" y1="146" x2="176" y2="178" />',
+            '<line class="publication-news-visual__line" x1="196" y1="146" x2="228" y2="176" />',
+            '<circle class="publication-news-visual__rotor" cx="116" cy="126" r="20" />',
+            '<circle class="publication-news-visual__rotor" cx="302" cy="132" r="20" />',
+            '<circle class="publication-news-visual__node" cx="156" cy="76" r="9" />',
+            '<circle class="publication-news-visual__node" cx="264" cy="74" r="9" />',
+            '<line class="publication-news-visual__line publication-news-visual__line--accent2" x1="156" y1="76" x2="264" y2="74" />',
+        ]
+    )
+
+
+def render_aero_motif() -> str:
+    return "\n".join(
+        [
+            '<path class="publication-news-visual__halo" d="M42 142 C116 82, 248 72, 372 116 C284 168, 146 188, 42 142Z" />',
+            '<path class="publication-news-visual__airfoil" d="M58 138 C130 104, 252 92, 362 122 C250 134, 130 162, 58 138Z" />',
+            '<path class="publication-news-visual__line publication-news-visual__line--soft" d="M48 92 C142 72, 232 72, 356 88" />',
+            '<path class="publication-news-visual__line publication-news-visual__line--soft" d="M46 176 C144 196, 252 188, 360 160" />',
+            '<rect class="publication-news-visual__panel" x="278" y="56" width="44" height="34" rx="8" />',
+            '<line class="publication-news-visual__line" x1="300" y1="90" x2="330" y2="118" />',
+            '<line class="publication-news-visual__line publication-news-visual__line--accent2" x1="268" y1="72" x2="240" y2="62" />',
+            '<line class="publication-news-visual__line publication-news-visual__line--accent2" x1="328" y1="72" x2="356" y2="62" />',
+            '<circle class="publication-news-visual__node" cx="330" cy="118" r="7" />',
+        ]
+    )
+
+
+def render_domain_motif(domain: str) -> str:
+    if domain == "Domain 1":
+        return render_ai_motif()
+    if domain == "Domain 2":
+        return render_infra_motif()
+    if domain == "Domain 3":
+        return render_iot_motif()
+    if domain == "Domain 4":
+        return render_twin_motif()
+    return render_aero_motif()
+
+
+def render_visual(entry: dict[str, str | int]) -> str:
+    tag = str(entry["tag"])
+    title = str(entry["title"])
+    sid = safe_id(tag)
+    gradient_id = f"pub-grad-{sid}"
+    pattern_id = f"pub-grid-{sid}"
+    values = metric_values(entry)
+    labels = visual_labels(entry)
+    year = str(entry["date"])[:4]
+
+    return "\n".join(
+        [
+            f'<div class="publication-news-card__visual" role="img" aria-label="Scientific illustration for {escape(title, quote=True)}">',
+            '  <svg class="publication-news-illustration" viewBox="0 0 420 260" preserveAspectRatio="xMidYMid meet" focusable="false" aria-hidden="true">',
+            "    <defs>",
+            f'      <linearGradient id="{gradient_id}" x1="0" y1="0" x2="1" y2="1">',
+            '        <stop offset="0%" stop-color="var(--pub-wash)" />',
+            '        <stop offset="58%" stop-color="#ffffff" />',
+            '        <stop offset="100%" stop-color="var(--pub-wash-2)" />',
+            "      </linearGradient>",
+            f'      <pattern id="{pattern_id}" width="26" height="26" patternUnits="userSpaceOnUse">',
+            '        <path class="publication-news-visual__grid" d="M26 0H0V26" />',
+            "      </pattern>",
+            "    </defs>",
+            f'    <rect width="420" height="260" rx="28" fill="url(#{gradient_id})" />',
+            f'    <rect width="420" height="260" rx="28" fill="url(#{pattern_id})" />',
+            '    <path class="publication-news-visual__ribbon" d="M0 210 C84 180, 136 232, 214 202 C298 170, 332 204, 420 172 V260 H0Z" />',
+            f'    <text class="publication-news-visual__tag" x="30" y="52">{escape(tag)}</text>',
+            f'    <text class="publication-news-visual__year" x="390" y="52" text-anchor="end">{escape(year)}</text>',
+            render_domain_motif(str(entry["domain"])),
+            render_metric_trace(values),
+            render_visual_chips(labels),
+            "  </svg>",
+            "</div>",
+        ]
+    )
+
+
 def find_best_link(line: str, tag: str) -> tuple[str, str]:
     if tag in SPECIAL_LINKS:
         special = SPECIAL_LINKS[tag]
@@ -474,7 +768,8 @@ def render(entries: list[dict[str, str | int]]) -> str:
         "<div class=\"publication-news-root\">",
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(entries)} publications from {min_year} to {max_year}, sorted from most recent to earliest and excluding manuscripts under review.</p>",
-        "    <p><strong>Archive note:</strong> This static briefing archive is generated from the Publications page metadata and the official publication links recorded there, so the News page remains stable without client-side rendering.</p>",
+        "    <p><strong>Archive note:</strong> This static visual briefing archive is generated from the Publications page metadata and the official publication links recorded there, so the News page remains stable without client-side rendering.</p>",
+        "    <p><strong>Visual system:</strong> Each card uses a generated scientific illustration motif derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
         "  </div>",
@@ -493,26 +788,30 @@ def render(entries: list[dict[str, str | int]]) -> str:
 
 def render_card(entry: dict[str, str | int], indent: str) -> list[str]:
     inner = indent + "  "
-    badge_indent = inner + "  "
+    body = inner + "  "
+    badge_indent = body + "  "
     lines = [
-        f"{indent}<article class=\"publication-news-card\">",
-        f"{inner}<div class=\"publication-news-card__top\">",
+        f"{indent}<article class=\"{card_classes(entry)}\">",
+        *[f"{inner}{line}" for line in render_visual(entry).splitlines()],
+        f"{inner}<div class=\"publication-news-card__body\">",
+        f"{body}<div class=\"publication-news-card__top\">",
         f"{badge_indent}<span class=\"publication-news-badge publication-news-badge--date\">{escape(format_date(str(entry['date'])))}</span>",
         f"{badge_indent}<span class=\"publication-news-badge\">{escape(str(entry['tag']))}</span>",
         f"{badge_indent}<span class=\"publication-news-badge\">{escape(str(entry['type']))}</span>",
         f"{badge_indent}<span class=\"publication-news-badge\">{escape(str(entry['domain_badge']))}</span>",
         f"{badge_indent}<span class=\"publication-news-badge\">{escape(str(entry['source_badge']))}</span>",
-        f"{inner}</div>",
-        f"{inner}<h3>{escape(str(entry['title']))}</h3>",
-        f"{inner}<p>{escape(str(entry['summary']))}</p>",
-        f"{inner}<p class=\"publication-news-card__record\"><strong>Publication record:</strong> <em>{escape(str(entry['venue']))}</em>.</p>",
+        f"{body}</div>",
+        f"{body}<h3>{escape(str(entry['title']))}</h3>",
+        f"{body}<p>{escape(str(entry['summary']))}</p>",
+        f"{body}<p class=\"publication-news-card__record\"><strong>Publication record:</strong> <em>{escape(str(entry['venue']))}</em>.</p>",
     ]
 
     if entry["link"]:
         lines.append(
-            f"{inner}<p class=\"publication-news-card__links\"><a href=\"{escape(str(entry['link']), quote=True)}\">{escape(str(entry['link_label']) or 'Official record')}</a></p>"
+            f"{body}<p class=\"publication-news-card__links\"><a href=\"{escape(str(entry['link']), quote=True)}\">{escape(str(entry['link_label']) or 'Official record')}</a></p>"
         )
 
+    lines.append(f"{inner}</div>")
     lines.append(f"{indent}</article>")
     return lines
 
@@ -531,7 +830,8 @@ def render_2025(entries: list[dict[str, str | int]]) -> str:
         "<div class=\"publication-news-root\">",
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(focused)} publications released in 2025, sorted from most recent to earliest ({newest} to {oldest}).</p>",
-        "    <p><strong>2025 note:</strong> These briefing cards were written against official DOI or publisher records, arXiv abstracts, and official conference proceedings or accepted-paper listings when those are the primary public traces.</p>",
+        "    <p><strong>2025 note:</strong> These visual briefing cards were written against official DOI or publisher records, arXiv abstracts, and official conference proceedings or accepted-paper listings when those are the primary public traces.</p>",
+        "    <p><strong>Visual system:</strong> Each card uses a generated scientific illustration motif derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
         "  </div>",
@@ -575,6 +875,7 @@ def render_missing(entries: list[dict[str, str | int]]) -> str:
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(missing)} publication records from the Publications page that do not yet have a dedicated long-form News entry.</p>",
         "    <p><strong>Selection rule:</strong> The generator excludes publication tags already represented by the detailed News posts above, including recent journal articles, MetaCom 2025 papers, AAM-VDT, SHANGUS/FH-DRL, NOMS 2024, and the UAV delivery study.</p>",
+        "    <p><strong>Visual system:</strong> Each card uses a generated scientific illustration motif derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Domain mix:</strong> {escape(domain_summary)}.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
