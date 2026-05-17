@@ -783,13 +783,20 @@ a:hover {
   gap: 0.9rem;
 }
 
-.publication-news-root > h2 {
+.publication-news-root > h2,
+.publication-news-root > h3 {
   margin-top: 1.45rem;
   margin-bottom: 0.9rem;
 }
 
-.publication-news-root > h2:first-of-type {
+.publication-news-root > h2:first-of-type,
+.publication-news-root > h3:first-of-type {
   margin-top: 0.4rem;
+}
+
+.publication-news-root > h3 {
+  color: var(--accent-dark);
+  font-size: 1.15rem;
 }
 
 .publication-news-card {

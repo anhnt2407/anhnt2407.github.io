@@ -817,3 +817,11 @@ During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://peopl
     <img src="/images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
     <figcaption> A system demonstration at NOMS 2024 </figcaption>
 </figure>
+
+---
+
+## Publication Briefing Archive
+
+The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The generated briefing archive below completes the publication coverage by adding concise cards for records from the Publications page that do not yet have a dedicated long-form News entry.
+
+{% include publication_news_missing.html %}
