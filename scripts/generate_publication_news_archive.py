@@ -424,6 +424,148 @@ def briefing_summary(entry: dict[str, str | int]) -> str:
     )
 
 
+def contribution_points(entry: dict[str, str | int]) -> list[str]:
+    title = str(entry["title"])
+    title_lower = title.lower()
+    venue_lower = str(entry["venue"]).lower()
+    focus = lower_phrase(title)
+    domain = str(entry["domain"])
+
+    if title_lower.startswith("correction to:"):
+        return [
+            "Makes the corrected scholarly record explicit instead of leaving the update hidden in citation metadata.",
+            "Keeps later readers connected to the most accurate version of the underlying technical study.",
+        ]
+
+    if "withdrawn" in venue_lower:
+        return [
+            "Preserves a transparent public trace of the submitted research idea and its technical direction.",
+            "Keeps the submission visible as part of the evolution of the broader research portfolio.",
+        ]
+
+    if "systematic literature review" in title_lower:
+        return [
+            f"Maps the state of the literature around {focus}, turning scattered papers into a clearer research landscape.",
+            "Identifies recurring methods, open questions, and comparison points that can guide follow-up studies.",
+        ]
+
+    points: list[str] = []
+
+    if any(keyword in title_lower for keyword in ["stochastic", "markov", "queue", "petri", "reward net"]):
+        points.append(
+            "Uses formal stochastic or queueing models to connect architecture choices with measurable system behavior."
+        )
+    elif any(
+        keyword in title_lower
+        for keyword in ["model", "modeling", "analysis", "evaluation", "quantification", "performability", "sensitivity"]
+    ):
+        points.append(
+            f"Turns {focus} into a quantitative study, so performance, reliability, cost, or availability can be compared."
+        )
+
+    if any(keyword in title_lower for keyword in ["framework", "architecture", "platform", "system"]):
+        points.append(
+            "Packages the work as a structured system artifact rather than only an isolated experiment."
+        )
+
+    if any(keyword in title_lower for keyword in ["reinforcement", "navigation", "robot", "vision", "language model", "deep learning"]):
+        points.append(
+            "Frames AI behavior as an end-to-end autonomy problem that joins perception, decision making, and deployment constraints."
+        )
+
+    if any(keyword in title_lower for keyword in ["digital twin", "uam", "aam", "evtol", "flight", "aerodynamic", "airfoil", "uav"]):
+        points.append(
+            "Connects simulation, flight behavior, and operational evidence so aerospace-oriented systems can be studied before deployment."
+        )
+
+    if any(keyword in title_lower for keyword in ["iot", "sensor", "surveillance", "medical", "smart", "fog"]):
+        points.append(
+            "Links sensing infrastructure to concrete operating metrics such as latency, capacity, utilization, and service continuity."
+        )
+
+    if not points:
+        domain_line = DOMAIN_LINES[domain]
+        points.append(
+            f"Adds a publication milestone to your {domain_line} line with a clearly documented technical focus."
+        )
+
+    if len(points) == 1:
+        points.append(
+            "Provides a reusable reference point for comparing later methods, systems, or deployment scenarios."
+        )
+
+    return points[:2]
+
+
+def impact_points(entry: dict[str, str | int]) -> list[str]:
+    title = str(entry["title"])
+    title_lower = title.lower()
+    venue_lower = str(entry["venue"]).lower()
+    domain = str(entry["domain"])
+
+    if title_lower.startswith("correction to:"):
+        return [
+            "Protects citation clarity for readers who depend on the paper as a modeling or evaluation reference.",
+            "Signals that the News archive tracks the integrity of the research record, not only new releases.",
+        ]
+
+    if "withdrawn" in venue_lower:
+        return [
+            "Shows the research trajectory honestly while separating a submission record from an accepted publication.",
+            "Gives future collaborators enough context to understand where the idea sat in the publication timeline.",
+        ]
+
+    if "systematic literature review" in title_lower:
+        return [
+            "Helps new researchers enter the area faster by surfacing the field's recurring assumptions and gaps.",
+            "Creates a stronger foundation for selecting benchmarks, methods, and evaluation criteria in later work.",
+        ]
+
+    points: list[str] = []
+
+    if any(keyword in title_lower for keyword in ["availability", "dependability", "reliability", "survivability", "disaster"]):
+        points.append(
+            "Supports pre-deployment design decisions for systems where downtime, failure recovery, and service loss carry real cost."
+        )
+
+    if any(keyword in title_lower for keyword in ["energy", "power", "green", "cost", "resource", "utilization"]):
+        points.append(
+            "Makes efficiency trade-offs visible, helping operators balance service quality with resource use and sustainability."
+        )
+
+    if any(keyword in title_lower for keyword in ["blockchain", "hyperledger", "sdn", "cloud", "microservice", "storage", "kubernetes"]):
+        points.append(
+            "Gives infrastructure teams a clearer way to tune configuration choices before they become expensive production incidents."
+        )
+
+    if any(keyword in title_lower for keyword in ["iot", "medical", "surveillance", "smart city", "smart building", "sensor"]):
+        points.append(
+            "Turns cyber-physical monitoring into an engineering problem that can be sized, stress-tested, and maintained deliberately."
+        )
+
+    if any(keyword in title_lower for keyword in ["reinforcement", "navigation", "robot", "vision", "language model", "deep learning"]):
+        points.append(
+            "Moves intelligent autonomy closer to real operating conditions where robustness matters more than benchmark elegance."
+        )
+
+    if any(keyword in title_lower for keyword in ["digital twin", "uam", "aam", "evtol", "flight", "aerodynamic", "airship", "satellite", "uav"]):
+        points.append(
+            "Strengthens the bridge between virtual experimentation and safety-aware aerospace or mobility operations."
+        )
+
+    if not points:
+        points.append(
+            f"Broadens the {DOMAIN_BADGES[domain]} publication narrative with a documented result readers can trace to the official record."
+        )
+
+    if len(points) == 1:
+        points.append(
+            "Adds continuity to the News archive by giving older records the same interpretive context as recent publications."
+        )
+
+    return points[:2]
+
+
 def format_date(value: str) -> str:
     return datetime.strptime(value, "%Y-%m-%d").strftime("%B %-d, %Y")
 
@@ -434,7 +576,7 @@ def safe_id(value: str) -> str:
 
 
 def card_classes(entry: dict[str, str | int]) -> str:
-    classes = ["publication-news-card"]
+    classes = ["publication-news-card", "publication-news-card--story"]
     classes.append(DOMAIN_VISUAL_CLASSES[str(entry["domain"])])
     classes.append(TYPE_VISUAL_CLASSES.get(str(entry["type"]), "publication-news-card--record"))
     return " ".join(classes)
@@ -769,7 +911,7 @@ def render(entries: list[dict[str, str | int]]) -> str:
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(entries)} publications from {min_year} to {max_year}, sorted from most recent to earliest and excluding manuscripts under review.</p>",
         "    <p><strong>Archive note:</strong> This static visual briefing archive is generated from the Publications page metadata and the official publication links recorded there, so the News page remains stable without client-side rendering.</p>",
-        "    <p><strong>Visual system:</strong> Each card uses a generated scientific illustration motif derived from the publication domain, type, date, and technical keywords.</p>",
+        "    <p><strong>Visual system:</strong> Each mini research story card uses a generated scientific illustration motif plus concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
         "  </div>",
@@ -790,6 +932,12 @@ def render_card(entry: dict[str, str | int], indent: str) -> list[str]:
     inner = indent + "  "
     body = inner + "  "
     badge_indent = body + "  "
+    contributes_items = "".join(
+        f"<li>{escape(point)}</li>" for point in contribution_points(entry)
+    )
+    matters_items = "".join(
+        f"<li>{escape(point)}</li>" for point in impact_points(entry)
+    )
     lines = [
         f"{indent}<article class=\"{card_classes(entry)}\">",
         *[f"{inner}{line}" for line in render_visual(entry).splitlines()],
@@ -803,14 +951,26 @@ def render_card(entry: dict[str, str | int], indent: str) -> list[str]:
         f"{body}</div>",
         f"{body}<h3>{escape(str(entry['title']))}</h3>",
         f"{body}<p>{escape(str(entry['summary']))}</p>",
-        f"{body}<p class=\"publication-news-card__record\"><strong>Publication record:</strong> <em>{escape(str(entry['venue']))}</em>.</p>",
+        f"{body}<div class=\"publication-news-card__story\">",
+        f"{badge_indent}<section class=\"publication-news-card__section\">",
+        f"{badge_indent}  <h4>What it contributes</h4>",
+        f"{badge_indent}  <ul>{contributes_items}</ul>",
+        f"{badge_indent}</section>",
+        f"{badge_indent}<section class=\"publication-news-card__section\">",
+        f"{badge_indent}  <h4>Why it matters</h4>",
+        f"{badge_indent}  <ul>{matters_items}</ul>",
+        f"{badge_indent}</section>",
+        f"{body}</div>",
+        f"{body}<div class=\"publication-news-card__record\">",
+        f"{badge_indent}<p><strong>Publication record:</strong> <em>{escape(str(entry['venue']))}</em>.</p>",
     ]
 
     if entry["link"]:
         lines.append(
-            f"{body}<p class=\"publication-news-card__links\"><a href=\"{escape(str(entry['link']), quote=True)}\">{escape(str(entry['link_label']) or 'Official record')}</a></p>"
+            f"{badge_indent}<p class=\"publication-news-card__links\"><a href=\"{escape(str(entry['link']), quote=True)}\">{escape(str(entry['link_label']) or 'Official record')}</a></p>"
         )
 
+    lines.append(f"{body}</div>")
     lines.append(f"{inner}</div>")
     lines.append(f"{indent}</article>")
     return lines
@@ -831,7 +991,7 @@ def render_2025(entries: list[dict[str, str | int]]) -> str:
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(focused)} publications released in 2025, sorted from most recent to earliest ({newest} to {oldest}).</p>",
         "    <p><strong>2025 note:</strong> These visual briefing cards were written against official DOI or publisher records, arXiv abstracts, and official conference proceedings or accepted-paper listings when those are the primary public traces.</p>",
-        "    <p><strong>Visual system:</strong> Each card uses a generated scientific illustration motif derived from the publication domain, type, date, and technical keywords.</p>",
+        "    <p><strong>Visual system:</strong> Each mini research story card uses a generated scientific illustration motif plus concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
         "  </div>",
@@ -875,7 +1035,7 @@ def render_missing(entries: list[dict[str, str | int]]) -> str:
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(missing)} publication records from the Publications page that do not yet have a dedicated long-form News entry.</p>",
         "    <p><strong>Selection rule:</strong> The generator excludes publication tags already represented by the detailed News posts above, including recent journal articles, MetaCom 2025 papers, AAM-VDT, SHANGUS/FH-DRL, NOMS 2024, and the UAV delivery study.</p>",
-        "    <p><strong>Visual system:</strong> Each card uses a generated scientific illustration motif derived from the publication domain, type, date, and technical keywords.</p>",
+        "    <p><strong>Visual system:</strong> Each mini research story card uses a generated scientific illustration motif plus concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Domain mix:</strong> {escape(domain_summary)}.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",

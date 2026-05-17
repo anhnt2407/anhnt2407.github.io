@@ -556,15 +556,24 @@ This TechRxiv preprint presents **mhmcTD3**, a multi-head actor-critic reinforce
 
 ## mhmcTD3: A Multi-Head DRL Architecture for Autonomous Navigation
 
-Our latest research presents mhmcTD3, a novel multi-head, memory-enhanced DRL architecture that integrates advanced LiDAR preprocessing with CNN and LSTM modules. This combination ensures:
+This early News release introduced **mhmcTD3** as a multi-head, memory-enhanced deep reinforcement learning architecture for autonomous navigation. The work brings richer LiDAR representation, temporal context, and actor-critic learning into one architecture for robots that must react smoothly in dynamic environments.
 
-- Enhanced detection and avoidance of small, moving obstacles.
+<figure>
+  <img src="/images/news/250121/mhmctd3-cover.webp" alt="Scientific illustration of mhmcTD3 multi-head memory contextualized reinforcement learning for autonomous navigation" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: LiDAR fusion, memory contextualisation, and multi-head actor-critic navigation.</figcaption>
+</figure>
 
-- Improved stability and learning efficiency through SiLU activation and CoRE optimization.
+### What the paper contributes
 
-- Smooth adaptation across various LiDAR resolutions, validated in both simulated (ROS2, Gazebo) and real-world (Turtlebot3) tests.
+- Presents a **multi-head actor-critic** design that separates LiDAR fusion, LiDAR feature extraction, robot-state reasoning, and temporal memory.
+- Combines tailored LiDAR preprocessing with CNN and LSTM modules, making the policy more sensitive to dynamic obstacles and recent motion context.
+- Validates the approach across ROS2/Gazebo simulation and Turtlebot3 experiments, giving the architecture a stronger sim-to-real footing.
 
-The result is a more adaptive, responsive, and reliable autonomous navigation solution ready to meet the complexities of dynamic environments.
+### Why this matters
+
+- Autonomous robots in cluttered environments fail when perception, memory, and control are treated too narrowly; mhmcTD3 makes those parts collaborate explicitly.
+- The architecture is especially relevant for map-free navigation where small moving obstacles, sensor resolution, and fast local decisions all interact.
+- The work helps connect architecture design, learning stability, and real-world transfer into one coherent autonomous-navigation contribution.
 
 <div class="figure-grid figure-grid--two">
   <figure>
@@ -577,57 +586,67 @@ The result is a more adaptive, responsive, and reliable autonomous navigation so
   </figure>
 </div>
 
+**Publication record:** Posted on January 21, 2025 on *TechRxiv* as *Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation* ([DOI](https://doi.org/10.36227/techrxiv.173747402.29145488/v1)).
+
 ---
 <p class="news-date">September 14, 2024</p>
 
 ## Enhancing IoT Disaster Detection Systems with Stochastic Models Across Multiple Geographic Areas
 
-We are pleased to introduce our latest research published in **ICT Express** (SCIE, JCR.Q1.CS.IS., Ranking 58/249, IF2023=4.1). This study presents advanced Stochastic Petri Net (SPN) models to optimize IoT sensor operations in LoRaWAN networks, addressing key challenges in large-scale, disaster-prone regions.
+This *ICT Express* publication studies disaster detection as a distributed cyber-physical system spanning **multiple geographic areas**. It combines LoRaWAN sensing, fog resources, and cloud processing with stochastic modeling so planners can reason about response time, utilization, and deployment capacity before building large-scale monitoring infrastructure.
 
 <figure>
-    <img src="/images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="500">
-    <figcaption>IoT Disaster Detection System and Stochastic Modeling</figcaption>
+  <img src="/images/news/250201/disaster-detection-cover.webp" alt="Scientific illustration of multi-region IoT disaster detection with cloud-fog monitoring" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: LoRaWAN-aware stochastic models for cloud-fog monitoring across disaster-prone regions.</figcaption>
 </figure>
 
-### Key Highlights
-- Introduced two SPN models to simulate and enhance IoT sensor performance, focusing on crucial metrics like Mean Response Time (MRT) and Drop Probability (DP).
-- Conducted a detailed sensitivity analysis to identify essential factors affecting system efficiency, including fog computing resources and server capacities.
-- Demonstrated that strategic optimization of fog computing and server resources significantly boosts system responsiveness and reliability.
+### What the paper contributes
 
-**Impact:** This research offers a robust framework for designing resilient, cost-effective disaster management systems. It provides actionable insights for the future of disaster detection and smart city infrastructure.
+- Introduces **two Stochastic Petri Net models** for IoT disaster detection across geographically distributed monitoring regions.
+- Evaluates key performance indicators including mean response time, drop probability, resource utilization, and server-processing capacity.
+- Uses sensitivity analysis to show how fog and cloud resource choices affect responsiveness under large-scale disaster-monitoring demand.
 
-Discover how IoT and fog computing can strengthen disaster response in the full paper.
+### Why this matters
 
-**Citation:**  
-Araújo, I., Silva, L. G., Brito, C., Min, D., Lee, J.-W., Nguyen, T. A., Leão, E., & Silva, F. A. (2024). DDS-P: Stochastic models based performance of IoT disaster detection systems across multiple geographic areas. *ICT Express,* doi: 10.1016/j.icte.2024.09.005
+- Disaster-detection infrastructure must cover high-risk and often secluded areas without becoming prohibitively expensive.
+- Modeling the system before deployment helps identify where additional cores, fog capacity, or communication resources actually improve service quality.
+- The study gives disaster-response planners a more disciplined way to connect sensing coverage, computing capacity, and operational resilience.
+
+<figure>
+  <img src="/images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="900" loading="lazy" decoding="async">
+  <figcaption>Technical model detail: IoT disaster detection system and stochastic modeling structure.</figcaption>
+</figure>
+
+**Publication record:** Published in February 2025 in *ICT Express*, Volume 11, Issue 1, Pages 34-40 ([DOI](https://doi.org/10.1016/j.icte.2024.09.005), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959524001085)).
 
 ---
 <p class="news-date">August 28, 2024</p>
 
 ## Efficient UAV Flights and Operational Performance in Delivery Services
 
-We recently highlighted the study **"Efficient Strategies for Unmanned Aerial Vehicle Flights: Analyzing Battery Life and Operational Performance in Delivery Services using Stochastic Models"** published in *IEEE Access*. This research, conducted by Francisco Airton Silva, Vandirleya Barbosa, Luiz Nelson Lima, Arthur Sabino, Paulo Rego, Luiz F. Bittencourt, Jae-Woo Lee, Dugki Min, and Tuan Anh Nguyen, advances what is possible in UAV delivery services.
+This *IEEE Access* article examines UAV delivery as a battery-aware logistics system rather than a simple point-to-point flight problem. The study compares solo flights and cooperative package-transfer strategies through stochastic models, making it possible to reason about delivery time, charging policy, fleet coordination, and operational performance together.
 
 <figure>
-    <img src="/images/news/240828/Transport_system_with_without_considering_package_transfer.png" alt="Transport system with/without considering package transfer" width="500">
-    <figcaption>Transport system with/without considering package transfer</figcaption>
+  <img src="/images/news/240828/uav-delivery-cover.svg" alt="Scientific illustration of cooperative UAV delivery performance modeling" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: battery-aware drone delivery, charging nodes, and cooperative package transfer.</figcaption>
 </figure>
 
-### Overview
+### What the paper contributes
 
-We introduced two advanced models to evaluate and boost drone delivery efficiency. Whether it's solo drone missions or cooperative ones (where drones hand off packages to each other), these models are helping us understand how to make drone deliveries faster, more reliable, and way more efficient!
+- Develops stochastic models for UAV delivery operations with and without package transfer between drones.
+- Studies how charging time, charging-station placement, fleet size, and package handoff influence end-to-end delivery performance.
+- Provides a quantitative basis for comparing individual UAV missions against cooperative logistics strategies.
 
-### Why It Matters
+### Why this matters
 
-- **Strategic Charging:** The study shows that where we place charging stations can make or break the delivery times. Think faster deliveries, fewer delays!
-- **Cooperation is Key:** Drones working together are more effective, especially in busy urban areas. More drones, less hassle!
-- **Optimized Operations:** The research highlights the importance of careful planning - from the number of drones to how long they charge - to maximize efficiency.
+- Drone delivery depends on energy constraints as much as path planning, so battery and charging assumptions must be visible in the model.
+- Cooperative package transfer can reduce operational friction when one drone should not be forced to complete an entire delivery alone.
+- The result is useful for logistics planning because route efficiency, battery limits, and cooperative operations are evaluated together.
 
-**Why this matters for practice**
-
-This research sets the stage for a new era in logistics, where drone deliveries are not just a concept but a highly optimized, efficient reality. 
-
-Curious about the details? Dive into the full study in *IEEE Access* and see how these strategies can revolutionize our delivery services!
+<figure>
+  <img src="/images/news/240828/Transport_system_with_without_considering_package_transfer.png" alt="Transport system with and without considering package transfer" width="900" loading="lazy" decoding="async">
+  <figcaption>Technical model detail: transport system with and without package transfer.</figcaption>
+</figure>
 
 **Publication record:** Published in *IEEE Access*, Volume 12, Pages 144544-144564 ([DOI](https://doi.org/10.1109/ACCESS.2024.3449283), [IEEE Xplore](https://ieeexplore.ieee.org/document/10646335)).
 
@@ -636,15 +655,24 @@ Curious about the details? Dive into the full study in *IEEE Access* and see how
 
 ## SHANGUS: Redefining Autonomous Exploration with Deep Reinforcement Learning
 
-I am pleased to share some exciting advancements in our research and development at the Distributed Multimedia Systems Laboratory (DMS). Our team has been working diligently on SHANGUS, an innovative framework that integrates Deep Reinforcement Learning (DRL) with heuristic optimization to improve autonomous exploration in unknown environments.
+This arXiv preprint presents **SHANGUS / FH-DRL**, a framework that connects frontier heuristics with deep reinforcement learning for faster autonomous exploration in unknown environments. The key idea is to let heuristic frontier selection guide where the robot should explore while DRL handles robust navigation through cluttered, dynamic space.
 
-### Key Highlights
+<figure>
+  <img src="/images/news/240729/shangus-fhdrl-cover.svg" alt="Scientific illustration of SHANGUS and FH-DRL autonomous exploration" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: frontier heuristics, DRL navigation, and occupancy-grid exploration.</figcaption>
+</figure>
 
-- **Integration of DRL and heuristic optimization:** SHANGUS combines the adaptability of DRL with heuristic prioritization to enhance exploration efficiency, reduce completion time, and minimize travel distance.
+### What the paper contributes
 
-- **Advanced frontier selection and navigation strategy:** Our approach features a frontier selection node and a DRL navigation node using the TD3 algorithm, ensuring robust path planning and dynamic obstacle avoidance.
+- Combines the adaptability of **deep reinforcement learning** with exponential-hyperbolic frontier heuristics for autonomous exploration.
+- Separates frontier selection from DRL navigation, giving the system a clearer division between exploration strategy and local movement.
+- Evaluates the approach in ROS2 and Gazebo environments against traditional baselines such as Nearest Frontier, CFE, and GDAE.
 
-- **Superior performance in simulations:** Through extensive experiments in ROS2 and Gazebo environments, SHANGUS has shown promising results, outperforming traditional methods like Nearest Frontier (NF), CFE, and GDAE, particularly in complex scenarios.
+### Why this matters
+
+- Exploration robots need to move quickly without wasting travel distance or getting trapped by local clutter.
+- Hybridizing heuristic frontier selection with DRL makes the method easier to interpret than a fully opaque policy while still preserving adaptive navigation.
+- The framework has natural applications in industrial automation, autonomous driving, household robotics, and space-oriented exploration tasks.
 
 ### Watch Our Demos
 
@@ -652,13 +680,7 @@ I am pleased to share some exciting advancements in our research and development
 - **Moderate Complex World:** [Watch the demo](https://www.youtube.com/watch?v=ZNepJp0hCFQ)
 - **Most Complex World:** [Watch the demo](https://www.youtube.com/watch?v=Fm22Bq6hr68)
 
-For those interested in a deeper dive into our research, you can read our full paper, published as a preprint on arXiv: [SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization](http://arxiv.org/abs/2407.18892). 
-
 **Publication record:** Posted as *FH-DRL: Exponential-Hyperbolic Frontier Heuristics with DRL for accelerated Exploration in Unknown Environments* on arXiv ([arXiv abstract](https://arxiv.org/abs/2407.18892), [DOI](https://doi.org/10.48550/arXiv.2407.18892)).
-
-We hope to receive feedback and contributions from friends and colleagues to further extend our research and enhance the quality of our paper. 
-
-We are excited about these developments and their potential applications in industrial automation, autonomous driving, household robotics, and space exploration. Thank you for your continued support and interest in our work at DMS Lab!
 
 ---
 <p class="news-date">July 20, 2024</p>
@@ -725,11 +747,24 @@ Looking forward to the future collaborations and advancements in this exciting f
 
 ## Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT)
 
-Excited to share our achievements after a year of leading the AAM-VDT project at Konkuk Aerospace Design-Airworthiness Institute (KADA). We've made significant progress in developing an integrated simulation platform for the Konkuk Passenger Vehicle (KP-2) digital twin in the Advanced Air Mobility (AAM) sector. Our focus on cutting-edge technologies has paved the way for a revolutionary system in urban air mobility.
+This AAM-VDT release presents a vehicle digital twin platform for tele-operations in **Advanced Air Mobility**. The work brings together cloud computing, AI-assisted operation, simulation, and flight-data exchange around the Konkuk Passenger Vehicle platform, turning the project from a demonstration stack into a research artifact with a clear publication trail.
 
-The Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT) project integrates cloud computing, artificial intelligence, and simulation to manage heterogeneous vehicles in real-time. Our collaboration within the KADA Research Groups - Design and Analysis, Simulation and Control, and AI Applications - has been instrumental in achieving our goals.
+<figure>
+  <img src="/images/news/250402/vehicle-digital-twin-cover.webp" alt="Scientific illustration of an AAM vehicle digital twin for tele-operations" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: AAM vehicle digital twin, simulation loop, and tele-operation data flow.</figcaption>
+</figure>
 
-Our key features include cloud server integration, AI-driven operations, digital twin technology, and a strong emphasis on operational safety and management. By utilizing digital twin dynamics, ensuring safety and reliability, and implementing multi-vehicle coordination, we are shaping the future of AAM operations.
+### What the work contributes
+
+- Integrates cloud-in-the-loop simulation, software-in-the-loop simulation, and operational digital twin components for AAM vehicle studies.
+- Connects KP-2/KP2C simulation and flight-test data flows so future twin models can be updated from runtime behavior.
+- Frames tele-operation as a safety-critical digital twin problem involving heterogeneous vehicles, real-time monitoring, and operational decision support.
+
+### Why this matters
+
+- AAM systems need validation environments where flight dynamics, operator decisions, and cloud infrastructure can be tested before expensive field operations.
+- A vehicle digital twin gives researchers a shared backbone for virtual certification, multi-vehicle coordination, and safety-aware scenario design.
+- The section now reads visually as a publication/project research story while retaining the original media and demonstration archive below.
 
 ### Media
 
@@ -746,6 +781,8 @@ Our key features include cloud server integration, AI-driven operations, digital
 Special thanks to our diligent KADA engineers and researchers! Jeongseok Hyun, Minseok Jang, Taeho Kwag, Nghia Nguyen, Vinh Pham, AYE AYE MAW
 
 Excited about the possibilities that lie ahead as we continue to innovate and drive advancements in advanced air mobility.
+
+**Publication record:** Posted as *AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility* on arXiv ([arXiv abstract](https://arxiv.org/abs/2404.09621), [DOI](https://doi.org/10.48550/arXiv.2404.09621)).
 
 <figure>
     <img src="/images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
@@ -794,16 +831,24 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 
 I am excited to announce my attendance at the 2024 IEEE/IFIP Network Operations and Management Symposium (NOMS 2024), which took place from May 6 to May 10, 2024, at The-K Hotel in Seoul, South Korea. Returning to Korea after two decades, this symposium was a pivotal event for professionals in the network operations and management field. NOMS 2024 featured an extensive program with keynotes, technical sessions, panel discussions, and various workshops. The theme for this year was "Towards intelligent, reliable, and sustainable network and service management," focusing on the latest advancements in 5G and emerging 6G networks and their roles in supporting critical applications such as IoT, smart cities, and autonomous vehicles. This event gathered researchers, developers, service providers, and policymakers, offering a unique platform for knowledge exchange and collaboration in shaping the future of network management.
 
-At NOMS 2024, we presented our paper titled *"Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm,"* authored by Carlos Melo, Glauber Gonçalves, Francisco A. Silva, Leonel Feitosa, Iure Fé, André Soares, Eunmi Choi, Tuan Anh Nguyen, and Dugki Min. Our research focuses on Hyperledger Fabric, a leading framework for permissioned blockchain systems, and aims to enhance blockchain performance and efficiency. Key points of our presentation include:
+At NOMS 2024, we presented *Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm*. The paper studies permissioned blockchain performance through Stochastic Petri Nets, with special attention to endorsement, ordering, commit, resource utilization, and response-time sensitivity.
 
-- **Development of a Stochastic Petri Net (SPN) Model:** We created an SPN model to evaluate Hyperledger Fabric's performance under various configurations.
-- **Detailed Transaction Phase Analysis:** Our model offers in-depth analyses of the endorsement, ordering, and commit phases of transactions.
-- **Actionable Insights for Optimization:** The model provides administrators with practical insights for optimizing blockchain configurations.
-- **Support from Case Studies and Sensitivity Analysis:** We included practical case studies and a sensitivity analysis identifying critical factors affecting mean response time (MRT).
-- **Impact of Configuration Parameters:** Our findings highlight the significant impact of block size and transaction arrival rates on system response times.
-- **Real-World Application Validation:** The model's utility was validated through real-world applications, demonstrating its effectiveness in optimizing resource utilization and transaction throughput.
+<figure>
+  <img src="/images/news/250205/hyperledger-cover.webp" alt="Scientific illustration of Hyperledger Fabric transactional dynamics and SPN performance modeling" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: SPN-based Hyperledger Fabric transaction flow and performance evaluation.</figcaption>
+</figure>
 
-This research provides a robust framework for pre-deployment performance evaluation and capacity planning in Hyperledger Fabric, paving the way for more efficient and scalable blockchain implementations in enterprise environments.
+### What the paper contributes
+
+- Develops an **SPN model** for evaluating Hyperledger Fabric performance under different transaction-arrival and block-size configurations.
+- Breaks the blockchain transaction process into endorsement, ordering, and commit phases so bottlenecks can be analyzed with clearer structure.
+- Uses case studies and sensitivity analysis to identify which configuration factors most strongly affect mean response time and throughput.
+
+### Why this matters
+
+- Permissioned blockchain systems often look reliable at the architectural level but become fragile when configuration choices overload transaction flow.
+- A stochastic model gives administrators a pre-deployment way to test resource utilization and capacity planning before operational costs rise.
+- The conference version established the performance-modeling foundation that later connects naturally with the journal publication on transactional dynamics.
 
 **Publication record:** Published in *NOMS 2024 - 2024 IEEE Network Operations and Management Symposium*, Pages 1-7 ([DOI](https://doi.org/10.1109/NOMS59830.2024.10575284), [IEEE Xplore](https://ieeexplore.ieee.org/document/10575284)).
 
@@ -828,6 +873,6 @@ During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://peopl
 
 ## Publication Visual Briefing Archive
 
-The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The generated visual briefing archive below completes the publication coverage with concise, illustrated cards for records from the Publications page that do not yet have a dedicated long-form News entry.
+The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The generated visual briefing archive below completes the publication coverage with richer mini research stories for records from the Publications page that do not yet have a dedicated long-form News entry: each card now includes a scientific illustration, contribution notes, impact notes, and the publication record.
 
 {% include publication_news_missing.html %}
