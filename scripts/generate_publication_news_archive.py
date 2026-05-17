@@ -13,6 +13,38 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLICATIONS_PATH = ROOT / "_pages" / "publications.md"
 OUTPUT_PATH = ROOT / "_includes" / "publication_news_archive.html"
 OUTPUT_2025_PATH = ROOT / "_includes" / "publication_news_2025.html"
+OUTPUT_MISSING_PATH = ROOT / "_includes" / "publication_news_missing.html"
+
+# Tags already represented by long-form entries in _pages/news.md. The generated
+# missing archive intentionally excludes these to keep the News page complete
+# without repeating the same publication twice.
+NEWS_DEDICATED_TAGS = {
+    "J53",
+    "J52",
+    "J49",
+    "J51",
+    "J48",
+    "J47",
+    "P04",
+    "C46",
+    "C41",
+    "C42",
+    "C45",
+    "C43",
+    "C44",
+    "J44",
+    "C39",
+    "C51",
+    "J45",
+    "J46",
+    "J41",
+    "J40",
+    "P03",
+    "P02",
+    "J39",
+    "P06",
+    "C36",
+}
 
 SPECIAL_LINKS = {
     "C48": {
@@ -270,7 +302,7 @@ def lower_phrase(text: str) -> str:
     return normalize_phrase(text)
 
 
-def brochure_summary(entry: dict[str, str | int]) -> str:
+def briefing_summary(entry: dict[str, str | int]) -> str:
     tag = str(entry["tag"])
     if tag in CURATED_SUMMARIES:
         return CURATED_SUMMARIES[tag]
@@ -414,7 +446,7 @@ def parse_entries(markdown: str) -> list[dict[str, str | int]]:
 
         entry["type"] = type_label(tag, venue, link)
         entry["source_badge"] = source_badge(entry)
-        entry["summary"] = brochure_summary(entry)
+        entry["summary"] = briefing_summary(entry)
         entries.append(entry)
 
     entries.sort(key=lambda item: (str(item["date"]), int(item["idx"])), reverse=True)
@@ -442,7 +474,7 @@ def render(entries: list[dict[str, str | int]]) -> str:
         "<div class=\"publication-news-root\">",
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(entries)} publications from {min_year} to {max_year}, sorted from most recent to earliest and excluding manuscripts under review.</p>",
-        "    <p><strong>Archive note:</strong> This static brochure archive is generated from the Publications page metadata and the official publication links recorded there, so the News page remains stable without client-side rendering.</p>",
+        "    <p><strong>Archive note:</strong> This static briefing archive is generated from the Publications page metadata and the official publication links recorded there, so the News page remains stable without client-side rendering.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
         "  </div>",
@@ -518,13 +550,58 @@ def render_2025(entries: list[dict[str, str | int]]) -> str:
     return "\n".join(html_lines) + "\n"
 
 
+def render_missing(entries: list[dict[str, str | int]]) -> str:
+    missing = [
+        entry for entry in entries if str(entry["tag"]) not in NEWS_DEDICATED_TAGS
+    ]
+    by_year: dict[str, list[dict[str, str | int]]] = defaultdict(list)
+    source_counts: Counter[str] = Counter(str(entry["source_badge"]) for entry in missing)
+    domain_counts: Counter[str] = Counter(str(entry["domain_badge"]) for entry in missing)
+
+    for entry in missing:
+        by_year[str(entry["date"])[:4]].append(entry)
+
+    years = sorted(by_year.keys(), reverse=True)
+    source_summary = ", ".join(
+        f"{source} {count}" for source, count in sorted(source_counts.items())
+    )
+    domain_summary = ", ".join(
+        f"{domain} {count}" for domain, count in sorted(domain_counts.items())
+    )
+    generated_on = datetime.now(timezone.utc).strftime("%B %-d, %Y")
+
+    html_lines = [
+        "<div class=\"publication-news-root publication-news-root--missing\">",
+        "  <div class=\"publication-news-overview\">",
+        f"    <p><strong>Coverage:</strong> {len(missing)} publication records from the Publications page that do not yet have a dedicated long-form News entry.</p>",
+        "    <p><strong>Selection rule:</strong> The generator excludes publication tags already represented by the detailed News posts above, including recent journal articles, MetaCom 2025 papers, AAM-VDT, SHANGUS/FH-DRL, NOMS 2024, and the UAV delivery study.</p>",
+        f"    <p><strong>Domain mix:</strong> {escape(domain_summary)}.</p>",
+        f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
+        f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
+        "  </div>",
+    ]
+
+    for year in years:
+        html_lines.append(f"  <h3>{escape(year)}</h3>")
+        html_lines.append("  <div class=\"publication-news-list\">")
+        for entry in by_year[year]:
+            html_lines.extend(render_card(entry, "    "))
+        html_lines.append("  </div>")
+
+    html_lines.append("</div>")
+    return "\n".join(html_lines) + "\n"
+
+
 def main() -> None:
     markdown = PUBLICATIONS_PATH.read_text(encoding="utf-8")
     entries = parse_entries(markdown)
     OUTPUT_PATH.write_text(render(entries), encoding="utf-8")
     OUTPUT_2025_PATH.write_text(render_2025(entries), encoding="utf-8")
+    OUTPUT_MISSING_PATH.write_text(render_missing(entries), encoding="utf-8")
     print(f"Wrote {len(entries)} publication cards to {OUTPUT_PATH}")
     print(f"Wrote 2025 publication briefing cards to {OUTPUT_2025_PATH}")
+    missing_count = sum(1 for entry in entries if str(entry["tag"]) not in NEWS_DEDICATED_TAGS)
+    print(f"Wrote {missing_count} missing-publication briefing cards to {OUTPUT_MISSING_PATH}")
 
 
 if __name__ == "__main__":

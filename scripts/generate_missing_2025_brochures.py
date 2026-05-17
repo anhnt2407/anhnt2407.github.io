@@ -9,6 +9,12 @@ from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 
+DEPRECATION_MESSAGE = (
+    "Deprecated: News no longer uses generated SVG brochure cards. "
+    "Use scripts/generate_publication_news_archive.py for publication briefing cards, "
+    "and keep generated cover images as WebP assets under images/news/."
+)
+
 
 BROCHURES = [
     {
@@ -677,11 +683,7 @@ def render(entry: dict) -> str:
 
 
 def main() -> None:
-    for entry in BROCHURES:
-        output = entry["output"]
-        output.parent.mkdir(parents=True, exist_ok=True)
-        output.write_text(render(entry), encoding="utf-8")
-        print(f"Wrote {output}")
+    print(DEPRECATION_MESSAGE)
 
 
 if __name__ == "__main__":
