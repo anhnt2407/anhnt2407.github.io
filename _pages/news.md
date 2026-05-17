@@ -58,6 +58,32 @@ We are pleased to share a new open-access article in *Advanced Intelligent Syste
 **Publication record:** Published online on February 22, 2026 in *Advanced Intelligent Systems* as open access, article e202500636 ([DOI](https://doi.org/10.1002/aisy.202500636), [Wiley article](https://advanced.onlinelibrary.wiley.com/doi/10.1002/aisy.202500636), [code repository](https://github.com/uiseoklee/VAEplusDDPG)).
 
 ---
+<p class="news-date">December 31, 2025</p>
+
+## Availability Modeling for Edge Systems under Correlated Failures
+
+We are pleased to highlight a new publication in the *Journal of The Korea Society of Computer and Information* that focuses on a realism gap in edge dependability studies: failures in edge environments are often correlated rather than isolated. When power, network, or site-level disruptions strike multiple nodes at once, recovery policies that look effective under independent-failure assumptions can behave very differently in practice.
+
+<figure>
+  <img src="/images/news/251201/edge-availability-cover.webp" alt="Scientific illustration of edge availability modeling under correlated failures and adaptive recovery" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: correlated-failure modeling, COA-based evaluation, and adaptive recovery guidance.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Extends an SRN-based edge availability model to explicitly represent correlated failures rather than only independent ones.
+- Defines a **Capacity-Oriented Availability (COA)** metric that captures the overhead of High Availability (HA) and Live Migration (LM) policies.
+- Uses discrete-event sensitivity analysis to compare recovery behavior across different failure intervals and correlated-failure scales.
+
+### Why this matters
+
+- The official KCI abstract reports that the combined **HA+LM** policy performs better when failure intervals are long.
+- The same abstract reports a policy reversal once the number of correlated-failure nodes exceeds **5**, because LM node-search overhead slows recovery during larger incidents.
+- This turns the paper into practical guidance for adaptive recovery design in edge platforms rather than a fixed-policy recommendation.
+
+**Publication record:** Published on December 31, 2025 in *Journal of The Korea Society of Computer and Information*, 30(12), 25-35 ([DOI](https://doi.org/10.9708/jksci.2025.30.12.025), [KCI article](https://journal.kci.go.kr/jksci/archive/articleView?artiId=ART003280297)).
+
+---
 <p class="news-date">December 5, 2025</p>
 
 ## S-iNAS: Performance-Centric Scaling for Ceph-Based Industrial Storage
@@ -82,32 +108,6 @@ We are pleased to share the publication of **S-iNAS** in the *Journal of Network
 - The paper turns these trade-offs into actionable guidance for tuning storage services in industrial workflows and digital twin ecosystems.
 
 **Publication record:** Published online on December 5, 2025 in *Journal of Network and Systems Management*, Volume 34, Article 34 ([DOI](https://doi.org/10.1007/s10922-025-10005-6), [Springer article](https://link.springer.com/article/10.1007/s10922-025-10005-6)).
-
----
-<p class="news-date">December 1, 2025</p>
-
-## Availability Modeling for Edge Systems under Correlated Failures
-
-We are pleased to highlight a new publication in the *Journal of The Korea Society of Computer and Information* that focuses on a realism gap in edge dependability studies: failures in edge environments are often correlated rather than isolated. When power, network, or site-level disruptions strike multiple nodes at once, recovery policies that look effective under independent-failure assumptions can behave very differently in practice.
-
-<figure>
-  <img src="/images/news/251201/edge-availability-cover.webp" alt="Scientific illustration of edge availability modeling under correlated failures and adaptive recovery" width="1200" height="675" loading="lazy" decoding="async">
-  <figcaption>Scientific illustration: correlated-failure modeling, COA-based evaluation, and adaptive recovery guidance.</figcaption>
-</figure>
-
-### What the paper contributes
-
-- Extends an SRN-based edge availability model to explicitly represent correlated failures rather than only independent ones.
-- Defines a **Capacity-Oriented Availability (COA)** metric that captures the overhead of High Availability (HA) and Live Migration (LM) policies.
-- Uses discrete-event sensitivity analysis to compare recovery behavior across different failure intervals and correlated-failure scales.
-
-### Why this matters
-
-- The public abstract reports that the combined **HA+LM** policy performs better when failure intervals are long.
-- The same abstract reports a policy reversal once the number of correlated-failure nodes exceeds **5**, because LM node-search overhead slows recovery during larger incidents.
-- This turns the paper into practical guidance for adaptive recovery design in edge platforms rather than a fixed-policy recommendation.
-
-**Publication record:** Published on December 1, 2025 in *Journal of The Korea Society of Computer and Information*, 30(12), 25-35 ([DOI](https://doi.org/10.9708/jksci.2025.30.12.025), [public abstract record](https://k-knowledge.kr/srch/read.jsp?id=281327532)).
 
 ---
 <p class="news-date">November 1, 2025</p>
@@ -629,6 +629,8 @@ This research sets the stage for a new era in logistics, where drone deliveries 
 
 Curious about the details? Dive into the full study in *IEEE Access* and see how these strategies can revolutionize our delivery services!
 
+**Publication record:** Published in *IEEE Access*, Volume 12, Pages 144544-144564 ([DOI](https://doi.org/10.1109/ACCESS.2024.3449283), [IEEE Xplore](https://ieeexplore.ieee.org/document/10646335)).
+
 ---
 <p class="news-date">July 29, 2024</p>
 
@@ -651,6 +653,8 @@ I am pleased to share some exciting advancements in our research and development
 - **Most Complex World:** [Watch the demo](https://www.youtube.com/watch?v=Fm22Bq6hr68)
 
 For those interested in a deeper dive into our research, you can read our full paper, published as a preprint on arXiv: [SHANGUS: Deep Reinforcement Learning Meets Heuristic Optimization](http://arxiv.org/abs/2407.18892). 
+
+**Publication record:** Posted as *FH-DRL: Exponential-Hyperbolic Frontier Heuristics with DRL for accelerated Exploration in Unknown Environments* on arXiv ([arXiv abstract](https://arxiv.org/abs/2407.18892), [DOI](https://doi.org/10.48550/arXiv.2407.18892)).
 
 We hope to receive feedback and contributions from friends and colleagues to further extend our research and enhance the quality of our paper. 
 
@@ -801,6 +805,8 @@ At NOMS 2024, we presented our paper titled *"Optimal Resource Utilization in Hy
 
 This research provides a robust framework for pre-deployment performance evaluation and capacity planning in Hyperledger Fabric, paving the way for more efficient and scalable blockchain implementations in enterprise environments.
 
+**Publication record:** Published in *NOMS 2024 - 2024 IEEE Network Operations and Management Symposium*, Pages 1-7 ([DOI](https://doi.org/10.1109/NOMS59830.2024.10575284), [IEEE Xplore](https://ieeexplore.ieee.org/document/10575284)).
+
 Special thanks to our Brazilian team, coordinated by [Francisco Airton Silva](https://iuresf.gitlab.io/pasid-site/airton.html), Laboratory of Applied Research to Distributed Systems (PASID), Federal University of Piauí (UFPI) (campus Picos), Teresina, Piauí, Brazil, for their collaboration in the research.
 
 During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://people.cs.vt.edu/~jicho/), a collaborator of my Ph.D. supervisor, [Dongseong Kim](https://researchers.uq.edu.au/researcher/23703). Jin-Hee Cho is now an Associate Professor in the Department of Computer Science at Virginia Tech. It was great to converse with her and attend her fascinating research presentation. It's remarkable how small and interconnected the world can be.
@@ -820,8 +826,8 @@ During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://peopl
 
 ---
 
-## Publication Briefing Archive
+## Publication Visual Briefing Archive
 
-The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The generated briefing archive below completes the publication coverage by adding concise cards for records from the Publications page that do not yet have a dedicated long-form News entry.
+The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The generated visual briefing archive below completes the publication coverage with concise, illustrated cards for records from the Publications page that do not yet have a dedicated long-form News entry.
 
 {% include publication_news_missing.html %}
