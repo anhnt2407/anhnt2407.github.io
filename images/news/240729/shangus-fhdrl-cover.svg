@@ -1,76 +1,97 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">Scientific illustration of SHANGUS and FH-DRL autonomous exploration</title>
-  <desc id="desc">A robot explores an unknown occupancy grid using frontier heuristics, deep reinforcement learning, and dynamic obstacle-aware navigation.</desc>
+  <desc id="desc">A dark cinematic scientific illustration showing a robot exploring an unknown map with glowing frontier nodes, reinforcement-learning telemetry, and neon data arcs.</desc>
   <defs>
-    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#edf4ff"/>
-      <stop offset="0.55" stop-color="#f9fbff"/>
-      <stop offset="1" stop-color="#eefbf8"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071120"/>
+      <stop offset="0.46" stop-color="#102744"/>
+      <stop offset="1" stop-color="#081422"/>
     </linearGradient>
-    <pattern id="cells" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#2457a6" stroke-opacity="0.14" stroke-width="1"/>
+    <radialGradient id="glow" cx="44%" cy="28%" r="70%">
+      <stop offset="0" stop-color="#5cc8ff" stop-opacity="0.38"/>
+      <stop offset="0.56" stop-color="#1a75c9" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#1a75c9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="58" height="58" patternUnits="userSpaceOnUse">
+      <path d="M58 0H0V58" fill="none" stroke="#8fd8ff" stroke-opacity="0.18" stroke-width="1.2"/>
     </pattern>
+    <filter id="blueGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#63c9ff" flood-opacity="0.9"/>
+    </filter>
+    <filter id="warmGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#ffb15f" flood-opacity="0.86"/>
+    </filter>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#102a5f" flood-opacity="0.17"/>
+      <feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#000" flood-opacity="0.38"/>
     </filter>
     <style>
-      .wall{fill:#20324b;opacity:.14}
-      .known{fill:#16a3a1;opacity:.12}
-      .frontier{fill:#f0b429;stroke:#bd7f08;stroke-width:4}
-      .route{fill:none;stroke:#2457a6;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
-      .route-alt{fill:none;stroke:#16a3a1;stroke-width:5;stroke-linecap:round;stroke-dasharray:14 16}
-      .node{fill:#fff;stroke:#2457a6;stroke-width:6}
-      .panel{fill:rgba(255,255,255,.84);stroke:rgba(36,87,166,.24);stroke-width:2}
-      .ink{fill:#102a5f;font-family:Arial,sans-serif;font-weight:800;letter-spacing:0}
-      .small{font-size:24px}
-      .label{font-size:30px}
-      .robot{fill:#fff;stroke:#102a5f;stroke-width:6;stroke-linejoin:round}
-      .sensor{fill:none;stroke:#16a3a1;stroke-width:5;stroke-linecap:round}
+      .line{fill:none;stroke:#63c9ff;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;filter:url(#blueGlow)}
+      .line-soft{fill:none;stroke:#8fd8ff;stroke-opacity:.28;stroke-width:3;stroke-linecap:round}
+      .line-warm{fill:none;stroke:#ffb15f;stroke-width:5;stroke-linecap:round;stroke-dasharray:16 18;filter:url(#warmGlow)}
+      .node{fill:#08182a;stroke:#63c9ff;stroke-width:6;filter:url(#blueGlow)}
+      .frontier{fill:#23180d;stroke:#ffb15f;stroke-width:6;filter:url(#warmGlow)}
+      .wall{fill:#06101d;stroke:#8fd8ff;stroke-opacity:.2;stroke-width:2}
+      .known{fill:#153554;opacity:.55}
+      .panel{fill:rgba(7,18,34,.78);stroke:rgba(143,216,255,.32);stroke-width:2}
+      .ink{fill:#dcefff;font-family:Arial,sans-serif;font-weight:800;letter-spacing:0}
+      .small{font-size:22px;opacity:.78}
+      .robot{fill:#0a1728;stroke:#dcefff;stroke-width:6;stroke-linejoin:round;filter:url(#shadow)}
+      .sensor{fill:none;stroke:#63c9ff;stroke-width:5;stroke-linecap:round;filter:url(#blueGlow)}
+      .spark{fill:#63c9ff;filter:url(#blueGlow)}
     </style>
   </defs>
-  <rect width="1200" height="675" rx="34" fill="url(#field)"/>
-  <rect width="1200" height="675" rx="34" fill="url(#cells)"/>
-  <path d="M0 520C186 430 315 546 482 472C638 403 754 452 884 388C1002 329 1106 320 1200 304V675H0Z" fill="#2457a6" opacity="0.08"/>
+  <rect width="1200" height="675" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="34" fill="url(#glow)"/>
+  <rect width="1200" height="675" rx="34" fill="url(#grid)"/>
+  <path d="M0 222H52V170H96V218H146V132H196V230H252V180H304V238H384V126H438V226H502V166H552V238H640V112H696V230H756V174H812V242H886V142H946V228H1004V186H1058V240H1128V128H1186V675H0Z" fill="#050b15" opacity=".66"/>
+  <path d="M0 538C180 462 336 592 526 506C746 406 910 516 1200 410V675H0Z" fill="#163351" opacity=".42"/>
+  <path d="M0 606C250 532 404 576 622 514C836 454 1014 518 1200 476V675H0Z" fill="#06101d" opacity=".66"/>
 
-  <g transform="translate(112 142)">
-    <rect class="known" x="0" y="0" width="956" height="396" rx="26"/>
-    <rect class="wall" x="62" y="64" width="166" height="44" rx="12"/>
-    <rect class="wall" x="744" y="58" width="116" height="160" rx="12"/>
-    <rect class="wall" x="250" y="176" width="76" height="142" rx="12"/>
-    <rect class="wall" x="462" y="80" width="186" height="50" rx="12"/>
-    <rect class="wall" x="556" y="248" width="192" height="54" rx="12"/>
-    <circle class="frontier" cx="160" cy="256" r="24"/>
-    <circle class="frontier" cx="392" cy="102" r="24"/>
-    <circle class="frontier" cx="708" cy="180" r="24"/>
-    <circle class="frontier" cx="826" cy="316" r="24"/>
-    <path class="route" d="M118 326C190 278 260 306 330 238S458 112 572 168S674 242 778 206"/>
-    <path class="route-alt" d="M118 326C276 390 456 362 568 286S736 246 826 316"/>
-    <circle class="node" cx="118" cy="326" r="30"/>
-    <circle class="node" cx="330" cy="238" r="24"/>
-    <circle class="node" cx="572" cy="168" r="24"/>
-    <circle class="node" cx="778" cy="206" r="24"/>
+  <g opacity=".72">
+    <path class="line-soft" d="M94 504H1112M154 448H1072M238 392H1136M188 334V620M370 300V646M572 292V630M790 274V630M1012 312V640"/>
+    <circle class="spark" cx="182" cy="508" r="5"/>
+    <circle class="spark" cx="432" cy="452" r="4"/>
+    <circle class="spark" cx="714" cy="394" r="5"/>
+    <circle class="spark" cx="972" cy="446" r="4"/>
   </g>
 
-  <g transform="translate(156 424)" filter="url(#shadow)">
-    <circle class="robot" cx="76" cy="76" r="54"/>
-    <circle fill="#2457a6" cx="76" cy="76" r="18"/>
-    <path class="sensor" d="M76 18C126 28 164 58 184 102"/>
-    <path class="sensor" d="M76 18C46 46 34 82 44 124"/>
-    <circle class="node" cx="30" cy="126" r="14"/>
-    <circle class="node" cx="184" cy="102" r="14"/>
+  <g transform="translate(112 150)">
+    <rect class="known" x="0" y="0" width="760" height="322" rx="30"/>
+    <rect class="wall" x="68" y="68" width="166" height="44" rx="12"/>
+    <rect class="wall" x="598" y="42" width="116" height="154" rx="12"/>
+    <rect class="wall" x="270" y="180" width="82" height="118" rx="12"/>
+    <rect class="wall" x="462" y="78" width="170" height="50" rx="12"/>
+    <circle class="frontier" cx="158" cy="246" r="25"/>
+    <circle class="frontier" cx="392" cy="98" r="25"/>
+    <circle class="frontier" cx="640" cy="176" r="25"/>
+    <path class="line" d="M112 292C186 242 266 278 328 212S456 100 556 154S632 226 720 190"/>
+    <path class="line-warm" d="M112 292C270 354 452 330 566 258S690 232 786 292"/>
+    <circle class="node" cx="112" cy="292" r="28"/>
+    <circle class="node" cx="328" cy="212" r="22"/>
+    <circle class="node" cx="556" cy="154" r="22"/>
+    <circle class="node" cx="720" cy="190" r="22"/>
   </g>
 
-  <g transform="translate(72 64)">
-    <rect class="panel" width="396" height="118" rx="24"/>
-    <text class="ink label" x="32" y="46">SHANGUS / FH-DRL</text>
-    <text class="ink small" x="32" y="82" opacity="0.74">frontier heuristics meet deep RL exploration</text>
+  <g transform="translate(150 426)">
+    <circle class="robot" cx="78" cy="78" r="58"/>
+    <circle fill="#63c9ff" cx="78" cy="78" r="18" filter="url(#blueGlow)"/>
+    <path class="sensor" d="M78 18C132 28 172 60 196 108"/>
+    <path class="sensor" d="M78 18C46 48 34 86 46 130"/>
+    <circle class="node" cx="34" cy="132" r="13"/>
+    <circle class="node" cx="196" cy="108" r="13"/>
   </g>
 
-  <g transform="translate(748 472)">
+  <g transform="translate(746 358)" filter="url(#shadow)">
+    <rect class="panel" width="318" height="154" rx="28"/>
+    <text class="ink small" x="30" y="44">reinforcement signal</text>
+    <path class="line" d="M34 106C82 58 126 118 174 78S248 58 286 98"/>
+    <circle class="frontier" cx="174" cy="78" r="10"/>
+    <circle class="node" cx="286" cy="98" r="10"/>
+  </g>
+
+  <g transform="translate(72 58)">
     <rect class="panel" width="360" height="108" rx="24"/>
-    <text class="ink small" x="28" y="42">Exploration score</text>
-    <path d="M30 78C86 42 122 88 178 58S260 44 324 70" fill="none" stroke="#2457a6" stroke-width="6" stroke-linecap="round"/>
-    <circle fill="#f0b429" cx="178" cy="58" r="10"/>
-    <circle fill="#16a3a1" cx="324" cy="70" r="10"/>
+    <text class="ink" x="28" y="45" font-size="30">SHANGUS / FH-DRL</text>
+    <text class="ink small" x="28" y="78">frontier-guided autonomous exploration</text>
   </g>
 </svg>
