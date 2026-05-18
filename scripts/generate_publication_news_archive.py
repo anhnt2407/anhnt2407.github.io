@@ -632,30 +632,79 @@ def visual_caption(entry: dict[str, str | int]) -> str:
     return f"Scientific illustration: {domain_caption} Visual cues: {labels}."
 
 
+def visual_seed(entry: dict[str, str | int]) -> int:
+    seed_text = f"{entry['tag']} {entry['date']} {entry['title']} {entry['venue']}"
+    return sum((idx + 1) * ord(char) for idx, char in enumerate(seed_text))
+
+
+def entry_text(entry: dict[str, str | int]) -> str:
+    return f"{entry['title']} {entry['venue']} {entry['domain_badge']}".lower()
+
+
+def render_visual_particles(entry: dict[str, str | int]) -> str:
+    seed = visual_seed(entry)
+    particles = []
+    for idx in range(22):
+        x = 64 + ((seed // (idx + 3) + idx * 83) % 1072)
+        y = 48 + ((seed // (idx + 7) + idx * 47) % 390)
+        radius = 2.0 + ((seed + idx * 19) % 24) / 10
+        opacity = 0.18 + ((seed + idx * 13) % 30) / 100
+        particles.append(
+            f'<circle class="publication-news-visual__spark" cx="{x}" cy="{y}" r="{radius:.1f}" opacity="{opacity:.2f}" />'
+        )
+    return "\n".join(particles)
+
+
+def render_visual_constellation(entry: dict[str, str | int]) -> str:
+    values = metric_values(entry, 7)
+    nodes = []
+    for idx, value in enumerate(values):
+        x = 134 + idx * 154
+        y = 214 + ((value * 5 + idx * 37) % 132)
+        nodes.append((x, y))
+
+    lines = "\n".join(
+        f'<line class="publication-news-visual__mesh-line" x1="{nodes[idx][0]}" y1="{nodes[idx][1]}" x2="{nodes[idx + 1][0]}" y2="{nodes[idx + 1][1]}" />'
+        for idx in range(len(nodes) - 1)
+    )
+    dots = "\n".join(
+        f'<circle class="publication-news-visual__mesh-node" cx="{x}" cy="{y}" r="{5 + idx % 3}" />'
+        for idx, (x, y) in enumerate(nodes)
+    )
+    return "\n".join(
+        [
+            '<g class="publication-news-visual__mesh" aria-hidden="true">',
+            lines,
+            dots,
+            "</g>",
+        ]
+    )
+
+
 def render_metric_trace(values: list[int]) -> str:
-    point_step = 40
+    point_step = 48
     points = []
     bars = []
 
     for idx, value in enumerate(values):
-        x = 42 + idx * point_step
-        y = 210 - value
-        points.append(f"{x},{y}")
-        bar_height = 22 + value * 0.46
+        x = 44 + idx * point_step
+        y = 148 - value * 0.86
+        points.append(f"{x:.1f},{y:.1f}")
+        bar_height = 26 + value * 0.86
         bars.append(
-            f'<rect class="publication-news-visual__bar" x="{x - 5:.1f}" '
-            f'y="{218 - bar_height:.1f}" width="10" height="{bar_height:.1f}" rx="5" />'
+            f'<rect class="publication-news-visual__bar" x="{x - 7:.1f}" y="{176 - bar_height:.1f}" width="14" height="{bar_height:.1f}" rx="7" />'
         )
 
     circles = "\n".join(
-        f'<circle class="publication-news-visual__dot" cx="{42 + idx * point_step}" '
-        f'cy="{210 - value}" r="4.5" />'
+        f'<circle class="publication-news-visual__dot" cx="{44 + idx * point_step:.1f}" cy="{148 - value * 0.86:.1f}" r="5.6" />'
         for idx, value in enumerate(values)
     )
 
     return "\n".join(
         [
-            '<g class="publication-news-visual__metrics" aria-hidden="true">',
+            '<g class="publication-news-visual__metrics" transform="translate(728 322)" aria-hidden="true">',
+            '  <rect class="publication-news-visual__screen" x="0" y="0" width="406" height="222" rx="28" />',
+            '  <text class="publication-news-visual__small-label" x="34" y="42">system evidence</text>',
             *bars,
             f'  <polyline class="publication-news-visual__trace" points="{" ".join(points)}" />',
             circles,
@@ -665,74 +714,97 @@ def render_metric_trace(values: list[int]) -> str:
 
 
 def render_visual_chips(labels: list[str]) -> str:
-    chip_lines = []
+    chip_lines = ['<g class="publication-news-visual__chips" aria-hidden="true">']
     for idx, label in enumerate(labels):
-        x = 30 + idx * 124
+        x = 72 + idx * 198
         chip_lines.extend(
             [
-                f'<rect class="publication-news-visual__chip-bg" x="{x}" y="224" width="112" height="24" rx="12" />',
-                f'<text class="publication-news-visual__chip" x="{x + 56}" y="240" text-anchor="middle">{escape(label)}</text>',
+                f'<rect class="publication-news-visual__chip-bg" x="{x}" y="586" width="176" height="42" rx="21" />',
+                f'<text class="publication-news-visual__chip" x="{x + 88}" y="613" text-anchor="middle">{escape(label)}</text>',
             ]
         )
+    chip_lines.append("</g>")
     return "\n".join(chip_lines)
 
 
 def render_ai_motif() -> str:
-    nodes = [(78, 78), (132, 54), (152, 122), (218, 82), (286, 64), (326, 130)]
+    nodes = [(150, 154), (250, 96), (322, 204), (454, 128), (586, 112), (678, 212)]
     edges = [(0, 1), (0, 2), (1, 3), (2, 3), (3, 4), (3, 5), (4, 5)]
     edge_lines = "\n".join(
-        f'<line class="publication-news-visual__line publication-news-visual__line--soft" '
-        f'x1="{nodes[start][0]}" y1="{nodes[start][1]}" x2="{nodes[end][0]}" y2="{nodes[end][1]}" />'
+        f'<line class="publication-news-visual__line publication-news-visual__line--soft" x1="{nodes[start][0]}" y1="{nodes[start][1]}" x2="{nodes[end][0]}" y2="{nodes[end][1]}" />'
         for start, end in edges
     )
     node_lines = "\n".join(
-        f'<circle class="publication-news-visual__node" cx="{x}" cy="{y}" r="{7 + idx % 3}" />'
+        f'<circle class="publication-news-visual__node" cx="{x}" cy="{y}" r="{13 + idx % 3}" />'
         for idx, (x, y) in enumerate(nodes)
     )
     return "\n".join(
         [
-            '<path class="publication-news-visual__halo" d="M48 124 C86 28, 202 20, 250 78 C298 136, 360 88, 374 156 C326 184, 238 168, 162 178 C94 188, 52 168, 48 124Z" />',
+            '<g class="publication-news-visual__scene publication-news-visual__scene--ai">',
+            '<path class="publication-news-visual__halo" d="M90 262 C138 88, 350 42, 484 128 C604 204, 716 136, 784 278 C650 360, 382 350, 218 388 C126 410, 66 346, 90 262Z" />',
+            '<rect class="publication-news-visual__glass" x="118" y="252" width="320" height="172" rx="32" />',
+            '<rect class="publication-news-visual__glass" x="500" y="250" width="218" height="172" rx="32" />',
             edge_lines,
             node_lines,
-            '<path class="publication-news-visual__line" d="M64 160 C104 132, 126 164, 164 140 S236 108, 274 140 S326 172, 360 132" />',
-            '<path class="publication-news-visual__line publication-news-visual__line--accent2" d="M282 164 q30 -54 60 0 M296 164 q16 -30 32 0" />',
+            '<path class="publication-news-visual__line" d="M132 396 C224 292, 284 386, 370 304 S526 206, 628 320 S744 402, 828 274" />',
+            '<path class="publication-news-visual__beam" d="M512 372 q78 -128 156 0 M552 372 q38 -68 76 0" />',
+            '<rect class="publication-news-visual__frame" x="154" y="286" width="96" height="62" rx="14" />',
+            '<rect class="publication-news-visual__frame" x="286" y="306" width="116" height="78" rx="14" />',
+            '<circle class="publication-news-visual__core" cx="612" cy="332" r="42" />',
+            "</g>",
         ]
     )
 
 
 def render_infra_motif() -> str:
+    server_lines = []
+    for idx, x in enumerate([132, 274, 416, 558]):
+        height = 168 + (idx % 2) * 34
+        y = 370 - height
+        server_lines.extend(
+            [
+                f'<rect class="publication-news-visual__server" x="{x}" y="{y}" width="104" height="{height}" rx="18" />',
+                f'<rect class="publication-news-visual__server-face" x="{x + 18}" y="{y + 26}" width="68" height="{height - 52}" rx="10" />',
+                f'<circle class="publication-news-visual__server-light" cx="{x + 34}" cy="{y + 48}" r="6" />',
+                f'<circle class="publication-news-visual__server-light" cx="{x + 58}" cy="{y + 48}" r="6" />',
+            ]
+        )
     return "\n".join(
         [
-            '<path class="publication-news-visual__halo" d="M70 116 C62 82, 94 62, 126 74 C142 46, 190 48, 204 82 C242 74, 272 96, 266 128 C258 160, 210 158, 174 154 C130 150, 80 152, 70 116Z" />',
-            '<rect class="publication-news-visual__panel" x="70" y="134" width="86" height="76" rx="14" />',
-            '<rect class="publication-news-visual__panel" x="174" y="116" width="86" height="94" rx="14" />',
-            '<rect class="publication-news-visual__panel" x="278" y="142" width="72" height="68" rx="14" />',
-            '<line class="publication-news-visual__line" x1="156" y1="172" x2="174" y2="162" />',
-            '<line class="publication-news-visual__line" x1="260" y1="162" x2="278" y2="176" />',
-            '<circle class="publication-news-visual__node" cx="104" cy="158" r="5" />',
-            '<circle class="publication-news-visual__node" cx="126" cy="158" r="5" />',
-            '<circle class="publication-news-visual__node" cx="208" cy="142" r="5" />',
-            '<circle class="publication-news-visual__node" cx="230" cy="142" r="5" />',
-            '<circle class="publication-news-visual__node" cx="312" cy="166" r="5" />',
-            '<path class="publication-news-visual__line publication-news-visual__line--accent2" d="M88 190 H136 M192 190 H242 M294 190 H336" />',
+            '<g class="publication-news-visual__scene publication-news-visual__scene--infra">',
+            '<path class="publication-news-visual__halo" d="M98 218 C78 104, 174 50, 278 82 C334 8, 502 28, 546 122 C650 86, 764 144, 742 264 C720 384, 528 386, 396 372 C248 356, 118 350, 98 218Z" />',
+            '<path class="publication-news-visual__cloud" d="M150 174 C186 84, 326 80, 374 158 C442 116, 568 154, 574 246 C468 282, 250 282, 150 246Z" />',
+            *server_lines,
+            '<path class="publication-news-visual__line" d="M236 284 H274 M378 266 H416 M520 282 H558 M196 404 C320 452, 526 448, 672 398" />',
+            '<path class="publication-news-visual__beam" d="M712 174 C784 222, 834 302, 842 404" />',
+            '<rect class="publication-news-visual__cube" x="704" y="318" width="72" height="72" rx="16" />',
+            '<rect class="publication-news-visual__cube" x="798" y="274" width="82" height="82" rx="18" />',
+            '<rect class="publication-news-visual__cube" x="890" y="342" width="62" height="62" rx="14" />',
+            "</g>",
         ]
     )
 
 
 def render_iot_motif() -> str:
+    buildings = []
+    for idx, (x, height) in enumerate([(110, 126), (214, 210), (356, 162), (478, 236), (642, 176)]):
+        buildings.append(
+            f'<rect class="publication-news-visual__building" x="{x}" y="{408 - height}" width="{72 + idx * 6}" height="{height}" rx="16" />'
+        )
     return "\n".join(
         [
-            '<rect class="publication-news-visual__panel" x="56" y="146" width="52" height="64" rx="10" />',
-            '<rect class="publication-news-visual__panel" x="126" y="122" width="58" height="88" rx="10" />',
-            '<rect class="publication-news-visual__panel" x="206" y="136" width="48" height="74" rx="10" />',
-            '<rect class="publication-news-visual__panel" x="276" y="112" width="68" height="98" rx="10" />',
-            '<path class="publication-news-visual__line" d="M82 128 q36 -54 72 0 M96 128 q22 -32 44 0" />',
-            '<path class="publication-news-visual__line publication-news-visual__line--accent2" d="M232 118 q42 -64 84 0 M250 118 q24 -36 48 0" />',
-            '<circle class="publication-news-visual__node" cx="82" cy="124" r="7" />',
-            '<circle class="publication-news-visual__node" cx="232" cy="114" r="7" />',
-            '<line class="publication-news-visual__line publication-news-visual__line--soft" x1="82" y1="124" x2="232" y2="114" />',
-            '<line class="publication-news-visual__line publication-news-visual__line--soft" x1="232" y1="114" x2="312" y2="104" />',
-            '<circle class="publication-news-visual__halo" cx="312" cy="104" r="28" />',
+            '<g class="publication-news-visual__scene publication-news-visual__scene--iot">',
+            '<path class="publication-news-visual__halo" d="M88 282 C190 130, 436 98, 708 180 C780 238, 742 370, 596 418 C400 480, 168 430, 88 282Z" />',
+            *buildings,
+            '<path class="publication-news-visual__line" d="M146 216 q72 -108 144 0 M180 216 q38 -58 76 0" />',
+            '<path class="publication-news-visual__beam" d="M544 154 q102 -144 204 0 M596 154 q50 -76 100 0" />',
+            '<circle class="publication-news-visual__node" cx="146" cy="220" r="14" />',
+            '<circle class="publication-news-visual__node" cx="544" cy="158" r="16" />',
+            '<line class="publication-news-visual__line publication-news-visual__line--soft" x1="146" y1="220" x2="544" y2="158" />',
+            '<rect class="publication-news-visual__glass" x="724" y="248" width="180" height="116" rx="28" />',
+            '<path class="publication-news-visual__camera" d="M758 310 h88 l40 -34 v86 l-40 -34 h-88 z" />',
+            '<circle class="publication-news-visual__core" cx="800" cy="318" r="25" />',
+            "</g>",
         ]
     )
 
@@ -740,16 +812,21 @@ def render_iot_motif() -> str:
 def render_twin_motif() -> str:
     return "\n".join(
         [
-            '<path class="publication-news-visual__halo" d="M64 124 C118 54, 266 42, 346 112 C312 184, 160 196, 64 124Z" />',
-            '<path class="publication-news-visual__line publication-news-visual__line--soft" d="M84 150 C138 102, 236 96, 330 146" />',
-            '<path class="publication-news-visual__aircraft" d="M92 130 L190 108 L318 134 L196 146 Z" />',
-            '<line class="publication-news-visual__line" x1="196" y1="146" x2="176" y2="178" />',
-            '<line class="publication-news-visual__line" x1="196" y1="146" x2="228" y2="176" />',
-            '<circle class="publication-news-visual__rotor" cx="116" cy="126" r="20" />',
-            '<circle class="publication-news-visual__rotor" cx="302" cy="132" r="20" />',
-            '<circle class="publication-news-visual__node" cx="156" cy="76" r="9" />',
-            '<circle class="publication-news-visual__node" cx="264" cy="74" r="9" />',
-            '<line class="publication-news-visual__line publication-news-visual__line--accent2" x1="156" y1="76" x2="264" y2="74" />',
+            '<g class="publication-news-visual__scene publication-news-visual__scene--twin">',
+            '<path class="publication-news-visual__halo" d="M96 268 C224 86, 604 72, 894 230 C782 432, 306 488, 96 268Z" />',
+            '<path class="publication-news-visual__flight-path" d="M126 354 C296 182, 548 158, 862 304" />',
+            '<path class="publication-news-visual__aircraft" d="M188 282 L466 206 L820 292 L486 334 Z" />',
+            '<path class="publication-news-visual__aircraft publication-news-visual__aircraft--ghost" d="M292 354 L486 302 L742 362 L498 392 Z" />',
+            '<line class="publication-news-visual__line" x1="486" y1="334" x2="428" y2="430" />',
+            '<line class="publication-news-visual__line" x1="486" y1="334" x2="564" y2="422" />',
+            '<circle class="publication-news-visual__rotor" cx="262" cy="272" r="58" />',
+            '<circle class="publication-news-visual__rotor" cx="784" cy="286" r="58" />',
+            '<circle class="publication-news-visual__node" cx="350" cy="142" r="17" />',
+            '<circle class="publication-news-visual__node" cx="666" cy="138" r="17" />',
+            '<line class="publication-news-visual__beam" x1="350" y1="142" x2="666" y2="138" />',
+            '<rect class="publication-news-visual__glass" x="786" y="374" width="168" height="92" rx="24" />',
+            '<path class="publication-news-visual__trace" d="M814 428 h34 l18 -34 l24 56 l24 -38 h44" />',
+            "</g>",
         ]
     )
 
@@ -757,15 +834,95 @@ def render_twin_motif() -> str:
 def render_aero_motif() -> str:
     return "\n".join(
         [
-            '<path class="publication-news-visual__halo" d="M42 142 C116 82, 248 72, 372 116 C284 168, 146 188, 42 142Z" />',
-            '<path class="publication-news-visual__airfoil" d="M58 138 C130 104, 252 92, 362 122 C250 134, 130 162, 58 138Z" />',
-            '<path class="publication-news-visual__line publication-news-visual__line--soft" d="M48 92 C142 72, 232 72, 356 88" />',
-            '<path class="publication-news-visual__line publication-news-visual__line--soft" d="M46 176 C144 196, 252 188, 360 160" />',
-            '<rect class="publication-news-visual__panel" x="278" y="56" width="44" height="34" rx="8" />',
-            '<line class="publication-news-visual__line" x1="300" y1="90" x2="330" y2="118" />',
-            '<line class="publication-news-visual__line publication-news-visual__line--accent2" x1="268" y1="72" x2="240" y2="62" />',
-            '<line class="publication-news-visual__line publication-news-visual__line--accent2" x1="328" y1="72" x2="356" y2="62" />',
-            '<circle class="publication-news-visual__node" cx="330" cy="118" r="7" />',
+            '<g class="publication-news-visual__scene publication-news-visual__scene--aero">',
+            '<path class="publication-news-visual__halo" d="M78 332 C292 126, 674 96, 1030 236 C784 420, 326 484, 78 332Z" />',
+            '<path class="publication-news-visual__airfoil" d="M126 322 C332 210, 728 184, 1028 282 C682 330, 310 394, 126 322Z" />',
+            '<path class="publication-news-visual__line publication-news-visual__line--soft" d="M98 174 C360 112, 620 112, 1008 156" />',
+            '<path class="publication-news-visual__line publication-news-visual__line--soft" d="M96 460 C384 522, 690 504, 1038 404" />',
+            '<path class="publication-news-visual__beam" d="M142 248 C398 186, 708 176, 978 232" />',
+            '<rect class="publication-news-visual__glass" x="744" y="92" width="132" height="88" rx="22" />',
+            '<line class="publication-news-visual__line" x1="810" y1="180" x2="918" y2="284" />',
+            '<line class="publication-news-visual__beam" x1="714" y1="132" x2="624" y2="98" />',
+            '<line class="publication-news-visual__beam" x1="884" y1="132" x2="994" y2="96" />',
+            '<circle class="publication-news-visual__node" cx="918" cy="284" r="16" />',
+            "</g>",
+        ]
+    )
+
+
+def render_focus_overlay(entry: dict[str, str | int]) -> str:
+    text = entry_text(entry)
+
+    if any(keyword in text for keyword in ["blockchain", "hyperledger"]):
+        return "\n".join(
+            [
+                '<g class="publication-news-visual__focus" aria-hidden="true">',
+                '<circle class="publication-news-visual__focus-node" cx="836" cy="194" r="24" />',
+                '<circle class="publication-news-visual__focus-node" cx="910" cy="238" r="24" />',
+                '<circle class="publication-news-visual__focus-node" cx="984" cy="194" r="24" />',
+                '<line class="publication-news-visual__beam" x1="860" y1="208" x2="886" y2="224" />',
+                '<line class="publication-news-visual__beam" x1="934" y1="224" x2="960" y2="208" />',
+                '<text class="publication-news-visual__small-label" x="810" y="286">ledger flow</text>',
+                "</g>",
+            ]
+        )
+    if any(keyword in text for keyword in ["kubernetes", "microservice", "storage", "cloud", "sdn"]):
+        return "\n".join(
+            [
+                '<g class="publication-news-visual__focus" aria-hidden="true">',
+                '<rect class="publication-news-visual__cube" x="820" y="176" width="70" height="70" rx="14" />',
+                '<rect class="publication-news-visual__cube" x="910" y="130" width="86" height="86" rx="16" />',
+                '<rect class="publication-news-visual__cube" x="1010" y="198" width="62" height="62" rx="14" />',
+                '<path class="publication-news-visual__line" d="M890 212 H910 M996 178 L1010 212" />',
+                '<text class="publication-news-visual__small-label" x="812" y="292">service fabric</text>',
+                "</g>",
+            ]
+        )
+    if any(keyword in text for keyword in ["robot", "navigation", "reinforcement", "vision", "language model", "deep learning"]):
+        return "\n".join(
+            [
+                '<g class="publication-news-visual__focus" aria-hidden="true">',
+                '<path class="publication-news-visual__beam" d="M806 250 C876 176, 972 178, 1048 118" />',
+                '<rect class="publication-news-visual__frame" x="820" y="112" width="94" height="66" rx="12" />',
+                '<rect class="publication-news-visual__frame" x="968" y="214" width="112" height="78" rx="14" />',
+                '<circle class="publication-news-visual__core" cx="906" cy="246" r="28" />',
+                '<text class="publication-news-visual__small-label" x="798" y="328">perception loop</text>',
+                "</g>",
+            ]
+        )
+    if any(keyword in text for keyword in ["surveillance", "camera", "medical", "smart", "sensor", "iot"]):
+        return "\n".join(
+            [
+                '<g class="publication-news-visual__focus" aria-hidden="true">',
+                '<rect class="publication-news-visual__glass" x="814" y="134" width="198" height="126" rx="24" />',
+                '<path class="publication-news-visual__camera" d="M846 196 h88 l38 -32 v82 l-38 -32 h-88 z" />',
+                '<circle class="publication-news-visual__node" cx="876" cy="206" r="16" />',
+                '<path class="publication-news-visual__beam" d="M940 142 q74 -96 148 0 M976 142 q38 -50 76 0" />',
+                '<text class="publication-news-visual__small-label" x="806" y="314">sensing field</text>',
+                "</g>",
+            ]
+        )
+    if any(keyword in text for keyword in ["digital twin", "uam", "aam", "evtol", "flight", "aerodynamic", "airfoil", "airship", "satellite", "uav"]):
+        return "\n".join(
+            [
+                '<g class="publication-news-visual__focus" aria-hidden="true">',
+                '<path class="publication-news-visual__flight-path" d="M790 222 C876 134, 996 144, 1080 226" />',
+                '<path class="publication-news-visual__aircraft" d="M840 210 L938 178 L1062 218 L946 238 Z" />',
+                '<circle class="publication-news-visual__rotor" cx="862" cy="204" r="28" />',
+                '<circle class="publication-news-visual__rotor" cx="1040" cy="214" r="28" />',
+                '<text class="publication-news-visual__small-label" x="802" y="302">flight envelope</text>',
+                "</g>",
+            ]
+        )
+
+    return "\n".join(
+        [
+            '<g class="publication-news-visual__focus" aria-hidden="true">',
+            '<circle class="publication-news-visual__focus-node" cx="866" cy="196" r="30" />',
+            '<circle class="publication-news-visual__focus-node" cx="962" cy="246" r="24" />',
+            '<path class="publication-news-visual__beam" d="M890 210 C920 224, 934 232, 940 236" />',
+            '<text class="publication-news-visual__small-label" x="814" y="306">research signal</text>',
+            "</g>",
         ]
     )
 
@@ -787,6 +944,7 @@ def render_visual(entry: dict[str, str | int]) -> str:
     title = str(entry["title"])
     sid = safe_id(tag)
     gradient_id = f"pub-grad-{sid}"
+    glow_id = f"pub-glow-{sid}"
     pattern_id = f"pub-grid-{sid}"
     values = metric_values(entry)
     labels = visual_labels(entry)
@@ -795,23 +953,33 @@ def render_visual(entry: dict[str, str | int]) -> str:
     return "\n".join(
         [
             f'<div class="publication-news-card__visual" role="img" aria-label="Scientific illustration for {escape(title, quote=True)}">',
-            '  <svg class="publication-news-illustration" viewBox="0 0 420 260" preserveAspectRatio="xMidYMid meet" focusable="false" aria-hidden="true">',
+            '  <svg class="publication-news-illustration" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid meet" focusable="false" aria-hidden="true">',
             "    <defs>",
             f'      <linearGradient id="{gradient_id}" x1="0" y1="0" x2="1" y2="1">',
             '        <stop offset="0%" stop-color="var(--pub-wash)" />',
-            '        <stop offset="58%" stop-color="#ffffff" />',
+            '        <stop offset="46%" stop-color="#ffffff" />',
             '        <stop offset="100%" stop-color="var(--pub-wash-2)" />',
             "      </linearGradient>",
-            f'      <pattern id="{pattern_id}" width="26" height="26" patternUnits="userSpaceOnUse">',
-            '        <path class="publication-news-visual__grid" d="M26 0H0V26" />',
+            f'      <radialGradient id="{glow_id}" cx="42%" cy="22%" r="74%">',
+            '        <stop offset="0%" stop-color="var(--pub-accent-2)" stop-opacity="0.34" />',
+            '        <stop offset="52%" stop-color="var(--pub-accent)" stop-opacity="0.12" />',
+            '        <stop offset="100%" stop-color="var(--pub-accent)" stop-opacity="0" />',
+            "      </radialGradient>",
+            f'      <pattern id="{pattern_id}" width="64" height="64" patternUnits="userSpaceOnUse">',
+            '        <path class="publication-news-visual__grid" d="M64 0H0V64" />',
             "      </pattern>",
             "    </defs>",
-            f'    <rect width="420" height="260" rx="28" fill="url(#{gradient_id})" />',
-            f'    <rect width="420" height="260" rx="28" fill="url(#{pattern_id})" />',
-            '    <path class="publication-news-visual__ribbon" d="M0 210 C84 180, 136 232, 214 202 C298 170, 332 204, 420 172 V260 H0Z" />',
-            f'    <text class="publication-news-visual__tag" x="30" y="52">{escape(tag)}</text>',
-            f'    <text class="publication-news-visual__year" x="390" y="52" text-anchor="end">{escape(year)}</text>',
+            f'    <rect class="publication-news-visual__backdrop" width="1200" height="675" rx="48" fill="url(#{gradient_id})" />',
+            f'    <rect width="1200" height="675" rx="48" fill="url(#{glow_id})" />',
+            f'    <rect width="1200" height="675" rx="48" fill="url(#{pattern_id})" />',
+            '    <path class="publication-news-visual__ribbon" d="M0 536 C188 468, 340 604, 554 518 C786 424, 924 520, 1200 438 V675 H0Z" />',
+            '    <path class="publication-news-visual__terrain" d="M0 602 C236 540, 396 576, 612 516 C812 462, 1018 522, 1200 476 V675 H0Z" />',
+            render_visual_particles(entry),
+            render_visual_constellation(entry),
+            f'    <text class="publication-news-visual__tag" x="72" y="118">{escape(tag)}</text>',
+            f'    <text class="publication-news-visual__year" x="1128" y="118" text-anchor="end">{escape(year)}</text>',
             render_domain_motif(str(entry["domain"])),
+            render_focus_overlay(entry),
             render_metric_trace(values),
             render_visual_chips(labels),
             "  </svg>",

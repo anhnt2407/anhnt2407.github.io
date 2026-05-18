@@ -904,49 +904,126 @@ a:hover {
 .publication-news-visual__grid {
   fill: none;
   stroke: var(--pub-line);
-  stroke-width: 1;
-  opacity: 0.58;
+  stroke-width: 1.2;
+  opacity: 0.34;
 }
 
 .publication-news-visual__ribbon {
   fill: var(--pub-soft);
 }
 
+.publication-news-visual__terrain {
+  fill: rgba(255, 255, 255, 0.32);
+}
+
 .publication-news-visual__halo {
   fill: var(--pub-soft);
-  opacity: 0.72;
+  opacity: 0.84;
 }
 
 .publication-news-visual__panel,
-.publication-news-visual__chip-bg {
+.publication-news-visual__chip-bg,
+.publication-news-visual__glass,
+.publication-news-visual__screen {
   fill: rgba(255, 255, 255, 0.72);
   stroke: var(--pub-line);
-  stroke-width: 1.25;
+  stroke-width: 2;
+}
+
+.publication-news-visual__glass,
+.publication-news-visual__screen {
+  fill: rgba(255, 255, 255, 0.56);
+}
+
+.publication-news-visual__screen {
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.publication-news-visual__frame {
+  fill: rgba(255, 255, 255, 0.2);
+  stroke: var(--pub-accent-2);
+  stroke-width: 3;
+}
+
+.publication-news-visual__cloud,
+.publication-news-visual__building,
+.publication-news-visual__server,
+.publication-news-visual__server-face,
+.publication-news-visual__cube {
+  fill: rgba(255, 255, 255, 0.58);
+  stroke: var(--pub-line);
+  stroke-width: 3;
+}
+
+.publication-news-visual__server-face {
+  fill: color-mix(in srgb, var(--pub-accent) 13%, #ffffff);
+  opacity: 0.78;
+}
+
+.publication-news-visual__server-light {
+  fill: var(--pub-accent-3);
+}
+
+.publication-news-visual__spark {
+  fill: var(--pub-accent);
+}
+
+.publication-news-visual__mesh-line {
+  stroke: var(--pub-line);
+  stroke-width: 2.4;
+  stroke-linecap: round;
+}
+
+.publication-news-visual__mesh-node,
+.publication-news-visual__focus-node,
+.publication-news-visual__core {
+  fill: rgba(255, 255, 255, 0.92);
+  stroke: var(--pub-accent);
+  stroke-width: 5;
+}
+
+.publication-news-visual__core {
+  fill: color-mix(in srgb, var(--pub-accent-2) 12%, #ffffff);
 }
 
 .publication-news-visual__line,
 .publication-news-visual__trace {
   fill: none;
   stroke: var(--pub-accent);
-  stroke-width: 3;
+  stroke-width: 7;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
 .publication-news-visual__line--soft {
   stroke: var(--pub-line);
-  stroke-width: 2.25;
+  stroke-width: 4;
 }
 
 .publication-news-visual__line--accent2 {
   stroke: var(--pub-accent-2);
 }
 
+.publication-news-visual__beam,
+.publication-news-visual__flight-path {
+  fill: none;
+  stroke: var(--pub-accent-2);
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 0.8;
+}
+
+.publication-news-visual__flight-path {
+  stroke: var(--pub-line);
+  stroke-width: 5;
+}
+
 .publication-news-visual__node,
 .publication-news-visual__dot {
   fill: #fff;
   stroke: var(--pub-accent);
-  stroke-width: 3;
+  stroke-width: 6;
 }
 
 .publication-news-visual__bar {
@@ -957,21 +1034,27 @@ a:hover {
 .publication-news-visual__rotor {
   fill: none;
   stroke: var(--pub-accent-2);
-  stroke-width: 3;
-  stroke-dasharray: 8 8;
+  stroke-width: 7;
+  stroke-dasharray: 18 16;
 }
 
 .publication-news-visual__aircraft,
-.publication-news-visual__airfoil {
+.publication-news-visual__airfoil,
+.publication-news-visual__camera {
   fill: var(--pub-soft);
   stroke: var(--pub-accent);
-  stroke-width: 3;
+  stroke-width: 7;
   stroke-linejoin: round;
+}
+
+.publication-news-visual__aircraft--ghost {
+  opacity: 0.38;
 }
 
 .publication-news-visual__tag,
 .publication-news-visual__year,
-.publication-news-visual__chip {
+.publication-news-visual__chip,
+.publication-news-visual__small-label {
   fill: var(--pub-ink);
   font-family: "Source Sans 3", sans-serif;
   font-weight: 800;
@@ -979,16 +1062,22 @@ a:hover {
 }
 
 .publication-news-visual__tag {
-  font-size: 1.38rem;
+  font-size: 4rem;
 }
 
 .publication-news-visual__year {
-  font-size: 0.95rem;
+  font-size: 2.25rem;
   opacity: 0.78;
 }
 
 .publication-news-visual__chip {
-  font-size: 0.66rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.publication-news-visual__small-label {
+  font-size: 1.02rem;
+  opacity: 0.72;
   text-transform: uppercase;
 }
 

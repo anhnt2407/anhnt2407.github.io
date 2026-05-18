@@ -433,7 +433,7 @@ This publication record marks the formal correction linked to the container migr
   <figcaption>Scientific illustration: correction notice tied to the container migration performance study.</figcaption>
 </figure>
 
-### What the record contributes
+### What the paper contributes
 
 - Establishes the official correction entry connected to the original container migration article.
 - Keeps the corrected version and the original publication record explicitly linked.
@@ -754,7 +754,7 @@ This AAM-VDT release presents a vehicle digital twin platform for tele-operation
   <figcaption>Scientific illustration: AAM vehicle digital twin, simulation loop, and tele-operation data flow.</figcaption>
 </figure>
 
-### What the work contributes
+### What the paper contributes
 
 - Integrates cloud-in-the-loop simulation, software-in-the-loop simulation, and operational digital twin components for AAM vehicle studies.
 - Connects KP-2/KP2C simulation and flight-test data flows so future twin models can be updated from runtime behavior.
