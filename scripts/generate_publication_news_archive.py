@@ -681,6 +681,66 @@ def render_visual_constellation(entry: dict[str, str | int]) -> str:
     )
 
 
+def render_cinematic_infrastructure(entry: dict[str, str | int]) -> str:
+    seed = visual_seed(entry)
+    rack_specs = [
+        (92, 390, 142, 110),
+        (268, 326, 132, 104),
+        (500, 354, 158, 120),
+        (858, 364, 146, 112),
+        (1016, 412, 126, 96),
+    ]
+    racks = []
+    for idx, (x, y, width, height) in enumerate(rack_specs):
+        rack_shift = (seed // (idx + 5)) % 18
+        rx = x + rack_shift
+        racks.extend(
+            [
+                f'<g class="publication-news-visual__rack" transform="translate({rx} {y})">',
+                f'  <rect class="publication-news-visual__rack-shell" x="0" y="0" width="{width}" height="{height}" rx="18" />',
+                f'  <rect class="publication-news-visual__rack-face" x="{width * 0.18:.1f}" y="18" width="{width * 0.36:.1f}" height="{height - 34}" rx="8" />',
+                f'  <rect class="publication-news-visual__rack-face publication-news-visual__rack-face--warm" x="{width * 0.6:.1f}" y="20" width="{width * 0.22:.1f}" height="{height - 42}" rx="7" />',
+                f'  <line class="publication-news-visual__rack-slot" x1="{width * 0.24:.1f}" y1="38" x2="{width * 0.47:.1f}" y2="38" />',
+                f'  <line class="publication-news-visual__rack-slot" x1="{width * 0.24:.1f}" y1="58" x2="{width * 0.47:.1f}" y2="58" />',
+                f'  <line class="publication-news-visual__rack-slot" x1="{width * 0.24:.1f}" y1="78" x2="{width * 0.47:.1f}" y2="78" />',
+                f'  <circle class="publication-news-visual__server-light" cx="{width * 0.72:.1f}" cy="42" r="5" />',
+                f'  <circle class="publication-news-visual__server-light publication-news-visual__server-light--blue" cx="{width * 0.72:.1f}" cy="66" r="5" />',
+                "</g>",
+            ]
+        )
+
+    cubes = []
+    for idx, (x, y) in enumerate([(300, 260), (438, 206), (578, 238), (710, 194), (816, 252)]):
+        hue_class = " publication-news-visual__data-cube--warm" if idx == 0 else ""
+        cubes.extend(
+            [
+                f'<g class="publication-news-visual__data-cube{hue_class}" transform="translate({x} {y})">',
+                '  <rect class="publication-news-visual__data-cube-face" x="0" y="0" width="68" height="52" rx="8" />',
+                '  <path class="publication-news-visual__data-cube-edge" d="M0 0 L18 -14 H86 L68 0 Z" />',
+                '  <path class="publication-news-visual__data-cube-edge" d="M68 0 L86 -14 V38 L68 52 Z" />',
+                "</g>",
+            ]
+        )
+
+    return "\n".join(
+        [
+            '<g class="publication-news-visual__infrastructure" aria-hidden="true">',
+            '<path class="publication-news-visual__map-line" d="M38 520 C210 420, 382 536, 530 430 S806 348, 1140 420" />',
+            '<path class="publication-news-visual__map-line publication-news-visual__map-line--thin" d="M96 476 H1076 M172 430 H1134 M240 384 H1048" />',
+            '<path class="publication-news-visual__map-line publication-news-visual__map-line--thin" d="M188 330 V610 M356 292 V640 M554 286 V620 M760 272 V616 M984 314 V640" />',
+            *racks,
+            '<path class="publication-news-visual__transfer-arc" d="M300 320 C426 168, 660 156, 828 318" />',
+            '<path class="publication-news-visual__transfer-arc publication-news-visual__transfer-arc--warm" d="M328 334 C446 218, 632 210, 794 334" />',
+            *cubes,
+            '<circle class="publication-news-visual__map-node" cx="196" cy="476" r="8" />',
+            '<circle class="publication-news-visual__map-node publication-news-visual__map-node--warm" cx="468" cy="432" r="8" />',
+            '<circle class="publication-news-visual__map-node" cx="756" cy="376" r="8" />',
+            '<circle class="publication-news-visual__map-node publication-news-visual__map-node--warm" cx="1030" cy="420" r="8" />',
+            "</g>",
+        ]
+    )
+
+
 def render_metric_trace(values: list[int]) -> str:
     point_step = 48
     points = []
@@ -957,7 +1017,7 @@ def render_visual(entry: dict[str, str | int]) -> str:
             "    <defs>",
             f'      <linearGradient id="{gradient_id}" x1="0" y1="0" x2="1" y2="1">',
             '        <stop offset="0%" stop-color="var(--pub-wash)" />',
-            '        <stop offset="46%" stop-color="#ffffff" />',
+            '        <stop offset="46%" stop-color="#102744" />',
             '        <stop offset="100%" stop-color="var(--pub-wash-2)" />',
             "      </linearGradient>",
             f'      <radialGradient id="{glow_id}" cx="42%" cy="22%" r="74%">',
@@ -972,12 +1032,14 @@ def render_visual(entry: dict[str, str | int]) -> str:
             f'    <rect class="publication-news-visual__backdrop" width="1200" height="675" rx="48" fill="url(#{gradient_id})" />',
             f'    <rect width="1200" height="675" rx="48" fill="url(#{glow_id})" />',
             f'    <rect width="1200" height="675" rx="48" fill="url(#{pattern_id})" />',
+            '    <path class="publication-news-visual__city" d="M0 236 H42 V178 H88 V218 H132 V144 H184 V224 H238 V184 H286 V234 H348 V126 H410 V220 H462 V164 H512 V236 H594 V112 H650 V232 H700 V174 H748 V238 H812 V140 H872 V226 H930 V186 H978 V236 H1042 V128 H1098 V220 H1150 V172 H1200 V675 H0Z" />',
             '    <path class="publication-news-visual__ribbon" d="M0 536 C188 468, 340 604, 554 518 C786 424, 924 520, 1200 438 V675 H0Z" />',
             '    <path class="publication-news-visual__terrain" d="M0 602 C236 540, 396 576, 612 516 C812 462, 1018 522, 1200 476 V675 H0Z" />',
             render_visual_particles(entry),
             render_visual_constellation(entry),
-            f'    <text class="publication-news-visual__tag" x="72" y="118">{escape(tag)}</text>',
-            f'    <text class="publication-news-visual__year" x="1128" y="118" text-anchor="end">{escape(year)}</text>',
+            render_cinematic_infrastructure(entry),
+            f'    <text class="publication-news-visual__tag" x="72" y="82">{escape(tag)}</text>',
+            f'    <text class="publication-news-visual__year" x="1128" y="82" text-anchor="end">{escape(year)}</text>',
             render_domain_motif(str(entry["domain"])),
             render_focus_overlay(entry),
             render_metric_trace(values),
