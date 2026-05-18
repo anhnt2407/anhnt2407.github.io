@@ -873,6 +873,6 @@ During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://peopl
 
 ## Publication Visual Briefing Archive
 
-The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The visual briefing archive below completes the publication coverage with richer mini research stories for records from the Publications page that do not yet have a dedicated long-form News entry: each card includes a scientific illustration, contribution notes, impact notes, and the publication record.
+The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The visual briefing archive below completes the publication coverage with publication story blocks for records from the Publications page that do not yet have a dedicated long-form News entry: each entry includes a large scientific illustration, contribution notes, impact notes, and the publication record.
 
 {% include publication_news_missing.html %}

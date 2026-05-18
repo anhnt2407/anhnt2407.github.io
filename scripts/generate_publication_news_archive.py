@@ -119,6 +119,14 @@ DOMAIN_VISUAL_LABELS = {
     "Domain 5": "Aerospace",
 }
 
+DOMAIN_CAPTIONS = {
+    "Domain 1": "AI autonomy, perception, learning signals, and deployment evidence mapped to the paper's technical focus.",
+    "Domain 2": "dependability metrics, resilient infrastructure behavior, and performance trade-offs mapped to the paper's technical focus.",
+    "Domain 3": "connected sensing, cyber-physical monitoring, and operational performance metrics mapped to the paper's technical focus.",
+    "Domain 4": "digital-twin feedback loops, flight simulation, and mobility-system dependability mapped to the paper's technical focus.",
+    "Domain 5": "aerospace modeling, flight dynamics, and system-design evidence mapped to the paper's technical focus.",
+}
+
 TYPE_VISUAL_CLASSES = {
     "Journal article": "publication-news-card--journal",
     "Conference paper": "publication-news-card--conference",
@@ -578,7 +586,7 @@ def safe_id(value: str) -> str:
 
 
 def card_classes(entry: dict[str, str | int]) -> str:
-    classes = ["publication-news-card", "publication-news-card--story"]
+    classes = ["publication-news-card", "publication-news-card--story", "publication-news-card--feature"]
     classes.append(DOMAIN_VISUAL_CLASSES[str(entry["domain"])])
     classes.append(TYPE_VISUAL_CLASSES.get(str(entry["type"]), "publication-news-card--record"))
     return " ".join(classes)
@@ -616,6 +624,12 @@ def visual_labels(entry: dict[str, str | int]) -> list[str]:
         labels.append(type_label_short)
 
     return labels[:3]
+
+
+def visual_caption(entry: dict[str, str | int]) -> str:
+    labels = ", ".join(visual_labels(entry))
+    domain_caption = DOMAIN_CAPTIONS[str(entry["domain"])]
+    return f"Scientific illustration: {domain_caption} Visual cues: {labels}."
 
 
 def render_metric_trace(values: list[int]) -> str:
@@ -911,7 +925,7 @@ def render(entries: list[dict[str, str | int]]) -> str:
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(entries)} publications from {min_year} to {max_year}, sorted from most recent to earliest and excluding manuscripts under review.</p>",
         "    <p><strong>Archive note:</strong> This visual briefing archive turns the Publications page metadata and official publication links into illustrated research stories that remain readable without client-side rendering.</p>",
-        "    <p><strong>Narrative format:</strong> Each mini story card pairs a scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
+        "    <p><strong>Narrative format:</strong> Each publication story block pairs a large scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         "  </div>",
     ]
@@ -931,6 +945,7 @@ def render_card(entry: dict[str, str | int], indent: str) -> list[str]:
     inner = indent + "  "
     body = inner + "  "
     badge_indent = body + "  "
+    figure = body + "  "
     contributes_items = "".join(
         f"<li>{escape(point)}</li>" for point in contribution_points(entry)
     )
@@ -939,7 +954,6 @@ def render_card(entry: dict[str, str | int], indent: str) -> list[str]:
     )
     lines = [
         f"{indent}<article class=\"{card_classes(entry)}\">",
-        *[f"{inner}{line}" for line in render_visual(entry).splitlines()],
         f"{inner}<div class=\"publication-news-card__body\">",
         f"{body}<div class=\"publication-news-card__top\">",
         f"{badge_indent}<span class=\"publication-news-badge publication-news-badge--date\">{escape(format_date(str(entry['date'])))}</span>",
@@ -950,9 +964,13 @@ def render_card(entry: dict[str, str | int], indent: str) -> list[str]:
         f"{body}</div>",
         f"{body}<h3>{escape(str(entry['title']))}</h3>",
         f"{body}<p>{escape(str(entry['summary']))}</p>",
+        f"{body}<figure class=\"publication-news-card__figure\">",
+        *[f"{figure}{line}" for line in render_visual(entry).splitlines()],
+        f"{figure}<figcaption>{escape(visual_caption(entry))}</figcaption>",
+        f"{body}</figure>",
         f"{body}<div class=\"publication-news-card__story\">",
         f"{badge_indent}<section class=\"publication-news-card__section\">",
-        f"{badge_indent}  <h4>What it contributes</h4>",
+        f"{badge_indent}  <h4>What the paper contributes</h4>",
         f"{badge_indent}  <ul>{contributes_items}</ul>",
         f"{badge_indent}</section>",
         f"{badge_indent}<section class=\"publication-news-card__section\">",
@@ -961,7 +979,7 @@ def render_card(entry: dict[str, str | int], indent: str) -> list[str]:
         f"{badge_indent}</section>",
         f"{body}</div>",
         f"{body}<div class=\"publication-news-card__record\">",
-        f"{badge_indent}<p><strong>Publication record:</strong> <em>{escape(str(entry['venue']))}</em>.</p>",
+        f"{badge_indent}<p><strong>Publication record:</strong>&nbsp;<em>{escape(str(entry['venue']))}</em>.</p>",
     ]
 
     if entry["link"]:
@@ -988,8 +1006,8 @@ def render_2025(entries: list[dict[str, str | int]]) -> str:
         "<div class=\"publication-news-root\">",
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(focused)} publications released in 2025, sorted from most recent to earliest ({newest} to {oldest}).</p>",
-        "    <p><strong>2025 note:</strong> These visual briefing cards were written against official DOI or publisher records, arXiv abstracts, and official conference proceedings or accepted-paper listings when those are the primary public traces.</p>",
-        "    <p><strong>Narrative format:</strong> Each mini story card pairs a scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
+        "    <p><strong>2025 note:</strong> These publication story blocks were written against official DOI or publisher records, arXiv abstracts, and official conference proceedings or accepted-paper listings when those are the primary public traces.</p>",
+        "    <p><strong>Narrative format:</strong> Each publication story block pairs a large scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         "  </div>",
         "  <div class=\"publication-news-list\">",
@@ -1030,7 +1048,7 @@ def render_missing(entries: list[dict[str, str | int]]) -> str:
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(missing)} publication records from the Publications page that do not yet have a dedicated long-form News entry.</p>",
         "    <p><strong>Scope:</strong> This section focuses on publication records not already represented by the detailed News stories above, including recent journal articles, MetaCom 2025 papers, AAM-VDT, SHANGUS/FH-DRL, NOMS 2024, and the UAV delivery study.</p>",
-        "    <p><strong>Narrative format:</strong> Each mini story card pairs a scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
+        "    <p><strong>Narrative format:</strong> Each publication story block pairs a large scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Domain mix:</strong> {escape(domain_summary)}.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
         "  </div>",
@@ -1053,10 +1071,10 @@ def main() -> None:
     OUTPUT_PATH.write_text(render(entries), encoding="utf-8")
     OUTPUT_2025_PATH.write_text(render_2025(entries), encoding="utf-8")
     OUTPUT_MISSING_PATH.write_text(render_missing(entries), encoding="utf-8")
-    print(f"Wrote {len(entries)} publication cards to {OUTPUT_PATH}")
-    print(f"Wrote 2025 publication briefing cards to {OUTPUT_2025_PATH}")
+    print(f"Wrote {len(entries)} publication story blocks to {OUTPUT_PATH}")
+    print(f"Wrote 2025 publication story blocks to {OUTPUT_2025_PATH}")
     missing_count = sum(1 for entry in entries if str(entry["tag"]) not in NEWS_DEDICATED_TAGS)
-    print(f"Wrote {missing_count} missing-publication briefing cards to {OUTPUT_MISSING_PATH}")
+    print(f"Wrote {missing_count} missing-publication story blocks to {OUTPUT_MISSING_PATH}")
 
 
 if __name__ == "__main__":
