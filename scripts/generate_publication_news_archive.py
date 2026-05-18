@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import datetime
 from html import escape
 from pathlib import Path
 import re
@@ -237,7 +237,7 @@ CURATED_SUMMARIES = {
     ),
     "C41": (
         "This MetaCom 2025 paper quantifies high availability in metaverse-oriented distributed "
-        "storage with stochastic reward nets. It extends your reliability-modeling line into "
+        "storage with stochastic reward nets. It extends the reliability-modeling line into "
         "storage backends that must keep immersive services responsive and resilient under "
         "distributed demand."
     ),
@@ -344,12 +344,14 @@ def source_badge(entry: dict[str, str | int]) -> str:
         return "DBpia"
     if link:
         return "Paper"
-    return "Sparse public metadata"
+    return "Public metadata"
 
 
 def normalize_phrase(text: str) -> str:
     phrase = text.strip().rstrip(".")
     if re.match(r"^(A|An|The)\s", phrase):
+        return phrase[0].lower() + phrase[1:]
+    if len(phrase) > 1 and phrase[0].isupper() and phrase[1].islower():
         return phrase[0].lower() + phrase[1:]
     return phrase
 
@@ -378,19 +380,19 @@ def briefing_summary(entry: dict[str, str | int]) -> str:
         corrected = focus
         return (
             f"This {label} records an official correction linked to {corrected}. "
-            f"It preserves the accuracy of the published record within your {domain_line} research line."
+            f"It preserves the accuracy of the published record within the {domain_line} research line."
         )
 
     if "withdrawn" in venue.lower():
         return (
-            f"This {label} documents a public submission record for {focus}. "
-            f"It remains part of your {domain_line} portfolio as a visible research trace."
+            f"This {label} documents a public research submission on {title}. "
+            f"It remains part of the {domain_line} publication trajectory as a visible research trace."
         )
 
     if "systematic literature review" in title_lower:
         return (
             f"This {label} synthesizes the literature around {focus}. "
-            f"It broadens your {domain_line} portfolio by clarifying methods, themes, and open questions."
+            f"It broadens the {domain_line} research line by clarifying methods, themes, and open questions."
         )
 
     if any(
@@ -408,19 +410,19 @@ def briefing_summary(entry: dict[str, str | int]) -> str:
         ]
     ):
         return (
-            f"This {label} highlights a model-driven view of {focus}. "
-            f"It reinforces your {domain_line} research line with a quantitative publication milestone."
+            f"This {label} presents a model-driven contribution within the {domain_line} research line. "
+            "It frames the publication as a quantitative milestone rather than a purely descriptive record."
         )
 
     if any(keyword in title_lower for keyword in ["framework", "architecture", "platform", "system"]):
         return (
-            f"This {label} presents a structured contribution on {focus}. "
-            f"It extends your {domain_line} portfolio with a design-oriented research artifact."
+            f"This {label} presents a structured system or framework contribution within the {domain_line} research line. "
+            "It emphasizes a design-oriented research artifact that can be compared with later work."
         )
 
     return (
-        f"This {label} spotlights {focus}. "
-        f"It contributes to your {domain_line} portfolio through the venue listed below."
+        f"This {label} adds a clearly documented contribution to the {domain_line} research line. "
+        "The official publication record below anchors the entry in the broader archive."
     )
 
 
@@ -460,7 +462,7 @@ def contribution_points(entry: dict[str, str | int]) -> list[str]:
         for keyword in ["model", "modeling", "analysis", "evaluation", "quantification", "performability", "sensitivity"]
     ):
         points.append(
-            f"Turns {focus} into a quantitative study, so performance, reliability, cost, or availability can be compared."
+            "Turns the paper's central system question into a quantitative study, so performance, reliability, cost, or availability can be compared."
         )
 
     if any(keyword in title_lower for keyword in ["framework", "architecture", "platform", "system"]):
@@ -486,7 +488,7 @@ def contribution_points(entry: dict[str, str | int]) -> list[str]:
     if not points:
         domain_line = DOMAIN_LINES[domain]
         points.append(
-            f"Adds a publication milestone to your {domain_line} line with a clearly documented technical focus."
+            f"Adds a publication milestone to the {domain_line} line with a clearly documented technical focus."
         )
 
     if len(points) == 1:
@@ -904,16 +906,13 @@ def render(entries: list[dict[str, str | int]]) -> str:
     source_summary = ", ".join(
         f"{source} {count}" for source, count in sorted(source_counts.items())
     )
-    generated_on = datetime.now(timezone.utc).strftime("%B %-d, %Y")
-
     html_lines = [
         "<div class=\"publication-news-root\">",
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(entries)} publications from {min_year} to {max_year}, sorted from most recent to earliest and excluding manuscripts under review.</p>",
-        "    <p><strong>Archive note:</strong> This static visual briefing archive is generated from the Publications page metadata and the official publication links recorded there, so the News page remains stable without client-side rendering.</p>",
-        "    <p><strong>Visual system:</strong> Each mini research story card uses a generated scientific illustration motif plus concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
+        "    <p><strong>Archive note:</strong> This visual briefing archive turns the Publications page metadata and official publication links into illustrated research stories that remain readable without client-side rendering.</p>",
+        "    <p><strong>Narrative format:</strong> Each mini story card pairs a scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
-        f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
         "  </div>",
     ]
 
@@ -982,7 +981,6 @@ def render_2025(entries: list[dict[str, str | int]]) -> str:
     source_summary = ", ".join(
         f"{source} {count}" for source, count in sorted(source_counts.items())
     )
-    generated_on = datetime.now(timezone.utc).strftime("%B %-d, %Y")
     newest = format_date(str(focused[0]["date"]))
     oldest = format_date(str(focused[-1]["date"]))
 
@@ -991,9 +989,8 @@ def render_2025(entries: list[dict[str, str | int]]) -> str:
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(focused)} publications released in 2025, sorted from most recent to earliest ({newest} to {oldest}).</p>",
         "    <p><strong>2025 note:</strong> These visual briefing cards were written against official DOI or publisher records, arXiv abstracts, and official conference proceedings or accepted-paper listings when those are the primary public traces.</p>",
-        "    <p><strong>Visual system:</strong> Each mini research story card uses a generated scientific illustration motif plus concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
+        "    <p><strong>Narrative format:</strong> Each mini story card pairs a scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
-        f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
         "  </div>",
         "  <div class=\"publication-news-list\">",
     ]
@@ -1028,17 +1025,14 @@ def render_missing(entries: list[dict[str, str | int]]) -> str:
     domain_summary = ", ".join(
         f"{domain} {count}" for domain, count in sorted(domain_counts.items())
     )
-    generated_on = datetime.now(timezone.utc).strftime("%B %-d, %Y")
-
     html_lines = [
         "<div class=\"publication-news-root publication-news-root--missing\">",
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(missing)} publication records from the Publications page that do not yet have a dedicated long-form News entry.</p>",
-        "    <p><strong>Selection rule:</strong> The generator excludes publication tags already represented by the detailed News posts above, including recent journal articles, MetaCom 2025 papers, AAM-VDT, SHANGUS/FH-DRL, NOMS 2024, and the UAV delivery study.</p>",
-        "    <p><strong>Visual system:</strong> Each mini research story card uses a generated scientific illustration motif plus concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
+        "    <p><strong>Scope:</strong> This section focuses on publication records not already represented by the detailed News stories above, including recent journal articles, MetaCom 2025 papers, AAM-VDT, SHANGUS/FH-DRL, NOMS 2024, and the UAV delivery study.</p>",
+        "    <p><strong>Narrative format:</strong> Each mini story card pairs a scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Domain mix:</strong> {escape(domain_summary)}.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
-        f"    <p><strong>Generated:</strong> {generated_on} (UTC).</p>",
         "  </div>",
     ]
 

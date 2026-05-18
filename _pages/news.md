@@ -229,7 +229,7 @@ Persistent metaverse environments depend on storage systems that keep state avai
 
 - Uses **Stochastic Reward Nets** to quantify high availability in metaverse-oriented distributed storage.
 - Places storage dependability inside the architectural core of immersive systems instead of treating it as a backend afterthought.
-- Extends your broader dependability modeling line into storage infrastructures designed for persistent virtual environments.
+- Extends the broader dependability modeling line into storage infrastructures designed for persistent virtual environments.
 
 ### Why this matters
 
@@ -873,6 +873,6 @@ During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://peopl
 
 ## Publication Visual Briefing Archive
 
-The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The generated visual briefing archive below completes the publication coverage with richer mini research stories for records from the Publications page that do not yet have a dedicated long-form News entry: each card now includes a scientific illustration, contribution notes, impact notes, and the publication record.
+The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The visual briefing archive below completes the publication coverage with richer mini research stories for records from the Publications page that do not yet have a dedicated long-form News entry: each card includes a scientific illustration, contribution notes, impact notes, and the publication record.
 
 {% include publication_news_missing.html %}
