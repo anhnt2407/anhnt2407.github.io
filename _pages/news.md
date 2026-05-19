@@ -1678,6 +1678,527 @@ This *IEEE Access* article quantifies dependability and power consumption for Ku
 
 ---
 
+<p class="news-date">November 27, 2022</p>
+
+## es-DNLC for PAV Attitude Stabilization
+
+This ICCAS 2022 paper presents **es-DNLC**, a deep neural network control approach with exponentially stabilizing control Lyapunov functions for personal aerial vehicle attitude stabilization. The work connects learning-based control with stability reasoning, which is essential when neural controllers are considered for flight systems.
+
+<figure>
+  <img src="/images/news/221127/es-dnlc-pav-attitude-cover.webp" alt="Scientific illustration of es-DNLC neural control with Lyapunov stabilization for PAV attitude control" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: PAV hover stabilization, neural control layers, Lyapunov energy basin, and converging attitude trajectory.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Combines deep neural network control with exponentially stabilizing control Lyapunov functions.
+- Targets robust attitude stabilization for personal aerial vehicle flight.
+- Builds a bridge between AI-based control and stability-aware aerospace design.
+
+### Why this matters
+
+- Neural flight controllers need more than performance; they also need credible stability behavior.
+- Lyapunov-based structure helps expose whether a learned control law drives states toward equilibrium.
+- The cover highlights the control-stability concept instead of showing a generic UAV.
+
+**Publication record:** Presented on November 27, 2022 at *ICCAS 2022 - 22nd International Conference on Control, Automation and Systems*, pages 81-86 ([DOI](https://doi.org/10.23919/ICCAS55662.2022.10003776), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10003776)).
+
+---
+<p class="news-date">November 16, 2022</p>
+
+## Cloud-in-the-Loop Digital Twin Simulation for KADA-UAM
+
+This Korean Society for Aeronautical & Space Sciences conference paper introduces a cloud-based digital twin HW/SW framework for multi-mode AI control simulation of eVTOL KADA-UAM personal aerial vehicles. The focus is a **cloud-in-the-loop** simulation architecture that connects vehicle dynamics, AI control, and distributed compute infrastructure.
+
+<figure>
+  <img src="/images/news/221116/cloud-in-loop-kada-uam-cover.webp" alt="Scientific illustration of cloud-in-the-loop digital twin simulation for eVTOL KADA-UAM personal aerial vehicles" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: eVTOL vehicle and digital twin, cloud-based HW/SW loop, AI control paths, and simulation infrastructure.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Proposes a cloud-based digital twin framework for eVTOL AI control simulation.
+- Connects hardware/software simulation with multi-mode control experiments.
+- Adds a 2022 foundation for later UAM digital-twin and cloud infrastructure work.
+
+### Why this matters
+
+- UAM control research needs simulation environments that can scale beyond local desktop experiments.
+- Cloud-in-the-loop design makes compute, control, and vehicle digitalization part of one system.
+- The new cover makes the HW/SW digital-twin architecture visible at a glance.
+
+**Publication record:** Presented on November 16, 2022 in *The Korean Society for Aeronautical & Space Sciences Conference*, pages 138-139 ([DBpia record](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076743)).
+
+---
+<p class="news-date">November 16, 2022</p>
+
+## Neural Lyapunov Control for Hovering eVTOL Attitude
+
+This conference paper studies attitude stabilization of an eVTOL vehicle in hovering mode using neural-network-based control with Lyapunov theorem. It is part of the same 2022 aerospace-control thread as es-DNLC, focusing specifically on hover-mode attitude behavior.
+
+<figure>
+  <img src="/images/news/221116/evtol-lyapunov-attitude-cover.webp" alt="Scientific illustration of neural network based Lyapunov attitude stabilization for hovering eVTOL" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: hovering eVTOL, neural control paths, Lyapunov stability surface, and attitude convergence geometry.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies neural-network-based control to eVTOL attitude stabilization in hovering mode.
+- Uses Lyapunov reasoning to frame control stability.
+- Adds a conference milestone for early eVTOL control experimentation.
+
+### Why this matters
+
+- Hovering is a demanding regime where attitude errors can quickly affect vehicle safety.
+- Neural controllers must be interpreted through stability-aware methods before they can be trusted.
+- The cover keeps the focus on hover stabilization and Lyapunov structure.
+
+**Publication record:** Presented on November 16, 2022 in *The Korean Society for Aeronautical & Space Sciences Conference*, pages 322-323 ([DBpia record](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11076828)).
+
+---
+<p class="news-date">November 5, 2022</p>
+
+## Energy-Efficient Offloading for Edge Devices
+
+This *Energies* article proposes an energy-efficient offloading approach based on a cognitive energy management scheme for edge computing devices. The paper studies how computation can be shifted while optimizing energy use, which matters for edge devices that must balance performance demand with limited power budgets.
+
+<figure>
+  <img src="/images/news/221105/edge-energy-offloading-cover.webp" alt="Scientific illustration of energy-efficient computational offloading and cognitive energy management in edge computing" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: edge devices, offloading paths, cognitive energy-management layer, and energy optimization surface.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Designs an energy-aware offloading scheme for edge computing devices.
+- Connects cognitive energy management with workload placement and energy optimization.
+- Adds an energy-focused edge computing record to the News timeline.
+
+### Why this matters
+
+- Edge systems are useful only when they can deliver low-latency computation without draining constrained devices.
+- Offloading decisions must consider both compute demand and energy behavior.
+- The cover visualizes power and workload as a joint optimization problem.
+
+**Publication record:** Published online on November 5, 2022 in *Energies*, Volume 15, Article 8273 ([DOI](https://doi.org/10.3390/en15218273), [MDPI article](https://www.mdpi.com/1996-1073/15/21/8273)).
+
+---
+<p class="news-date">October 10, 2022</p>
+
+## Fusion-Multiactor-Attention-Critic for Multi-UAV Control
+
+This *Energies* article presents a multiagent reinforcement learning method based on a fusion-multiactor-attention-critic architecture for multiple-UAV navigation control. The work explores how multiple aerial agents can coordinate navigation while using attention and critic mechanisms to improve shared decision-making.
+
+<figure>
+  <img src="/images/news/221010/fmaac-uav-navigation-cover.webp" alt="Scientific illustration of fusion multiactor attention critic reinforcement learning for multi-UAV navigation control" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: cooperative UAV navigation, attention-critic decision manifold, actor policy streams, and collision-free trajectory ribbons.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies multiagent reinforcement learning to multiple-UAV navigation control.
+- Uses fusion, multiactor, attention, and critic components to support coordinated decision-making.
+- Strengthens the News page's AI autonomy and UAV-control coverage.
+
+### Why this matters
+
+- Multi-UAV navigation requires coordination, not only independent local control.
+- Attention mechanisms can help agents focus on the most relevant interactions.
+- The cover conveys cooperative navigation and policy learning in one visual system.
+
+**Publication record:** Published online on October 10, 2022 in *Energies*, Volume 15, Issue 19, Article 7426 ([DOI](https://doi.org/10.3390/en15197426), [MDPI article](https://www.mdpi.com/1996-1073/15/19/7426)).
+
+---
+<p class="news-date">October 1, 2022</p>
+
+## Hierarchical Survivability Models for Industrial IoT
+
+This IEEE Cloud Summit paper models survivability and resiliency in an Internet of Industrial Things system using hierarchical models. The study brings dependability modeling into industrial cyber-physical infrastructure, where failures can affect sensing, production, gateways, and edge services at the same time.
+
+<figure>
+  <img src="/images/news/221001/ioit-survivability-cover.webp" alt="Scientific illustration of hierarchical survivability and resiliency modeling for Industrial IoT systems" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: industrial IoT sensors, factory edge infrastructure, hierarchical dependability layers, and recovery paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses hierarchical models to evaluate survivability and resiliency in Industrial IoT.
+- Connects industrial devices, gateways, and edge/cloud resources in one dependability view.
+- Adds a dedicated 2022 Industrial IoT systems entry to the News page.
+
+### Why this matters
+
+- Industrial IoT failures can cascade across sensors, networks, and compute layers.
+- Hierarchical models help study complex systems without flattening important dependencies.
+- The illustration makes survivability and resiliency visible as structured recovery behavior.
+
+**Publication record:** Presented on October 1, 2022 at *2022 IEEE Cloud Summit*, pages 118-123 ([DOI](https://doi.org/10.1109/CloudSummit54781.2022.00024), [IEEE Xplore record](https://ieeexplore.ieee.org/document/9973109)).
+
+---
+<p class="news-date">September 30, 2022</p>
+
+## Blockchain Federated Learning for UAM Digital Twins
+
+This APISAT 2021 proceedings chapter studies blockchain-empowered federated learning with edge computing for digital twin systems in Urban Air Mobility. It combines three important ideas for UAM infrastructure: privacy-preserving distributed learning, edge computing, and trustworthy update coordination.
+
+<figure>
+  <img src="/images/news/220930/blockchain-federated-uam-twin-cover.webp" alt="Scientific illustration of blockchain empowered federated learning with edge computing for UAM digital twin systems" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAM digital twins, federated edge nodes, secure model-update chains, and city-scale learning infrastructure.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Combines blockchain, federated learning, and edge computing for UAM digital twin systems.
+- Supports distributed model updates without centralizing all operational data.
+- Adds an early secure-learning milestone to the UAM digital-twin research line.
+
+### Why this matters
+
+- UAM digital twins will need to learn from distributed infrastructure while preserving trust.
+- Edge federated learning can reduce data movement and support localized adaptation.
+- The cover avoids generic blockchain imagery by tying the ledger concept to UAM model updates.
+
+**Publication record:** Published on September 30, 2022 in *The Proceedings of APISAT 2021*, Lecture Notes in Electrical Engineering 913 ([DOI](https://doi.org/10.1007/978-981-19-2635-8_69), [Springer chapter](https://link.springer.com/chapter/10.1007/978-981-19-2635-8_69)).
+
+---
+<p class="news-date">September 30, 2022</p>
+
+## Multi-Agent Reinforcement Learning for UAS Logistics
+
+This APISAT 2021 proceedings chapter applies multi-agent reinforcement learning to UAS control for logistics environments. The work focuses on coordinated autonomous aerial systems in delivery-style operational contexts, where multiple agents must plan routes, avoid conflicts, and respond to changing demands.
+
+<figure>
+  <img src="/images/news/220930/marl-uas-logistics-cover.webp" alt="Scientific illustration of multi-agent reinforcement learning based UAS control for logistics environments" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAS logistics routes, cooperative reinforcement-learning policy field, warehouse nodes, and coordinated delivery trajectories.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies multi-agent reinforcement learning to UAS control in logistics settings.
+- Frames route coordination and resource movement as a learning-based autonomy problem.
+- Adds a logistics-focused UAS control entry to the News chronology.
+
+### Why this matters
+
+- Aerial logistics depends on coordinated decisions across multiple vehicles.
+- Multi-agent learning can help encode cooperative behavior beyond single-vehicle navigation.
+- The image emphasizes logistics coordination rather than generic drone flight.
+
+**Publication record:** Published on September 30, 2022 in *APISAT 2021*, Lecture Notes in Electrical Engineering 913 ([DOI](https://doi.org/10.1007/978-981-19-2635-8_71), [Springer chapter](https://link.springer.com/chapter/10.1007/978-981-19-2635-8_71)).
+
+---
+<p class="news-date">September 30, 2022</p>
+
+## Decentralized Swarm UAV Control for Persistent Surveillance
+
+This APISAT 2021 proceedings chapter presents a deep multi-agent reinforcement learning based decentralized swarm UAV control framework for persistent surveillance. The paper focuses on distributed coordination, coverage behavior, and multi-agent autonomy in civil monitoring scenarios.
+
+<figure>
+  <img src="/images/news/220930/swarm-uav-surveillance-cover.webp" alt="Scientific illustration of decentralized swarm UAV control for persistent surveillance using deep multi-agent reinforcement learning" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: decentralized UAV swarm, coverage fields, shared-but-distributed policy signals, and persistent monitoring trajectories.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Develops a decentralized swarm UAV control framework using deep multi-agent reinforcement learning.
+- Supports persistent surveillance coverage without relying on a single centralized controller.
+- Adds a swarm-autonomy counterpart to the logistics-focused APISAT entry.
+
+### Why this matters
+
+- Persistent coverage requires coordination across space and time, not one-off route planning.
+- Decentralized control can improve robustness when agents or links change.
+- The cover shows civil coverage fields and distributed policy behavior without militarized framing.
+
+**Publication record:** Published on September 30, 2022 in *APISAT 2021*, Lecture Notes in Electrical Engineering 913 ([DOI](https://doi.org/10.1007/978-981-19-2635-8_70), [Springer chapter](https://link.springer.com/chapter/10.1007/978-981-19-2635-8_70)).
+
+---
+<p class="news-date">September 5, 2022</p>
+
+## Deep Learning for Rapid Airfoil Inverse Design
+
+This *International Journal of Aeronautical and Space Sciences* article presents a rapid airfoil inverse design method using a deep neural network and hyperparameter selection. The paper focuses on accelerating the design loop: starting from aerodynamic targets and producing suitable airfoil geometry more efficiently.
+
+<figure>
+  <img src="/images/news/220905/airfoil-inverse-design-cover.webp" alt="Scientific illustration of rapid airfoil inverse design using deep neural networks and hyperparameter selection" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: target aerodynamic field, neural inverse-design core, hyperparameter landscape, and optimized airfoil geometry.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses deep neural networks for rapid airfoil inverse design.
+- Includes hyperparameter selection as part of the model-building workflow.
+- Adds an aerospace design automation milestone to the News page.
+
+### Why this matters
+
+- Airfoil inverse design can be slow when each candidate requires heavy aerodynamic evaluation.
+- Deep learning can shorten iteration cycles when trained and tuned carefully.
+- The cover makes the target-to-geometry transformation visually explicit.
+
+**Publication record:** Published online on September 5, 2022 in *International Journal of Aeronautical and Space Sciences* ([DOI](https://doi.org/10.1007/s42405-022-00507-x), [Springer article](https://link.springer.com/article/10.1007/s42405-022-00507-x)).
+
+---
+<p class="news-date">August 12, 2022</p>
+
+## Link Lifetime Prediction for VANET Offloading
+
+This *Sensors* article evaluates link lifetime prediction to support computational offloading decisions in vehicular ad hoc networks. The paper studies a practical edge-computing problem: vehicles can offload computation only when communication links are likely to remain usable long enough.
+
+<figure>
+  <img src="/images/news/220812/vanet-link-lifetime-offloading-cover.webp" alt="Scientific illustration of link lifetime prediction supporting computational offloading decisions in VANETs" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: connected vehicles, predicted link lifetime arcs, mobility-aware offloading paths, and roadside edge nodes.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates link lifetime prediction for VANET computational offloading.
+- Connects vehicle mobility, communication stability, and edge resource decisions.
+- Adds a vehicular edge-computing publication to the News chronology.
+
+### Why this matters
+
+- Offloading can fail if a vehicle loses its link before work is completed.
+- Link lifetime prediction helps choose when and where to offload computation.
+- The cover communicates mobility-aware networking instead of a generic connected-car scene.
+
+**Publication record:** Published online on August 12, 2022 in *Sensors*, Volume 22, Issue 16, Article 6038 ([DOI](https://doi.org/10.3390/s22166038), [MDPI article](https://www.mdpi.com/1424-8220/22/16/6038)).
+
+---
+<p class="news-date">July 27, 2022</p>
+
+## Survivability Evaluation of Medical Edge Networks
+
+This IEEE ICCE 2022 paper presents a hierarchical model based survivability and resiliency evaluation of medical edge networks. It extends the dependability research thread into healthcare edge environments, where sensor data, local compute, and service continuity are tightly linked.
+
+<figure>
+  <img src="/images/news/220727/medical-edge-survivability-cover.webp" alt="Scientific illustration of hierarchical survivability and resiliency evaluation for medical edge networks" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: medical sensors, edge gateways, hierarchical dependability model layers, redundant service paths, and recovery behavior.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses hierarchical models to evaluate medical edge network survivability and resiliency.
+- Links healthcare sensing workflows with edge infrastructure dependability.
+- Adds a healthcare edge counterpart to the Industrial IoT survivability entry.
+
+### Why this matters
+
+- Medical edge systems must keep services available even when components degrade or fail.
+- Hierarchical modeling helps capture how local failures affect the broader monitoring service.
+- The cover visualizes healthcare edge resilience without relying on patient imagery.
+
+**Publication record:** Presented on July 27, 2022 at *2022 IEEE Ninth International Conference on Communications and Electronics (ICCE)*, pages 87-92 ([DOI](https://doi.org/10.1109/ICCE55644.2022.9852059), [IEEE Xplore record](https://ieeexplore.ieee.org/document/9852059)).
+
+---
+<p class="news-date">June 24, 2022</p>
+
+## hLSTM-Aging for Software Aging Forecasting
+
+This *Applied Sciences* article presents **hLSTM-Aging**, a hybrid LSTM model for software aging forecasting. The paper targets a subtle reliability problem: long-running software systems can degrade gradually, so forecasting that degradation can support earlier rejuvenation and better service planning.
+
+<figure>
+  <img src="/images/news/220624/hlstm-aging-cover.webp" alt="Scientific illustration of hLSTM-Aging hybrid LSTM model for software aging forecasting" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: cloud service nodes, recurrent neural forecasting layers, software aging curve, and rejuvenation timing.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Proposes a hybrid LSTM model for forecasting software aging.
+- Connects time-series learning with dependability management and rejuvenation planning.
+- Adds a machine-learning reliability paper to the News archive.
+
+### Why this matters
+
+- Software aging often appears as gradual degradation rather than sudden failure.
+- Forecasting helps operators intervene before quality-of-service drops.
+- The cover shows aging as a time-dependent reliability signal rather than an abstract bug.
+
+**Publication record:** Published online on June 24, 2022 in *Applied Sciences*, Volume 12, Issue 13, Article 6412 ([DOI](https://doi.org/10.3390/app12136412), [MDPI article](https://www.mdpi.com/2076-3417/12/13/6412)).
+
+---
+<p class="news-date">June 20, 2022</p>
+
+## Mission Dependability Design for Unmanned Aerial Systems
+
+This AIAA AVIATION 2022 paper studies model-driven mission dependability design of unmanned aerial systems. It frames UAS missions as dependability design problems where route, system state, recovery choices, and mission success must be considered together.
+
+<figure>
+  <img src="/images/news/220620/uas-mission-dependability-cover.webp" alt="Scientific illustration of model-driven mission dependability design for unmanned aerial systems" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAS mission route, dependability state model, backup paths, recovery options, and mission success flow.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies model-driven dependability design to unmanned aerial system missions.
+- Connects mission phases with reliability, recovery, and system behavior.
+- Adds a mission-level UAS dependability entry to the News page.
+
+### Why this matters
+
+- UAS reliability is not only about components; it also depends on mission context.
+- Model-driven design helps evaluate mission alternatives before flight operations.
+- The cover represents mission dependability as a route-and-state system.
+
+**Publication record:** Presented on June 20, 2022 at *AIAA AVIATION 2022 Forum*, AIAA 2022-4091 ([DOI](https://doi.org/10.2514/6.2022-4091), [AIAA record](https://arc.aiaa.org/doi/10.2514/6.2022-4091)).
+
+---
+<p class="news-date">April 20, 2022</p>
+
+## Fog-Aided Availability Evaluation for Smart Buildings
+
+This *Electronics Letters* article supports availability evaluation of a smart building monitoring system aided by fog computing. It brings dependability analysis into smart-building IoT, where local sensing and fog-layer computation can improve service responsiveness and continuity.
+
+<figure>
+  <img src="/images/news/220420/smart-building-fog-availability-cover.webp" alt="Scientific illustration of availability evaluation for smart building monitoring aided by fog computing" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: smart building sensors, fog nodes, cloud gateway, availability model, and service-continuity paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates availability for a smart building monitoring system aided by fog computing.
+- Connects building sensors, local fog resources, and monitoring service continuity.
+- Adds a smart-building IoT milestone to the News chronology.
+
+### Why this matters
+
+- Smart buildings rely on continuous monitoring across many sensors and local services.
+- Fog computing can reduce latency and support local availability.
+- The cover makes the building-fog-monitoring relationship visually concrete.
+
+**Publication record:** Published online on April 20, 2022 in *Electronics Letters* ([DOI](https://doi.org/10.1049/ell2.12502), [IET article](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ell2.12502)).
+
+---
+<p class="news-date">March 1, 2022</p>
+
+## Switch-Over Moving Target Defense in SDN
+
+This *Journal of Network and Computer Applications* article evaluates the performability of switch-over Moving Target Defense mechanisms in Software Defined Networking using stochastic reward nets. The work studies security adaptation and service quality together, which is important because defense actions can change network performance.
+
+<figure>
+  <img src="/images/news/220301/sdn-moving-target-defense-cover.webp" alt="Scientific illustration of switch-over moving target defense in software defined networking using stochastic reward nets" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: SDN controller, switching network paths, moving-target defense rerouting, stochastic reward-net states, and performability trade-offs.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates switch-over Moving Target Defense mechanisms in SDN.
+- Uses stochastic reward nets to study performability, not only isolated security behavior.
+- Adds a network defense and dependability publication to the News page.
+
+### Why this matters
+
+- Security mechanisms can protect systems while also disrupting performance.
+- Performability analysis helps quantify that security-service trade-off.
+- The cover shows MTD as an adaptive network mechanism rather than a generic cybersecurity icon.
+
+**Publication record:** Published in March 2022 in *Journal of Network and Computer Applications*, Volume 199, Article 103267 ([DOI](https://doi.org/10.1016/j.jnca.2021.103267)).
+
+---
+<p class="news-date">February 18, 2022</p>
+
+## Smart Hospital Sensor Dependability with Redundancy and Rejuvenation
+
+This *Sensors* article quantifies how energy resource redundancy and server rejuvenation affect the dependability of medical sensor networks in smart hospitals. It brings model-driven dependability analysis into healthcare IoT infrastructure, where availability and recovery directly affect monitoring continuity.
+
+<figure>
+  <img src="/images/news/220218/smart-hospital-sensor-dependability-cover.webp" alt="Scientific illustration of energy redundancy and server rejuvenation for smart hospital medical sensor network dependability" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: smart hospital sensor network, redundant energy resources, server rejuvenation loop, and dependability model surface.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Quantifies the dependability impact of energy resource redundancy in medical sensor networks.
+- Studies server rejuvenation as a mechanism for improving smart hospital infrastructure reliability.
+- Adds a healthcare IoT dependability article to the 2022 News sequence.
+
+### Why this matters
+
+- Medical sensor networks must remain available while operating under resource constraints.
+- Redundancy and rejuvenation can improve reliability, but their impact must be modeled.
+- The cover ties energy, sensing, and server recovery into one hospital infrastructure visual.
+
+**Publication record:** Published online on February 18, 2022 in *Sensors*, Volume 22, Issue 4, Article 1595 ([DOI](https://doi.org/10.3390/s22041595), [MDPI article](https://www.mdpi.com/1424-8220/22/4/1595)).
+
+---
+<p class="news-date">February 5, 2022</p>
+
+## Performance-Cost Trade-Offs in Cloud Auto-Scaling
+
+This *Sensors* article studies the performance-cost trade-off in auto-scaling mechanisms for cloud computing. The paper considers how cloud systems should scale resources when demand changes, while making both service quality and resource cost visible in the decision.
+
+<figure>
+  <img src="/images/news/220205/cloud-autoscaling-performance-cost-cover.webp" alt="Scientific illustration of performance cost trade-offs in cloud auto-scaling mechanisms" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: cloud resource clusters, auto-scaling control loop, performance field, cost surface, and workload demand waves.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates performance-cost trade-offs in cloud auto-scaling mechanisms.
+- Connects workload demand, resource capacity, performance, and operating cost.
+- Adds a cloud resource-management publication to the News archive.
+
+### Why this matters
+
+- Auto-scaling can improve performance, but extra resources increase cost.
+- Quantitative trade-off analysis helps choose scaling policies that match operational goals.
+- The cover makes scaling behavior readable as a systems optimization problem.
+
+**Publication record:** Published online on February 5, 2022 in *Sensors*, Volume 22, Issue 3, Article 1221 ([DOI](https://doi.org/10.3390/s22031221), [MDPI article](https://www.mdpi.com/1424-8220/22/3/1221)).
+
+---
+<p class="news-date">January 1, 2022</p>
+
+## Mobile Games at the Edge for Capacity Planning
+
+This CLOSER 2022 paper evaluates mobile games at the edge to guide resource capacity planning. It studies how edge resources can support latency-sensitive gaming workloads, using performance evaluation to inform how much capacity should be provisioned.
+
+<figure>
+  <img src="/images/news/220101/mobile-games-edge-capacity-cover.webp" alt="Scientific illustration of mobile games at the edge for resource capacity planning and performance evaluation" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: mobile gaming devices, edge servers, low-latency paths, workload demand surface, and resource capacity planning blocks.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates edge computing support for mobile gaming workloads.
+- Uses performance analysis to guide resource capacity planning.
+- Adds an application-facing edge computing entry to the News page.
+
+### Why this matters
+
+- Mobile games can be highly sensitive to latency and resource contention.
+- Edge capacity planning helps avoid overprovisioning while preserving user experience.
+- The cover connects gaming workload demand with edge resource decisions.
+
+**Publication record:** Presented in 2022 at the *12th International Conference on Cloud Computing and Services Science (CLOSER)*, pages 238-245 ([DOI](https://doi.org/10.5220/0011071200003200)).
+
+---
+<p class="news-date">January 1, 2022</p>
+
+## Steering Behavior for Multiple RUAV Obstacle Avoidance
+
+This *Intelligent Automation & Soft Computing* article studies steering behavior based obstacle avoidance control for multiple rotary UAVs. The work focuses on coordinated collision avoidance, where several aerial vehicles must move safely through obstacle-rich environments while maintaining controllable trajectories.
+
+<figure>
+  <img src="/images/news/220101/ruav-obstacle-avoidance-cover.webp" alt="Scientific illustration of steering behavior based obstacle avoidance control for multiple rotary UAVs" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: multiple rotary UAVs, obstacle fields, steering vector paths, safe separation envelopes, and coordinated avoidance behavior.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies steering behavior to multiple RUAV obstacle avoidance control.
+- Represents collision avoidance as coordinated path behavior across several aerial vehicles.
+- Completes the 2022 dedicated News batch with an autonomy and control article.
+
+### Why this matters
+
+- Multi-UAV systems need reliable obstacle avoidance before they can operate in shared environments.
+- Steering behavior offers a practical control layer for local collision avoidance.
+- The cover clearly shows obstacle geometry, avoidance paths, and multi-agent coordination.
+
+**Publication record:** Published in 2022 in *Intelligent Automation & Soft Computing*, Volume 34, Issue 1, pages 575-591 ([DOI](https://doi.org/10.32604/iasc.2022.024577), [Tech Science record](https://www.techscience.com/iasc/v34n1/47301)).
+
+---
+
 ## Publication Visual Briefing Archive
 
 The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The visual briefing archive below completes the publication coverage with publication story blocks for records from the Publications page that do not yet have a dedicated long-form News entry: each entry includes a large scientific illustration, contribution notes, impact notes, and the publication record.
