@@ -589,6 +589,136 @@ This early News release introduced **mhmcTD3** as a multi-head, memory-enhanced 
 **Publication record:** Posted on January 21, 2025 on *TechRxiv* as *Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation* ([DOI](https://doi.org/10.36227/techrxiv.173747402.29145488/v1)).
 
 ---
+<p class="news-date">December 12, 2024</p>
+
+## Edge-Fog-Cloud Industrial Automation Performance Evaluation
+
+This *Journal of Network and Systems Management* article studies industrial automation as a tiered cyber-physical system rather than a single compute placement problem. The work compares edge, fog, and cloud architectures so that latency, throughput, and resource behavior can be evaluated before a factory workflow is deployed at scale.
+
+<figure>
+  <img src="/images/news/241212/industrial-automation-edge-fog-cloud-cover.webp" alt="Scientific illustration of edge-fog-cloud industrial automation performance evaluation" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: industrial sensors, edge gateways, fog nodes, and cloud resources connected through model-driven performance flows.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Frames industrial IoT automation as a layered edge-fog-cloud design problem with measurable performance consequences.
+- Uses model-driven evaluation to compare how architecture choices affect service behavior in automation pipelines.
+- Gives system designers a clearer basis for placing computation close to machines, near local fog resources, or in the cloud.
+
+### Why this matters
+
+- Industrial automation workloads are sensitive to both timing and reliability, so placement decisions cannot be treated as only a cost question.
+- The paper makes edge/fog/cloud trade-offs visible in a way that supports capacity planning for Industry 4.0 deployments.
+- It also extends the website's News coverage for late-2024 IoT and CPS publications.
+
+**Publication record:** Published online on December 12, 2024 in *Journal of Network and Systems Management*, Volume 33, Article 15 ([DOI](https://doi.org/10.1007/s10922-024-09893-x), [Springer article](https://link.springer.com/article/10.1007/s10922-024-09893-x)).
+
+---
+<p class="news-date">December 8, 2024</p>
+
+## Resilient and Efficient Microservices at GLOBECOM 2024
+
+This IEEE GLOBECOM 2024 paper focuses on a hard operational balance: microservice platforms should recover quickly, but the recovery strategy must not waste energy or over-provision the infrastructure. The study uses stochastic modeling to connect recovery time and energy consumption within a single evaluation lens.
+
+<figure>
+  <img src="/images/news/241208/resilient-microservices-energy-recovery-cover.webp" alt="Scientific illustration of resilient microservices with energy and recovery-time modeling" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: microservice recovery paths, energy-aware operation, and stochastic infrastructure modeling.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Quantifies energy consumption and recovery-time behavior in resilient microservice architectures.
+- Uses stochastic models to move beyond informal resilience claims and compare recovery choices quantitatively.
+- Connects service-continuity goals with efficiency goals, which are often tuned separately in cloud systems.
+
+### Why this matters
+
+- Cloud resilience mechanisms can become expensive if recovery policies keep too many resources active for too long.
+- Energy-aware modeling helps operators reason about sustainability without weakening recovery objectives.
+- The work fills a late-2024 gap between the News page's Kubernetes and disaster-survivability publication threads.
+
+**Publication record:** Published on December 8, 2024 in *GLOBECOM 2024 - 2024 IEEE Global Communications Conference* ([DOI](https://doi.org/10.1109/GLOBECOM52923.2024.10901098), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10901098)).
+
+---
+<p class="news-date">November 13, 2024</p>
+
+## Multi-Fidelity Data Fusion for Real-Time Aerodynamic Modeling
+
+This KSAS Fall Conference paper addresses a key aerospace modeling problem: flight data arrive from sources with different fidelity, sampling conditions, and uncertainty. A real-time aerodynamic model has to fuse those signals into a usable representation quickly enough to support analysis, validation, and control-oriented workflows.
+
+<figure>
+  <img src="/images/news/241113/aerodynamic-data-fusion-cover.webp" alt="Scientific illustration of multi-fidelity aerodynamic data fusion from flight data" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: flight-data streams, multi-fidelity model layers, and aerodynamic surfaces fused for real-time modeling.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Presents a multi-fidelity data-fusion method for real-time aerodynamic modeling from flight data.
+- Positions aerodynamic model generation as a data-integration problem rather than a single-source fitting task.
+- Supports the broader aerospace systems line on flight dynamics, validation, and digital-model generation.
+
+### Why this matters
+
+- Real-time aerodynamic models are useful only when they can reconcile measurement quality, model fidelity, and operational speed.
+- Multi-fidelity fusion helps bridge the gap between simulation, low-fidelity estimates, and flight-test evidence.
+- The post adds the missing November 2024 aerospace publication milestone to the News chronology.
+
+**Publication record:** Presented on November 13, 2024 in the *Proceedings of the Korean Society for Aeronautical & Space Sciences Fall Conference 2024* ([KSAS program record](https://ksas.or.kr/proceedings/2024b/data/2024%EB%85%84%EB%8F%84%20%EC%B6%94%EA%B3%84%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%28%EC%95%88%29%20v9.pdf)).
+
+---
+<p class="news-date">October 16, 2024</p>
+
+## AAM Vehicle Digital Twin with ePropulsion and Software Integration
+
+This Aerospace Systems Engineering Society Fall Conference paper continues the AAM vehicle digital twin line by emphasizing integration strategy. Instead of treating propulsion, software, simulation, and certification artifacts as separate pieces, the work frames them as a coordinated virtual-certification workflow.
+
+<figure>
+  <img src="/images/news/241016/aam-digital-twin-epropulsion-cover.webp" alt="Scientific illustration of AAM vehicle digital twin ePropulsion and software integration" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: ePropulsion modules, digital-twin aircraft, software integration flows, and virtual-certification loops.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Describes an AAM vehicle digital twin strategy connecting advanced ePropulsion and software integration.
+- Supports virtual certification by organizing simulation, implementation, and validation concerns in one twin-centered workflow.
+- Extends the AAM-VDT research direction from platform concept toward integration practice.
+
+### Why this matters
+
+- Advanced air mobility systems need credible virtual-certification pipelines before flight-test campaigns can scale safely.
+- Integration strategy is as important as simulation fidelity because propulsion, software, and validation data must stay aligned.
+- This post fills the October 2024 digital-twin publication gap in the News timeline.
+
+**Publication record:** Published on October 16, 2024 in the *Proceedings of the Aerospace Systems Engineering Society Fall Conference 2024*, pages 719-722 ([DBpia record](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12058721)).
+
+---
+<p class="news-date">October 4, 2024</p>
+
+## ULoRA for Universal Low-Rank Adaptation
+
+The ULoRA OpenReview submission explores a practical question in modern deep learning: can low-rank adaptation be made more universal across diverse model architectures instead of being tuned narrowly for one network family? The work sits at the intersection of efficient fine-tuning, architectural transfer, and reusable adaptation modules.
+
+<figure>
+  <img src="/images/news/241004/ulora-cover.webp" alt="Scientific illustration of universal low-rank adaptation across deep learning architectures" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: lightweight adapter layers bridging multiple neural architectures through a shared low-rank adaptation space.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Frames low-rank adaptation as a cross-architecture problem rather than only a task-specific fine-tuning trick.
+- Studies how adapter-style modules can support diverse deep learning models under one adaptation principle.
+- Adds an efficient learning systems thread to the News page's AI and autonomy coverage.
+
+### Why this matters
+
+- Parameter-efficient adaptation is important when models are too large to retrain for every downstream setting.
+- A universal adaptation view can reduce engineering fragmentation across vision, language, and control workflows.
+- The post records the October 2024 OpenReview submission in the publication chronology while clearly treating it as a submission record.
+
+**Publication record:** Posted on October 4, 2024 as an *ICLR 2025 Conference withdrawn submission* on OpenReview ([OpenReview record](https://openreview.net/forum?id=bYsieh8LE2)).
+
+---
 <p class="news-date">September 14, 2024</p>
 
 ## Enhancing IoT Disaster Detection Systems with Stochastic Models Across Multiple Geographic Areas
@@ -743,6 +873,32 @@ Looking forward to the future collaborations and advancements in this exciting f
 </figure>
 
 ---
+<p class="news-date">June 17, 2024</p>
+
+## Disaster-Survivable Cloud Microservices with Energy-Aware Consolidation
+
+This *Computing* article studies cloud microservices under disaster-survivability constraints. The central question is not simply whether a service can recover, but how consolidation and dynamic response strategies affect energy use, recovery behavior, and infrastructure efficiency during stressed operating conditions.
+
+<figure>
+  <img src="/images/news/240617/cloud-microservices-disaster-survivability-cover.webp" alt="Scientific illustration of disaster-survivable cloud microservices with energy-aware consolidation" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: cloud microservice consolidation, energy-aware response, and survivability rerouting under risk.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates dynamic response and consolidation strategies for cloud microservice survivability.
+- Connects disaster recovery behavior with energy-aware operation instead of analyzing them in isolation.
+- Provides a quantitative foundation for choosing consolidation policies under disruption scenarios.
+
+### Why this matters
+
+- Disaster survivability is a capacity-planning problem as much as an availability problem.
+- Energy-aware consolidation can improve efficiency, but aggressive consolidation may interact with recovery objectives.
+- The paper strengthens the News page's infrastructure-dependability storyline between early 2024 cloud work and later Kubernetes autoscaling work.
+
+**Publication record:** Published online on June 17, 2024 in *Computing*, Volume 106, pages 2737-2783 ([DOI](https://doi.org/10.1007/s00607-024-01305-x), [Springer article](https://link.springer.com/article/10.1007/s00607-024-01305-x)).
+
+---
 <p class="news-date">May 14, 2024</p>
 
 ## Advanced Air Mobility-Vehicle Digital Twin (AAM-VDT)
@@ -868,6 +1024,188 @@ During the conference, I had the pleasure of meeting [Jin-Hee Cho](https://peopl
     <img src="/images/news/240510/NOMS 2024/NOMS 2024 (03).jpg" alt="NOMS 2024 Photo 3">
     <figcaption> A system demonstration at NOMS 2024 </figcaption>
 </figure>
+
+---
+<p class="news-date">April 1, 2024</p>
+
+## Aerial Computing with UAV Data Bridges
+
+This *ICT Express* article studies aerial computing as a way to extend mobile cloud computing with UAVs acting as data bridges. The contribution treats unmanned aerial vehicles as dependability-relevant infrastructure elements, not only as mobile carriers or isolated sensing platforms.
+
+<figure>
+  <img src="/images/news/240401/aerial-computing-uav-data-bridges-cover.webp" alt="Scientific illustration of UAV data bridges for aerial computing and mobile cloud dependability" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAVs relaying data between mobile users, edge stations, and cloud services through dependability-aware state transitions.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Models UAV-assisted mobile cloud computing as an aerial data-bridge architecture.
+- Uses Markov-chain-based dependability quantification to evaluate how UAV bridges affect service continuity.
+- Connects mobile cloud performance with unmanned aerial systems and infrastructure reliability.
+
+### Why this matters
+
+- UAVs can expand connectivity, but they also introduce mobility, battery, and failure dynamics that must be modeled.
+- Dependability quantification helps determine when aerial relays improve the system and when they add operational risk.
+- This post adds the April 2024 aerial-computing publication into the News sequence.
+
+**Publication record:** Published in April 2024 in *ICT Express*, Volume 10, Issue 2, pages 389-396 ([DOI](https://doi.org/10.1016/j.icte.2023.10.002), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959523001385)).
+
+---
+<p class="news-date">February 23, 2024</p>
+
+## YOLOTransfer-DT for UAM Situation Awareness
+
+This *Aerospace* article presents **YOLOTransfer-DT**, an operational digital twin framework for collision detection and situation awareness in urban aerial mobility. The work links deep learning, transfer learning, and simulated twin environments so perception models can be trained and evaluated around UAM safety requirements.
+
+<figure>
+  <img src="/images/news/240223/yolotransfer-dt-cover.webp" alt="Scientific illustration of YOLOTransfer-DT for urban aerial mobility situation awareness" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAM digital twin simulation, object-detection geometry, transfer-learning streams, and collision-awareness layers.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Introduces a YOLOTransfer-DT framework for AI training in simulated UAM digital-twin environments.
+- Applies deep and transfer learning to collision detection and situation awareness for aerial mobility operations.
+- Treats the operational digital twin as a safety-oriented training and validation environment rather than only a visualization layer.
+
+### Why this matters
+
+- UAM vehicles need perception systems that can be stress-tested before dense urban deployment.
+- Transfer learning can reduce the cost of building specialized detection models for new aerial scenarios.
+- The paper gives the News timeline a dedicated post for one of the key early-2024 digital-twin journal publications.
+
+**Publication record:** Published on February 23, 2024 in *Aerospace*, Volume 11, Issue 3, Article 179 ([DOI](https://doi.org/10.3390/aerospace11030179), [MDPI article](https://www.mdpi.com/2226-4310/11/3/179)).
+
+---
+<p class="news-date">February 20, 2024</p>
+
+## Resource Redundancy for Smart City Dependability
+
+This *Cluster Computing* article focuses on how redundancy choices influence smart city dependability. Instead of assuming extra resources always improve outcomes, the study uses a model-driven approach to quantify where redundancy helps, where it adds overhead, and how it changes the resilience of connected city services.
+
+<figure>
+  <img src="/images/news/240220/smart-city-resource-redundancy-cover.webp" alt="Scientific illustration of smart city resource redundancy and dependability modeling" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: redundant smart-city resources, mirrored service paths, and model-driven dependability loops.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Quantifies the impact of resource redundancy on smart city system dependability.
+- Uses a model-driven approach to connect infrastructure design choices with availability-oriented outcomes.
+- Gives planners a way to compare redundancy strategies before deploying expensive city-scale infrastructure.
+
+### Why this matters
+
+- Smart-city systems depend on many interacting resources, so redundancy must be tuned rather than added blindly.
+- Model-driven dependability analysis helps expose trade-offs between cost, resilience, and operational complexity.
+- This post adds the missing February 2024 smart-city publication into the News page.
+
+**Publication record:** Published online on February 20, 2024 in *Cluster Computing*, Volume 27, pages 6059-6079 ([DOI](https://doi.org/10.1007/s10586-023-04259-5), [Springer article](https://link.springer.com/article/10.1007/s10586-023-04259-5)).
+
+---
+<p class="news-date">January 1, 2024</p>
+
+## Internet of Medical Things Performability Analysis
+
+This *International Journal of Computer Applications in Technology* article studies the Internet of Medical Things as a performability problem. Medical sensing systems must remain available and responsive while handling constrained devices, edge/fog/cloud resources, and healthcare monitoring workflows that cannot tolerate avoidable bottlenecks.
+
+<figure>
+  <img src="/images/news/240101/internet-of-medical-things-cover.webp" alt="Scientific illustration of Internet of Medical Things performability analysis" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: medical sensors, edge/fog/cloud monitoring, queueing flows, and performability-oriented healthcare infrastructure.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates Internet of Medical Things infrastructure through a performability and performance-analysis lens.
+- Connects medical monitoring workloads with edge/fog/cloud capacity and service-continuity concerns.
+- Adds a healthcare IoT publication milestone to the News chronology.
+
+### Why this matters
+
+- Healthcare monitoring systems need both performance and dependability; one without the other is not enough.
+- Performability analysis helps identify bottlenecks before they affect medical information flows.
+- The post broadens the News page's IoT coverage beyond smart-city and industrial automation systems.
+
+**Publication record:** Published in 2024 in *International Journal of Computer Applications in Technology*, Volume 75, Issue 1, pages 35-47 ([DOI](https://doi.org/10.1504/IJCAT.2024.144667), [Inderscience record](https://www.inderscience.com/info/inarticle.php?artid=144667)).
+
+---
+<p class="news-date">January 1, 2024</p>
+
+## Event-Based Moving Target Defense with VM Migration
+
+This *IEEE Access* article studies moving target defense in cloud computing using virtual machine migration. The paper treats defense as a dynamic event-based mechanism: the system changes its attack surface over time, but those movements must be evaluated against migration overhead and service performance.
+
+<figure>
+  <img src="/images/news/240101/cloud-moving-target-defense-cover.webp" alt="Scientific illustration of event-based moving target defense with VM migration" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: VM migration, event-triggered moving target defense, and shielded cloud service continuity.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Models event-based moving target defense in cloud environments using VM migration.
+- Connects security adaptation with performance modeling so defense cost is visible.
+- Provides a quantitative view of how migration-based defense can reshape exposure while preserving service behavior.
+
+### Why this matters
+
+- Moving target defense is only useful if the infrastructure can absorb the migration overhead.
+- Performance modeling helps distinguish practical defense schedules from policies that protect security at the expense of service quality.
+- This post strengthens the News page's cloud-security and VM-migration coverage.
+
+**Publication record:** Published in 2024 in *IEEE Access*, Volume 12, pages 165539-165554 ([DOI](https://doi.org/10.1109/ACCESS.2024.3393998), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10506158)).
+
+---
+<p class="news-date">January 1, 2024</p>
+
+## Energy Consumption in Microservices Architectures
+
+This *IEEE Access* article reviews energy consumption in microservices architectures. It gives the microservices research line a systematic baseline: before new autoscaling, migration, or consolidation mechanisms can be evaluated fairly, the field needs a clear map of how energy is measured, modeled, and reduced.
+
+<figure>
+  <img src="/images/news/240101/microservices-energy-slr-cover.webp" alt="Scientific illustration of energy consumption evidence mapping in microservices architectures" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: microservice modules, energy measurement paths, and evidence clusters for a systematic review.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Surveys energy-consumption research across microservices architectures.
+- Organizes measurement, modeling, and optimization evidence into a structured view of the field.
+- Provides context for later work on energy-aware Kubernetes autoscaling and cloud microservice consolidation.
+
+### Why this matters
+
+- Microservices make systems easier to evolve, but they can also hide energy costs across many small services.
+- A systematic review helps researchers avoid duplicated effort and identify where measurement evidence is still weak.
+- This post adds the missing energy-focused review paper to the News archive as a dedicated story.
+
+**Publication record:** Published in 2024 in *IEEE Access*, Volume 12, pages 186710-186729 ([DOI](https://doi.org/10.1109/ACCESS.2024.3389064), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10498400)).
+
+---
+<p class="news-date">January 1, 2024</p>
+
+## PIND-UAM for Physics-Informed eVTOL Digital Twins
+
+This *Transportation Research Procedia* paper presents **PIND-UAM**, a physics-informed neural dynamics approach for boxed-wing eVTOL aircraft in UAM vehicle digital twins. The work connects neural modeling with physics structure so the digital twin can represent vehicle dynamics more credibly than a purely data-driven black box.
+
+<figure>
+  <img src="/images/news/240101/pind-uam-cover.webp" alt="Scientific illustration of physics-informed neural dynamics for boxed-wing eVTOL digital twins" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: boxed-wing eVTOL dynamics, physics-informed neural layers, aerodynamic flow, and digital-twin simulation surfaces.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies physics-informed neural dynamics to boxed-wing eVTOL aircraft modeling.
+- Positions the method inside a UAM vehicle digital twin workflow rather than as an isolated neural network.
+- Connects aerodynamic behavior, vehicle dynamics, and digital-twin representation for future mobility systems.
+
+### Why this matters
+
+- Digital twins for UAM need models that are both learnable from data and constrained by physical behavior.
+- Physics-informed dynamics can improve trust in twin behavior when flight-test data are limited or expensive.
+- This post completes the early-2024 digital-twin publication cluster alongside YOLOTransfer-DT and AAM-VDT.
+
+**Publication record:** Published in 2024 in *Transportation Research Procedia*, Volume 80, pages 30-37 ([DOI](https://doi.org/10.1016/j.trpro.2024.09.005), [ScienceDirect record](https://www.sciencedirect.com/science/article/pii/S2352146524004438)).
 
 ---
 
