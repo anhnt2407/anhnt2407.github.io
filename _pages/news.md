@@ -1209,6 +1209,475 @@ This *Transportation Research Procedia* paper presents **PIND-UAM**, a physics-i
 
 ---
 
+<p class="news-date">December 20, 2023</p>
+
+## Hierarchical Kriging for Multi-Fidelity Aerodynamic Models
+
+This *Aerospace* article presents an extended hierarchical kriging method for aerodynamic model generation when several low-fidelity datasets are available. The work targets a common aircraft-design problem: teams often have many inexpensive simulations with different fidelity levels, but need a reliable model that can support higher-confidence aerodynamic prediction.
+
+<figure>
+  <img src="/images/news/231220/hierarchical-kriging-aerodynamic-cover.webp" alt="Scientific illustration of hierarchical kriging for multi-fidelity aerodynamic model generation" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: layered low-fidelity aerodynamic datasets, kriging interpolation, uncertainty structure, and a refined aircraft response surface.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Extends hierarchical kriging to incorporate multiple low-fidelity aerodynamic datasets.
+- Uses multi-fidelity structure to improve model generation when high-fidelity aerodynamic evidence is limited or expensive.
+- Adds a rigorous aerospace modeling milestone to the News chronology.
+
+### Why this matters
+
+- Aerodynamic design depends on trustworthy models built from uneven simulation evidence.
+- Multi-fidelity kriging helps turn scattered analysis results into a coherent design surface.
+- The dedicated cover replaces a generic archive visual with a publication-specific aerospace illustration.
+
+**Publication record:** Published online on December 20, 2023 in *Aerospace*, Volume 11, Issue 1, Article 6 ([DOI](https://doi.org/10.3390/aerospace11010006), [MDPI article](https://www.mdpi.com/2226-4310/11/1/6)).
+
+---
+<p class="news-date">November 28, 2023</p>
+
+## UAM Dependability with VANETs and VM Migration
+
+This *Sensors* article studies Urban Advanced Mobility dependability through a model-based quantification of vehicular ad hoc networks with virtual machine migration. The paper links future mobility operations with the infrastructure behavior needed to keep connected services available under changing network and compute conditions.
+
+<figure>
+  <img src="/images/news/231128/uam-vanet-dependability-cover.webp" alt="Scientific illustration of UAM dependability modeling with VANET communication and virtual machine migration" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAM vehicles, VANET links, cloud-edge nodes, VM migration paths, and dependability-oriented service continuity.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Quantifies dependability for UAM communication and compute infrastructure using a model-based approach.
+- Connects VANET behavior with virtual machine migration, exposing how mobility and cloud decisions interact.
+- Gives the News page a dedicated visual story for late-2023 UAM infrastructure research.
+
+### Why this matters
+
+- UAM services will rely on both aerial mobility and robust digital infrastructure.
+- VM migration can improve continuity, but it also changes latency and availability behavior.
+- A model-based view helps evaluate these trade-offs before deployment.
+
+**Publication record:** Published online on November 28, 2023 in *Sensors*, Volume 23, Issue 23, Article 9485 ([DOI](https://doi.org/10.3390/s23239485), [MDPI article](https://www.mdpi.com/1424-8220/23/23/9485)).
+
+---
+<p class="news-date">November 15, 2023</p>
+
+## Spiking Neural Networks for UAM Flight Dynamics Twins
+
+This Korean Society for Aeronautical & Space Sciences Fall Conference paper introduces a digital-twin flight dynamics model for a UAM vehicle using a spiking neural network. The work frames flight dynamics digitalization through event-driven neural computation, connecting aircraft dynamics with more biologically inspired temporal modeling.
+
+<figure>
+  <img src="/images/news/231115/uam-spiking-digital-twin-cover.webp" alt="Scientific illustration of a UAM digital twin flight dynamics model using spiking neural networks" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAM vehicle dynamics, mirrored digital twin geometry, and spiking neural signals feeding a flight-dynamics model.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies a spiking neural network to flight dynamics modeling for UAM vehicle digital twins.
+- Positions event-driven neural dynamics as a way to represent temporal flight behavior.
+- Adds conference coverage for the 2023 UAM digitalization research thread.
+
+### Why this matters
+
+- Digital twins need dynamic models that can follow changing vehicle states rather than static snapshots.
+- Spiking neural networks offer a different computational lens for temporal system behavior.
+- The new cover makes the UAM twin concept legible at News-page scale.
+
+**Publication record:** Presented on November 15, 2023 in the *Proceedings of the Korean Society for Aeronautical & Space Sciences Fall Conference 2023*, pages 618-619 ([DBpia record](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11658014)).
+
+---
+<p class="news-date">November 15, 2023</p>
+
+## Large Language Models for UAM Attitude Stabilization
+
+This conference paper asks whether large language models can help stabilize the attitude of a UAM vehicle. As a preliminary study, it explores a provocative link between modern language-model reasoning interfaces and classical aerospace control questions, especially attitude stabilization in urban air mobility vehicles.
+
+<figure>
+  <img src="/images/news/231115/llm-uam-attitude-control-cover.webp" alt="Scientific illustration of large language model assisted attitude stabilization for a UAM vehicle" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAM attitude axes, stabilizing control signals, and an abstract language-model reasoning core coupled to flight control.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Explores large language models as a preliminary component in UAM attitude stabilization research.
+- Connects AI reasoning systems with flight-control workflows rather than treating them as separate domains.
+- Adds an early LLM-and-control milestone to the News archive.
+
+### Why this matters
+
+- The question is important because autonomous mobility increasingly mixes learning systems with control systems.
+- Early studies help clarify where LLMs may assist, supervise, or fail in safety-sensitive aerospace contexts.
+- The illustration keeps the AI-control relationship scientific instead of turning it into a generic chatbot visual.
+
+**Publication record:** Presented on November 15, 2023 in the *Proceedings of the Korean Society for Aeronautical & Space Sciences Fall Conference 2023*, pages 1411-1412 ([DBpia record](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE11658488)).
+
+---
+<p class="news-date">October 19, 2023</p>
+
+## Resource Redundancy in Smart City Dependability
+
+This Research Square preprint studies how resource redundancy affects smart city system dependability through a model-driven approach. It treats redundancy as an engineering decision that must be quantified rather than assumed: adding resources may improve availability, but it can also introduce operational complexity and cost.
+
+<figure>
+  <img src="/images/news/231019/smart-city-redundancy-preprint-cover.webp" alt="Scientific illustration of smart city resource redundancy and dependability quantification" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: duplicated smart-city resources, backup service paths, model-driven dependability layers, and urban infrastructure continuity.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Quantifies the impact of resource redundancy on smart city dependability.
+- Uses a model-driven approach to compare redundancy choices before deployment.
+- Establishes the preprint version of the work later represented as a journal publication.
+
+### Why this matters
+
+- Smart cities combine sensing, communication, cloud, and edge services into tightly coupled systems.
+- Redundancy has to be placed and scaled carefully to improve dependability without waste.
+- This entry keeps the preprint milestone visible in chronological order.
+
+**Publication record:** Posted on October 19, 2023 as a *Research Square* preprint, rs-3427536 ([DOI](https://doi.org/10.21203/rs.3.rs-3427536/v1), [Research Square record](https://www.researchsquare.com/article/rs-3427536/v1)).
+
+---
+<p class="news-date">October 17, 2023</p>
+
+## PIGD-TL for Transferable Physics-Informed Dynamics
+
+This ICCAS 2023 paper presents **PIGD-TL**, a physics-informed generative dynamics method with transfer learning. The work sits at the intersection of learning-based dynamics, physics constraints, and reusable modeling knowledge, which is especially relevant when full flight-test or high-fidelity simulation data are limited.
+
+<figure>
+  <img src="/images/news/231017/pigd-tl-cover.webp" alt="Scientific illustration of physics-informed generative dynamics with transfer learning" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: source and target dynamics manifolds, transfer-learning bridge, physics constraints, and generated trajectory fields.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Combines generative dynamics modeling with physics-informed structure.
+- Uses transfer learning to move modeling knowledge between related dynamics domains.
+- Provides another step toward credible data-driven dynamics for aerospace digital twins.
+
+### Why this matters
+
+- Purely data-driven models can drift when data are sparse or conditions change.
+- Physics-informed transfer learning can improve reuse while preserving physically plausible behavior.
+- The cover highlights the paper's dynamics-transfer theme instead of generic neural-network imagery.
+
+**Publication record:** Presented on October 17, 2023 at *ICCAS 2023 - 23rd International Conference on Control, Automation and Systems*, pages 590-595 ([DOI](https://doi.org/10.23919/ICCAS59377.2023.10316820), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10316820)).
+
+---
+<p class="news-date">July 9, 2023</p>
+
+## eVTOL Tilt Angle Planning with Trim Analysis
+
+This Aerospace Europe Conference paper focuses on tilt angle control planning for eVTOL vehicles using trim analysis. The study addresses a core transition-flight question: how a vehicle should coordinate tilt angle changes so that hover, transition, and cruise behavior remain physically consistent and controllable.
+
+<figure>
+  <img src="/images/news/230709/evtol-tilt-angle-trim-cover.webp" alt="Scientific illustration of eVTOL tilt angle control planning with trim analysis" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: eVTOL tiltrotor positions, trim-equilibrium surface, transition trajectory, and aerodynamic streamlines.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses trim analysis to support tilt angle control planning for an eVTOL vehicle.
+- Connects vehicle configuration changes with equilibrium and transition behavior.
+- Adds a dedicated visual entry for the EUCASS-CEAS 2023 publication.
+
+### Why this matters
+
+- Transition flight is one of the defining technical challenges for eVTOL aircraft.
+- Trim-based planning helps expose feasible tilt schedules before flight testing.
+- The image emphasizes the actual tilt-control problem rather than a generic aircraft scene.
+
+**Publication record:** Presented on July 9, 2023 at *Aerospace Europe Conference 2023: Joint 10th EUCASS - 9th CEAS Conference* in Lausanne, Switzerland ([DOI](https://doi.org/10.13009/EUCASS2023-525), [EUCASS record](https://doi.org/10.13009/EUCASS2023-525)).
+
+---
+<p class="news-date">July 1, 2023</p>
+
+## Adaptive Data Fusion for Non-Uniform Aerodynamic Data
+
+This *Chinese Journal of Aeronautics* article proposes an adaptive data fusion framework for modeling non-uniform aerodynamic data. The paper responds to a realistic modeling problem: aerodynamic datasets are often uneven, with dense evidence in some regions and sparse observations in others.
+
+<figure>
+  <img src="/images/news/230701/nonuniform-aerodynamic-data-fusion-cover.webp" alt="Scientific illustration of adaptive data fusion for non-uniform aerodynamic data modeling" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: non-uniform aerodynamic point clouds, adaptive fusion pathways, wing response surfaces, and uncertainty-aware data modeling.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Builds an adaptive data fusion framework for non-uniform aerodynamic datasets.
+- Supports aerodynamic modeling when measurements or simulations are unevenly distributed.
+- Strengthens the News page's aerospace modeling storyline between kriging and control-planning work.
+
+### Why this matters
+
+- Non-uniform data can bias models if sparse and dense regions are treated the same way.
+- Adaptive fusion helps preserve useful detail while smoothing across gaps.
+- A publication-specific cover makes the data-fusion problem visually clear.
+
+**Publication record:** Published in 2023 in *Chinese Journal of Aeronautics* ([DOI](https://doi.org/10.1016/j.cja.2023.05.012), [ScienceDirect record](https://www.sciencedirect.com/science/article/pii/S1000936123001576)).
+
+---
+<p class="news-date">June 6, 2023</p>
+
+## Boxed-Wing eVTOL Transition Control Optimization
+
+This ICUAS 2023 paper studies transition control planning and optimization for a boxed-wing eVTOL tiltrotor vehicle using trim analysis. It extends the eVTOL control-planning thread by focusing on a specific vehicle architecture and the optimization needed to move from hover to forward flight.
+
+<figure>
+  <img src="/images/news/230606/boxed-wing-transition-control-cover.webp" alt="Scientific illustration of boxed-wing eVTOL tiltrotor transition control optimization with trim analysis" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: boxed-wing tiltrotor transition states, optimized trim trajectory, control surface, and airflow structure.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Plans and optimizes transition control for a boxed-wing eVTOL tiltrotor vehicle.
+- Uses trim analysis to keep transition behavior tied to feasible flight conditions.
+- Adds a dedicated ICUAS 2023 milestone to the UAM aircraft-control sequence.
+
+### Why this matters
+
+- Boxed-wing tiltrotor vehicles bring different geometry and control constraints than conventional configurations.
+- Optimization helps select transition paths that remain stable and efficient.
+- The new cover communicates the boxed-wing architecture and transition envelope at a glance.
+
+**Publication record:** Presented on June 6, 2023 at the *2023 IEEE International Conference on Unmanned Aircraft Systems (ICUAS)*, pages 1128-1135 ([DOI](https://doi.org/10.1109/ICUAS57906.2023.10156619), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10156619)).
+
+---
+<p class="news-date">May 6, 2023</p>
+
+## Personal Key Recovery for Self-Sovereign Identity
+
+This ICACI 2023 paper proposes an efficient personal key recovery approach for self-sovereign identity environments. The work addresses a practical challenge in decentralized identity: users need control over their own credentials, but they also need robust recovery when keys are lost or compromised.
+
+<figure>
+  <img src="/images/news/230506/self-sovereign-key-recovery-cover.webp" alt="Scientific illustration of personal key recovery in self-sovereign identity environments" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: decentralized identity nodes, encrypted recovery shards, protected key capsule, and privacy-preserving recovery paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Designs an efficient personal key recovery mechanism for self-sovereign identity.
+- Balances user ownership of identity credentials with practical recovery needs.
+- Adds a cybersecurity and identity-management publication to the News chronology.
+
+### Why this matters
+
+- Self-sovereign identity can fail in practice if key loss becomes unrecoverable.
+- Recovery mechanisms must preserve trust, privacy, and user control.
+- The cover visualizes recovery as a secure distributed process rather than a simple lock icon.
+
+**Publication record:** Presented on May 6, 2023 at the *2023 15th International Conference on Advanced Computational Intelligence (ICACI)*, pages 1-8 ([DOI](https://doi.org/10.1109/ICACI58115.2023.10146166), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10146166)).
+
+---
+<p class="news-date">May 6, 2023</p>
+
+## iNAV-drlSLAM for Indoor Self-Driving Robots
+
+This ICACI 2023 paper presents **iNAV-drlSLAM**, an improved indoor self-driving framework for mobile robots using deep reinforcement learning integrated with SLAM. It connects mapping, localization, and learned navigation so robots can reason about indoor movement while building or using spatial structure.
+
+<figure>
+  <img src="/images/news/230506/inav-drlslam-cover.webp" alt="Scientific illustration of indoor self-driving robot navigation with deep reinforcement learning and SLAM" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: indoor robot, SLAM map geometry, obstacle-aware trajectory, and reinforcement-learning decision paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Integrates deep reinforcement learning with SLAM for indoor mobile robot navigation.
+- Improves indoor self-driving behavior by combining learned policy decisions with spatial mapping.
+- Adds a robotics entry to the 2023 News sequence.
+
+### Why this matters
+
+- Indoor robots need more than path planning; they must interpret changing spatial evidence.
+- SLAM provides structure, while reinforcement learning supports adaptive decisions.
+- The cover shows navigation, mapping, and policy behavior as one connected system.
+
+**Publication record:** Presented on May 6, 2023 at the *2023 15th International Conference on Advanced Computational Intelligence (ICACI)*, pages 1-8 ([DOI](https://doi.org/10.1109/ICACI58115.2023.10146173), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10146173)).
+
+---
+<p class="news-date">May 6, 2023</p>
+
+## QR-GAN: Generative Models Meet Quantile Regression
+
+This ICACI 2023 paper introduces **QR-GAN**, bringing generative adversarial networks together with quantile regression. The work connects generative modeling with distribution-aware prediction, highlighting uncertainty structure rather than reducing the problem to a single expected value.
+
+<figure>
+  <img src="/images/news/230506/qr-gan-cover.webp" alt="Scientific illustration of generative adversarial networks combined with quantile regression" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: adversarial neural structures, generated data distributions, and layered quantile-regression bands.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Combines GAN-style generative learning with quantile regression.
+- Represents uncertainty through multiple quantile bands instead of only point predictions.
+- Adds a machine-learning methods paper to the News page's publication coverage.
+
+### Why this matters
+
+- Many AI systems need calibrated distributional behavior, not only plausible generated samples.
+- Quantile regression helps expose the spread and asymmetry of outcomes.
+- The cover gives the paper a probability-focused visual identity instead of a generic AI graphic.
+
+**Publication record:** Presented on May 6, 2023 at the *2023 15th International Conference on Advanced Computational Intelligence (ICACI)*, pages 1-8 ([DOI](https://doi.org/10.1109/ICACI58115.2023.10146143), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10146143)).
+
+---
+<p class="news-date">February 18, 2023</p>
+
+## UAMDynCon-DT for Data-Driven UAM Dynamics and Control
+
+This ICMCR 2023 paper presents **UAMDynCon-DT**, a data-driven dynamics and robust control framework for UAM vehicle digitalization. It combines dynamics modeling, control behavior, and digital-twin representation to support future urban air mobility aircraft development.
+
+<figure>
+  <img src="/images/news/230218/uamdyncon-dt-cover.webp" alt="Scientific illustration of data-driven dynamics and robust control for UAM vehicle digital twins" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAM vehicle digital twin, data-driven dynamics streams, robust control core, and stability envelope.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Builds a framework for UAM vehicle digitalization through data-driven dynamics and robust control.
+- Links digital-twin modeling with controller-oriented vehicle behavior.
+- Adds an early 2023 UAM digital-twin milestone to the News page.
+
+### Why this matters
+
+- UAM digitalization needs both accurate models and control-aware interpretation.
+- Robust control helps keep learned or data-driven representations useful in uncertain operating conditions.
+- The cover pairs the vehicle and its twin so the system idea is immediately visible.
+
+**Publication record:** Presented on February 18, 2023 at the *2023 International Conference on Mechatronics, Control and Robotics (ICMCR)*, pages 81-85 ([DOI](https://doi.org/10.1109/ICMCR56776.2023.10181072), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10181072)).
+
+---
+<p class="news-date">February 18, 2023</p>
+
+## SLAM-DRLnav for Indoor Self-Driving Navigation
+
+This ICMCR 2023 paper presents **SLAM-DRLnav**, a SLAM-enhanced deep reinforcement learning navigation framework for indoor self-driving. It is closely related to the later ICACI indoor navigation entry, emphasizing how mapping and learned control can be integrated for indoor autonomous movement.
+
+<figure>
+  <img src="/images/news/230218/slam-drlnav-cover.webp" alt="Scientific illustration of SLAM-enhanced deep reinforcement learning navigation for indoor self-driving" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: indoor self-driving robot, SLAM occupancy geometry, explored trajectories, and learned navigation policy.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Enhances deep reinforcement learning navigation with SLAM-derived spatial information.
+- Targets indoor self-driving scenarios where localization, mapping, and control interact.
+- Adds the February 2023 robotics conference record as a dedicated story.
+
+### Why this matters
+
+- Indoor autonomy depends on making navigation decisions under partial and evolving maps.
+- SLAM-enhanced learning can reduce blind policy behavior by grounding actions in spatial structure.
+- The illustration distinguishes this paper from generic robot imagery through map-and-policy visual cues.
+
+**Publication record:** Presented on February 18, 2023 at the *2023 International Conference on Mechatronics, Control and Robotics (ICMCR)*, pages 44-48 ([DOI](https://doi.org/10.1109/ICMCR56776.2023.10181042), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10181042)).
+
+---
+<p class="news-date">January 19, 2023</p>
+
+## Robust Attitude Control for PAVs with DNN and CLF
+
+This AIAA SCITECH 2023 paper studies robust attitude control for personal air vehicles using a deep neural network with exponentially stabilizing control Lyapunov functions. The work links neural control with stability guarantees, a crucial concern for flight systems where learning alone is not enough.
+
+<figure>
+  <img src="/images/news/230119/pav-robust-attitude-control-cover.webp" alt="Scientific illustration of robust attitude control for personal air vehicles using DNN and control Lyapunov functions" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: PAV attitude axes, neural controller layers, Lyapunov stability basin, and converging control trajectory.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses DNN-based control together with exponentially stabilizing control Lyapunov functions.
+- Focuses on robust attitude control for personal air vehicle applications.
+- Adds an AIAA control-theory milestone to the News chronology.
+
+### Why this matters
+
+- Neural controllers must be connected to stability arguments before they can be trusted in flight.
+- Control Lyapunov functions provide a language for convergence and robustness.
+- The cover visualizes stability as a physical control landscape rather than as abstract equations.
+
+**Publication record:** Presented on January 19, 2023 at *AIAA SCITECH 2023 Forum*, AIAA 2023-1443 ([DOI](https://doi.org/10.2514/6.2023-1443), [AIAA record](https://arc.aiaa.org/doi/10.2514/6.2023-1443)).
+
+---
+<p class="news-date">January 11, 2023</p>
+
+## Performability of Video Streaming on Demand
+
+This *Applied Sciences* article evaluates the performability and sensitivity of a video streaming on demand architecture. Instead of considering performance and dependability separately, the study treats the streaming service as an architecture whose user-facing behavior depends on both service speed and availability under different conditions.
+
+<figure>
+  <img src="/images/news/230111/video-streaming-performability-cover.webp" alt="Scientific illustration of performability evaluation and sensitivity analysis for video streaming architecture" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: cloud video pipeline, edge delivery nodes, streaming service paths, sensitivity surface, and performability flow.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates performability for a video streaming on demand architecture.
+- Adds sensitivity analysis so important parameters and bottlenecks are visible.
+- Connects media-delivery infrastructure with reliability and performance modeling.
+
+### Why this matters
+
+- Streaming systems fail users when either performance or availability degrades.
+- Sensitivity analysis helps prioritize which architecture parameters deserve attention.
+- The cover makes performability tangible through cloud, edge, and service-flow motifs.
+
+**Publication record:** Published online on January 11, 2023 in *Applied Sciences*, Volume 13, Issue 2, Article 998 ([DOI](https://doi.org/10.3390/app13020998), [MDPI article](https://www.mdpi.com/2076-3417/13/2/998)).
+
+---
+<p class="news-date">January 3, 2023</p>
+
+## Software Aging in Kubernetes for UAM Digital Twins
+
+This *Drones* article studies software aging effects on Kubernetes in container orchestration systems for digital twin cloud infrastructures of Urban Air Mobility. It brings cloud-native dependability into the UAM digital-twin context, asking how long-running container orchestration behavior may affect service quality over time.
+
+<figure>
+  <img src="/images/news/230103/kubernetes-aging-uam-digital-twin-cover.webp" alt="Scientific illustration of software aging effects on Kubernetes-based UAM digital twin cloud infrastructure" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: cloud-native container clusters, aging traces, rejuvenation paths, and UAM digital twin infrastructure.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Analyzes software aging in Kubernetes-based container orchestration.
+- Places cloud infrastructure dependability inside the UAM digital-twin setting.
+- Adds the January 2023 *Drones* publication as a dedicated News entry.
+
+### Why this matters
+
+- Digital twins depend on cloud services that must remain healthy over long operation periods.
+- Software aging can degrade systems gradually, making proactive analysis important.
+- The image connects container orchestration with UAM instead of treating Kubernetes as a generic backend.
+
+**Publication record:** Published online on January 3, 2023 in *Drones*, Volume 7, Issue 1, Article 35 ([DOI](https://doi.org/10.3390/drones7010035), [MDPI article](https://www.mdpi.com/2504-446X/7/1/35)).
+
+---
+<p class="news-date">January 1, 2023</p>
+
+## Kubernetes Cloud-Fog Dependability and Power Quantification
+
+This *IEEE Access* article quantifies dependability and power consumption for Kubernetes-based cloud-fog continuum systems using a model-driven approach. The paper studies how containerized services behave across cloud, fog, and edge-like infrastructure while making both availability and energy visible in the analysis.
+
+<figure>
+  <img src="/images/news/230101/kubernetes-cloud-fog-dependability-cover.webp" alt="Scientific illustration of model-driven dependability and power consumption quantification in Kubernetes cloud-fog continuum systems" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: cloud-fog-edge service continuum, containerized workloads, dependability paths, and energy-aware system surfaces.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Quantifies dependability and power consumption for Kubernetes-based cloud-fog continuum infrastructure.
+- Uses model-driven analysis to evaluate service behavior across distributed compute layers.
+- Completes the 2023 dedicated News batch with a cloud-infrastructure systems article.
+
+### Why this matters
+
+- Cloud-fog systems must balance availability with energy consumption.
+- Kubernetes makes deployment flexible, but it also creates new modeling challenges across distributed layers.
+- The cover turns this infrastructure trade-off into a clear scientific visual.
+
+**Publication record:** Published in 2023 in *IEEE Access*, Volume 11, pages 140826-140852 ([DOI](https://doi.org/10.1109/ACCESS.2023.3340195), [IEEE Xplore record](https://ieeexplore.ieee.org/document/10373755)).
+
+---
+
 ## Publication Visual Briefing Archive
 
 The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The visual briefing archive below completes the publication coverage with publication story blocks for records from the Publications page that do not yet have a dedicated long-form News entry: each entry includes a large scientific illustration, contribution notes, impact notes, and the publication record.
