@@ -44,6 +44,19 @@ NEWS_DEDICATED_TAGS = {
     "J39",
     "P06",
     "C36",
+    "J42",
+    "C38",
+    "C50",
+    "C49",
+    "P05",
+    "J38",
+    "J30",
+    "J35",
+    "J34",
+    "J43",
+    "J37",
+    "J36",
+    "C37",
 }
 
 SPECIAL_LINKS = {
@@ -1277,7 +1290,7 @@ def render_missing(entries: list[dict[str, str | int]]) -> str:
         "<div class=\"publication-news-root publication-news-root--missing\">",
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(missing)} publication records from the Publications page that do not yet have a dedicated long-form News entry.</p>",
-        "    <p><strong>Scope:</strong> This section focuses on publication records not already represented by the detailed News stories above, including recent journal articles, MetaCom 2025 papers, AAM-VDT, SHANGUS/FH-DRL, NOMS 2024, and the UAV delivery study.</p>",
+        "    <p><strong>Scope:</strong> This section focuses on older publication records that are not already represented by the detailed News stories above. Recent 2024-2026 publications with dedicated generated cover images are excluded to avoid duplication.</p>",
         "    <p><strong>Narrative format:</strong> Each publication story block pairs a large scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Domain mix:</strong> {escape(domain_summary)}.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",
