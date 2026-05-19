@@ -2199,6 +2199,319 @@ This *Intelligent Automation & Soft Computing* article studies steering behavior
 
 ---
 
+<p class="news-date">November 1, 2021</p>
+
+## IoMT Dependability and Security on the Cloud-Fog-Edge Continuum
+
+This *IEEE Internet of Things Journal* article quantifies dependability and security for an Internet of Medical Things infrastructure built on a cloud-fog-edge continuum. The work treats healthcare monitoring as a layered system, where sensors, edge devices, fog resources, cloud services, and security controls all affect end-to-end trustworthiness.
+
+<figure>
+  <img src="/images/news/211101/iomt-cloud-fog-edge-security-cover.webp" alt="Scientific illustration of IoMT dependability and security quantification across cloud fog edge continuum" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: medical IoT devices, cloud-fog-edge hierarchy, security paths, and dependability model layers for healthcare monitoring.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Quantifies dependability and security for an IoMT healthcare monitoring infrastructure.
+- Uses hierarchical modeling to connect device, edge, fog, and cloud behavior.
+- Adds a high-impact IoMT systems article to the News chronology.
+
+### Why this matters
+
+- Healthcare monitoring depends on both service availability and security assurance.
+- Cloud-fog-edge design introduces many layers, so modeling helps reveal where resilience is gained or lost.
+- The cover turns the continuum architecture into a clear scientific systems visual.
+
+**Publication record:** Published in 2021 in *IEEE Internet of Things Journal* ([DOI](https://doi.org/10.1109/JIOT.2021.3081420), [IEEE Xplore record](https://ieeexplore.ieee.org/document/9434376)).
+
+---
+<p class="news-date">October 27, 2021</p>
+
+## D/M/c/K/FCFS Routing Models for the Internet of Robotic Things
+
+This *Electronics* article evaluates message routing strategies in the Internet of Robotic Things using a D/M/c/K/FCFS queuing network. It studies how robotic devices, cloud-fog layers, and routing policies interact when messages must move through constrained service stations.
+
+<figure>
+  <img src="/images/news/211027/iort-dmc-routing-cover.webp" alt="Scientific illustration of Internet of Robotic Things routing strategies using D M c K FCFS queuing networks" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: mobile robots, cloud-fog routing layers, queueing service stations, and alternative message paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates Internet of Robotic Things routing strategies with a D/M/c/K/FCFS queuing model.
+- Connects robotic message flows with cloud-fog computing performance.
+- Provides a journal extension of the IoRT routing research thread.
+
+### Why this matters
+
+- Routing choices directly affect response time and resource bottlenecks in robotic IoT systems.
+- Queuing models help compare strategies before deploying robotic services.
+- The cover distinguishes queueing-based routing from generic robot networking imagery.
+
+**Publication record:** Published online on October 27, 2021 in *Electronics*, Volume 10, Issue 21, Article 2626 ([DOI](https://doi.org/10.3390/electronics10212626), [MDPI article](https://www.mdpi.com/2079-9292/10/21/2626)).
+
+---
+<p class="news-date">October 17, 2021</p>
+
+## Cloud-Fog Message Routing for the Internet of Robotic Things
+
+This IEEE SMC 2021 paper compares message routing strategies for Internet of Robotic Things systems across cloud-fog computing layers using M/M/c/K queuing networks. It focuses on the same core problem as the later journal article, but in a conference setting: how should robotic messages be routed when service capacity and delay matter?
+
+<figure>
+  <img src="/images/news/211017/iort-mmc-routing-cover.webp" alt="Scientific illustration of Internet of Robotic Things cloud fog routing with M M c K queuing networks" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: robot fleets, cloud-fog message paths, queuing stations, capacity gates, and latency surfaces.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Compares IoRT message routing strategies across cloud and fog layers.
+- Uses M/M/c/K queuing networks to represent service capacity and message delay.
+- Adds the conference milestone behind the broader IoRT routing line.
+
+### Why this matters
+
+- Robotic services need low-latency communication across distributed compute layers.
+- Routing strategies must be evaluated under capacity constraints, not only topological reachability.
+- The illustration highlights routing as a queueing and cloud-fog systems problem.
+
+**Publication record:** Presented on October 17, 2021 at *2021 IEEE International Conference on Systems, Man, and Cybernetics (SMC)*, pages 2049-2054 ([DOI](https://doi.org/10.1109/SMC52423.2021.9658614), [IEEE Xplore record](https://ieeexplore.ieee.org/document/9658614)).
+
+---
+<p class="news-date">September 27, 2021</p>
+
+## Performability and Sensitivity of Home Automation Systems
+
+This DS-RT 2021 paper assesses performability and sensitivity in a home automation system. The work uses stochastic modeling to study how automated home services behave under different operational conditions, including the ways small parameter changes can affect availability and responsiveness.
+
+<figure>
+  <img src="/images/news/210927/home-automation-performability-cover.webp" alt="Scientific illustration of performability assessment and sensitivity analysis for home automation systems" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: smart home devices, automation hub, stochastic performability model, sensitivity surface, and service response paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates performability for a home automation system.
+- Adds sensitivity analysis to expose which parameters most influence behavior.
+- Extends the IoT dependability research line into residential automation.
+
+### Why this matters
+
+- Smart homes need reliable automation, not only connected devices.
+- Sensitivity analysis helps identify where design choices most affect service quality.
+- The cover visualizes the home as a monitored cyber-physical system rather than a consumer gadget scene.
+
+**Publication record:** Presented on September 27, 2021 at *2021 IEEE/ACM 25th International Symposium on Distributed Simulation and Real Time Applications (DS-RT)*, pages 1-4 ([DOI](https://doi.org/10.1109/DS-RT52167.2021.9576142), [IEEE Xplore record](https://ieeexplore.ieee.org/document/9576142)).
+
+---
+<p class="news-date">September 17, 2021</p>
+
+## Medical Information Systems with Edge/Fog Fail-Over
+
+This *Sensors* article evaluates load balancing and fail-over strategies for medical information systems with edge/fog computing using stochastic reward nets. It studies how healthcare information flows can remain performant and available when distributed compute resources shift load or recover from failures.
+
+<figure>
+  <img src="/images/news/210917/medical-info-edge-fog-failover-cover.webp" alt="Scientific illustration of edge fog load balancing and fail-over strategies for medical information systems" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: medical information services, edge/fog nodes, load-balancing routes, fail-over paths, and stochastic reward-net states.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates load balancing and fail-over strategies for medical information systems.
+- Uses stochastic reward nets to quantify performability in edge/fog healthcare infrastructure.
+- Adds a healthcare systems reliability milestone to the 2021 News sequence.
+
+### Why this matters
+
+- Medical information systems must handle failures while maintaining service continuity.
+- Edge/fog computing can improve responsiveness, but the fail-over behavior must be modeled.
+- The cover ties healthcare service paths to measurable resilience.
+
+**Publication record:** Published online on September 17, 2021 in *Sensors*, Volume 21, Issue 18, Article 6253 ([DOI](https://doi.org/10.3390/s21186253), [MDPI article](https://www.mdpi.com/1424-8220/21/18/6253)).
+
+---
+<p class="news-date">August 23, 2021</p>
+
+## Queueing Models for IoT Sensor Networks in Smart Buildings
+
+This *Sensors* article assesses IoT sensor networks in smart buildings using queuing models. It examines the performance side of smart-building infrastructure, where many sensing streams share gateways and services that can become bottlenecks.
+
+<figure>
+  <img src="/images/news/210823/smart-building-iot-queueing-cover.webp" alt="Scientific illustration of IoT sensor networks in smart buildings assessed using queuing models" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: smart building sensor floors, IoT gateways, queueing service paths, and performance bottleneck flows.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses queuing models to assess smart-building IoT sensor network performance.
+- Connects sensor traffic, gateways, and service capacity in a performance model.
+- Adds another smart-building infrastructure publication to the News archive.
+
+### Why this matters
+
+- Smart buildings can generate many concurrent sensing streams.
+- Queueing analysis helps reveal bottlenecks before monitoring quality degrades.
+- The cover shows the building as a networked performance system.
+
+**Publication record:** Published online on August 23, 2021 in *Sensors*, Volume 21, Issue 16, Article 5660 ([DOI](https://doi.org/10.3390/s21165660), [MDPI article](https://www.mdpi.com/1424-8220/21/16/5660)).
+
+---
+<p class="news-date">August 10, 2021</p>
+
+## UAV Data Offloading Dependability Evaluation
+
+This *Electronics* article evaluates the dependability of offloading data through unmanned aerial vehicles. The paper studies UAVs as mobile communication and data-offloading elements, connecting aerial mobility with service reliability and availability modeling.
+
+<figure>
+  <img src="/images/news/210810/uav-data-offloading-dependability-cover.webp" alt="Scientific illustration of dependability evaluation for data offloading through unmanned aerial vehicles" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAV relay, ground sensor network, edge gateway, cloud link, redundant communication paths, and dependability flow.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates dependability when data are offloaded through UAVs.
+- Models UAV-assisted communication as part of a distributed service chain.
+- Adds a UAV networking and dependability entry to the News page.
+
+### Why this matters
+
+- UAVs can extend data collection and communication, but moving relays introduce reliability questions.
+- Dependability evaluation helps expose where offloading paths can fail.
+- The cover emphasizes the UAV as a systems component rather than a standalone aircraft.
+
+**Publication record:** Published online on August 10, 2021 in *Electronics*, Volume 10, Issue 16, Article 1916 ([DOI](https://doi.org/10.3390/electronics10161916), [MDPI article](https://www.mdpi.com/2079-9292/10/16/1916)).
+
+---
+<p class="news-date">June 2, 2021</p>
+
+## Dependable Blockchain and AI Engines for UAM Digital Twins
+
+This Korean Society for Aeronautical & Space Sciences conference paper looks toward dependable blockchain and AI engines for digital twin systems in Urban Air Mobility. It anticipates later UAM digital-twin work by focusing on the trust, intelligence, and system dependability needed for twin-enabled mobility infrastructure.
+
+<figure>
+  <img src="/images/news/210602/uam-blockchain-ai-engines-cover.webp" alt="Scientific illustration of dependable blockchain and AI engines for urban air mobility digital twin systems" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAM vehicle and digital twin, secure chain-like model updates, AI engine manifold, and dependable synchronization paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Frames blockchain and AI engines as dependability components for UAM digital twin systems.
+- Connects secure update coordination with intelligent twin behavior.
+- Adds an early 2021 UAM digital-twin conference milestone to the News chronology.
+
+### Why this matters
+
+- UAM digital twins require both trustworthy data flows and intelligent decision support.
+- Blockchain-inspired coordination can support integrity while AI engines support adaptation.
+- The cover avoids cryptocurrency symbolism and focuses on dependable twin infrastructure.
+
+**Publication record:** Presented on June 2, 2021 in *The Korean Society for Aeronautical & Space Sciences Conference*, pages 408-409 ([DBpia record](http://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10613629)).
+
+---
+<p class="news-date">April 29, 2021</p>
+
+## Stochastic Planning for Mobile Edge Performance and Availability
+
+This *Applied Sciences* article studies stochastic model driven performance and availability planning for a mobile edge computing system. It focuses on planning resource behavior in mobile edge environments where workload demand, service latency, and availability need to be considered together.
+
+<figure>
+  <img src="/images/news/210429/mec-performance-availability-cover.webp" alt="Scientific illustration of stochastic performance and availability planning for mobile edge computing systems" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: mobile devices, edge servers, stochastic state graph, resource flows, and performance-availability planning surface.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses stochastic modeling for performance and availability planning in mobile edge computing.
+- Connects resource allocation, workload demand, and service continuity.
+- Adds a foundational MEC planning article to the News archive.
+
+### Why this matters
+
+- Mobile edge systems must plan for both responsiveness and availability.
+- Stochastic models help represent uncertainty and variable workload behavior.
+- The cover visualizes planning as a joint performance and reliability problem.
+
+**Publication record:** Published online on April 29, 2021 in *Applied Sciences*, Volume 11, Issue 9, Article 4088 ([DOI](https://doi.org/10.3390/app11094088), [MDPI article](https://www.mdpi.com/2076-3417/11/9/4088)).
+
+---
+<p class="news-date">April 27, 2021</p>
+
+## iADA*-RL for Autonomous UAV Path Planning
+
+This *Applied Sciences* article presents **iADA*-RL**, an anytime graph-based path planning method with deep reinforcement learning for an autonomous UAV. The work links graph search, online replanning, and learning-based decision support for aerial navigation.
+
+<figure>
+  <img src="/images/news/210427/iada-rl-uav-path-planning-cover.webp" alt="Scientific illustration of iADA star RL anytime graph based path planning with deep reinforcement learning for autonomous UAV" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: autonomous UAV, waypoint graph, dynamic obstacles, reinforcement-learning policy surface, and replanned safe routes.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Combines anytime graph-based path planning with deep reinforcement learning.
+- Targets autonomous UAV navigation where route quality and replanning speed both matter.
+- Adds an AI autonomy planning paper to the 2021 News sequence.
+
+### Why this matters
+
+- UAV path planning must adapt when obstacles or goals change.
+- Anytime planning provides usable solutions while continuing to improve them.
+- The cover shows graph search and learned policy behavior in a single navigation scene.
+
+**Publication record:** Published online on April 27, 2021 in *Applied Sciences*, Volume 11, Issue 9, Article 3948 ([DOI](https://doi.org/10.3390/app11093948), [MDPI article](https://www.mdpi.com/2076-3417/11/9/3948)).
+
+---
+<p class="news-date">April 7, 2021</p>
+
+## Smart City Surveillance Dependability with Stochastic Models
+
+This *Electronics* article evaluates the dependability of a surveillance system in smart cities based on stochastic models. It studies the infrastructure side of civic monitoring, where sensors, edge services, and communication paths must remain reliable for a city-scale service to work.
+
+<figure>
+  <img src="/images/news/210407/smart-city-surveillance-dependability-cover.webp" alt="Scientific illustration of smart city surveillance dependability evaluation based on stochastic models" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: smart city sensor network, monitoring nodes, stochastic dependability model, service continuity paths, and recovery alternatives.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates smart city surveillance system dependability using stochastic models.
+- Connects sensor infrastructure, communication paths, and service availability.
+- Adds a smart-city systems dependability article to the News chronology.
+
+### Why this matters
+
+- City-scale monitoring services depend on distributed infrastructure, not only individual sensors.
+- Stochastic modeling helps quantify how failures affect service continuity.
+- The cover keeps the surveillance theme civic and systems-oriented.
+
+**Publication record:** Published online on April 7, 2021 in *Electronics*, Volume 10, Issue 8, Article 876 ([DOI](https://doi.org/10.3390/electronics10080876), [MDPI article](https://www.mdpi.com/2079-9292/10/8/876)).
+
+---
+<p class="news-date">January 1, 2021</p>
+
+## Internet of Healthcare Things Performance with M/M/c/K Models
+
+This *IEEE Access* article evaluates an Internet of Healthcare Things architecture for medical monitoring using M/M/c/K queuing models. It studies the performance behavior of healthcare monitoring services where devices, gateways, and cloud or edge resources share finite service capacity.
+
+<figure>
+  <img src="/images/news/210101/ioht-medical-monitoring-queueing-cover.webp" alt="Scientific illustration of Internet of Healthcare Things performance evaluation for medical monitoring using queueing models" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: medical monitoring devices, edge gateway, cloud service stations, queueing flows, and performance evaluation surface.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates Internet of Healthcare Things performance for medical monitoring.
+- Uses M/M/c/K queuing models to represent finite service capacity and workload behavior.
+- Completes the 2021 dedicated News batch with an IEEE Access healthcare systems paper.
+
+### Why this matters
+
+- Healthcare monitoring infrastructure needs predictable performance under concurrent demand.
+- Queuing models help expose bottlenecks and capacity limits before deployment.
+- The cover presents healthcare monitoring as a measurable service system.
+
+**Publication record:** Published in 2021 in *IEEE Access*, Volume 9, pages 55271-55283 ([DOI](https://doi.org/10.1109/ACCESS.2021.3071508), [IEEE Xplore record](https://ieeexplore.ieee.org/document/9398691)).
+
+---
+
 ## Publication Visual Briefing Archive
 
 The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The visual briefing archive below completes the publication coverage with publication story blocks for records from the Publications page that do not yet have a dedicated long-form News entry: each entry includes a large scientific illustration, contribution notes, impact notes, and the publication record.
