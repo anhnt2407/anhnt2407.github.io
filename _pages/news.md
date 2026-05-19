@@ -627,7 +627,7 @@ This *ICT Express* publication studies disaster detection as a distributed cyber
 This *IEEE Access* article examines UAV delivery as a battery-aware logistics system rather than a simple point-to-point flight problem. The study compares solo flights and cooperative package-transfer strategies through stochastic models, making it possible to reason about delivery time, charging policy, fleet coordination, and operational performance together.
 
 <figure>
-  <img src="/images/news/240828/uav-delivery-cover.svg" alt="Scientific illustration of cooperative UAV delivery performance modeling" width="1200" height="675" loading="lazy" decoding="async">
+  <img src="/images/news/240828/uav-delivery-cover.webp" alt="Scientific illustration of cooperative UAV delivery performance modeling" width="1200" height="675" loading="lazy" decoding="async">
   <figcaption>Scientific illustration: battery-aware drone delivery, charging nodes, and cooperative package transfer.</figcaption>
 </figure>
 
@@ -658,7 +658,7 @@ This *IEEE Access* article examines UAV delivery as a battery-aware logistics sy
 This arXiv preprint presents **SHANGUS / FH-DRL**, a framework that connects frontier heuristics with deep reinforcement learning for faster autonomous exploration in unknown environments. The key idea is to let heuristic frontier selection guide where the robot should explore while DRL handles robust navigation through cluttered, dynamic space.
 
 <figure>
-  <img src="/images/news/240729/shangus-fhdrl-cover.svg" alt="Scientific illustration of SHANGUS and FH-DRL autonomous exploration" width="1200" height="675" loading="lazy" decoding="async">
+  <img src="/images/news/240729/shangus-fhdrl-cover.webp" alt="Scientific illustration of SHANGUS and FH-DRL autonomous exploration" width="1200" height="675" loading="lazy" decoding="async">
   <figcaption>Scientific illustration: frontier heuristics, DRL navigation, and occupancy-grid exploration.</figcaption>
 </figure>
 
