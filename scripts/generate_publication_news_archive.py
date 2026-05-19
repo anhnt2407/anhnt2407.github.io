@@ -107,6 +107,29 @@ NEWS_DEDICATED_TAGS = {
     "J09",
     "J08",
     "J11",
+    "C14",
+    "J07",
+    "J06",
+    "J05",
+    "B01",
+    "J04c",
+    "C13",
+    "C11",
+    "J04",
+    "C12",
+    "C09",
+    "C10",
+    "J03",
+    "C08",
+    "J02",
+    "C07",
+    "C06",
+    "J01",
+    "C05",
+    "C04",
+    "C03",
+    "C02",
+    "C01",
 }
 
 SPECIAL_LINKS = {
@@ -1322,6 +1345,19 @@ def render_missing(entries: list[dict[str, str | int]]) -> str:
     missing = [
         entry for entry in entries if str(entry["tag"]) not in NEWS_DEDICATED_TAGS
     ]
+
+    if not missing:
+        return "\n".join(
+            [
+                "<div class=\"publication-news-root publication-news-root--missing\">",
+                "  <div class=\"publication-news-overview\">",
+                "    <p><strong>Coverage:</strong> 0 publication records from the Publications page that do not yet have a dedicated long-form News entry.</p>",
+                "    <p><strong>Scope:</strong> All publication records currently have dedicated generated cover images and long-form News entries. This archive is retained only as a generator fallback for future additions.</p>",
+                "  </div>",
+                "</div>",
+            ]
+        ) + "\n"
+
     by_year: dict[str, list[dict[str, str | int]]] = defaultdict(list)
     source_counts: Counter[str] = Counter(str(entry["source_badge"]) for entry in missing)
     domain_counts: Counter[str] = Counter(str(entry["domain_badge"]) for entry in missing)
@@ -1340,7 +1376,7 @@ def render_missing(entries: list[dict[str, str | int]]) -> str:
         "<div class=\"publication-news-root publication-news-root--missing\">",
         "  <div class=\"publication-news-overview\">",
         f"    <p><strong>Coverage:</strong> {len(missing)} publication records from the Publications page that do not yet have a dedicated long-form News entry.</p>",
-        "    <p><strong>Scope:</strong> This section focuses on older publication records that are not already represented by the detailed News stories above. Recent 2021-2026 publications with dedicated generated cover images are excluded to avoid duplication.</p>",
+        "    <p><strong>Scope:</strong> This section focuses on publication records that are not already represented by the detailed News stories above. Publications with dedicated generated cover images are excluded to avoid duplication.</p>",
         "    <p><strong>Narrative format:</strong> Each publication story block pairs a large scientific illustration with concise contribution and impact notes derived from the publication domain, type, date, and technical keywords.</p>",
         f"    <p><strong>Domain mix:</strong> {escape(domain_summary)}.</p>",
         f"    <p><strong>Source mix:</strong> {escape(source_summary)}.</p>",

@@ -2511,9 +2511,607 @@ This *IEEE Access* article evaluates an Internet of Healthcare Things architectu
 **Publication record:** Published in 2021 in *IEEE Access*, Volume 9, pages 55271-55283 ([DOI](https://doi.org/10.1109/ACCESS.2021.3071508), [IEEE Xplore record](https://ieeexplore.ieee.org/document/9398691)).
 
 ---
+<p class="news-date">November 18, 2020</p>
+
+## iUAM Service Survivability for Digital Twin Urban Aerial Mobility
+
+This Korean Society for Aeronautical & Space Sciences conference paper is an early step in the UAM digital-twin line. It focuses on service survivability: how a digital twin for urban aerial mobility can keep its service chain meaningful when mobility, networked infrastructure, and dependent services are exposed to failures.
+
+<figure>
+  <img src="/images/news/201118/iuam-service-survivability-cover.webp" alt="Scientific illustration of digital twin urban aerial mobility service survivability" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: UAM vehicles, city-scale digital twin infrastructure, redundant service paths, and survivability states.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Frames UAM as a digital-twin service system rather than only an aircraft or traffic-management problem.
+- Connects mobility services with survivability, redundancy, and continuity concerns.
+- Adds an early UAM digital-twin milestone that foreshadows later advanced air mobility research.
+
+### Why this matters
+
+- Urban aerial mobility depends on many connected services that must remain available under disruption.
+- Digital twins become more useful when their dependability is considered as part of the architecture.
+- The cover emphasizes service survivability across both aircraft and city infrastructure.
+
+**Publication record:** Presented on November 18, 2020 in *The Korean Society for Aeronautical & Space Sciences Conference*, pages 689-690 ([DBpia record](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE10526249)).
+
+---
+<p class="news-date">January 14, 2020</p>
+
+## Hierarchical Availability and Security Modeling for IoT Infrastructure
+
+This *Electronics* article proposes a hierarchical framework for quantifying both availability and security in IoT infrastructures. The central idea is to model IoT as a layered system, where devices, gateways, communication paths, and services create coupled reliability and security behavior.
+
+<figure>
+  <img src="/images/news/200114/iot-availability-security-framework-cover.webp" alt="Scientific illustration of hierarchical availability and security quantification for IoT infrastructure" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: layered IoT infrastructure, security states, availability paths, and hierarchical model composition.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Introduces a hierarchical modeling approach for IoT infrastructures with both dependability and security concerns.
+- Supports quantitative analysis across multiple layers instead of treating the IoT stack as one flat model.
+- Links service availability with the security posture of connected devices and communication components.
+
+### Why this matters
+
+- IoT deployments fail through both component outages and compromised service paths.
+- Hierarchical models help analysts scale from device-level behavior to infrastructure-level metrics.
+- The cover uses layered clouds, edge nodes, and protected paths to mirror the paper's model structure.
+
+**Publication record:** Published online on January 14, 2020 in *Electronics*, Volume 9, Issue 1, Article 155 ([DOI](https://doi.org/10.3390/electronics9010155), [MDPI article](https://www.mdpi.com/2079-9292/9/1/155)).
+
+---
+<p class="news-date">January 1, 2019</p>
+
+## Cloud Data Center Reliability with Hierarchical Models
+
+This *IEEE Access* article evaluates reliability and availability for cloud data center networks using hierarchical models. It treats cloud infrastructure as a structured stack whose network, server, and service layers need to be analyzed together to understand real continuity behavior.
+
+<figure>
+  <img src="/images/news/190101/cloud-data-center-hierarchical-cover.webp" alt="Scientific illustration of reliability and availability evaluation for cloud data center networks using hierarchical models" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: cloud data center hierarchy, redundant network paths, reliability states, and availability surfaces.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses hierarchical modeling to evaluate reliability and availability in cloud data center networks.
+- Connects lower-level infrastructure components with higher-level service availability.
+- Provides a formal basis for comparing network designs and recovery choices.
+
+### Why this matters
+
+- Cloud services can fail through interactions between network and compute layers.
+- Hierarchical models keep large infrastructure evaluations tractable without hiding important dependencies.
+- The cover represents data centers as layered reliability systems rather than isolated server racks.
+
+**Publication record:** Published in 2019 in *IEEE Access* ([DOI](https://doi.org/10.1109/ACCESS.2019.2891282), [IEEE Xplore record](https://ieeexplore.ieee.org/document/8590819)).
+
+---
+<p class="news-date">November 3, 2018</p>
+
+## SRN Assessment for Software-Defined Network Infrastructure
+
+This *Journal of Supercomputing* article studies reliability, availability, and operational cost for software-defined network infrastructure using stochastic reward nets. It brings control-plane and data-plane behavior into a quantitative model so SDN resilience can be evaluated alongside cost.
+
+<figure>
+  <img src="/images/news/181103/sdn-srn-reliability-cost-cover.webp" alt="Scientific illustration of stochastic reward net assessment for software-defined network reliability availability and operational cost" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: SDN infrastructure, controller-service states, stochastic reward net topology, and cost-availability trade-offs.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies stochastic reward nets to SDN infrastructure with reliability, availability, and cost in the same analysis.
+- Makes controller and network component behavior visible as measurable state transitions.
+- Helps compare operational choices that may improve availability while changing cost.
+
+### Why this matters
+
+- SDN centralizes important control logic, so controller availability affects the whole network.
+- Cost-aware dependability analysis helps avoid designs that are resilient but operationally inefficient.
+- The cover visualizes SDN as both a network topology and a stochastic evaluation model.
+
+**Publication record:** Published online on November 3, 2018 in *The Journal of Supercomputing* ([DOI](https://doi.org/10.1007/s11227-018-2677-y), [Springer article](https://link.springer.com/article/10.1007/s11227-018-2677-y)).
+
+---
+<p class="news-date">June 6, 2018</p>
+
+## SRN Modeling for Data Center Availability Quantification
+
+This book chapter in *Dependability Engineering* presents a stochastic reward net based modeling approach for quantifying data center availability. It packages the modeling workflow as a reusable method for translating data center architecture into availability and reward-based measures.
+
+<figure>
+  <img src="/images/news/180606/data-center-srn-availability-cover.webp" alt="Scientific illustration of stochastic reward net modeling for data center availability quantification" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: data center architecture, SRN states, redundant service paths, and availability quantification surfaces.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Explains how stochastic reward nets can model data center availability at system level.
+- Connects architectural redundancy, failure behavior, repair behavior, and reward measures.
+- Provides a book-chapter reference for readers entering dependability modeling.
+
+### Why this matters
+
+- Data center availability is shaped by architecture and recovery policy, not by component reliability alone.
+- SRN models give designers a way to compare alternatives before expensive deployment choices are made.
+- The cover makes the method visually explicit through server layers and reward-net state structure.
+
+**Publication record:** Published on June 6, 2018 in *Dependability Engineering* ([DOI](https://doi.org/10.5772/intechopen.74306), [IntechOpen chapter](https://www.intechopen.com/chapters/59554)).
+
+---
+<p class="news-date">May 18, 2018</p>
+
+## Correction: Virtualized Server Availability and Operational Cost
+
+This correction keeps the scholarly record accurate for the *Journal of Supercomputing* article on virtualized server availability and operational cost. Including the correction in News ensures the publication trail points readers toward the most reliable version of the record.
+
+<figure>
+  <img src="/images/news/180518/virtualized-server-correction-cover.webp" alt="Scientific illustration of corrected virtualized server availability and operational cost record" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: corrected virtualized server model, aligned state graph, and clean publication-record update.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Makes the correction visible alongside the original virtualized-server modeling work.
+- Preserves citation clarity for readers following the availability and cost analysis.
+- Keeps the News archive aligned with the official publisher record.
+
+### Why this matters
+
+- Dependability modeling papers are often reused as references for later quantitative studies.
+- A visible correction helps readers avoid working from stale or incomplete metadata.
+- The cover presents the correction as a refined model record rather than a separate technical claim.
+
+**Publication record:** Published on May 18, 2018 in *The Journal of Supercomputing*, Volume 74, page 2903 ([DOI](https://doi.org/10.1007/s11227-018-2428-0), [Springer article](https://link.springer.com/article/10.1007/s11227-018-2428-0)).
+
+---
+<p class="news-date">April 27, 2018</p>
+
+## Scalable Network-Area Storage with Virtualization
+
+This ICISS 2018 paper models scalable network-area storage with virtualization using stochastic reward nets. It focuses on storage infrastructure as a dependable service layer where virtualization and scaling choices affect both availability and operational behavior.
+
+<figure>
+  <img src="/images/news/180427/scalable-nas-virtualization-cover.webp" alt="Scientific illustration of scalable network area storage with virtualization modeled using stochastic reward nets" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: virtualized storage nodes, scalable data paths, stochastic reward net states, and storage-service availability.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies SRN modeling to a virtualized network-area storage architecture.
+- Connects scalability, storage virtualization, and availability evaluation in one model.
+- Adds storage infrastructure to the broader dependability modeling line.
+
+### Why this matters
+
+- Storage reliability is a foundation for cloud, edge, and data-intensive applications.
+- Virtualization improves flexibility but also creates new dependencies that should be modeled.
+- The cover shows storage as a layered service fabric with quantified resilience paths.
+
+**Publication record:** Presented on April 27, 2018 at *ICISS '18* in Jeju, Republic of Korea ([DOI](https://doi.org/10.1145/3209914.3209918), [ACM record](https://dl.acm.org/doi/10.1145/3209914.3209918)).
+
+---
+<p class="news-date">January 13, 2018</p>
+
+## Sensitivity Modeling for an Active-Active Genesis Cloud
+
+This INISCOM 2017 paper studies model-based sensitivity for a disaster-tolerant active-active genesis cloud system. The work asks which timing and reliability parameters matter most when cloud services are designed to remain active across redundant sites.
+
+<figure>
+  <img src="/images/news/180113/active-active-genesis-cloud-cover.webp" alt="Scientific illustration of model based sensitivity for a disaster tolerant active active genesis cloud system" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: active-active cloud sites, disaster-tolerant failover paths, sensitivity surfaces, and model-state dependencies.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Uses model-based sensitivity analysis to identify high-impact parameters in a disaster-tolerant cloud design.
+- Represents active-active redundancy as a measurable availability architecture.
+- Connects failure, repair, and synchronization behavior to cloud service continuity.
+
+### Why this matters
+
+- Disaster-tolerant systems can look resilient while still depending heavily on a few sensitive parameters.
+- Sensitivity analysis helps engineers prioritize the parameters that deserve careful measurement and tuning.
+- The cover visualizes paired cloud sites and failover behavior instead of generic cloud imagery.
+
+**Publication record:** Published on January 13, 2018 in *INISCOM 2017*, Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering ([DOI](https://doi.org/10.1007/978-3-319-74176-5_20), [Springer chapter](https://link.springer.com/chapter/10.1007/978-3-319-74176-5_20)).
+
+---
+<p class="news-date">August 28, 2017</p>
+
+## Virtualized Server Availability and Operational Cost
+
+This *Journal of Supercomputing* article provides a comprehensive evaluation of availability and operational cost for a virtualized server system using stochastic reward nets. It studies how virtualization, failure handling, and recovery strategy jointly affect service continuity and operating expense.
+
+<figure>
+  <img src="/images/news/170828/virtualized-server-availability-cost-cover.webp" alt="Scientific illustration of availability and operational cost evaluation for a virtualized server system using stochastic reward nets" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: virtualized server stack, SRN state graph, recovery loops, and cost-availability trade-off surfaces.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Builds an SRN-based evaluation of virtualized server availability and operational cost.
+- Studies how virtualization and recovery policies shape both continuity and expense.
+- Provides a detailed modeling reference for later server and data-center dependability work.
+
+### Why this matters
+
+- Availability decisions often carry cost consequences that are invisible in reliability-only studies.
+- Virtualized systems require system-level modeling because failures can propagate through shared layers.
+- The cover presents the server platform as a quantified recovery and cost system.
+
+**Publication record:** Published online on August 28, 2017 in *The Journal of Supercomputing* ([DOI](https://doi.org/10.1007/s11227-017-2127-2), [Springer article](https://link.springer.com/article/10.1007/s11227-017-2127-2)).
+
+---
+<p class="news-date">August 15, 2017</p>
+
+## Fog-IoT Reliability and Availability Modeling
+
+This BIGDAS 2017 conference paper studies reliability and availability modeling for a fog-computing based IoT system. It places IoT devices, fog nodes, and service infrastructure into a dependability frame where edge proximity and distributed components both matter.
+
+<figure>
+  <img src="/images/news/170815/fog-iot-reliability-availability-cover.webp" alt="Scientific illustration of reliability and availability modeling for fog computing based IoT systems" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: fog nodes, IoT devices, cloud links, reliability states, and service-availability paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Models a fog-computing based IoT system through reliability and availability metrics.
+- Connects device, fog, and cloud layers as a distributed service chain.
+- Adds fog-IoT dependability to the publication timeline before later smart environment studies.
+
+### Why this matters
+
+- Fog computing reduces latency, but it also adds distributed failure points.
+- IoT service quality depends on the whole path from sensors to fog and cloud resources.
+- The cover highlights fog infrastructure as a measurable reliability layer.
+
+**Publication record:** Presented on August 15, 2017 at *The 5th International Conference on Big Data Applications and Services (BIGDAS 2017)* in Jeju Island, South Korea ([Publications page](/publications/)).
+
+---
+<p class="news-date">December 1, 2016</p>
+
+## Virtualized System Availability with Stochastic Reward Nets
+
+This IEEE CIT 2016 paper models and analyzes the availability of a virtualized system using stochastic reward nets. It focuses on how virtualized resources, failure behavior, and recovery paths combine into measurable service availability.
+
+<figure>
+  <img src="/images/news/161201/virtualized-system-srn-cover.webp" alt="Scientific illustration of availability modeling and analysis of a virtualized system using stochastic reward nets" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: virtualized service layers, SRN states, redundant recovery paths, and availability quantification.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies stochastic reward nets to virtualized system availability analysis.
+- Represents virtualized components and recovery behavior as state-based dependability dynamics.
+- Provides a conference reference for the larger virtualized infrastructure modeling line.
+
+### Why this matters
+
+- Virtualization improves resource flexibility, but shared layers can change failure behavior.
+- SRN modeling makes those dependencies explicit and measurable.
+- The cover connects abstract state transitions with a concrete virtualized infrastructure scene.
+
+**Publication record:** Presented on December 1, 2016 at the *2016 IEEE International Conference on Computer and Information Technology (CIT)* ([DOI](https://doi.org/10.1109/CIT.2016.97), [IEEE Xplore record](https://ieeexplore.ieee.org/document/7864871)).
+
+---
+<p class="news-date">November 23, 2016</p>
+
+## SDN Availability, Reliability, and Power Consumption
+
+This UCAWSN/CUTE/CSA 2016 paper evaluates availability, reliability, and power consumption for an SDN infrastructure using stochastic reward nets. It extends the SDN modeling story beyond uptime by making energy and power behavior part of the same systems view.
+
+<figure>
+  <img src="/images/news/161123/sdn-power-reliability-cover.webp" alt="Scientific illustration of availability reliability and power consumption evaluation for SDN infrastructure using stochastic reward nets" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: SDN controller and switch fabric, SRN states, power-aware paths, and reliability surfaces.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Evaluates SDN infrastructure using availability, reliability, and power-consumption metrics together.
+- Uses stochastic reward nets to capture both failure-recovery behavior and efficiency trade-offs.
+- Links network dependability with energy-aware infrastructure operation.
+
+### Why this matters
+
+- Network designs should not optimize uptime while ignoring power behavior.
+- SDN control logic can become a dependability and efficiency bottleneck when modeled at system level.
+- The cover presents SDN as a power-aware resilience architecture.
+
+**Publication record:** Published on November 23, 2016 in *Advances in Computer Science and Ubiquitous Computing*, Lecture Notes in Electrical Engineering 421 ([DOI](https://doi.org/10.1007/978-981-10-3023-9_98), [Springer chapter](https://link.springer.com/chapter/10.1007/978-981-10-3023-9_98)).
+
+---
+<p class="news-date">March 1, 2016</p>
+
+## Disaster-Tolerant Data Center Availability Modeling
+
+This *Future Generation Computer Systems* article models and analyzes data center availability for disaster tolerance. It studies how redundant architecture and recovery behavior can protect service continuity when large disruptions affect a data center environment.
+
+<figure>
+  <img src="/images/news/160301/data-center-disaster-tolerance-cover.webp" alt="Scientific illustration of availability modeling and analysis of a disaster tolerant data center" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: paired disaster-tolerant data centers, failover paths, recovery states, and availability analysis surfaces.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Models data center availability with explicit disaster-tolerance behavior.
+- Connects architecture, failure events, and recovery actions to measurable continuity.
+- Provides a major journal reference in the data-center dependability sequence.
+
+### Why this matters
+
+- Disaster tolerance requires more than component redundancy; recovery timing and dependency structure matter.
+- Quantitative modeling helps compare resilience options before a real incident tests them.
+- The cover emphasizes geographic and service-level continuity between data center sites.
+
+**Publication record:** Published in March 2016 in *Future Generation Computer Systems*, Volume 56, pages 27-50 ([DOI](https://doi.org/10.1016/j.future.2015.08.017), [ScienceDirect article](https://www.sciencedirect.com/science/article/abs/pii/S0167739X1500266X)).
+
+---
+<p class="news-date">November 1, 2015</p>
+
+## Software-Defined Network Availability Modeling
+
+This IEEE PRDC 2015 paper models and analyzes the availability of a software-defined network. It treats SDN as a dependability system where controller availability, switch behavior, and network paths need to be understood together.
+
+<figure>
+  <img src="/images/news/151101/sdn-availability-modeling-cover.webp" alt="Scientific illustration of availability modeling and analysis of a software defined network" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: SDN control plane, forwarding plane, availability states, and stochastic network paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Brings availability modeling to software-defined networking infrastructure.
+- Connects SDN controller behavior with network-level service continuity.
+- Establishes an early dependability reference for later SDN reliability and cost studies.
+
+### Why this matters
+
+- SDN promises programmable control, but that control plane must itself be dependable.
+- Availability modeling helps reveal where redundancy or recovery design is needed.
+- The cover frames SDN as a coupled control and forwarding reliability problem.
+
+**Publication record:** Presented on November 1, 2015 at the *2015 IEEE Pacific Rim International Symposium on Dependable Computing (PRDC)* ([DOI](https://doi.org/10.1109/PRDC.2015.27), [IEEE Xplore record](https://ieeexplore.ieee.org/document/7371838)).
+
+---
+<p class="news-date">January 1, 2015</p>
+
+## Data Center Network Sensitivity for Business Continuity
+
+This *Mathematical Problems in Engineering* article performs a comprehensive sensitivity analysis of a data center network with server virtualization for business continuity. It asks which parameters most affect continuity when data center networking and virtualized servers interact.
+
+<figure>
+  <img src="/images/news/150101/data-center-virtualization-sensitivity-cover.webp" alt="Scientific illustration of sensitivity analysis for a data center network with server virtualization and business continuity" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: virtualized data center network, sensitivity surfaces, redundant paths, and business-continuity state behavior.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Applies sensitivity analysis to a virtualized data center network.
+- Identifies which parameters most influence continuity and availability outcomes.
+- Connects server virtualization with network-level resilience planning.
+
+### Why this matters
+
+- Business continuity depends on knowing which parameters deserve the most operational attention.
+- Sensitivity analysis helps prioritize measurement, tuning, and redundancy investment.
+- The cover visualizes the data center as a parameter-sensitive continuity system.
+
+**Publication record:** Published in 2015 in *Mathematical Problems in Engineering*, Article ID 521289 ([DOI](https://doi.org/10.1155/2015/521289), [Hindawi article](https://www.hindawi.com/journals/mpe/2015/521289/)).
+
+---
+<p class="news-date">December 1, 2014</p>
+
+## High-Availability Security Architecture for DDoS Resilience
+
+This ICCIC 2014 paper models and analyzes a cost-effective high-availability security architecture for whole-of-government systems facing DDoS attacks. It joins security architecture with availability modeling so defense choices can be evaluated as service-continuity decisions.
+
+<figure>
+  <img src="/images/news/141201/government-ddos-high-availability-cover.webp" alt="Scientific illustration of high availability security architecture for government systems facing DDoS attacks" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: government service infrastructure, DDoS defense layers, redundant protection paths, and high-availability states.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Models a high-availability security architecture for large public-sector systems.
+- Connects DDoS resilience with availability and cost-effective architecture design.
+- Extends dependability modeling into security-driven service continuity.
+
+### Why this matters
+
+- DDoS attacks are availability attacks as much as security events.
+- Government-scale services need defensible designs that remain reachable during disruption.
+- The cover balances civic infrastructure, security filtering, and redundant service paths.
+
+**Publication record:** Presented in December 2014 at *ICCIC 2014* ([DOI](https://doi.org/10.1109/ICCIC.2014.7238293), [IEEE Xplore record](https://ieeexplore.ieee.org/document/7238293)).
+
+---
+<p class="news-date">February 17, 2014</p>
+
+## Virtualized Servers Network Availability Modeling
+
+This ICCA 2014 paper models and analyzes availability in a virtualized servers network. It is part of the early virtualized-infrastructure research thread, where server networks are treated as systems with shared resources, recovery actions, and measurable service continuity.
+
+<figure>
+  <img src="/images/news/140217/virtualized-server-network-availability-cover.webp" alt="Scientific illustration of availability modeling and analysis in a virtualized servers network" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: virtualized server network, redundant links, state transitions, and availability analysis.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Builds an availability model for a virtualized servers network.
+- Represents shared server-network dependencies that influence service continuity.
+- Provides an early conference foundation for later SRN-based virtualized system studies.
+
+### Why this matters
+
+- Virtualized server networks can fail through interactions between compute and network layers.
+- Quantitative availability models help identify where recovery and redundancy matter most.
+- The cover uses physical racks and transparent virtual layers to match that coupled structure.
+
+**Publication record:** Presented on February 17, 2014 at *ICCA 2014* in Yangon, Myanmar ([paper PDF](https://meral.edu.mm/record/3306/files/12032.pdf)).
+
+---
+<p class="news-date">January 1, 2014</p>
+
+## Virtualized Servers Availability with Stochastic Reward Nets
+
+This *Scientific World Journal* article presents a comprehensive availability modeling and analysis of a virtualized servers system using stochastic reward nets. It formalizes how virtualized server components, failures, repairs, and service states interact over time.
+
+<figure>
+  <img src="/images/news/140101/virtualized-servers-srn-cover.webp" alt="Scientific illustration of availability modeling for a virtualized servers system using stochastic reward nets" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: virtual machine layers, physical servers, stochastic reward net states, and availability quantification.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Develops an SRN-based availability model for a virtualized servers system.
+- Connects physical server behavior, virtual machine behavior, and recovery states.
+- Establishes a journal baseline for later virtualized infrastructure dependability studies.
+
+### Why this matters
+
+- Virtualization changes how failures affect hosted services, so simple component models are not enough.
+- SRN analysis supports quantitative comparison of recovery strategies and architectural choices.
+- The cover pairs the virtualized stack with a visible reward-net structure.
+
+**Publication record:** Published in 2014 in *The Scientific World Journal*, Article ID 165316 ([DOI](https://doi.org/10.1155/2014/165316), [Hindawi article](https://www.hindawi.com/journals/tswj/2014/165316/)).
+
+---
+<p class="news-date">December 3, 2013</p>
+
+## Satellite On-Board Computer Virtualization Proposal
+
+This IEICE technical report proposes virtualization technology for satellite on-board computer systems with hardware redundancy, software rejuvenation, and virtual machine live migration. It brings cloud-style dependability concepts into the constrained and safety-sensitive environment of spacecraft computing.
+
+<figure>
+  <img src="/images/news/131203/satellite-virtualization-rejuvenation-cover.webp" alt="Scientific illustration of virtualization technology for a satellite on board computer with redundancy rejuvenation and live migration" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: satellite on-board computer cutaway, redundant modules, rejuvenation workflow, and virtual-machine migration paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Proposes virtualization for satellite on-board computer reliability and maintainability.
+- Combines hardware redundancy, software rejuvenation, and virtual machine live migration.
+- Connects dependability modeling ideas with aerospace embedded-computing constraints.
+
+### Why this matters
+
+- Space systems need high reliability under strict resource and repair limitations.
+- Virtualization and rejuvenation can provide design options for fault management in onboard software.
+- The cover makes the satellite computing stack and migration concept visible in one scene.
+
+**Publication record:** Published on December 3, 2013 in *IEICE Technical Report*, SANE2013-98, pages 157-162 ([IEICE record](http://www.ieice.org/ken/paper/20131203lB7P/eng/)).
+
+---
+<p class="news-date">February 26, 2013</p>
+
+## Unmanned Airship Applications and Embedded Control
+
+This ICCA 2013 paper discusses practical and potential applications of an unmanned airship based on automatic control and embedded computer system design. It connects flight-platform design with embedded control architecture, sensing, and autonomous operation.
+
+<figure>
+  <img src="/images/news/130226/unmanned-airship-automatic-control-cover.webp" alt="Scientific illustration of an unmanned airship automatic control and embedded computer system design" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: unmanned airship, embedded control module, sensor paths, and autonomous flight-control loop.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Frames unmanned airship applications around automatic control and embedded computer design.
+- Links vehicle-level operation with the onboard computing architecture needed to support it.
+- Adds an early aerospace cyber-physical systems entry to the News timeline.
+
+### Why this matters
+
+- Airship autonomy depends on reliable embedded control, not only vehicle aerodynamics.
+- Application planning benefits from understanding the onboard computation and sensing stack.
+- The cover keeps the airship central while revealing the embedded control system underneath.
+
+**Publication record:** Presented on February 26, 2013 at *ICCA 2013* in Yangon, Myanmar ([Publications page](/publications/)).
+
+---
+<p class="news-date">November 1, 2012</p>
+
+## Automatic Embedded Control for an Unmanned Airship
+
+This ICCAIS 2012 paper presents the design and implementation of automatic embedded control hardware and software systems in an unmanned airship. It focuses on making autonomous airship operation practical through onboard electronics, control logic, and software integration.
+
+<figure>
+  <img src="/images/news/121101/airship-embedded-control-cover.webp" alt="Scientific illustration of automatic embedded control hardware and software systems in an unmanned airship" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: unmanned airship cutaway, embedded boards, sensors, actuator paths, and automatic control loop.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Designs and implements embedded hardware and software for automatic airship control.
+- Connects sensing, processing, and actuation inside an aerial cyber-physical platform.
+- Provides an implementation-oriented foundation for later unmanned airship architecture work.
+
+### Why this matters
+
+- Autonomous flight requires dependable integration between control software and embedded hardware.
+- Implementation details are critical when a research platform must move from concept to field testing.
+- The cover shows the airship as a complete embedded-control system rather than a standalone vehicle.
+
+**Publication record:** Presented on November 1, 2012 at *ICCAIS 2012* in Ho Chi Minh City, Vietnam ([DOI](https://doi.org/10.1109/ICCAIS.2012.6466636), [IEEE Xplore record](https://ieeexplore.ieee.org/document/6466636)).
+
+---
+<p class="news-date">June 1, 2012</p>
+
+## Embedded Hardware and Software Architecture for an Unmanned Airship
+
+This ICESS 2012 paper presents the embedded hardware and software architecture of an unmanned airship. It emphasizes how onboard computing, control software, sensing, and vehicle actuation can be organized into a coherent architecture.
+
+<figure>
+  <img src="/images/news/120601/airship-embedded-architecture-cover.webp" alt="Scientific illustration of embedded hardware and software architecture in an unmanned airship" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: airship embedded architecture, layered software blocks, onboard boards, sensor links, and actuator paths.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Defines an embedded hardware and software architecture for an unmanned airship.
+- Organizes onboard computing, sensing, and actuation into an integrated control platform.
+- Documents the architecture side of the early unmanned airship research thread.
+
+### Why this matters
+
+- Clear embedded architecture makes autonomous aerial platforms easier to implement, test, and extend.
+- Airship research benefits from a system view that joins software modules with physical hardware.
+- The cover turns the architecture into a single clean engineering scene.
+
+**Publication record:** Presented in June 2012 at *ICESS-2012* in Liverpool, UK ([DOI](https://doi.org/10.1109/HPCC.2012.260), [IEEE Xplore record](https://ieeexplore.ieee.org/document/6270407)).
+
+---
+<p class="news-date">September 14, 2010</p>
+
+## Lessons from the F-1 Nano-Satellite Fabrication Project
+
+This Space Technology and Application Scientific Workshop 2010 paper records lessons learned from the F-1 nano-satellite fabrication project. It gives the News archive an origin point in practical aerospace fabrication, where hardware assembly, testing, and team learning shape the final mission system.
+
+<figure>
+  <img src="/images/news/100914/f1-nanosatellite-fabrication-cover.webp" alt="Scientific illustration of F-1 nano satellite fabrication in a clean laboratory" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: nano-satellite clean-lab assembly, avionics boards, solar panels, precision tools, and orbital mission context.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Documents fabrication lessons from the F-1 nano-satellite project.
+- Captures practical spacecraft-building knowledge from assembly, integration, and team experience.
+- Extends the News chronology back to an early aerospace systems milestone.
+
+### Why this matters
+
+- Small-satellite projects depend on disciplined fabrication and testing as much as design ambition.
+- Lessons learned help later teams avoid repeating costly integration mistakes.
+- The cover presents the project as precise aerospace engineering rather than a generic satellite image.
+
+**Publication record:** Presented on September 14, 2010 at *Space Technology and Application Scientific Workshop 2010* in Hanoi, Vietnam ([Publications page](/publications/)).
+
+---
 
 ## Publication Visual Briefing Archive
 
-The long-form News entries above highlight selected research releases, conference activities, project milestones, media, demonstrations, and publication updates. The visual briefing archive below completes the publication coverage with publication story blocks for records from the Publications page that do not yet have a dedicated long-form News entry: each entry includes a large scientific illustration, contribution notes, impact notes, and the publication record.
+The long-form News entries above now cover every parsed publication record from the Publications page with a dedicated scientific cover image and publication note. The fallback archive below is retained for future additions; it should report zero missing records after the generator runs.
 
 {% include publication_news_missing.html %}
