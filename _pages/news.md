@@ -3055,11 +3055,3 @@ This Space Technology and Application Scientific Workshop 2010 paper records les
 - The cover presents the project as precise aerospace engineering rather than a generic satellite image.
 
 **Publication record:** Presented on September 14, 2010 at *Space Technology and Application Scientific Workshop 2010* in Hanoi, Vietnam ([Publications page](/publications/)).
-
----
-
-## Publication Visual Briefing Archive
-
-The long-form News entries above now cover every parsed publication record from the Publications page with a dedicated scientific cover image and publication note. The fallback archive below is retained for future additions; it should report zero missing records after the generator runs.
-
-{% include publication_news_missing.html %}
