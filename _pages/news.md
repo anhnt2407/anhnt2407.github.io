@@ -523,6 +523,11 @@ This *ICT Express* publication studies disaster detection as a geographically di
 - The abstract also frames the work around financial and technical barriers to building cost-effective automated systems in high-risk and secluded areas.
 - This makes the paper directly relevant to resilient disaster-monitoring infrastructure, especially when coverage must extend beyond a single location.
 
+<figure>
+  <img src="/images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="900" loading="lazy" decoding="async">
+  <figcaption>Technical model detail: IoT disaster detection system and stochastic modeling structure.</figcaption>
+</figure>
+
 **Publication record:** Published in February 2025 in *ICT Express*, Volume 11, Issue 1, Pages 34-40 ([DOI](https://doi.org/10.1016/j.icte.2024.09.005), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959524001085)).
 
 ---
@@ -549,32 +554,6 @@ This TechRxiv preprint presents **mhmcTD3**, a multi-head actor-critic reinforce
 - The same preprint emphasizes that ablation studies confirm the importance of each head, showing that the architecture is not just larger, but meaningfully modular.
 - This makes mhmcTD3 a strong sim-to-real navigation contribution for robotics settings where map-free adaptability matters.
 
-**Publication record:** Posted on January 21, 2025 on *TechRxiv* ([DOI](https://doi.org/10.36227/techrxiv.173747402.29145488/v1)).
-
----
-<p class="news-date">December 21, 2024</p>
-
-## mhmcTD3: A Multi-Head DRL Architecture for Autonomous Navigation
-
-This early News release introduced **mhmcTD3** as a multi-head, memory-enhanced deep reinforcement learning architecture for autonomous navigation. The work brings richer LiDAR representation, temporal context, and actor-critic learning into one architecture for robots that must react smoothly in dynamic environments.
-
-<figure>
-  <img src="/images/news/250121/mhmctd3-cover.webp" alt="Scientific illustration of mhmcTD3 multi-head memory contextualized reinforcement learning for autonomous navigation" width="1200" height="675" loading="lazy" decoding="async">
-  <figcaption>Scientific illustration: LiDAR fusion, memory contextualisation, and multi-head actor-critic navigation.</figcaption>
-</figure>
-
-### What the paper contributes
-
-- Presents a **multi-head actor-critic** design that separates LiDAR fusion, LiDAR feature extraction, robot-state reasoning, and temporal memory.
-- Combines tailored LiDAR preprocessing with CNN and LSTM modules, making the policy more sensitive to dynamic obstacles and recent motion context.
-- Validates the approach across ROS2/Gazebo simulation and Turtlebot3 experiments, giving the architecture a stronger sim-to-real footing.
-
-### Why this matters
-
-- Autonomous robots in cluttered environments fail when perception, memory, and control are treated too narrowly; mhmcTD3 makes those parts collaborate explicitly.
-- The architecture is especially relevant for map-free navigation where small moving obstacles, sensor resolution, and fast local decisions all interact.
-- The work helps connect architecture design, learning stability, and real-world transfer into one coherent autonomous-navigation contribution.
-
 <div class="figure-grid figure-grid--two">
   <figure>
     <img src="/images/news/241221/mhmcTD3_architectutre.jpeg" alt="mhmcTD3 architecture for autonomous navigation" width="500">
@@ -586,7 +565,7 @@ This early News release introduced **mhmcTD3** as a multi-head, memory-enhanced 
   </figure>
 </div>
 
-**Publication record:** Posted on January 21, 2025 on *TechRxiv* as *Multi-head Fusion-based Actor-Critic Deep Reinforcement Learning with Memory Contextualisation for End-to-End Autonomous Navigation* ([DOI](https://doi.org/10.36227/techrxiv.173747402.29145488/v1)).
+**Publication record:** Posted on January 21, 2025 on *TechRxiv* ([DOI](https://doi.org/10.36227/techrxiv.173747402.29145488/v1)).
 
 ---
 <p class="news-date">December 12, 2024</p>
@@ -717,37 +696,6 @@ The ULoRA OpenReview submission explores a practical question in modern deep lea
 - The post records the October 2024 OpenReview submission in the publication chronology while clearly treating it as a submission record.
 
 **Publication record:** Posted on October 4, 2024 as an *ICLR 2025 Conference withdrawn submission* on OpenReview ([OpenReview record](https://openreview.net/forum?id=bYsieh8LE2)).
-
----
-<p class="news-date">September 14, 2024</p>
-
-## Enhancing IoT Disaster Detection Systems with Stochastic Models Across Multiple Geographic Areas
-
-This *ICT Express* publication studies disaster detection as a distributed cyber-physical system spanning **multiple geographic areas**. It combines LoRaWAN sensing, fog resources, and cloud processing with stochastic modeling so planners can reason about response time, utilization, and deployment capacity before building large-scale monitoring infrastructure.
-
-<figure>
-  <img src="/images/news/250201/disaster-detection-cover.webp" alt="Scientific illustration of multi-region IoT disaster detection with cloud-fog monitoring" width="1200" height="675" loading="lazy" decoding="async">
-  <figcaption>Scientific illustration: LoRaWAN-aware stochastic models for cloud-fog monitoring across disaster-prone regions.</figcaption>
-</figure>
-
-### What the paper contributes
-
-- Introduces **two Stochastic Petri Net models** for IoT disaster detection across geographically distributed monitoring regions.
-- Evaluates key performance indicators including mean response time, drop probability, resource utilization, and server-processing capacity.
-- Uses sensitivity analysis to show how fog and cloud resource choices affect responsiveness under large-scale disaster-monitoring demand.
-
-### Why this matters
-
-- Disaster-detection infrastructure must cover high-risk and often secluded areas without becoming prohibitively expensive.
-- Modeling the system before deployment helps identify where additional cores, fog capacity, or communication resources actually improve service quality.
-- The study gives disaster-response planners a more disciplined way to connect sensing coverage, computing capacity, and operational resilience.
-
-<figure>
-  <img src="/images/news/240914/IoT_Disaster_Detection_System_and_Stochastic_Models.png" alt="IoT Disaster Detection System and Stochastic Modeling" width="900" loading="lazy" decoding="async">
-  <figcaption>Technical model detail: IoT disaster detection system and stochastic modeling structure.</figcaption>
-</figure>
-
-**Publication record:** Published in February 2025 in *ICT Express*, Volume 11, Issue 1, Pages 34-40 ([DOI](https://doi.org/10.1016/j.icte.2024.09.005), [ScienceDirect article](https://www.sciencedirect.com/science/article/pii/S2405959524001085)).
 
 ---
 <p class="news-date">August 28, 2024</p>
