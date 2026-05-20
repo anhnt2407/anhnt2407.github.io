@@ -854,8 +854,8 @@ This *Computing* article studies cloud microservices under disaster-survivabilit
 This AAM-VDT release presents a vehicle digital twin platform for tele-operations in **Advanced Air Mobility**. The work brings together cloud computing, AI-assisted operation, simulation, and flight-data exchange around the Konkuk Passenger Vehicle platform, turning the project from a demonstration stack into a research artifact with a clear publication trail.
 
 <figure>
-  <img src="/images/news/250402/vehicle-digital-twin-cover.webp" alt="Scientific illustration of an AAM vehicle digital twin for tele-operations" width="1200" height="675" loading="lazy" decoding="async">
-  <figcaption>Scientific illustration: AAM vehicle digital twin, simulation loop, and tele-operation data flow.</figcaption>
+  <img src="/images/news/240514/aam-vdt-teleoperations-cover.webp" alt="Scientific illustration of AAM vehicle digital twin tele-operations with cloud-in-the-loop simulation" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: AAM vehicle digital twin, tele-operation station, city-scale simulation loop, and flight-data synchronization.</figcaption>
 </figure>
 
 ### What the paper contributes
@@ -938,8 +938,8 @@ I am excited to announce my attendance at the 2024 IEEE/IFIP Network Operations 
 At NOMS 2024, we presented *Optimal Resource Utilization in Hyperledger Fabric: A Comprehensive SPN-Based Performance Evaluation Paradigm*. The paper studies permissioned blockchain performance through Stochastic Petri Nets, with special attention to endorsement, ordering, commit, resource utilization, and response-time sensitivity.
 
 <figure>
-  <img src="/images/news/250205/hyperledger-cover.webp" alt="Scientific illustration of Hyperledger Fabric transactional dynamics and SPN performance modeling" width="1200" height="675" loading="lazy" decoding="async">
-  <figcaption>Scientific illustration: SPN-based Hyperledger Fabric transaction flow and performance evaluation.</figcaption>
+  <img src="/images/news/240510/noms-hyperledger-spn-cover.webp" alt="Scientific illustration of NOMS 2024 Hyperledger Fabric SPN resource utilization presentation" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: NOMS 2024 presentation on SPN-based Hyperledger Fabric resource utilization and transaction-flow analysis.</figcaption>
 </figure>
 
 ### What the paper contributes
