@@ -765,7 +765,7 @@ This arXiv preprint presents **SHANGUS / FH-DRL**, a framework that connects fro
 
 ## Pilot-in-the-loop simulation with virtual reality (PILS-VR) running on top of cloud-in-the-loop simulation (CILS)
 
-I am excited to share the progress our team has made in a short period. It was an honor to represent our group at the Conference on Automation, Control, and Robotics Engineering (CACRE 2024) in Jeju. Our collaboration with Korean students, combined with the relentless efforts of our Vietnamese team at KADA, has led to remarkable developments. 
+I am excited to share the progress our team has made in a short period. It was an honor to represent our group at the Conference on Automation, Control, and Robotics Engineering (CACRE 2024) in Jeju. Our collaboration with Korean students, combined with the relentless efforts of our Vietnamese team at KADA, has led to remarkable developments.
 
 In a short time, we have successfully expanded our Pilot-in-the-Loop Simulation (PILS) system by integrating it with Virtual Reality (VR) on the Cloud-in-the-Loop Simulation (CILS) platform. A special thanks to my colleagues: Dr. Vinh Vinh Phạm, Nghĩa, and Nguyễn Viết Nghĩa. Please excuse the rudimentary graphics as our focus wasn't on 3D development.
 
@@ -803,7 +803,7 @@ All data from KFDS and PX4 are collected in run-time simulation for further anal
 
 I am thrilled to share that I had the incredible opportunity to attend and present at the 2024 International Conference on Automation, Control, and Robotics Engineering (CACRE 2024) held on Jeju Island, South Korea, from July 18-20, 2024. This prestigious conference brought together leading experts, researchers, and practitioners in the fields of automation, control, and robotics from around the world.
 
-As part of the conference, I presented our latest research from the Konkuk Aerospace Design-Airworthiness Institute (KADA). Our study, titled "AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility," delves into the innovative use of digital twin technology for enhancing tele-operations in the realm of advanced air mobility. 
+As part of the conference, I presented our latest research from the Konkuk Aerospace Design-Airworthiness Institute (KADA). Our study, titled "AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility," delves into the innovative use of digital twin technology for enhancing tele-operations in the realm of advanced air mobility.
 
 I am honored to share that our presentation received the Excellent Oral Presentation award in the Special Session IX: Modeling, Control, and AI for Autonomous Vehicles. This session was chaired by Sungjin Cho from Sunchon National University, South Korea, with Sangho Kim from Konkuk University, South Korea, serving as Vice Session Chair.
 
@@ -889,27 +889,27 @@ Excited about the possibilities that lie ahead as we continue to innovate and dr
 **Publication record:** Posted as *AAM-VDT: Vehicle Digital Twin for Tele-Operations in Advanced Air Mobility* on arXiv ([arXiv abstract](https://arxiv.org/abs/2404.09621), [DOI](https://doi.org/10.48550/arXiv.2404.09621)).
 
 <figure>
-    <img src="/images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs">
+    <img src="/images/news/240512/AAM-VDT/VDT Techs..jpg" alt="VDT Techs" width="3821" height="2060" loading="lazy" decoding="async">
     <figcaption>VDT Technologies of KADA</figcaption>
 </figure>
 <figure>
-    <img src="/images/news/240512/AAM-VDT/VDT Simulation System.jpg" alt="VDT Simulation System">
+    <img src="/images/news/240512/AAM-VDT/VDT Simulation System.jpg" alt="VDT Simulation System" width="3812" height="2153" loading="lazy" decoding="async">
     <figcaption>VDT Simulation System for Demonstration</figcaption>
 </figure>
 <figure>
-    <img src="/images/news/240512/AAM-VDT/VDT-CILS.jpg" alt="VDT-CILS">
+    <img src="/images/news/240512/AAM-VDT/vdt-cils-optimized.webp" alt="VDT-CILS" width="1400" height="1839" loading="lazy" decoding="async">
     <figcaption> VDT Cloud in the loop simulation (CILS) </figcaption>
 </figure>
 <figure>
-    <img src="/images/news/240512/AAM-VDT/VDT-Single-ODT.jpg" alt="VDT Single ODT">
+    <img src="/images/news/240512/AAM-VDT/VDT-Single-ODT.jpg" alt="VDT Single ODT" width="4898" height="3392" loading="lazy" decoding="async">
     <figcaption>VDT Single Vehicle integrated with operational digital twin (ODT)</figcaption>
 </figure>
 <figure>
-    <img src="/images/news/240512/AAM-VDT/VDT-SITL.jpg" alt="VDT SITL">
+    <img src="/images/news/240512/AAM-VDT/VDT-SITL.jpg" alt="VDT SITL" width="3664" height="2204" loading="lazy" decoding="async">
     <figcaption>VDT software in the loop simulation (SITL)</figcaption>
 </figure>
 <figure>
-    <img src="/images/news/240512/AAM-VDT/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified">
+    <img src="/images/news/240512/AAM-VDT/VDT-SITL-Simplified.jpg" alt="VDT SITL Simplified" width="1107" height="592" loading="lazy" decoding="async">
     <figcaption>VDT PX4-KFDS SITL with Bridge</figcaption>
 </figure>
 

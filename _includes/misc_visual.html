@@ -1,0 +1,178 @@
+<svg class="misc-inline-illustration misc-inline-illustration--{{ include.visual | default: 'default' }}" viewBox="0 0 1200 675" role="img" aria-label="Illustration for {{ include.title | escape }}" focusable="false">
+  <defs>
+    <linearGradient id="miscVisualGradient-{{ include.visual | default: 'default' }}" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="var(--misc-accent)" />
+      <stop offset="54%" stop-color="var(--misc-accent-2)" />
+      <stop offset="100%" stop-color="var(--misc-accent-3)" />
+    </linearGradient>
+  </defs>
+  <rect class="misc-visual__backdrop" width="1200" height="675" rx="0" />
+  <path class="misc-visual__halo" d="M92 364 C164 138, 420 62, 676 122 C894 174, 1084 316, 1030 486 C952 622, 610 628, 362 572 C152 524, 38 468, 92 364Z" />
+  <g class="misc-visual__grid" aria-hidden="true">
+    <path d="M86 560 H1118 M116 486 H1088 M152 412 H1048 M190 338 H1010 M236 264 H964" />
+    <path d="M180 172 V600 M326 112 V606 M480 92 V600 M642 96 V606 M806 132 V602 M966 198 V570" />
+  </g>
+
+  {% case include.visual %}
+  {% when "trade" %}
+  <path class="misc-visual__path" d="M96 466 C230 338, 342 392, 480 296 S718 184, 1092 286" />
+  <path class="misc-visual__path misc-visual__path--warm" d="M134 520 C300 440, 440 506, 590 402 S836 284, 1034 396" />
+  <g class="misc-visual__panel-stack" transform="translate(126 206)">
+    <rect x="0" y="0" width="238" height="150" rx="26" />
+    <path d="M42 104 H188 M42 72 H158 M42 40 H196" />
+  </g>
+  <g class="misc-visual__port" transform="translate(682 192)">
+    <path d="M28 258 H390" />
+    <path d="M72 258 V92 H324 V258" />
+    <path d="M72 118 H324 M132 92 V258 M196 92 V258 M260 92 V258" />
+    <rect x="98" y="290" width="78" height="42" rx="8" />
+    <rect x="184" y="290" width="78" height="42" rx="8" />
+    <rect x="270" y="290" width="78" height="42" rx="8" />
+  </g>
+  <g class="misc-visual__nodes">
+    <circle cx="246" cy="468" r="18" />
+    <circle cx="494" cy="296" r="20" />
+    <circle cx="766" cy="214" r="18" />
+    <circle cx="1018" cy="286" r="20" />
+  </g>
+
+  {% when "policy" %}
+  <g class="misc-visual__building" transform="translate(106 196)">
+    <path d="M120 0 L286 72 H-46 Z" />
+    <path d="M0 112 H242 V302 H0 Z" />
+    <path d="M42 112 V302 M98 112 V302 M154 112 V302 M210 112 V302" />
+    <path d="M-24 302 H266" />
+  </g>
+  <g class="misc-visual__screen" transform="translate(516 134)">
+    <rect x="0" y="0" width="488" height="300" rx="34" />
+    <path d="M56 210 C116 128, 184 190, 246 116 S368 92, 430 164" />
+    <path d="M56 72 H240 M56 116 H188 M56 252 H392" />
+  </g>
+  <g class="misc-visual__chips">
+    <rect x="456" y="504" width="154" height="50" rx="25" />
+    <rect x="638" y="504" width="154" height="50" rx="25" />
+    <rect x="820" y="504" width="154" height="50" rx="25" />
+  </g>
+  <path class="misc-visual__path misc-visual__path--warm" d="M344 356 C458 278, 546 324, 632 230" />
+  <g class="misc-visual__nodes">
+    <circle cx="344" cy="356" r="18" />
+    <circle cx="632" cy="230" r="18" />
+    <circle cx="860" cy="286" r="18" />
+  </g>
+
+  {% when "ai-governance" %}
+  <g class="misc-visual__screen" transform="translate(88 156)">
+    <rect x="0" y="0" width="362" height="286" rx="34" />
+    <path d="M54 218 C122 92, 224 246, 304 102" />
+    <circle cx="112" cy="112" r="26" />
+    <circle cx="232" cy="168" r="26" />
+  </g>
+  <g class="misc-visual__network" transform="translate(520 112)">
+    <line x1="84" y1="82" x2="238" y2="146" />
+    <line x1="238" y1="146" x2="376" y2="76" />
+    <line x1="238" y1="146" x2="340" y2="286" />
+    <line x1="84" y1="82" x2="150" y2="300" />
+    <line x1="150" y1="300" x2="340" y2="286" />
+    <circle cx="84" cy="82" r="30" />
+    <circle cx="238" cy="146" r="34" />
+    <circle cx="376" cy="76" r="30" />
+    <circle cx="150" cy="300" r="30" />
+    <circle cx="340" cy="286" r="30" />
+  </g>
+  <path class="misc-visual__path misc-visual__path--warm" d="M784 470 q92 -132 184 0 M832 470 q44 -70 88 0" />
+  <rect class="misc-visual__vehicle" x="744" y="430" width="260" height="74" rx="30" />
+  <circle class="misc-visual__wheel" cx="802" cy="508" r="28" />
+  <circle class="misc-visual__wheel" cx="952" cy="508" r="28" />
+
+  {% when "talent" %}
+  <g class="misc-visual__campus" transform="translate(94 190)">
+    <rect x="0" y="84" width="310" height="230" rx="28" />
+    <path d="M44 84 V28 H266 V84" />
+    <path d="M72 142 H238 M72 196 H238 M72 250 H238" />
+  </g>
+  <g class="misc-visual__lab" transform="translate(752 176)">
+    <rect x="0" y="0" width="318" height="290" rx="30" />
+    <path d="M62 82 H256 M62 144 H216 M62 206 H270" />
+    <circle cx="86" cy="232" r="18" />
+    <circle cx="146" cy="232" r="18" />
+    <circle cx="206" cy="232" r="18" />
+  </g>
+  <path class="misc-visual__path" d="M408 326 C526 192, 652 450, 748 310" />
+  <path class="misc-visual__path misc-visual__path--warm" d="M412 396 C542 512, 644 264, 758 374" />
+  <g class="misc-visual__nodes">
+    <circle cx="408" cy="326" r="18" />
+    <circle cx="588" cy="332" r="24" />
+    <circle cx="748" cy="310" r="18" />
+  </g>
+
+  {% when "translation" %}
+  <g class="misc-visual__panel-stack" transform="translate(118 164)">
+    <rect x="0" y="0" width="300" height="230" rx="30" />
+    <path d="M58 76 H242 M58 126 H194 M58 176 H224" />
+  </g>
+  <g class="misc-visual__panel-stack" transform="translate(782 164)">
+    <rect x="0" y="0" width="300" height="230" rx="30" />
+    <path d="M58 76 H242 M58 126 H206 M58 176 H236" />
+  </g>
+  <g class="misc-visual__network" transform="translate(468 140)">
+    <line x1="132" y1="62" x2="246" y2="120" />
+    <line x1="246" y1="120" x2="128" y2="210" />
+    <line x1="128" y1="210" x2="250" y2="292" />
+    <circle cx="132" cy="62" r="28" />
+    <circle cx="246" cy="120" r="28" />
+    <circle cx="128" cy="210" r="28" />
+    <circle cx="250" cy="292" r="28" />
+  </g>
+  <path class="misc-visual__path" d="M416 278 C498 208, 594 208, 684 278" />
+  <path class="misc-visual__path misc-visual__path--warm" d="M416 344 C516 430, 598 430, 784 344" />
+
+  {% when "universities" %}
+  <g class="misc-visual__screen" transform="translate(136 122)">
+    <rect x="0" y="0" width="916" height="392" rx="38" />
+    <path d="M72 314 H840" />
+    <rect x="112" y="176" width="56" height="138" rx="12" />
+    <rect x="226" y="114" width="56" height="200" rx="12" />
+    <rect x="340" y="222" width="56" height="92" rx="12" />
+    <rect x="454" y="92" width="56" height="222" rx="12" />
+    <rect x="568" y="154" width="56" height="160" rx="12" />
+    <rect x="682" y="126" width="56" height="188" rx="12" />
+    <path d="M112 138 C248 76, 372 212, 510 126 S706 74, 820 156" />
+  </g>
+  <g class="misc-visual__chips">
+    <rect x="226" y="552" width="160" height="50" rx="25" />
+    <rect x="424" y="552" width="160" height="50" rx="25" />
+    <rect x="622" y="552" width="160" height="50" rx="25" />
+  </g>
+
+  {% when "conferences" %}
+  <g class="misc-visual__panel-stack" transform="translate(112 166)">
+    <rect x="0" y="0" width="320" height="302" rx="32" />
+    <path d="M60 92 H260 M60 154 H224 M60 216 H244" />
+    <circle cx="256" cy="250" r="28" />
+  </g>
+  <g class="misc-visual__stage" transform="translate(568 118)">
+    <rect x="0" y="0" width="420" height="326" rx="34" />
+    <path d="M70 250 H350" />
+    <path d="M104 250 V118 H178 V250 M242 250 V84 H316 V250" />
+    <path d="M128 76 H292" />
+  </g>
+  <path class="misc-visual__path misc-visual__path--warm" d="M438 314 C518 210, 598 418, 684 314" />
+  <g class="misc-visual__nodes">
+    <circle cx="438" cy="314" r="18" />
+    <circle cx="684" cy="314" r="18" />
+    <circle cx="884" cy="206" r="18" />
+  </g>
+
+  {% else %}
+  <g class="misc-visual__screen" transform="translate(160 142)">
+    <rect x="0" y="0" width="880" height="364" rx="38" />
+    <path d="M78 250 C204 126, 310 292, 432 164 S688 116, 804 242" />
+    <path d="M78 94 H354 M78 142 H270 M78 304 H722" />
+  </g>
+  <g class="misc-visual__nodes">
+    <circle cx="238" cy="294" r="20" />
+    <circle cx="516" cy="170" r="20" />
+    <circle cx="798" cy="242" r="20" />
+  </g>
+  {% endcase %}
+</svg>
