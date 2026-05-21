@@ -568,6 +568,8 @@
   year: "2017"
   source: "Dân trí"
   tone: "teal"
+  image: "/images/misc/031-us-trade-lessons.webp"
+  image_alt: "Scientific illustration of trade strategy linking Vietnam, the United States, South Korea, and the Philippines through policy routes"
   visual: "trade"
   summary: >-
     A Vietnamese analysis of how countries navigate economic relationships with the United States, comparing lessons from South Korea and the Philippines.
@@ -585,6 +587,8 @@
   year: "2016"
   source: "WIRED"
   tone: "blue"
+  image: "/images/misc/032-civic-tech-challenges.webp"
+  image_alt: "Scientific illustration of civic technology challenges connecting public institutions, industry, and social systems"
   visual: "policy"
   summary: >-
     WIRED presents President Obama's challenge list for the technology industry, asking builders to address major public problems rather than only optimize products.
@@ -602,6 +606,8 @@
   year: "2016"
   source: "WIRED"
   tone: "indigo"
+  image: "/images/misc/033-ai-governance-future.webp"
+  image_alt: "Scientific illustration of AI governance with neural networks, autonomous mobility, and policy oversight"
   visual: "ai-governance"
   summary: >-
     President Obama discusses AI, autonomous vehicles, labor, safety, and governance with MIT's Joi Ito and WIRED's Scott Dadich.
@@ -619,6 +625,8 @@
   year: "2016"
   source: "The Conversation"
   tone: "violet"
+  image: "/images/misc/034-research-talent-mobility.webp"
+  image_alt: "Scientific illustration of research talent moving between university campus and industrial laboratory networks"
   visual: "talent"
   summary: >-
     The Conversation argues that researchers in fast-moving technical fields should be free to move between academia and industry as opportunities evolve.
@@ -636,6 +644,8 @@
   year: "2016"
   source: "TechCrunch"
   tone: "cyan"
+  image: "/images/misc/035-neural-translation-interlingua.webp"
+  image_alt: "Scientific illustration of neural machine translation forming a shared latent representation between languages"
   visual: "translation"
   summary: >-
     TechCrunch explains a then-new Google translation result where multilingual neural models appeared to learn shared internal representations across languages.
@@ -653,6 +663,8 @@
   year: "Current"
   source: "CSRankings"
   tone: "green"
+  image: "/images/misc/036-cs-university-rankings.webp"
+  image_alt: "Scientific illustration of computer science university rankings with publication evidence and comparative research signals"
   visual: "universities"
   summary: >-
     CSRankings provides a faculty-publication-based view of computer science departments, configurable by research area and time range.
@@ -670,6 +682,8 @@
   year: "Current"
   source: "CORE"
   tone: "amber"
+  image: "/images/misc/037-cs-conference-rankings.webp"
+  image_alt: "Scientific illustration of computer science conference ranking, peer review networks, and venue quality signals"
   visual: "conferences"
   summary: >-
     A reference set for conference ranking and venue comparison, including the CORE portal and an older computer-science ranking link.
