@@ -1,0 +1,682 @@
+- number: "01"
+  title: >-
+    Nước Việt Nam là một!
+  category: "Vietnam & Society"
+  theme: "National memory"
+  year: "2019"
+  source: "Facebook"
+  tone: "teal"
+  image: "/images/misc/001-vietnam-unity.webp"
+  image_alt: "Illustrated map of Vietnam formed from connected points and historical documents"
+  summary: >-
+    A reflective post centered on Vietnamese unity, civic memory, and the emotional force of seeing the country as one continuous historical community.
+  takeaway: >-
+    Read it as a compact reminder that identity is not only geography; it is also shared responsibility.
+  links:
+    - label: "Post"
+      url: "https://www.facebook.com/nguyen.nam.54/posts/10216502640347136"
+
+- number: "02"
+  title: >-
+    This AI Pioneer Thinks AI Is Dumber Than a Cat
+  category: "AI & Intelligence"
+  theme: "World models"
+  year: "2024"
+  source: "The Wall Street Journal"
+  tone: "indigo"
+  image: "/images/misc/002-ai-cat-world-models.webp"
+  image_alt: "Cat silhouette studying a glowing neural world model and visual reasoning panels"
+  summary: >-
+    Yann LeCun argues that current AI still lacks the grounded world models, planning, and common-sense understanding that even animals use naturally.
+  takeaway: >-
+    The useful provocation is not that AI is weak, but that intelligence may require richer internal models than next-token prediction alone.
+  links:
+    - label: "WSJ"
+      url: "https://www.wsj.com/tech/ai/yann-lecun-ai-meta-aa59e2f5?st=ri92fU"
+
+- number: "03"
+  title: >-
+    No more Fridays
+  category: "Work & Productivity"
+  theme: "Four-day week"
+  year: "2023"
+  source: "Business Insider"
+  tone: "green"
+  image: "/images/misc/003-four-day-workweek.webp"
+  image_alt: "Clean workplace calendar transforming a Friday into open time with productivity charts"
+  summary: >-
+    A large real-world four-day-workweek trial reported stronger retention, better well-being, and stable or improved business performance.
+  takeaway: >-
+    Productivity is better framed as system design and focus quality than as the raw count of hours spent at work.
+  links:
+    - label: "Business Insider"
+      url: "https://www.businessinsider.com/4-day-workweek-successful-trial-evidence-productivity-retention-revenue-2023-1"
+
+- number: "04"
+  title: >-
+    A Conversation With Quoc Le: The AI Expert Behind Google AutoML
+  category: "AI & People"
+  theme: "AutoML"
+  year: "2018"
+  source: "Synced Review"
+  tone: "violet"
+  image: "/images/misc/004-quoc-le-automl.webp"
+  image_alt: "Researcher silhouette beside automated machine learning pipelines and neural architecture blocks"
+  summary: >-
+    An interview with Quoc Le about Google Brain, AutoML, and the long arc from deep learning research to systems that automate parts of model design.
+  takeaway: >-
+    It captures a moment when machine learning began turning its own tooling into a research object.
+  links:
+    - label: "Medium"
+      url: "https://medium.com/syncedreview/a-conversation-with-quoc-le-the-ai-expert-behind-google-automl-73a7d0c9fe38"
+
+- number: "05"
+  title: >-
+    An algorithm that learns through rewards may show how our brain does too
+  category: "Neuroscience & Learning"
+  theme: "Reward learning"
+  year: "2020"
+  source: "MIT Technology Review"
+  tone: "cyan"
+  image: "/images/misc/005-reinforcement-learning-dopamine.webp"
+  image_alt: "Dopamine-like neural pathways connected to reinforcement learning reward signals"
+  summary: >-
+    The piece connects reinforcement learning ideas with dopamine-neuron behavior, showing how reward prediction can illuminate both AI and biology.
+  takeaway: >-
+    Good AI concepts often become more interesting when they are used as hypotheses about natural intelligence.
+  links:
+    - label: "MIT Tech Review"
+      url: "https://www.technologyreview.com/s/615054/deepmind-ai-reinforcement-learning-reveals-dopamine-neurons-in-brain/"
+
+- number: "06"
+  title: >-
+    The Secrets of Jewish Genius
+  category: "Culture & Ideas"
+  theme: "Culture and creativity"
+  year: "2019"
+  source: "The New York Times / VnExpress"
+  tone: "amber"
+  image: "/images/misc/006-cultural-genius-scholarship.webp"
+  image_alt: "Library table with manuscripts, constellations, and scholarly light around cultural memory"
+  summary: >-
+    A culture-and-history essay asking how education, argument, migration, and community norms can shape unusually dense creative achievement.
+  takeaway: >-
+    The strongest reading is sociological: talent compounds inside cultures that reward learning, debate, and transmission.
+  links:
+    - label: "NYT"
+      url: "https://www.nytimes.com/2019/12/27/opinion/jewish-culture-genius-iq.html?auth=link-dismiss-google1tap"
+    - label: "VnExpress"
+      url: "https://vnexpress.net/the-gioi/bi-mat-cua-nhung-thien-tai-do-thai-4034280.html"
+
+- number: "07"
+  title: >-
+    American Lucifers: The Dark History of Artificial Light, 1750-1865
+  category: "Science & History"
+  theme: "Artificial light"
+  year: "2019"
+  source: "Nature"
+  tone: "orange"
+  image: "/images/misc/007-history-artificial-light.webp"
+  image_alt: "Historical city street illuminated by early artificial lights and scientific diagrams"
+  summary: >-
+    Nature reviews histories of lighting technology and the social consequences that followed when night became increasingly engineered.
+  takeaway: >-
+    Technologies that look purely practical often redraw social life, work rhythms, and public space.
+  links:
+    - label: "Nature"
+      url: "https://www.nature.com/articles/d41586-019-03049-7?utm_source=fbk_nnc&utm_medium=social&utm_campaign=naturenews&sf221449813=1&fbclid=IwAR3FneYzzSEdTrRjqKFglFEfEGRKVzhwxnRYRXHLLTzR8t_vKWe9lsAeqhU"
+
+- number: "08"
+  title: >-
+    China: How science made a superpower
+  category: "Science Policy"
+  theme: "Research systems"
+  year: "2019"
+  source: "Nature"
+  tone: "red"
+  image: "/images/misc/008-china-science-superpower.webp"
+  image_alt: "Scientific infrastructure rising over China with laboratories, satellites, and data networks"
+  summary: >-
+    A Nature essay tracing China's rise as a scientific power through institutions, national ambition, talent flows, and long-term investment.
+  takeaway: >-
+    Scientific strength is built as an ecosystem, not as a single laboratory success story.
+  links:
+    - label: "Nature"
+      url: "https://www.nature.com/articles/d41586-019-02937-2?utm_source=facebook&utm_medium=social&utm_content=organic&utm_campaign=NGMT_2_JNC_Nature&fbclid=IwAR1_A1GYQQSha8wi3DOozn6HHuaP0RD8K91hTq0UsWUmR_f_VionObbSxp0"
+
+- number: "09"
+  title: >-
+    Người Việt ở Nhật 'dậy sóng' với tâm thư của người Nhật gửi Việt Nam
+  category: "Vietnam & Society"
+  theme: "Civic culture"
+  year: "2014"
+  source: "Người Lao Động"
+  tone: "teal"
+  image: "/images/misc/009-vietnam-japan-cultural-letter.webp"
+  image_alt: "Letter between Japanese and Vietnamese communities with city lights and cultural symbols"
+  summary: >-
+    A viral letter, reported by Vietnamese media, sparked debate about public behavior, social norms, and how overseas perspectives can challenge a community.
+  takeaway: >-
+    The value is in the conversation it opens: criticism becomes useful only when it leads to self-correction rather than defensiveness.
+  links:
+    - label: "Original"
+      url: "http://jp.nuocuc.me/nguoi-viet-o-nhat-day-song-voi-tam-thu-cua-nguoi-nhat-gui-viet-nam-30047.html?fbclid=IwAR2L2eiAJR6ys5D8eSWaU7nnQWGg9A_2WmMOeSzn_nUNkMJ4tv-fC0aNgfo"
+    - label: "Người Lao Động"
+      url: "https://nld.com.vn/giao-duc-khoa-hoc/day-song-voi-thu-du-hoc-sinh-nhat-gui-viet-nam-20140325120705052.htm"
+    - label: "Mirror"
+      url: "http://ia.tinnuocnhat.com/nguoi-viet-o-nhat-day-song-voi-tam-thu-cua-nguoi-nhat-gui-viet-nam-d18350.html?fbclid=IwAR1mPBDK6ZUw3K-orzREQW1lSSLKnkENp3clD8NZU_usF8BsTRseVcR8FDs"
+
+- number: "10"
+  title: >-
+    Giáo sư Trương Nguyện Thành: Ly hương đối diện nước Mỹ và trở về quê hương
+  category: "Academic Life"
+  theme: "Diaspora and return"
+  year: "2019"
+  source: "Thanh Niên"
+  tone: "blue"
+  image: "/images/misc/010-academic-diaspora-homecoming.webp"
+  image_alt: "Scholar moving between overseas campus and Vietnam with a bridge of light"
+  summary: >-
+    A profile of Professor Trương Nguyện Thành reflecting on leaving Vietnam, building an academic life in the United States, and returning home.
+  takeaway: >-
+    It is a migration story about obligation: what knowledge owes to the place that first formed it.
+  links:
+    - label: "Thanh Niên"
+      url: "https://thanhnien.vn/doi-song/giao-su-quan-dui-truong-nguyen-thanh-ly-huong-doi-dien-nuoc-my-va-tro-ve-que-huong-1119502.html?fbclid=IwAR2IENyElEApW8UbupXvpBX3bo9HsvHf_I6vQHEj6hJ4YTo0rNwCIe-lP9s"
+
+- number: "11"
+  title: >-
+    Prof. Brian Greene's perspective on science, religion, Hawking, and Trump
+  category: "Science & Society"
+  theme: "Public discourse"
+  year: "2018"
+  source: "YouTube"
+  tone: "indigo"
+  image: "/images/misc/011-science-public-discourse.webp"
+  image_alt: "Cosmology lecture stage with galaxies, equations, and public conversation panels"
+  summary: >-
+    A public conversation with Brian Greene about science, belief, public reasoning, and the responsibility of scientists in a polarized culture.
+  takeaway: >-
+    The durable lesson is that science communication must connect rigor with patience and civic humility.
+  links:
+    - label: "YouTube"
+      url: "https://www.youtube.com/watch?v=S14zONUX3JY&feature=share&fbclid=IwAR1PkjavpwSkLCu7pb48ornh8GkOP-G-_zEs0GKP17cMhG5gXEBbEisq8Ek"
+
+- number: "12"
+  title: >-
+    Scientists must rise above politics - and restate their value to society
+  category: "Science & Society"
+  theme: "Trust"
+  year: "2019"
+  source: "Nature"
+  tone: "cyan"
+  image: "/images/misc/012-science-public-trust.webp"
+  image_alt: "Scientists standing above a public forum with evidence lines and civic symbols"
+  summary: >-
+    Nature argues that researchers should resist partisan reduction and clearly restate why scholarship matters to society.
+  takeaway: >-
+    Public trust is sustained by visible usefulness, intellectual honesty, and the courage to explain evidence under pressure.
+  links:
+    - label: "Nature"
+      url: "https://www.nature.com/articles/d41586-019-02379-w?utm_source=facebook&utm_medium=social&utm_content=organic&utm_campaign=NGMT_2_JNC_Nature"
+
+- number: "13"
+  title: >-
+    Làm ăn kiểu Cụ Hồ
+  category: "Ethics & Leadership"
+  theme: "Business ethos"
+  year: "2019"
+  source: "Facebook Note"
+  tone: "green"
+  image: "/images/misc/013-ethical-entrepreneurship.webp"
+  image_alt: "Ethical business workshop with Vietnamese historical notes and balanced scales"
+  summary: >-
+    A short Vietnamese reflection on doing business with discipline, public-mindedness, and a moral vocabulary rooted in national history.
+  takeaway: >-
+    The interesting tension is between entrepreneurship as private initiative and entrepreneurship as civic character.
+  links:
+    - label: "Note"
+      url: "https://www.facebook.com/notes/nguy%E1%BB%85n-th%C3%A0nh-nam/l%C3%A0m-%C4%83n-ki%E1%BB%83u-c%E1%BB%A5-h%E1%BB%93/10157194038361877/"
+
+- number: "14"
+  title: >-
+    Vietnam is the most globalized populous country in modern history
+  category: "Vietnam & Economy"
+  theme: "Globalization"
+  year: "2018"
+  source: "World Economic Forum / Quartz"
+  tone: "teal"
+  image: "/images/misc/014-vietnam-globalization.webp"
+  image_alt: "Vietnam trade network connecting ports, factories, cities, and export routes"
+  summary: >-
+    The article highlights Vietnam's trade-to-GDP scale, export orientation, manufacturing integration, and the risks of relying deeply on global demand.
+  takeaway: >-
+    Vietnam's openness is a growth engine, but it also makes resilience and upgrading strategy non-negotiable.
+  links:
+    - label: "WEF"
+      url: "https://www.weforum.org/stories/2018/10/vietnam-is-the-most-globalized-populous-country-in-modern-history/"
+
+- number: "15"
+  title: >-
+    Human evolution is still happening - possibly faster than ever
+  category: "Human Evolution"
+  theme: "Modern evolution"
+  year: "2018"
+  source: "World Economic Forum / The Conversation"
+  tone: "violet"
+  image: "/images/misc/015-human-evolution-continues.webp"
+  image_alt: "Human DNA helix and silhouettes evolving through a modern city and laboratory"
+  summary: >-
+    Laurence D. Hurst explains why human evolution has not stopped and may be shaped by mutation, culture, medicine, and demographic change.
+  takeaway: >-
+    Evolution is not a finished prehistoric event; it is a slow background process still interacting with modern life.
+  links:
+    - label: "WEF"
+      url: "https://www.weforum.org/agenda/2018/11/human-evolution-is-still-happening-possibly-faster-than-ever?fbclid=IwAR23Lwfbj4mCme_LKNGwDS9YcWCiCW4vU1WDgpf7W6yy7e50GsNBAkHbM38"
+    - label: "The Conversation"
+      url: "https://theconversation.com/human-evolution-is-still-happening-possibly-faster-than-ever-105683"
+
+- number: "16"
+  title: >-
+    Untold History of AI: Why Alan Turing Wanted AI Agents to Make Mistakes
+  category: "AI History"
+  theme: "Fallible AI"
+  year: "2018"
+  source: "IEEE Spectrum"
+  tone: "indigo"
+  image: "/images/misc/016-turing-fallible-ai.webp"
+  image_alt: "Alan Turing inspired machine with playful error paths and reasoning circuits"
+  summary: >-
+    IEEE Spectrum revisits Turing's interest in machines that can learn, adapt, and make mistakes rather than simply execute perfect fixed rules.
+  takeaway: >-
+    Fallibility can be a sign of learning capacity, not only a defect to be eliminated.
+  links:
+    - label: "IEEE Spectrum"
+      url: "https://spectrum.ieee.org/tech-talk/tech-history/dawn-of-electronics/untold-history-of-ai-why-alan-turing-wanted-ai-to-make-mistakes"
+
+- number: "17"
+  title: >-
+    Yaron Brook's talk with students of Exeter University, UK: Epic Answer on Chinese "Sweatshops"
+  category: "Economics & Development"
+  theme: "Labor markets"
+  year: "2018"
+  source: "Facebook / YouTube"
+  tone: "orange"
+  image: "/images/misc/017-labor-markets-industrialization.webp"
+  image_alt: "Industrialization timeline with factories, students, and labor-market tradeoff diagrams"
+  summary: >-
+    A classroom-style argument about sweatshops, industrialization, worker choice, and the difficult trade-offs inside early-stage development.
+  takeaway: >-
+    The sharp question is whether moral judgment should start from ideal standards or from the alternatives actually available to workers.
+  links:
+    - label: "Facebook"
+      url: "https://www.facebook.com/nghiencuukinhte.org/videos/1136944339787769/"
+    - label: "YouTube"
+      url: "https://www.youtube.com/watch?v=F0mne8bAdiY"
+
+- number: "18"
+  title: >-
+    The story of Vietnam's economic miracle
+  category: "Vietnam & Economy"
+  theme: "Development"
+  year: "2018"
+  source: "World Economic Forum"
+  tone: "teal"
+  image: "/images/misc/018-vietnam-economic-miracle.webp"
+  image_alt: "Vietnam economic development scene with ports, classrooms, factories, and rising charts"
+  summary: >-
+    The article explains Vietnam's post-reform growth through exports, investment, poverty reduction, education, and participation in global supply chains.
+  takeaway: >-
+    The miracle is best read as compounding policy choices, not as luck.
+  links:
+    - label: "WEF"
+      url: "https://www.weforum.org/stories/2018/09/how-vietnam-became-an-economic-miracle/"
+
+- number: "19"
+  title: >-
+    Einstein and Tagore explore truth and science
+  category: "Philosophy & Science"
+  theme: "Truth"
+  year: "2015"
+  source: "The Things Inside / YouTube"
+  tone: "amber"
+  image: "/images/misc/019-einstein-tagore-truth-science.webp"
+  image_alt: "Einstein and Tagore inspired conversation under a cosmic library ceiling"
+  summary: >-
+    A reconstruction of the famous Einstein-Tagore conversations on reality, consciousness, beauty, and whether truth is independent of human experience.
+  takeaway: >-
+    It is a rare dialogue where physics and poetry argue without trying to erase each other.
+  links:
+    - label: "Essay"
+      url: "https://thesethingsinside.wordpress.com/2015/11/19/einstein-and-tagore-explore-truth-and-science/"
+    - label: "Video"
+      url: "https://www.youtube.com/watch?time_continue=22&v=7mgWvullKDE"
+
+- number: "20"
+  title: >-
+    Not enough people are paying attention to this economic trend
+  category: "Intangible Economy"
+  theme: "Capital without capital"
+  year: "2018"
+  source: "Gates Notes"
+  tone: "green"
+  image: "/images/misc/020-intangible-capital.webp"
+  image_alt: "Invisible economic assets represented by software, knowledge, networks, and glowing ledgers"
+  summary: >-
+    Bill Gates reviews Capitalism Without Capital, emphasizing how software, knowledge, brands, networks, and other intangible assets reshape growth.
+  takeaway: >-
+    When value becomes less physical, measurement, investment, and policy all become harder.
+  links:
+    - label: "Gates Notes"
+      url: "https://www.gatesnotes.com/books/economics/reader/capitalism_without_capital"
+
+- number: "21"
+  title: >-
+    The Cost of a Cup of Coffee in Caracas Just Hit 2,000,000 Bolivars
+  category: "Economic Crisis"
+  theme: "Hyperinflation"
+  year: "2018"
+  source: "Bloomberg"
+  tone: "red"
+  image: "/images/misc/021-venezuela-hyperinflation-coffee.webp"
+  image_alt: "Coffee cup beside exploding currency numbers and Venezuela inflation charts"
+  summary: >-
+    Bloomberg's Cafe Con Leche Index turned hyperinflation into a concrete image: the price of an ordinary coffee jumping into the millions of bolivars.
+  takeaway: >-
+    Macroeconomic collapse becomes legible when it is measured through the daily things people must still buy.
+  links:
+    - label: "Bloomberg"
+      url: "https://www.bloomberg.com/news/articles/2018-07-26/imf-s-1-000-000-inflation-forecast-is-looking-low-for-venezuela?utm_medium=social&utm_source=facebook&cmpid=socialflow-facebook-asia&utm_content=asia&utm_campaign=socialflow-organic"
+
+- number: "22"
+  title: >-
+    Facebook keens on AI-Robotics
+  category: "AI & Robotics"
+  theme: "Embodied AI"
+  year: "2018"
+  source: "VentureBeat / Bloomberg"
+  tone: "indigo"
+  image: "/images/misc/022-ai-robotics-research.webp"
+  image_alt: "Robotics laboratory with manipulator arms, AI perception grids, and research dashboards"
+  summary: >-
+    Coverage of Facebook's robotics push frames robots as a way to study AI systems that learn from physical interaction, not only web-scale data.
+  takeaway: >-
+    Robotics makes intelligence tangible: perception, action, uncertainty, and feedback all arrive at once.
+  links:
+    - label: "VentureBeat"
+      url: "https://venturebeat.com/2018/07/17/why-facebook-is-expanding-its-robotics-research-efforts/"
+    - label: "Bloomberg"
+      url: "https://www.bloomberg.com/news/articles/2018-07-17/facebook-is-relying-on-robotics-to-lure-ai-researchers"
+
+- number: "23"
+  title: >-
+    How the father of computer science decoded Nature's mysterious patterns
+  category: "Computing History"
+  theme: "Turing patterns"
+  year: "2018"
+  source: "The New York Times"
+  tone: "cyan"
+  image: "/images/misc/023-turing-natural-patterns.webp"
+  image_alt: "Turing pattern mathematics flowing into shells, spots, waves, and computing diagrams"
+  summary: >-
+    The article revisits Alan Turing's morphogenesis work: mathematical rules that help explain how natural patterns can emerge from simple interactions.
+  takeaway: >-
+    Turing's legacy is not only computation; it is also the idea that form itself can be modeled.
+  links:
+    - label: "NYT"
+      url: "https://www.nytimes.com/2018/05/08/science/alan-turing-desalination.html?rref=collection%2Fsectioncollection%2Ftechnology&action=click&contentCollection=technology&region=stream&module=stream_unit&version=latest&contentPlacement=7&pgtype=sectionfront"
+
+- number: "24"
+  title: >-
+    Why the productivity gap?
+  category: "Productivity"
+  theme: "National productivity"
+  year: "2015"
+  source: "BBC"
+  tone: "green"
+  image: "/images/misc/024-productivity-gap.webp"
+  image_alt: "Productivity comparison dashboard with workers, clocks, and national output charts"
+  summary: >-
+    The BBC asks why workers in some economies produce much more per hour, linking productivity to capital, management, skills, and organization.
+  takeaway: >-
+    The gap is rarely about laziness; it is usually about systems that either amplify or waste human effort.
+  links:
+    - label: "BBC"
+      url: "http://www.bbc.com/news/business-32827317"
+
+- number: "25"
+  title: >-
+    Why the Germans are obsessed with saving money
+  category: "Economics & Culture"
+  theme: "Savings culture"
+  year: "2018"
+  source: "Quartz"
+  tone: "amber"
+  image: "/images/misc/025-german-saving-culture.webp"
+  image_alt: "German city street with savings symbols, household ledgers, and economic culture diagrams"
+  summary: >-
+    Quartz examines Germany's savings culture as a blend of history, policy, household behavior, and attitudes toward debt and prudence.
+  takeaway: >-
+    Economic behavior is never purely numerical; it carries memory, institutions, and moral habits.
+  links:
+    - label: "Quartz"
+      url: "https://qz.com/1241591/why-the-germans-are-obsessed-with-saving-money/amp/"
+
+- number: "26"
+  title: >-
+    Venezuela was once South America's richest country. Here's what went wrong
+  category: "Economic Crisis"
+  theme: "Institutional fragility"
+  year: "2017"
+  source: "World Economic Forum"
+  tone: "red"
+  image: "/images/misc/026-venezuela-economic-fragility.webp"
+  image_alt: "Venezuela economic timeline with oil, currency collapse, and social stress indicators"
+  summary: >-
+    The piece traces Venezuela's crisis through oil dependence, policy controls, inflation, production decline, shortages, and institutional stress.
+  takeaway: >-
+    Resource wealth can mask fragility until governance, incentives, and monetary discipline break at the same time.
+  links:
+    - label: "WEF"
+      url: "https://www.weforum.org/stories/2017/08/venezuela-economic-woes-2017-explained/"
+
+- number: "27"
+  title: >-
+    Transitioning entirely to neural machine translation
+  category: "AI Translation"
+  theme: "Production AI"
+  year: "2017"
+  source: "Meta Engineering"
+  tone: "violet"
+  image: "/images/misc/027-neural-machine-translation.webp"
+  image_alt: "Multilingual neural translation system with sequence models, attention, and global message streams"
+  summary: >-
+    Meta Engineering describes Facebook's move from phrase-based translation to neural machine translation across thousands of language directions.
+  takeaway: >-
+    The story is about research becoming infrastructure: better models mattered only after they could run reliably at global scale.
+  links:
+    - label: "Meta Engineering"
+      url: "https://engineering.fb.com/2017/08/03/ml-applications/transitioning-entirely-to-neural-machine-translation/"
+
+- number: "28"
+  title: >-
+    Harvard Commencement 2017
+  category: "Commencement"
+  theme: "Purpose"
+  year: "2017"
+  source: "Facebook / Harvard"
+  tone: "blue"
+  image: "/images/misc/028-commencement-tech-responsibility.webp"
+  image_alt: "Commencement stage with technology responsibility themes and connected graduates"
+  summary: >-
+    Mark Zuckerberg's Harvard commencement address focused on purpose, community, global connection, and the responsibilities of a generation shaped by technology.
+  takeaway: >-
+    The speech matters less as celebrity advice and more as an early platform-era argument about social obligation.
+  links:
+    - label: "Facebook note"
+      url: "https://www.facebook.com/notes/mark-zuckerberg/harvard-commencement-2017/10154853758606634/"
+    - label: "Transcript"
+      url: "https://epublications.marquette.edu/zuckerberg_files_transcripts/267/"
+
+- number: "29"
+  title: >-
+    Dear Class of 2017
+  category: "Future Skills"
+  theme: "Career advice"
+  year: "2017"
+  source: "Gates Notes"
+  tone: "green"
+  image: "/images/misc/029-future-skills-social-impact.webp"
+  image_alt: "Graduates looking toward AI, clean energy, bioscience, and global impact pathways"
+  summary: >-
+    Bill Gates encourages graduates to look toward artificial intelligence, clean energy, biosciences, and work that reduces inequity.
+  takeaway: >-
+    The practical message is to choose fields where competence and social leverage can compound together.
+  links:
+    - label: "Gates Notes"
+      url: "https://www.gatesnotes.com/dear-class-of-2017"
+
+- number: "30"
+  title: >-
+    Why Germans Work Fewer Hours But Produce More: A Study In Culture
+  category: "Work & Productivity"
+  theme: "Work culture"
+  year: "2014"
+  source: "Knote / HuffPost / Quora"
+  tone: "amber"
+  image: "/images/misc/030-germany-fewer-hours-productivity.webp"
+  image_alt: "German workplace with focused teams, protected time, and productivity gauges"
+  summary: >-
+    A set of readings around Germany's productivity culture, shorter work hours, training systems, focus norms, and institutional efficiency.
+  takeaway: >-
+    The core lesson is that disciplined boundaries can be a productivity asset, not a luxury.
+  links:
+    - label: "Knote"
+      url: "http://science.knote.com/2014/11/10/why-germans-work-fewer-hours-but-produce-more-a-study-in-culture/"
+    - label: "HuffPost"
+      url: "http://www.huffingtonpost.com/amol-sarva/why-germans-work-fewer-ho_b_6172262.html"
+    - label: "Quora"
+      url: "https://www.quora.com/Why-is-Germany-so-successful-in-spite-of-least-working-hours"
+    - label: "Quora"
+      url: "https://www.quora.com/Why-is-Germany-so-successful-in-spite-of-least-working-hours"
+
+- number: "31"
+  title: >-
+    Làm ăn với Mỹ: nhìn từ bài học của Hàn Quốc và Philippines
+  category: "Trade & Development"
+  theme: "US trade lessons"
+  year: "2017"
+  source: "Dân trí"
+  tone: "teal"
+  visual: "trade"
+  summary: >-
+    A Vietnamese analysis of how countries navigate economic relationships with the United States, comparing lessons from South Korea and the Philippines.
+  takeaway: >-
+    External opportunity becomes national advantage only when domestic strategy is clear.
+  links:
+    - label: "Dân trí"
+      url: "https://dantri.com.vn/kinh-doanh/lam-an-voi-my-nhin-tu-bai-hoc-cua-han-quoc-philippines-20170131152249443.htm"
+
+- number: "32"
+  title: >-
+    Hey Silicon Valley: President Obama Has a To-Do List for You
+  category: "Technology Policy"
+  theme: "Civic tech"
+  year: "2016"
+  source: "WIRED"
+  tone: "blue"
+  visual: "policy"
+  summary: >-
+    WIRED presents President Obama's challenge list for the technology industry, asking builders to address major public problems rather than only optimize products.
+  takeaway: >-
+    The enduring question is whether technical power can be steered toward civic capacity.
+  links:
+    - label: "WIRED"
+      url: "https://www.wired.com/2016/10/obama-six-tech-challenges/"
+
+- number: "33"
+  title: >-
+    Barack Obama, Neural Nets, Self-driving Cars, and the Future of the World
+  category: "AI & Governance"
+  theme: "Public AI"
+  year: "2016"
+  source: "WIRED"
+  tone: "indigo"
+  visual: "ai-governance"
+  summary: >-
+    President Obama discusses AI, autonomous vehicles, labor, safety, and governance with MIT's Joi Ito and WIRED's Scott Dadich.
+  takeaway: >-
+    It is an early mainstream conversation about AI as public infrastructure, not merely a private product category.
+  links:
+    - label: "WIRED"
+      url: "https://www.wired.com/2016/10/president-obama-mit-joi-ito-interview/"
+
+- number: "34"
+  title: >-
+    It's not 'corporate poaching' - it's a free market for brilliant people
+  category: "Research Careers"
+  theme: "Talent mobility"
+  year: "2016"
+  source: "The Conversation"
+  tone: "violet"
+  visual: "talent"
+  summary: >-
+    The Conversation argues that researchers in fast-moving technical fields should be free to move between academia and industry as opportunities evolve.
+  takeaway: >-
+    Talent mobility is not only a hiring issue; it is part of how knowledge circulates.
+  links:
+    - label: "The Conversation"
+      url: "https://theconversation.com/its-not-corporate-poaching-its-a-free-market-for-brilliant-people-61846?utm_medium=email&utm_campaign=Research+revolving+door+between+industry+and+academia&utm_content=Research+revolving+door+between+industry+and+academia+CID_8516fd87743a98a74cf75857f60d4cb3&utm_source=campaign_monitor_us&utm_term=Its+not+corporate+poaching++its+a+free+market+for+brilliant+people"
+
+- number: "35"
+  title: >-
+    Google's AI translation tool seems to have invented its own secret internal language
+  category: "AI Translation"
+  theme: "Latent language"
+  year: "2016"
+  source: "TechCrunch"
+  tone: "cyan"
+  visual: "translation"
+  summary: >-
+    TechCrunch explains a then-new Google translation result where multilingual neural models appeared to learn shared internal representations across languages.
+  takeaway: >-
+    The fascinating part is representation: models can discover abstractions that were never manually named.
+  links:
+    - label: "TechCrunch"
+      url: "https://techcrunch.com/2016/11/22/googles-ai-translation-tool-seems-to-have-invented-its-own-secret-internal-language/?ncid=rss&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29&utm_content=FaceBook&sr_share=facebook"
+
+- number: "36"
+  title: >-
+    Computer Science University Ranking
+  category: "CS Rankings"
+  theme: "Research output"
+  year: "Current"
+  source: "CSRankings"
+  tone: "green"
+  visual: "universities"
+  summary: >-
+    CSRankings provides a faculty-publication-based view of computer science departments, configurable by research area and time range.
+  takeaway: >-
+    Rankings are most useful when treated as lenses for evidence, not as final judgments of quality.
+  links:
+    - label: "CSRankings"
+      url: "http://csrankings.org/#/index?all"
+
+- number: "37"
+  title: >-
+    Computer Science Conference Ranking
+  category: "CS Rankings"
+  theme: "Venue quality"
+  year: "Current"
+  source: "CORE"
+  tone: "amber"
+  visual: "conferences"
+  summary: >-
+    A reference set for conference ranking and venue comparison, including the CORE portal and an older computer-science ranking link.
+  takeaway: >-
+    Venue lists are helpful for orientation, but they should be balanced with community fit, review quality, and research goals.
+  links:
+    - label: "Legacy list"
+      url: "http://lipn.univ-paris13.fr/~bennani/CSRank.html"
+    - label: "CORE"
+      url: "http://www.core.edu.au/"
