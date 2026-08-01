@@ -19,6 +19,9 @@ OUTPUT_MISSING_PATH = ROOT / "_includes" / "publication_news_missing.html"
 # missing archive intentionally excludes these to keep the News page complete
 # without repeating the same publication twice.
 NEWS_DEDICATED_TAGS = {
+    "C52",
+    "C53",
+    "P08",
     "J53",
     "J52",
     "J49",
@@ -418,7 +421,12 @@ def type_label(tag: str, venue: str, link: str) -> str:
     if tag.startswith("P"):
         if "withdrawn" in venue_lower:
             return "Submission record"
-        if "arxiv" in venue_lower or "research square" in venue_lower or "techrxiv" in link_lower:
+        if (
+            "arxiv" in venue_lower
+            or "research square" in venue_lower
+            or "ssrn" in venue_lower
+            or "techrxiv" in link_lower
+        ):
             return "Preprint"
         return "Publication record"
     return "Publication record"
