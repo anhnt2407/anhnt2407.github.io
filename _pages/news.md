@@ -6,6 +6,84 @@ permalink: /news/
 author_profile: true
 ---
 
+<p class="news-date">July 27, 2026</p>
+
+## An AirSim Extension: ROS2-Integrated Multi-agent UAV Reinforcement Learning on Unreal Engine
+
+Our APISAT 2025 contribution is now online in the Springer proceedings. The paper addresses a practical bottleneck in multi-agent reinforcement learning (MARL) for UAV swarms: real-world experimentation is constrained by high costs, collision risks, and operational limitations, while lightweight simulators cannot reproduce the visual and physical conditions a deployed policy will actually meet.
+
+<figure>
+  <img src="/images/news/260727/airsim-ros2-marl-cover.webp" alt="Schematic of a multi-agent UAV reinforcement learning framework combining AirSim and Unreal Engine rendering with a ROS2 communication graph and a QMIX value-mixing network" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: photorealistic simulation and ROS2 messaging supporting coordinated multi-agent UAV policy learning.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Proposes a **high-fidelity UAV simulation framework built on AirSim, Unreal Engine, and ROS2**, using Unreal Engine's photorealistic rendering and precise physics to create realistic conditions unattainable in lightweight simulators.
+- Uses **ROS2 as a scalable and reliable communication architecture**, which enhances modularity and enables efficient coordination of large-scale multi-agent operations.
+- Integrates the **QMIX** algorithm and reports proof-of-concept experiments in a UAV swarm scenario, validating that the framework successfully interfaces with MARL algorithms.
+
+### Why this matters
+
+- The system is designed for **extensibility**, so users can customize scenarios for a range of cooperative drone tasks rather than a single benchmark.
+- By virtualizing real-world constraints, the framework provides a **realistic, reproducible platform for pre-deployment validation** of control algorithms.
+- Keywords the authors highlight: multi-agent reinforcement learning, multi-UAV coordination, ROS2, Unreal Engine.
+
+**Publication record:** Published on July 27, 2026 in *Proceedings of The 2025 Asia-Pacific International Symposium on Aerospace Technology (APISAT 2025) Vol 6*, Lecture Notes in Mechanical Engineering, pages 271-281 ([DOI](https://doi.org/10.1007/978-981-92-1319-1_20), [Springer chapter](https://link.springer.com/chapter/10.1007/978-981-92-1319-1_20)).
+
+---
+<p class="news-date">July 27, 2026</p>
+
+## Sequential Task Reward Design for Quadcopter Pick-and-Place at Massive Simulation Scale
+
+A second APISAT 2025 chapter is now online. It targets long-horizon aerial manipulation: object manipulation using quadcopters holds great potential in industries including logistics and delivery, but complex flight dynamics and long action sequences make policy learning by reinforcement learning difficult. The classic "pick-and-place" task requires sequentially completing several substeps: stable flight, precise approach, object grasping, and movement to the target location.
+
+<figure>
+  <img src="/images/news/260727/sequential-reward-quadcopter-cover.webp" alt="Schematic of quadcopter pick-and-place learning showing a field of parallel simulation environments, a transport trajectory from source to target pad, and a four-stage gated reward sequence" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: sequentially gated multi-component rewards trained across many parallel simulation environments.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- Designs a **sophisticated multi-component reward function** that reflects the sequential structure of the task, encouraging the agent to learn the skills required at each step in order.
+- Maximizes data-collection efficiency through **large-scale parallel learning, running 128 environments simultaneously** in the **NVIDIA Isaac Lab** simulator.
+- Introduces a **conditional gating** technique that activates the reward for the next stage based on the success or failure of the previous stage, stabilizing learning and reinforcing the correct action sequence.
+
+### Why this matters
+
+- Experimental results show that the **synergy between the reward design and the parallel learning environment** is what enables the agent to learn the complex pick-and-place task successfully.
+- The authors validate the reward function by analyzing **how the contribution of individual reward components shifts across task stages** during training, which is direct evidence that the gating mechanism is doing the work it was designed to do.
+- Keywords the authors highlight: quadcopter manipulation, deep reinforcement learning, reward shaping, massively parallel simulation, Isaac Lab.
+
+**Publication record:** Published on July 27, 2026 in *Proceedings of The 2025 Asia-Pacific International Symposium on Aerospace Technology (APISAT 2025) Vol 6*, Lecture Notes in Mechanical Engineering, pages 283-293 ([DOI](https://doi.org/10.1007/978-981-92-1319-1_21), [Springer chapter](https://link.springer.com/chapter/10.1007/978-981-92-1319-1_21)).
+
+---
+<p class="news-date">July 13, 2026</p>
+
+## Constraint-Driven Dynamic Layout Optimization for Smart Factory Floors
+
+A new preprint takes on a first-order economic constraint in modern manufacturing: floor space. Smart factories demand dense equipment placement on floors fragmented by structural pillars, maintenance clearances, and logistics corridors, yet classical facility layout and two-dimensional packing formulations assume obstacle-free planes and rigid footprints, producing plans that lose feasibility during physical installation.
+
+<figure>
+  <img src="/images/news/260713/constraint-driven-layout-cover.webp" alt="Top-down schematic of a factory floor densely packed with modules that avoid pillar exclusion zones and protected logistics corridors, alongside a simulated annealing cooling schedule" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: core and margin zones packed around pillar exclusion zones and protected corridors under a simulated annealing schedule.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- A **two-tier spatial representation** that splits every module into a protected **Core** zone and a flexible **Margin** zone, permitting controlled overlap and encoding clearance sharing.
+- A **Single-Pass Hybrid Interlocking Algorithm (SPHIA)** that constructs dense pillar-avoiding placements in one pass, plus a **Constraint-Driven Dynamic Layer Rebatching Algorithm (CDL-RA)** that removes overflow, fills gaps, and rebalances layers.
+- A **simulated annealing controller** with calibrated initial temperature, an adaptive cooling schedule, and ten perturbation operators steering the two-stage decoder, and a **mixed integer linear programming** model unifying core separation, pillar exclusion, and corridor protection in one disjunctive constraint family.
+
+### Why this matters
+
+- Across **ten smart factory scenarios of 40 to 200 heterogeneous modules**, SA-SPHIA attains the smallest footprint in every scenario.
+- It reduces the mean footprint by **7.2% against standalone simulated annealing, 22.6% against a genetic algorithm, and 23.6% against particle swarm optimization**.
+- Exact **Wilcoxon signed-rank tests** confirm every advantage below 0.001 significance **under strict geometric feasibility**, so the gains are not bought by relaxing installability.
+
+**Publication record:** Posted on July 13, 2026 as an *SSRN* preprint, 7113513 ([DOI](https://doi.org/10.2139/ssrn.7113513)).
+
+---
 <p class="news-date">May 15, 2026</p>
 
 ## Distributed Edge Storage Systems in *Mathematics*
