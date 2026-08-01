@@ -1,0 +1,50 @@
+# Topic groupings for the Notes & Links (Misc) page.
+# Each entry in _data/misc_posts.yml carries a `topic` slug that maps here.
+# `accent` drives the section heading and filter-chip colour.
+
+- slug: "ai"
+  label: "AI & Computing"
+  short: "AI"
+  accent: "indigo"
+  blurb: >-
+    How machine intelligence actually works, where it falls short of animal
+    cognition, and the long arc from Turing to neural machine translation.
+
+- slug: "science"
+  label: "Science & Mind"
+  short: "Science"
+  accent: "teal"
+  blurb: >-
+    Reward learning in the brain, the politics of scientific authority, the
+    history of artificial light, and what still shapes human evolution.
+
+- slug: "economy"
+  label: "Economy & Development"
+  short: "Economy"
+  accent: "amber"
+  blurb: >-
+    Vietnam's opening to the world, the rise of intangible capital, and what
+    currency collapse looks like from inside a Caracas coffee shop.
+
+- slug: "work"
+  label: "Work, Learning & Careers"
+  short: "Work"
+  accent: "green"
+  blurb: >-
+    Productivity gaps between countries, the four-day week, commencement
+    advice worth rereading, and how research talent actually moves.
+
+- slug: "vietnam"
+  label: "Vietnam & Society"
+  short: "Vietnam"
+  accent: "red"
+  blurb: >-
+    National memory, civic responsibility, and the cultural habits that
+    quietly decide how institutions behave.
+
+- slug: "reference"
+  label: "Reference & Rankings"
+  short: "Reference"
+  accent: "cyan"
+  blurb: >-
+    Standing references kept for quick lookup rather than one-time reading.

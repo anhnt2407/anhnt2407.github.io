@@ -2,6 +2,7 @@
   title: >-
     Nước Việt Nam là một!
   category: "Vietnam & Society"
+  topic: "vietnam"
   theme: "National memory"
   year: "2019"
   source: "Facebook"
@@ -20,6 +21,7 @@
   title: >-
     This AI Pioneer Thinks AI Is Dumber Than a Cat
   category: "AI & Intelligence"
+  topic: "ai"
   theme: "World models"
   year: "2024"
   source: "The Wall Street Journal"
@@ -38,6 +40,7 @@
   title: >-
     No more Fridays
   category: "Work & Productivity"
+  topic: "work"
   theme: "Four-day week"
   year: "2023"
   source: "Business Insider"
@@ -56,6 +59,7 @@
   title: >-
     A Conversation With Quoc Le: The AI Expert Behind Google AutoML
   category: "AI & People"
+  topic: "ai"
   theme: "AutoML"
   year: "2018"
   source: "Synced Review"
@@ -74,6 +78,7 @@
   title: >-
     An algorithm that learns through rewards may show how our brain does too
   category: "Neuroscience & Learning"
+  topic: "science"
   theme: "Reward learning"
   year: "2020"
   source: "MIT Technology Review"
@@ -92,6 +97,7 @@
   title: >-
     The Secrets of Jewish Genius
   category: "Culture & Ideas"
+  topic: "science"
   theme: "Culture and creativity"
   year: "2019"
   source: "The New York Times / VnExpress"
@@ -112,6 +118,7 @@
   title: >-
     American Lucifers: The Dark History of Artificial Light, 1750-1865
   category: "Science & History"
+  topic: "science"
   theme: "Artificial light"
   year: "2019"
   source: "Nature"
@@ -130,6 +137,7 @@
   title: >-
     China: How science made a superpower
   category: "Science Policy"
+  topic: "science"
   theme: "Research systems"
   year: "2019"
   source: "Nature"
@@ -148,6 +156,7 @@
   title: >-
     Người Việt ở Nhật 'dậy sóng' với tâm thư của người Nhật gửi Việt Nam
   category: "Vietnam & Society"
+  topic: "vietnam"
   theme: "Civic culture"
   year: "2014"
   source: "Người Lao Động"
@@ -170,6 +179,7 @@
   title: >-
     Giáo sư Trương Nguyện Thành: Ly hương đối diện nước Mỹ và trở về quê hương
   category: "Academic Life"
+  topic: "work"
   theme: "Diaspora and return"
   year: "2019"
   source: "Thanh Niên"
@@ -188,6 +198,7 @@
   title: >-
     Prof. Brian Greene's perspective on science, religion, Hawking, and Trump
   category: "Science & Society"
+  topic: "science"
   theme: "Public discourse"
   year: "2018"
   source: "YouTube"
@@ -206,6 +217,7 @@
   title: >-
     Scientists must rise above politics - and restate their value to society
   category: "Science & Society"
+  topic: "science"
   theme: "Trust"
   year: "2019"
   source: "Nature"
@@ -224,6 +236,7 @@
   title: >-
     Làm ăn kiểu Cụ Hồ
   category: "Ethics & Leadership"
+  topic: "vietnam"
   theme: "Business ethos"
   year: "2019"
   source: "Facebook Note"
@@ -242,6 +255,7 @@
   title: >-
     Vietnam is the most globalized populous country in modern history
   category: "Vietnam & Economy"
+  topic: "economy"
   theme: "Globalization"
   year: "2018"
   source: "World Economic Forum / Quartz"
@@ -260,6 +274,7 @@
   title: >-
     Human evolution is still happening - possibly faster than ever
   category: "Human Evolution"
+  topic: "science"
   theme: "Modern evolution"
   year: "2018"
   source: "World Economic Forum / The Conversation"
@@ -280,6 +295,7 @@
   title: >-
     Untold History of AI: Why Alan Turing Wanted AI Agents to Make Mistakes
   category: "AI History"
+  topic: "ai"
   theme: "Fallible AI"
   year: "2018"
   source: "IEEE Spectrum"
@@ -298,6 +314,7 @@
   title: >-
     Yaron Brook's talk with students of Exeter University, UK: Epic Answer on Chinese "Sweatshops"
   category: "Economics & Development"
+  topic: "economy"
   theme: "Labor markets"
   year: "2018"
   source: "Facebook / YouTube"
@@ -318,6 +335,7 @@
   title: >-
     The story of Vietnam's economic miracle
   category: "Vietnam & Economy"
+  topic: "economy"
   theme: "Development"
   year: "2018"
   source: "World Economic Forum"
@@ -336,6 +354,7 @@
   title: >-
     Einstein and Tagore explore truth and science
   category: "Philosophy & Science"
+  topic: "science"
   theme: "Truth"
   year: "2015"
   source: "The Things Inside / YouTube"
@@ -356,6 +375,7 @@
   title: >-
     Not enough people are paying attention to this economic trend
   category: "Intangible Economy"
+  topic: "economy"
   theme: "Capital without capital"
   year: "2018"
   source: "Gates Notes"
@@ -374,6 +394,7 @@
   title: >-
     The Cost of a Cup of Coffee in Caracas Just Hit 2,000,000 Bolivars
   category: "Economic Crisis"
+  topic: "economy"
   theme: "Hyperinflation"
   year: "2018"
   source: "Bloomberg"
@@ -392,6 +413,7 @@
   title: >-
     Facebook keens on AI-Robotics
   category: "AI & Robotics"
+  topic: "ai"
   theme: "Embodied AI"
   year: "2018"
   source: "VentureBeat / Bloomberg"
@@ -412,6 +434,7 @@
   title: >-
     How the father of computer science decoded Nature's mysterious patterns
   category: "Computing History"
+  topic: "ai"
   theme: "Turing patterns"
   year: "2018"
   source: "The New York Times"
@@ -430,6 +453,7 @@
   title: >-
     Why the productivity gap?
   category: "Productivity"
+  topic: "work"
   theme: "National productivity"
   year: "2015"
   source: "BBC"
@@ -448,6 +472,7 @@
   title: >-
     Why the Germans are obsessed with saving money
   category: "Economics & Culture"
+  topic: "economy"
   theme: "Savings culture"
   year: "2018"
   source: "Quartz"
@@ -466,6 +491,7 @@
   title: >-
     Venezuela was once South America's richest country. Here's what went wrong
   category: "Economic Crisis"
+  topic: "economy"
   theme: "Institutional fragility"
   year: "2017"
   source: "World Economic Forum"
@@ -484,6 +510,7 @@
   title: >-
     Transitioning entirely to neural machine translation
   category: "AI Translation"
+  topic: "ai"
   theme: "Production AI"
   year: "2017"
   source: "Meta Engineering"
@@ -502,6 +529,7 @@
   title: >-
     Harvard Commencement 2017
   category: "Commencement"
+  topic: "work"
   theme: "Purpose"
   year: "2017"
   source: "Facebook / Harvard"
@@ -522,6 +550,7 @@
   title: >-
     Dear Class of 2017
   category: "Future Skills"
+  topic: "work"
   theme: "Career advice"
   year: "2017"
   source: "Gates Notes"
@@ -540,6 +569,7 @@
   title: >-
     Why Germans Work Fewer Hours But Produce More: A Study In Culture
   category: "Work & Productivity"
+  topic: "work"
   theme: "Work culture"
   year: "2014"
   source: "Knote / HuffPost / Quora"
@@ -564,6 +594,7 @@
   title: >-
     Làm ăn với Mỹ: nhìn từ bài học của Hàn Quốc và Philippines
   category: "Trade & Development"
+  topic: "economy"
   theme: "US trade lessons"
   year: "2017"
   source: "Dân trí"
@@ -583,6 +614,7 @@
   title: >-
     Hey Silicon Valley: President Obama Has a To-Do List for You
   category: "Technology Policy"
+  topic: "ai"
   theme: "Civic tech"
   year: "2016"
   source: "WIRED"
@@ -602,6 +634,7 @@
   title: >-
     Barack Obama, Neural Nets, Self-driving Cars, and the Future of the World
   category: "AI & Governance"
+  topic: "ai"
   theme: "Public AI"
   year: "2016"
   source: "WIRED"
@@ -621,6 +654,7 @@
   title: >-
     It's not 'corporate poaching' - it's a free market for brilliant people
   category: "Research Careers"
+  topic: "work"
   theme: "Talent mobility"
   year: "2016"
   source: "The Conversation"
@@ -640,6 +674,7 @@
   title: >-
     Google's AI translation tool seems to have invented its own secret internal language
   category: "AI Translation"
+  topic: "ai"
   theme: "Latent language"
   year: "2016"
   source: "TechCrunch"
@@ -659,6 +694,7 @@
   title: >-
     Computer Science University Ranking
   category: "CS Rankings"
+  topic: "reference"
   theme: "Research output"
   year: "Current"
   source: "CSRankings"
@@ -678,6 +714,7 @@
   title: >-
     Computer Science Conference Ranking
   category: "CS Rankings"
+  topic: "reference"
   theme: "Venue quality"
   year: "Current"
   source: "CORE"
