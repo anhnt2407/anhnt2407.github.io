@@ -13,7 +13,7 @@ author_profile: true
 Our APISAT 2025 contribution is now online in the Springer proceedings. The paper addresses a practical bottleneck in multi-agent reinforcement learning (MARL) for UAV swarms: real-world experimentation is constrained by high costs, collision risks, and operational limitations, while lightweight simulators cannot reproduce the visual and physical conditions a deployed policy will actually meet.
 
 <figure>
-  <img src="/images/news/260727/airsim-ros2-marl-cover.webp" alt="Aerial photograph of a city overlaid with a luminous diagram: five ringed UAV nodes linked by ROS2 message paths, a simulated region marked out on the ground, the Unreal Engine to AirSim to ROS2 pipeline as three circled stages, and the QMIX network folding per-agent values into one" width="1200" height="675" loading="lazy" decoding="async">
+  <img src="/images/news/260727/airsim-ros2-marl-cover.webp" alt="Five quadcopters flying above a sunlit city, each ringed in cyan and joined to the others by glowing message links, with a projected grid marking the simulated area below, a small pipeline of circled stages, and a panel of per-agent values merging into one" width="1200" height="675" loading="lazy" decoding="async">
   <figcaption>Scientific illustration: photorealistic simulation and ROS2 messaging supporting coordinated multi-agent UAV policy learning.</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Our APISAT 2025 contribution is now online in the Springer proceedings. The pape
 A second APISAT 2025 chapter is now online. It targets long-horizon aerial manipulation: object manipulation using quadcopters holds great potential in industries including logistics and delivery, but complex flight dynamics and long action sequences make policy learning by reinforcement learning difficult. The classic "pick-and-place" task requires sequentially completing several substeps: stable flight, precise approach, object grasping, and movement to the target location.
 
 <figure>
-  <img src="/images/news/260727/sequential-reward-quadcopter-cover.webp" alt="Photograph of a quadcopter on a landing pad in a bright hangar, overlaid with a luminous diagram: four circled stages from hover to approach, grasp and transport joined by conditional gates, faint repeated pads standing for parallel training arenas, and a chart of reward components" width="1200" height="675" loading="lazy" decoding="async">
+  <img src="/images/news/260727/sequential-reward-quadcopter-cover.webp" alt="A quadcopter lifting a glowing green cube in a bright hangar, with more drones on landing pads receding behind it, four circled stages joined by check-mark gates above, and a panel of reward curves crossing over one another" width="1200" height="675" loading="lazy" decoding="async">
   <figcaption>Scientific illustration: cube transport between pads under sequentially gated rewards, repeated across many parallel simulation environments.</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ A second APISAT 2025 chapter is now online. It targets long-horizon aerial manip
 A new preprint takes on a first-order economic constraint in modern manufacturing: floor space. Smart factories demand dense equipment placement on floors fragmented by structural pillars, maintenance clearances, and logistics corridors, yet classical facility layout and two-dimensional packing formulations assume obstacle-free planes and rigid footprints, producing plans that lose feasibility during physical installation.
 
 <figure>
-  <img src="/images/news/260713/constraint-driven-layout-cover.webp" alt="Photograph of a factory floor overlaid with a luminous layout plan: each machine marked by a solid core zone inside a dashed margin zone, red clearance rings around structural columns, a protected corridor across the floor, and panels for the annealing schedule and footprint comparison" width="1200" height="675" loading="lazy" decoding="async">
+  <img src="/images/news/260713/constraint-driven-layout-cover.webp" alt="A bright factory floor with rows of machine units, overlaid by a luminous layout plan of coloured module footprints, red dashed clearance rings around a structural column, an amber walkway corridor, and panels for the cooling schedule and footprint comparison" width="1200" height="675" loading="lazy" decoding="async">
   <figcaption>Scientific illustration: dense module packing around pillar exclusion zones and protected corridors under a simulated annealing schedule.</figcaption>
 </figure>
 
