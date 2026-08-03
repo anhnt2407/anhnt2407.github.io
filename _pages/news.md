@@ -13,7 +13,7 @@ author_profile: true
 Our APISAT 2025 contribution is now online in the Springer proceedings. The paper addresses a practical bottleneck in multi-agent reinforcement learning (MARL) for UAV swarms: real-world experimentation is constrained by high costs, collision risks, and operational limitations, while lightweight simulators cannot reproduce the visual and physical conditions a deployed policy will actually meet.
 
 <figure>
-  <img src="/images/news/260727/airsim-ros2-marl-cover.webp" alt="Scientific illustration of a quadcopter formation flying above a photorealistically rendered city block, with a floating holographic node-and-edge graph representing the ROS2 communication layer and the QMIX value-mixing network" width="1200" height="675" loading="lazy" decoding="async">
+  <img src="/images/news/260727/airsim-ros2-marl-cover.webp" alt="System diagram of the simulation stack: a UAV swarm exchanging ROS2 messages above a rendered city block, feeding an Unreal Engine to AirSim to ROS2 pipeline, with the QMIX mixing network combining per-agent values into a single team value" width="1200" height="675" loading="lazy" decoding="async">
   <figcaption>Scientific illustration: photorealistic simulation and ROS2 messaging supporting coordinated multi-agent UAV policy learning.</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Our APISAT 2025 contribution is now online in the Springer proceedings. The pape
 A second APISAT 2025 chapter is now online. It targets long-horizon aerial manipulation: object manipulation using quadcopters holds great potential in industries including logistics and delivery, but complex flight dynamics and long action sequences make policy learning by reinforcement learning difficult. The classic "pick-and-place" task requires sequentially completing several substeps: stable flight, precise approach, object grasping, and movement to the target location.
 
 <figure>
-  <img src="/images/news/260727/sequential-reward-quadcopter-cover.webp" alt="Scientific illustration of a quadcopter holding a glowing cube above a landing pad, following a dotted transport trajectory toward a target pad, with many identical simulation arenas repeating the same pick-and-place task in the background" width="1200" height="675" loading="lazy" decoding="async">
+  <img src="/images/news/260727/sequential-reward-quadcopter-cover.webp" alt="System diagram of the pick-and-place curriculum: four sequential stages from hover to approach, grasp and transport, each unlocked by a conditional gate, trained across a field of parallel simulation arenas, with a chart showing how reward components shift contribution across stages" width="1200" height="675" loading="lazy" decoding="async">
   <figcaption>Scientific illustration: cube transport between pads under sequentially gated rewards, repeated across many parallel simulation environments.</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ A second APISAT 2025 chapter is now online. It targets long-horizon aerial manip
 A new preprint takes on a first-order economic constraint in modern manufacturing: floor space. Smart factories demand dense equipment placement on floors fragmented by structural pillars, maintenance clearances, and logistics corridors, yet classical facility layout and two-dimensional packing formulations assume obstacle-free planes and rigid footprints, producing plans that lose feasibility during physical installation.
 
 <figure>
-  <img src="/images/news/260713/constraint-driven-layout-cover.webp" alt="Scientific illustration of a smart factory floor densely packed with equipment modules around structural pillars and marked logistics corridors, with one further module shown as a glowing outline being fitted into a remaining gap" width="1200" height="675" loading="lazy" decoding="async">
+  <img src="/images/news/260713/constraint-driven-layout-cover.webp" alt="System diagram of constraint-driven facility layout: modules drawn as a solid core zone inside a translucent margin zone, packed around structural pillars with clearance rings and protected corridors, beside a simulated annealing cooling schedule and a footprint comparison" width="1200" height="675" loading="lazy" decoding="async">
   <figcaption>Scientific illustration: dense module packing around pillar exclusion zones and protected corridors under a simulated annealing schedule.</figcaption>
 </figure>
 
