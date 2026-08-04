@@ -703,12 +703,14 @@
   image_alt: "Scientific illustration of computer science university rankings with publication evidence and comparative research signals"
   visual: "universities"
   summary: >-
-    CSRankings provides a faculty-publication-based view of computer science departments, configurable by research area and time range.
+    CSRankings provides a faculty-publication-based view of computer science departments, configurable by research area and time range. It is entirely metrics-based, counting publications by tenure-track faculty at a fixed set of selective conferences drawn from dblp, which makes it harder to game than survey or citation-based tables.
   takeaway: >-
-    Rankings are most useful when treated as lenses for evidence, not as final judgments of quality.
+    Rankings are most useful when treated as lenses for evidence, not as final judgments of quality. Narrow it to your own area before reading anything into the order.
   links:
     - label: "CSRankings"
-      url: "http://csrankings.org/#/index?all"
+      url: "https://csrankings.org/"
+    - label: "Source and data"
+      url: "https://github.com/emeryberger/CSrankings"
 
 - number: "37"
   title: >-
@@ -723,11 +725,493 @@
   image_alt: "Scientific illustration of computer science conference ranking, peer review networks, and venue quality signals"
   visual: "conferences"
   summary: >-
-    A reference set for conference ranking and venue comparison, including the CORE portal and an older computer-science ranking link.
+    The CORE list has grown into ICORE, an international collaboration between CORE in Australasia, the Italian groups GII and GRIN, and the Spanish computer science society SCIE. Venues are graded A*, A, B or C from citation rates, acceptance rates and the standing of the programme committee, with the 2026 round now in the searchable portal.
   takeaway: >-
-    Venue lists are helpful for orientation, but they should be balanced with community fit, review quality, and research goals.
+    Venue lists are helpful for orientation, but they should be balanced with community fit, review quality, and research goals. Note that the tiers move between rounds, so cite the edition you used.
   links:
-    - label: "Legacy list"
-      url: "http://lipn.univ-paris13.fr/~bennani/CSRank.html"
-    - label: "CORE"
-      url: "http://www.core.edu.au/"
+    - label: "ICORE portal"
+      url: "https://portal.core.edu.au/conf-ranks/"
+    - label: "2026 round"
+      url: "https://www.core.edu.au/icore-portal/icore-portal-2026-rankings-updates"
+
+- number: "38"
+  title: >-
+    SCImago Journal Rank and the Q1-Q4 quartiles
+  category: "Journal Metrics"
+  topic: "reference"
+  theme: "Prestige-weighted citations"
+  year: "Current"
+  source: "SCImago"
+  tone: "teal"
+  visual: "journals"
+  summary: >-
+    SJR ranks Scopus-indexed journals by prestige-weighted citations, so a citation arriving from a highly cited venue counts for more than one from a marginal title. Each subject category is then cut into quartiles, Q1 for the top quarter down to Q4 for the bottom.
+  takeaway: >-
+    Always check which category a quartile refers to. A journal indexed under several Scopus categories can be Q1 in one and Q3 in another, and the promotional copy will quote the better one.
+  links:
+    - label: "Journal rankings"
+      url: "https://www.scimagojr.com/journalrank.php"
+    - label: "Methodology"
+      url: "https://www.scimagojr.com/methodology.php"
+
+- number: "39"
+  title: >-
+    Journal Citation Reports and the Master Journal List
+  category: "Journal Metrics"
+  topic: "reference"
+  theme: "Impact Factor and indexing"
+  year: "Current"
+  source: "Clarivate"
+  tone: "amber"
+  visual: "metrics"
+  summary: >-
+    Clarivate released the 2026 Journal Citation Reports in June 2026, covering 22,643 journals across 254 subject categories, with 521 titles receiving a Journal Impact Factor for the first time. The Master Journal List is the companion tool for checking whether a venue is genuinely indexed and in which collection.
+  takeaway: >-
+    Use the Master Journal List before the Impact Factor. Whether a journal sits in SCIE, ESCI or nowhere at all decides far more than the decimal places do.
+  links:
+    - label: "Master Journal List"
+      url: "https://mjl.clarivate.com/home"
+    - label: "JCR"
+      url: "https://jcr.clarivate.com/"
+    - label: "2026 release"
+      url: "https://clarivate.com/news/clarivate-releases-journal-citation-reports-2026/"
+
+- number: "40"
+  title: >-
+    Scopus CiteScore and the source list
+  category: "Journal Metrics"
+  topic: "reference"
+  theme: "Four-year citation window"
+  year: "Current"
+  source: "Elsevier"
+  tone: "orange"
+  visual: "journals"
+  summary: >-
+    CiteScore averages citations over a four-year window rather than two, which makes it steadier than the Impact Factor and fairer to fields where work is cited slowly. The 2025 edition, released in June 2026, covers publications and citations from 2022 to 2025.
+  takeaway: >-
+    A longer window flatters slow-burning engineering venues and cools down fashionable ones. Read CiteScore alongside the Impact Factor rather than choosing between them.
+  links:
+    - label: "CiteScore"
+      url: "https://www.elsevier.com/products/scopus/metrics/citescore"
+    - label: "Scopus sources"
+      url: "https://www.scopus.com/sources.uri"
+
+- number: "41"
+  title: >-
+    Google Scholar Metrics and the h5-index
+  category: "Venue Metrics"
+  topic: "reference"
+  theme: "Conferences ranked as venues"
+  year: "Current"
+  source: "Google Scholar"
+  tone: "blue"
+  visual: "metrics"
+  summary: >-
+    Scholar Metrics ranks publications by h5-index over a rolling five-year window, and it is the only widely used venue metric that lists selected engineering and computer science conferences on the same table as journals.
+  takeaway: >-
+    In a field where the flagship venues are conferences, this is often the fastest honest answer to whether somewhere is a serious place to publish.
+  links:
+    - label: "Engineering and CS"
+      url: "https://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng"
+    - label: "How it works"
+      url: "https://scholar.google.com/intl/en/scholar/metrics.html"
+
+- number: "42"
+  title: >-
+    CCF recommended list of international conferences and journals
+  category: "Venue Rankings"
+  topic: "reference"
+  theme: "A / B / C tiers"
+  year: "Current"
+  source: "China Computer Federation"
+  tone: "red"
+  visual: "conferences"
+  summary: >-
+    The CCF catalogue sorts international venues into A, B and C tiers across ten computing domains. The seventh edition arrived in March 2026, adding 14 journals and 23 conferences, and it counts only full or regular papers, never short or workshop contributions.
+  takeaway: >-
+    Read CCF next to ICORE rather than instead of it. The venues where the two lists disagree are usually the ones worth thinking about.
+  links:
+    - label: "CCF catalogue"
+      url: "https://www.ccf.org.cn/Academic_Evaluation/By_category/"
+    - label: "dblp overlay"
+      url: "https://github.com/WenyanLiu/CCFrank4dblp"
+
+- number: "43"
+  title: >-
+    Acceptance-rate archives for AI and robotics conferences
+  category: "Venue Statistics"
+  topic: "reference"
+  theme: "Selectivity over time"
+  year: "Current"
+  source: "Community archives"
+  tone: "violet"
+  visual: "conferences"
+  summary: >-
+    Community-maintained tables track submissions and acceptances year by year. CVPR 2026 took 4,090 of 16,092 papers and ICML 2026 took 6,352 of 23,918, both close to a quarter, while robotics venues such as IROS run far higher and RSS far lower.
+  takeaway: >-
+    Acceptance rate measures crowding, not quality. A robotics conference near forty per cent and a vision conference near twenty-five can carry identical weight inside their own communities.
+  links:
+    - label: "AI conferences"
+      url: "https://github.com/lixin4ever/Conference-Acceptance-Rate"
+    - label: "Extended statistics"
+      url: "https://github.com/tranhungnghiep/AI-Conference-Info"
+    - label: "Robotics rates"
+      url: "https://github.com/Po-Jen/Robotics-Conference-Acceptance-Rate"
+
+- number: "44"
+  title: >-
+    Conference deadline trackers
+  category: "Planning"
+  topic: "reference"
+  theme: "Submission calendar"
+  year: "Current"
+  source: "Open-source trackers"
+  tone: "green"
+  visual: "calendar"
+  summary: >-
+    Open-source countdown boards for AI, vision, language and robotics deadlines, with time-zone handling and per-area filters. The Hugging Face space is the most actively maintained descendant of the original ai-deadlines project, while ccfddl covers the CCF-ranked venues.
+  takeaway: >-
+    Keep two of them open. Any single tracker drifts out of date, and in conference-driven fields a missed deadline costs most of a year.
+  links:
+    - label: "AI deadlines"
+      url: "https://huggingface.co/spaces/huggingface/ai-deadlines"
+    - label: "aideadlin.es"
+      url: "https://aideadlin.es/"
+    - label: "CCF DDL"
+      url: "https://ccfddl.com/"
+
+- number: "45"
+  title: >-
+    dblp computer science bibliography
+  category: "Bibliographic Index"
+  topic: "reference"
+  theme: "The substrate under the rankings"
+  year: "Current"
+  source: "Schloss Dagstuhl"
+  tone: "indigo"
+  visual: "database"
+  summary: >-
+    dblp indexes millions of computing publications with curated author disambiguation, clean BibTeX exports and ORCID links. It is also the data source CSRankings runs on, so an error on a dblp author page propagates straight into the rankings built from it.
+  takeaway: >-
+    Treat your own dblp page as infrastructure you maintain, not as a passive record someone else keeps for you.
+  links:
+    - label: "dblp"
+      url: "https://dblp.org/"
+    - label: "Schloss Dagstuhl"
+      url: "https://www.dagstuhl.de/en/dblp"
+
+- number: "46"
+  title: >-
+    OpenAlex, the open index of scholarly work
+  category: "Bibliographic Index"
+  topic: "reference"
+  theme: "Open bibliometrics"
+  year: "Current"
+  source: "OurResearch"
+  tone: "cyan"
+  visual: "database"
+  summary: >-
+    Built by the non-profit OurResearch as a successor to Microsoft Academic Graph after it was retired in January 2022, OpenAlex now covers hundreds of millions of works, authors, institutions and venues under a CC0 licence with a free API.
+  takeaway: >-
+    This is what makes independent bibliometrics possible at all. When a ranking claims its data are reproducible, OpenAlex is usually the reason it can.
+  links:
+    - label: "OpenAlex"
+      url: "https://openalex.org/"
+    - label: "The paper"
+      url: "https://arxiv.org/abs/2205.01833"
+
+- number: "47"
+  title: >-
+    CWTS Leiden Ranking, Open Edition
+  category: "University Rankings"
+  topic: "reference"
+  theme: "Transparent bibliometrics"
+  year: "Current"
+  source: "CWTS Leiden"
+  tone: "teal"
+  visual: "universities"
+  summary: >-
+    The Leiden Ranking covers roughly 2,800 universities across 120 countries using OpenAlex data, and reports impact, collaboration and open access separately in fields including mathematics and computer science. Both the underlying data and the source code are published.
+  takeaway: >-
+    Its most useful feature is a refusal. There is no single overall score, which forces you to state which dimension you actually care about before you compare anything.
+  links:
+    - label: "Open Edition"
+      url: "https://open.leidenranking.com/"
+    - label: "Traditional Edition"
+      url: "https://traditional.leidenranking.com/"
+
+- number: "48"
+  title: >-
+    Nature Index research leaders
+  category: "Institution Rankings"
+  topic: "reference"
+  theme: "Output in selected journals"
+  year: "Current"
+  source: "Nature Index"
+  tone: "violet"
+  visual: "metrics"
+  summary: >-
+    Nature Index counts institutional authorship across a fixed set of high-quality journals. The 2026 tables carry its largest methodological change since 2014: applied-science and social-science titles were added after surveying more than four thousand researchers, alongside a new article-level classification.
+  takeaway: >-
+    The counts are not normalised for size, so large institutions lead by construction. Read it as a map of where output concentrates, not of who does the best work.
+  links:
+    - label: "Research leaders"
+      url: "https://www.nature.com/nature-index/research-leaders/"
+    - label: "2026 tables"
+      url: "https://www.nature.com/nature-index/research-leaders/2026/"
+
+- number: "49"
+  title: >-
+    QS, Times Higher Education and ARWU
+  category: "University Rankings"
+  topic: "reference"
+  theme: "Three league tables"
+  year: "Current"
+  source: "QS / THE / ShanghaiRanking"
+  tone: "amber"
+  visual: "universities"
+  summary: >-
+    The three best-known global tables disagree because they measure different things. QS leans heavily on reputation surveys, THE blends teaching, research environment and citations, and ARWU counts Nobel and Fields laureates alongside highly cited researchers. In the most recent editions the top place went to MIT, Oxford and Harvard respectively.
+  takeaway: >-
+    Three methodologies, three winners. Whenever a single rank is quoted at you, the interesting question is which of these produced it.
+  links:
+    - label: "QS"
+      url: "https://www.topuniversities.com/world-university-rankings"
+    - label: "THE"
+      url: "https://www.timeshighereducation.com/world-university-rankings"
+    - label: "ARWU"
+      url: "https://www.shanghairanking.com/rankings/arwu/2025"
+
+- number: "50"
+  title: >-
+    SCImago Institutions Rankings
+  category: "Institution Rankings"
+  topic: "reference"
+  theme: "Research, innovation, society"
+  year: "Current"
+  source: "SCImago"
+  tone: "green"
+  visual: "universities"
+  summary: >-
+    SIR ranks more than ten thousand organisations, including universities, government laboratories, hospitals, companies and non-profits, on a composite of research at half the weight, patent-based innovation at thirty per cent and societal reach at twenty, drawing on Scopus and PATSTAT.
+  takeaway: >-
+    The only major table that places a corporate research laboratory and a university on the same axis, which is exactly the comparison an industry-facing researcher needs.
+  links:
+    - label: "Rankings"
+      url: "https://www.scimagoir.com/rankings.php"
+    - label: "Methodology"
+      url: "https://www.scimagoir.com/methodology.php"
+
+- number: "51"
+  title: >-
+    Stanford HAI AI Index Report
+  category: "State of the Field"
+  topic: "reference"
+  theme: "Annual measurement"
+  year: "Current"
+  source: "Stanford HAI"
+  tone: "indigo"
+  visual: "metrics"
+  summary: >-
+    The annual AI Index compiles capability benchmarks, investment, adoption, policy and workforce data into one citable reference. The 2026 edition adds dedicated chapters on AI in science and AI in medicine, and reports organisational adoption near ninety per cent against governance that is visibly lagging behind capability.
+  takeaway: >-
+    The most useful single citation when a claim about AI progress needs a defensible number attached to it.
+  links:
+    - label: "AI Index"
+      url: "https://hai.stanford.edu/ai-index"
+    - label: "2026 report"
+      url: "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+
+- number: "52"
+  title: >-
+    Arena and the model leaderboards
+  category: "Model Rankings"
+  topic: "reference"
+  theme: "Human preference as a metric"
+  year: "Current"
+  source: "Arena"
+  tone: "orange"
+  visual: "leaderboard"
+  summary: >-
+    Arena ranks language models by blind pairwise votes fed into an Elo-style rating, now spanning millions of votes and hundreds of models, with separate boards for vision, code and image generation. It rebranded from LMArena in January 2026.
+  takeaway: >-
+    Gaps of under roughly ten Elo points are noise. Read the confidence intervals before you read the order.
+  links:
+    - label: "Leaderboard"
+      url: "https://lmarena.ai/leaderboard"
+    - label: "Arena"
+      url: "https://arena.ai/"
+
+- number: "53"
+  title: >-
+    Benchmark tracking after Papers with Code
+  category: "Benchmarks"
+  topic: "reference"
+  theme: "A lost commons"
+  year: "Current"
+  source: "Hugging Face"
+  tone: "cyan"
+  visual: "leaderboard"
+  summary: >-
+    Papers with Code closed in July 2025, taking with it around fifteen hundred leaderboards and the links between papers and their implementations. Hugging Face now carries the nearest replacement through its papers feed, model hub and hosted leaderboards, but the unified task-level view has not been rebuilt.
+  takeaway: >-
+    A reminder that community infrastructure is not permanent. Archive the benchmark table your paper depends on instead of linking to it and hoping.
+  links:
+    - label: "Hugging Face papers"
+      url: "https://huggingface.co/papers"
+    - label: "Leaderboards"
+      url: "https://huggingface.co/docs/leaderboards"
+    - label: "What happened"
+      url: "https://www.coursera.org/articles/papers-with-code"
+
+- number: "54"
+  title: >-
+    DORA, the Leiden Manifesto and CoARA
+  category: "Research Assessment"
+  topic: "reference"
+  theme: "Using metrics responsibly"
+  year: "Current"
+  source: "DORA / CWTS / CoARA"
+  tone: "red"
+  visual: "compass"
+  summary: >-
+    Three standing statements on how research should be evaluated. DORA rejects the Journal Impact Factor as a proxy for individual quality and has thousands of institutional signatories, the Leiden Manifesto sets out ten principles for using indicators, and CoARA coordinates the reform commitments made since 2022.
+  takeaway: >-
+    The natural companion to every other card in this section. Rankings answer where, never how good, and these documents say so precisely enough to cite in a committee.
+  links:
+    - label: "DORA"
+      url: "https://sfdora.org/"
+    - label: "Leiden Manifesto"
+      url: "https://leidenmanifesto.org/"
+    - label: "CoARA"
+      url: "https://coara.eu/"
+
+- number: "55"
+  title: >-
+    Think. Check. Submit. and the DOAJ
+  category: "Venue Vetting"
+  topic: "reference"
+  theme: "Before you submit"
+  year: "Current"
+  source: "Think. Check. Submit."
+  tone: "blue"
+  visual: "integrity"
+  summary: >-
+    A short checklist for judging whether a journal or conference can be trusted, paired with the DOAJ whitelist of vetted open access journals. The working sequence is to confirm indexing, verify the ISSN at the ISSN Portal, check COPE or OASPA membership, then look up two or three members of the editorial board.
+  takeaway: >-
+    Predatory venues routinely claim a DOAJ listing they do not hold. Verify outward from the directory, never inward from the journal's own page.
+  links:
+    - label: "Think. Check. Submit."
+      url: "https://thinkchecksubmit.org/"
+    - label: "DOAJ"
+      url: "https://doaj.org/"
+    - label: "ISSN Portal"
+      url: "https://portal.issn.org/"
+
+- number: "56"
+  title: >-
+    Retraction Watch database and PubPeer
+  category: "Research Integrity"
+  topic: "reference"
+  theme: "After publication"
+  year: "Current"
+  source: "Crossref / PubPeer"
+  tone: "red"
+  visual: "integrity"
+  summary: >-
+    The Retraction Watch database was acquired by Crossref and made a public resource, so retractions and corrections now surface through the Crossref API and an openly licensed dataset covering tens of thousands of records reaching back to the 1970s. PubPeer hosts the post-publication comment threads that often precede a retraction.
+  takeaway: >-
+    Worth running across a reference list before submission. A retracted citation is cheap to catch beforehand and expensive to explain afterwards.
+  links:
+    - label: "Retraction Watch"
+      url: "https://retractionwatch.com/retraction-watch-database-user-guide/"
+    - label: "Open dataset"
+      url: "https://gitlab.com/crossref/retraction-watch-data"
+    - label: "PubPeer"
+      url: "https://pubpeer.com/"
+
+- number: "57"
+  title: >-
+    Danh mục tạp chí khoa học Việt Nam
+  category: "Vietnam Reference"
+  topic: "reference"
+  theme: "Domestic journal standards"
+  year: "Current"
+  source: "Bộ KH&CN / HĐGSNN"
+  tone: "teal"
+  visual: "vietnam"
+  summary: >-
+    Vietnam now maintains two lists that matter. The Ministry of Science and Technology issued the first national list of journals meeting Vietnamese science standards in April 2026 under Decision 2244/QĐ-BKHCN, recognising 341 titles, while the State Council of Professors continues to publish the annual scored list used for academic titles and promotion.
+  takeaway: >-
+    Domestic careers are still measured against these lists rather than against Scopus quartiles alone. Check both before deciding where a paper goes.
+  links:
+    - label: "HĐGSNN"
+      url: "http://hdgsnn.gov.vn/"
+    - label: "Danh mục 2026"
+      url: "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/111426/danh-muc-tap-chi-dat-tieu-chuan-khoa-hoc-viet-nam-nam-2026"
+
+- number: "58"
+  title: >-
+    Assurance standards for autonomous and cyber-physical systems
+  category: "Standards"
+  topic: "reference"
+  theme: "Certification baseline"
+  year: "Current"
+  source: "RTCA / SAE / ISO"
+  tone: "violet"
+  visual: "standards"
+  summary: >-
+    The certification stack that dependable autonomy work eventually meets: ARP4754A for aircraft and system development, DO-178C for airborne software and DO-254 for airborne hardware, ISO 26262 with its ASIL A to D scale on the automotive side, and ISO 23247 for the manufacturing digital twin framework, whose part on the digital thread was published in 2026.
+  takeaway: >-
+    None of these were written with learning-enabled components in mind. That gap is precisely where much of the current advanced air mobility assurance research sits.
+  links:
+    - label: "ISO 26262"
+      url: "https://www.iso.org/standard/68383.html"
+    - label: "ISO 23247-2"
+      url: "https://www.iso.org/standard/78743.html"
+    - label: "DO-178C overview"
+      url: "https://www.parasoft.com/learning-center/do-178c/what-is/"
+
+- number: "59"
+  title: >-
+    ORCID, ROR and the persistent identifier layer
+  category: "Identifiers"
+  topic: "reference"
+  theme: "Who wrote what, where"
+  year: "Current"
+  source: "ORCID / ROR / Crossref"
+  tone: "cyan"
+  visual: "identity"
+  summary: >-
+    A researcher accumulates several identifiers issued by unrelated organisations, an ORCID iD, a Scopus Author ID and a Web of Science ResearcherID, which can be linked to each other but are never merged into one. ROR does the same job for institutions and DOIs for the works themselves.
+  takeaway: >-
+    Link them once and keep ORCID authoritative. Every downstream system, from dblp to funding agencies, resolves ambiguity by asking it first.
+  links:
+    - label: "ORCID"
+      url: "https://orcid.org/"
+    - label: "ROR"
+      url: "https://ror.org/"
+    - label: "Crossref"
+      url: "https://www.crossref.org/"
+
+- number: "60"
+  title: >-
+    arXiv and OpenReview
+  category: "Preprints & Review"
+  topic: "reference"
+  theme: "The open record"
+  year: "Current"
+  source: "arXiv / OpenReview"
+  tone: "green"
+  visual: "preprint"
+  summary: >-
+    arXiv remains the default preprint venue for computing, but since late 2025 its computer science category no longer accepts survey or position papers unless they have already cleared peer review, a direct response to a flood of machine-generated submissions. OpenReview holds the public review threads for most major AI conferences.
+  takeaway: >-
+    OpenReview is badly underused as a reading source. For a contested paper, the reviews often teach more than the paper itself.
+  links:
+    - label: "arXiv"
+      url: "https://arxiv.org/"
+    - label: "OpenReview"
+      url: "https://openreview.net/"
+    - label: "CS policy change"
+      url: "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/"
