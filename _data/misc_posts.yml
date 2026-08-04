@@ -743,6 +743,8 @@
   year: "Current"
   source: "SCImago"
   tone: "teal"
+  image: "/images/misc/038-sjr-quartiles.webp"
+  image_alt: "A library reading room at night with green desk lamps, tall luminous cyan columns of descending height standing in the central aisle, each topped by a stack of journal volumes"
   visual: "journals"
   summary: >-
     SJR ranks Scopus-indexed journals by prestige-weighted citations, so a citation arriving from a highly cited venue counts for more than one from a marginal title. Each subject category is then cut into quartiles, Q1 for the top quarter down to Q4 for the bottom.
@@ -763,6 +765,8 @@
   year: "Current"
   source: "Clarivate"
   tone: "amber"
+  image: "/images/misc/039-jcr-master-list.webp"
+  image_alt: "A vaulted periodicals hall at night with a large luminous ring gate hovering above the floor and a single figure standing in its beam"
   visual: "metrics"
   summary: >-
     Clarivate released the 2026 Journal Citation Reports in June 2026, covering 22,643 journals across 254 subject categories, with 521 titles receiving a Journal Impact Factor for the first time. The Master Journal List is the companion tool for checking whether a venue is genuinely indexed and in which collection.
@@ -785,6 +789,8 @@
   year: "Current"
   source: "Elsevier"
   tone: "orange"
+  image: "/images/misc/040-citescore-window.webp"
+  image_alt: "A long archive gallery at dusk with a luminous horizontal band of light running its length and a bright rectangular frame sliding along it"
   visual: "journals"
   summary: >-
     CiteScore averages citations over a four-year window rather than two, which makes it steadier than the Impact Factor and fairer to fields where work is cited slowly. The 2025 edition, released in June 2026, covers publications and citations from 2022 to 2025.
@@ -805,6 +811,8 @@
   year: "Current"
   source: "Google Scholar"
   tone: "blue"
+  image: "/images/misc/041-scholar-h5.webp"
+  image_alt: "A darkened lecture auditorium with a luminous cluster of glowing vertical bars and a conference badge rising from the stage"
   visual: "metrics"
   summary: >-
     Scholar Metrics ranks publications by h5-index over a rolling five-year window, and it is the only widely used venue metric that lists selected engineering and computer science conferences on the same table as journals.
@@ -825,6 +833,8 @@
   year: "Current"
   source: "China Computer Federation"
   tone: "red"
+  image: "/images/misc/042-ccf-tiers.webp"
+  image_alt: "A stone amphitheatre at night with three concentric luminous platforms floating above the terraced seating at three separate heights"
   visual: "conferences"
   summary: >-
     The CCF catalogue sorts international venues into A, B and C tiers across ten computing domains. The seventh edition arrived in March 2026, adding 14 journals and 23 conferences, and it counts only full or regular papers, never short or workshop contributions.
@@ -845,6 +855,8 @@
   year: "Current"
   source: "Community archives"
   tone: "violet"
+  image: "/images/misc/043-acceptance-rates.webp"
+  image_alt: "The entrance hall of a convention centre at night, a dense crowd of silhouettes before a narrow luminous gateway that only a thin stream passes through"
   visual: "conferences"
   summary: >-
     Community-maintained tables track submissions and acceptances year by year. CVPR 2026 took 4,090 of 16,092 papers and ICML 2026 took 6,352 of 23,918, both close to a quarter, while robotics venues such as IROS run far higher and RSS far lower.
@@ -867,6 +879,8 @@
   year: "Current"
   source: "Open-source trackers"
   tone: "green"
+  image: "/images/misc/044-deadline-trackers.webp"
+  image_alt: "A dim operations room at night with a ring of large luminous countdown clock faces suspended above the desks, one of them glowing amber"
   visual: "calendar"
   summary: >-
     Open-source countdown boards for AI, vision, language and robotics deadlines, with time-zone handling and per-area filters. The Hugging Face space is the most actively maintained descendant of the original ai-deadlines project, while ccfddl covers the CCF-ranked venues.
@@ -889,6 +903,8 @@
   year: "Current"
   source: "Schloss Dagstuhl"
   tone: "indigo"
+  image: "/images/misc/045-dblp.webp"
+  image_alt: "Deep library stacks at night with a luminous web of fine threads running along the shelves and converging on one bright central node"
   visual: "database"
   summary: >-
     dblp indexes millions of computing publications with curated author disambiguation, clean BibTeX exports and ORCID links. It is also the data source CSRankings runs on, so an error on a dblp author page propagates straight into the rankings built from it.
@@ -909,6 +925,8 @@
   year: "Current"
   source: "OurResearch"
   tone: "cyan"
+  image: "/images/misc/046-openalex.webp"
+  image_alt: "A vast glass-roofed atrium at night with a luminous constellation of interlinked points drifting outward through open doorways"
   visual: "database"
   summary: >-
     Built by the non-profit OurResearch as a successor to Microsoft Academic Graph after it was retired in January 2022, OpenAlex now covers hundreds of millions of works, authors, institutions and venues under a CC0 licence with a free API.
@@ -929,6 +947,8 @@
   year: "Current"
   source: "CWTS Leiden"
   tone: "teal"
+  image: "/images/misc/047-leiden-ranking.webp"
+  image_alt: "A university quadrangle at blue hour with several separate luminous gauges floating above the lawn, a curve, a dial, a bar chart and a network, never merged into one"
   visual: "universities"
   summary: >-
     The Leiden Ranking covers roughly 2,800 universities across 120 countries using OpenAlex data, and reports impact, collaboration and open access separately in fields including mathematics and computer science. Both the underlying data and the source code are published.
@@ -949,6 +969,8 @@
   year: "Current"
   source: "Nature Index"
   tone: "violet"
+  image: "/images/misc/048-nature-index.webp"
+  image_alt: "A research campus at night seen from above, luminous segmented spheres hovering over individual laboratory buildings and linked by fine filaments"
   visual: "metrics"
   summary: >-
     Nature Index counts institutional authorship across a fixed set of high-quality journals. The 2026 tables carry its largest methodological change since 2014: applied-science and social-science titles were added after surveying more than four thousand researchers, alongside a new article-level classification.
@@ -969,6 +991,8 @@
   year: "Current"
   source: "QS / THE / ShanghaiRanking"
   tone: "amber"
+  image: "/images/misc/049-qs-the-arwu.webp"
+  image_alt: "Three university towers standing apart across a dark plaza, each with a luminous column of different height and colour above it"
   visual: "universities"
   summary: >-
     The three best-known global tables disagree because they measure different things. QS leans heavily on reputation surveys, THE blends teaching, research environment and citations, and ARWU counts Nobel and Fields laureates alongside highly cited researchers. In the most recent editions the top place went to MIT, Oxford and Harvard respectively.
@@ -991,6 +1015,8 @@
   year: "Current"
   source: "SCImago"
   tone: "green"
+  image: "/images/misc/050-scimago-institutions.webp"
+  image_alt: "A night skyline of a university dome, a hospital block, a corporate tower and a government building beneath one large luminous arc divided into segments"
   visual: "universities"
   summary: >-
     SIR ranks more than ten thousand organisations, including universities, government laboratories, hospitals, companies and non-profits, on a composite of research at half the weight, patent-based innovation at thirty per cent and societal reach at twenty, drawing on Scopus and PATSTAT.
@@ -1011,6 +1037,8 @@
   year: "Current"
   source: "Stanford HAI"
   tone: "indigo"
+  image: "/images/misc/051-ai-index.webp"
+  image_alt: "A dim data-centre corridor at night with a tall luminous panel carrying a steeply climbing curve and smaller panels branching from it"
   visual: "metrics"
   summary: >-
     The annual AI Index compiles capability benchmarks, investment, adoption, policy and workforce data into one citable reference. The 2026 edition adds dedicated chapters on AI in science and AI in medicine, and reports organisational adoption near ninety per cent against governance that is visibly lagging behind capability.
@@ -1031,6 +1059,8 @@
   year: "Current"
   source: "Arena"
   tone: "orange"
+  image: "/images/misc/052-arena-leaderboard.webp"
+  image_alt: "A darkened arena at night with two identical luminous figures facing each other in the ring beneath a floating ladder of ranked rungs"
   visual: "leaderboard"
   summary: >-
     Arena ranks language models by blind pairwise votes fed into an Elo-style rating, now spanning millions of votes and hundreds of models, with separate boards for vision, code and image generation. It rebranded from LMArena in January 2026.
@@ -1051,6 +1081,8 @@
   year: "Current"
   source: "Hugging Face"
   tone: "cyan"
+  image: "/images/misc/053-benchmarks-after-pwc.webp"
+  image_alt: "A closed archive hall at night with dust sheets over the furniture and a collapsed luminous leaderboard lying broken across the floor"
   visual: "leaderboard"
   summary: >-
     Papers with Code closed in July 2025, taking with it around fifteen hundred leaderboards and the links between papers and their implementations. Hugging Face now carries the nearest replacement through its papers feed, model hub and hosted leaderboards, but the unified task-level view has not been rebuilt.
@@ -1073,6 +1105,8 @@
   year: "Current"
   source: "DORA / CWTS / CoARA"
   tone: "red"
+  image: "/images/misc/054-dora-manifesto.webp"
+  image_alt: "An empty council chamber at night with a colossal luminous balance scale, a single bright solid on one pan outweighed by a sheaf of documents on the other"
   visual: "compass"
   summary: >-
     Three standing statements on how research should be evaluated. DORA rejects the Journal Impact Factor as a proxy for individual quality and has thousands of institutional signatories, the Leiden Manifesto sets out ten principles for using indicators, and CoARA coordinates the reform commitments made since 2022.
@@ -1095,6 +1129,8 @@
   year: "Current"
   source: "Think. Check. Submit."
   tone: "blue"
+  image: "/images/misc/055-think-check-submit.webp"
+  image_alt: "A stone gatehouse at night with a luminous checkpoint ring in the arch, one document verified and glowing green while another is held back and greyed out"
   visual: "integrity"
   summary: >-
     A short checklist for judging whether a journal or conference can be trusted, paired with the DOAJ whitelist of vetted open access journals. The working sequence is to confirm indexing, verify the ISSN at the ISSN Portal, check COPE or OASPA membership, then look up two or three members of the editorial board.
@@ -1117,6 +1153,8 @@
   year: "Current"
   source: "Crossref / PubPeer"
   tone: "red"
+  image: "/images/misc/056-retraction-watch.webp"
+  image_alt: "A tall archive hall at night with red ladders against the shelves and luminous threads tracing outward from marked volumes to the books that cite them"
   visual: "integrity"
   summary: >-
     The Retraction Watch database was acquired by Crossref and made a public resource, so retractions and corrections now surface through the Crossref API and an openly licensed dataset covering tens of thousands of records reaching back to the 1970s. PubPeer hosts the post-publication comment threads that often precede a retraction.
@@ -1139,6 +1177,8 @@
   year: "Current"
   source: "Bộ KH&CN / HĐGSNN"
   tone: "teal"
+  image: "/images/misc/057-vietnam-journal-list.webp"
+  image_alt: "A colonial-era institutional building at night in a tropical city, a large luminous document panel above the steps with a glowing gold seal and rows of floating periodicals"
   visual: "vietnam"
   summary: >-
     Vietnam now maintains two lists that matter. The Ministry of Science and Technology issued the first national list of journals meeting Vietnamese science standards in April 2026 under Decision 2244/QĐ-BKHCN, recognising 341 titles, while the State Council of Professors continues to publish the annual scored list used for academic titles and promotion.
@@ -1159,6 +1199,8 @@
   year: "Current"
   source: "RTCA / SAE / ISO"
   tone: "violet"
+  image: "/images/misc/058-assurance-standards.webp"
+  image_alt: "An aircraft hangar at night with a quadcopter drone on the floor and four stacked horizontal luminous grid sheets above it, one cell left as an amber gap"
   visual: "standards"
   summary: >-
     The certification stack that dependable autonomy work eventually meets: ARP4754A for aircraft and system development, DO-178C for airborne software and DO-254 for airborne hardware, ISO 26262 with its ASIL A to D scale on the automotive side, and ISO 23247 for the manufacturing digital twin framework, whose part on the digital thread was published in 2026.
@@ -1181,6 +1223,8 @@
   year: "Current"
   source: "ORCID / ROR / Crossref"
   tone: "cyan"
+  image: "/images/misc/059-orcid-ror-doi.webp"
+  image_alt: "A registry hall at night with a luminous human silhouette at the centre and fine threads binding it to floating documents, building outlines and small tokens"
   visual: "identity"
   summary: >-
     A researcher accumulates several identifiers issued by unrelated organisations, an ORCID iD, a Scopus Author ID and a Web of Science ResearcherID, which can be linked to each other but are never merged into one. ROR does the same job for institutions and DOIs for the works themselves.
@@ -1203,6 +1247,8 @@
   year: "Current"
   source: "arXiv / OpenReview"
   tone: "green"
+  image: "/images/misc/060-arxiv-openreview.webp"
+  image_alt: "A quiet reading room at night with a luminous stream of documents flowing in through a high window and a transparent annotation layer overlaid on it"
   visual: "preprint"
   summary: >-
     arXiv remains the default preprint venue for computing, but since late 2025 its computer science category no longer accepts survey or position papers unless they have already cleared peer review, a direct response to a flood of machine-generated submissions. OpenReview holds the public review threads for most major AI conferences.

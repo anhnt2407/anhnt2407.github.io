@@ -4,3 +4,6 @@ images/posts/*.tex
 images/posts/*.pdf
 images/posts/*.sty
 _source/*_cache
+
+# intermediate renders from scripts/generate_misc_covers.py
+images/misc/_raw/
