@@ -29,43 +29,10 @@ author_profile: true
         <div><dt>Sources</dt><dd>{{ sources | size }}</dd></div>
       </dl>
     </div>
-    <div class="misc-hero__visual" aria-hidden="true">
-      <svg class="misc-constellation" viewBox="0 0 760 520" focusable="false">
-        <defs>
-          <linearGradient id="miscHeroRibbon" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#5fd0ff" />
-            <stop offset="50%" stop-color="#8f7cff" />
-            <stop offset="100%" stop-color="#ffb15f" />
-          </linearGradient>
-        </defs>
-        <path class="misc-constellation__wash" d="M80 302 C114 116, 344 50, 512 126 C666 196, 686 382, 498 430 C298 482, 42 454, 80 302Z" />
-        <path class="misc-constellation__ribbon" stroke="url(#miscHeroRibbon)" d="M90 358 C208 202, 330 296, 438 166 S622 150, 678 276" />
-        <path class="misc-constellation__ribbon misc-constellation__ribbon--soft" stroke="url(#miscHeroRibbon)" d="M116 232 C240 118, 354 202, 470 280 S622 370, 700 234" />
-        <g class="misc-constellation__grid">
-          <path d="M116 398 H674 M158 342 H700 M204 288 H638 M178 230 H604" />
-          <path d="M176 160 V432 M290 118 V448 M410 120 V438 M542 144 V424 M650 208 V386" />
-        </g>
-        <g class="misc-constellation__cards">
-          <rect x="104" y="112" width="150" height="104" rx="20" />
-          <rect x="314" y="78" width="178" height="118" rx="22" />
-          <rect x="528" y="246" width="150" height="104" rx="20" />
-          <rect x="220" y="330" width="176" height="112" rx="22" />
-        </g>
-        <g class="misc-constellation__lines">
-          <line x1="178" y1="164" x2="404" y2="138" />
-          <line x1="404" y1="138" x2="604" y2="298" />
-          <line x1="604" y1="298" x2="308" y2="386" />
-          <line x1="308" y1="386" x2="178" y2="164" />
-        </g>
-        <g class="misc-constellation__nodes">
-          <circle cx="178" cy="164" r="16" />
-          <circle cx="404" cy="138" r="18" />
-          <circle cx="604" cy="298" r="16" />
-          <circle cx="308" cy="386" r="18" />
-          <circle cx="498" cy="232" r="12" />
-          <circle cx="260" cy="260" r="12" />
-        </g>
-      </svg>
+    <div class="misc-hero__visual">
+      <img src="/images/misc/000-reading-atlas-hero.webp"
+           alt="An open book on a dark wooden desk at night, with a luminous globe of light points hovering above it, joined by fine lit threads to small translucent panels of charts"
+           width="1200" height="900" decoding="async">
     </div>
   </section>
 

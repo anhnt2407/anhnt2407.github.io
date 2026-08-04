@@ -1783,53 +1783,12 @@ a:hover {
   overflow: hidden;
 }
 
-.misc-constellation {
+.misc-hero__visual img {
   display: block;
   width: 100%;
   height: 100%;
   min-height: 18rem;
-}
-
-.misc-constellation__wash {
-  fill: rgba(95, 208, 255, 0.12);
-}
-
-.misc-constellation__ribbon {
-  fill: none;
-  stroke-width: 13;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  filter: drop-shadow(0 0 8px rgba(95, 208, 255, 0.65));
-}
-
-.misc-constellation__ribbon--soft {
-  stroke-width: 6;
-  opacity: 0.46;
-}
-
-.misc-constellation__grid path {
-  fill: none;
-  stroke: rgba(151, 210, 255, 0.18);
-  stroke-width: 2;
-}
-
-.misc-constellation__cards rect {
-  fill: rgba(9, 25, 44, 0.7);
-  stroke: rgba(132, 210, 255, 0.26);
-  stroke-width: 2.2;
-}
-
-.misc-constellation__lines line {
-  stroke: rgba(132, 210, 255, 0.34);
-  stroke-width: 4;
-  stroke-linecap: round;
-}
-
-.misc-constellation__nodes circle {
-  fill: rgba(8, 20, 34, 0.94);
-  stroke: #5fd0ff;
-  stroke-width: 6;
-  filter: drop-shadow(0 0 8px rgba(95, 208, 255, 0.8));
+  object-fit: cover;
 }
 
 .misc-section-note {
@@ -2651,7 +2610,7 @@ a:hover {
   }
 
   .misc-hero__visual,
-  .misc-constellation {
+  .misc-hero__visual img {
     min-height: 14rem;
   }
 
