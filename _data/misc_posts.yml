@@ -1261,3 +1261,23 @@
       url: "https://openreview.net/"
     - label: "CS policy change"
       url: "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/"
+
+- number: "61"
+  title: >-
+    The path to artificial superintelligence
+  category: "AI & Agents"
+  topic: "ai"
+  theme: "Coordination, not scale"
+  year: "2026"
+  source: "MIT Technology Review Insights"
+  tone: "indigo"
+  image: "/images/misc/061-internet-of-cognition.webp"
+  image_alt: "A dark hall at night lit by warm work lamps, rows of small human silhouettes each standing sealed inside its own glowing cyan capsule, and above them one vast dome of interwoven light whose bright core drops a thin line of amber beads that stops short of the floor"
+  visual: "ai-governance"
+  summary: >-
+    The argument is that the next step is horizontal rather than vertical, not a larger single model but many agents able to hold a goal in common, and that today they cannot: the piece cites a study putting the failure rate of seven open-source multi-agent systems between 41 and 87 percent, and calls the gap architectural rather than a prompting problem. Its proposed remedy is an "Internet of Cognition" layered over agent connectivity, with cognition state protocols for shared intent, a cognition fabric for shared context, and cognitive amplifiers with guardrails for shared reasoning.
+  takeaway: >-
+    Read it as a vendor architecture proposal, not a finding. This is Insights, the custom content arm, produced in partnership with Outshift by Cisco, and not written by the magazine's editorial staff. The diagnosis still travels further than the remedy: coordination, not capability, is where multi-agent systems currently break.
+  links:
+    - label: "MIT Tech Review"
+      url: "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/"
