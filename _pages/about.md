@@ -57,7 +57,7 @@ redirect_from:
       <span>VinDynamics</span>
     </h3>
     <p class="experience-card__meta">On-site · Hanoi Capital Region</p>
-    <p>Serving as Director of Robot Software and Control in a full-time leadership role focused on robotics software and control engineering.</p>
+    <p>Serving as Director of Robot Control and Software and Robot Mobility Expert, leading the Robot Control and Software Division within the company's Technology Group. The division covers the real-time C++/ROS 2 control stack and whole-body controllers for humanoid platforms, reinforcement learning for locomotion and loco-manipulation, GPU-accelerated massively parallel training with sim-to-real transfer, and on-board inference of learned policies.</p>
   </article>
 
   <article class="experience-card">
@@ -71,23 +71,23 @@ redirect_from:
   </article>
 
   <article class="experience-card">
-    <p class="experience-card__eyebrow">Full-time · Jun 2025 - Feb 2026</p>
+    <p class="experience-card__eyebrow">Full-time · Jun 2025 - Mar 2026</p>
     <h3 class="experience-card__brand">
       <span class="experience-logo"><img src="/images/experience-logos/viettel-mark.png" alt="Viettel Group logo"></span>
       <span>Viettel Group</span>
     </h3>
     <p class="experience-card__meta">On-site · Hanoi, Vietnam</p>
-    <p>Progressed through two Principal Engineer appointments within Viettel Group, moving from the High-Tech Industry Management Division to the Viettel Aviation Technology Center (VATC).</p>
+    <p>Held two appointments within Viettel Group, moving from a Principal Engineer role in the High-Tech Industry Division to leading the avionics system function at the Viettel Aviation Technology Center (VATC).</p>
 
     <div class="experience-role-list" aria-label="Viettel Group role progression">
       <div class="experience-role">
-        <h4>Principal Engineer, Viettel Aviation Technology Center (VATC)</h4>
-        <p class="experience-role__meta">Oct 2025 - Feb 2026</p>
+        <h4>Manager of Avionics System, Viettel Aviation Technology Center (VATC)</h4>
+        <p class="experience-role__meta">Oct 2025 - Mar 2026</p>
         <p class="experience-role__location">Hanoi Capital Region</p>
       </div>
 
       <div class="experience-role">
-        <h4>Principal Engineer, High-Tech Industry Management Division (Ban Công nghiệp Công nghệ Cao)</h4>
+        <h4>Principal Engineer, High-Tech Industry Division (Ban Công nghiệp Công nghệ Cao)</h4>
         <p class="experience-role__meta">Jun 2025 - Oct 2025</p>
         <p class="experience-role__location">Hanoi, Vietnam</p>
       </div>
@@ -95,27 +95,41 @@ redirect_from:
   </article>
 
   <article class="experience-card">
-    <p class="experience-card__eyebrow">Research Appointment · Jul 2020 - Jun 2025</p>
+    <p class="experience-card__eyebrow">Research Appointment · Jun 2020 - Jun 2025</p>
     <h3>Dependable, Autonomous, and Intelligent Systems Research</h3>
     <p class="experience-card__meta experience-card__meta--brand">
       <span class="experience-logo experience-logo--seal"><img src="/images/experience-logos/konkuk-authority.jpg" alt="Konkuk University authority mark"></span>
       <span>Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University · Seoul, South Korea</span>
     </p>
-    <p>Conducted research in dependable, autonomous, and intelligent systems, collaborating with Prof. <a href="http://kada.konkuk.ac.kr/aadl_teams/profjwlee/">Jae Woo Lee</a> and Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
+    <p>Conducted research in dependable, autonomous, and intelligent systems, collaborating with Prof. <a href="https://sites.google.com/view/kadalab/members/professors">Jae Woo Lee</a> and Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
+
+    <div class="experience-role-list" aria-label="Konkuk University appointment progression">
+      <div class="experience-role">
+        <h4>Academic Research (Assistant) Professor</h4>
+        <p class="experience-role__meta">Mar 2021 - Jun 2025</p>
+        <p class="experience-role__location">Department of Artificial Intelligence, Graduate School; and KADA</p>
+      </div>
+
+      <div class="experience-role">
+        <h4>Senior Research Associate</h4>
+        <p class="experience-role__meta">Jun 2020 - Feb 2021</p>
+        <p class="experience-role__location">KADA · Seoul, South Korea</p>
+      </div>
+    </div>
   </article>
 
   <article class="experience-card">
-    <p class="experience-card__eyebrow">University Research · Mar 2016 - Feb 2020</p>
+    <p class="experience-card__eyebrow">Assistant Professor · Mar 2016 - Mar 2020</p>
     <h3>Research Collaboration at Konkuk University</h3>
     <p class="experience-card__meta experience-card__meta--brand">
       <span class="experience-logo experience-logo--seal"><img src="/images/experience-logos/konkuk-authority.jpg" alt="Konkuk University authority mark"></span>
-      <span>Office of Research, University-Industry Cooperation Foundation · Konkuk University</span>
+      <span>Office for Research, University-Industry Cooperation Foundation · Konkuk University</span>
     </p>
-    <p>Worked in university research collaboration, contributing to dependable and autonomous systems projects with Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
+    <p>Held an Assistant Professor appointment under the KU Brain Pool Program for Talents, contributing to dependable and autonomous systems projects with Prof. <a href="https://dmslab-konkuk.github.io/people/DugkiMin/">Dugki Min</a>.</p>
   </article>
 
   <article class="experience-card">
-    <p class="experience-card__eyebrow">Postdoctoral Research · Aug 2015 - Feb 2016</p>
+    <p class="experience-card__eyebrow">Postdoctoral Research · Aug 2015 - Mar 2016</p>
     <h3>Distributed Multimedia Systems Laboratory</h3>
     <p class="experience-card__meta experience-card__meta--brand">
       <span class="experience-logo experience-logo--seal"><img src="/images/experience-logos/konkuk-authority.jpg" alt="Konkuk University authority mark"></span>
@@ -125,33 +139,43 @@ redirect_from:
   </article>
 
   <article class="experience-card">
-    <p class="experience-card__eyebrow">Doctoral Research · 2011 - 2015</p>
-    <h3>Network Security and Systems Laboratory</h3>
+    <p class="experience-card__eyebrow">Doctoral Research · Mar 2011 - Aug 2015</p>
+    <h3>Network Security and Embedded Systems Laboratory</h3>
     <p class="experience-card__meta experience-card__meta--brand">
       <span class="experience-logo experience-logo--seal"><img src="/images/experience-logos/kau-emblem.png" alt="Korea Aerospace University emblem"></span>
-      <span>Korea Aerospace University (KAU) · South Korea</span>
+      <span>Korea Aerospace University (KAU) · Seoul, South Korea</span>
     </p>
-    <p>Worked as a Ph.D. Research Associate under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>.</p>
+    <p>Worked as a Graduate Researcher in the NS Lab. under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>.</p>
   </article>
 
   <article class="experience-card">
-    <p class="experience-card__eyebrow">Industry Research · 2009 - 2010</p>
+    <p class="experience-card__eyebrow">Industry Research · Sep 2009 - Feb 2011</p>
     <h3>FPT Space Technology Research Laboratory</h3>
     <p class="experience-card__meta experience-card__meta--brand">
       <span class="experience-logo"><img src="/images/experience-logos/fpt-mark.png" alt="FPT logo"></span>
-      <span>FPT Technology Research Institute (FTRI), FPT University, FPT Corporation · Hanoi, Vietnam</span>
+      <span>FPT Technology Research Institute (FTRI), FPT Corporation · Hanoi, Vietnam</span>
     </p>
-    <p>Worked as a full-time researcher on space technology research initiatives.</p>
+    <p>Served as a permanent research associate, embedded software developer, and technical team leader in the FSpace Laboratory, working on space technology research initiatives.</p>
   </article>
 
   <article class="experience-card">
-    <p class="experience-card__eyebrow">Research Engineering · 2008</p>
+    <p class="experience-card__eyebrow">Research Engineering · Aug 2008 - Aug 2009</p>
     <h3>TRON Laboratory</h3>
     <p class="experience-card__meta experience-card__meta--brand">
       <span class="experience-logo"><img src="/images/experience-logos/fpt-mark.png" alt="FPT logo"></span>
       <span>FPT Software, FPT Corporation · Hanoi, Vietnam</span>
     </p>
-    <p>Served as a research engineer in real-time operating system research and development.</p>
+    <p>Worked as an embedded system developer in real-time operating system research and development.</p>
+  </article>
+
+  <article class="experience-card">
+    <p class="experience-card__eyebrow">Graduate Research · Aug 2008 - Aug 2010</p>
+    <h3>Graduate Research Assistant</h3>
+    <p class="experience-card__meta experience-card__meta--brand">
+      <span class="experience-logo experience-logo--tall"><img src="/images/experience-logos/hust-logo.png" alt="Hanoi University of Science and Technology logo"></span>
+      <span>Hanoi University of Science and Technology (HUST) · Hanoi, Vietnam</span>
+    </p>
+    <p>Carried out graduate research alongside the master's programme in Mechatronics, including design and analysis work on the F-1 pico-satellite system.</p>
   </article>
 </div>
 
@@ -179,7 +203,7 @@ redirect_from:
       <span class="experience-logo experience-logo--seal"><img src="/images/experience-logos/kau-emblem.png" alt="Korea Aerospace University emblem"></span>
       <span>Korea Aerospace University · Department of Computer Engineering</span>
     </p>
-    <p>Completed doctoral research in the Embedded Systems and Network Security Laboratory under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>.</p>
+    <p>Completed doctoral research in the Network Security and Embedded Systems Laboratory (NS Lab.) under Prof. <a href="http://college.kau.ac.kr/web/pages/gc83710h.do">Jong Sou Park</a> and Prof. <a href="https://researchers.uq.edu.au/researcher/23703">Dong Seong Kim</a>. Graduated with a 4.0/4.0 GPA.</p>
   </article>
 
   <article class="experience-card">
@@ -189,7 +213,7 @@ redirect_from:
       <span class="experience-logo experience-logo--tall"><img src="/images/experience-logos/hust-logo.png" alt="Hanoi University of Science and Technology logo"></span>
       <span>Hanoi University of Science and Technology (HUST) · Hanoi, Vietnam</span>
     </p>
-    <p>Earned master's and bachelor's degrees under Prof. <a href="https://sme.hust.edu.vn/en/officer/prof-dinh-van-phong.html">Dinh Van Phong</a>, building the engineering foundation for later work in autonomous and intelligent systems.</p>
+    <p>Earned the B.Eng. (2003-2008) and M.Sc. (2008-2010) under Prof. <a href="https://sme.hust.edu.vn/vi/organs/person/Khoa-Co-dien-tu-12/GS-TS-GVCC-DINH-VAN-PHONG-123/">Dinh Van Phong</a>, with a master's thesis on the design and analysis of the F-1 pico-satellite system and a bachelor's thesis on simulating math-mechanic systems with the Open Dynamics Engine. This built the engineering foundation for later work in autonomous and intelligent systems.</p>
   </article>
 </div>
 
@@ -227,9 +251,9 @@ redirect_from:
 
 ## **In brief**  🌐📡💼
 
-Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) is currently Director of Robot Software and Control at VinDynamics in Hanoi Capital Region, Vietnam, a full-time role he began in March 2026. Since October 2024, he has also served remotely as a contract Lecturer of Software Engineering at Ho Chi Minh City University of Industry and Trade (HUIT). Previously, he was a Principal Engineer at Viettel Group in Hanoi, Vietnam, from June 2025 to February 2026, serving first in the High-Tech Industry Management Division and later at the Viettel Aviation Technology Center (VATC) from October 2025. Before that, he worked in computer science and system engineering research at the Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University, Seoul, South Korea, from July 2020 to June 2025. During this period, he served as the technical project leader for the “Artificial Intelligence Digital Twin Research for Urban Air Mobility (UAM)” project, funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He was formerly a professional member of AIAA, IEEE, the IEEE Computer Society, the IEEE Robotics and Automation Society (IEEE RAS), the IEEE Aerospace and Electronic Systems Society (IEEE AESS), and the IEEE Reliability Society.
+Tuan Anh Nguyen (Ph.D. ’15, M.Sc. ’10, B.Eng. ’08) is currently Director of Robot Control and Software and Robot Mobility Expert at VinDynamics, VinGroup, in the Hanoi Capital Region, Vietnam, a full-time role he began in March 2026. Since October 2024, he has also served remotely as a contract Lecturer in the Software Engineering Department, Faculty of Information Technology, at Ho Chi Minh City University of Industry and Trade (HUIT). Previously, he was at Viettel Group in Hanoi, Vietnam, from June 2025 to March 2026, first as a Principal Engineer in the High-Tech Industry Division and then, from October 2025, as Manager of Avionics System at the Viettel Aviation Technology Center (VATC). Before that, he worked in computer science and system engineering research at Konkuk University, Seoul, South Korea, from June 2020 to June 2025 — as a Senior Research Associate at the Konkuk Aerospace Design-Airworthiness Institute (KADA) until February 2021, and from March 2021 as Academic Research (Assistant) Professor in the Department of Artificial Intelligence, Graduate School, and at KADA. During this period, he served as the technical project leader and lead researcher for the “Artificial Intelligence Digital Twin Research for Smart Urban Air Mobility (UAM)” project, an Excellent Research Center project funded by the Korea National Research Foundation (NRF) for the period 2020–2029. He was formerly a professional member of AIAA, IEEE, the IEEE Computer Society, the IEEE Robotics and Automation Society (IEEE RAS), the IEEE Aerospace and Electronic Systems Society (IEEE AESS), and the IEEE Reliability Society.
 
-He earned his Ph.D. in Computer Science and Systems Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Previously, Dr. Nguyen worked in research at the Office of Research at the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to February 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to February 2016, and as a Ph.D. Research Associate in the Network Security and Systems Laboratory (NS Lab.) at Korea Aerospace University from 2011 to 2015. Additionally, he worked as a Research Engineer in the TRON Laboratory and the F-Space Laboratory at FPT Software and the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, in 2008 and 2009–2010, respectively.
+He earned his Ph.D. in Computer Science and System Engineering from the Department of Computer Engineering, Korea Aerospace University, in 2015. He received his M.Sc. and B.Eng. in Mechatronics from Hanoi University of Science and Technology (HUST) in 2010 and 2008, respectively. Previously, Dr. Nguyen held an Assistant Professor appointment at the Office for Research of the University-Industry Cooperation Foundation, Konkuk University, from March 2016 to March 2020. He served as a Post-doctoral Research Associate in the Distributed Multimedia Systems Laboratory (DMS Lab.) at Konkuk University from August 2015 to March 2016, and as a Graduate Researcher in the Network Security and Embedded Systems Laboratory (NS Lab.) at Korea Aerospace University from March 2011 to August 2015. Additionally, he worked as an Embedded System Developer in the TRON Laboratory at FPT Software from August 2008 to August 2009, and as a Permanent Research Associate and Technical Team Leader in the FSpace Laboratory at the FPT Technology Research Institute (FTRI) in Hanoi, Vietnam, from September 2009 to February 2011.
 
 ## **Contact**
 
@@ -246,7 +270,7 @@ He earned his Ph.D. in Computer Science and Systems Engineering from the Departm
   <article class="experience-card">
     <p class="experience-card__eyebrow">Office Address</p>
     <h3>VinDynamics</h3>
-    <p class="experience-card__meta">Floor 18, TechnoPark Tower, Vinhomes Ocean Park, Đa Tốn, Gia Lâm, Hanoi, Vietnam</p>
+    <p class="experience-card__meta">Floor 18, TechnoPark Tower, Vinhomes Ocean Park, Gia Lâm Commune, Hanoi, Vietnam</p>
     <p>Primary workplace and office location.</p>
   </article>
 </div>

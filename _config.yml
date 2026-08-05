@@ -45,6 +45,7 @@ social:
     - "https://github.com/anhnt2407"
     - "https://gitlab.com/anhnt2407"
     - "https://twitter.com/anhnt2407"
+    - "https://www.linkedin.com/in/anhnt2407"
 
 
 # Analytics
@@ -59,7 +60,7 @@ author:
   avatar           : "tuan-anh-nguyen-avatar.jpg"
   bio              : "Researcher in Computer Science with Specialization in Dependable, Autonomous and Intelligent Systems."
   location         : "Hanoi, Vietnam"
-  employer         :
+  employer         : "VinDynamics, VinGroup"
   pubmed           :
   orcid            : "https://orcid.org/0000-0002-9123-3584"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=q6gCa4cAAAAJ"
@@ -79,7 +80,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "anhnt2407"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
@@ -187,7 +188,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Ho_Chi_Minh # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
