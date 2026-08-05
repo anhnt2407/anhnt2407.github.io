@@ -206,6 +206,14 @@ SCENES = {
         "transparent holographic layer overlays that stream, filled with glowing annotation marks "
         "and branching comment threads in cyan, a few of them amber."
     ),
+    "061-internet-of-cognition": (
+        "A vast operations hall at night, a dark tiered floor, a few warm work lamps on stands. "
+        "Dozens of small separate luminous figures stand far apart across the floor, each sealed "
+        "inside its own small closed halo of cyan light. One enormous translucent dome of light "
+        "spans the whole hall above them; fine threads rise from every figure into the dome and "
+        "braid there into a single bright shared core, while a few threads near the edge fall "
+        "short and hang unconnected, glowing amber."
+    ),
 }
 
 
