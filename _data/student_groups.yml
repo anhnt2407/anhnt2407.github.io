@@ -1,0 +1,26 @@
+# Lab / faculty groupings for the supervision section of /teaching/.
+# `slug` must match the `group` field of entries in _data/students.yml.
+
+- slug: "huit"
+  label: "Faculty of Information Technology"
+  institution: "Ho Chi Minh City University of Industry and Trade (HUIT)"
+  location: "Ho Chi Minh City, Vietnam"
+  span: "2025 – 2026"
+  accent: "teal"
+  blurb: "Master's and engineer's theses on reinforcement learning for cloud scheduling and on real-time computer vision for traffic surveillance."
+
+- slug: "dms"
+  label: "Distributed Multimedia Systems Laboratory (DMS Lab.)"
+  institution: "Konkuk University"
+  location: "Seoul, South Korea"
+  span: "2015 – 2025"
+  accent: "indigo"
+  blurb: "A decade of theses on dependability modelling of cloud, edge and storage infrastructures, and later on deep reinforcement learning and large language models."
+
+- slug: "kada"
+  label: "Konkuk Aerospace Design-Airworthiness Institute (KADA)"
+  institution: "Konkuk University"
+  location: "Seoul, South Korea"
+  span: "2021 – 2023"
+  accent: "cyan"
+  blurb: "Theses grown out of the urban air mobility digital twin programme: eVTOL flight dynamics, transition scheduling, and immersive teleoperation."
