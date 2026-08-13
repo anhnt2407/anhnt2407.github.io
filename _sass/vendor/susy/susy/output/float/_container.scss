@@ -1,11 +1,3 @@
-// Float Container API
-// ===================
-
-// Float Container
-// ---------------
-// - [$width]         : <length>
-// - [$justify]       : left | center | right
-// - [$math]   : fluid | static
 @mixin float-container(
   $width,
   $justify: auto auto,

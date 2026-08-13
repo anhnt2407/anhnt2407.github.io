@@ -1,25 +1,11 @@
-// Row Start & End
-// ===============
-
-// Break
-// -----
-// Apply to any element that should force a line break.
 @mixin break {
   @include output((clear: both));
 }
 
-
-// NoBreak
-// -------
-// Cancel the break() effect, e.g. when using media queries.
 @mixin nobreak {
   @include output((clear: none));
 }
 
-
-// Full
-// ----
-// - [$context]: <layout shorthand>
 @mixin full(
   $context: $susy
 ) {
@@ -28,10 +14,6 @@
   @include span(full of parse-grid($context) break);
 }
 
-
-// First
-// -----
-// - [$context]: <settings>
 @mixin first(
   $context: $susy
 ) {
@@ -51,10 +33,6 @@
   @include first($context);
 }
 
-
-// Last
-// ----
-// - [$context]: <settings>
 @mixin last(
   $context: $susy
 ) {
@@ -78,10 +56,6 @@
   @include last($context);
 }
 
-
-// Get Edge
-// --------
-// Calculate edge value based on location, if possible
 @function get-edge(
   $span
 ) {
@@ -114,10 +88,6 @@
   @return $edge;
 }
 
-
-// Get Location
-// ------------
-// Calculate location value based on edge, if possible
 @function get-location(
   $span
 ) {

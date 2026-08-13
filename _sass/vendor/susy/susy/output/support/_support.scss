@@ -1,8 +1,3 @@
-// Browser Support
-// ===============
-
-// Susy Support Defaults
-// ---------------------
 @include susy-defaults((
   use-custom: (
     clearfix: false,
@@ -14,17 +9,10 @@
   ),
 ));
 
-
-// Susy Support [mixin]
-// --------------------
-// Send property-value pairs to the proper support modules.
-// - $prop  : <css property>
-// - $val   : <css value>
 @mixin susy-support(
   $prop,
   $val
 ) {
-  // Background Support
   @if $prop == background-image {
     @include susy-background-image($val);
   } @else if $prop == background-size {
@@ -35,26 +23,15 @@
     @include susy-background-clip($val);
   }
 
-  // Box-Sizing Support
   @else if $prop == box-sizing {
     @include susy-box-sizing($val);
   }
 
-  // Rem Support
   @else {
     @include susy-rem($prop, $val);
   }
 }
 
-
-// Susy Support [function]
-// -----------------------
-// Check for support of a feature.
-// - $feature       : <string>
-//                    - e.g "rem" or "box-sizing"
-// - $requirements  : <map>
-//                    - e.g (variable: rem-with-px-fallback, mixin: rem)
-// - $warn          : <bool>
 @function susy-support(
   $feature,
   $requirements: (),

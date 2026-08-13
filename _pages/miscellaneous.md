@@ -88,11 +88,7 @@ author_profile: true
   </div>
 </div>
 
-<script>
-/* Theme filter for Notes & Links.
-   Progressive enhancement: with JavaScript disabled every section stays
-   visible and the chips act as ordinary in-page anchors. */
-(function () {
+<script>(function () {
   var root = document.querySelector('.misc-root');
   if (!root) { return; }
   var filter = root.querySelector('#misc-filter');

@@ -1,6 +1,3 @@
-# Filter chips and the route panel on /teaching/. `slug` must match the
-# `institution` field of entries in _data/teaching.yml.
-
 - slug: "huit"
   label: "HUIT"
   full: "Ho Chi Minh City University of Industry and Trade"

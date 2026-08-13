@@ -29,12 +29,11 @@ RAW_DIR = REPO / "images" / "misc" / "_raw"
 OUT_DIR = REPO / "images" / "misc"
 
 MODEL = "Qwen/Qwen-Image"
-WIDTH, HEIGHT = 1664, 928          # the model's native 16:9 bucket
-FINAL_W, FINAL_H = 1200, 675       # what the page ships
+WIDTH, HEIGHT = 1664, 928
+FINAL_W, FINAL_H = 1200, 675
 STEPS = 50
 TRUE_CFG = 4.0
 
-# Applied to every prompt. Keeps the 23 covers reading as one set.
 STYLE = (
     "Cinematic 3D render with photographic realism, wide establishing shot, "
     "night or blue-hour dusk. A real physical environment lit by warm practical "
@@ -45,8 +44,6 @@ STYLE = (
     "Ultra HD, 4K, cinematic composition."
 )
 
-# Image models render lettering as garbage, and a misdrawn map or flag is worse
-# than none. Both are pushed out here rather than asked for in the positive.
 NEGATIVE = (
     "text, letters, words, writing, captions, numbers, digits, labels, "
     "watermark, signature, logo, brand, map, flag, national emblem, "
@@ -55,15 +52,10 @@ NEGATIVE = (
     "fire, flame, burning, smoke"
 )
 
-# Some scenes have a specific failure mode worth naming. Appended to NEGATIVE
-# for that slug only, so a ban needed by one cover cannot break another.
 EXTRA_NEGATIVE = {
-    # "layered planes" reads as aircraft here; the hangar still needs its UAV,
-    # so only the holographic layer is constrained.
     "058-assurance-standards": "flying aircraft, jet fighter, airliner, wings in the sky",
 }
 
-# slug -> the scene. Ordered to match the entry numbers in _data/misc_posts.yml.
 SCENES = {
     "038-sjr-quartiles": (
         "A vast library reading room at night, oak desks and green banker's lamps, "
@@ -216,22 +208,18 @@ SCENES = {
     ),
 }
 
-
 def build_prompt(scene: str) -> str:
     return f"{scene} {STYLE}"
-
 
 def seed_for(slug: str) -> int:
     """Stable per-slug seed so a rerun reproduces the same cover."""
     return int(slug.split("-")[0]) * 7919 + 20260804
 
-
 def to_webp(raw_path: Path, out_path: Path) -> None:
     from PIL import Image
 
     im = Image.open(raw_path).convert("RGB")
-    # The model's 16:9 bucket is 1664x928 (1.793); the page wants exactly 1.778.
-    # Trim the sides rather than squash the render.
+
     target = FINAL_W / FINAL_H
     w, h = im.size
     if w / h > target:
@@ -244,7 +232,6 @@ def to_webp(raw_path: Path, out_path: Path) -> None:
         im = im.crop((0, top, w, top + new_h))
     im = im.resize((FINAL_W, FINAL_H), Image.LANCZOS)
     im.save(out_path, "WEBP", quality=88, method=6)
-
 
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -283,9 +270,6 @@ def main() -> int:
     print(f"loading {MODEL} ...", flush=True)
     pipe = DiffusionPipeline.from_pretrained(MODEL, torch_dtype=torch.bfloat16)
 
-    # The 20B transformer plus a 7B text encoder needs roughly 60 GB resident.
-    # Keep everything on the card when it fits, and stream components on and
-    # off only when it does not.
     free, _total = torch.cuda.mem_get_info()
     if free / 1e9 >= 68:
         print(f"  {free/1e9:.0f} GB free - keeping pipeline resident", flush=True)
@@ -313,7 +297,6 @@ def main() -> int:
 
     print(f"\ndone: {len(slugs)} cover(s)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())

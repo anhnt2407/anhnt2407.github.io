@@ -1,12 +1,3 @@
-// Grid Syntax
-// ===========
-
-
-// Layout
-// ------
-// Set a new layout using a shorthand
-// - $layout: <settings>
-// - $clean: boolean
 @mixin layout(
   $layout,
   $clean: false
@@ -17,12 +8,6 @@
   @include susy-inspect(layout, $inspect);
 }
 
-
-// Use Grid
-// --------
-// Use an arbitrary layout for a section of code
-// - $layout: <settings>
-// - $clean: boolean
 @mixin with-layout(
   $layout,
   $clean: false
@@ -38,23 +23,12 @@
   $susy: $old !global;
 }
 
-
-// Layout
-// ------
-// Return a parsed layout map based on shorthand syntax
-// - $layout: <settings>
 @function layout(
   $layout: $susy
 ) {
   @return parse-grid($layout);
 }
 
-
-// Get Layout
-// ----------
-// Return a new layout based on current and given settings
-// - $layout: <settings>
-// - $clean: boolean
 @function _get-layout(
   $layout,
   $clean: false

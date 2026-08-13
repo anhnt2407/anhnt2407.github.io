@@ -1,6 +1,3 @@
-//////////////////////////////
-// Default Variables
-//////////////////////////////
 $Breakpoint-Settings: (
   'default media': all,
   'default feature': min-width,
@@ -20,9 +17,6 @@ $Breakpoint-Settings: (
 
 $breakpoint: () !default;
 
-//////////////////////////////
-// Imports
-//////////////////////////////
 @import "settings";
 @import "context";
 @import "helpers";
@@ -33,14 +27,9 @@ $breakpoint: () !default;
 
 @import "legacy-settings";
 
-//////////////////////////////
-// Breakpoint Mixin
-//////////////////////////////
-
 @mixin breakpoint($query, $no-query: false) {
   @include legacy-settings-warning;
 
-  // Reset contexts
   @include private-breakpoint-reset-contexts();
 
   $breakpoint: breakpoint($query, false);
@@ -51,7 +40,6 @@ $breakpoint: () !default;
   $private-breakpoint-context-holder: map-get($breakpoint, 'context holder') !global;
   $private-breakpoint-query-count: map-get($breakpoint, 'query count') !global;
 
-  // Allow for an as-needed override or usage of no query fallback.
   @if $no-query != false {
     $query-fallback: $no-query;
   }
@@ -60,7 +48,6 @@ $breakpoint: () !default;
     $context-setter: private-breakpoint-set-context('no-query', $query-fallback);
   }
 
-  // Print Out Query String
   @if not breakpoint-get('no queries') {
     @media #{$query-string} {
       @content;
@@ -68,7 +55,6 @@ $breakpoint: () !default;
   }
 
   @if breakpoint-get('no query fallbacks') != false or breakpoint-get('no queries') == true {
-
     $type: type-of(breakpoint-get('no query fallbacks'));
     $print: false;
 
@@ -88,7 +74,6 @@ $breakpoint: () !default;
       }
     }
 
-    // Write Fallback
     @if ($query-fallback != false) and ($print == true) {
       $type-fallback: type-of($query-fallback);
 
@@ -105,7 +90,6 @@ $breakpoint: () !default;
 
   @include private-breakpoint-reset-contexts();
 }
-
 
 @mixin mq($query, $no-query: false) {
   @include breakpoint($query, $no-query) {

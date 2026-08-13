@@ -1,10 +1,3 @@
-// Float Isolation API
-// ===================
-
-// Isolate Output
-// --------------
-// - $push    : <length>
-// - [$flow]  : ltr | rtl
 @mixin isolate-output(
   $push,
   $flow: map-get($susy-defaults, flow)

@@ -1,11 +1,3 @@
-// Padding API
-// ===========
-
-// Padding Output
-// --------------
-// - $before  : <length>
-// - $after   : <length>
-// - [$flow]  : ltr | rtl
 @mixin padding-output(
   $before,
   $after,

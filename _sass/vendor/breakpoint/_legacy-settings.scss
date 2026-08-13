@@ -17,9 +17,6 @@
     }
   };
 
-  //////////////////////////////
-  // Hand correct each setting
-  //////////////////////////////
   @if global-variable-exists('breakpoint-default-media') and $breakpoint-default-media != breakpoint-get('default media') {
     @include breakpoint-set('default media', $breakpoint-default-media);
   }

@@ -1,11 +1,3 @@
-/* ==========================================================================
-   SIDEBAR
-   ========================================================================== */
-
-/*
-   Default
-   ========================================================================== */
-
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
@@ -23,7 +15,6 @@
       opacity: 1;
     }
   }
-
 
   @include breakpoint($x-large) {
     padding-right: 0;
@@ -51,7 +42,7 @@
 
 .sidebar__right {
   margin-bottom: 1em;
-  
+
   @include breakpoint($large) {
     position: sticky !important;
     float: right !important;
@@ -65,16 +56,10 @@
   }
 }
 
-/*
-   Author profile and links
-   ========================================================================== */
-
 .author__avatar {
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
   @include breakpoint($large) {
     display: block;

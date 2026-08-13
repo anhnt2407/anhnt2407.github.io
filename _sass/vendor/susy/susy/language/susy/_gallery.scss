@@ -1,11 +1,3 @@
-// Gallery Syntax
-// ==============
-
-// Gallery
-// -------
-// Create an isolated gallery
-// - $span        : <span>
-// - [$selector]  : child | of-type
 @mixin gallery(
   $span,
   $selector: child
@@ -51,7 +43,6 @@
 
   @include susy-inspect(gallery, $inspect);
 
-  // Collective Output
   @if $box == border-box or ($inside and not($box) and not($global-box)) {
     @include output((box-sizing: border-box));
   } @else if $box == content-box {
@@ -60,11 +51,9 @@
 
   @include float-span-output($output...);
 
-  // Individual Loop
   @for $item from 1 through $line {
     $nth: '#{$line}n + #{$item}';
     &:nth-#{$selector}(#{$nth}) {
-      // Individual Prep
       $output: (
         width             : if($symmetrical, null, get-span-width($span)),
         float             : null,
@@ -75,7 +64,6 @@
         flow              : $flow,
       );
 
-      // Individual Output
       @include float-span-output($output...);
 
       @if get-edge($span) == first {
@@ -85,7 +73,6 @@
         @include nobreak;
       }
 
-      // Individual Location Increment
       $location: get-location($span) + $n;
       $location: if($location > $context, 1, $location);
       $span: map-merge($span, (location: $location));

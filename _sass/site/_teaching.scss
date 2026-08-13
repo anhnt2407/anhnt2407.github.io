@@ -1,14 +1,8 @@
-/* ==========================================================================
-   Teaching and supervision: hero, filter, timeline, people
-   ========================================================================== */
-
 .teach-root {
   display: grid;
   gap: 1.25rem;
 }
 
-/* The page lives inside `.archive`, whose element selectors would otherwise
-   win on tie-break for every paragraph, list and definition list below. */
 .teach-root p,
 .teach-root li,
 .teach-root dt,
@@ -35,8 +29,6 @@
   font-size: clamp(1.06rem, 1.5vw, 1.28rem);
   line-height: 1.24;
 }
-
-/* ---- Hero ----------------------------------------------------------- */
 
 .teach-hero {
   display: grid;
@@ -130,8 +122,6 @@
   line-height: 1.55;
 }
 
-/* ---- Hero route panel (dark, mirrors the Misc cover palette) --------- */
-
 .teach-hero__panel {
   position: relative;
   display: flex;
@@ -186,8 +176,6 @@
   margin: 0;
 }
 
-/* One continuous rail behind the stops, so the flags can sit anywhere on it
-   however far `space-between` pushes them apart. */
 .teach-route::before {
   content: "";
   position: absolute;
@@ -253,8 +241,6 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* ---- Section headings ----------------------------------------------- */
-
 .teach-root .teach-heading {
   display: flex;
   align-items: baseline;
@@ -283,8 +269,6 @@
   font-size: 1rem;
   line-height: 1.66;
 }
-
-/* ---- Facet filter ---------------------------------------------------- */
 
 .teach-filter {
   display: grid;
@@ -397,7 +381,6 @@
   background: rgba(15, 76, 129, 0.07);
 }
 
-/* Announced to assistive tech only. */
 .teach-filter__status {
   position: absolute;
   width: 1px;
@@ -410,8 +393,6 @@
   clip-path: inset(50%);
   white-space: nowrap;
 }
-
-/* ---- Year timeline --------------------------------------------------- */
 
 .teach-timeline {
   display: grid;
@@ -508,8 +489,6 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.95rem;
 }
-
-/* ---- Course card ----------------------------------------------------- */
 
 .teach-course {
   --teach-accent: #4fb8ff;
@@ -773,8 +752,6 @@
   font-variant-numeric: tabular-nums;
 }
 
-/* ---- Supervision ----------------------------------------------------- */
-
 .teach-degree-tally {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
@@ -1035,8 +1012,6 @@
   color: var(--accent-dark);
 }
 
-/* ---- Alumni destinations --------------------------------------------- */
-
 .teach-alumni {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
@@ -1091,8 +1066,6 @@
   line-height: 1.5;
 }
 
-/* ---- Beyond the course list ------------------------------------------ */
-
 .teach-notes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
@@ -1146,7 +1119,6 @@
   line-height: 1.62;
 }
 
-/* Deep-link target for the publication identifiers used above. */
 .pub-tag {
   scroll-margin-top: 7rem;
 }

@@ -1,10 +1,3 @@
-// Background Properties
-// =====================
-
-// Susy Background Image
-// ---------------------
-// Check for an existing support mixin, or provide a simple fallback.
-// - $image: <background-image>
 @mixin susy-background-image(
   $image
 ) {
@@ -15,10 +8,6 @@
   }
 }
 
-// Susy Background Size
-// ---------------------
-// Check for an existing support mixin, or provide a simple fallback.
-// - $image: <background-size>
 @mixin susy-background-size(
   $size
 ) {
@@ -29,10 +18,6 @@
   }
 }
 
-// Susy Background Origin
-// ----------------------
-// Check for an existing support mixin, or provide a simple fallback.
-// - $image: <background-origin>
 @mixin susy-background-origin(
   $origin
 ) {
@@ -43,10 +28,6 @@
   }
 }
 
-// Susy Background Clip
-// --------------------
-// Check for an existing support mixin, or provide a simple fallback.
-// - $image: <background-clip>
 @mixin susy-background-clip(
   $clip
 ) {

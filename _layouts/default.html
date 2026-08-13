@@ -12,8 +12,6 @@ layout: compress
   </head>
 
   <body class="{% if page.url == '/' %}home-page {% endif %}{% if page.url == '/news/' %}news-page {% endif %}{% if page.url == '/research/' %}research-page {% endif %}{% if page.url == '/publications/' %}publications-page {% endif %}{% if page.url == '/teaching/' %}teaching-page {% endif %}{% if page.url == '/miscellaneous/' %}misc-page {% endif %}{% if page.url == '/collaborators/' %}collaborators-page {% endif %}{% if page.layout %}layout-{{ page.layout }}{% endif %}">
-
-    {% include browser-upgrade.html %}
     {% include masthead.html %}
 
     {{ content }}

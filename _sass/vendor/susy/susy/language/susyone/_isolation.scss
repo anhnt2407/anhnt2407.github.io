@@ -1,11 +1,3 @@
-// ---------------------------------------------------------------------------
-// Isolation
-
-// Isolate the position of a grid element (use in addition to span-columns)
-//
-// $location  : The grid column to isolate in, relative to the container;
-// $context   : [optional] The context (columns spanned by parent).
-// $from      : The start direction of your layout (e.g. 'left' for ltr languages)
 @mixin isolate(
   $location,
   $context: $total-columns,
@@ -17,12 +9,6 @@
   margin-#{$from}: space($location - 1, $context, $style);
 }
 
-// Isolate a group of elements in a grid, using nth-child selectors
-//
-// $columns       : The column-width of each item on the grid;
-// $context       : [optional] The context (columns spanned by parent).
-// $selector      : [child | of-type | last-of-type ] (default is 'child')
-// $from          : The start direction of your layout (e.g. 'left' for ltr languages)
 @mixin isolate-grid(
   $columns,
   $context: $total-columns,

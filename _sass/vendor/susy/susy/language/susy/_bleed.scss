@@ -1,10 +1,3 @@
-// Bleed Syntax
-// ============
-
-// Bleed
-// -----
-// Add negative margins, and equal positive padding to create bleed.
-// - $bleed  : <span>
 @mixin bleed(
   $bleed: 0 gutter()
 ) {
@@ -19,11 +12,6 @@
   @include output($output);
 }
 
-
-// Bleed-x
-// -------
-// Shortcut for horizontal bleed.
-// - $bleed  : <span>
 @mixin bleed-x(
   $bleed: gutter()
 ) {
@@ -41,11 +29,6 @@
   @include bleed($bleed);
 }
 
-
-// Bleed-y
-// -------
-// Shortcut for vertical bleed.
-// - $bleed  : <span>
 @mixin bleed-y(
   $bleed: if(function-exists(rhythm), rhythm(1), 1em)
 ) {
@@ -63,11 +46,6 @@
   @include bleed($bleed);
 }
 
-
-// Get Bleed
-// ---------
-// Return bleed output values
-// - $bleed: <span>
 @function get-bleed(
   $bleed
 ) {
@@ -140,10 +118,6 @@
   @return bleed-shorthand($output);
 }
 
-// Bleed Shorthand
-// ---------------
-// Convert bleed output into shorthand when possible.
-// - $bleed: <output map>
 @function bleed-shorthand(
   $bleed
 ) {

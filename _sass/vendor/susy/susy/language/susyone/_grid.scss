@@ -1,25 +1,11 @@
-// ---------------------------------------------------------------------------
-// Imports
-
 @import "compass/utilities/general/clearfix";
 @import "compass/css3/box-sizing";
 
-// ---------------------------------------------------------------------------
-// Border-Box Sizing
-
-// Apply the border-box sizing model to all elements
-// and adjust the grid math appropriately.
 @mixin border-box-sizing {
   $border-box-sizing: true !global;
   * { @include box-sizing(border-box); }
 }
 
-// ---------------------------------------------------------------------------
-// Container
-
-// Set the width of a container
-//
-//  $columns  : The number of columns in the Grid Layout.
 @mixin set-container-width(
   $columns  : $total-columns,
   $style    : $container-style,
@@ -60,9 +46,6 @@
   }
 }
 
-// Set the outer grid-containing element(s).
-//
-//  $columns  : The number of columns in the container.
 @mixin apply-container(
   $columns  : $total-columns,
   $px-vals  : $pixel-values-only
@@ -79,12 +62,6 @@
   margin: { left: auto; right: auto; }
 }
 
-// Set one or more layouts on a grid-containing element at any number of media-query breakpoints.
-//
-// $media-layout-1        : [default:$total-columns] A list of values including -
-//                        : One unitless number (representing columns in a layout)
-//                        : Two optional lengths (representing min and max-width media-query breakpoints).
-// $media-layout-2 ...-10 : [optional] Same as $media-layout-1
 @mixin container(
   $media-layouts...
 ){
@@ -101,19 +78,6 @@
   }
 }
 
-// ---------------------------------------------------------------------------
-// Columns
-
-// Create a grid element spanning any number of 'columns' in a grid 'context'.
-// $columns : The number of columns to span.
-// $context : [optional] The context (columns spanned by parent).
-//          : Context is required on any nested elements.
-//          : Context MUST NOT be declared on a root element.
-// $padding : [optional] Padding applied to the inside of individual grid columns.
-//          : Padding is only output if one or two values are specified (e.g. 1em or 10px 20px)
-//          : Padding values are applied only on the horizontal axis in from-to order
-// $from    : The start direction of your layout (e.g. 'left' for ltr languages)
-// $style   : The container style to use.
 @mixin span-columns(
   $columns,
   $context       : $total-columns,
@@ -157,10 +121,6 @@
   }
 }
 
-// Apply to elements spanning the last column, to account for the page edge.
-// Only needed as an override. Normally 'omega' can just be called by `columns`.
-//
-// $from    : The start-direction for your document.
 @mixin omega(
   $from     : $from-direction
 ) {
@@ -179,11 +139,6 @@
   }
 }
 
-// Shortcut to apply omega to a specific subset of elements.
-//
-// $n         : [first | only | last | <equation>]
-// $selector  : [child | last-child | of-type | last-of-type ]
-// $from      : The start-direction for your document.
 @mixin nth-omega(
   $n        : last,
   $selector : child,
@@ -202,14 +157,6 @@
   }
 }
 
-
-
-// ---------------------------------------------------------------------------
-// Resets
-
-// Reset a '+columns' grid element to default block behavior
-//
-// $from  : The start direction of your layout (e.g. 'left' for ltr languages)
 @mixin reset-columns(
   $from: $from-direction
 ) {
@@ -229,12 +176,6 @@
   }
 }
 
-// Apply to elements previously set as omega.
-// This will return floats and margins back to non-omega settigns.
-//
-// $context : [optional] The context (columns spanned by parent).
-// $from    : The start-direction for your document.
-// $style   : The container style to use.
 @mixin remove-omega(
   $context  : $total-columns,
   $from     : $from-direction,
@@ -252,13 +193,6 @@
   }
 }
 
-// Shortcut to apply remove-omega to a specific subset of elements.
-//
-// $n         : [first | only | last | <equation>]
-// $selector  : [child | last-child | of-type | last-of-type ]
-// $context   : [optional] The context (columns spanned by parent).
-// $from      : The start-direction for your document.
-// $style     : The container style to use.
 @mixin remove-nth-omega(
   $n        : last,
   $selector : child,
@@ -279,32 +213,24 @@
   }
 }
 
-
-// ---------------------------------------------------------------------------
-// Change Settings
-
 @mixin with-grid-settings(
   $columns: $total-columns,
   $width: $column-width,
   $gutter: $gutter-width,
   $padding: $grid-padding
 ) {
-  // keep the defaults around
   $default-columns: $total-columns;
   $default-width: $column-width;
   $default-gutter: $gutter-width;
   $default-padding: $grid-padding;
 
-  // use the new settings
   $total-columns: $columns !global;
   $column-width: $width !global;
   $gutter-width: $gutter !global;
   $grid-padding: $padding !global;
 
-  // apply to contents
   @content;
 
-  // re-instate the defaults
   $total-columns: $default-columns !global;
   $column-width: $default-width !global;
   $gutter-width: $default-gutter !global;

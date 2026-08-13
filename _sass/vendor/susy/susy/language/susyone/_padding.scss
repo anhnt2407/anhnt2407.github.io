@@ -1,13 +1,3 @@
-// ---------------------------------------------------------------------------
-// Padding Mixins
-
-// add empty colums as padding before an element.
-// $columns : The number of columns to prefix.
-// $context : [optional] The context (columns spanned by parent).
-//          : Context is required on any nested elements.
-//          : Context MUST NOT be declared on a root element.
-// $from    : The start direction of your layout (e.g. 'left' for ltr languages)
-// $style   : The container style to use.
 @mixin prefix(
   $columns,
   $context  : $total-columns,
@@ -18,13 +8,6 @@
   padding-#{$from}: space($columns, $context, $style);
 }
 
-// add empty colums as padding after an element.
-// $columns : The number of columns to suffix.
-// $context : [optional] The context (columns spanned by parent).
-//          : Context is required on any nested elements.
-//          : Context MUST NOT be declared on a root element.
-// $from    : The start direction of your layout (e.g. 'left' for ltr languages)
-// $style   : The container style to use.
 @mixin suffix(
   $columns,
   $context  : $total-columns,
@@ -36,13 +19,6 @@
   padding-#{$to}: space($columns, $context, $style);
 }
 
-// add empty colums as padding before and after an element.
-// $columns : The number of columns to pad.
-// $context : [optional] The context (columns spanned by parent).
-//          : Context is required on any nested elements.
-//          : Context MUST NOT be declared on a root element.
-// $from    : The start direction of your layout (e.g. 'left' for ltr languages)
-// $style   : The container style to use.
 @mixin pad(
   $prefix   : false,
   $suffix   : false,
@@ -59,13 +35,6 @@
   }
 }
 
-// Bleed into colums with margin/padding on any side of an element.
-// $width   : The side of the bleed.
-//          : Any unit-length will be used directly.
-//          : Any unitless number will be used as a column-count.
-//          : Use "2 of 6" format to represent 2 cals in a 6-col nested context.
-// $sides   : One or more sides to bleed [ top | right | bottom | left | all ].
-// $style   : The container style to use.
 @mixin bleed(
   $width: $grid-padding,
   $sides: left right,
