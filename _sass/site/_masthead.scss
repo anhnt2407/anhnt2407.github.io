@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Sticky masthead and the greedy navigation bar
+   ========================================================================== */
+
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: rgba(247, 250, 252, 0.92);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(15, 76, 129, 0.08);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.04);
+}
+
+.masthead__inner-wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.masthead__menu {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.greedy-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+  width: 100%;
+  background: transparent;
+}
+
+.greedy-nav a {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  color: var(--text-strong);
+  margin: 0;
+  padding: 0.8rem 1rem;
+  border-radius: 16px;
+  transition: background-color 0.18s ease, color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.greedy-nav a:hover {
+  color: var(--accent-dark);
+  background: rgba(15, 76, 129, 0.08);
+}
+
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  gap: 0.35rem;
+}
+
+.greedy-nav .visible-links li {
+  display: block;
+}
+
+.greedy-nav button {
+  position: relative;
+  right: auto;
+  height: auto;
+  margin-left: auto;
+  order: 2;
+  padding: 0.7rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--accent-dark), var(--accent));
+  box-shadow: 0 12px 24px rgba(11, 52, 87, 0.18);
+}
+
+@include breakpoint($large) {
+  .greedy-nav button {
+    display: none;
+  }
+
+  .greedy-nav .hidden-links {
+    display: none !important;
+  }
+
+  .greedy-nav .visible-links {
+    display: flex !important;
+  }
+}
+
+.masthead__menu-item.is-active a {
+  color: var(--accent-dark);
+  background: rgba(15, 76, 129, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(15, 76, 129, 0.08);
+}
+
+.masthead__menu-item.is-active a::after {
+  display: none;
+}
+
+.greedy-nav .hidden-links {
+  margin-top: 0.8rem;
+  border: 1px solid rgba(15, 76, 129, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: var(--shadow-soft);
+}
+
+.greedy-nav .hidden-links a {
+  border-radius: 12px;
+}

@@ -96,47 +96,28 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .vs
+  # editor and build tooling that must never reach the built site
   - .vscode
-  - CHANGELOG
-  - Capfile
+  - .sass-cache
+  - .jekyll-assets-cache
+  - node_modules
+  - vendor
   - Gemfile
-  - Gruntfile.js
+  - Gemfile.lock
+  # repository files that are not site content
   - LICENSE
-  - README
-  - Rakefile
+  - README.md
+  - package.json
+  - scripts
+  # unminified sources; assets/js/main.min.js is the file that ships
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
   - _drafts
-  - _source
-  - config
-  - gulpfile.js
-  - log
-  - node_modules
-  - package.json
-  - data
-  - files
-  - images/posts
-  - images/software
-  - images/teaching
-  - images/research
-  - markdown_generator
-  - talkmap
-  - tmp
-  - vendor
 keep_files:
   - .git
-  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 

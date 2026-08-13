@@ -1,0 +1,77 @@
+/* ==========================================================================
+   Research track cards
+   ========================================================================== */
+
+.home-focus-grid,
+.research-track-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 0 0 1.5rem;
+}
+
+.home-focus-card,
+.research-track-card {
+  display: block;
+  padding: 1.05rem 1rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(245, 248, 251, 0.98));
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.05);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.home-focus-card:hover,
+.research-track-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(15, 76, 129, 0.28);
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.1);
+}
+
+.home-focus-card__eyebrow,
+.research-track-card__eyebrow {
+  display: inline-flex;
+  margin-bottom: 0.62rem;
+  padding: 0.28rem 0.55rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+.home-focus-card h3,
+.research-track-card h2 {
+  margin: 0 0 0.55rem;
+  padding: 0;
+  border: 0;
+  font-size: 1.18rem;
+  line-height: 1.16;
+}
+
+.home-focus-card p,
+.research-track-card p {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.62;
+}
+
+.publications-page .archive > p,
+.misc-page .archive > p,
+.collaborators-page .archive > p,
+.research-page .archive > p,
+.news-page .archive > p {
+  max-width: 72rem;
+}
+
+.news-page .archive h2 {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.news-page .archive h3 {
+  margin-top: 1.25rem;
+}

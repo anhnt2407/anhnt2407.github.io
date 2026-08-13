@@ -1,0 +1,124 @@
+/* ==========================================================================
+   Design tokens, base typography and small helpers
+   ========================================================================== */
+
+/*
+   Visibility
+   ========================================================================== */
+
+.zoom{
+  /* default button */
+
+  &:hover {
+    transform: scale(1.25);
+  }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* overlay effect (full height and width) - lays on top of the container */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: $dark-gray;
+}
+
+/* When you mouse over the container, fade in the overlay */
+.container:hover .overlay {
+  opacity: 0.25;
+}
+
+/*
+   Author avatar
+   ========================================================================== */
+
+div.author__avatar {
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid $border-color;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  @include breakpoint($large) {
+    width: 175px;
+    height: 175px;
+  }
+}
+
+.author__avatar > .author__avatar-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*
+   Design system
+   ========================================================================== */
+
+:root {
+  --site-bg: #eef4f8;
+  --site-bg-soft: #f7fafc;
+  --surface: #ffffff;
+  --surface-muted: #f5f8fb;
+  --text-strong: #1d2736;
+  --text-muted: #586577;
+  --accent: #0f4c81;
+  --accent-dark: #0b3457;
+  --accent-soft: rgba(15, 76, 129, 0.1);
+  --border-soft: rgba(15, 76, 129, 0.12);
+  --shadow-soft: 0 20px 48px rgba(15, 23, 42, 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  color: var(--text-strong);
+  background:
+    radial-gradient(circle at top left, rgba(15, 76, 129, 0.1), transparent 26rem),
+    linear-gradient(180deg, var(--site-bg-soft) 0%, var(--site-bg) 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Serif 4", serif;
+  color: var(--text-strong);
+  letter-spacing: -0.02em;
+}
+
+p,
+li {
+  color: var(--text-muted);
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: var(--accent-dark);
+}

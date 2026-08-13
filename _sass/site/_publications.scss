@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Publication identifier tags
+   ========================================================================== */
+
+.pub-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.3rem;
+  margin-right: 0.35rem;
+  padding: 0.22rem 0.5rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  font-size: 0.76rem;
+  font-weight: 800;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pub-tag--conference {
+  background: rgba(18, 120, 92, 0.12);
+  color: #0f6b55;
+}
+
+.pub-tag--book {
+  background: rgba(190, 138, 24, 0.16);
+  color: #8b6408;
+}
