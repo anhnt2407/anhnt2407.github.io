@@ -46,7 +46,7 @@ Deep and multi-agent reinforcement learning, neural control, physics-informed an
 
 7. <span class="pub-tag" id="pub-J20">[J20]</span> Kaliappan, V. K., Nguyen, T. A., Min, D., Lee, J.-W., & Sakthi, U. (2022). **Steering Behavior-based Multiple RUAV Obstacle Avoidance Control**. *Intelligent Automation & Soft Computing*, 34(1), 575--591. [doi:10.32604/iasc.2022.024577](https://doi.org/10.32604/iasc.2022.024577). (SCIE, JCR.Q3 Automation & Control., Ranking 44/64, IF2020=1.647) [2022-01-01]
 
-8. <span class="pub-tag" id="pub-J09">[J09]</span> Maw, A. A., Tyan, M., Nguyen, T. A., & Lee, J.-W. (2021). **iADA*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV.** *Applied Sciences*, 11(9). [doi:10.3390/app11093948](https://doi.org/10.3390/app11093948). (SCIE, JCR.Q2 Engineering, 32/91, IF2019=2.474) [2021-04-27]
+8. <span class="pub-tag" id="pub-J09">[J09]</span> Maw, A. A., Tyan, M., Nguyen, T. A., & Lee, J.-W. (2021). **iADA\*-RL: Anytime Graph-Based Path Planning with Deep Reinforcement Learning for an Autonomous UAV.** *Applied Sciences*, 11(9). [doi:10.3390/app11093948](https://doi.org/10.3390/app11093948). (SCIE, JCR.Q2 Engineering, 32/91, IF2019=2.474) [2021-04-27]
 
 *Conference and preprint publications*
 
@@ -154,7 +154,7 @@ Data centers, virtualized servers, SDN, storage systems, cloud-fog-edge environm
 
 56. <span class="pub-tag pub-tag--conference" id="pub-C21">[C21]</span> Araújo, G., Brito, C., Correia, L., Nguyen, T. A., Lee, J., & Silva, F. (2022). **Mobile Games at the Edge: A Performance Evaluation to Guide Resource Capacity Planning.** In: *12th International Conference on Cloud Computing and Services Science (CLOSER)*, 238--245. [doi:10.5220/0011071200003200](https://doi.org/10.5220/0011071200003200). [2022-01-01]
 
-57. <span class="pub-tag pub-tag--conference" id="pub-C13">[C13]</span> Zou, L., Rui, X., Nguyen, T. A., Min, D., Choi, E., Tran, D. T., & Nguyen, N. S. (2018). **A Scalable Network Area Storage with Virtualization: Modeling and Evaluation using Stochastic Reward Nets**. In: *ICISS '18*, Jeju, Republic of Korea. [doi:10.1145/3209914.3209918](https://doi.org/10.1145/3209914.3209918). [2018-04-27]
+57. <span class="pub-tag pub-tag--conference" id="pub-C13">[C13]</span> Zou, L., Rui, X., Nguyen, T. A., Min, D., Choi, E., Tran, D. T., & Nguyen, N. S. (2018). **A Scalable Network Area Storage with Virtualization: Modeling and Evaluation using Stochastic Reward Nets**. In: *ICISS &rsquo;18*, Jeju, Republic of Korea. [doi:10.1145/3209914.3209918](https://doi.org/10.1145/3209914.3209918). [2018-04-27]
 
 58. <span class="pub-tag pub-tag--conference" id="pub-C12">[C12]</span> Nguyen, T. A., Min, D., & Choi, E. (2017). **Reliability and Availability Modeling of Fog Computing based IoT System**. In: *The 5th International Conference on Big Data Applications and Services (BIGDAS 2017)*, Jeju Island, South Korea. [2017-08-15]
 

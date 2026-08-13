@@ -289,7 +289,7 @@ This MetaCom 2025 short paper expands digital-twin evaluation beyond realism and
 - This perspective is important because operational twin platforms degrade under sustained service time, not only under single-shot test conditions.
 - It strengthens the bridge between digital-twin fidelity and trustworthy long-duration experimentation for AAM.
 
-**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00020), [accepted papers](https://ieee-metacom.org/accept-papers.html)).
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00020), [MetaCom proceedings](https://ieeexplore.ieee.org/xpl/conhome/1850969/all-proceedings)).
 
 ---
 <p class="news-date">August 27, 2025</p>
@@ -315,7 +315,7 @@ Persistent metaverse environments depend on storage systems that keep state avai
 - That placement reflects the architectural significance of storage availability for immersive services, digital assets, and synchronized state.
 - The result is a stronger basis for reasoning about resilience in metaverse infrastructures before deployment.
 
-**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00039), [MetaCom program](https://ieee-metacom.org/program.html)).
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00039), [MetaCom proceedings](https://ieeexplore.ieee.org/xpl/conhome/1850969/all-proceedings)).
 
 ---
 <p class="news-date">August 27, 2025</p>
@@ -341,7 +341,7 @@ This MetaCom 2025 workshop paper focuses on one of robotics' most practical bott
 - Sim-to-real transfer remains a central barrier in robotic learning systems, especially when moving from controlled simulation to messy physical environments.
 - This paper makes the metaverse framing operational by tying it directly to deployable robot-control practice.
 
-**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00008), [MetaCom program](https://ieee-metacom.org/program.html)).
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00008), [MetaCom proceedings](https://ieeexplore.ieee.org/xpl/conhome/1850969/all-proceedings)).
 
 ---
 <p class="news-date">August 27, 2025</p>
@@ -367,7 +367,7 @@ As metaverse platforms become more programmable, security questions move closer 
 - That positioning shows the work is not only about language models, but about securing programmable metaverse ecosystems.
 - The paper therefore points toward a practical developer-security workflow for safer code handling in immersive platforms.
 
-**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00057), [MetaCom program](https://ieee-metacom.org/program.html)).
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00057), [MetaCom proceedings](https://ieeexplore.ieee.org/xpl/conhome/1850969/all-proceedings)).
 
 ---
 <p class="news-date">August 27, 2025</p>
@@ -393,7 +393,7 @@ This workshop paper treats prompting not as a one-off instruction-writing trick,
 - In practice, metaverse tasks are heterogeneous, so prompt behavior often needs to be tuned across contexts instead of reused unchanged.
 - This makes the paper especially relevant for robust, reusable LLM tooling in interactive virtual environments.
 
-**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00009), [MetaCom program](https://ieee-metacom.org/program.html)).
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00009), [MetaCom proceedings](https://ieeexplore.ieee.org/xpl/conhome/1850969/all-proceedings)).
 
 ---
 <p class="news-date">August 27, 2025</p>
@@ -419,7 +419,7 @@ This MetaCom 2025 paper introduces **PGELU**, a parametric GELU variant designed
 - That context underscores the paper's relevance to practical AI architectures in immersive environments.
 - The work is therefore meaningful not only as a new activation variant, but as a systems-oriented attempt to stabilize mixed perception workloads.
 
-**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00044), [MetaCom program](https://ieee-metacom.org/program.html)).
+**Publication record:** Published on August 27, 2025 in the *Proceedings of the 2025 International Conference on Metaverse Computing, Networking and Applications (MetaCom)* ([DOI](https://doi.org/10.1109/metacom65502.2025.00044), [MetaCom proceedings](https://ieeexplore.ieee.org/xpl/conhome/1850969/all-proceedings)).
 
 ---
 <p class="news-date">August 1, 2025</p>

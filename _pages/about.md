@@ -240,7 +240,7 @@ redirect_from:
 <div class="experience-highlight-grid">
   <article class="experience-note">
     <p class="experience-note__eyebrow">Advisor Context</p>
-    <p>Prof. Dong Seong Kim’s postdoctoral advisor was <a href="https://www.google.com/url?q=https%3A%2F%2Fece.duke.edu%2Ffaculty%2Fkishor-trivedi&sa=D&sntz=1&usg=AFQjCNFbOKBMwU9THL6jJI0bZu8R0SaRVQ">Kishor S. Trivedi</a>, Hudson Distinguished Professor of Electrical and Computer Engineering at Duke University.</p>
+    <p>Prof. Dong Seong Kim’s postdoctoral advisor was <a href="https://trivedi.pratt.duke.edu/people/kishor-trivedi">Kishor S. Trivedi</a>, Hudson Distinguished Professor of Electrical and Computer Engineering at Duke University.</p>
   </article>
 
   <article class="experience-note">
