@@ -40,4 +40,19 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-@import "custom";
+// This site's own styles, one partial per area of the site. Order matters:
+// foundation defines the design tokens everything else uses, and responsive
+// carries the breakpoint overrides so it has to come last.
+@import "site/foundation";
+@import "site/masthead";
+@import "site/layout";
+@import "site/home";
+@import "site/research";
+@import "site/news";
+@import "site/experience";
+@import "site/publications";
+@import "site/collaborators";
+@import "site/misc";
+@import "site/footer";
+@import "site/teaching";
+@import "site/responsive";

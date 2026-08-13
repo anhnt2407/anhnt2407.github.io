@@ -1,0 +1,238 @@
+/* ==========================================================================
+   Page shell, article surfaces and the author sidebar
+   ========================================================================== */
+
+#main {
+  max-width: 1400px;
+  margin: 2rem auto 0;
+  padding: 0 1rem 2.5rem;
+}
+
+@include breakpoint($large) {
+  #main {
+    display: grid;
+    grid-template-columns: minmax(215px, 235px) minmax(0, 1fr);
+    gap: 1.5rem clamp(1.5rem, 2vw, 2.25rem);
+    align-items: start;
+  }
+
+  #main > .sidebar,
+  #main > .archive,
+  #main > .page {
+    float: none;
+    width: auto;
+    margin: 0;
+  }
+
+  #main > .sidebar {
+    max-width: 235px;
+  }
+
+  #main > .archive,
+  #main > .page {
+    min-width: 0;
+  }
+}
+
+.page,
+.archive {
+  background: var(--surface);
+  border: 1px solid var(--border-soft);
+  border-radius: 30px;
+  box-shadow: var(--shadow-soft);
+}
+
+.page {
+  padding: clamp(1.5rem, 2.5vw, 2.5rem);
+}
+
+.archive {
+  padding: clamp(1.5rem, 2.5vw, 2.5rem);
+}
+
+.page__inner-wrap {
+  padding: 0;
+}
+
+.page__title,
+.archive .page__title {
+  margin-bottom: 1rem;
+  font-size: clamp(2.3rem, 4vw, 4rem);
+  line-height: 1.04;
+}
+
+.page__content h2,
+.archive h2 {
+  margin-top: 2.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(15, 76, 129, 0.12);
+  font-size: clamp(1.55rem, 2.5vw, 2rem);
+}
+
+.page__content h3,
+.archive h3 {
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+}
+
+.page__content p,
+.archive p,
+.page__content li,
+.archive li {
+  font-size: 1.06rem;
+  line-height: 1.78;
+}
+
+.page__content ul,
+.page__content ol,
+.archive ul,
+.archive ol {
+  padding-left: 1.3rem;
+}
+
+.page__content blockquote,
+.archive blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--accent);
+  background: var(--surface-muted);
+  border-radius: 18px;
+}
+
+.page__content figure,
+.archive figure {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 24px;
+  background: var(--surface-muted);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.05);
+  text-align: center;
+}
+
+.page__content figcaption,
+.archive figcaption {
+  margin-top: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-dark);
+}
+
+.page__content img,
+.archive img {
+  border-radius: 18px;
+}
+
+.page__content iframe,
+.archive iframe {
+  width: 100%;
+  min-height: 360px;
+  margin: 1rem 0;
+  border: 0;
+  border-radius: 22px;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+}
+
+.page hr,
+.archive hr {
+  border: 0;
+  height: 1px;
+  margin: 2.4rem 0;
+  background: linear-gradient(90deg, transparent, rgba(15, 76, 129, 0.32), transparent);
+}
+
+.separator {
+  height: 2px;
+  margin: 2.5rem 0;
+  background: linear-gradient(90deg, transparent, rgba(15, 76, 129, 0.75), transparent);
+}
+
+.sidebar {
+  margin-top: 0.25rem;
+  padding: 1.25rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow-soft);
+
+  @include breakpoint($large) {
+    padding: 1.15rem 0.95rem 1.35rem;
+  }
+}
+
+.sidebar.sticky {
+  top: 6rem;
+}
+
+.sidebar .author__avatar {
+  margin: 0 auto;
+}
+
+.sidebar .author__content {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.sidebar .author__name {
+  font-family: "Source Serif 4", serif;
+  max-width: 11ch;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: clamp(1.34rem, 1.45vw, 1.62rem);
+  line-height: 1.08;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+.author__bio {
+  color: var(--text-muted);
+
+  @include breakpoint($large) {
+    max-width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.96rem;
+    line-height: 1.58;
+  }
+}
+
+.author__urls-wrapper button {
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.author__urls-wrapper .btn--inverse {
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--accent-dark), var(--accent));
+  border: 0;
+  box-shadow: 0 12px 24px rgba(11, 52, 87, 0.18);
+}
+
+.author__urls a,
+.author__urls li {
+  font-size: 1rem;
+}
+
+.author__urls {
+  margin-top: 1rem;
+}
+
+.author__urls li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  white-space: normal;
+}
+
+.author__urls li a {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  min-width: 0;
+}
+
+.author__urls li i,
+.author__urls li .ai {
+  flex: 0 0 1rem;
+  margin-top: 0.25rem;
+  text-align: center;
+}
