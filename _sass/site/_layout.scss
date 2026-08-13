@@ -61,7 +61,7 @@
 .archive h2 {
   margin-top: 2.75rem;
   padding-top: 0.75rem;
-  border-top: 1px solid rgba(15, 76, 129, 0.12);
+  border-top: 1px solid var(--border-soft);
   font-size: clamp(1.55rem, 2.5vw, 2rem);
 }
 
@@ -101,7 +101,7 @@
   border: 1px solid var(--border-soft);
   border-radius: 24px;
   background: var(--surface-muted);
-  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.05);
+  box-shadow: 0 14px 32px var(--shadow-color);
   text-align: center;
 }
 
@@ -124,7 +124,7 @@
   margin: 1rem 0;
   border: 0;
   border-radius: 22px;
-  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 14px 30px var(--shadow-color);
 }
 
 .page hr,
@@ -132,13 +132,13 @@
   border: 0;
   height: 1px;
   margin: 2.4rem 0;
-  background: linear-gradient(90deg, transparent, rgba(15, 76, 129, 0.32), transparent);
+  background: linear-gradient(90deg, transparent, var(--rule), transparent);
 }
 
 .separator {
   height: 2px;
   margin: 2.5rem 0;
-  background: linear-gradient(90deg, transparent, rgba(15, 76, 129, 0.75), transparent);
+  background: linear-gradient(90deg, transparent, var(--rule-strong), transparent);
 }
 
 .sidebar {
@@ -146,7 +146,7 @@
   padding: 1.25rem;
   border: 1px solid var(--border-soft);
   border-radius: 28px;
-  background: rgba(255, 255, 255, 0.9);
+  background: var(--surface-veil-strong);
   box-shadow: var(--shadow-soft);
 
   @include breakpoint($large) {
@@ -197,10 +197,10 @@
 }
 
 .author__urls-wrapper .btn--inverse {
-  color: #ffffff;
-  background: linear-gradient(135deg, var(--accent-dark), var(--accent));
+  color: var(--on-accent);
+  background: linear-gradient(135deg, var(--accent-fill-from), var(--accent-fill-to));
   border: 0;
-  box-shadow: 0 12px 24px rgba(11, 52, 87, 0.18);
+  box-shadow: 0 12px 24px var(--shadow-accent);
 }
 
 .author__urls a,

@@ -39,12 +39,38 @@ collaborators collaborator cards
 misc          notes and links hero, theme filter, reading cards
 footer        site footer
 teaching      teaching and supervision hero, filter, timeline, people
-responsive    breakpoint overrides — must stay last
+responsive    breakpoint overrides — must stay after the area partials
+theme-dark    dark-mode corrections that a token swap cannot express
 ```
 
 `foundation` defines the custom properties (`--accent`, `--surface`,
 `--text-muted`, …) that every other partial builds on, so it has to be imported
-first, and `responsive` overrides earlier rules, so it has to be imported last.
+first, and `responsive` overrides earlier rules, so it stays after the area
+partials.
+
+### Light and dark themes
+
+Both themes come from one set of custom properties in `_sass/site/_foundation.scss`:
+`:root` carries the light values, and the `site-dark-tokens` mixin carries the
+dark ones. That mixin is applied twice — under `:root[data-theme="dark"]` for an
+explicit choice, and under `:root:not([data-theme="light"])` inside a
+`prefers-color-scheme: dark` media query for visitors who have expressed none. A
+visitor therefore gets their operating system's setting until they press the
+toggle; after that their choice is stored in `localStorage` and wins.
+
+Because of that, colours in the partials must be written as `var(--token)`
+rather than as literals. The exceptions are surfaces that are dark in *both*
+themes — the home hero, the teaching route panel and the news card washes — where
+white text and glazes stay hard-coded on purpose.
+
+The toggle itself is three pieces: the button in `_includes/masthead.html` (kept
+outside `#site-nav`, because the greedy navigation script claims every `button`
+inside it), the click and labelling logic at the end of `_includes/scripts.html`,
+and a short script in `_includes/head.html` that applies the stored choice before
+the stylesheet loads so the page never flashes the wrong theme.
+`_sass/site/_theme-dark.scss` holds the few dark-mode rules that a token swap
+cannot express, mostly re-deriving the per-topic `--*-ink` colours, which are
+dark by design, from their bright partner hue.
 
 ### Templates and assets
 

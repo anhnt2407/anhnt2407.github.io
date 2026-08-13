@@ -1,0 +1,45 @@
+@mixin site-dark-refinements {
+  .home-hero .site-cta--primary {
+    color: #0b3457;
+  }
+
+  .misc-chip {
+    --chip-ink: color-mix(in srgb, var(--chip) 74%, #ffffff);
+  }
+
+  .teach-chip {
+    --chip-ink: color-mix(in srgb, var(--chip) 74%, #ffffff);
+  }
+
+  .misc-section {
+    --sec-ink: color-mix(in srgb, var(--sec) 74%, #ffffff);
+  }
+
+  .teach-course {
+    --teach-ink: color-mix(in srgb, var(--teach-accent) 74%, #ffffff);
+  }
+
+  .teach-lab {
+    --lab-ink: color-mix(in srgb, var(--lab-accent) 74%, #ffffff);
+  }
+
+  .teach-alumni__card {
+    --al-ink: color-mix(in srgb, var(--al) 74%, #ffffff);
+  }
+
+  .misc-chip.is-active,
+  .teach-chip.is-active {
+    border-color: color-mix(in srgb, var(--chip) 62%, transparent);
+    color: color-mix(in srgb, var(--chip) 86%, #ffffff);
+  }
+}
+
+:root[data-theme="dark"] {
+  @include site-dark-refinements;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include site-dark-refinements;
+  }
+}

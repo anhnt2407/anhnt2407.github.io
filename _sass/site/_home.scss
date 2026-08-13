@@ -2,10 +2,10 @@
   margin: 0 0 1.4rem;
   max-width: 48rem;
   padding: 0.96rem 1.1rem;
-  border: 1px solid rgba(15, 76, 129, 0.12);
+  border: 1px solid var(--border-soft);
   border-left: 4px solid var(--accent);
   border-radius: 18px;
-  background: linear-gradient(135deg, rgba(15, 76, 129, 0.08), rgba(255, 255, 255, 0.96));
+  background: linear-gradient(135deg, var(--hover-tint), var(--surface-veil));
 }
 
 .home-page .page-lead p {
