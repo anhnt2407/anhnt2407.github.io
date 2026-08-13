@@ -1,0 +1,29 @@
+# Filter chips and the route panel on /teaching/. `slug` must match the
+# `institution` field of entries in _data/teaching.yml.
+
+- slug: "huit"
+  label: "HUIT"
+  full: "Ho Chi Minh City University of Industry and Trade"
+  city: "Ho Chi Minh City"
+  country: "Vietnam"
+  flag: "🇻🇳"
+  span: "2025 – 2026"
+  accent: "teal"
+
+- slug: "konkuk"
+  label: "Konkuk University"
+  full: "Konkuk University"
+  city: "Seoul"
+  country: "South Korea"
+  flag: "🇰🇷"
+  span: "2020 – 2024"
+  accent: "indigo"
+
+- slug: "psu"
+  label: "Pacific States University"
+  full: "Pacific States University"
+  city: "Los Angeles"
+  country: "United States"
+  flag: "🇺🇸"
+  span: "2020"
+  accent: "amber"

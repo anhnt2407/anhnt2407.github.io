@@ -1,0 +1,63 @@
+{%- comment -%}
+Decorative subject glyph for a course card on /teaching/.
+The course title sits next to it, so the SVG is hidden from assistive tech.
+Accepted `icon` values: neural, layers, scatter, gantt, transform, aircraft, robot, spark.
+{%- endcomment -%}
+<svg class="teach-glyph teach-glyph--{{ include.icon | default: 'spark' }}" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+  {% case include.icon %}
+  {% when "neural" %}
+  <g class="teach-glyph__link">
+    <path d="M13 14 L21 12 M13 14 L21 24 M13 24 L21 12 M13 24 L21 36 M13 34 L21 24 M13 34 L21 36" />
+    <path d="M27 12 L35 18 M27 24 L35 18 M27 24 L35 30 M27 36 L35 30" />
+  </g>
+  <g class="teach-glyph__node">
+    <circle cx="10" cy="14" r="3" /><circle cx="10" cy="24" r="3" /><circle cx="10" cy="34" r="3" />
+    <circle cx="24" cy="12" r="3" /><circle cx="24" cy="24" r="3" /><circle cx="24" cy="36" r="3" />
+    <circle cx="38" cy="18" r="3" /><circle cx="38" cy="30" r="3" />
+  </g>
+
+  {% when "layers" %}
+  <path class="teach-glyph__fill" d="M24 7 L43 16 L24 25 L5 16 Z" />
+  <path d="M5 24 L24 33 L43 24" />
+  <path d="M5 32 L24 41 L43 32" />
+
+  {% when "scatter" %}
+  <path class="teach-glyph__axis" d="M9 7 V40 H42" />
+  <path d="M13 35 L38 14" />
+  <g class="teach-glyph__node">
+    <circle cx="15" cy="32" r="2.4" /><circle cx="21" cy="31" r="2.4" /><circle cx="25" cy="24" r="2.4" />
+    <circle cx="31" cy="22" r="2.4" /><circle cx="36" cy="15" r="2.4" />
+  </g>
+
+  {% when "gantt" %}
+  <path class="teach-glyph__axis" d="M8 7 V41" />
+  <rect class="teach-glyph__fill" x="13" y="11" width="20" height="7" rx="3.5" />
+  <rect class="teach-glyph__fill" x="19" y="21" width="21" height="7" rx="3.5" />
+  <rect class="teach-glyph__fill" x="13" y="31" width="14" height="7" rx="3.5" />
+
+  {% when "transform" %}
+  <path d="M12 18 A14 14 0 0 1 36 15" />
+  <path d="M36 30 A14 14 0 0 1 12 33" />
+  <path d="M31 11 L37.5 15 L33.5 21" />
+  <path d="M17 37 L10.5 33 L14.5 27" />
+  <circle class="teach-glyph__fill" cx="24" cy="24" r="4" />
+
+  {% when "aircraft" %}
+  <path class="teach-glyph__fill" d="M20 20 h8 v8 h-8 z" />
+  <path d="M20 20 L13 13 M28 20 L35 13 M20 28 L13 35 M28 28 L35 35" />
+  <path d="M7 13 H19 M29 13 H41 M7 35 H19 M29 35 H41" />
+
+  {% when "robot" %}
+  <rect x="11" y="16" width="26" height="21" rx="7" />
+  <path d="M24 16 V10" />
+  <circle class="teach-glyph__fill" cx="24" cy="8" r="2.6" />
+  <g class="teach-glyph__node">
+    <circle cx="19" cy="25" r="2.4" /><circle cx="29" cy="25" r="2.4" />
+  </g>
+  <path d="M19 31 H29 M11 25 H6 M37 25 H42" />
+
+  {% else %}
+  <path class="teach-glyph__fill" d="M20 6 L23.6 17.4 L35 21 L23.6 24.6 L20 36 L16.4 24.6 L5 21 L16.4 17.4 Z" />
+  <path d="M35 29 L36.9 34.6 L42.5 36.5 L36.9 38.4 L35 44 L33.1 38.4 L27.5 36.5 L33.1 34.6 Z" />
+  {% endcase %}
+</svg>

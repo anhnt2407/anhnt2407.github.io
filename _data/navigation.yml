@@ -11,7 +11,10 @@ main:
     
   - title: "Publications"
     url: /publications/
-    
+
+  - title: "Teaching"
+    url: /teaching/
+
   - title: "Collaborators"
     url: /collaborators/
 
