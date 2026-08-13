@@ -1,7 +1,3 @@
-/* ==========================================================================
-   Publication identifier tags
-   ========================================================================== */
-
 .pub-tag {
   display: inline-flex;
   align-items: center;
@@ -27,4 +23,45 @@
 .pub-tag--book {
   background: rgba(190, 138, 24, 0.16);
   color: #8b6408;
+}
+
+.pub-metrics {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  margin-left: 0.15rem;
+  vertical-align: baseline;
+}
+
+.pub-metric {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.14rem 0.44rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.25;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.pub-metric--index {
+  border: 1px solid var(--border-soft);
+  background: var(--surface);
+  color: var(--text-muted);
+  letter-spacing: 0.03em;
+}
+
+.pub-metric--q1 { background: #0f4c81; color: #ffffff; }
+.pub-metric--q2 { background: #d5e4f3; color: #14568f; }
+.pub-metric--q3 { background: #e7eef5; color: #3f5568; }
+.pub-metric--q4 { background: #f1f4f7; color: #57646f; }
+
+.pub-metric--plain {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  background: none;
+  color: var(--text-muted);
+  font-weight: 600;
 }

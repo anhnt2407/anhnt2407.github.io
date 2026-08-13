@@ -2,7 +2,6 @@
   $feature: '';
   $value: '';
 
-  // Test to see which is the feature and which is the value
   @if (breakpoint-string-value($first) == true) {
     $feature: $first;
     $value: $second;
@@ -15,7 +14,6 @@
     @warn "Neither #{$first} nor #{$second} is a valid media query name.";
   }
 
-  // Set Context
   $context-setter: private-breakpoint-set-context($feature, $value);
 
   @return '(#{$feature}: #{$value})';

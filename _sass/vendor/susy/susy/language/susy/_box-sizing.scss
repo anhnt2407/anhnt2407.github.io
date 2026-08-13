@@ -1,11 +1,3 @@
-// Susy Box Sizing
-// =================
-
-// Global Box Sizing
-// -----------------
-// Set a box model globally on all elements.
-// - [$box]: border-box | content-box
-// - [$inherit]: true | false
 @mixin global-box-sizing(
   $box: susy-get(global-box-sizing),
   $inherit: false
@@ -25,19 +17,12 @@
   @include update-box-model($box);
 }
 
-// Border Box Sizing
-// -----------------
-// A legacy shortcut...
-// - [$inherit]: true | false
 @mixin border-box-sizing(
   $inherit: false
 ) {
   @include global-box-sizing(border-box, $inherit);
 }
 
-// Update Box Model
-// ----------------
-// PRIVATE: Updates global box model setting
 @mixin update-box-model(
   $box
 ) {

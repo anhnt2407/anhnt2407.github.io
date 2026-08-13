@@ -1,8 +1,3 @@
-{%- comment -%}
-Decorative subject glyph for a course card on /teaching/.
-The course title sits next to it, so the SVG is hidden from assistive tech.
-Accepted `icon` values: neural, layers, scatter, gantt, transform, aircraft, robot, spark.
-{%- endcomment -%}
 <svg class="teach-glyph teach-glyph--{{ include.icon | default: 'spark' }}" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
   {% case include.icon %}
   {% when "neural" %}

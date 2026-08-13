@@ -1,18 +1,8 @@
-// Breakpoint Integration
-// ======================
-
 $susy-media: () !default;
 $susy-media-fallback: false !default;
 
 $_susy-media-context: ();
 
-
-// Susy Breakpoint
-// ---------------
-// Change grids at different media query breakpoints.
-// - $query     : <min-width> [<max-width>] | <property> <value> | <map>
-// - $layout    : <settings>
-// - $no-query  : <boolean> | <selector>
 @mixin susy-breakpoint(
   $query,
   $layout: false,
@@ -29,11 +19,6 @@ $_susy-media-context: ();
   }
 }
 
-
-// Susy Media
-// ----------
-// - $query: <min-width> [<max-width>] | <property> <value>
-// - $no-query: <boolean> | <selector>
 @mixin susy-media(
   $query,
   $no-query: $susy-media-fallback
@@ -62,10 +47,6 @@ $_susy-media-context: ();
   @include susy-media-context($old-context, $clean: true);
 }
 
-
-// Media Router
-// ------------
-// Rout media arguments to the correct mixin.
 @mixin susy-media-router(
   $query,
   $no-query: $susy-media-fallback
@@ -81,10 +62,6 @@ $_susy-media-context: ();
   }
 }
 
-
-// Update Context
-// -------------
-// Set the new media context
 @mixin susy-media-context(
   $query,
   $name: null,
@@ -99,10 +76,6 @@ $_susy-media-context: ();
   }
 }
 
-
-// Media Context
-// -------------
-// Return the full media context, or a single media property (e.g. min-width)
 @function susy-media-context(
   $property: false
 ) {
@@ -113,11 +86,6 @@ $_susy-media-context: ();
   }
 }
 
-
-// Get Media
-// ---------
-// Return a named media-query from $susy-media.
-// - $name: <key>
 @function susy-get-media(
   $name
 ) {
@@ -133,10 +101,6 @@ $_susy-media-context: ();
   @return $name;
 }
 
-
-// Render Media
-// ------------
-// Build a media-query string from various media settings
 @function susy-render-media(
   $query
 ) {
@@ -156,10 +120,6 @@ $_susy-media-context: ();
   @return $output;
 }
 
-
-// Parse Media
-// -----------
-// Return parsed media-query settings based on shorthand
 @function susy-parse-media(
   $query
 ) {

@@ -1,6 +1,3 @@
-# Timeline rail for /teaching/. One node per calendar year in which a course ran,
-# newest first. `year` must match the `year` field of entries in _data/teaching.yml.
-
 - year: "2026"
   note: "Undergraduate machine learning and a graduate core course, all at HUIT in Ho Chi Minh City."
 

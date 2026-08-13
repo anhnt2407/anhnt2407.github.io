@@ -1,13 +1,3 @@
-// Grid Background API
-// ===================
-// - Sub-pixel rounding can lead to several pixels variation between browsers.
-
-// Grid Background Output
-// ----------------------
-// - $image: background-image
-// - $size: background-size
-// - $clip: background-clip
-// - [$flow]: ltr | rtl
 @mixin background-grid-output (
   $image,
   $size: null,

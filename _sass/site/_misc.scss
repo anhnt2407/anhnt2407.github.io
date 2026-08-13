@@ -1,7 +1,3 @@
-/* ==========================================================================
-   Notes and links: hero, theme filter and reading cards
-   ========================================================================== */
-
 .misc-root {
   display: grid;
   gap: 1.25rem;
@@ -124,8 +120,6 @@
   line-height: 1.62;
 }
 
-/* ---- Theme filter -------------------------------------------------- */
-
 .misc-filter {
   display: grid;
   gap: 0.6rem;
@@ -204,7 +198,6 @@
 .misc-chip--red    { --chip: #e66b62; --chip-ink: #a83b33; }
 .misc-chip--cyan   { --chip: #53c7e8; --chip-ink: #10708c; }
 
-/* Announced to assistive tech only. */
 .misc-filter__status {
   position: absolute;
   width: 1px;
@@ -217,8 +210,6 @@
   clip-path: inset(50%);
   white-space: nowrap;
 }
-
-/* ---- Topic sections ------------------------------------------------ */
 
 .misc-sections {
   display: grid;

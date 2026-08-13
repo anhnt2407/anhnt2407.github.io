@@ -3,15 +3,12 @@
   $min: '';
   $max: '';
 
-  // Sort into min and max
   $min: min($first, $second);
   $max: max($first, $second);
 
-  // Set Context
   $context-setter: private-breakpoint-set-context(min-#{$default}, $min);
   $context-setter: private-breakpoint-set-context(max-#{$default}, $max);
 
-  // Make them EMs if need be
   @if (breakpoint-get('to ems') == true) {
     $min: breakpoint-to-base-em($min);
     $max: breakpoint-to-base-em($max);

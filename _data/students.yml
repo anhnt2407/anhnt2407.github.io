@@ -1,12 +1,3 @@
-# Supervised and co-supervised students. Source of truth: supervision.tex in the
-# LaTeX CV (github.com/anhnt2407/cv). Order follows the CV within each group.
-#
-# group        must match a slug in _data/student_groups.yml
-# degree_key   phd | msc | beng — drives the head-count tallies on the page
-# head_count   number of people the entry covers (a joint thesis counts everyone)
-# publications IDs from _pages/publications.md; rendered as deep links
-# cited_as     used when the publication record romanises the name differently
-
 - slug: "huit-beng-traffic-2026"
   name: "Tran Anh Tuan, Pham Minh Duy and Vo Truong Danh"
   members:

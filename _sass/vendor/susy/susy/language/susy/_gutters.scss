@@ -1,11 +1,3 @@
-// Gutter Syntax
-// =============
-
-
-// Gutters
-// -------
-// Set gutters on an element.
-// - [$span]   : <settings>
 @mixin gutters(
   $span: $susy
 ) {
@@ -34,11 +26,6 @@
   @include gutters($span);
 }
 
-
-// Gutter
-// ------
-// Return the width of a gutter.
-// - [$span]   : <settings>
 @function gutter(
   $span: $susy
 ) {
@@ -56,11 +43,6 @@
   @return gutter($span);
 }
 
-
-// Get Gutter Width
-// ----------------
-// Return gutter width.
-// - [$context]: <context>
 @function get-gutter-width(
   $context: $susy
 ) {
@@ -86,11 +68,6 @@
   @return $_gutter;
 }
 
-
-// Get Gutters
-// -----------
-// Return before and after gutter values.
-// - [$context]: <context>
 @function get-gutters(
   $context: $susy
 ) {
@@ -111,11 +88,6 @@
   @return $_return;
 }
 
-
-// Is Inside
-// ---------
-// Returns true if gutters are inside.
-// $context: <context>
 @function is-inside(
   $context
 ) {
@@ -125,11 +97,6 @@
   @return if(index($_inside, $_gutter-position), true, false);
 }
 
-
-// Is Split
-// --------
-// Returns true if gutters are split.
-// $context: <context>
 @function is-split(
   $context
 ) {
@@ -139,11 +106,6 @@
   @return if(index($_split, $_gutter-position), true, false);
 }
 
-
-// Gutter Math
-// -----------
-// Return the math to use for gutter calculations
-// $context: <context>
 @function gutter-math(
   $context: $susy
 ) {

@@ -4,7 +4,7 @@ title: "Tuan Anh Nguyen"
 excerpt: "Researcher in Computer Science with Specialization in Dependable, Autonomous and Intelligent Systems."
 author_profile: true
 show_page_title: false
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---

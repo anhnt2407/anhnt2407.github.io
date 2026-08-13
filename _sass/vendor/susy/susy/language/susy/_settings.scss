@@ -1,9 +1,3 @@
-// Susy Settings
-// =============
-
-// Susy Language Defaults
-// ----------------------
-// - PRIVATE
 @include susy-defaults((
   container: auto,
   math: fluid,
@@ -19,10 +13,6 @@
   ),
 ));
 
-
-// Valid Keyword Values
-// --------------------
-// - PRIVATE: DONT'T TOUCH
 $susy-keywords: (
   container: auto,
   math: static fluid,
@@ -41,9 +31,6 @@ $susy-keywords: (
   debug output: background overlay,
 );
 
-
-// Parse Susy Keywords and Maps
-// ----------------------------
 @function parse-settings(
   $short: $susy
 ) {
@@ -53,7 +40,6 @@ $susy-keywords: (
     $_return: $short;
   } @else {
     @each $item in $short {
-      // strings
       @if type-of($item) == string {
         @each $key, $value in $susy-keywords {
           @if index($value, $item) {
@@ -61,7 +47,7 @@ $susy-keywords: (
             $_return: _susy-deep-set($_return, $_key-value...);
           }
         }
-      // maps
+
       } @else if type-of($item) == map {
         $_return: map-merge($_return, $item);
       }
@@ -71,9 +57,6 @@ $susy-keywords: (
   @return $_return;
 }
 
-
-// Parse Columns & Gutters
-// -----------------------
 @function parse-layout(
   $short
 ) {
@@ -103,9 +86,6 @@ $susy-keywords: (
   @return $_return;
 }
 
-
-// Parse Grid/Context
-// ------------------
 @function parse-grid(
   $short: $susy
 ) {
@@ -116,7 +96,6 @@ $susy-keywords: (
     $_return: $short;
   } @else {
     @each $item in $short {
-      // number or list
       @if type-of($item) == number or type-of($item) == list {
         @if type-of($item) == list or unitless($item) {
           $_layout: append($_layout, $item);
@@ -132,9 +111,6 @@ $susy-keywords: (
   @return map-merge($_return, $_layout);
 }
 
-
-// Parse Span
-// ----------
 @function parse-span(
   $short,
   $key: span
@@ -182,9 +158,6 @@ $susy-keywords: (
   @return $_return;
 }
 
-
-// Parse Gutters
-// -------------
 @function parse-gutters(
   $short: $susy
 ) {

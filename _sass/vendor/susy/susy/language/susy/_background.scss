@@ -1,13 +1,5 @@
-// Background Grid Syntax
-// ======================
-
 $susy-overlay-grid-head-exists: false;
 
-
-// Show Grid/s
-// -----------
-// Show grid on any element using either background or overlay.
-// - [$grid]  : <settings>
 @mixin show-grid(
   $grid: $susy
 ) {
@@ -28,10 +20,6 @@ $susy-overlay-grid-head-exists: false;
   @include show-grid($grid);
 }
 
-// Background Grid
-// ---------------
-// Show a grid background on any element.
-// - [$grid]  : <settings>
 @mixin background-grid(
   $grid: $susy
 ) {
@@ -53,11 +41,6 @@ $susy-overlay-grid-head-exists: false;
   }
 }
 
-
-// Overlay Grid
-// ------------
-// Generate an icon to trigger grid-overlays on any given elements.
-// $grids...  : <selector> [<settings>] [, <selector>]*
 @mixin overlay-grid (
   $grid: $susy
 ) {
@@ -78,9 +61,6 @@ $susy-overlay-grid-head-exists: false;
   }
 }
 
-
-// [Private] Overlay Trigger
-// -------------------------
 @mixin overlay-trigger {
   content: "|||";
   display: block;
@@ -92,18 +72,11 @@ $susy-overlay-grid-head-exists: false;
   }
 }
 
-
-// [Private] Overlay Trigger Hover
-// -------------------------------
 @mixin overlay-trigger-hover {
   background: rgba(white, .5);
   color: red;
 }
 
-
-// [Private] Overlay Head
-// ----------------------
-// <head> styles to create grid overlay toggle
 @mixin overlay-head (
   $grid: $susy
 ) {
@@ -125,10 +98,6 @@ $susy-overlay-grid-head-exists: false;
   background: rgba(white, .25);
 }
 
-
-// [Private] Grid Overlay Base
-// ---------------------------
-// Base styles for generating a grid overlay
 @mixin grid-overlay-base() {
   position: absolute;
   top: 0;
@@ -139,10 +108,6 @@ $susy-overlay-grid-head-exists: false;
   z-index: 998;
 }
 
-
-// Get Symmetrical Background
-// --------------------------
-// - $grid: <map>
 @function get-background-sym(
   $grid
 ) {
@@ -183,10 +148,6 @@ $susy-overlay-grid-head-exists: false;
   @return $_output;
 }
 
-
-// Get Asymmetrical Inside
-// -----------------------
-// - $grid: <settings>
 @function get-asym-inside(
   $grid
 ) {
@@ -222,10 +183,6 @@ $susy-overlay-grid-head-exists: false;
   @return $_stops;
 }
 
-
-// Get Asymmetrical Split
-// ----------------------
-// - $grid: <settings>
 @function get-asym-split(
   $grid
 ) {
@@ -254,10 +211,6 @@ $susy-overlay-grid-head-exists: false;
   @return $_stops;
 }
 
-
-// Get Asymmetrical Outside
-// ------------------------
-// - $grid: <settings>
 @function get-asym-outside(
   $grid
 ) {
@@ -298,10 +251,6 @@ $susy-overlay-grid-head-exists: false;
   @return $_stops;
 }
 
-
-// Get Asymmetrical Background
-// ---------------------------
-// - $grid: <settings>
 @function get-background-asym(
   $grid
 ) {
@@ -318,10 +267,6 @@ $susy-overlay-grid-head-exists: false;
   @return (image: (columns: $_stops));
 }
 
-
-// Get Background
-// --------------
-// - $grid: <settings>
 @function get-background(
   $grid
 ) {
@@ -371,11 +316,6 @@ $susy-overlay-grid-head-exists: false;
   @return $_return;
 }
 
-
-// Get Debug
-// ---------
-// Return the value of a debug setting
-// - $key: <setting>
 @function debug-get(
   $key,
   $grid: $susy

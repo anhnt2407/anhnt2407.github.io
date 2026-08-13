@@ -1,7 +1,3 @@
-# Topic groupings for the Notes & Links (Misc) page.
-# Each entry in _data/misc_posts.yml carries a `topic` slug that maps here.
-# `accent` drives the section heading and filter-chip colour.
-
 - slug: "ai"
   label: "AI & Computing"
   short: "AI"

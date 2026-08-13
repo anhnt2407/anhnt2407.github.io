@@ -1,12 +1,3 @@
-# Course offerings, newest first. Source of truth: teaching.tex in the LaTeX CV
-# (github.com/anhnt2407/cv). Keep every fact here traceable to that file.
-#
-# year            calendar year the offering was delivered in; groups the timeline
-# institution     filter key, must match a slug in _data/teaching_institutions.yml
-# level           filter key: graduate | undergraduate
-# icon            glyph name handled by _includes/teaching_icon.html
-# status          current | completed
-
 - slug: "machine-learning-2026"
   title: "Machine Learning"
   icon: "scatter"

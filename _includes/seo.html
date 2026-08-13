@@ -1,6 +1,5 @@
 {% include base_path %}
 
-<!-- begin SEO -->
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
@@ -106,26 +105,24 @@
 {% endif %}
 
 {% if site.og_image %}
-  <script type="application/ld+json">
-    {
+  <script type="application/ld+json">    {
       "@context": "http://schema.org",
       "@type": "Organization",
       "url": {{ seo_url | jsonify }},
       "logo": {{ site.og_image | prepend: "/images/" | prepend: base_path | jsonify }}
     }
-  </script>
+</script>
 {% endif %}
 
 {% if site.social %}
-  <script type="application/ld+json">
-    {
+  <script type="application/ld+json">    {
       "@context" : "http://schema.org",
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
       "name" : "{{ site.social.name | default: site.name }}",
       "url" : {{ seo_url | jsonify }},
       "sameAs" : {{ site.social.links | jsonify }}
     }
-  </script>
+</script>
 {% endif %}
 
 {% if site.google_site_verification %}
@@ -140,4 +137,3 @@
 {% if site.yandex_site_verification %}
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
 {% endif %}
-<!-- end SEO -->

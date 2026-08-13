@@ -1,16 +1,7 @@
 ---
 ---
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
-
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/breakpoint";
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -40,9 +31,6 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-// This site's own styles, one partial per area of the site. Order matters:
-// foundation defines the design tokens everything else uses, and responsive
-// carries the breakpoint overrides so it has to come last.
 @import "site/foundation";
 @import "site/masthead";
 @import "site/layout";

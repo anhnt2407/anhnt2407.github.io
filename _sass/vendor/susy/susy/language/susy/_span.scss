@@ -1,10 +1,3 @@
-// Span Syntax
-// ===========
-
-// Span [mixin]
-// ------------
-// Set a spanning element using shorthand syntax.
-// - $span  : <span>
 @mixin span(
   $span
 ) {
@@ -35,20 +28,12 @@
   }
 }
 
-// Span [function]
-// ---------------
-// Return the width of a span.
-// - $span  : <span>
 @function span(
   $span
 ) {
   @return get-span-width($span);
 }
 
-// Span Math
-// ---------
-// Get all the span results.
-// - $span: <map>
 @function span-math(
   $span
 ) {
@@ -63,13 +48,11 @@
   $margin-before    : null;
   $margin-after     : null;
 
-  // calculate widths
   $spread: index(map-values($span), spread);
   $span: if($split-nest and not($spread), map-merge($span, (spread: wide)), $span);
   $width: get-span-width($span);
   $gutters: get-gutters($span);
 
-  // apply gutters
   @if is-inside($span) {
     @if not(susy-get(role, $span)) {
       $padding-before: map-get($gutters, before);
@@ -82,7 +65,6 @@
     }
   }
 
-  // special margin handling
   @if susy-get(output, $span) == isolate and $location {
     $margin-before: get-isolation($span);
     $margin-after: -100%;
@@ -116,10 +98,6 @@
   );
 }
 
-// Get Span Width
-// --------------
-// Return span width.
-// - $span: <map>
 @function get-span-width(
   $span
 ) {

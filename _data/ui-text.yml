@@ -1,7 +1,3 @@
-# User interface text and labels
-
-# English (default)
-# -----------------
 en: &DEFAULT_EN
   page                       : "Page"
   pagination_previous        : "Previous"
@@ -48,8 +44,6 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
-# Spanish
-# --------------
 es: &DEFAULT_ES
   page                       : "Página"
   pagination_previous        : "Anterior"
@@ -92,8 +86,6 @@ es-ES:
 es-CO:
   <<: *DEFAULT_ES
 
-# French
-# -----------------
 fr: &DEFAULT_FR
   page                       : "Page"
   pagination_previous        : "Précédent"
@@ -138,8 +130,6 @@ fr-BE:
 fr-CH:
   <<: *DEFAULT_FR
 
-# Turkish
-# -----------------
 tr: &DEFAULT_TR
   page                       : "Sayfa"
   pagination_previous        : "Önceki"
@@ -180,8 +170,6 @@ tr: &DEFAULT_TR
 tr-TR:
   <<: *DEFAULT_TR
 
-# Brazilian Portguese
-# -----------------
 pt: &DEFAULT_PT
   page                       : "Página"
   pagination_previous        : "Anterior"
@@ -224,8 +212,6 @@ pt-BR:
 pt-PT:
   <<: *DEFAULT_PT
 
-# Italian
-# -----------------
 it: &DEFAULT_IT
   page                       : "Pagina"
   pagination_previous        : "Precedente"
@@ -265,6 +251,3 @@ it: &DEFAULT_IT
   loading_label              :
 it-IT:
   <<: *DEFAULT_IT
-
-# Another locale
-# --------------

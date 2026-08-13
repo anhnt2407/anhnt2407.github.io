@@ -1,11 +1,3 @@
-// Column math
-// ===========
-
-
-// Is Symmetrical
-// --------------
-// Returns true if a grid is symmetrical.
-// - [$columns]   : <number> | <list>
 @function is-symmetrical(
   $columns: susy-get(columns)
 ) {
@@ -13,11 +5,6 @@
   @return if(type-of($columns) == number, $columns, null);
 }
 
-
-// Susy Count
-// ----------
-// Find the number of columns in a given layout
-// - [$columns]   : <number> | <list>
 @function susy-count(
   $columns: susy-get(columns)
 ) {
@@ -25,13 +12,6 @@
   @return is-symmetrical($columns) or length($columns);
 }
 
-
-// Susy Sum
-// --------
-// Find the total sum of column-units in a layout
-// - [$columns]   : <number> | <list>
-// - [$gutters]   : <ratio>
-// - [$spread]    : false/narrow | wide | wider
 @function susy-sum(
   $columns  : susy-get(columns),
   $gutters  : susy-get(gutters),
@@ -53,13 +33,6 @@
   @return $column-sum + $gutter-sum;
 }
 
-
-// Susy Slice
-// ----------
-// Return a subset of columns at a given location.
-// - $span        : <number>
-// - $location    : <number>
-// - [$columns]   : <number> | <list>
 @function susy-slice(
   $span,
   $location,
@@ -79,15 +52,6 @@
   @return $sub-columns;
 }
 
-
-// Susy
-// ----
-// Find the sum of a column-span.
-// - $span        : <number>
-// - $location    : <number>
-// - [$columns]   : <number> | <list>
-// - [$gutters]   : <ratio>
-// - [$spread]    : false/narrow | wide | wider
 @function susy(
   $span,
   $location     : false,

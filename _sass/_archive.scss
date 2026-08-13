@@ -1,7 +1,3 @@
-/* ==========================================================================
-   ARCHIVE
-   ========================================================================== */
-
 .archive {
   margin-bottom: 2em;
 
@@ -49,9 +45,7 @@
   }
 }
 
-/* remove border*/
 .page__content {
-
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -75,21 +69,11 @@
   }
 }
 
-/*
-   List view
-   ========================================================================== */
-
 .list__item {
-
   .page__meta {
     margin: 0 0 4px;
   }
 }
-
-
-/*
-   Grid view
-   ========================================================================== */
 
 .grid__item {
   margin-bottom: 2em;
@@ -115,8 +99,8 @@
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0;
+    margin-right: 0;
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
@@ -129,11 +113,6 @@
     }
   }
 }
-
-
-/*
-   Features
-   ========================================================================== */
 
 .feature__wrapper {
   @include clearfix();

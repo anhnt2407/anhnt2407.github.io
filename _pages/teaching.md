@@ -30,10 +30,6 @@ author_profile: true
   {%- if s.degree_key == "phd" -%}{%- assign phd_count = phd_count | plus: s.head_count -%}{%- endif -%}
   {%- if s.degree_key == "msc" -%}{%- assign msc_count = msc_count | plus: s.head_count -%}{%- endif -%}
   {%- if s.degree_key == "beng" -%}{%- assign beng_count = beng_count | plus: s.head_count -%}{%- endif -%}
-  {%- comment -%}
-    Count distinct identifiers across students. The trailing comma makes the
-    `contains` test a whole-token match rather than a prefix match.
-  {%- endcomment -%}
   {%- for p in s.publications -%}
     {%- assign marker = p | append: "," -%}
     {%- unless joint_ids contains marker -%}
@@ -316,12 +312,7 @@ author_profile: true
   </div>
 </div>
 
-<script>
-/* Facet filter for the course timeline.
-   Progressive enhancement: the control block carries the `hidden` attribute in the
-   markup and is only revealed once this script runs, so nothing inert is shown when
-   JavaScript is unavailable — every course stays visible in that case. */
-(function () {
+<script>(function () {
   var root = document.querySelector('.teach-root');
   if (!root) { return; }
 

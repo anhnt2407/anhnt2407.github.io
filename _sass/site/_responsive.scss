@@ -1,7 +1,3 @@
-/* ==========================================================================
-   Breakpoint overrides — keep this imported last
-   ========================================================================== */
-
 @include breakpoint(max-width $large) {
   .home-focus-grid,
   .research-track-grid {
@@ -273,8 +269,6 @@
     height: 0.7rem;
   }
 
-  /* Stack the glyph above the text: a 3.5rem sidebar leaves too little room
-     for a course title on a phone. */
   .teach-course,
   .teach-person {
     grid-template-columns: minmax(0, 1fr);

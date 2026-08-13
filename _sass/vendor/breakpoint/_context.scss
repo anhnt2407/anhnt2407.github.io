@@ -1,13 +1,6 @@
-//////////////////////////////
-// Private Breakpoint Variables
-//////////////////////////////
 $private-breakpoint-context-holder: ();
 $private-breakpoint-query-count: 0 !default;
 
-//////////////////////////////
-// Breakpoint Has Context
-// Returns whether or not you are inside a Breakpoint query
-//////////////////////////////
 @function breakpoint-has-context() {
   @if length($private-breakpoint-query-count) {
     @return true;
@@ -17,14 +10,10 @@ $private-breakpoint-query-count: 0 !default;
   }
 }
 
-//////////////////////////////
-// Breakpoint Get Context
-// $feature: Input feature to get it's current MQ context. Returns false if no context
-//////////////////////////////
 @function breakpoint-get-context($feature) {
   @if map-has-key($private-breakpoint-context-holder, $feature) {
     $get: map-get($private-breakpoint-context-holder, $feature);
-    // Special handling of no-query from get side so /false/ prepends aren't returned
+
     @if $feature == 'no-query' {
       @if type-of($get) == 'list' and length($get) > 1 and nth($get, 1) == false {
         $get: nth($get, length($get));
@@ -42,9 +31,6 @@ $private-breakpoint-query-count: 0 !default;
   }
 }
 
-//////////////////////////////
-// Private function to set context
-//////////////////////////////
 @function private-breakpoint-set-context($feature, $value) {
   @if $value == 'monochrome' {
     $feature: 'monochrome';
@@ -86,9 +72,6 @@ $private-breakpoint-query-count: 0 !default;
   @return true;
 }
 
-//////////////////////////////
-// Private function to reset context
-//////////////////////////////
 @mixin private-breakpoint-reset-contexts {
   $private-breakpoint-context-holder: () !global;
   $private-breakpoint-query-count: 0 !global;
