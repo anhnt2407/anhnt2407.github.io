@@ -1,5 +1,43 @@
 <script src="{{ base_path }}/assets/js/main.min.js">
 </script>
+<script>
+  (function () {
+    var root = document.documentElement;
+    var toggle = document.getElementById('theme-toggle');
+    if (!toggle) { return; }
+
+    var query = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function activeTheme() {
+      var set = root.getAttribute('data-theme');
+      if (set === 'dark' || set === 'light') { return set; }
+      return query.matches ? 'dark' : 'light';
+    }
+
+    function describe() {
+      var dark = activeTheme() === 'dark';
+      var label = dark ? 'Switch to light theme' : 'Switch to dark theme';
+      toggle.setAttribute('aria-label', label);
+      toggle.setAttribute('title', label);
+      toggle.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    }
+
+    toggle.addEventListener('click', function () {
+      var next = activeTheme() === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { window.localStorage.setItem('theme', next); } catch (e) {}
+      describe();
+    });
+
+    if (query.addEventListener) {
+      query.addEventListener('change', describe);
+    } else if (query.addListener) {
+      query.addListener(describe);
+    }
+
+    describe();
+  })();
+</script>
 {% if site.analytics.goatcounter.code and page.analytics != false %}
 <script data-goatcounter="https://{{ site.analytics.goatcounter.code }}.goatcounter.com/count"
         async src="//gc.zgo.at/count.js">

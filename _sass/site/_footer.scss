@@ -12,10 +12,10 @@
 
 .page__footer-shell {
   padding: 1rem clamp(1rem, 1.65vw, 1.45rem);
-  border: 1px solid rgba(15, 76, 129, 0.12);
+  border: 1px solid var(--border-soft);
   border-radius: 24px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(246, 250, 252, 0.94));
-  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+  background: linear-gradient(180deg, var(--surface-veil-soft), var(--surface-veil-2));
+  box-shadow: 0 18px 40px var(--shadow-color);
 }
 
 .page__footer-panel {
@@ -92,18 +92,18 @@
   padding: 0.55rem 0.72rem;
   border: 1px solid var(--border-soft);
   border-radius: 14px;
-  background: rgba(255, 255, 255, 0.92);
+  background: var(--surface-veil-strong);
   color: var(--accent-dark);
   font-size: 0.9rem;
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.045);
+  box-shadow: 0 8px 18px var(--shadow-color);
 }
 
 .page__footer-links a:hover {
-  border-color: rgba(15, 76, 129, 0.24);
-  background: rgba(255, 255, 255, 1);
-  box-shadow: 0 12px 22px rgba(15, 23, 42, 0.07);
+  border-color: var(--border-strong);
+  background: var(--surface-veil);
+  box-shadow: 0 12px 22px var(--shadow-color);
   transform: translateY(-1px);
 }
 
@@ -113,7 +113,7 @@
   justify-content: space-between;
   gap: 0.7rem 1rem;
   padding: 0.75rem 0 0;
-  border-top: 1px solid rgba(15, 76, 129, 0.1);
+  border-top: 1px solid var(--accent-soft);
 }
 
 .page__footer-copyright {

@@ -32,9 +32,9 @@ div.author__avatar {
   height: 110px;
   overflow: hidden;
   border-radius: 50%;
-  background-color: #fff;
-  border: 1px solid $border-color;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  background-color: var(--surface);
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 8px 24px var(--shadow-color);
 
   @include breakpoint($large) {
     width: 175px;
@@ -52,17 +52,133 @@ div.author__avatar {
 }
 
 :root {
+  color-scheme: light;
+
   --site-bg: #eef4f8;
   --site-bg-soft: #f7fafc;
+  --body-glow: rgba(15, 76, 129, 0.1);
+
   --surface: #ffffff;
   --surface-muted: #f5f8fb;
+  --surface-veil: rgba(255, 255, 255, 0.98);
+  --surface-veil-2: rgba(245, 248, 251, 0.95);
+  --surface-veil-soft: rgba(255, 255, 255, 0.85);
+  --surface-veil-strong: rgba(255, 255, 255, 0.92);
+  --surface-sheen: rgba(255, 255, 255, 0.82);
+  --mix-base: #ffffff;
+
   --text-strong: #1d2736;
   --text-muted: #586577;
+  --on-accent: #ffffff;
+
   --accent: #0f4c81;
   --accent-dark: #0b3457;
   --accent-soft: rgba(15, 76, 129, 0.1);
+  --accent-fill-from: #0b3457;
+  --accent-fill-to: #0f4c81;
+
+  --line-faint: rgba(15, 76, 129, 0.07);
   --border-soft: rgba(15, 76, 129, 0.12);
+  --border-medium: rgba(15, 76, 129, 0.16);
+  --border-strong: rgba(15, 76, 129, 0.24);
+  --hover-tint: rgba(15, 76, 129, 0.08);
+  --active-tint: rgba(15, 76, 129, 0.14);
+  --rule: rgba(15, 76, 129, 0.32);
+  --rule-strong: rgba(15, 76, 129, 0.75);
+
+  --shadow-color: rgba(15, 23, 42, 0.07);
+  --shadow-accent: rgba(11, 52, 87, 0.18);
   --shadow-soft: 0 20px 48px rgba(15, 23, 42, 0.08);
+
+  --masthead-bg: rgba(247, 250, 252, 0.92);
+  --code-bg: #f5f7fa;
+
+  --tag-conf-bg: rgba(18, 120, 92, 0.12);
+  --tag-conf-ink: #0f6b55;
+  --tag-book-bg: rgba(190, 138, 24, 0.16);
+  --tag-book-ink: #8b6408;
+  --q1-bg: #0f4c81;
+  --q1-ink: #ffffff;
+  --q2-bg: #d5e4f3;
+  --q2-ink: #14568f;
+  --q3-bg: #e7eef5;
+  --q3-ink: #3f5568;
+  --q4-bg: #f1f4f7;
+  --q4-ink: #57646f;
+
+  --pub-ink-base: #10263d;
+  --pub-wash-base: #edf7ff;
+  --pub-wash-base-2: #f5fbf7;
+}
+
+@mixin site-dark-tokens {
+  color-scheme: dark;
+
+  --site-bg: #070d16;
+  --site-bg-soft: #0d1524;
+  --body-glow: rgba(109, 178, 242, 0.12);
+
+  --surface: #131c2b;
+  --surface-muted: #182333;
+  --surface-veil: rgba(23, 33, 49, 0.98);
+  --surface-veil-2: rgba(16, 24, 38, 0.95);
+  --surface-veil-soft: rgba(23, 33, 49, 0.85);
+  --surface-veil-strong: rgba(23, 33, 49, 0.92);
+  --surface-sheen: rgba(255, 255, 255, 0.05);
+  --mix-base: #16202f;
+
+  --text-strong: #e8eef7;
+  --text-muted: #a4b3c6;
+  --on-accent: #ffffff;
+
+  --accent: #6db2f2;
+  --accent-dark: #a5d3ff;
+  --accent-soft: rgba(109, 178, 242, 0.14);
+  --accent-fill-from: #16497f;
+  --accent-fill-to: #2272ba;
+
+  --line-faint: rgba(148, 190, 235, 0.1);
+  --border-soft: rgba(148, 190, 235, 0.16);
+  --border-medium: rgba(148, 190, 235, 0.22);
+  --border-strong: rgba(148, 190, 235, 0.32);
+  --hover-tint: rgba(109, 178, 242, 0.12);
+  --active-tint: rgba(109, 178, 242, 0.2);
+  --rule: rgba(148, 190, 235, 0.28);
+  --rule-strong: rgba(148, 190, 235, 0.6);
+
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --shadow-accent: rgba(0, 0, 0, 0.55);
+  --shadow-soft: 0 20px 48px rgba(0, 0, 0, 0.5);
+
+  --masthead-bg: rgba(11, 18, 30, 0.92);
+  --code-bg: #0d1524;
+
+  --tag-conf-bg: rgba(52, 199, 152, 0.16);
+  --tag-conf-ink: #6fe0b6;
+  --tag-book-bg: rgba(226, 176, 60, 0.18);
+  --tag-book-ink: #f0c667;
+  --q1-bg: #2e7fc4;
+  --q1-ink: #ffffff;
+  --q2-bg: rgba(109, 178, 242, 0.22);
+  --q2-ink: #a5d3ff;
+  --q3-bg: rgba(148, 190, 235, 0.14);
+  --q3-ink: #c2d1e2;
+  --q4-bg: rgba(148, 190, 235, 0.09);
+  --q4-ink: #a4b3c6;
+
+  --pub-ink-base: #cfe2f5;
+  --pub-wash-base: #0d1726;
+  --pub-wash-base-2: #101d2c;
+}
+
+:root[data-theme="dark"] {
+  @include site-dark-tokens;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include site-dark-tokens;
+  }
 }
 
 html {
@@ -72,9 +188,11 @@ html {
 body {
   font-family: "Source Sans 3", sans-serif;
   color: var(--text-strong);
-  background:
-    radial-gradient(circle at top left, rgba(15, 76, 129, 0.1), transparent 26rem),
+  background-color: var(--site-bg);
+  background-image:
+    radial-gradient(circle at top left, var(--body-glow), transparent 26rem),
     linear-gradient(180deg, var(--site-bg-soft) 0%, var(--site-bg) 100%);
+  background-attachment: fixed;
 }
 
 h1,

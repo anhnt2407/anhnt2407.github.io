@@ -16,13 +16,13 @@
 }
 
 .pub-tag--conference {
-  background: rgba(18, 120, 92, 0.12);
-  color: #0f6b55;
+  background: var(--tag-conf-bg);
+  color: var(--tag-conf-ink);
 }
 
 .pub-tag--book {
-  background: rgba(190, 138, 24, 0.16);
-  color: #8b6408;
+  background: var(--tag-book-bg);
+  color: var(--tag-book-ink);
 }
 
 .pub-metrics {
@@ -53,10 +53,10 @@
   letter-spacing: 0.03em;
 }
 
-.pub-metric--q1 { background: #0f4c81; color: #ffffff; }
-.pub-metric--q2 { background: #d5e4f3; color: #14568f; }
-.pub-metric--q3 { background: #e7eef5; color: #3f5568; }
-.pub-metric--q4 { background: #f1f4f7; color: #57646f; }
+.pub-metric--q1 { background: var(--q1-bg); color: var(--q1-ink); }
+.pub-metric--q2 { background: var(--q2-bg); color: var(--q2-ink); }
+.pub-metric--q3 { background: var(--q3-bg); color: var(--q3-ink); }
+.pub-metric--q4 { background: var(--q4-bg); color: var(--q4-ink); }
 
 .pub-metric--plain {
   padding-left: 0.1rem;
