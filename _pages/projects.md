@@ -9,7 +9,6 @@ author_profile: true
 {%- assign projects = site.data.projects -%}
 {%- assign eras = site.data.project_eras -%}
 {%- assign domains = site.data.project_domains -%}
-{%- assign outputs = site.data.project_outputs -%}
 
 {%- assign led = projects | where: "scope", "lead" -%}
 {%- assign contributed = projects | where: "scope", "contributor" -%}
@@ -26,9 +25,6 @@ author_profile: true
     {%- endunless -%}
   {%- endfor -%}
 {%- endfor -%}
-
-{%- assign sw_total = 0 -%}
-{%- for g in outputs.software_groups -%}{%- assign sw_total = sw_total | plus: g.count -%}{%- endfor -%}
 
 <div class="proj-root">
 
@@ -241,46 +237,6 @@ author_profile: true
       </div>
     </section>
     {% endfor %}
-  </div>
-
-  <h2 class="proj-heading" id="outputs">Registered outputs</h2>
-  <p class="proj-heading__lead">
-    Beyond the papers, the programmes above produced {{ outputs.patents | size }} patent filings and
-    {{ sw_total }} software registrations in South Korea, all filed between 2021 and 2024.
-  </p>
-
-  <div class="proj-outputs">
-    <section class="proj-outputs__col" aria-labelledby="proj-patents-title">
-      <h3 id="proj-patents-title" class="proj-outputs__title">Patents<span>{{ outputs.patents | size }}</span></h3>
-      <ol class="proj-patents">
-        {% for pt in outputs.patents %}{% assign src = projects | where: "slug", pt.project | first %}
-        <li class="proj-patent">
-          <p class="proj-patent__date">{{ pt.date }}</p>
-          <p class="proj-patent__title">{{ pt.title }}</p>
-          <p class="proj-patent__status">{{ pt.status }}</p>
-          {% if src %}<a class="proj-patent__link" href="#project-{{ src.slug }}">{{ src.short }}</a>{% endif %}
-        </li>
-        {% endfor %}
-      </ol>
-    </section>
-
-    <section class="proj-outputs__col" aria-labelledby="proj-software-title">
-      <h3 id="proj-software-title" class="proj-outputs__title">Software registrations<span>{{ sw_total }}</span></h3>
-      <div class="proj-software">
-        {% for g in outputs.software_groups %}{% assign src = projects | where: "slug", g.project | first %}
-        <details class="proj-software__group">
-          <summary>
-            <span class="proj-software__label">{{ g.label }}</span>
-            <span class="proj-software__meta">{{ g.span }} &middot; {{ g.count }} registration{% unless g.count == 1 %}s{% endunless %}</span>
-          </summary>
-          <ul>
-            {% for item in g.items %}<li>{{ item }}</li>{% endfor %}
-          </ul>
-          {% if src %}<a class="proj-patent__link" href="#project-{{ src.slug }}">{{ src.short }}</a>{% endif %}
-        </details>
-        {% endfor %}
-      </div>
-    </section>
   </div>
 </div>
 
