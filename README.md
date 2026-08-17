@@ -11,7 +11,7 @@ Source for <https://anhnt2407.github.io>. Jekyll, deployed by GitHub Pages.
 | `/` | `_pages/about.md` | — |
 | `/news/` | `_pages/news.md` | — |
 | `/research/` | `research/research.md` + three track pages | — |
-| `/projects/` | `_pages/projects.md` | `projects.yml`, `project_eras.yml`, `project_domains.yml`, `project_outputs.yml` |
+| `/projects/` | `_pages/projects.md` | `projects.yml`, `project_eras.yml`, `project_domains.yml` |
 | `/publications/` | `_pages/publications.md` | — |
 | `/teaching/` | `_pages/teaching.md` | `teaching*.yml`, `students.yml`, `student_groups.yml` |
 | `/collaborators/` | `_pages/collaborators.md` | `collaborators.yml` |
