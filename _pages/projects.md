@@ -177,7 +177,13 @@ author_profile: true
                  data-domain="{{ p.domain }}"
                  data-scope="{{ p.scope }}">
           <figure class="proj-card__art">
+            {% if p.cover_alt %}
+            <img src="{{ site.baseurl }}/images/projects/{{ p.slug }}.webp"
+                 alt="{{ p.cover_alt | escape }}"
+                 width="1200" height="675" loading="lazy" decoding="async">
+            {% else %}
             {% include project_visual.html visual=p.visual title=p.title %}
+            {% endif %}
           </figure>
 
           <div class="proj-card__body">

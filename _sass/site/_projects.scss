@@ -648,7 +648,8 @@
   --proj-accent: #4fb8ff;
   --proj-ink: #14568f;
   display: grid;
-  grid-template-columns: minmax(0, 17rem) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 20rem) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
   gap: 1.15rem clamp(1.1rem, 2vw, 1.7rem);
   align-items: start;
   min-width: 0;
@@ -907,9 +908,22 @@
 
 /* ------------------------------------------------------------ artwork -- */
 
+.proj-card__art img,
 .proj-art {
   display: block;
   width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 13px;
+}
+
+.proj-card__art img {
+  height: auto;
+  object-fit: cover;
+  background: color-mix(in srgb, var(--proj-accent) 6%, var(--mix-base));
+  box-shadow: 0 8px 20px var(--shadow-color);
+}
+
+.proj-art {
   height: auto;
   fill: none;
   stroke: var(--proj-accent);
