@@ -1,0 +1,34 @@
+- slug: "robotics"
+  label: "Robotics and mobility"
+  span: "2025 – now"
+  accent: "teal"
+  blurb: >-
+    Back in Vietnam and back on hardware. Humanoid whole-body control and loco-manipulation at
+    VinDynamics, and the avionics function of a national rotorcraft programme before it.
+
+- slug: "twin"
+  label: "AI digital twins for air mobility"
+  span: "2020 – 2029"
+  accent: "indigo"
+  blurb: >-
+    The Konkuk decade. A nine-year national research centre for UAM digital twins, a
+    middle-career grant on resilient smart-city services, certified neural flight control, and a
+    mobility talent programme run as applied R&D.
+
+- slug: "cloud"
+  label: "Dependable cloud and network infrastructure"
+  span: "2014 – 2020"
+  accent: "blue"
+  blurb: >-
+    Stochastic models pointed at real infrastructure: active-active clouds, software-defined
+    networks, hybrid cloud economics, naval survivability, and the reliability of an early
+    unmanned aircraft.
+
+- slug: "space"
+  label: "Space, UAV and embedded systems"
+  span: "2009 – 2015"
+  accent: "amber"
+  blurb: >-
+    The engineering apprenticeship. A CubeSat in Hanoi, then unmanned airships, balloon payloads
+    and survey aircraft in Seoul — the systems that made redundancy and survivability feel
+    concrete rather than theoretical.
