@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Projects"
-excerpt: "Sixteen funded research and engineering programmes since 2009, from a CubeSat in Hanoi to humanoid whole-body control, with the funding instruments, roles and published results behind each one."
+excerpt: "Sixteen funded research and engineering programmes since 2009, from a CubeSat in Hanoi to humanoid robotics, with the funding instruments, roles and published results behind each one."
 permalink: /projects/
 author_profile: true
 ---
@@ -198,7 +198,9 @@ author_profile: true
             <h4>{{ p.title }}</h4>
             <p class="proj-card__role">{{ p.role }}</p>
 
+            {% if p.summary %}
             <p class="proj-card__summary">{{ p.summary }}</p>
+            {% endif %}
 
             {% if p.programme_note %}
             <p class="proj-card__note">{{ p.programme_note }}</p>
