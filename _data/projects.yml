@@ -18,19 +18,6 @@
   location: "Hanoi, Vietnam"
   flag: "🇻🇳"
   cover_alt: "A white humanoid robot stepping up a low block staircase in a bright laboratory, with a row of glowing cyan skeleton figures standing on lit rings behind it and a frosted panel holding one rising curve."
-  summary: >-
-    Direction of the Robot Control and Software Division: the technical vision for the software
-    infrastructure and AI models behind humanoid control and navigation, the pre-SOP development
-    plan, and the engineering teams that deliver it — alongside hands-on work on the control
-    stack and the learned policies that run on it.
-  highlights:
-    - "Manage all operations and development of the Robot Control and Software Division, set the technical vision for control and navigation software and AI models, and own the three-to-six-month plan ahead of start of production."
-    - "Build the real-time C++/ROS 2 control stack, whole-body controllers, and on-board edge-compute inference of learned policies for humanoid platforms."
-    - "Develop reinforcement-learning policies for whole-body motion — natural walking, velocity and command tracking, locomotion over rough terrain, dancing, and predefined tasks — and for loco-manipulation coupling gait with whole-body and arm manipulation."
-    - "Stand up GPU-accelerated physics simulation and massively parallel RL training, reaching sim-to-real transfer through domain randomization, teacher–student policy distillation, and adversarial motion priors."
-    - "Integrate model predictive control with learned policies, and establish experiment tracking, evaluation, and real-robot deployment and validation workflows."
-    - "Grow the research engineering teams against goals and KPIs agreed with the board and the project management office, and lead technical hiring."
-  stack: ["ROS 2", "C++17", "NVIDIA Isaac Lab", "MuJoCo (MJX)", "PPO", "AMP", "Teacher–student distillation", "MPC", "Jetson/Orin"]
   publications: []
 
 - slug: "viettel-helicopter"

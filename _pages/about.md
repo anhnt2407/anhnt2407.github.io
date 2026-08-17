@@ -57,7 +57,7 @@ redirect_from:
       <span>VinDynamics</span>
     </h3>
     <p class="experience-card__meta">On-site · Hanoi Capital Region</p>
-    <p>Serving as Director of Robot Control and Software and Robot Mobility Expert, leading the Robot Control and Software Division within the company's Technology Group. The division covers the real-time C++/ROS 2 control stack and whole-body controllers for humanoid platforms, reinforcement learning for locomotion and loco-manipulation, GPU-accelerated massively parallel training with sim-to-real transfer, and on-board inference of learned policies.</p>
+    <p>Serving as Director of Robot Control and Software and Robot Mobility Expert, leading the Robot Control and Software Division within the company's Technology Group.</p>
   </article>
 
   <article class="experience-card">
