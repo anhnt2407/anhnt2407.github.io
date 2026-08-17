@@ -1,0 +1,55 @@
+patents:
+  - date: "2 Jan 2024"
+    title: "Apparatus and Method for Physics-Informed Generative AI with Transfer Learning Based Digital Twin Aerodynamics Development for eVTOL Aircraft"
+    status: "Korea · application submitted"
+    project: "uam-digital-twin"
+
+  - date: "3 Jan 2024"
+    title: "Apparatus and Method for Transition Flight Scheduling and Simulation of Tilt-Rotor eVTOL Aircraft Using Trim Analysis"
+    status: "Korea · application submitted"
+    project: "certified-neural-control"
+
+  - date: "11 Nov 2022"
+    title: "Apparatus and Method for Performability Quantification of Switch-Over Moving Target Defense Mechanisms in Software Defined Network"
+    status: "Korea Patent No. 10-2022-0150810"
+    project: "imec2"
+
+  - date: "22 Dec 2021"
+    title: "Apparatus and Method for Dependency and Security Quantification of IoMT System Based on Cloud-Fog-Edge Continuum Using Hierarchical Model"
+    status: "Korea Patent No. 10-2021-0185171"
+    project: "imec2"
+
+software_groups:
+  - label: "Digital twin flight dynamics and eVTOL control"
+    project: "certified-neural-control"
+    count: 6
+    span: "2022 – 2023"
+    items:
+      - "Program for Predicting Aircraft Dynamics State Based on Deep Neural Network of Physical Information Using Flight Test Data — C-2023-038352"
+      - "Program for Predicting Aircraft Dynamics State Based on Adversarial Generative Neural Network of Physical Information Using Flight Test Data — C-2023-038351"
+      - "Program for Predicting Aircraft Dynamics State Based on Adversarial Generative Neural Network Using Flight Test Data — C-2023-038350"
+      - "Deep Learning-Based Program for Predicting Aircraft Dynamic State Using Flight Test Data — registration filed"
+      - "eVTOL Tiltrotor Aircraft Trim Analysis-Based Tilt Corridor Derivation Program — registration filed"
+      - "Robust Control Law es-DNLC Aircraft Attitude Control Program Based on PX4 — registration filed"
+
+  - label: "IoT, fog and industrial availability quantification"
+    project: "imec2"
+    count: 4
+    span: "2022"
+    items:
+      - "Hierarchical Modeling and Prediction Program for Availability and Security Quantification of Industrial Internet of Things (IIoT) — C-2022-026096"
+      - "Availability Prediction and Sensitivity Measurement Program for Smart Buildings Using Fog Computing — C-2022-026094"
+      - "Hierarchical Modeling and Prediction Program for Availability and Security Quantification of Internet of Industrial Things (IoIT) — registration filed"
+      - "Availability Prediction and Sensitivity Measurement of Computing Infrastructures in Smart Buildings Aided by Fog Computing — registration filed"
+
+  - label: "Data centre, SDN and virtualized server dependability"
+    project: "hybrid-cloud"
+    count: 6
+    span: "2022"
+    items:
+      - "Operational Cost and Availability Prediction Program for Virtualized Server Systems — C-2022-026095"
+      - "Sensitivity Computation and Assessment Program for Business Continuity of Computing in Data Center Networks Relying on Server Virtualization — C-2022-006597"
+      - "Verification Program for Operational Effectiveness of Disaster-Tolerant Technologies in Data Centers — C-2022-006598"
+      - "Operational Availability and Cost Quantification Program for Virtualized Server Systems — C-2022-006599"
+      - "Stochastic and Discrete-Event Simulation Program for Reliability, Availability, and Operational Cost Prediction of Software-Defined Networks — registration filed"
+      - "Hierarchical Model-Based Program for Reliability and Availability Prediction of Cloud Data Center Networks — registration filed"

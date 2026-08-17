@@ -1,0 +1,19 @@
+- slug: "control"
+  label: "Robotics and learning control"
+  short: "Learning control"
+  accent: "teal"
+
+- slug: "airmobility"
+  label: "Air mobility, digital twins and avionics"
+  short: "Air mobility"
+  accent: "indigo"
+
+- slug: "dependability"
+  label: "Dependability and security"
+  short: "Dependability"
+  accent: "blue"
+
+- slug: "aerospace"
+  label: "Aerospace and space systems"
+  short: "Aerospace"
+  accent: "amber"

@@ -1,0 +1,408 @@
+<svg class="proj-art proj-art--{{ include.visual | default: 'default' }}" viewBox="0 0 400 220" role="img" aria-label="Diagram for {{ include.title | escape }}" focusable="false" preserveAspectRatio="xMidYMid meet">
+  <rect class="proj-art__backdrop" width="400" height="220" />
+  <g class="proj-art__grid" aria-hidden="true">
+    <path d="M0 56 H400 M0 110 H400 M0 164 H400" />
+    <path d="M66 0 V220 M133 0 V220 M200 0 V220 M267 0 V220 M334 0 V220" />
+  </g>
+  <path class="proj-art__halo" d="M40 140 C60 44, 190 12, 288 40 C368 62, 384 148, 316 186 C232 214, 74 208, 40 140 Z" />
+
+  {% case include.visual %}
+
+  {% when "humanoid" %}
+  <g class="proj-art__panel"><rect x="16" y="52" width="92" height="116" rx="14" /></g>
+  <g class="proj-art__wire">
+    <path d="M36 84 L62 72 M36 84 L62 110 M36 110 L62 72 M36 110 L62 148 M36 136 L62 110 M36 136 L62 148" />
+    <path d="M62 72 L88 96 M62 110 L88 96 M62 110 L88 130 M62 148 L88 130" />
+  </g>
+  <g class="proj-art__node">
+    <circle cx="36" cy="84" r="4.5" /><circle cx="36" cy="110" r="4.5" /><circle cx="36" cy="136" r="4.5" />
+    <circle cx="62" cy="72" r="4.5" /><circle cx="62" cy="110" r="4.5" /><circle cx="62" cy="148" r="4.5" />
+    <circle cx="88" cy="96" r="4.5" /><circle cx="88" cy="130" r="4.5" />
+  </g>
+  <path class="proj-art__flow" d="M112 96 C136 90, 148 84, 168 82" />
+  <g class="proj-art__ghost">
+    <path d="M232 60 V180 M252 54 V184" />
+  </g>
+  <g class="proj-art__solid">
+    <circle class="proj-art__fill" cx="200" cy="52" r="12" />
+    <rect class="proj-art__fill" x="184" y="70" width="32" height="46" rx="9" />
+    <path d="M184 80 L162 104 L166 126" />
+    <path d="M216 80 L238 104 L234 128" />
+    <path d="M191 116 L186 148 L190 178" />
+    <path d="M209 116 L214 148 L210 178" />
+  </g>
+  <g class="proj-art__node">
+    <circle cx="162" cy="104" r="4" /><circle cx="238" cy="104" r="4" />
+    <circle cx="186" cy="148" r="4" /><circle cx="214" cy="148" r="4" />
+  </g>
+  <path class="proj-art__terrain" d="M150 190 H236 L250 176 H286 L300 190 H360" />
+  <path class="proj-art__flow proj-art__flow--back" d="M300 168 C300 120, 268 96, 236 92" />
+  <g class="proj-art__panel"><rect x="304" y="46" width="80" height="66" rx="12" /></g>
+  <path class="proj-art__spark" d="M316 100 C328 62, 340 92, 352 58 S372 74, 376 60" />
+
+  {% when "helicopter" %}
+  <path class="proj-art__rotor" d="M92 56 H308" />
+  <path class="proj-art__rotor proj-art__rotor--soft" d="M110 48 C160 34, 244 34, 292 48" />
+  <path d="M200 56 V74" />
+  <path class="proj-art__fill" d="M156 74 C156 62, 246 62, 250 82 L262 92 L204 100 C172 100, 156 92, 156 74 Z" />
+  <path d="M250 84 H336 M330 78 V96 M336 68 L336 100" />
+  <path class="proj-art__rotor" d="M330 62 V102" />
+  <path d="M176 100 V116 M232 100 V116 M162 116 H262" />
+  <path class="proj-art__bus" d="M60 158 H344" />
+  <g class="proj-art__panel">
+    <rect x="70" y="168" width="52" height="34" rx="8" />
+    <rect x="142" y="168" width="52" height="34" rx="8" />
+    <rect x="214" y="168" width="52" height="34" rx="8" />
+    <rect x="286" y="168" width="52" height="34" rx="8" />
+  </g>
+  <path d="M96 158 V168 M168 158 V168 M240 158 V168 M312 158 V168" />
+  <path class="proj-art__spark" d="M70 138 C86 118, 96 148, 112 126 S138 142, 150 122 S176 140, 190 128" />
+  <g class="proj-art__node"><circle cx="60" cy="158" r="5" /><circle cx="344" cy="158" r="5" /></g>
+
+  {% when "uam-twin" %}
+  <g class="proj-art__cloud-panel"><rect x="112" y="12" width="176" height="46" rx="20" /></g>
+  <g class="proj-art__soft"><path d="M132 28 H188 M132 42 H166 M204 28 H268 M204 42 H240" /></g>
+  <g class="proj-art__node"><circle cx="196" cy="28" r="3.4" /><circle cx="196" cy="42" r="3.4" /></g>
+  <g class="proj-art__solid" transform="translate(20 100)">
+    <path class="proj-art__fill" d="M40 22 C40 14, 94 14, 98 24 L102 32 L44 36 C40 32, 40 28, 40 22 Z" />
+    <path d="M14 20 H126 M14 20 V32 M126 20 V32 M18 50 H122 M18 42 V58 M122 42 V58" />
+    <path d="M32 32 V42 M108 32 V42" />
+    <g class="proj-art__node"><circle cx="14" cy="26" r="5" /><circle cx="126" cy="26" r="5" /><circle cx="18" cy="50" r="5" /><circle cx="122" cy="50" r="5" /></g>
+  </g>
+  <g class="proj-art__ghost" transform="translate(248 100)">
+    <path d="M40 22 C40 14, 94 14, 98 24 L102 32 L44 36 C40 32, 40 28, 40 22 Z" />
+    <path d="M14 20 H126 M14 20 V32 M126 20 V32 M18 50 H122 M18 42 V58 M122 42 V58" />
+    <path d="M32 32 V42 M108 32 V42" />
+  </g>
+  <g class="proj-art__simfloor">
+    <path d="M256 186 H392 M266 196 H382 M276 206 H372" />
+    <path d="M262 178 V206 M300 178 V206 M338 178 V206 M376 178 V206" />
+  </g>
+  <path class="proj-art__flow" d="M136 96 C150 70, 168 60, 190 58" />
+  <path class="proj-art__flow proj-art__flow--back" d="M264 96 C250 70, 232 60, 210 58" />
+  <path class="proj-art__flow" d="M154 132 C182 120, 218 120, 246 132" />
+  <path class="proj-art__flow proj-art__flow--back" d="M246 158 C218 170, 182 170, 154 158" />
+  <path class="proj-art__check" d="M240 132 L250 132 L245 124 M240 158 L250 158 L245 166" />
+
+  {% when "vehicle" %}
+  <path class="proj-art__terrain" d="M12 178 H388" />
+  <g class="proj-art__solid" transform="translate(28 118)">
+    <path class="proj-art__fill" d="M6 44 L14 20 C16 12, 96 10, 104 20 L118 44 Z" />
+    <path d="M34 20 V44 M74 18 V44" />
+    <rect x="46" y="0" width="26" height="10" rx="4" class="proj-art__fill" />
+    <circle cx="30" cy="52" r="9" /><circle cx="94" cy="52" r="9" />
+  </g>
+  <g class="proj-art__scan">
+    <path d="M100 122 L214 74 M100 122 L232 96 M100 122 L238 122 M100 122 L228 150" />
+  </g>
+  <g class="proj-art__grid-cells">
+    <rect x="248" y="66" width="22" height="22" rx="4" />
+    <rect x="276" y="66" width="22" height="22" rx="4" />
+    <rect x="304" y="66" width="22" height="22" rx="4" />
+    <rect x="248" y="94" width="22" height="22" rx="4" />
+    <rect x="276" y="94" width="22" height="22" rx="4" class="proj-art__fill" />
+    <rect x="304" y="94" width="22" height="22" rx="4" />
+    <rect x="248" y="122" width="22" height="22" rx="4" />
+    <rect x="276" y="122" width="22" height="22" rx="4" />
+    <rect x="304" y="122" width="22" height="22" rx="4" class="proj-art__fill" />
+  </g>
+  <g class="proj-art__panel"><rect x="330" y="24" width="56" height="30" rx="12" /></g>
+  <path class="proj-art__soft" d="M342 40 H374" />
+  <path class="proj-art__flow" d="M300 62 C318 48, 330 44, 344 44" />
+  <g class="proj-art__node"><circle cx="300" cy="62" r="4.5" /></g>
+
+  {% when "city-safety" %}
+  <path class="proj-art__terrain" d="M8 192 H392" />
+  <g class="proj-art__solid">
+    <rect x="24" y="120" width="38" height="72" rx="4" />
+    <rect x="72" y="86" width="34" height="106" rx="4" />
+    <rect x="116" y="140" width="30" height="52" rx="4" />
+    <rect x="288" y="104" width="36" height="88" rx="4" />
+    <rect x="334" y="134" width="32" height="58" rx="4" />
+  </g>
+  <g class="proj-art__soft">
+    <path d="M32 134 H54 M32 150 H54 M32 166 H54" />
+    <path d="M80 102 H98 M80 118 H98 M80 134 H98 M80 150 H98" />
+    <path d="M296 120 H316 M296 136 H316 M296 152 H316" />
+  </g>
+  <g class="proj-art__node">
+    <circle cx="43" cy="112" r="4.5" /><circle cx="89" cy="78" r="4.5" />
+    <circle cx="131" cy="132" r="4.5" /><circle cx="306" cy="96" r="4.5" /><circle cx="350" cy="126" r="4.5" />
+  </g>
+  <g class="proj-art__wire">
+    <path d="M43 112 L89 78 M89 78 L131 132 M131 132 L43 112" />
+    <path d="M306 96 L350 126" />
+    <path d="M131 132 L200 108 M200 108 L306 96" />
+  </g>
+  <path class="proj-art__fill" d="M200 62 L226 74 V96 C226 116, 212 128, 200 134 C188 128, 174 116, 174 96 V74 Z" />
+  <path class="proj-art__check" d="M188 96 L197 106 L214 84" />
+  <g class="proj-art__node"><circle cx="200" cy="108" r="0" /></g>
+  <path class="proj-art__flow" d="M160 44 H240" />
+  <path class="proj-art__soft" d="M150 44 H160 M240 44 H250" />
+
+  {% when "evtol-control" %}
+  <path class="proj-art__flow" d="M46 76 C112 34, 218 32, 302 62" />
+  <g class="proj-art__solid">
+    <g transform="translate(30 62)">
+      <path class="proj-art__fill" d="M2 8 H42 V17 H2 Z" />
+      <path d="M11 8 V-6 M33 8 V-6" />
+      <path class="proj-art__rotor" d="M1 -6 H21 M23 -6 H43" />
+    </g>
+    <g transform="translate(152 34)">
+      <path class="proj-art__fill" d="M2 8 H42 V17 H2 Z" />
+      <path d="M11 8 L1 -4 M33 8 L43 -4" />
+      <path class="proj-art__rotor" d="M-8 -12 L10 2 M32 2 L50 -12" />
+    </g>
+    <g transform="translate(274 58)">
+      <path class="proj-art__fill" d="M2 8 H42 V17 H2 Z" />
+      <path d="M9 12 H-8 M35 12 H52" />
+      <path class="proj-art__rotor" d="M-8 4 V20 M52 4 V20" />
+      <path d="M6 17 H38 M22 17 V25 M10 25 H34" />
+    </g>
+  </g>
+  <g class="proj-art__bowl">
+    <ellipse cx="196" cy="156" rx="118" ry="42" />
+    <ellipse cx="196" cy="156" rx="84" ry="30" />
+    <ellipse cx="196" cy="156" rx="50" ry="18" />
+    <ellipse cx="196" cy="156" rx="20" ry="7" />
+  </g>
+  <path class="proj-art__roa" d="M196 108 C90 108, 62 200, 196 200 C330 200, 302 108, 196 108 Z" />
+  <path class="proj-art__traj" d="M306 140 C258 118, 132 128, 122 158 C114 184, 210 190, 236 168 C256 152, 214 142, 196 156" />
+  <g class="proj-art__node"><circle cx="196" cy="156" r="5" /></g>
+
+  {% when "stream-cloud" %}
+  <g class="proj-art__panel">
+    <rect x="18" y="86" width="86" height="106" rx="12" />
+    <rect x="296" y="86" width="86" height="106" rx="12" />
+  </g>
+  <g class="proj-art__solid">
+    <rect x="30" y="100" width="62" height="16" rx="4" />
+    <rect x="30" y="124" width="62" height="16" rx="4" />
+    <rect x="30" y="148" width="62" height="16" rx="4" />
+    <rect x="308" y="100" width="62" height="16" rx="4" />
+    <rect x="308" y="124" width="62" height="16" rx="4" />
+    <rect x="308" y="148" width="62" height="16" rx="4" />
+  </g>
+  <g class="proj-art__node">
+    <circle cx="40" cy="108" r="3" /><circle cx="40" cy="132" r="3" /><circle cx="40" cy="156" r="3" />
+    <circle cx="318" cy="108" r="3" /><circle cx="318" cy="132" r="3" /><circle cx="318" cy="156" r="3" />
+  </g>
+  <path class="proj-art__flow" d="M104 118 C170 118, 230 118, 296 118" />
+  <path class="proj-art__flow proj-art__flow--back" d="M296 160 C230 160, 170 160, 104 160" />
+  <path class="proj-art__bus" d="M18 44 H382" />
+  <g class="proj-art__fill">
+    <rect x="66" y="34" width="22" height="20" rx="5" />
+    <rect x="128" y="34" width="22" height="20" rx="5" />
+    <rect x="190" y="34" width="22" height="20" rx="5" />
+    <rect x="252" y="34" width="22" height="20" rx="5" />
+  </g>
+  <path class="proj-art__soft" d="M61 60 V86 M339 60 V86" />
+
+  {% when "hybrid-cloud" %}
+  <g class="proj-art__panel"><rect x="16" y="96" width="118" height="98" rx="14" /></g>
+  <g class="proj-art__solid">
+    <rect x="30" y="112" width="90" height="18" rx="4" />
+    <rect x="30" y="138" width="90" height="18" rx="4" />
+    <rect x="30" y="164" width="90" height="18" rx="4" />
+  </g>
+  <path class="proj-art__cloud" d="M262 132 C242 132, 234 118, 248 108 C244 82, 288 70, 302 92 C328 78, 352 100, 344 116 C362 122, 356 140, 336 138 Z" />
+  <g class="proj-art__fill">
+    <rect x="272" y="150" width="20" height="20" rx="5" />
+    <rect x="300" y="150" width="20" height="20" rx="5" />
+    <rect x="328" y="150" width="20" height="20" rx="5" />
+  </g>
+  <path class="proj-art__flow" d="M136 130 C176 118, 210 112, 244 112" />
+  <path class="proj-art__flow proj-art__flow--back" d="M254 168 C214 178, 176 176, 136 168" />
+  <g class="proj-art__panel"><rect x="150" y="24" width="126" height="60" rx="12" /></g>
+  <path class="proj-art__spark" d="M162 72 C182 68, 196 46, 218 42 S250 36, 264 34" />
+  <path class="proj-art__spark proj-art__spark--alt" d="M162 44 C186 52, 204 66, 226 68 S254 72, 264 74" />
+
+  {% when "disaster-cloud" %}
+  <path class="proj-art__globe" d="M20 176 C86 128, 314 128, 380 176" />
+  <path class="proj-art__soft" d="M20 176 C86 200, 314 200, 380 176" />
+  <g class="proj-art__panel">
+    <rect x="34" y="94" width="86" height="62" rx="12" />
+    <rect x="280" y="94" width="86" height="62" rx="12" />
+  </g>
+  <g class="proj-art__solid">
+    <rect x="46" y="106" width="62" height="12" rx="3" />
+    <rect x="46" y="124" width="62" height="12" rx="3" />
+    <rect x="292" y="106" width="62" height="12" rx="3" />
+    <rect x="292" y="124" width="62" height="12" rx="3" />
+  </g>
+  <path class="proj-art__flow" d="M120 112 C170 82, 232 82, 280 112" />
+  <path class="proj-art__flow proj-art__flow--back" d="M280 138 C232 160, 170 160, 120 138" />
+  <path class="proj-art__bolt proj-art__fill" d="M78 22 L60 62 H76 L66 92 L98 50 H80 L94 22 Z" />
+  <g class="proj-art__ghost"><path d="M34 94 H120 M34 156 H120 M34 94 L120 156 M120 94 L34 156" /></g>
+  <path class="proj-art__check" d="M310 138 L322 152 L344 122" />
+
+  {% when "naval" %}
+  <path class="proj-art__terrain" d="M8 176 C60 168, 110 184, 164 176 S268 168, 320 178 S382 176, 392 172" />
+  <path class="proj-art__fill" d="M52 116 H332 L306 160 H80 Z" />
+  <path d="M92 116 V160 M132 116 V160 M172 116 V160 M212 116 V160 M252 116 V160 M292 116 V160" />
+  <path d="M148 116 V96 H236 V116" />
+  <path d="M182 96 V78 H214 V96" />
+  <path class="proj-art__rotor" d="M198 78 V52" />
+  <path class="proj-art__bolt proj-art__fill" d="M124 40 L108 74 H122 L112 100 L142 62 H126 L138 40 Z" />
+  <g class="proj-art__panel"><rect x="266" y="24" width="112" height="66" rx="12" /></g>
+  <g class="proj-art__solid">
+    <rect x="278" y="38" width="26" height="16" rx="4" />
+    <rect x="318" y="30" width="26" height="16" rx="4" />
+    <rect x="318" y="54" width="26" height="16" rx="4" />
+    <rect x="352" y="38" width="16" height="16" rx="4" />
+  </g>
+  <path class="proj-art__wire" d="M304 46 H318 M344 38 H352 M344 62 H352 L352 54" />
+
+  {% when "uav-reliability" %}
+  <g class="proj-art__solid" transform="translate(96 34)">
+    <path class="proj-art__fill" d="M60 22 C60 14, 118 12, 126 22 L134 32 L62 38 C58 34, 60 28, 60 22 Z" />
+    <path d="M28 24 H164 M28 24 L44 40 M164 24 L148 40" />
+    <path d="M124 38 L140 56 M96 38 L84 56" />
+    <path d="M2 30 H28 M164 30 H190" />
+  </g>
+  <g class="proj-art__panel"><rect x="18" y="118" width="200" height="84" rx="12" /></g>
+  <g class="proj-art__solid">
+    <rect x="34" y="150" width="34" height="22" rx="5" />
+    <rect x="94" y="128" width="34" height="22" rx="5" />
+    <rect x="94" y="170" width="34" height="22" rx="5" />
+    <rect x="164" y="150" width="34" height="22" rx="5" />
+  </g>
+  <path class="proj-art__wire" d="M68 161 L82 161 L82 139 L94 139 M82 161 L82 181 L94 181 M128 139 L146 139 L146 161 L164 161 M128 181 L146 181 L146 161" />
+  <g class="proj-art__panel"><rect x="238" y="118" width="146" height="84" rx="12" /></g>
+  <path class="proj-art__axis" d="M256 134 V188 H370" />
+  <path class="proj-art__spark" d="M256 138 C296 140, 320 158, 336 176 S360 188, 368 188" />
+  <g class="proj-art__node"><circle cx="256" cy="138" r="3.5" /><circle cx="336" cy="176" r="3.5" /></g>
+
+  {% when "uav-survey" %}
+  <path class="proj-art__terrain" d="M8 178 C56 152, 92 190, 140 168 S212 128, 256 152 S320 186, 392 158" />
+  <path class="proj-art__soft" d="M8 200 C56 178, 92 210, 140 190 S212 154, 256 176 S320 206, 392 182" />
+  <g class="proj-art__solid" transform="translate(80 34)">
+    <path class="proj-art__fill" d="M46 18 C46 11, 96 10, 102 18 L110 26 L48 32 C44 28, 46 24, 46 18 Z" />
+    <path d="M18 20 H136 M18 20 L32 34 M136 20 L122 34" />
+    <path d="M0 26 H18 M136 26 H154" />
+  </g>
+  <path class="proj-art__scan" d="M150 82 L104 156 M150 82 L212 148" />
+  <path class="proj-art__scan proj-art__scan--soft" d="M104 156 C132 168, 186 164, 212 148" />
+  <g class="proj-art__node">
+    <circle cx="104" cy="156" r="3.5" /><circle cx="158" cy="162" r="3.5" /><circle cx="212" cy="148" r="3.5" />
+  </g>
+  <g class="proj-art__solid" transform="translate(296 116)">
+    <path d="M22 62 V26" />
+    <path class="proj-art__fill" d="M22 26 L2 2 H42 Z" />
+    <path d="M4 62 H40" />
+  </g>
+  <path class="proj-art__wave" d="M264 74 C286 78, 300 92, 306 112" />
+  <path class="proj-art__wave" d="M248 62 C282 68, 306 88, 316 116" />
+
+  {% when "balloon" %}
+  <path class="proj-art__fill" d="M162 26 C202 26, 224 60, 216 92 C210 116, 190 128, 178 138 H152 C140 128, 120 116, 114 92 C106 60, 122 26, 162 26 Z" />
+  <path class="proj-art__soft" d="M140 34 C132 62, 134 104, 152 138 M186 34 C194 62, 192 104, 178 138" />
+  <path d="M152 138 L158 158 M178 138 L172 158" />
+  <g class="proj-art__solid"><rect x="146" y="158" width="38" height="30" rx="6" /></g>
+  <path class="proj-art__wire" d="M165 188 V202 M156 202 H174" />
+  <g class="proj-art__axis">
+    <path d="M42 22 V200 M36 22 H48 M36 66 H48 M36 110 H48 M36 154 H48 M36 198 H48" />
+  </g>
+  <path class="proj-art__wave" d="M200 158 C232 152, 254 164, 268 182" />
+  <path class="proj-art__wave" d="M204 142 C244 134, 274 150, 288 178" />
+  <g class="proj-art__solid" transform="translate(300 148)">
+    <path d="M28 52 V24" />
+    <path class="proj-art__fill" d="M28 24 L8 2 H48 Z" />
+    <path d="M10 52 H46" />
+  </g>
+  <path class="proj-art__terrain" d="M8 204 H392" />
+
+  {% when "airship-3d" %}
+  <g class="proj-art__solid">
+    <ellipse class="proj-art__fill" cx="140" cy="52" rx="76" ry="26" />
+    <path d="M216 52 L246 36 M216 52 L246 68" />
+    <rect x="120" y="76" width="42" height="20" rx="6" />
+    <path d="M132 76 V66 M150 76 V66" />
+  </g>
+  <path class="proj-art__scan" d="M141 96 L76 172 M141 96 L226 168" />
+  <path class="proj-art__scan proj-art__scan--soft" d="M76 172 L226 168" />
+  <g class="proj-art__solid" transform="translate(112 122)">
+    <path d="M-8 50 H92 M0 50 V16 M20 50 V16 M44 50 V16 M68 50 V16 M84 50 V16" />
+    <path class="proj-art__fill" d="M-14 16 L42 -4 L98 16 Z" />
+  </g>
+  <g class="proj-art__mesh">
+    <path d="M262 190 L286 138 L322 176 Z" />
+    <path d="M286 138 L336 130 L322 176 Z" />
+    <path d="M336 130 L370 168 L322 176 Z" />
+    <path d="M262 190 L322 176 L308 202 Z" />
+  </g>
+  <g class="proj-art__node">
+    <circle cx="262" cy="190" r="3.5" /><circle cx="286" cy="138" r="3.5" /><circle cx="322" cy="176" r="3.5" />
+    <circle cx="336" cy="130" r="3.5" /><circle cx="370" cy="168" r="3.5" /><circle cx="308" cy="202" r="3.5" />
+  </g>
+
+  {% when "spacecraft-control" %}
+  <g class="proj-art__solid" transform="translate(158 76)">
+    <rect class="proj-art__fill" x="0" y="0" width="60" height="60" rx="10" />
+    <path d="M-34 14 H0 M-34 14 V46 M-34 46 H0" />
+    <path d="M94 14 H60 M94 14 V46 M94 46 H60" />
+  </g>
+  <g class="proj-art__axis">
+    <path d="M188 106 L188 56 M182 66 L188 56 L194 66" />
+    <path d="M188 106 L242 106 M232 100 L242 106 L232 112" />
+    <path d="M188 106 L150 140 M158 134 L150 140 L154 132" />
+  </g>
+  <g class="proj-art__panel">
+    <rect x="20" y="24" width="76" height="34" rx="9" />
+    <rect x="20" y="162" width="76" height="34" rx="9" />
+    <rect x="286" y="24" width="76" height="34" rx="9" />
+    <rect x="286" y="162" width="76" height="34" rx="9" />
+  </g>
+  <g class="proj-art__soft">
+    <path d="M34 41 H82 M34 179 H82 M300 41 H348 M300 179 H348" />
+  </g>
+  <path class="proj-art__flow" d="M96 41 H286" />
+  <path class="proj-art__flow" d="M324 58 V162" />
+  <path class="proj-art__flow" d="M286 179 H96" />
+  <path class="proj-art__flow" d="M58 162 V58" />
+  <g class="proj-art__node">
+    <circle cx="188" cy="41" r="4.5" /><circle cx="324" cy="110" r="4.5" />
+    <circle cx="188" cy="179" r="4.5" /><circle cx="58" cy="110" r="4.5" />
+  </g>
+
+  {% when "picosat" %}
+  <g class="proj-art__solid" transform="translate(120 58)">
+    <path class="proj-art__fill" d="M0 26 L48 0 L96 26 L48 52 Z" />
+    <path d="M0 26 V80 L48 106 V52" />
+    <path d="M96 26 V80 L48 106" />
+    <circle cx="48" cy="76" r="12" />
+    <circle class="proj-art__fill" cx="48" cy="76" r="5" />
+    <path d="M96 40 L136 20 M136 20 L130 30 M136 20 L132 12" />
+  </g>
+  <path class="proj-art__globe" d="M14 196 C86 132, 314 132, 386 196" />
+  <path class="proj-art__orbit" d="M26 176 C96 96, 306 96, 374 176" />
+  <g class="proj-art__panel">
+    <rect x="272" y="30" width="104" height="86" rx="12" />
+  </g>
+  <g class="proj-art__solid">
+    <rect x="286" y="42" width="34" height="14" rx="4" />
+    <rect x="328" y="42" width="34" height="14" rx="4" />
+    <rect x="286" y="64" width="34" height="14" rx="4" />
+    <rect x="328" y="64" width="34" height="14" rx="4" />
+    <rect x="286" y="86" width="34" height="14" rx="4" />
+    <rect x="328" y="86" width="34" height="14" rx="4" />
+  </g>
+  <path class="proj-art__wire" d="M320 49 H328 M320 71 H328 M320 93 H328" />
+  <path class="proj-art__wave" d="M240 40 C258 44, 268 52, 272 64" />
+  <path class="proj-art__wave" d="M232 26 C260 32, 276 46, 282 64" />
+
+  {% else %}
+  <g class="proj-art__panel"><rect x="52" y="46" width="128" height="128" rx="18" /></g>
+  <g class="proj-art__wire">
+    <path d="M84 84 L116 66 M84 84 L116 110 M84 136 L116 110 M116 66 L148 96 M116 110 L148 96 M116 110 L148 130" />
+  </g>
+  <g class="proj-art__node">
+    <circle cx="84" cy="84" r="5" /><circle cx="84" cy="136" r="5" />
+    <circle cx="116" cy="66" r="5" /><circle cx="116" cy="110" r="5" />
+    <circle cx="148" cy="96" r="5" /><circle cx="148" cy="130" r="5" />
+  </g>
+  <path class="proj-art__flow" d="M186 110 H240" />
+  <g class="proj-art__panel"><rect x="248" y="46" width="104" height="128" rx="18" /></g>
+  <path class="proj-art__spark" d="M264 148 C284 106, 300 132, 316 90 S340 96, 340 72" />
+  {% endcase %}
+</svg>

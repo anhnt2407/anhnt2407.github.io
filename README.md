@@ -11,6 +11,7 @@ Source for <https://anhnt2407.github.io>. Jekyll, deployed by GitHub Pages.
 | `/` | `_pages/about.md` | — |
 | `/news/` | `_pages/news.md` | — |
 | `/research/` | `research/research.md` + three track pages | — |
+| `/projects/` | `_pages/projects.md` | `projects.yml`, `project_eras.yml`, `project_domains.yml`, `project_outputs.yml` |
 | `/publications/` | `_pages/publications.md` | — |
 | `/teaching/` | `_pages/teaching.md` | `teaching*.yml`, `students.yml`, `student_groups.yml` |
 | `/collaborators/` | `_pages/collaborators.md` | `collaborators.yml` |
@@ -39,6 +40,7 @@ collaborators collaborator cards
 misc          notes and links hero, theme filter, reading cards
 footer        site footer
 teaching      teaching and supervision hero, filter, timeline, people
+projects      programme hero, Gantt timeline, filter, project cards, artwork
 responsive    breakpoint overrides — must stay after the area partials
 theme-dark    dark-mode corrections that a token swap cannot express
 ```
@@ -75,17 +77,27 @@ dark by design, from their bright partner hue.
 ### Templates and assets
 
 - `_layouts/` — page skeletons; `_includes/` — reusable fragments.
-- `_includes/misc_visual.html` and `_includes/teaching_icon.html` render inline
-  SVG artwork from a name passed by the page.
+- `_includes/misc_visual.html`, `_includes/teaching_icon.html` and
+  `_includes/project_visual.html` render inline SVG artwork from a name passed
+  by the page. The project artwork is drawn in `var(--proj-accent)`, so a card
+  simply sets that custom property and the diagram follows the card's accent in
+  both themes.
 - `images/` — content imagery, grouped by page and by date for news items.
 - `assets/` — fonts, site JavaScript and figures used by the research pages.
 - `scripts/generate_misc_covers.py` — regenerates the Notes & Links cover art.
 
 ## Working on the site
 
-The publication list, teaching record and supervision record are transcribed
-from the LaTeX CV and must be kept in step with it; the identifiers in
-`_pages/publications.md` are referenced from the teaching page.
+The publication list, teaching record, supervision record and project list are
+transcribed from the LaTeX CV and must be kept in step with it; the identifiers
+in `_pages/publications.md` are referenced from the teaching and projects pages.
+
+`_data/projects.yml` carries two date pairs per programme: `start`/`end` are the
+period Tuan Anh personally worked on it and drive the solid Gantt bar, while
+`prog_start`/`prog_end` are the full funded span and drive the faint bar behind
+it. Both are decimal years on a 2009–2030 axis (`(year − 2009) × 4.7619` gives
+the percentage). Where the two differ, add a `programme_note` so the card says
+plainly that the grant outlived the appointment.
 
 Pushing to `master` triggers the workflow in
 `.github/workflows/jekyll-gh-pages.yml`, which builds and deploys the site.
