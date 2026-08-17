@@ -77,20 +77,30 @@ dark by design, from their bright partner hue.
 ### Templates and assets
 
 - `_layouts/` — page skeletons; `_includes/` — reusable fragments.
-- `_includes/misc_visual.html`, `_includes/teaching_icon.html` and
-  `_includes/project_visual.html` render inline SVG artwork from a name passed
-  by the page. The project artwork is drawn in `var(--proj-accent)`, so a card
-  simply sets that custom property and the diagram follows the card's accent in
-  both themes.
+- `_includes/misc_visual.html` and `_includes/teaching_icon.html` render inline
+  SVG artwork from a name passed by the page.
+- `_includes/project_visual.html` is the projects page's fallback artwork,
+  drawn in `var(--proj-accent)`. It only renders for a programme with no
+  `cover_alt`; every current programme has a rendered cover, so in practice it
+  never appears.
 - `images/` — content imagery, grouped by page and by date for news items.
 - `assets/` — fonts, site JavaScript and figures used by the research pages.
 - `scripts/generate_misc_covers.py` — regenerates the Notes & Links cover art.
+- `scripts/generate_project_covers.py` — regenerates the Projects cover art.
 
 ## Working on the site
 
 The publication list, teaching record, supervision record and project list are
 transcribed from the LaTeX CV and must be kept in step with it; the identifiers
 in `_pages/publications.md` are referenced from the teaching and projects pages.
+
+Each programme's cover lives at `images/projects/<slug>.webp` and is rendered by
+`scripts/generate_project_covers.py`. Those covers follow the News recipe rather
+than the Misc one: a bright high-key daylight environment in smooth 3D with a
+translucent cyan holographic layer drawn into the same space, colour used
+semantically (green healthy, amber caution, red dashed for a hard constraint).
+A card shows its cover only when the programme has a `cover_alt`; write that alt
+text from what the render actually drew, not from what the prompt asked for.
 
 `_data/projects.yml` carries two date pairs per programme: `start`/`end` are the
 period Tuan Anh personally worked on it and drive the solid Gantt bar, while

@@ -17,6 +17,7 @@
   funder: "Industry programme · Technology Group, VinDynamics"
   location: "Hanoi, Vietnam"
   flag: "🇻🇳"
+  cover_alt: "A white humanoid robot stepping up a low block staircase in a bright laboratory, with a row of glowing cyan skeleton figures standing on lit rings behind it and a frosted panel holding one rising curve."
   summary: >-
     Direction of the Robot Control and Software Division: the technical vision for the software
     infrastructure and AI models behind humanoid control and navigation, the pre-SOP development
@@ -52,6 +53,7 @@
   funder: "Industry programme · Viettel Group"
   location: "Hanoi, Vietnam"
   flag: "🇻🇳"
+  cover_alt: "A light-grey civil helicopter in a bright hangar, a luminous cyan line running the length of the fuselage with a waveform at its centre, and four glowing translucent equipment boxes standing on the floor beside it."
   summary: >-
     The avionics function of a national rotorcraft programme: the technical vision for on-board
     computing, the hardware and software teams doing the early research on modern helicopter
@@ -87,6 +89,7 @@
   team: "About 30 full-time M.Sc. and Ph.D. researchers"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A white light aircraft on a clean hall floor beside an identical cyan wireframe copy of itself hovering over a glowing grid pedestal, a dotted arc linking the two, and a cloud slab of pale server cylinders overhead dropping threads of light onto both."
   flagship: true
   summary: >-
     The flagship programme of the decade: an AI-driven digital twin ecosystem for urban air
@@ -120,6 +123,7 @@
   funder: "Professional education project · Ministry of Trade, Industry and Energy, South Korea"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A white autonomous test car on a bright proving ground, a cyan scanning fan sweeping forward from its roof sensor, and the road ahead overlaid with a glowing grid of cells, one lit green and one amber."
   summary: >-
     A talent programme run as applied R&D: graduate projects on autonomous navigation, SLAM and
     deep reinforcement learning, sensor-data processing and reliable vehicle service
@@ -152,6 +156,7 @@
   grant: "Grant 2021R1A2C2094943 · approx. KRW 800 million over five years"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A clean miniature city seen from above, cyan sensor nodes on the rooftops joined by a mesh of light, a translucent green dome over the central block, and a cloud slab carrying pale server cylinders and amber edge boxes floating above."
   summary: >-
     The i-MeC2 framework: secure, reliable, multi-agent public-safety services for smart cities,
     built on bio-inspired collaboration and intelligent edge and cloud computing — and the
@@ -183,6 +188,7 @@
   funder: "Research thrust within the AI Digital Twin for Urban Air Mobility programme"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "Three white rotorcraft rising in sequence across a bright hall, above a large glowing cyan bowl of concentric contour rings with a single bright trajectory spiralling down to the point at its centre, ringed by a green dashed boundary."
   summary: >-
     Learned flight controllers you can argue about formally: deep neural attitude and flight control
     carrying exponentially stabilizing control-Lyapunov certificates, tiltrotor transition under
@@ -214,6 +220,7 @@
   grant: "Approx. KRW 40 million over two years"
   location: "Seoul, South Korea · Hanoi, Vietnam"
   flag: "🇰🇷🇻🇳"
+  cover_alt: "Two data-centre sites on a pale tropical plain, the left one inside a red dashed ring with its racks faded to grey and the right one glowing green inside a green ring, joined by a cyan arc carrying a stream of light from left to right."
   summary: >-
     A bilateral study putting a number on business continuity: how much a geographically
     distributed, active-active cloud is really worth once you model the sites, the links between
@@ -244,6 +251,7 @@
   funder: "Institute for Information and Communication Technology Promotion (IITP), South Korea"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A cutaway on-premise server hall on the left and a cloud of pale server cylinders on the right, joined by a glowing cyan lane carrying small blue and green cubes, with a frosted panel above holding two curves that cross."
   summary: >-
     Model-based technology assessment for high-performance hybrid cloud services — virtualized
     servers, software-defined networks, data-centre networks — turned into concrete guidance on
@@ -274,6 +282,7 @@
   funder: "IITP · Ministry of Science, ICT and Future Planning, South Korea"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A bright logistics yard of white warehouses and pale containers, a cyan river of data motes running down the centre and splitting to feed two mirrored server blocks, each standing on a green ring."
   summary: >-
     The GENESIS cloud platform for distributed, parallel streaming analytics in logistics and
     transportation, with active-active high availability and disaster tolerance as first-class
@@ -305,6 +314,7 @@
   grant: "Contract UD120019OD"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A grey warship at a clean quay, its hull overlaid with a luminous cutaway of compartment cells - several amber and one red inside a dashed outline - with a green path threading around them from bow to stern."
   summary: >-
     Defence-funded work on integrated survivability analysis for naval vessels: the software and
     the analysis technique behind how a ship's mission capability degrades as its compartments and
@@ -331,6 +341,7 @@
   funder: "National IT Industry Promotion Agency (NIPA), South Korea"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A white fixed-wing unmanned aircraft on a stand in a bright assembly hall, with a floating diagram of three glowing translucent blocks joined by light lines, two cyan and one amber, beside a frosted panel holding a single curve."
   summary: >-
     A reliability study of an advanced unmanned aerial vehicle — the first time the dependability
     modelling built for data centres was pointed at an airframe, a decade before the same question
@@ -357,6 +368,7 @@
   funder: "National Research Foundation of Korea"
   location: "Seoul, South Korea · Peru"
   flag: "🇰🇷🇵🇪"
+  cover_alt: "A white survey aircraft flying over a mountain valley of terraced ridges and a winding river, a cyan scan swath fanning down from it and laying a grid of survey cells across the ground, with a dish ground station on a near ridge."
   summary: >-
     A science-and-technology cooperation programme flying unmanned aircraft for resource
     exploration and environmental monitoring, and the embedded flight and mission software that
@@ -383,6 +395,7 @@
   funder: "Korea Cadastral Survey Corporation (now LX), South Korea"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A white unmanned airship with a camera gondola hovering over the tiled roofs and red columns of a heritage courtyard, its cyan camera beam feeding a large glowing wireframe mesh reconstructed in the air beside it."
   summary: >-
     Unmanned airships used as a slow, stable camera platform to build three-dimensional spatial
     information for historical sites — aerial photogrammetry where a fixed-wing survey would be
@@ -409,6 +422,7 @@
   funder: "Korea Aerospace University"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A white high-altitude balloon carrying an instrument box above a bright cloud deck, a cyan telemetry arc curving down from the payload to a dish ground station on a distant hillside."
   summary: >-
     A near-space balloon platform built as a teaching instrument: payload electronics, on-board
     software and telemetry cheap enough to fly with students, close enough to a real spacecraft
@@ -435,6 +449,7 @@
   funder: "Korea Institute of Geoscience and Mineral Resources (KIGAM), South Korea"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
+  cover_alt: "A white unmanned airship hovering over a bright airfield apron, encircled by four glowing translucent blocks joined into a closed loop by arrowed cyan lines, with a red, green and blue attitude gizmo at the craft's centre."
   summary: >-
     Automatic control system development for an unmanned craft — the embedded hardware and
     software architecture, the sensing, and the control loop, published as the unmanned airship
@@ -461,6 +476,7 @@
   funder: "FPT Software, FPT Corporation, Vietnam"
   location: "Hanoi, Vietnam"
   flag: "🇻🇳"
+  cover_alt: "A small solar-panelled cube satellite on a white pedestal in a cleanroom, a technician in a coverall standing behind it, and three stacked glowing translucent circuit boards linked back to the cube by light lines, with the Earth's limb visible through the window."
   origin: true
   summary: >-
     Where all of it starts. A 10 cm, 1 kg CubeSat built from commercial off-the-shelf parts as
