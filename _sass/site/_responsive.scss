@@ -45,9 +45,7 @@
 
   .proj-card__art,
   .proj-meta,
-  .proj-card__body,
-  .proj-card--compact .proj-card__body,
-  .proj-card--compact .proj-meta {
+  .proj-card__body {
     grid-column: 1;
     grid-row: auto;
   }
@@ -56,7 +54,7 @@
     max-width: 30rem;
   }
 
-  .proj-card--compact .proj-meta {
+  .proj-meta {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 

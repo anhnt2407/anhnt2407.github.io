@@ -4,20 +4,17 @@
   visual: "humanoid"
   era: "robotics"
   domain: "control"
-  scope: "lead"
-  scope_label: "Led"
-  status: "current"
   period: "Mar 2026 – present"
   start: 2026.17
   end: 2026.63
-  prog_start: 2026.17
-  prog_end: 2026.63
-  role: "Director of Robot Control and Software · Robot Mobility Expert"
   organisation: "VinDynamics, VinGroup"
   funder: "Industry programme · Technology Group, VinDynamics"
   location: "Hanoi, Vietnam"
   flag: "🇻🇳"
   cover_alt: "A white humanoid robot stepping up a low block staircase in a bright laboratory, with a row of glowing cyan skeleton figures standing on lit rings behind it and a frosted panel holding one rising curve."
+  summary: >-
+    Research and development of the Dyno humanoid robot platform, run by the Robot Control and
+    Software Division of VinDynamics.
   publications: []
 
 - slug: "viettel-helicopter"
@@ -26,31 +23,18 @@
   visual: "helicopter"
   era: "robotics"
   domain: "airmobility"
-  scope: "lead"
-  scope_label: "Led"
-  status: "completed"
-  period: "Jun 2025 – Mar 2026"
+  period: "Jun 2025 – Dec 2027"
   start: 2025.42
-  end: 2026.21
-  prog_start: 2025.42
-  prog_end: 2027.99
-  programme_note: "Programme runs to Dec 2027; my involvement ended with the Viettel appointment in Mar 2026."
-  role: "Manager of Avionics System"
+  end: 2027.99
   organisation: "Viettel Aviation Technology Center (VATC), Viettel Group"
   funder: "Industry programme · Viettel Group"
   location: "Hanoi, Vietnam"
   flag: "🇻🇳"
   cover_alt: "A light-grey civil helicopter in a bright hangar, a luminous cyan line running the length of the fuselage with a waveform at its centre, and four glowing translucent equipment boxes standing on the floor beside it."
   summary: >-
-    The avionics function of a national rotorcraft programme: the technical vision for on-board
-    computing, the hardware and software teams doing the early research on modern helicopter
-    computing and communication, and the AI work on real-time flight data analytics and
-    automatic control.
-  highlights:
-    - "Develop the technical vision for the computing systems carried on a helicopter."
-    - "Manage a team of hardware and software engineers running the initial research on computing and communication systems for a modern helicopter."
-    - "Direct a team of AI engineers building models for real-time data analytics and for automatic control of the aircraft."
-    - "Work directly with the board to run the programme across internal and external sources."
+    A national rotorcraft development and manufacturing programme. Its avionics workstream covers
+    the on-board computing and communication architecture of a modern helicopter, together with AI
+    models for real-time flight data analytics and automatic flight control.
   stack: ["Avionics architecture", "Real-time computing", "Data-link systems", "Flight data analytics", "Automatic flight control"]
   publications: []
 
@@ -60,16 +44,9 @@
   visual: "uam-twin"
   era: "twin"
   domain: "airmobility"
-  scope: "lead"
-  scope_label: "Led"
-  status: "completed"
-  period: "Jun 2020 – Jun 2025"
+  period: "Jun 2020 – May 2029"
   start: 2020.42
-  end: 2025.5
-  prog_start: 2020.42
-  prog_end: 2029.42
-  programme_note: "Nine-year programme funded to May 2029; my involvement ended with the Konkuk appointment in Jun 2025."
-  role: "Project Technical Leader · Lead Researcher"
+  end: 2029.42
   organisation: "Konkuk Aerospace Design-Airworthiness Institute (KADA), Konkuk University"
   funder: "Excellent Research Center project · National Research Foundation of Korea, Basic Science Program of the Ministry of Education"
   grant: "Grant 2020R1A6A1A03046811 · approx. KRW 7.7 billion over nine years"
@@ -77,16 +54,11 @@
   location: "Seoul, South Korea"
   flag: "🇰🇷"
   cover_alt: "A white light aircraft on a clean hall floor beside an identical cyan wireframe copy of itself hovering over a glowing grid pedestal, a dotted arc linking the two, and a cloud slab of pale server cylinders overhead dropping threads of light onto both."
-  flagship: true
   summary: >-
     The flagship programme of the decade: an AI-driven digital twin ecosystem for urban air
     mobility, linking eVTOL vehicle dynamics to cloud and edge simulation, dependable platforms,
-    blockchain and federated learning, and multi-agent AI — and the technical roadmap that held
-    those work packages together.
-  highlights:
-    - "Lead the technical roadmap and research architecture for AI-driven UAM and eVTOL digital twins, connecting vehicle dynamics, cloud and edge simulation, dependable platforms, blockchain, federated learning, and multi-agent AI."
-    - "Manage cross-functional work packages, milestones, technical risk, and research output across AI control, flight dynamics, cloud-in-the-loop simulation, and UAM service dependability."
-    - "Guide researchers on physics-informed and data-driven dynamics, robust control, tele-operation, situation awareness, and virtual certification for safe AAM and UAM operations."
+    blockchain and federated learning, and multi-agent AI, across vehicle dynamics, cloud-in-the-loop
+    simulation and UAM service dependability.
   stack: ["Digital twin architecture", "Cloud-in-the-loop simulation", "Physics-informed dynamics", "Federated learning", "Blockchain", "Virtual certification"]
   publications: ["P06", "C46", "C22", "C20", "C15", "C14", "J35", "J27"]
 
@@ -96,16 +68,9 @@
   visual: "vehicle"
   era: "twin"
   domain: "control"
-  scope: "lead"
-  scope_label: "Led"
-  status: "completed"
-  period: "Mar 2022 – Jun 2025"
+  period: "Mar 2022 – Feb 2027"
   start: 2022.17
-  end: 2025.5
-  prog_start: 2022.17
-  prog_end: 2027.17
-  programme_note: "Programme funded to Feb 2027; my involvement ended with the Konkuk appointment in Jun 2025."
-  role: "Lead Researcher"
+  end: 2027.17
   organisation: "Konkuk University"
   funder: "Professional education project · Ministry of Trade, Industry and Energy, South Korea"
   location: "Seoul, South Korea"
@@ -115,10 +80,6 @@
     A talent programme run as applied R&D: graduate projects on autonomous navigation, SLAM and
     deep reinforcement learning, sensor-data processing and reliable vehicle service
     infrastructure, aligned with what the mobility industry actually needed from software.
-  highlights:
-    - "Lead the AI and software research tasks for future-mobility talent development, aligning autonomous driving, connected vehicles, vehicle software, edge and cloud computing, and data intelligence with industry needs."
-    - "Design and supervise graduate-level R&D projects on autonomous navigation, SLAM and deep reinforcement learning, sensor-data processing, distributed data platforms, and reliable vehicle service infrastructures."
-    - "Coordinate student researchers, industry-style deliverables, technical training content, and the publication output that converted the education programme into applied R&D capability."
   stack: ["Deep reinforcement learning", "SLAM", "Autonomous navigation", "Sensor fusion", "Edge/cloud platforms"]
   publications: ["J52", "P03", "P02", "C44", "C33", "C29"]
 
@@ -128,16 +89,9 @@
   visual: "city-safety"
   era: "twin"
   domain: "dependability"
-  scope: "lead"
-  scope_label: "Led"
-  status: "completed"
-  period: "Sep 2021 – Jun 2025"
+  period: "Sep 2021 – Aug 2026"
   start: 2021.67
-  end: 2025.5
-  prog_start: 2021.67
-  prog_end: 2026.67
-  programme_note: "Five-year programme funded to Aug 2026; my involvement ended with the Konkuk appointment in Jun 2025."
-  role: "Lead Researcher"
+  end: 2026.67
   organisation: "Konkuk University"
   funder: "Middle-Career Researcher project · National Research Foundation of Korea, Basic Science Program of the Ministry of Education"
   grant: "Grant 2021R1A2C2094943 · approx. KRW 800 million over five years"
@@ -148,10 +102,6 @@
     The i-MeC2 framework: secure, reliable, multi-agent public-safety services for smart cities,
     built on bio-inspired collaboration and intelligent edge and cloud computing — and the
     quantitative models that tell an operator how much resilience a given architecture actually buys.
-  highlights:
-    - "Lead research planning for secure, reliable, multi-agent public-safety services using AI, bio-inspired collaboration, intelligent edge and cloud computing, and resilient smart-city architectures."
-    - "Develop dependability, security, performance, and energy models for smart surveillance, IoT disaster detection, medical and industrial IoT, VANET and UAM services, moving-target defence, and blockchain platforms."
-    - "Translate stochastic modelling, sensitivity analysis, and fail-over results into technology-management guidance for capacity planning, risk control, and resilient service operation."
   stack: ["Stochastic reward nets", "Hierarchical models", "Sensitivity analysis", "Moving-target defence", "Edge/fog computing", "Blockchain"]
   publications: ["J17", "J13", "J15", "J21", "C26", "C25"]
 
@@ -161,16 +111,9 @@
   visual: "evtol-control"
   era: "twin"
   domain: "control"
-  scope: "lead"
-  scope_label: "Led"
-  status: "completed"
-  period: "2022 – Jun 2025"
+  period: "2022 – 2026"
   start: 2022.0
-  end: 2025.5
-  prog_start: 2022.0
-  prog_end: 2026.99
-  programme_note: "Research thrust running to 2026; my involvement ended with the Konkuk appointment in Jun 2025."
-  role: "Lead Researcher · Advisor"
+  end: 2026.99
   organisation: "KADA, Konkuk University"
   funder: "Research thrust within the AI Digital Twin for Urban Air Mobility programme"
   location: "Seoul, South Korea"
@@ -180,10 +123,6 @@
     Learned flight controllers you can argue about formally: deep neural attitude and flight control
     carrying exponentially stabilizing control-Lyapunov certificates, tiltrotor transition under
     safety constraints, and verification machinery strong enough to certify what the network learned.
-  highlights:
-    - "Develop deep-neural attitude and flight controllers with exponentially stabilizing control-Lyapunov functions (es-DNLC), validated in PX4 software-in-the-loop and Gazebo."
-    - "Develop reinforcement-learning controllers for tiltrotor eVTOL transition and reconversion under safety constraints, with Lyapunov and region-of-attraction certified stability."
-    - "Establish formal verification of learned controllers — interval analysis, branch-and-bound, counterexample-guided synthesis, and SMT solving — to certify stability and forward invariance."
   stack: ["es-DNLC", "Control-Lyapunov functions", "PX4 SITL", "Gazebo", "Region of attraction", "CEGIS", "dReal SMT"]
   publications: ["C37", "C35", "C34", "C32", "C28", "C27", "C23"]
 
@@ -193,15 +132,9 @@
   visual: "disaster-cloud"
   era: "cloud"
   domain: "dependability"
-  scope: "lead"
-  scope_label: "Led"
-  status: "completed"
   period: "2017 – 2018"
   start: 2017.0
   end: 2018.99
-  prog_start: 2017.0
-  prog_end: 2018.99
-  role: "Lead Researcher"
   organisation: "Konkuk University, with the Institute of Information Technology, VAST, Hanoi"
   funder: "Institute for Information and Communication Technology Promotion (IITP), South Korea"
   grant: "Approx. KRW 40 million over two years"
@@ -212,10 +145,6 @@
     A bilateral study putting a number on business continuity: how much a geographically
     distributed, active-active cloud is really worth once you model the sites, the links between
     them, and the recovery policies that connect the two.
-  highlights:
-    - "Lead the Korea–Vietnam collaboration on disaster-tolerant cloud systems, coordinating technical scenarios, modelling assumptions, and joint validation with partners at IOIT/VAST."
-    - "Design active-active GENESIS cloud reliability and availability studies quantifying the business-continuity value of distributed sites, inter-site links, and recovery policies."
-    - "Manage cross-border execution, publication planning, and technology recommendations for resilient cloud architecture investment and service-continuity governance."
   stack: ["Active-active clouds", "Stochastic reward nets", "Sensitivity analysis", "Business continuity"]
   publications: ["C11", "C13", "J03"]
 
@@ -225,15 +154,9 @@
   visual: "hybrid-cloud"
   era: "cloud"
   domain: "dependability"
-  scope: "contributor"
-  scope_label: "Contributed"
-  status: "completed"
   period: "2016 – 2019"
   start: 2016.0
   end: 2019.99
-  prog_start: 2016.0
-  prog_end: 2019.99
-  role: "Technical Staff"
   organisation: "Konkuk University"
   funder: "Institute for Information and Communication Technology Promotion (IITP), South Korea"
   location: "Seoul, South Korea"
@@ -243,10 +166,6 @@
     Model-based technology assessment for high-performance hybrid cloud services — virtualized
     servers, software-defined networks, data-centre networks — turned into concrete guidance on
     redundancy, migration, rejuvenation, capacity and the cost of an SLA.
-  highlights:
-    - "Develop model-based technology assessment for high-performance hybrid cloud services, focusing on virtualized servers, SDN infrastructures, cloud data-centre networks, and cost-aware availability."
-    - "Apply stochastic reward nets, hierarchical models, and performability analysis to guide redundancy, VM migration, software rejuvenation, resource capacity, and SLA/cost trade-offs."
-    - "Support human-resource development through lab mentoring, reproducible experiments, technical writing, and transfer of cloud reliability methods into practical systems engineering."
   stack: ["Stochastic reward nets", "Hierarchical modelling", "Performability", "Software rejuvenation", "SDN"]
   publications: ["J06", "J05", "J04", "B01", "C12", "C10"]
 
@@ -256,15 +175,9 @@
   visual: "stream-cloud"
   era: "cloud"
   domain: "dependability"
-  scope: "contributor"
-  scope_label: "Contributed"
-  status: "completed"
   period: "2015 – 2020"
   start: 2015.0
   end: 2020.99
-  prog_start: 2015.0
-  prog_end: 2020.99
-  role: "Technical Staff"
   organisation: "Konkuk University · Information Technology Research Center"
   funder: "IITP · Ministry of Science, ICT and Future Planning, South Korea"
   location: "Seoul, South Korea"
@@ -274,10 +187,6 @@
     The GENESIS cloud platform for distributed, parallel streaming analytics in logistics and
     transportation, with active-active high availability and disaster tolerance as first-class
     requirements rather than afterthoughts.
-  highlights:
-    - "Contribute to the GENESIS cloud platform for distributed and parallel streaming big-data processing in logistics and transportation, with emphasis on active-active high availability and disaster tolerance."
-    - "Build reliability and availability models and sensitivity analyses for cloud sites, data-centre networks, virtualized servers, storage, SDN, and resource provisioning under large-scale workloads."
-    - "Support prototype integration, technical documentation, experiment design, and the publications that informed architecture trade-offs and continuity planning."
   stack: ["Streaming analytics", "Active-active HA", "Disaster tolerance", "SRN modelling", "Storage virtualization"]
   publications: ["J06", "J05", "J03", "J02", "C11", "C08"]
 
@@ -287,15 +196,9 @@
   visual: "naval"
   era: "cloud"
   domain: "dependability"
-  scope: "contributor"
-  scope_label: "Contributed"
-  status: "completed"
   period: "2014 – 2015"
   start: 2014.0
   end: 2015.99
-  prog_start: 2014.0
-  prog_end: 2015.99
-  role: "Software Developer · Core Researcher"
   organisation: "Specialized Research Center for Survivability Technology, Korea Aerospace University"
   funder: "Defense Acquisition Program Administration (DAPA) and the Agency for Defense Development, South Korea"
   grant: "Contract UD120019OD"
@@ -315,24 +218,17 @@
   visual: "uav-reliability"
   era: "cloud"
   domain: "dependability"
-  scope: "contributor"
-  scope_label: "Contributed"
-  status: "completed"
   period: "2014"
   start: 2014.0
   end: 2014.99
-  prog_start: 2014.0
-  prog_end: 2014.99
-  role: "Researcher"
   organisation: "Korea Aerospace University"
   funder: "National IT Industry Promotion Agency (NIPA), South Korea"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
   cover_alt: "A white fixed-wing unmanned aircraft on a stand in a bright assembly hall, with a floating diagram of three glowing translucent blocks joined by light lines, two cyan and one amber, beside a frosted panel holding a single curve."
   summary: >-
-    A reliability study of an advanced unmanned aerial vehicle — the first time the dependability
-    modelling built for data centres was pointed at an airframe, a decade before the same question
-    returned as UAM mission dependability.
+    A reliability study of an advanced unmanned aerial vehicle, applying to an airframe the
+    stochastic dependability modelling developed for data-centre infrastructure.
   stack: ["Reliability modelling", "Fault analysis", "UAV systems"]
   publications: []
 
@@ -342,15 +238,9 @@
   visual: "uav-survey"
   era: "space"
   domain: "aerospace"
-  scope: "contributor"
-  scope_label: "Contributed"
-  status: "completed"
   period: "2011 – 2014"
   start: 2011.0
   end: 2014.99
-  prog_start: 2011.0
-  prog_end: 2014.99
-  role: "Core Software Developer · Technical Staff"
   organisation: "Network Security and Embedded Systems Lab (NS Lab.), Korea Aerospace University"
   funder: "National Research Foundation of Korea"
   location: "Seoul, South Korea · Peru"
@@ -369,15 +259,9 @@
   visual: "airship-3d"
   era: "space"
   domain: "aerospace"
-  scope: "contributor"
-  scope_label: "Contributed"
-  status: "completed"
   period: "2013"
   start: 2013.0
   end: 2013.99
-  prog_start: 2013.0
-  prog_end: 2013.99
-  role: "Researcher"
   organisation: "Korea Aerospace University"
   funder: "Korea Cadastral Survey Corporation (now LX), South Korea"
   location: "Seoul, South Korea"
@@ -396,15 +280,9 @@
   visual: "balloon"
   era: "space"
   domain: "aerospace"
-  scope: "contributor"
-  scope_label: "Contributed"
-  status: "completed"
   period: "2013"
   start: 2013.0
   end: 2013.99
-  prog_start: 2013.0
-  prog_end: 2013.99
-  role: "Core Software/Hardware Systems Developer"
   organisation: "Network Security and Embedded Systems Lab (NS Lab.), Korea Aerospace University"
   funder: "Korea Aerospace University"
   location: "Seoul, South Korea"
@@ -423,24 +301,17 @@
   visual: "spacecraft-control"
   era: "space"
   domain: "aerospace"
-  scope: "contributor"
-  scope_label: "Contributed"
-  status: "completed"
   period: "2012"
   start: 2012.0
   end: 2012.99
-  prog_start: 2012.0
-  prog_end: 2012.99
-  role: "Researcher"
   organisation: "Korea Aerospace University"
   funder: "Korea Institute of Geoscience and Mineral Resources (KIGAM), South Korea"
   location: "Seoul, South Korea"
   flag: "🇰🇷"
   cover_alt: "A white unmanned airship hovering over a bright airfield apron, encircled by four glowing translucent blocks joined into a closed loop by arrowed cyan lines, with a red, green and blue attitude gizmo at the craft's centre."
   summary: >-
-    Automatic control system development for an unmanned craft — the embedded hardware and
-    software architecture, the sensing, and the control loop, published as the unmanned airship
-    control work that opens the aerospace strand of the publication list.
+    Automatic control system development for an unmanned craft: the embedded hardware and software
+    architecture, the sensing, and the closed control loop that flew it.
   stack: ["Automatic control", "Embedded hardware design", "Real-time control software"]
   publications: ["C03", "C02"]
 
@@ -450,29 +321,19 @@
   visual: "picosat"
   era: "space"
   domain: "aerospace"
-  scope: "lead"
-  scope_label: "Led"
-  status: "completed"
   period: "2009 – 2011"
   start: 2009.0
   end: 2011.16
-  prog_start: 2009.0
-  prog_end: 2011.16
-  role: "Core Software/Hardware Developer · Technical Subteam Leader"
   organisation: "FSpace Laboratory, FPT Technology Research Institute, FPT Corporation"
   funder: "FPT Software, FPT Corporation, Vietnam"
   location: "Hanoi, Vietnam"
   flag: "🇻🇳"
   cover_alt: "A small solar-panelled cube satellite on a white pedestal in a cleanroom, a technician in a coverall standing behind it, and three stacked glowing translucent circuit boards linked back to the cube by light lines, with the Earth's limb visible through the window."
-  origin: true
   summary: >-
-    Where all of it starts. A 10 cm, 1 kg CubeSat built from commercial off-the-shelf parts as
-    Vietnam's training platform and Earth-observation mission — and the first system where the
-    answer to "will it survive?" had to be designed in, not measured after. The reliability
-    question raised here became the M.Sc. thesis and, eventually, the whole dependability track.
-  highlights:
-    - "Core software and hardware developer and technical subteam leader on the F-1 pico-satellite at the FSpace Laboratory, in partnership with VAST."
-    - "10 cm cube, 1 kg, built from commercial off-the-shelf components; two 0.3 MP cameras, one 1.0 MP camera, and temperature, magnetic-field and current sensors."
-    - "Power supply, on-board computer and communications subsystems made double or triple redundant for survivability against launch vibration and the on-orbit thermal and radiation environment."
+    A 10 cm, 1 kg CubeSat built from commercial off-the-shelf parts as Vietnam's training platform
+    and Earth-observation mission, carrying two 0.3 MP cameras, one 1.0 MP camera and temperature,
+    magnetic-field and current sensors. Power, on-board computing and communications were made
+    double or triple redundant so the spacecraft could survive launch vibration and the on-orbit
+    thermal and radiation environment.
   stack: ["CubeSat systems", "Redundant subsystem design", "Embedded C", "Reliability analysis"]
   publications: ["C01"]
