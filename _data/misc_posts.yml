@@ -1279,3 +1279,41 @@
   links:
     - label: "MIT Tech Review"
       url: "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/"
+
+- number: "62"
+  title: >-
+    Humanoid Robots and the AI Brain Shift
+  category: "AI & Robotics"
+  topic: "ai"
+  theme: "The bottleneck moved"
+  year: "2026"
+  source: "IEEE Spectrum"
+  tone: "indigo"
+  image: "/images/misc/062-humanoid-brain-shift.webp"
+  image_alt: "A dim hall at night behind a wall of glass onto a city, warm desk lamps at either side. A small pale humanoid robot stands alone on the floor while a vast glowing cyan lattice of linked points hangs above it, many times its size, dropping thin filaments down into its shoulders. A narrow band of amber light runs across the floor behind it, and two human silhouettes stand watching."
+  summary: >-
+    Gill Pratt ran the DARPA Robotics Challenge and now leads the Toyota Research Institute. He tells
+    Evan Ackerman that what changed in humanoid robotics is not the machine: "What's different now isn't
+    the body, but the brain." Diffusion policies and large behaviour models let a robot be shown a task
+    rather than programmed for it. Pratt is candid that this is still fast pattern matching, not
+    reasoning over a model of the world, and that nobody yet knows how much demonstration data is
+    enough. Ackerman's earlier reporting supplies the arithmetic: Agility's Digit runs about ninety
+    minutes on a charge, industrial buyers want 99.99 percent uptime against roughly 99 delivered, and
+    no one has found a job that needs several thousand humanoids in one building, which is the condition
+    under which the factory economics work. Jonathan Hurst of Agility Robotics and Hans Peter Brondmo,
+    formerly of Google X, add that robotics should expect no ChatGPT moment, because there will be no
+    single robot AI and the gains will come from engineering several AI systems to work together.
+  takeaway: >-
+    Three pieces worth reading in one sitting, and worth noting who is speaking. Pratt directs a car
+    maker's research institute and Hurst is at the company whose robot supplies the battery and uptime
+    figures above, so their caution carries further than their optimism would. The shared claim is that
+    the bottleneck has moved from mechanism to data and evaluation, and that the expensive part is the
+    last stretch, from a scripted demonstration to a machine that works an unattended shift. Pratt names
+    the risk himself: the field is near a peak of inflated expectations.
+  links:
+    - label: "The AI brain shift"
+      url: "https://spectrum.ieee.org/humanoid-robots-gill-pratt-darpa"
+    - label: "Reality check"
+      url: "https://spectrum.ieee.org/humanoid-robot-scaling"
+    - label: "No ChatGPT moment"
+      url: "https://spectrum.ieee.org/robotics-ai-breakthrough"
