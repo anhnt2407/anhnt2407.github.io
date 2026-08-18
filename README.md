@@ -102,12 +102,11 @@ semantically (green healthy, amber caution, red dashed for a hard constraint).
 A card shows its cover only when the programme has a `cover_alt`; write that alt
 text from what the render actually drew, not from what the prompt asked for.
 
-`_data/projects.yml` carries two date pairs per programme: `start`/`end` are the
-period Tuan Anh personally worked on it and drive the solid Gantt bar, while
-`prog_start`/`prog_end` are the full funded span and drive the faint bar behind
-it. Both are decimal years on a 2009–2030 axis (`(year − 2009) × 4.7619` gives
-the percentage). Where the two differ, add a `programme_note` so the card says
-plainly that the grant outlived the appointment.
+The Projects page describes the programmes, not the part played in them. Cards
+carry no role, no personal contribution and no involvement dates; `period`,
+`start` and `end` in `_data/projects.yml` are the programme's own funded span,
+so several run past today. `start` and `end` are decimal years on a 2009–2030
+axis — `(year − 2009) × 4.7619` gives the Gantt bar percentage.
 
 Pushing to `master` triggers the workflow in
 `.github/workflows/jekyll-gh-pages.yml`, which builds and deploys the site.

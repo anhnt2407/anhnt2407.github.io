@@ -39,14 +39,6 @@
     color: color-mix(in srgb, var(--era) 80%, #ffffff);
   }
 
-  .proj-badge--live {
-    color: color-mix(in srgb, #35b8b0 82%, #ffffff);
-  }
-
-  .proj-badge--star {
-    color: color-mix(in srgb, #d9a640 84%, #ffffff);
-  }
-
   .misc-chip.is-active,
   .teach-chip.is-active,
   .proj-chip.is-active {

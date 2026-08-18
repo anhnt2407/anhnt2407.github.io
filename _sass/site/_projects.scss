@@ -279,40 +279,6 @@
   box-shadow: 0 14px 32px var(--shadow-color);
 }
 
-.proj-gantt__legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 1rem;
-  margin-bottom: 0.85rem;
-}
-
-.proj-gantt__key {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.42rem;
-  color: var(--text-muted);
-  font-size: 0.74rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.proj-gantt__key::before {
-  content: "";
-  width: 1.5rem;
-  height: 0.46rem;
-  border-radius: 999px;
-}
-
-.proj-gantt__key--solid::before {
-  background: var(--accent);
-}
-
-.proj-gantt__key--ghost::before {
-  background: var(--active-tint);
-  border: 1px solid var(--border-medium);
-}
-
 .proj-gantt__plot {
   position: relative;
   display: grid;
@@ -417,28 +383,9 @@
   transform: translateY(-50%);
 }
 
-.proj-gantt__bar--ghost {
-  height: 0.72rem;
-  background: color-mix(in srgb, var(--gantt) 14%, transparent);
-  border: 1px dashed color-mix(in srgb, var(--gantt) 40%, transparent);
-}
-
-.proj-gantt__bar--solid {
+.proj-gantt__bar {
   background: linear-gradient(90deg, color-mix(in srgb, var(--gantt) 72%, var(--mix-base)), var(--gantt));
   box-shadow: 0 1px 6px color-mix(in srgb, var(--gantt) 34%, transparent);
-}
-
-.proj-gantt__bar--solid.is-current::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: -0.42rem;
-  width: 0.52rem;
-  height: 0.52rem;
-  border-radius: 999px;
-  background: var(--gantt);
-  transform: translateY(-50%);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--gantt) 26%, transparent);
 }
 
 .proj-gantt__period {
@@ -697,7 +644,7 @@
 
 .proj-card__body {
   grid-column: 2;
-  grid-row: 1 / span 2;
+  grid-row: 1;
   min-width: 0;
 }
 
@@ -728,29 +675,6 @@
   color: var(--proj-ink);
 }
 
-.proj-badge--scope {
-  background: var(--line-faint);
-  color: var(--text-muted);
-}
-
-.proj-badge--live {
-  background: color-mix(in srgb, #2c9f98 24%, var(--mix-base));
-  color: color-mix(in srgb, #2c9f98 80%, #062f2c);
-}
-
-.proj-badge--star {
-  background: color-mix(in srgb, #d9a640 24%, var(--mix-base));
-  color: color-mix(in srgb, #d9a640 84%, #3a2703);
-}
-
-.proj-root .proj-card__role {
-  margin: 0 0 0.8rem;
-  color: var(--proj-ink);
-  font-size: 0.9rem;
-  font-weight: 800;
-  line-height: 1.4;
-}
-
 .proj-meta {
   grid-column: 1;
   grid-row: 2;
@@ -764,26 +688,10 @@
   background: var(--surface-veil-soft);
 }
 
-.proj-meta > div + div {
-  padding-top: 0.5rem;
-  border-top: 1px solid var(--line-faint);
-}
-
-/* Cards with no highlight list: let the fact sheet run along the bottom
-   instead of stacking under the artwork and leaving the body column empty. */
-.proj-card--compact .proj-card__body {
-  grid-row: 1;
-}
-
-.proj-card--compact .proj-meta {
+.proj-meta {
   grid-column: 1 / -1;
   grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
   gap: 0.5rem 1.1rem;
-}
-
-.proj-card--compact .proj-meta > div + div {
-  padding-top: 0;
-  border-top: 0;
 }
 
 .proj-meta dt {
@@ -808,43 +716,6 @@
   margin: 0 0 0.7rem;
   font-size: 0.96rem;
   line-height: 1.66;
-}
-
-.proj-root .proj-card__note {
-  display: flex;
-  gap: 0.5rem;
-  margin: 0 0 0.75rem;
-  padding: 0.5rem 0.7rem;
-  border-left: 3px solid color-mix(in srgb, var(--proj-accent) 52%, transparent);
-  border-radius: 0 10px 10px 0;
-  background: color-mix(in srgb, var(--proj-accent) 8%, var(--mix-base));
-  color: var(--text-muted);
-  font-size: 0.83rem;
-  line-height: 1.5;
-}
-
-.proj-card__list {
-  display: grid;
-  gap: 0.42rem;
-  margin: 0 0 0.85rem !important;
-}
-
-.proj-card__list li {
-  position: relative;
-  padding-left: 1.05rem;
-  font-size: 0.9rem;
-  line-height: 1.58;
-}
-
-.proj-card__list li::before {
-  content: "";
-  position: absolute;
-  top: 0.62em;
-  left: 0;
-  width: 0.4rem;
-  height: 0.4rem;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--proj-accent) 62%, transparent);
 }
 
 .proj-chips {
