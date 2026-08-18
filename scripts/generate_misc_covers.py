@@ -198,6 +198,14 @@ SCENES = {
         "transparent holographic layer overlays that stream, filled with glowing annotation marks "
         "and branching comment threads in cyan, a few of them amber."
     ),
+    "062-humanoid-brain-shift": (
+        "A dim robotics hall at night, a wall of glass looking onto a city, warm work lamps on "
+        "stands. A full-size humanoid robot stands motionless on the floor in the centre, its own "
+        "body unlit and dark. Hovering above and around its head is a vast luminous cyan structure "
+        "of interlinked glowing points and fine threads, many times larger than the machine itself, "
+        "sending a few thin filaments down into the shoulders. Ahead of the robot a single narrow "
+        "band of amber light is drawn across the floor, and the glowing structure stops short of it."
+    ),
     "061-internet-of-cognition": (
         "A vast operations hall at night, a dark tiered floor, a few warm work lamps on stands. "
         "Dozens of small separate luminous figures stand far apart across the floor, each sealed "
