@@ -6,6 +6,34 @@ permalink: /news/
 author_profile: true
 ---
 
+<p class="news-date">August 28, 2026</p>
+
+## Sizing Decoy Servers and IP Shuffling Together: A Stochastic Petri Net Study in *IEEE Access*
+
+A new open-access article in *IEEE Access*, written with colleagues at the Federal University of Piauí, the Federal University of Ceará and Konkuk University, takes on a sizing question that appears whenever moving target defense (MTD) leaves the whiteboard: if a deployment runs decoy servers *and* shuffles IP addresses, how much of each is worth paying for? The answer turns on factors that interact — the shuffle interval, the ratio of real servers to decoys, and whether an attacker can distinguish endpoints and carry partial progress across interruptions. Testbeds reproduce those effects but are far too expensive to sweep exhaustively, which is where an analytical model earns its place.
+
+<figure>
+  <img src="/images/news/260828/mtd-decoy-ip-shuffling-cover.webp" alt="A bright server hall with a long row of solid white server racks lit by a cyan floor strip on the left, a facing row of semi-transparent glass replicas of the same rack glowing green on their own rings, a hovering ring of blank glass plates mid-rotation above the aisle, and an amber probe line running along the floor and turning red" width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>Scientific illustration: a real server farm beside a decoy pool, with time-based address shuffling deflecting a persistent attacker onto a decoy endpoint.</figcaption>
+</figure>
+
+### What the paper contributes
+
+- A **stochastic Petri net (SPN) model** of a server farm holding both a **real pool and a decoy pool**, combining distributed decoys with **time-based IP address shuffling**, evaluated against a deliberately pessimistic adversary who is already inside the network.
+- Deception and randomization are **coupled through a parameterized attacker target-selection bias** — one decision point that every shuffle-triggered interruption sends the attacker back to — with staged exploitation carried by a progress-retaining **Erlang-k** chain adopted from earlier progress-aware MTD modeling.
+- The net is built in the **Mercury** tool and the continuous-time Markov chain it induces is solved by exact numerical solution, giving the **mean time to absorption (MTTA)** together with the **whole distribution of compromise times** and its quantiles, not a single mean.
+- A **two-level factorial screening over five factors** — decoy count, selection bias, shuffle interval, per-stage attack-progression time, and real-server count — ranks their influence and exposes their interactions, alongside baselines that separate no-defense, decoys-only, and shuffling-only configurations.
+
+### Why this matters
+
+- **The two mechanisms reinforce each other instead of merely adding up.** At a selection bias of *p* = 0.2 with two real servers, nominal timings and full progress retention, the no-defense MTTA is 1,500 minutes; shuffling alone reaches **1.58×** and three decoys alone **6.88×**, while running both together reaches **10.92×**. Shuffling keeps sending the attacker back through the choice of which farm to attack, and every extra decoy makes that choice more likely to be wasted.
+- That is an argument for **sizing shuffling and deception as one design decision** rather than two independent add-ons — and the model is cheap enough to run the comparison before anything is deployed.
+- The sensitivity study is candid about where the result stops holding. Enlarging the decoy pool pays off **only while the attacker is choosing endpoints rather than farms**: in this model, an adversary with dependable farm-level knowledge gains nothing from any decoy after the first.
+- The ranking of factors likewise depends on **how much exploit state a shuffle destroys**. Within the ranges explored and under full retention, the shuffle interval matters less than selection bias, attack-progression time and decoy count; under partial-retention or reset policies it becomes the dominant factor. Using the model in practice therefore means committing to a position on both the attacker's ability to tell endpoints apart and the fate of accumulated progress.
+
+**Publication record:** Published online on August 28, 2026 in *IEEE Access* as open access, in early access ahead of volume assignment ([DOI](https://doi.org/10.1109/ACCESS.2026.3728199), [IEEE Xplore](https://ieeexplore.ieee.org/document/11670464)).
+
+---
 <p class="news-date">July 27, 2026</p>
 
 ## An AirSim Extension: ROS2-Integrated Multi-agent UAV Reinforcement Learning on Unreal Engine
