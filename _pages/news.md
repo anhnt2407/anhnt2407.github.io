@@ -31,7 +31,7 @@ A new open-access article in *IEEE Access*, written with colleagues at the Feder
 - The sensitivity study is candid about where the result stops holding. Enlarging the decoy pool pays off **only while the attacker is choosing endpoints rather than farms**: in this model, an adversary with dependable farm-level knowledge gains nothing from any decoy after the first.
 - The ranking of factors likewise depends on **how much exploit state a shuffle destroys**. Within the ranges explored and under full retention, the shuffle interval matters less than selection bias, attack-progression time and decoy count; under partial-retention or reset policies it becomes the dominant factor. Using the model in practice therefore means committing to a position on both the attacker's ability to tell endpoints apart and the fate of accumulated progress.
 
-**Publication record:** Published online on August 28, 2026 in *IEEE Access* as open access, in early access ahead of volume assignment ([DOI](https://doi.org/10.1109/ACCESS.2026.3728199), [IEEE Xplore](https://ieeexplore.ieee.org/document/11670464)).
+**Publication record:** Published online on August 28, 2026 in *IEEE Access* as open access, and now in its final version of September 22, 2026 in Volume 14, pages 143840-143861 ([DOI](https://doi.org/10.1109/ACCESS.2026.3728199), [IEEE Xplore](https://ieeexplore.ieee.org/document/11670464)).
 
 ---
 <p class="news-date">July 27, 2026</p>
