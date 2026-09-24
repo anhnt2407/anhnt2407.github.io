@@ -8,7 +8,7 @@ author_profile: true
 
 <div class="page-lead">
   <p>Selected journal articles, conference papers, preprints, manuscripts under review, and book contributions organized by research domain.</p>
-  <p class="page-metadata">Last updated: September 5, 2026</p>
+  <p class="page-metadata">Last updated: September 25, 2026</p>
 </div>
 
 ## Publication Domain Overview
@@ -110,7 +110,7 @@ Data centers, virtualized servers, SDN, storage systems, cloud-fog-edge environm
 
 26. <span class="pub-tag" id="pub-J53">[J53]</span> Nguyen, T. A., Lim, D., Kyung, M., & Min, D. (2026). **Distributed Edge Storage Systems: Proactive High-Availability Microservices with Live Migration and Rejuvenation Strategies.** *Mathematics*, 14(10), 1704. [doi:10.3390/math14101704](https://doi.org/10.3390/math14101704). <span class="pub-metrics"><span class="pub-metric pub-metric--index">SCIE</span><span class="pub-metric pub-metric--q1">JCR Q1 &middot; Mathematics</span><span class="pub-metric pub-metric--plain">IF 2.2 (2024)</span></span> [2026-05-15]
 
-27. <span class="pub-tag" id="pub-J54">[J54]</span> Santos, L., Silva, L. G., Alves, M., Feitosa, L., Miqueias, J., Lopes, L., Rego, P., Silva, F. A., Lim, D., Min, D., & Nguyen, T. A. (2026). **Stochastic Petri Net Modeling and Evaluation of Moving Target Defense with Decoy Servers and IP Address Shuffling.** *IEEE Access* (early access). [doi:10.1109/ACCESS.2026.3728199](https://doi.org/10.1109/ACCESS.2026.3728199). [2026-01-01]
+27. <span class="pub-tag" id="pub-J54">[J54]</span> Santos, L. V. S. D., Silva, L. G. S. E., Alves, M. O., Feitosa Correia, L., Pereira, J. M. D. A., Lopes, L. S., Rego, P. A. L., Silva, F. A., Lim, D., Min, D., & Nguyen, T. A. (2026). **Stochastic Petri Net Modeling and Evaluation of Moving Target Defense With Decoy Servers and IP Address Shuffling.** *IEEE Access*, 14, 143840--143861. [doi:10.1109/ACCESS.2026.3728199](https://doi.org/10.1109/ACCESS.2026.3728199). [2026-01-01]
 
 28. <span class="pub-tag" id="pub-J51">[J51]</span> Lim, D., Nguyen, T. A., Min, D., & Kyung, M. (2025). **An SRN-based Availability Modeling and Analysis for Edge Computing Systems with Correlated Failures.** *Journal of The Korea Society of Computer and Information*, 30(12), 25--35. [doi:10.9708/jksci.2025.30.12.025](https://doi.org/10.9708/jksci.2025.30.12.025). [2025-12-31]
 
