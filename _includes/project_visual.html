@@ -8,38 +8,6 @@
 
   {% case include.visual %}
 
-  {% when "humanoid" %}
-  <g class="proj-art__panel"><rect x="16" y="52" width="92" height="116" rx="14" /></g>
-  <g class="proj-art__wire">
-    <path d="M36 84 L62 72 M36 84 L62 110 M36 110 L62 72 M36 110 L62 148 M36 136 L62 110 M36 136 L62 148" />
-    <path d="M62 72 L88 96 M62 110 L88 96 M62 110 L88 130 M62 148 L88 130" />
-  </g>
-  <g class="proj-art__node">
-    <circle cx="36" cy="84" r="4.5" /><circle cx="36" cy="110" r="4.5" /><circle cx="36" cy="136" r="4.5" />
-    <circle cx="62" cy="72" r="4.5" /><circle cx="62" cy="110" r="4.5" /><circle cx="62" cy="148" r="4.5" />
-    <circle cx="88" cy="96" r="4.5" /><circle cx="88" cy="130" r="4.5" />
-  </g>
-  <path class="proj-art__flow" d="M112 96 C136 90, 148 84, 168 82" />
-  <g class="proj-art__ghost">
-    <path d="M232 60 V180 M252 54 V184" />
-  </g>
-  <g class="proj-art__solid">
-    <circle class="proj-art__fill" cx="200" cy="52" r="12" />
-    <rect class="proj-art__fill" x="184" y="70" width="32" height="46" rx="9" />
-    <path d="M184 80 L162 104 L166 126" />
-    <path d="M216 80 L238 104 L234 128" />
-    <path d="M191 116 L186 148 L190 178" />
-    <path d="M209 116 L214 148 L210 178" />
-  </g>
-  <g class="proj-art__node">
-    <circle cx="162" cy="104" r="4" /><circle cx="238" cy="104" r="4" />
-    <circle cx="186" cy="148" r="4" /><circle cx="214" cy="148" r="4" />
-  </g>
-  <path class="proj-art__terrain" d="M150 190 H236 L250 176 H286 L300 190 H360" />
-  <path class="proj-art__flow proj-art__flow--back" d="M300 168 C300 120, 268 96, 236 92" />
-  <g class="proj-art__panel"><rect x="304" y="46" width="80" height="66" rx="12" /></g>
-  <path class="proj-art__spark" d="M316 100 C328 62, 340 92, 352 58 S372 74, 376 60" />
-
   {% when "helicopter" %}
   <path class="proj-art__rotor" d="M92 56 H308" />
   <path class="proj-art__rotor proj-art__rotor--soft" d="M110 48 C160 34, 244 34, 292 48" />

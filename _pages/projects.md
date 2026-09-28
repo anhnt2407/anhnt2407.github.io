@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Projects"
-excerpt: "Sixteen funded research and engineering programmes since 2009, from a CubeSat in Hanoi to humanoid robotics, with the host, the funding instrument and the published results behind each one."
+excerpt: "Fifteen funded research and engineering programmes since 2009, from a CubeSat in Hanoi to helicopter avionics, with the host, the funding instrument and the published results behind each one."
 permalink: /projects/
 author_profile: true
 ---
@@ -29,9 +29,9 @@ author_profile: true
   <section class="proj-hero" aria-labelledby="proj-hero-title">
     <div class="proj-hero__copy">
       <p class="proj-kicker">Funded research &amp; engineering</p>
-      <h2 id="proj-hero-title">Sixteen programmes, from a CubeSat in Hanoi to a humanoid that has to stay upright</h2>
+      <h2 id="proj-hero-title">Fifteen programmes, from a CubeSat in Hanoi to the avionics of a helicopter</h2>
       <p>
-        Sixteen funded research and engineering programmes, spanning national research centres,
+        Fifteen funded research and engineering programmes, spanning national research centres,
         defence and aerospace contracts, bilateral cooperations and industry development work. Each
         card gives the programme itself: what it set out to build, who hosted and funded it, how long
         it ran, and the papers it produced.
@@ -79,7 +79,7 @@ author_profile: true
     funded span.
   </p>
 
-  <figure class="proj-gantt" aria-label="Timeline of sixteen research and engineering programmes from 2009 to 2029">
+  <figure class="proj-gantt" aria-label="Timeline of fifteen research and engineering programmes from 2009 to 2029">
     <div class="proj-gantt__plot">
       <div class="proj-gantt__ticks" aria-hidden="true">
         <span style="left:4.76%">2010</span>
